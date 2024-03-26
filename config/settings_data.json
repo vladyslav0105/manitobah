@@ -95,9 +95,9 @@
     "variant_color_palette": "dark",
     "background_opacity": 50,
     "image_behaviour": "slider",
-    "productcards_text_alignment": "left",
-    "product_text_size": "14px",
-    "product_button_fontsize": "13px",
+    "productcards_text_alignment": "center",
+    "product_text_size": "16px",
+    "product_button_fontsize": "14px",
     "show_vendor": false,
     "color_swatch_behavior": "on_hover",
     "product_text_size_mobile": "13px",
@@ -535,7 +535,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "p.price {font-size: 20px !important; font-weight: 800!important;}"
+      "p.price {font-size: 20px !important; font-weight: 800 !important;}"
     ]
   }
 }
