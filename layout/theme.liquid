@@ -53,6 +53,7 @@
 		{% render 'social-meta-tags' %}
 		{{ content_for_header }}
 		{{ settings.custom_script_for_head }}
+		{{ 'tailwind.css' | asset_url | stylesheet_tag }}
 	</head>
 	<body class="template-{{ template.name | handle }}">
 		<div id="root">
