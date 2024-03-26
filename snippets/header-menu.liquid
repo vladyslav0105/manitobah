@@ -1,0 +1,601 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- liquid
+    if show_dropdown_images
+        if show_dropdown_images_autofill
+            assign image = 'featured_image'
+        else
+            assign image = 'image'
+        endif
+    endif
+    assign items_limit = menu_items_limit
+    if layout
+        assign promo_collection_list_blocks = blocks | where: 'type', 'promo_collection_list'
+        assign promo_banner_blocks = blocks | where: 'type', 'promo_banners'
+    endif
+    assign sale_highlight_item = sale_highlight_item | strip | downcase
+-%}
+
+{%- for link in linklists[menu].links -%}
+    {%- liquid
+        assign link_title_downcase = link.title | downcase
+        assign promo_collection = false
+        for promo_collection_block in promo_collection_list_blocks
+            if promo_collection_block.settings.menu_item == link.title
+                assign promo_collection = promo_collection_block
+                break
+            endif
+        endfor
+        assign promo_banner = false
+        for promo_banner_block in promo_banner_blocks
+            if promo_banner_block.settings.menu_item == link.title
+                assign promo_banner = promo_banner_block
+                break
+            endif
+        endfor
+    -%}
+    {%- if layout == 'dropdown' and promo_collection == false and promo_banner == false -%}
+        {%- assign link_title_downcase = link.title | downcase -%}
+        <li class="{% if link.links != blank %}sub-static{% endif %}{% if link.active %} active{% endif %}{% if menubar_caps %} text-uppercase{% endif %} {% if main_menu_items_clickable == false and link.links != blank %} inactive{% endif %}{% if link.url == '#' and link.links != blank %} inactive{% endif %}" {% if link.active %}aria-current="page"{% endif %}>
+            <a accesskey="{{ forloop.index }}" href="{{ link.url }}">
+                {%- if link.object[image] and show_dropdown_images -%}
+                    <img
+                            class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}"
+                            src="{{ link.object[image] | image_url: width: 60, height: 60 }}"
+                            srcset="{{ link.object[image] | image_url: width: 30, height: 30 }} 1x,{{ link.object[image] | image_url: width: 60, height: 60 }} 2x"
+                            alt="{{ link.object[image].alt | default: link.title | escape }}"
+                            width="30"
+                            height="30"
+                            loading="lazy"
+                    >
+                {%- endif -%}
+                {%- if link_title_downcase == sale_highlight_item and sale_highlight -%}
+                    <span class="s1bx overlay-sale">{{ link.title }}</span>
+                {%- else -%}
+                    {{ link.title }}
+                {%- endif -%}
+            </a>
+            {%- if link.links != blank %}
+                <a href="./" class="toggle">{{ 'header.navigation.view_all' | t }}</a>
+                <em>({{ forloop.index }})</em>
+                <ul class="ff-{{ menu_subs_font }}">
+                    {%- for sub in link.links -%}
+                    <li>
+                        <ul>
+                            <li>
+                                <a href="{{ sub.url }}">
+                                    {%- if sub.object[image] and show_dropdown_images -%}
+                                        <img
+                                                class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}"
+                                                src="{{ sub.object[image] | image_url: width: 60, height: 60 }}"
+                                                srcset="{{ sub.object[image] | image_url: width: 60, height: 60 }} 30w"
+                                                sizes="
+                           (min-width: 1000px) 30px
+                           0
+                         "
+                                                alt="{{ sub.object[image].alt | default: sub.title | escape }}"
+                                                width="30"
+                                                height="30"
+                                                loading="lazy"
+                                        >
+                                    {%- endif -%}
+                                    {{ sub.title }}
+                                </a>
+                                {%- if sub.links != blank %}
+                                    <a href="{{ sub.url }}" class="toggle">{{ 'header.navigation.toggle_submenu' | t: item: sub.title }}</a>
+                                    <ul>
+                                    {%- for subsub in sub.links -%}
+                                        <li>
+                                            <a href="{{ subsub.url }}">
+                                                {%- if subsub.object[image] and show_dropdown_images -%}
+                                                    <img
+                                                            class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}"
+                                                            src="{{ subsub.object[image] | image_url: width: 60, height: 60 }}"
+                                                            srcset="{{ subsub.object[image] | image_url: width: 60, height: 60 }} 30w"
+                                                            sizes="
+                                   (min-width: 1000px) 30px
+                                   0
+                                 "
+                                                            alt="{{ subsub.object[image].alt | default: subsub.title | escape }}"
+                                                            width="30"
+                                                            height="30"
+                                                            loading="lazy"
+                                                    >
+                                                {%- endif -%}
+                                                {{ subsub.title }}
+                                            </a>
+                                        </li>
+                                    {%- endfor -%}
+                                    </ul>
+                                {%- endif -%}
+                            </li>
+                            </li>
+                        </ul>
+                        {%- endfor -%}
+                </ul>
+            {%- endif -%}
+        </li>
+
+    {%- else -%}
+
+        <li class="{% if link.links != blank or promo_collection or promo_banner %}sub{% endif %}{% unless main_menu_show_lines %} no-inner-borders{% endunless %}{% if link.active %} active{% endif %}{% if menubar_caps %} text-uppercase{% endif %}{% if main_menu_items_clickable == false and link.links != blank %} inactive{% endif %}{% if link.url == '#' and link.links != blank %} inactive{% endif %}"
+            {% if link.active %}aria-current="page"{% endif %}
+            {% if promo_collection %}{{ promo_collection.shopify_attributes }}{% elsif promo_banner %}{{ promo_banner.shopify_attributes }}{% endif %}
+        >
+            <a accesskey="{{ forloop.index }}" href="{{ link.url }}">
+                {%- if link.object[image] and show_dropdown_images -%}
+                    <img
+                            class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}"
+                            src="{{ link.object[image] | image_url: width: 60, height: 60 }}"
+                            srcset="{{ link.object[image] | image_url: width: 30, height: 30 }} 1x,{{ link.object[image] | image_url: width: 60, height: 60 }} 2x"
+                            alt="{{ link.object[image].alt | default: link.title | escape }}"
+                            width="30"
+                            height="30"
+                            loading="lazy"
+                    >
+                {%- endif -%}
+                {%- if link_title_downcase == sale_highlight_item and sale_highlight -%}
+                    <span class="s1bx overlay-sale">{{ link.title }}</span>
+                {%- else -%}
+                    {{ link.title }}
+                {%- endif -%}
+            </a>
+            <em>({{ forloop.index }})</em>
+
+            {% comment %} START PROMO COLLECTION LIST {% endcomment %}
+            {%- if promo_collection -%}
+                <a href="./" class="toggle">{{ 'header.navigation.view_all' | t }}</a>
+                <ul>
+                    <li>
+                        {%- liquid
+                          assign custom_height_ratio = promo_collection.settings.custom_image_ratio | divided_by: 100.0
+                          assign image_width = 430
+                          assign image_height = image_width | times: custom_height_ratio | round
+
+                          assign limit = promo_collection.settings.collections.count | at_most: promo_collection.settings.number_of_items
+                          if limit == 0
+                            assign limit = promo_collection.settings.number_of_items
+                          endif
+                          case limit
+                            when 0
+                              assign width_class = 'w20'
+                            when 2
+                              assign width_class = 'w50'
+                            when 3
+                              assign width_class = 'w33'
+                            when 4
+                              assign width_class = 'w25'
+                            when 5
+                              assign width_class = 'w20'
+                            when 6
+                              assign width_class = 'w16'
+                            when 7
+                              assign width_class = 'w14'
+                            else
+                              assign width_class = 'w12'
+                          endcase
+                          assign img_width_limit = limit
+                          assign img_width = 100 | divided_by: img_width_limit
+
+                          if promo_collection.settings.link_text != empty and promo_collection.settings.link_url != blank
+                            assign promo_collection_link = true
+                          endif
+
+                          if promo_collection.settings.title != empty
+                            assign show_header = true
+                          elsif promo_collection_link and promo_collection.settings.text_alignment == 'start'
+                            assign show_header = true
+                          endif
+
+                          capture title_classes
+                            echo 'w900'
+                            if promo_collection.settings.text_alignment == 'center'
+                              echo ' text-center align-center'
+                            endif
+                          endcapture
+                          if promo_collection.settings.layout == 'slider'
+                            if promo_collection.settings.collections.count > promo_collection.settings.number_of_items or promo_collection.settings.collections == blank
+                              assign slider = true
+                            endif
+                          endif
+                        -%}
+
+                        {%- if promo_collection_link %}
+                          {%- capture promo_collection_link -%}
+                            <p class="class-x{% unless promo_collection.settings.show_link %} link-btn{% endunless %} button-palette-{{ promo_collection.settings.button_color_palette }}"><a href="{{ promo_collection.settings.link_url }}" class="{% if promo_collection.settings.show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">{{ promo_collection.settings.link_text }}{% if promo_collection.settings.show_link %}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
+                          {%- endcapture %}
+                        {%- endif -%}
+
+                        {%- if show_header -%}
+                          <header class="cols{% if link and promo_collection.settings.show_link == false %} align-middle{% endif %}">
+                            <div>
+                            {%- if promo_collection.settings.title != empty -%}
+                              <{{ promo_collection.settings.title_size }} class="{{ title_classes }} ff-{{ promo_collection.settings.title_font }}">{{ promo_collection.settings.title }}</{{ promo_collection.settings.title_size }}>
+                            {%- endif -%}
+                            </div>
+                            {%- if promo_collection_link and promo_collection.settings.text_alignment == 'start' -%}
+                              {{ promo_collection_link | replace: 'class-x', 'mobile-hide' }}
+                            {%- endif -%}
+                          </header>
+                        {%- endif -%}
+                        <ul class="l4cl category {{ width_class }} {% if slider %}slider{% elsif promo_collection.settings.mobile_layout != 'grid' %}mobile-compact{% endif %}{% if promo_collection.settings.mobile_layout == 'grid' %} w50-mobile{% endif %}{% if promo_collection.settings.collection_title_position == 'center' %} text-center{% endif %}">
+                          {%- if promo_collection.settings.collections == blank %}
+                            {%- for i in (1..promo_collection.settings.number_of_items) %}
+                              {%- liquid
+                                capture current
+                                  cycle 1, 2, 3, 4, 5
+                                endcapture
+                              -%}
+                              <li>
+                                <figure class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}{% if promo_collection.settings.show_in_circle and promo_collection.settings.custom_image_ratio == 100 %} rounded{% endif %}" style="--ratio:{{ promo_collection.settings.custom_image_ratio | divided_by: 100.0 }}">
+                                  <picture>
+                                    {% if promo_collection.settings.show_collection_titles == false %}
+                                      <a href="{{ collection.url }}"></a>
+                                    {% endif %}
+                                    {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+                                  </picture>
+                                </figure>
+                                {% if promo_collection.settings.show_collection_titles %}<{{ promo_collection.settings.collection_title_size }} class="ff-{{ promo_collection.settings.collection_title_font }}"><a href=""><span>Collection title</span>&nbsp;<i aria-hidden="true" class="icon-chevron-right mobile-hide"></i></a></{{ promo_collection.settings.collection_title_size }}>{% endif %}
+                              </li>
+                            {%- endfor -%}
+                          {%- else %}
+                            {%- for collection in promo_collection.settings.collections -%}
+                              {%- liquid
+                                capture current
+                                  cycle 1, 2, 3, 4, 5, 6
+                                endcapture
+                              -%}
+                              <li>
+                                <figure class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}{% if promo_collection.settings.show_in_circle %} rounded{% endif %}" style="--ratio:{{ promo_collection.settings.custom_image_ratio | divided_by: 100.0 }}">
+                                  <picture>
+                                    {% if promo_collection.settings.show_collection_titles == false %}
+                                      <a href="{{ collection.url }}"></a>
+                                    {% endif %}
+                                    {% if collection.featured_image %}
+                                      <img
+                                        src="{{ collection.featured_image | image_url: width: image_width, height: image_height }}"
+                                        srcset="
+                                          {% if promo_collection.settings.fill_images %}
+                                            {% render 'image-srcset', image: collection.featured_image, format: promo_collection.settings.custom_image_ratio, crop: 'center' %}
+                                          {% else %}
+                                            {% render 'image-srcset', image: collection.featured_image %}
+                                          {% endif %}
+                                        "
+                                        sizes="
+                                           {% if header_width < 2000 %}
+                                            (min-width: 1300px) {% if img_width == 100 %}calc({{ header_width }}px * 0.2){% else %}calc({{ header_width }}px * 0.{{ img_width }}){% endif %},
+                                          {% endif %}
+                                          (min-width: 760px) {% if img_width == 100 %}calc(100vw * 0.2){%-else -%}calc(100vw * 0.{{ img_width }}){% endif %},
+                                          141px
+                                        "
+                                        width="{{ image_width }}"
+                                        height="{{ image_height }}"
+                                        alt="{{ collection.featured_image.alt | default: collection.title | escape }}"
+                                        {% if promo_collection.settings.fill_images %}class="filled"{% endif %}
+                                        loading="lazy"
+                                      >
+                                    {% else %}
+                                        {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+                                    {% endif %}
+                                  </picture>
+                                </figure>
+                                {% if promo_collection.settings.show_collection_titles %}<{{ promo_collection.settings.collection_title_size }} class="ff-{{ promo_collection.settings.collection_title_font }}"><a href="{{ collection.url }}"><span>{{ collection.title }}</span>&nbsp;<i aria-hidden="true" class="icon-chevron-right mobile-hide"></i></a></{{ promo_collection.settings.collection_title_size }}>{% endif %}
+                              </li>
+                            {%- endfor -%}
+                          {% endif -%}
+                        </ul>
+                        {%- if promo_collection_link and promo_collection.settings.text_alignment == 'center' -%}
+                          {{ promo_collection_link | replace: 'class-x', 'm0 text-center' }}
+                        {%- elsif promo_collection_link and promo_collection.settings.text_alignment == 'start' -%}
+                          {{ promo_collection_link | replace: 'class-x', 'm0 mobile-only' }}
+                        {%- endif -%}
+                    </li>
+                </ul>
+            {%- endif -%}
+            {% comment %} END PROMO COLLECTION LIST {% endcomment %}
+
+            {%- if promo_collection == false and link.links != blank or promo_banner %}
+                <a href="./" class="toggle">{{ 'header.navigation.view_all' | t }}</a>
+                <ul>
+                    {%- liquid
+                        assign split = false
+                        assign item_nr = 0
+                        assign total_nr_of_items = 0
+                        for sub in link.links
+                            assign nr_of_items = sub.links.size | at_most: items_limit
+                            assign total_nr_of_items = total_nr_of_items | plus: nr_of_items | plus: 1
+                        endfor
+                        if total_nr_of_items > 30
+                            assign nr_of_items_per_col = total_nr_of_items | divided_by: items_limit
+                        else
+                            assign nr_of_items_per_col = 6
+                        endif
+
+                        if promo_banner
+                            if total_nr_of_items > 12
+                                assign nr_of_items_per_col = total_nr_of_items | divided_by: 3
+                            else
+                                assign nr_of_items_per_col = 6
+                            endif
+                        endif
+                    -%}
+                    {%- for sub in link.links -%}
+                    {% if split or forloop.first %}
+                    {% assign split = false %}
+                    <li class="ff-{{ menu_subs_font }}">
+                        <ul>
+                            {% endif %}
+                            <li>
+                                {%- liquid
+                                    assign item_nr = item_nr | plus: 1
+                                    assign item_modulo = item_nr | modulo: nr_of_items_per_col
+                                    if item_modulo == 0
+                                        assign split = true
+                                    endif
+                                -%}
+                                <a href="{{ sub.url }}">
+                                    {%- if sub.object[image] and show_dropdown_images -%}
+                                        <img
+                                                class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}"
+                                                src="{{ sub.object[image] | image_url: width: 60, height: 60 }}"
+                                                srcset="{{ sub.object[image] | image_url: width: 60, height: 60 }} 30w"
+                                                sizes="
+                       (min-width: 1000px) 30px
+                       0
+                     "
+                                                alt="{{ sub.object[image].alt | default: sub.title | escape }}"
+                                                width="30"
+                                                height="30"
+                                                loading="lazy"
+                                         >
+                                    {%- endif -%}
+                                    {{ sub.title }}
+                                </a>
+                                {%- if sub.links != blank %}
+                                    <a href="{{ sub.url }}" class="toggle">{{ 'header.navigation.toggle_submenu' | t: item: sub.title }}</a>
+                                    <ul>
+                                        {%- for subsub in sub.links limit: items_limit -%}
+                                            {%- liquid
+                                                assign item_nr = item_nr | plus: 1
+                                                assign item_modulo = item_nr | modulo: nr_of_items_per_col
+                                                if item_modulo == 0
+                                                    assign split = true
+                                                endif
+                                            -%}
+                                            <li>
+                                                <a href="{{ subsub.url }}">
+                                                    {%- if subsub.object[image] and show_dropdown_images -%}
+                                                        <img
+                                                                class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}"
+                                                                src="{{ subsub.object[image] | image_url: width: 60, height: 60 }}"
+                                                                srcset="{{ subsub.object[image] | image_url: width: 60, height: 60 }} 30w"
+                                                                sizes="
+                               (min-width: 1000px) 30px
+                               0
+                             "
+                                                                alt="{{ subsub.object[image].alt | default: subsub.title | escape }}"
+                                                                width="30"
+                                                                height="30"
+                                                                loading="lazy"
+                                                         >
+                                                    {%- endif -%}
+                                                    {{ subsub.title }}
+                                                </a>
+                                            </li>
+                                        {%- endfor -%}
+                                        {%- if sub.links.size > items_limit -%}
+                                            <li class="overlay-theme"><a href="{{ sub.url }}">{{ 'header.navigation.view_more' | t }}</a></li>
+                                        {%- endif -%}
+                                    </ul>
+                                {%- endif -%}
+                            </li>
+                            {% if split or forloop.last %}
+                            </li>
+                        </ul>
+                        {% endif %}
+                        {%- endfor -%}
+
+                        {% comment %} START PROMO BANNER COLUMNS {% endcomment %}
+                        {%- if promo_banner and promo_collection == false -%}
+                            <li{% if link.links != blank %} class="w50"{% endif %}><ul class="l4ft dont-move{% if promo_banner.settings.image_zoom %} zoom{% endif %}{% if promo_banner.settings.layout_mobile == 'compact' %} mobile-compact{% endif %}">
+                                {%- liquid
+                                    assign nr_of_items = 0
+                                    if promo_banner.settings.enable_banner_1
+                                        assign nr_of_items = nr_of_items | plus: 1
+                                    endif
+                                    if promo_banner.settings.enable_banner_2
+                                        assign nr_of_items = nr_of_items | plus: 1
+                                    endif
+                                    assign width_class = 'w100'
+                                    assign img_width = 100
+                                    if nr_of_items == 2 and promo_banner.settings.layout == 'columns'
+                                        assign width_class = 'w50'
+                                        assign img_width = 50
+                                    endif
+                                -%}
+                                {%- for i in (1..2) -%}
+                                    {%- liquid
+                                        capture current
+                                            cycle 1, 2
+                                        endcapture
+                                        assign enable_banner_handle = 'enable_banner_x' | replace: 'x', forloop.index
+                                        assign enable_banner = promo_banner.settings[enable_banner_handle]
+                                        if enable_banner
+                                            assign image_handle = 'image_x' | replace: 'x', forloop.index
+                                            assign promo_image = promo_banner.settings[image_handle]
+                                            assign video_handle = 'video_x' | replace: 'x', forloop.index
+                                            assign video = promo_banner.settings[video_handle]
+                                            assign overlay_opacity_handle = 'overlay_opacity_x' | replace: 'x', forloop.index
+                                            assign overlay_opacity = promo_banner.settings[overlay_opacity_handle]
+                                            assign color_palette_handle = 'color_palette_x' | replace: 'x', forloop.index
+                                            assign color_palette = promo_banner.settings[color_palette_handle]
+                                            assign button_color_palette_handle = 'button_color_palette_x' | replace: 'x', forloop.index
+                                            assign button_color_palette = promo_banner.settings[button_color_palette_handle]
+                                            assign text_position_handle = 'text_position_y' | replace: 'y', forloop.index
+                                            assign text_position = promo_banner.settings[text_position_handle]
+                                            assign enable_custom_text_styling_handle = 'enable_custom_text_styling_z' | replace: 'z', forloop.index
+                                            assign enable_custom_text_styling = promo_banner.settings[enable_custom_text_styling_handle]
+                                            assign enable_custom_sub_styling_handle = 'enable_custom_sub_styling_z' | replace: 'z', forloop.index
+                                            assign enable_custom_sub_styling = promo_banner.settings[enable_custom_sub_styling_handle]
+                                            assign enable_custom_font_styling_handle = 'enable_custom_font_styling_z' | replace: 'z', forloop.index
+                                            assign enable_custom_font_styling = promo_banner.settings[enable_custom_font_styling_handle]
+                                            assign title_color_palette_handle = 'title_color_palette_x' | replace: 'x', forloop.index
+                                            assign title_color_palette = promo_banner.settings[title_color_palette_handle]
+                                            assign title_font_handle = 'title_font_x' | replace: 'x', forloop.index
+                                            assign title_font = promo_banner.settings[title_font_handle]
+                                            assign title_weight_handle = 'title_weight_x' | replace: 'x', forloop.index
+                                            assign title_weight = promo_banner.settings[title_weight_handle]
+                                            assign title_size_handle = 'title_size_x' | replace: 'x', forloop.index
+                                            assign title_size = promo_banner.settings[title_size_handle]
+                                            assign title_handle = 'title_x' | replace: 'x', forloop.index
+                                            assign title = promo_banner.settings[title_handle]
+                                            assign subtitle_color_palette_handle = 'subtitle_color_palette_x' | replace: 'x', forloop.index
+                                            assign subtitle_color_palette = promo_banner.settings[subtitle_color_palette_handle]
+                                            assign subtitle_font_handle = 'subtitle_font_x' | replace: 'x', forloop.index
+                                            assign subtitle_font = promo_banner.settings[subtitle_font_handle]
+                                            assign subtitle_weight_handle = 'subtitle_weight_x' | replace: 'x', forloop.index
+                                            assign subtitle_weight = promo_banner.settings[subtitle_weight_handle]
+                                            assign subtitle_size_handle = 'subtitle_size_x' | replace: 'x', forloop.index
+                                            assign subtitle_size = promo_banner.settings[subtitle_size_handle]
+                                            assign subtitle_handle = 'subtitle_x' | replace: 'x', forloop.index
+                                            assign subtitle = promo_banner.settings[subtitle_handle]
+                                            assign text_handle = 'text_y' | replace: 'y', forloop.index
+                                            assign text = promo_banner.settings[text_handle]
+                                            assign font_size_handle = 'font_size_x' | replace: 'x', forloop.index
+                                            assign font_size = promo_banner.settings[font_size_handle]
+                                            assign link_text_handle = 'link_text_y' | replace: 'y', forloop.index
+                                            assign link_text = promo_banner.settings[link_text_handle]
+                                            assign link_url_handle = 'link_url_x' | replace: 'x', forloop.index
+                                            assign link_url = promo_banner.settings[link_url_handle]
+                                            assign show_link_handle = 'show_link_x' | replace: 'x', forloop.index
+                                            assign show_link = promo_banner.settings[show_link_handle]
+                                            assign image_mobile_handle = 'image_mobile_x' | replace: 'x', forloop.index
+                                            assign image_mobile = promo_banner.settings[image_mobile_handle]
+                                        endif
+                                    -%}
+                                    {%- if enable_banner -%}
+                                        <li class="{{ text_position }}
+                                {{ width_class }}
+                                {% if promo_banner.settings.height != 'size-s' %}{{ promo_banner.settings.height }}{% endif %}
+                                {{ promo_banner.settings.mobile_height }}-mobile
+                                "
+                                            style="{% if promo_banner.settings.enable_custom_height %}--mih: {{ promo_banner.settings.custom_height }}px;{% endif %}{% if enable_custom_font_styling %}font-size:{{ font_size }};{% endif %}"
+                                        >
+                                            <div class="palette-{{ color_palette }}
+                                    module-color-palette
+                                    main">
+                                                <figure>
+                                                    <span class="img-overlay" style="opacity:{{ overlay_opacity | divided_by: 100.0 }}"></span>
+                                                    {%- if video -%}
+                                                        {{ video | video_tag: autoplay: true, loop: true, muted: true, controls: false }}
+                                                    {%- elsif promo_image -%}
+                                                        <picture>
+                                                            {% if image_mobile %}
+                                                                <img
+                                                                        src="{{ image_mobile | image_url: width: 620 }}"
+                                                                        srcset="{% render 'image-srcset', image: image_mobile %}"
+                                                                        sizes="
+                                                              (min-width: 768px) 0,
+                                                              330px
+                                                            "
+                                                                        width="620"
+                                                                        height="700"
+                                                                        alt="{{ image_mobile.alt | default: title | escape }}"
+                                                                        style="object-position: {{ promo_image.presentation.focal_point }}"
+                                                                        class="mobile-only"
+                                                                        loading="lazy"
+                                                                >
+                                                            {% endif %}
+                                                            <img
+                                                                    src="{{ promo_image | image_url: width: 620 }}"
+                                                                    srcset="{% render 'image-srcset', image: promo_image %}"
+                                                                    sizes="
+                                                         {% if header_width < 2000 %}
+                                                             {% if link.links != blank %}
+                                                             (min-width: 1300px) {% if img_width == 100 %}calc({{ header_width }}px * 0.5){% else %}calc(({{ header_width }}px * 0.{{ img_width }}) * 0.5 ){%- endif -%},
+                                                             {% else %}
+                                                              (min-width: 1300px) {% if img_width == 100 %}{{ header_width }}px{% else %}calc({{ header_width }}px * 0.{{ img_width }}){%- endif -%},
+                                                             {% endif %}
+                                                         {% else %}
+                                                            {% if link.links != blank %}
+                                                              (min-width: 1000px) {% if img_width == 100 %}50vw{% else %}calc(50vw * 0.{{ img_width }}){%- endif -%},
+                                                            {% else %}
+                                                              min-width: 1000px) {% if img_width == 100 %}100vw{% else %}calc(100vw * 0.{{ img_width }}){%- endif -%},
+                                                            {% endif %}
+                                                          {% endif %}
+                                                          {% if image_mobile %}0{% else %}330px{% endif %}
+                                                        "
+                                                                    width="620"
+                                                                    height="700"
+                                                                    alt="{{ promo_image.alt | default: title | escape }}"
+                                                                    style="object-position: {{ promo_image.presentation.focal_point }}"
+                                                                    {% if image_mobile %}class="mobile-hide"{% endif %}
+                                                                    loading="lazy"
+                                                            >
+                                                        </picture>
+                                                    {% else %}
+                                                        <picture>
+                                                            {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+                                                        </picture>
+                                                    {% endif %}
+                                                </figure>
+                                                {%- if promo_banner.settings.show_content_below == false -%}
+                                                <div>
+                                                {%- if title != empty -%}
+                                                  <{{ title_size }} class="ff-{{ title_font }} {% if enable_custom_text_styling %}text-palette-{{ title_color_palette }} fw-{{ title_weight }}{% endif %}{% if subtitle != blank %} m0{% endif %}">{{ title }}</{{ title_size }}>
+                                                {%- endif -%}
+                                                {%- if subtitle != empty -%}
+                                                  <{{ subtitle_size }} class="ff-{{ subtitle_font }} {% if enable_custom_sub_styling %}text-palette-{{ subtitle_color_palette }} fw-{{ subtitle_weight }}{% endif %}">{{ subtitle }}</{{ subtitle_size }}>
+                                                {%- endif -%}
+                                                {%- if text -%}{{ text }}{%- endif -%}
+                                                {%- if link_text != empty and link_url != blank -%}
+                                                    <p class="link{% unless show_link %}-btn{% endunless %} button-palette-{{ button_color_palette }}">
+                                                        <a href="{{ link_url }}" class="{% if show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">
+                                                        {% if show_link %}<span>{% endif %}{{ link_text }}{% if show_link %}</span>&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}
+                                                        </a>
+                                                    </p>
+                                                {%- endif %}
+                                                {%- unless video -%}
+                                                    {%- if settings.banners_clickable and link_url != blank -%}
+                                                        <a class="link-overlay" href="{{ link_url }}" aria-label="{{ title | escape | default: promo_image.alt | default: "Promo banner" }}"></a>
+                                                    {%- endif -%}
+                                                {%- endunless -%}
+                                            </div>
+                                            {%- endif -%}
+                                            </div>
+                                            {%- if promo_banner.settings.show_content_below -%}
+                                                <div class="content">
+                                                {%- if title != empty -%}
+                                                  <{{ title_size }} class="ff-{{ title_font }} {% if enable_custom_text_styling %}text-palette-{{ title_color_palette }} fw-{{ title_weight }}{% endif %}{% if subtitle != blank %} m0{% endif %}">{{ title }}</{{ title_size }}>
+                                                {%- endif -%}
+                                                {%- if subtitle != empty -%}
+                                                  <{{ subtitle_size }} class="ff-{{ subtitle_font }} {% if enable_custom_sub_styling %}text-palette-{{ subtitle_color_palette }} fw-{{ subtitle_weight }}{% endif %}">{{ subtitle }}</{{ subtitle_size }}>
+                                                {%- endif -%}
+                                                {%- if text -%}{{ text }}{%- endif -%}
+                                                {%- if link_text != empty and link_url != blank -%}
+                                                    <p class="link{% unless show_link %}-btn{% endunless %} button-palette-{{ button_color_palette }}">
+                                                        <a href="{{ link_url }}" class="{% if show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">
+                                                        {% if show_link %}<span>{% endif %}{{ link_text }}{% if show_link %}</span>&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}
+                                                        </a>
+                                                    </p>
+                                                {%- endif %}
+                                                </div>
+                                            {%- endif -%}
+                                        </li>
+                                    {%- endif -%}
+                                {%- endfor -%}
+                            </ul></li>
+                        {%- endif -%}
+                        {% comment %} END PROMO BANNER COLUMNS {% endcomment %}
+
+                </ul>
+            {%- endif -%}
+        </li>
+    {%- endif -%}
+
+{%- endfor -%}
+{%- if layout -%}
+    <li class="show-all sub-static">
+        <a href="{{ routes.root_url }}" aria-controls="nav">{{ 'general.accessibility.more' | t }}</a>
+    </li>
+    <li class='custom-seperate'></li>
+{%- endif -%}

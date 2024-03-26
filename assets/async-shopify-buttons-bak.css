@@ -1,0 +1,181 @@
+/* shopify-generated checkout button */
+#root .dynamic-checkout__content li div:before, .shopify-payment-button div[role="button"]:before { content: ""; display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: -1; box-shadow: inset 2px -2px 0 rgba(0,0,0,.1); border-radius: var(--b2r); border: 0 solid var(--secondary_bg_btn); background: var(--secondary_bg_btn); }
+#root .dynamic-checkout__content li div:before, .shopify-payment-button div[role="button"]:before { display: none; }
+		
+#root .dynamic-checkout__content li div:before, .shopify-payment-button button:before, .shopify-payment-button div[role="button"]:before { display: block; }
+
+#root .dynamic-checkout__content ul { display: block !important; list-style: none; margin: 0 -16px 0 0 !important; padding: 0; }
+	#root .dynamic-checkout__content li { height: auto !important; margin: 0 !important; }
+	#root .dynamic-checkout__content li div, #root .dynamic-checkout__content li * { cursor: pointer !important; }
+	#root .dynamic-checkout__content li div, .shopify-payment-button div[role="button"], .shopify-payment-button button { display: block; position: relative; z-index: 21; width: auto !important; height: /*45px*/ auto !important; margin: 0 16px 8px 0; padding: 14px 18px !important; border-radius: var(--b2r) !important; border-width: 0 !important; background: none !important; opacity: 1 !important; pointer-events: auto !important; color: var(--secondary_btn_text); font-weight: var(--main_fw_strong); !important; font-size: var(--size_14_f) !important; line-height: var(--main_lh_h) !important; text-align: center !important; text-decoration: none !important; cursor: pointer !important; }
+	#root .dynamic-checkout__content li div:not(:hover), .shopify-payment-button div[role="button"]:not(:hover), .shopify-payment-button button:not(:hover) { -webkit-animation: none !important; animation: none !important; }
+	#root .dynamic-checkout__content li div, .shopify-payment-button div[role="button"], .shopify-payment-button button { display: -moz-box; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+	#root .dynamic-checkout__content li div, .shopify-payment-button div[role="button"], .shopify-payment-button button { -webkit-justify-content: center; justify-content: center; }
+	#root .dynamic-checkout__content li div, .shopify-payment-button div[role="button"], .shopify-payment-button button { -webkit-align-items: center; align-items: center; }
+	.shopify-payment-button button[disabled], .shopify-payment-button button[disabled] * { cursor: default !important; }
+		#root .dynamic-checkout__content li div span, #root .shopify-payment-button div[role="button"] span, .shopify-payment-button button span { font-size: var(--size_14_f) !important; white-space: normal !important; }
+		#root .dynamic-checkout__content li div img, #root .shopify-payment-button div[role="button"] img, .shopify-payment-button button img, #root .dynamic-checkout__content li div svg, #root .shopify-payment-button div[role="button"] svg, .shopify-payment-button button svg { display: block !important; position: relative; top: 50px; margin-top: -50px !important; margin-left: 6px; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+		[dir="rtl"] #root .dynamic-checkout__content li div img, [dir="rtl"] #root .shopify-payment-button div[role="button"] img, [dir="rtl"] .shopify-payment-button button img, [dir="rtl"] #root .dynamic-checkout__content li div svg, [dir="rtl"] #root .shopify-payment-button div[role="button"] svg, [dir="rtl"] .shopify-payment-button button svg { margin-left: 0; margin-right: 6px; }
+		#root .size-m .dynamic-checkout__content li div { height: 50px !important; }
+		#root .size-l .dynamic-checkout__content li div { height: 55px !important; }
+		/* #root .inv .dynamic-checkout__content li div, .inv .shopify-payment-button div[role="button"], .inv .shopify-payment-button button { color: var(--secondary_bg); }
+			#root .inv .dynamic-checkout__content li div:before, .inv .shopify-payment-button div[role="button"]:before, .inv .shopify-payment-button button:before { box-shadow: none; border-width: 1px !important; border-color: var(--secondary_bg); background: none !important; }*/
+			.shopify-payment-button button[disabled]:before { }
+			
+		#root .inline .dynamic-checkout__content li div, .inline .shopify-payment-button div[role="button"], .inline .shopify-payment-button button { height: auto !important; padding: 0 !important; border-radius: 0 !important; color: var(--secondary_bg); !important; }
+			#root .inline.overlay-content .dynamic-checkout__content li div, .inline.overlay-content .shopify-payment-button div[role="button"], .inline.overlay-content .shopify-payment-button button { color: inherit; }
+			#root .inline.overlay-tertiary .dynamic-checkout__content li div, .inline.overlay-tertiary .shopify-payment-button div[role="button"], .inline.overlay-tertiary .shopify-payment-button button { color: var(--tertiary_bg); }
+			#root .inline.overlay-quaternary .dynamic-checkout__content li div, .inline.overlay-quaternary .shopify-payment-button div[role="button"], .inline.overlay-quaternary .shopify-payment-button button { color: var(--quaternary_bg); }
+			#root .inline.overlay-coal .dynamic-checkout__content li div, .inline.overlay-coal .shopify-payment-button div[role="button"], .inline.overlay-coal .shopify-payment-button button { color: var(--primary_text); }
+			#root .inline.overlay-content .dynamic-checkout__content li div, .inline.overlay-content .shopify-payment-button div[role="button"], .inline.overlay-content .shopify-payment-button button { color: var(--primary_text); }
+			#root .inline.overlay-white .dynamic-checkout__content li div, .inline.overlay-white .shopify-payment-button div[role="button"], .inline.overlay-white .shopify-payment-button button { color: var(--white); }
+		[data-whatin="mouse"] #root .inline .dynamic-checkout__content li div:hover, [data-whatin="mouse"] .inline .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .inline .shopify-payment-button button:hover { text-decoration: underline !important; }
+			
+		#root .overlay-content .dynamic-checkout__content li div, .overlay-content .shopify-payment-button div[role="button"], .overlay-content .shopify-payment-button button { color: var(--primary_text); }
+			#root .overlay-content .dynamic-checkout__content li div:before, .overlay-content .shopify-payment-button div[role="button"]:before, .overlay-content .shopify-payment-button button:before { border-color: var(--sand); background: var(--sand); }
+			/*#root .overlay-content.inv .dynamic-checkout__content li div, .overlay-content.inv .shopify-payment-button div[role="button"], .overlay-content.inv .shopify-payment-button button { color: var(--primary_text); }
+			#root .overlay-content.inv .dynamic-checkout__content li div:before, .overlay-content.inv .shopify-payment-button div[role="button"]:before, .overlay-content.inv .shopify-payment-button button:before { border-color: var(--alto); background: none; }*/
+			
+		#root .overlay-tertiary .dynamic-checkout__content li div, .overlay-tertiary .shopify-payment-button div[role="button"], .overlay-tertiary .shopify-payment-button button { color: var(--tertiary_text); }
+			#root .overlay-tertiary .dynamic-checkout__content li div:before, .overlay-tertiary .shopify-payment-button div[role="button"]:before, .overlay-tertiary .shopify-payment-button button:before { border-color: var(--tertiary_bg); background: var(--tertiary_bg); }
+			/*#root .overlay-tertiary.inv .dynamic-checkout__content li div, .overlay-tertiary.inv .shopify-payment-button div[role="button"], .overlay-tertiary.inv .shopify-payment-button button { color: var(--tertiary_bg); }
+			#root .overlay-tertiary.inv .dynamic-checkout__content li div:before, .overlay-tertiary.inv .shopify-payment-button div[role="button"]:before, .overlay-tertiary.inv .shopify-payment-button button:before { border-color: var(--tertiary_bg); background: none; }*/
+			
+		#root .overlay-quaternary .dynamic-checkout__content li div, .overlay-quaternary .shopify-payment-button div[role="button"], .overlay-quaternary .shopify-payment-button button { color: var(--quaternary_text); }
+			#root .overlay-quaternary .dynamic-checkout__content li div:before, .overlay-quaternary .shopify-payment-button div[role="button"]:before, .overlay-quaternary .shopify-payment-button button:before { border-color: var(--quaternary_bg); background: var(--quaternary_bg); }
+			/*#root .overlay-quaternary.inv .dynamic-checkout__content li div, .overlay-quaternary.inv .shopify-payment-button div[role="button"], .overlay-quaternary.inv .shopify-payment-button button { color: var(--quaternary_bg); }
+			#root .overlay-quaternary.inv .dynamic-checkout__content li div:before, .overlay-quaternary.inv .shopify-payment-button div[role="button"]:before, .overlay-quaternary.inv .shopify-payment-button button:before { border-color: var(--quaternary_bg); background: none; }*/
+			
+		#root .overlay-coal .dynamic-checkout__content li div, .overlay-coal .shopify-payment-button div[role="button"], .overlay-coal .shopify-payment-button button { color: var(--white); }
+			#root .overlay-coal .dynamic-checkout__content li div:before, .overlay-coal .shopify-payment-button div[role="button"]:before, .overlay-coal .shopify-payment-button button:before { border-color: var(--primary_text); background: var(--primary_text); }
+			/*#root .overlay-coal.inv .dynamic-checkout__content li div, .overlay-coal.inv .shopify-payment-button div[role="button"], .overlay-coal.inv .shopify-payment-button button { color: var(--primary_text); }
+			#root .overlay-coal.inv .dynamic-checkout__content li div:before, .overlay-coal.inv .shopify-payment-button div[role="button"]:before, .overlay-coal.inv .shopify-payment-button button:before { border-color: var(--primary_text); background: none; }			*/
+			
+		#root .overlay-white .dynamic-checkout__content li div, .overlay-white .shopify-payment-button div[role="button"], .overlay-white .shopify-payment-button button { color: var(--secondary_bg); }
+			#root .overlay-white .dynamic-checkout__content li div:before, .overlay-white .shopify-payment-button div[role="button"]:before, .overlay-white .shopify-payment-button button:before { border-color: var(--white); background: var(--white); }
+			/*#root .overlay-white.inv .dynamic-checkout__content li div, .overlay-white.inv .shopify-payment-button div[role="button"], .overlay-white.inv .shopify-payment-button button { color: var(--white); }
+			#root .overlay-white.inv .dynamic-checkout__content li div:before, .overlay-white.inv .shopify-payment-button div[role="button"]:before, .overlay-white.inv .shopify-payment-button button:before { border-color: var(--white); background: none; }	*/
+						
+		#root .dynamic-checkout__content li div:after, #root .dynamic-checkout__content li div:before, .shopify-payment-button div[role="button"]:after { content: ""; display: block; overflow: hidden; position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: -1; margin: 0; text-align: left; text-indent: -3000em; direction: ltr; }
+			#root .dynamic-checkout__content li div:after, .shopify-payment-button div[role="button"]:after { border-radius: var(--b2r); }
+			/*#root .dynamic-checkout__content li div:before { border-color: var(--sand); background: var(--sand); }*/
+		
+:root {
+--venmo_bg: hsl(204, 60%, 52%); /* #3D95CE */
+--venmo_bg_dark: hsl(204, 60%, 47%); /*  */
+--facebook_bg: var(--facebook); /* #3c599f */
+--facebook_bg_dark: hsl(222, 45%, 38%); /*  */
+--shoppay_bg: hsl(253, 90%, 57%); /* #5A31F4; */
+--shoppay_bg_dark: hsl(253, 90%, 52%); /* */
+--paypal_bg: hsl(204, 100%, 36%); /* #0070BA; */
+--paypal_bg_dark: hsl(204, 100%, 31%); /* */
+--amazonpay_bg: hsl(36, 100%, 50%); /* #FF9900; */
+--amazonpay_bg_dark: hsl(36, 100%, 48%); /* */ 
+}
+		#root .overlay-venmo .dynamic-checkout__content li div, .overlay-venmo .shopify-payment-button div[role="button"], .overlay-venmo .shopify-payment-button button { color: #fff; }
+			#root .overlay-venmo .dynamic-checkout__content li div:before, .overlay-venmo .shopify-payment-button div[role="button"]:before, .overlay-venmo .shopify-payment-button button:before { border-color: var(--venmo_bg); background: var(--venmo_bg); }	
+		#root .overlay-facebook .dynamic-checkout__content li div, .overlay-facebook .shopify-payment-button div[role="button"], .overlay-facebook .shopify-payment-button button { color: #fff; }
+			#root .overlay-facebook .dynamic-checkout__content li div:before, .overlay-facebook .shopify-payment-button div[role="button"]:before, .overlay-facebook .shopify-payment-button button:before { border-color: var(--facebook_bg); background: var(--facebook_bg); }
+		#root .overlay-shoppay .dynamic-checkout__content li div, .overlay-shoppay .shopify-payment-button div[role="button"], .overlay-shoppay .shopify-payment-button button { color: #fff; }
+			#root .overlay-shoppay .dynamic-checkout__content li div:before, .overlay-shoppay .shopify-payment-button div[role="button"]:before, .overlay-shoppay .shopify-payment-button button:before { border-color: var(--shoppay_bg); background: var(--shoppay_bg); }	
+		#root .overlay-paypal .dynamic-checkout__content li div, .overlay-paypal .shopify-payment-button div[role="button"], .overlay-paypal .shopify-payment-button button { color: #fff; }
+			#root .overlay-paypal .dynamic-checkout__content li div:before, .overlay-paypal .shopify-payment-button div[role="button"]:before, .overlay-paypal .shopify-payment-button button:before { border-color: var(--paypal_bg); background: var(--paypal_bg); }	
+		#root .overlay-amazonpay .dynamic-checkout__content li div, .overlay-amazonpay .shopify-payment-button div[role="button"], .overlay-amazonpay .shopify-payment-button button { color: #fff; }
+			#root .overlay-amazonpay .dynamic-checkout__content li div:before, .overlay-amazonpay .shopify-payment-button div[role="button"]:before, .overlay-amazonpay .shopify-payment-button button:before { border-color: var(--amazonpay_bg); background: var(--amazonpay_bg); }	
+			
+		
+			
+			
+		#root .dynamic-checkout__content li div div:before, #root .dynamic-checkout__content li div[aria-disabled="true"]:after { display: none; }
+		#root .dynamic-checkout__content li div[aria-disabled="true"]:before { box-shadow: none; border-color: var(--alto); background: var(--alto); }
+
+#root .f8pr .dynamic-checkout__content li div, .f8pr .shopify-payment-button div[role="button"], .f8pr .shopify-payment-button .shopify-payment-button__button, .f8pr .shopify-payment-button .shopify-payment-button__button div { -webkit-flex-grow: 3; -ms-flex-grow: 3; flex-grow: 3; }
+.f8pr .shopify-payment-button div { width: 100%; }
+
+.shopify-payment-button { margin-right: -16px; }
+.shopify-payment-button div, .shopify-payment-button, .shopify-payment-button__button, .shopify-payment-button button { line-height: var(--main_lh_h); }
+.shopify-payment-button div, .shopify-payment-button, .shopify-payment-button__button, .shopify-payment-button button { display: -moz-box; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+.shopify-payment-button div, .shopify-payment-button, .shopify-payment-button__button { -webkit-justify-content: flex-start; justify-content: flex-start; }
+.shopify-payment-button button { -webkit-justify-content: center; justify-content: center; }
+.shopify-payment-button div[role="button"], .shopify-payment-button button { height: auto !important; padding: 14px 18px !important; }
+	.size-m .shopify-payment-button div[role="button"], .size-m .shopify-payment-button button { padding: 17px 23px !important; }
+	.size-l .shopify-payment-button div[role="button"], .size-l .shopify-payment-button button { padding: 19px 28px !important; }
+	
+#root .inline .dynamic-checkout__content li div:before, .inline .shopify-payment-button div[role="button"]:before, .inline .shopify-payment-button button:before { display: none !important; }
+#root .inline .dynamic-checkout__content li div:after, .inline .shopify-payment-button div[role="button"]:after, .inline .shopify-payment-button button:after { animation: none !important; }
+
+#root .rounded .dynamic-checkout__content li div, .rounded .shopify-payment-button div[role="button"], .rounded .shopify-payment-button button, #root .rounded .dynamic-checkout__content li div:before, .rounded .shopify-payment-button div[role="button"]:before, .rounded .shopify-payment-button button:before, #root .rounded .dynamic-checkout__content li div:after, .rounded .shopify-payment-button div[role="button"]:after, .rounded .shopify-payment-button button:after { border-radius: 14px !important; }
+	.link-btn a.rounded, button.rounded, .link-btn a.rounded:before, button.rounded:before { border-radius: 14px !important; }
+#root .rounded.size-m .dynamic-checkout__content li div, .rounded.size-m .shopify-payment-button div[role="button"], .rounded.size-m .shopify-payment-button button, #root .rounded.size-m .dynamic-checkout__content li div:before, .rounded.size-m .shopify-payment-button div[role="button"]:before, .rounded.size-m .shopify-payment-button button:before, #root .rounded.size-m .dynamic-checkout__content li div:after, .rounded.size-m .shopify-payment-button div[role="button"]:after, .rounded.size-m .shopify-payment-button button:after { border-radius: 25px !important; }
+#root .rounded.size-l .dynamic-checkout__content li div, .rounded.size-l .shopify-payment-button div[role="button"], .rounded.size-l .shopify-payment-button button, #root .rounded.size-l .dynamic-checkout__content li div:before, .rounded.size-l .shopify-payment-button div[role="button"]:before, .rounded.size-l .shopify-payment-button button:before, #root .rounded.size-l .dynamic-checkout__content li div:after, .rounded.size-l .shopify-payment-button div[role="button"]:after, .rounded.size-l .shopify-payment-button button:after { border-radius: 28px !important; }
+#root .square .dynamic-checkout__content li div, .square .shopify-payment-button div[role="button"], .square .shopify-payment-button button, #root .square .dynamic-checkout__content li div:before, .square .shopify-payment-button div[role="button"]:before, .square .shopify-payment-button button:before, #root .square .dynamic-checkout__content li div:after, .square .shopify-payment-button div[role="button"]:after, .square .shopify-payment-button button:after { border-radius: 0 !important; }
+#root .plain .dynamic-checkout__content li div, .plain .shopify-payment-button div[role="button"], .plain .shopify-payment-button button, #root .plain .dynamic-checkout__content li div:before, .plain .shopify-payment-button div[role="button"]:before, .plain .shopify-payment-button button:before, #root .plain .dynamic-checkout__content li div:after, .plain .shopify-payment-button div[role="button"]:after, .plain .shopify-payment-button button:after { box-shadow: none; }
+
+
+
+
+/* shopify-generated checkout button - hovers */
+[data-whatin="mouse"] #root .shopify-cleanslate button:hover { text-decoration: none !important; }
+
+[data-whatin="mouse"] #root .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .shopify-payment-button div[role="button"]:hover { box-shadow: 0 0 15px 5px rgba(0,0,0,0); color: var(--secondary_btn_text); }
+[data-whatin="mouse"] #root .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .shopify-payment-button div[role="button"]:hover { -webkit-animation: pulse .75s; animation: pulse .75s; }
+[data-whatin="mouse"] .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] #root .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .shopify-payment-button div[role="button"]:hover:before { border: 0 solid var(--secondary_bg_btn_dark); background: var(--secondary_bg_btn_dark); }
+/*[data-whatin="mouse"] #root .inv .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .inv .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .inv .shopify-payment-button button:hover { color: var(--secondary_bg); }*/
+
+[data-whatin="mouse"] #root .overlay-content .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-content .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-content .shopify-payment-button button:hover { -webkit-animation-name: pulse_dark; animation-name: pulse_dark; }
+[data-whatin="mouse"] #root .overlay-content .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-content .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-content .shopify-payment-button button:hover { color: var(--secondary_bg); }
+[data-whatin="mouse"] #root .overlay-content .dynamic-checkout__content li:hover div/*, [data-whatin="mouse"] #root .overlay-content.inv .dynamic-checkout__content li:hover div, [data-whatin="mouse"] .overlay-content.inv .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-content.inv .shopify-payment-button button:hover*/ { color: var(--secondary_bg); }
+[data-whatin="mouse"] #root .overlay-content .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-content .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-content .shopify-payment-button button:hover:before { border: 0 solid var(--sand); background: var(--sand); }
+/*[data-whatin="mouse"] #root .overlay-content.inv .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-content.inv .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-content.inv .shopify-payment-button button:hover:before { border: 1px solid var(--alto); }*/
+
+[data-whatin="mouse"] #root .overlay-tertiary .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-tertiary .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-tertiary .shopify-payment-button button:hover { -webkit-animation-name: pulse_tertiary; animation-name: pulse_tertiary; color: var(--tertiary_text); }
+/*[data-whatin="mouse"] #root .overlay-tertiary.inv .dynamic-checkout__content li:hover div, [data-whatin="mouse"] .overlay-tertiary.inv .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-tertiary.inv .shopify-payment-button button:hover { color: var(--tertiary_bg); }*/
+[data-whatin="mouse"] #root .overlay-tertiary .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-tertiary .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-tertiary .shopify-payment-button button:hover:before { border: 0 solid var(--tertiary_bg_dark); background: var(--tertiary_bg_dark); }
+[data-whatin="mouse"] .overlay-tertiary .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--tertiary_bg); background: var(--tertiary_bg); }
+
+[data-whatin="mouse"] #root .overlay-quaternary .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-quaternary .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-quaternary .shopify-payment-button button:hover { -webkit-animation-name: pulse_quaternary; animation-name: pulse_quaternary; color: var(--quaternary_text); }
+/*[data-whatin="mouse"] #root .overlay-quaternary.inv .dynamic-checkout__content li:hover div, [data-whatin="mouse"] .overlay-quaternary.inv .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-quaternary.inv .shopify-payment-button button:hover { color: var(--quaternary_bg); }*/
+[data-whatin="mouse"] #root .overlay-quaternary .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-quaternary .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-quaternary .shopify-payment-button button:hover:before { border: 0 solid var(--quaternary_bg_dark); background: var(--quaternary_bg_dark); }
+[data-whatin="mouse"] .overlay-quaternary .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--quaternary_bg); background: var(--quaternary_bg); }
+
+[data-whatin="mouse"] #root .overlay-coal .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-coal .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-coal .shopify-payment-button button:hover { -webkit-animation-name: pulse_black; animation-name: pulse_black; color: var(--coal_text); }
+/*[data-whatin="mouse"] #root .overlay-coal.inv .dynamic-checkout__content li:hover div, [data-whatin="mouse"] .overlay-coal.inv .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-coal.inv .shopify-payment-button button:hover { color: var(--black); }*/
+[data-whatin="mouse"] #root .overlay-coal .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-coal .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-coal .shopify-payment-button button:hover:before { border: 0 solid var(--black); background: var(--black); }
+[data-whatin="mouse"] .overlay-coal .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--black); background: var(--black); }
+
+[data-whatin="mouse"] #root .overlay-white .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-white .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-white .shopify-payment-button button:hover { -webkit-animation-name: pulse_white; animation-name: pulse_white; }
+[data-whatin="mouse"] #root .overlay-white .dynamic-checkout__content li:hover div, [data-whatin="mouse"] .overlay-white .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-white .shopify-payment-button button:hover { color: var(--secondary_bg); }
+/*[data-whatin="mouse"] #root .overlay-white.inv .dynamic-checkout__content li:hover div, [data-whatin="mouse"] .overlay-white.inv .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-white.inv .shopify-payment-button button:hover { color: var(--white); }*/
+[data-whatin="mouse"] #root .overlay-white .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-white .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-white .shopify-payment-button button:hover:before { border: 0 solid var(--white); background: var(--white); }
+[data-whatin="mouse"] .overlay-white .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--white); background: var(--white); }
+	
+@-webkit-keyframes pulse_venmo { 0% { box-shadow: 0 0 0 0 var(--venmo_bg); } }
+@keyframes pulse_venmo { 0% { box-shadow: 0 0 0 0 var(--venmo_bg); } }
+@-webkit-keyframes pulse_facebook { 0% { box-shadow: 0 0 0 0 var(--facebook_bg); } }
+@keyframes pulse_facebook { 0% { box-shadow: 0 0 0 0 var(--facebook_bg); } }
+@-webkit-keyframes pulse_shoppay { 0% { box-shadow: 0 0 0 0 var(--shoppay_bg); } }
+@keyframes pulse_shoppay { 0% { box-shadow: 0 0 0 0 var(--shoppay_bg); } }
+@-webkit-keyframes pulse_paypal { 0% { box-shadow: 0 0 0 0 var(--paypal_bg); } }
+@keyframes pulse_paypal { 0% { box-shadow: 0 0 0 0 var(--paypal_bg); } }
+@-webkit-keyframes pulse_amazonpay { 0% { box-shadow: 0 0 0 0 var(--amazonpay_bg); } }
+@keyframes pulse_amazonpay { 0% { box-shadow: 0 0 0 0 var(--amazonpay_bg); } }
+
+[data-whatin="mouse"] #root .overlay-venmo .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-venmo .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-venmo .shopify-payment-button button:hover { -webkit-animation-name: pulse_venmo; animation-name: pulse_venmo; color: #fff; }
+[data-whatin="mouse"] #root .overlay-venmo .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-venmo .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-venmo .shopify-payment-button button:hover:before { border: 0 solid var(--venmo_bg_dark); background: var(--venmo_bg_dark); }
+[data-whatin="mouse"] .overlay-venmo .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--venmo_bg); background: var(--venmo_bg); }
+
+[data-whatin="mouse"] #root .overlay-facebook .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-facebook .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-facebook .shopify-payment-button button:hover { -webkit-animation-name: pulse_facebook; animation-name: pulse_facebook; color: #fff; }
+[data-whatin="mouse"] #root .overlay-facebook .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-facebook .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-facebook .shopify-payment-button button:hover:before { border: 0 solid var(--facebook_bg_dark); background: var(--facebook_bg_dark); }
+[data-whatin="mouse"] .overlay-facebook .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--facebook_bg); background: var(--facebook_bg); }
+
+[data-whatin="mouse"] #root .overlay-shoppay .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-shoppay .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-shoppay .shopify-payment-button button:hover { -webkit-animation-name: pulse_shoppay; animation-name: pulse_shoppay; color: #fff; }
+[data-whatin="mouse"] #root .overlay-shoppay .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-shoppay .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-shoppay .shopify-payment-button button:hover:before { border: 0 solid var(--shoppay_bg_dark); background: var(--shoppay_bg_dark); }
+[data-whatin="mouse"] .overlay-shoppay .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--shoppay_bg); background: var(--shoppay_bg); }
+
+[data-whatin="mouse"] #root .overlay-paypal .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-paypal .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-paypal .shopify-payment-button button:hover { -webkit-animation-name: pulse_paypal; animation-name: pulse_paypal; color: #fff; }
+[data-whatin="mouse"] #root .overlay-paypal .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-paypal .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-paypal .shopify-payment-button button:hover:before { border: 0 solid var(--paypal_bg_dark); background: var(--paypal_bg_dark); }
+[data-whatin="mouse"] .overlay-paypal .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--paypal_bg); background: var(--paypal_bg); }
+
+[data-whatin="mouse"] #root .overlay-amazonpay .dynamic-checkout__content li:hover div:after, [data-whatin="mouse"] .overlay-amazonpay .shopify-payment-button div[role="button"]:hover, [data-whatin="mouse"] .overlay-amazonpay .shopify-payment-button button:hover { -webkit-animation-name: pulse_amazonpay; animation-name: pulse_amazonpay; color: #fff; }
+[data-whatin="mouse"] #root .overlay-amazonpay .dynamic-checkout__content li div:hover:before, [data-whatin="mouse"] .overlay-amazonpay .shopify-payment-button div[role="button"]:hover:before, [data-whatin="mouse"] .overlay-amazonpay .shopify-payment-button button:hover:before { border: 0 solid var(--amazonpay_bg_dark); background: var(--amazonpay_bg_dark); }
+[data-whatin="mouse"] .overlay-amazonpay .shopify-payment-button button[disabled]:hover:before { border: 0 solid var(--amazonpay_bg); background: var(--amazonpay_bg); }

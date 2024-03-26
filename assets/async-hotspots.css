@@ -1,0 +1,70 @@
+#root figure .l4hs > li.toggle { z-index: 9; }
+	figure .l4hs > li { z-index: 8; }
+		#root figure .l4hs > li > a:after { --secondary_bg_btn: var(--bg); }
+		[data-whatin="mouse"] #root figure .l4hs > li > a:hover:after { box-shadow: 0 0 15px 5px rgba(0,0,0,0); }
+		[data-whatin="mouse"] #root figure .l4hs > li > a:hover:after { -webkit-animation: pulse .75s; animation: pulse .75s; }
+		
+		
+	#root .m6fr figure.has-l4hs { overflow: visible; }
+.l4hs { color: var(--primary_text); font-size: var(--main_fz); text-indent: 0; text-align: var(--text_align_start);  }
+	#root figure .l4hs > li > div {
+		visibility: hidden; position: absolute; left: 50%; top: 50%; z-index: 1; width: 254px; padding: 12px 12px 2px; box-shadow: 0 2px 4px rgba(0,0,0,.1); border-radius: var(--b2r); border: 4px solid var(--white); background: var(--white); opacity: 0; scrollbar-width: thin; 
+		display: -moz-box; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;
+		-webkit-flex-direction: column; flex-direction: column; 
+	}
+		#root figure .l4hs > li > div::-webkit-scrollbar { width: 6px; height: 6px; }
+			#root figure .l4hs > li > div::-webkit-scrollbar-track { background: none; }
+			#root figure .l4hs > li > div::-webkit-scrollbar-thumb { background: var(--alto); }
+		#root figure .l4hs > li.inv > div { left: auto; right: 50%; }
+		#root figure .l4hs > li.inv-v > div { top: auto; bottom: 50%; }
+		[dir="rtl"] #root figure .l4hs > li > div { left: auto; right: 50%; }
+		[dir="rtl"] #root figure .l4hs > li.inv > div { left: 50%; right: auto; }
+		#root figure .l4hs > li.toggle > div { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; }
+	figure .l4hs .info { padding: 3px 0 4px; color: var(--primary_text); font-size: var(--main_fz); line-height: var(--main_lh_l); }
+		#root figure .l4hs li > div:has(.info) { overflow-x: hidden; overflow-y: auto; width: 300px; max-height: 170px; }
+		#root figure .l4hs li.has-info > div { overflow-x: hidden; overflow-y: auto; width: 300px; max-height: 170px; }
+		figure .l4hs .info p { font-size: 1em; }
+	figure .l4hs h1, figure .l4hs h2, figure .l4hs h3, figure .l4hs h4, figure .l4hs h5, figure .l4hs h6 { margin-bottom: 3px; font-weight: var(--main_fw_h); /*font-family: var(--main_ff);*/ font-size: 1em; line-height: var(--main_lh_l); }
+	figure .l4hs h1 .small, figure .l4hs h2 .small, figure .l4hs h3 .small, figure .l4hs h4 .small, figure .l4hs h5 .small, figure .l4hs h6 .small { display: block; margin: 0 0 6px; font-weight: var(--main_fw); font-size: 0.8571428571em; opacity: .53; }
+	figure .l4hs .link-btn, figure .l4hs .submit { position: relative; left: 0; right: 0; top: 0; bottom: 0; z-index: 99; margin-top: 8px; }
+		figure .l4hs .link-btn a { -webkit-flex-grow: 3; -ms-flex-grow: 3; flex-grow: 3; }
+		figure .l4hs .r6rt { margin-bottom: 1px; font-weight: var(--main_fw); font-size: calc(var(--main_fz) * 0.8571428571); }
+			figure .l4hs .r6rt .rating-label { opacity: .53; }
+			figure .l4hs .r6rt .rating { top: .175em; margin-bottom: 3px; }
+		figure .l4hs p { margin-bottom: 2px; font-size: calc(var(--main_fz) * 0.8571428571); font-weight: var(--main_fw); }
+		figure .l4hs p[class*="overlay"] { font-weight: var(--main_fw); font-size: calc(var(--main_fz) * 0.8571428571); }
+			figure .l4hs .overlay-gray { } { color: inherit; opacity: .53; }
+		figure .l4hs .info p:not(.link-btn, .submit, .r6rt) a { color: var(--secondary_bg); }
+		figure .l4hs .price { margin: 2px 0 3px; color: var(--price_color); font-size: 1em; font-weight: var(--main_fw_strong); line-height: 1.5; }
+			figure .l4hs .price span { margin-right: 5px; color: var(--price_color_old); font-weight: var(--main_fw); text-decoration: line-through; }
+			[dir="rtl"] figure .l4hs .price span { margin-right: 0; margin-left: 5px; }
+			figure .l4hs .price .small { display: block; margin: 1px 0 2px; color: var(--primary_text_h); font-family: var(--main_ff); font-size: calc(var(--main_fz) * 0.8571428571); font-weight: var(--main_fw); font-size: 0.8571428571em; text-decoration: none; letter-spacing: var(--main_ls); opacity: .53; }
+			figure .l4hs .price span[class*="overlay"] { display: block; margin: 0 0 4px; font-size: calc(var(--main_fz) * 0.8571428571); text-decoration: none; opacity: 1; }
+			figure .l4hs .price .price-varies { color: var(--price_color); text-decoration: none; }
+		#root figure .l4hs p.submit { 
+			width: auto; margin-right: -8px;
+			display: -moz-box; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: nowrap; flex-wrap: nowrap; 
+		}
+		figure .l4hs .f8pr .submit:last-child, figure .l4hs .f8pr .link-btn:last-child, #root figure .l4hs .f8pr .submit.m10:last-child, #root figure .l4hs .f8pr .link-btn.m10:last-child, figure .l4hs .link-btn:last-child { margin-bottom: 2px; }
+	figure .l4hs .check { z-index: 999; margin-bottom: 2px; --check_color_size: 20px; --check_color_dist: 3px; --check_color_space: 6px; }
+		figure .l4hs .check.color { margin-bottom: -2px; }
+		figure .l4hs .check.color:not(:first-child) { margin-top: 2px; }
+		figure .l4hs figure .check.color { position: absolute; left: 0; right: 0; bottom: 0; z-index: 9; margin: 0; padding: calc(15px - var(--check_color_dist)) calc(10px - var(--check_color_dist) - var(--check_color_space)) calc(15px - var(--check_color_dist) - var(--check_color_space) * 0.5) calc(10px - var(--check_color_dist)); background: var(--body_bg); }
+			html:not(.mobile) figure .l4hs figure .check.color { visibility: hidden; opacity: 0; }
+		#root figure .l4hs .check li { width: auto; margin: 0; border-width: 0; }
+		#root figure .l4hs .check.color li { margin-right: var(--check_color_space); margin-bottom: var(--check_color_space); }
+	#root figure .l4hs input, #root figure .l4hs select, #root figure .l4hs button { border-radius: var(--b2r); }
+
+
+figure .l4hs > li > div, figure .l4hs > li > a, figure .l4hs > li > a:before { transition-property: all; transition-duration: 0.4s; transition-timing-function: cubic-bezier(.4,0,.2,1); transition-delay: -.1s; }
+
+@media only screen and (min-width: 1001px) {
+#root figure .l4hs > li.toggle > a:before { background: var(--bg_active); color: var(--fg_active); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
+#root figure .l4hs > li.toggle > a:after { --secondary_bg_btn: var(--bg_active); }
+}
+@media only screen and (max-width: 1000px) {
+#root figure .l4hs > li.toggle > div.desktop-only { display: none; }
+}
+@media only screen and (max-width: 760px) {
+	#root figure .l4hs > li.toggle > div.desktop-only { display: none; }
+}

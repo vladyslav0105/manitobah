@@ -1,0 +1,1 @@
+{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{"hide_mobile":false}},"main-page":{"type":"main-page","blocks":{"title":{"type":"title","settings":{"title_size":"h2"}},"content":{"type":"content","settings":{}}},"block_order":["title","content"],"settings":{"text_alignment":"start","spacing_desktop":50,"spacing_mobile":30}}},"order":["breadcrumbs","main-page"]}

@@ -1,0 +1,66 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+<article class="popup-a {% if settings.newsletter_popup_image %}aside{% else %}w360{% endif %}" data-title="newsletter-popup" data-popup-delay="{{ settings.newsletter_popup_seconds | minus: 0.5 | times: 1000 | round }}"{% if settings.newsletter_popup_enable_custom_text_styling %} style="font-size:{{ settings.newsletter_popup_font_size }};{% endif %}">
+  {%- if settings.newsletter_popup_image -%}
+  {%- assign default_alt = 'newsletter.title_html' | t %}
+  <figure>
+    <picture>
+      <img
+        src="{{ settings.newsletter_popup_image | image_url }}"
+        srcset="{% render 'image-srcset', image: settings.newsletter_popup_image %}"
+        sizes="
+          (min-width: 760px) 480px,
+          100vw
+        "
+        width="1260"
+        height="290"
+        alt="{{ settings.newsletter_popup_image.alt | default: default_alt | escape }}"
+        loading="lazy"
+      >
+    </picture>
+  </figure>
+  {%- endif -%}
+  <header>
+    {%- if settings.newsletter_popup_title != empty -%}
+      <{{ settings.newsletter_popup_title_size }} class="ff-{{ settings.newsletter_popup_title_font }} {% if settings.newsletter_popup_enable_custom_text_styling %}text-palette-{{ settings.newsletter_popup_title_color_palette }} fw-{{ settings.newsletter_popup_title_weight }}{% endif %}{% if settings.newsletter_popup_subtitle != blank %} m0{% endif %}">{{ settings.newsletter_popup_title }}</{{ settings.newsletter_popup_title_size }}>
+    {%- endif -%}
+    {%- if settings.newsletter_popup_subtitle != empty -%}
+      <{{ settings.newsletter_popup_subtitle_size }} class="ff-{{ settings.newsletter_popup_subtitle_font }} {% if settings.newsletter_popup_enable_custom_text_styling %}text-palette-{{ settings.newsletter_popup_subtitle_color_palette }} fw-{{ settings.newsletter_popup_subtitle_weight }}{% endif %}">{{ settings.newsletter_popup_subtitle }}</{{ settings.newsletter_popup_subtitle_size }}>
+    {%- endif -%}
+  </header>
+  {%- if settings.newsletter_popup_text != empty -%}
+    <p class="m15">{{ settings.newsletter_popup_text }}</p>
+  {%- endif -%}
+  {%- form 'customer', id: 'newsletter-popup' -%}
+    {%- if form.errors -%}
+    	<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var alertAttributes = { message: "{{ 'newsletter.form.email_placeholder' | t }} {{ form.errors.messages['email'] }}", type: "error", origin: "newsletter" },
+      			    showAlertEvent = new CustomEvent("showAlert", {detail: alertAttributes});
+      			window.dispatchEvent(showAlertEvent);
+        });
+      </script>
+    {%- elsif form.posted_successfully? -%}
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var alertAttributes = { message: "{{ 'newsletter.form.success' | t }}", type: "success", origin: "newsletter" },
+              showAlertEvent = new CustomEvent("showAlert", {detail: alertAttributes});
+          window.dispatchEvent(showAlertEvent);
+        });
+      </script>
+    {%- endif -%}
+    <p class="m20">
+      <label for="contact[email]">{{ 'newsletter.form.email_placeholder' | t }}<span class="overlay-theme">*</span></label>
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <input type="email" name="contact[email]" id="newsletter-popup" aria-label="{{ 'newsletter.form.email_placeholder' | t }}" required>
+    </p>
+  {% if settings.enable_newsletter_terms_checkbox and settings.newsletter_terms_text != empty %}
+    <div class="check">
+      <input type="checkbox" name="newsletter_check-{{ section.id }}" id="newsletter_check-{{ section.id }}" aria-label="Accept the terms" required>
+      <label for="newsletter_check-{{ section.id }}">{{ settings.newsletter_terms_text }}</label>
+    </div>
+  {% endif %}
+    <p class="submit">
+      <button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'newsletter.form.submit_button' | t }}</button>
+    </p>
+  {%- endform -%}
+</article>

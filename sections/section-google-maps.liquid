@@ -1,0 +1,77 @@
+{%- if section.settings.google_maps_iframe -%}
+  <figure class="image-map">
+    {{ section.settings.google_maps_iframe | replace: 'width="400"', 'width="100%"' | replace: 'width="600"', 'width="100%"' | replace: 'width="800"', 'width="100%"' | replace: 'height="300"', 'height="450"' | replace: 'height="600"', 'height="450"' }}
+  </figure>
+{%- endif %}
+
+<style>
+  #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
+  @media only screen and (min-width: 47.5em) {
+    #shopify-section-{{ section.id }} { margin-bottom: {{ section.settings.spacing_desktop | minus: 20 }}px; }
+    {% if section.settings.spacing_desktop < 0 %}
+      #shopify-section-{{ section.id }} + *.has-kinetic-text { pointer-events: none; }
+    {% endif %}
+
+  }
+  @media only screen and (max-width: 47.5em) {
+    #shopify-section-{{ section.id }} { margin-bottom: {{ section.settings.spacing_mobile | minus: 20 }}px; }
+    {% if section.settings.spacing_mobile < 0 %}
+      #shopify-section-{{ section.id }} + *.has-kinetic-text { pointer-events: none; }
+    {% endif %}
+  }
+</style>
+
+{% schema %}
+{
+  "name": "t:static_sections.google_maps.name",
+  "class": "shopify-section-google-maps",
+  "disabled_on": {
+    "groups": [
+      "header",
+      "footer"
+    ]
+  },
+  "settings": [
+    {
+      "type": "html",
+      "id": "google_maps_iframe",
+      "label": "t:static_sections.google_maps.settings.google_maps_iframe.label",
+      "info": "t:static_sections.google_maps.settings.google_maps_iframe.info"
+    },
+    {
+      "type": "header",
+      "content": "t:global.spacing.header"
+    },
+    {
+      "id": "spacing_desktop",
+      "type": "range",
+      "label": "t:global.spacing.spacing_desktop.label",
+      "min": -300,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "id": "spacing_mobile",
+      "type": "range",
+      "label": "t:global.spacing.spacing_mobile.label",
+      "min": -300,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "id": "fix_zindex",
+      "type": "range",
+      "label": "t:global.fix_zindex.label",
+      "info": "t:global.fix_zindex.info",
+      "min": 0,
+      "max": 25,
+      "step": 1,
+      "default": 0
+    }
+  ]
+}
+{% endschema %}

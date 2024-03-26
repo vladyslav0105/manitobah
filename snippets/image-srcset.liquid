@@ -1,0 +1,65 @@
+{%- liquid
+  assign format = format | default: false
+  assign crop = crop | default: false
+  if settings.width < 2000
+    assign max_width = max_width | default: settings.width
+  else
+    assign max_width = max_width | default: 2900
+  endif
+  assign widths = '165,240,350,533,720,940,1066,1280,1400,1700,2000,2300,2600,2900' | split: ','
+  assign pad_color = 'fff'
+  if image.media_type
+    assign src = image.preview_image.src
+  else
+    assign src = image.src
+  endif
+
+  for width_str in widths
+    assign width = width_str | plus: 0
+    assign img_height = false
+    if src.width >= width or forloop.first
+      assign img_width = width
+      if format
+        case format
+          when 'custom'
+            if image_height
+              assign custom_height_ratio = image_height
+            else
+              assign custom_height_ratio = settings.custom_product_image_ratio | divided_by: 100.0
+            endif
+            assign custom_height = img_width | times: custom_height_ratio | round
+            assign img_height = custom_height
+          when 'square'
+            assign img_height = img_width
+          when 'portrait'
+            assign portrait_height = img_width | times: 1.25 | round
+            assign img_height = portrait_height
+          when 'landscape'
+            assign landscape_height = img_width | times: 0.75 | round
+            assign img_height = landscape_height
+          when 'banner'
+            assign banner_height = img_width | times: 0.4 | round
+            assign img_height = banner_height
+        endcase
+      endif
+      if crop
+        if img_height
+          assign img_url = src | image_url: width: img_width, height: img_height, crop: crop
+        else
+          assign img_url = src | image_url: width: img_width, crop: crop
+        endif
+      else
+        if img_height
+          assign img_url = src | image_url: height: img_height
+        else
+          assign img_url = src | image_url: width: img_width, pad_color: pad_color
+        endif
+      endif
+      echo ',' | append: img_url | append: ' ' | append: width | append: 'w'
+
+      if width >= max_width
+        break
+      endif
+    endif
+  endfor
+-%}

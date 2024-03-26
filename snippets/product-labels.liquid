@@ -1,0 +1,53 @@
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign custom_label_namespace = settings.product_custom_label | split: '.' | first
+  assign custom_label_key = settings.product_custom_label | split: '.' | last
+  assign custom_label = product.metafields[custom_label_namespace][custom_label_key]
+  assign total_stock = 0
+
+  if origin == 'productitem'
+    for variant in product.variants
+      if variant.matched and variant.inventory_quantity > 0
+        assign total_stock = total_stock | plus: variant.inventory_quantity
+      endif
+    endfor
+  endif
+  if total_stock == 0
+    assign total_stock = current_variant.inventory_quantity
+  endif
+
+  if current_variant.compare_at_price > current_variant.price and settings.show_sale_label
+    assign show_sale_label = true
+    if settings.sale_label_price == 'percentage'
+      assign discount = current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price
+      if discount > 1
+        assign discount = discount | round
+      else
+        assign discount = discount | round: 1
+      endif
+      if discount == 100 and product.price != 0
+        assign discount = discount | minus: 0.1
+      endif
+    elsif settings.sale_label_price == 'amount'
+      assign discount = current_variant.compare_at_price | minus: current_variant.price | money
+    endif
+  endif
+-%}
+
+<span class="s1lb label plain">
+  {%- if show_sale_label -%}
+    <span class="overlay-sale">{{ 'product.sale_tag' | t }}{% if settings.sale_label_price == 'percentage' %}&nbsp;-{{ discount }}%{% elsif settings.sale_label_price == 'amount' %}&nbsp;-{{ discount }}{% endif %}</span>
+  {%- endif -%}
+  {%- if settings.show_stock_label and total_stock > 0 and total_stock <= settings.stock_label_qty -%}
+    <span>{{ 'product.stock_tag' | t }}</span>
+  {%- endif -%}
+  {%- if settings.show_out_of_stock_label and total_stock <= 0 and current_variant.available == false -%}
+    <span>{{ 'product.not_in_stock_tag' | t }}</span>
+  {%- endif -%}
+  {%- if total_stock <= 0 and current_variant.inventory_management != nil and current_variant.inventory_policy == 'continue' and current_variant.available and current_variant.inventory_quantity <= 0 and settings.preorder -%}
+    <span class="overlay-preorder">{{ 'product.preorder_tag' | t }}</span>
+  {%- endif -%}
+  {%- if custom_label != blank -%}
+    <span>{{ custom_label }}</span>
+  {%- endif %}
+</span>

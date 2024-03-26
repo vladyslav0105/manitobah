@@ -1,0 +1,160 @@
+<article class="palette-{{ section.settings.color_palette }} m6er module-color-palette">
+	<h1><span class="strong">{{ '404.404' | t }}</span> {{ '404.title' | t }}</h1>
+	<p>{{ '404.subtitle_html' | t }}</p>
+    <p class="link-btn button-palette-{{ section.settings.button_color_palette }}"><a href="{{ section.settings.link_url }}" class="{% if section.settings.show_link %}inline{% elsif settings.button_style == 'inv' %}inv{% endif %}">{{ section.settings.link_text }}{% if section.settings.show_link %}&nbsp;<i aria-hidden="true" class="icon-arrow-right"></i>{% endif %}</a></p>
+</article>
+<figure id="background" class="palette-{{ section.settings.color_palette }} module-color-palette static">
+  <span class="img-overlay" style="opacity:{{ section.settings.overlay_opacity | divided_by: 100.0 }}"></span>
+	{%- if section.settings.video -%}
+      {%- liquid
+        assign source = section.settings.video.sources | where: "height", 1080 | where: "format", "mp4" | first
+        if source == nil
+          assign source = section.settings.video.sources | where: "format", "mp4" | first
+        endif
+        if source == nil
+          assign source = section.settings.video.sources | where: "format", "mov" | first
+        endif
+        if source == nil
+          assign source = section.settings.video.sources.first
+        endif
+      -%}
+      <video class="lazy" autoplay muted loop playsinline poster="{{ section.settings.video.preview_image | image_url }}">
+        <source data-src="{{ source.url }}" type="video/mp4">
+      </video>
+	{%- endif -%}
+	{%- if section.settings.image -%}
+		{%- assign default_alt = 'header.extra_img_default_alt' | t %}
+		<picture {% if section.settings.video %}class="mobile-only"{% endif %}>
+	      <img
+			src="{{ section.settings.image | image_url: width: 1400 }}"
+	        srcset="{% render 'image-srcset', image: section.settings.image %}"
+	        sizes="100vw"
+	        width="1400"
+	        height="846"
+			alt="{{ section.settings.image.alt | default: default_alt | escape }}"
+            style="object-position: {{ section.settings.image.presentation.focal_point }}"
+            loading="lazy"
+	      >
+		</picture>
+	{% endif %}
+</figure>
+
+{% schema %}
+{
+  "name": "t:main.404.name",
+  "class": "align-center",
+  "settings": [
+    {
+      "id": "image",
+      "type": "image_picker",
+      "label": "t:main.404.settings.image.label",
+      "info": "t:main.404.settings.image.info"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "label": "t:main.404.settings.overlay_opacity.label",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 0
+    },
+    {
+      "type": "select",
+      "id": "color_palette",
+      "label": "t:global.color_palette.label",
+      "options": [
+        {
+          "value": "white",
+          "label": "t:global.color_palette.white.label"
+        },
+        {
+          "value": "black",
+          "label": "t:global.color_palette.black.label"
+        },
+        {
+          "value": "light",
+          "label": "t:global.color_palette.light.label"
+        },
+        {
+          "value": "dark",
+          "label": "t:global.color_palette.dark.label"
+        },
+        {
+          "value": "accent",
+          "label": "t:global.color_palette.accent.label"
+        },
+        {
+          "value": "light_2",
+          "label": "t:global.color_palette.light_2.label"
+        },
+        {
+          "value": "light_gradient",
+          "label": "t:global.color_palette.light_gradient.label"
+        },
+        {
+          "value": "dark_gradient",
+          "label": "t:global.color_palette.dark_gradient.label"
+        }
+      ],
+      "default": "dark"
+    },
+    {
+      "id": "video",
+      "type": "video",
+      "label": "t:main.404.settings.video.label",
+      "info": "t:main.404.settings.video.info"
+    },
+    {
+      "id": "link_text",
+      "type": "text",
+      "label": "t:main.404.settings.link_text.label",
+      "default": "Button"
+    },
+    {
+      "id": "link_url",
+      "type": "url",
+      "label": "t:main.404.settings.link_url.label",
+      "default": "/"
+    },
+    {
+      "type": "select",
+      "id": "button_color_palette",
+      "label": "t:global.button_color_palette.label",
+      "options": [
+        {
+          "value": "white",
+          "label": "t:global.button_color_palette.white.label"
+        },
+        {
+          "value": "black",
+          "label": "t:global.button_color_palette.black.label"
+        },
+        {
+          "value": "light",
+          "label": "t:global.button_color_palette.light.label"
+        },
+        {
+          "value": "dark",
+          "label": "t:global.button_color_palette.dark.label"
+        },
+        {
+          "value": "accent",
+          "label": "t:global.button_color_palette.accent.label"
+        },
+        {
+          "value": "light_2",
+          "label": "t:global.button_color_palette.light_2.label"
+        }
+      ],
+      "default": "accent"
+    },
+    {
+      "id": "show_link",
+      "type": "checkbox",
+      "label": "t:main.404.settings.show_link.label"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,126 @@
+{%- liquid
+  assign information_blocks = section.blocks | where: 'type', 'usp'
+  assign newsletter_checkbox_block = section.blocks | where: 'type', 'newsletter_checkbox'
+  assign custom_checkbox_blocks = section.blocks | where: 'type', 'custom_checkbox'
+-%}
+<{{ settings.global_title_size }} class="m30 text-start">{{ 'customer.register.title' | t }}</{{ settings.global_title_size }}>
+{%- assign register_form_class = 'f8lg text-start' -%}
+{%- form 'create_customer', class: register_form_class -%}
+  {%- if form.errors -%}
+    {%- for error in form.errors -%}
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var alertAttributes = { message: "{%- if error == 'form' -%}{{ form.errors.messages[error] }}{%- else -%}{{ form.errors.translated_fields[error] | capitalize }} {{ form.errors.messages[error] }}{%- endif -%}", type: "info", origin: "register" },
+                showAlertEvent = new CustomEvent("showAlert", {detail: alertAttributes});
+            window.dispatchEvent(showAlertEvent);
+        });
+      </script>
+    {%- endfor -%}
+  {%- endif -%}
+  <fieldset>
+    <legend>{{ 'customer.register.title' | t }}</legend>
+    <header>
+      <h2 class="size-16 m20">{{ 'customer.register.create_account_info' | t }}</h2>
+    </header>
+    {%- if information_blocks.size > 0 -%}
+      <ul class="l4ch m15">
+        {%- for block in information_blocks -%}
+          {%- if block.settings.usp != empty -%}
+            <li {{ block.shopify_attributes }}>{{ block.settings.usp | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' }}</li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    <div class="cols">
+      <p class="w50">
+        <label for="firstName">{{ 'customer.register.first_name' | t }}<span class="overlay-theme">*</span></label>
+        <input type="text" id="firstName" name="customer[first_name]" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} required>
+      </p>
+      <p class="w50">
+        <label for="lastName">{{ 'customer.register.last_name' | t }}<span class="overlay-theme">*</span></label>
+        <input type="text" id="lastName" name="customer[last_name]" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.last_name %}value="{{ form.last_name }}"{% endif %} required>
+      </p>
+    </div>
+    <div class="cols">
+      <p class="w50">
+        <label for="email_address">{{ 'customer.register.email' | t }}<span class="overlay-theme">*</span></label>
+        <input type="email" id="email_address" name="customer[email]" placeholder="{{ 'customer.register.email' | t }}" {% if form.email %}value="{{ form.email }}"{% endif %} required>
+      </p>
+      <p class="w50">
+        <label for="password">{{ 'customer.register.password' | t }}<span class="overlay-theme">*</span> <a href="./" class="show"><span>{{ 'general.accessibility.show' | t }}</span> <span class="hidden">{{ 'general.accessibility.hide' | t }}</span></a></label>
+        <input type="password" id="password" name="customer[password]" placeholder="{{ 'customer.register.password' | t }}" required>
+      </p>
+    </div>
+    {%- if newsletter_checkbox_block.size > 0 or custom_checkbox_blocks.size > 0 -%}
+      <ul class="check m25">
+    {%- endif -%}
+    {%- for block in section.blocks -%}
+       {%- if block.type == 'newsletter_checkbox' -%}
+         <li><input type="checkbox" id="newsletter_signup" name="customer[accepts_marketing]"> <label for="newsletter_signup">{{ 'customer.register.newsletter_signup_text' | t }}</label></li>
+       {%- elsif block.type == 'custom_checkbox' -%}
+         {%- if block.settings.custom_checkbox_text != empty -%}
+           <li>
+             <input type="checkbox" id="custom_check-{{ section.id }}-{{ forloop.index }}" name="custom_check-{{ section.id }}"{% if block.settings.required %} required{% endif %}>
+             <label for="custom_check-{{ section.id }}-{{ forloop.index }}">{{ block.settings.custom_checkbox_text | remove: '<p>' | remove: '</p>' }}</label>
+           </li>
+         {%- endif -%}
+       {%- endif -%}
+    {%- endfor -%}
+    {%- if newsletter_checkbox_block.size > 0 or custom_checkbox_blocks.size > 0 -%}
+      </ul>
+    {%- endif -%}
+
+    <p class="submit"><button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.register.submit' | t }}</button></p>
+
+  </fieldset>
+{%- endform -%}
+
+
+{% schema %}
+{
+  "name": "t:main.account_register.name",
+  "class": "w630 align-center",
+  "blocks": [
+    {
+      "type": "usp",
+      "name": "t:main.account_register.blocks.usp.name",
+      "settings": [
+        {
+          "id": "usp",
+          "type": "richtext",
+          "label": "t:main.account_register.blocks.usp.settings.usp.label",
+          "default": "<p>Give your customers more details.</p>"
+        }
+      ]
+    },
+    {
+      "type": "newsletter_checkbox",
+      "name": "t:main.account_register.blocks.newsletter_checkbox.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "t:main.account_register.blocks.newsletter_checkbox.settings.paragraph"
+        }
+      ]
+    },
+    {
+      "type": "custom_checkbox",
+      "name": "t:main.account_register.blocks.custom_checkbox.name",
+      "settings": [
+        {
+          "id": "custom_checkbox_text",
+          "type": "richtext",
+          "label": "t:main.account_register.blocks.custom_checkbox.settings.custom_checkbox_text.label",
+          "info": "t:main.account_register.blocks.custom_checkbox.settings.custom_checkbox_text.info"
+        },
+        {
+          "id": "required",
+          "type": "checkbox",
+          "label": "t:main.account_register.blocks.custom_checkbox.settings.required.label"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

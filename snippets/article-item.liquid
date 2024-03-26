@@ -1,0 +1,64 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- liquid
+  if lazyload != false
+    assign lazyload = true
+  endif
+  capture current
+    cycle 1, 2
+  endcapture
+  if article == blank
+    assign author = "Author"
+    assign title =  "Article title"
+    assign date =  "now" | time_tag: format: 'month_day_year'
+  else
+    assign author = article.author
+    assign title =  article.title
+    assign date =  article.published_at | time_tag: format: 'month_day_year'
+  endif
+-%}
+
+<li>
+  {% if show_image %}
+    <figure>
+      <picture>
+        {% if article.image %}
+          <img
+            src="{{ article.image | image_url }}"
+            srcset="{% render 'image-srcset', image: article.image %}"
+            sizes="
+              {% if settings.width < 2000 %}
+                (min-width: 1300px) calc({{ settings.width }}px * 0.5)
+              {% endif %}
+              (min-width: 760px) calc(100vw * 0.5)
+              100vw
+            "
+            width="410"
+            height="310"
+            alt="{{ article.image.alt | default: article.title | escape }}"
+            loading="{% if lazyload %}lazy{% else %}eager{% endif %}"
+          >
+        {% else %}
+          {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+        {% endif %}
+      </picture>
+    </figure>
+  {% endif %}
+  <h3>
+    {% if show_author or show_date %}
+    <span class="small">
+      {%- if show_date %}{{ date }}{%- endif -%}
+      {% if show_author and show_date %}, {% endif %}
+      {%- if show_author -%}{{ 'blog.written_by' | t }} {{ author }}{%- endif -%}
+    </span>
+    {% endif %}
+    <a href="{{ article.url }}">{{ title }}</a>
+  </h3>
+  {%- if show_excerpt -%}
+    {%- if article.excerpt_or_content.size > 0 -%}
+      <p class="mobile-hide{% if show_link %} m0{% endif %}">
+        {{ article.excerpt_or_content | strip_html | truncatewords: 25 }}
+      </p>
+    {%- endif -%}
+  {% endif %}
+  <p class="{% unless show_link %} link-btn{% endunless %} button-palette-{{ button_color_palette }}"><a href="{{ article.url }}" class="no-before {% if show_link %}strong{% elsif settings.button_style == 'inv' %}inv{% endif %}">{{ 'general.read_more.read_more' | t }}{% if show_link %}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i>{% endif %}</a></p>
+</li>

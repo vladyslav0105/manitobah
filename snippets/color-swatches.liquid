@@ -1,0 +1,14 @@
+{% assign colors = settings.color_swatch_hexes | newline_to_br | strip_newlines | replace: '<br />', ',' | split: ',' %}
+<style>
+    {%- for color in colors -%}
+        {% assign hex = color | split: ':' | last %}
+        .swatch-custom-color-{{ color | split: ':' | first | handleize }} {
+            {% if hex contains '-' %}
+                {% assign hex = hex | split: '-' %}
+                background: linear-gradient(135deg, {{ hex | first }} 0%,{{ hex | first }} 49%,{{ hex | last }} 50%,{{ hex | last }} 100%)!important;
+            {% else %}
+                background-color: {{ hex }}!important;
+            {% endif %}
+        }
+    {%- endfor -%}
+</style>

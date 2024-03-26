@@ -1,0 +1,51 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- liquid
+    assign cookies = false
+    if settings.age_verify_popup_cookie_text != empty and settings.show_cookiebanner != 'none'
+        assign cookies = true
+    endif
+    if settings.age_verify_popup_testmode
+        assign cookies = true
+    endif
+-%}
+
+<article class="popup-a w360 popup-blocker" data-title="age-verifier-popup" data-popup-delay="0">
+    {%- if settings.age_verify_popup_image -%}
+        {%- assign default_alt = settings.age_verify_popup_title %}
+        <figure class="text-center no-border m30">
+            <img
+                src="{{ settings.age_verify_popup_image | image_url }}"
+                srcset="{% render 'image-srcset', image: settings.age_verify_popup_image %}"
+                sizes="
+                  (min-width: 760px) 235,
+                  100vw
+                "
+                width="235"
+                height="55"
+                alt="{{ settings.age_verify_popup_image.alt | default: default_alt | escape }}"
+                loading="lazy"
+            >
+        </figure>
+    {%- endif -%}
+    <section data-element="blocker-info">
+        {%- if settings.age_verify_popup_title != empty -%}
+            <header>
+                <h2>{{ settings.age_verify_popup_title }}</h2>
+            </header>
+        {%- endif -%}
+        {{ settings.age_verify_popup_text }}
+        {%- if cookies -%}<span class="age-verifier-popup-cookie-text">{{ settings.age_verify_popup_cookie_text }}</span>{%- endif -%}
+        <p class="link-btn">
+            <a href="./" class="close{% if cookies %} cookie-accept{% endif %}{% if settings.button_style == 'inv' %} inv{% endif %}">{{ settings.age_verify_popup_accept_text }}</a>
+            <a href="./" class="inline overlay-gray" data-enable="blocker-too-young" data-disable="blocker-info">{{ settings.age_verify_popup_deny_text }}</a>
+        </p>
+    </section>
+    <section class="hidden" data-element="blocker-too-young">
+        {%- if settings.age_verify_popup_denied_title != empty -%}
+            <header>
+                <h2>{{ settings.age_verify_popup_denied_title }}</h2>
+            </header>
+        {%- endif -%}
+        {{ settings.age_verify_popup_denied_text }}
+    </section>
+</article>

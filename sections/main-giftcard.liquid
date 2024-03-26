@@ -1,0 +1,192 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- liquid
+  if section.settings.image
+    assign has_image = true
+  else
+    assign has_image = false
+  endif
+  assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros: gift_card.currency
+  assign formatted_initial_value_stripped = formatted_initial_value | strip_html
+  assign gift_card_expiry_date = gift_card.expires_on | date: "%d/%m/%y"
+  assign balance = gift_card.balance | money
+-%}
+
+{%- if has_image -%}<article class="w630 align-center">{%- else -%}<div class="text-center align-center" style="margin-top:45px">{%- endif -%}
+  {%- if section.settings.show_logo -%}
+    <figure class="m65">
+      {%- if section.settings.logo -%}
+        <img class="logo"
+          srcset="{%- render 'image-srcset', image: section.settings.logo, max_width: 500 -%}"
+          src="{{ section.settings.logo | image_url: width: section.settings.logo_width }}"
+          width="{{ section.settings.logo_width }}"
+          height="36"
+          alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+          loading="eager"
+        >
+      {%- else -%}
+        <h2>{{ shop.name }}</h2>
+      {%- endif -%}
+    </figure>
+  {%- endif -%}
+  <h1 class="{% if has_image %}m15{% else %}m5{% endif %}">
+    {{ 'gift_cards.issued.title' | t: name: gift_card.customer.first_name }}
+  </h1>
+  {% unless gift_card.properties == empty %}
+    <p>
+      {% for property in gift_card.properties %}
+        {{ property.first }}: {{ property.last }}{%- unless forloop.last -%}</br>{%- endunless -%}
+      {% endfor %}
+    </p>
+  {% endunless %}
+  <p class="{% if has_image %}m30{% else %}m40 size-18{% endif %}">
+    <p>{{ 'gift_cards.issued.redeem_html' | t: value: formatted_initial_value_stripped }}</p>
+  </p>
+  <div class="m6gf {% unless has_image %}strong{% endunless %}">
+    {%- if section.settings.show_logo_giftcard -%}
+      <figure>
+        {%- if section.settings.logo -%}
+          <img class="logo"
+            srcset="{%- render 'image-srcset', image: section.settings.logo, max_width: 500 -%}"
+            src="{{ section.settings.logo | image_url: width: section.settings.logo_width_on_giftcard }}"
+            width="{{ section.settings.logo_width_on_giftcard }}"
+            height="36"
+            alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+            loading="eager"
+          >
+        {%- else -%}
+          <h2>{{ shop.name }}</h2>
+        {%- endif -%}
+      </figure>
+    {%- endif -%}
+    {% capture message %}
+      {%- if gift_card.enabled == false -%}
+        <p>{{ 'gift_cards.issued.disabled' | t }}</p>
+      {%- elsif gift_card.expired and gift_card.enabled -%}
+        <p>{{ 'gift_cards.issued.expired' | t: expiry: gift_card_expiry_date }}</p>
+      {%- elsif gift_card.expired == false and gift_card.expires_on and gift_card.enabled -%}
+        <p>{{ 'gift_cards.issued.active' | t: expiry: gift_card_expiry_date }}</p>
+      {%- elsif gift_card.balance != gift_card.initial_value -%}
+        <p>{{ 'gift_cards.issued.remaining_html' | t: balance: balance }}</p>
+      {%- else -%}
+        <p>{{ 'gift_cards.issued.giftcard' | t }}</p>
+      {%- endif -%}
+    {% endcapture %}
+    {{ message | remove: 'Liquid error (sections/main-giftcard.liquid line 68): internal' }}
+  </div>
+  <div class="m6qr {% unless has_image %}m35{% endunless %}">
+    <figure id="QrCode" class="giftcard-qr" data-identifier="{{ gift_card.qr_identifier }}"></figure>
+    <h2>{{ gift_card.code | format_code }}</h2>
+    <p><a href="./" data-copy="{{ gift_card.code | format_code }}"><span>{{ 'gift_cards.issued.copy_code' | t }}</span> <span class="hidden">{{ 'gift_cards.issued.copied_code' | t }}</span></a></p>
+  </div>
+  <p class="link-btn {% unless has_image %}single{% endunless %}">
+    <a href="{{ routes.root_url }}">  {{ 'gift_cards.issued.shop_link' | t }}</a>
+    <a href="./" class="inline link-print overlay-content"><i aria-hidden="true" class="icon-print"></i> {{ 'gift_cards.issued.print_page' | t }}</a>
+  </p>
+  {%- if gift_card.pass_url -%}<a href="{{ gift_card.pass_url }}"><img src="{{ 'gift-card/add-to-apple-wallet.svg' | shopify_asset_url }}" width="120" height="40" alt="{{ 'gift_cards.issued.add_to_apple_wallet' | t }}"></a>{%- endif -%}
+{%- if has_image -%}</article>{%- else -%}</div>{%- endif -%}
+{%- if has_image -%}
+<figure id="background">
+  <span class="img-overlay hidden"></span>
+  <img
+    src="{{ section.settings.image | image_url: width: 1400 }}"
+    srcset="{% render 'image-srcset', image: section.settings.image %}"
+    sizes="
+      (min-width: 760) 50vw
+      100vw
+    "
+    width="1400"
+    height="846"
+    alt="{{ section.settings.image.alt | default: shop.name | escape }}"
+    loading="lazy"
+  >
+</figure>
+{%- endif -%}
+
+{% style %}
+.m6gf {
+  color:{{ section.settings.giftcard_text_color }};
+  background-color:{{ section.settings.giftcard_background_color }};
+}
+.m6gf h2 {
+  color:{{ section.settings.giftcard_text_color }};
+}
+{% endstyle %}
+
+<script>
+  {%- if has_image -%}
+    document.documentElement.classList.add('t1as');
+    document.documentElement.classList.remove('t1pl');
+  {%- endif -%}
+</script>
+
+
+{% schema %}
+{
+  "name": "t:main.giftcard.name",
+  "settings": [
+    {
+      "id": "image",
+      "type": "image_picker",
+      "label": "t:main.giftcard.settings.image.label",
+      "info": "t:main.giftcard.settings.image.info"
+    },
+    {
+      "type": "header",
+      "content": "t:main.giftcard.settings.logo.header"
+    },
+    {
+      "id": "show_logo",
+      "type": "checkbox",
+      "label": "t:main.giftcard.settings.logo.show_logo.label",
+      "default": true
+    },
+    {
+      "id": "logo",
+      "type": "image_picker",
+      "label": "t:main.giftcard.settings.logo.logo.label"
+    },
+    {
+      "id": "logo_width",
+      "type": "range",
+      "label": "t:main.giftcard.settings.logo.logo_width.label",
+      "min": 100,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 250
+    },
+    {
+      "id": "show_logo_giftcard",
+      "type": "checkbox",
+      "label": "t:main.giftcard.settings.logo.show_logo_giftcard.label",
+      "default": true
+    },
+    {
+      "id": "logo_width_on_giftcard",
+      "type": "range",
+      "label": "t:main.giftcard.settings.logo.logo_width_on_giftcard.label",
+      "min": 100,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 130
+    },
+    {
+      "type": "header",
+      "content": "t:main.giftcard.settings.giftcard.header"
+    },
+    {
+      "id": "giftcard_background_color",
+      "type": "color",
+      "label": "t:main.giftcard.settings.giftcard.giftcard_background_color.label",
+      "default": "#eb5757"
+    },
+    {
+      "id": "giftcard_text_color",
+      "type": "color",
+      "label": "t:main.giftcard.settings.giftcard.giftcard_text_color.label",
+      "default": "#ffffff"
+    }
+  ]
+}
+{% endschema %}

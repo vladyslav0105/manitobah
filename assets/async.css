@@ -1,0 +1,61 @@
+
+/*! Async - Mixins --------- */
+/* show */	.changed .swiper-custom-fraction .swiper-pagination-current, .changed ~ .swiper-custom-pagination .swiper-custom-fraction .swiper-pagination-current { visibility: visible; opacity: 1; }
+
+.slider-fraction.changed .swiper-custom-pagination .swiper-pagination-current, .slider-fraction.changed .swiper-custom-pagination .swiper-button-prev, .slider-fraction .changed .swiper-custom-pagination .swiper-pagination-current, .slider-fraction .changed .swiper-custom-pagination .swiper-button-prev, .slider-fraction.changed .swiper-custom-pagination .swiper-button-prev, .slider-fraction .changed ~ .swiper-custom-pagination .swiper-button-prev, .no-thumbs-mobile.changed .swiper-pagination-current, .no-thumbs-mobile.changed ~ .swiper-custom-pagination .swiper-pagination-current { visibility: visible; opacity: 1; }
+
+
+/*! Async - Forms --------- */
+.f8ps, .overlay-close { transition-property: all; transition-duration: 0.4s; transition-timing-function: cubic-bezier(.4,0,.2,1); transition-delay: 0s; }
+.f8ps, .has-panels .m6pn, #nav-user > ul > li > form, .l4cl/*.category*/ li, .l4cl/*.category*/ .li, .has-filters .m6cl > aside, #cookie-bar { transition-property: transform, visibility, opacity; }
+
+#root button.disabled, .shopify-section-header li.disabled, button[disabled], input[type="button"][disabled], input[type="reset"][disabled], input[type="submit"][disabled], .no-click { cursor: default; pointer-events: none; }
+
+
+/*! Async - Helpers --------- */
+button:after, .check.switch label:before, .link-btn a:after, button:before, .link-btn a:before, .shopify-section-announcement-bar a.close, .l4cl/*.category*/ li, .l4cl/*.category*/ .li, .l4cl/*.category*/ a:after, #root, #nav-user > ul > li > a i span:before, .custom-progressbar > *, #nav-user > ul > li > form, #nav-user > ul > li > form ~ .toggle, .has-filters #root > .f8fl-toggle, .has-filters .m6cl > aside, #cookie-bar, .fancybox__slide, .l4ft figure img, .l4cl.inline .li, .l4cl.inline li, .l4cl.inline a:after, .l4ne li, .l4ne a:before, .swiper-pagination-bullet:before, /*.fancybox__container .carousel__button,*/ .l4cl .link-btn, .l4al a.close, img, video, iframe, picture, #root > .m6pn-close, .icon-chevron-right, .icon-chevron-left, .l4cl figure .link-btn, .l4cl figure form, .l4ft li, #totop, .l4us.wide.s4wi .swiper-slide { transition-property: all; transition-duration: 0.4s; transition-timing-function: cubic-bezier(.4,0,.2,1); transition-delay: 0s; }
+#root, #totop { transition-property: padding; }
+#nav-user > ul > li > form, .l4cl/*.category*/ li, .l4cl/*.category*/ .li, .has-filters .m6cl > aside, #cookie-bar, .icon-chevron-left, .icon-chevron-right, .l4cl figure .link-btn, .l4cl figure form, .l4ft li, .l4us.wide.s4wi .swiper-slide { transition-property: transform, visibility, opacity; }
+#nav-user > ul > li > form ~ .toggle, .fancybox__slide, img, video, iframe, picture, #root > .m6pn-close { transition-property: visibility, opacity; }
+ .l4cl .link-btn { transition-property: transform, visibility, opacity; } 
+.check.switch label:before { transition-property: left, right; }
+#search button:before, .fancybox__container .carousel__button:before { transition: none; }
+
+.m6fr .swiper-slide, .swiper-button-prev, .swiper-button-next { transition-property: all; transition-duration: 0.4s; transition-timing-function: cubic-bezier(.4,0,.2,1); transition-delay: 0s; }
+.swiper-button-prev, .swiper-button-next { transition-property: height; }
+
+
+/*! Async - Miscellaneous --------- */
+::selection { background: var(--secondary_bg); color: var(--white); text-shadow: none; opacity: 1; }
+::-moz-selection { background: var(--secondary_bg); color: var(--white); text-shadow: none; opacity: 1; }
+
+
+/*! Async -Outlines --------- */
+[role="button"], a { outline: none; }
+[data-whatin="keyboard"] a:focus, [data-whatin="keyboard"] button:focus, [data-whatin="keyboard"] button[role="button"]:focus, [data-whatin="keyboard"] summary:focus, [data-whatin="keyboard"] input:focus, [data-whatin="keyboard"] select:focus, [data-whatin="keyboard"] textarea:focus, [data-whatin="keyboard"] .shopify-section-header > input:focus + label, [data-whatin="keyboard"] #header > input:focus + label, [data-whatin="keyboard"] #header-inner > input:focus + label, [data-whatin="keyboard"] #nav > ul > li > input:focus ~ label, [data-whatin="keyboard"] .check input:focus ~ label:before, [data-whatin="keyboard"] [role="button"]:focus { outline-offset: 2px; outline-width: 2px; outline-style: solid; outline-color: var(--secondary_bg); }
+[data-whatin="keyboard"] button:focus, [data-whatin="keyboard"] .link-btn a:focus { outline-offset: 2px; }
+[data-whatin="keyboard"] .l4ft figure a:focus:after, [data-whatin="keyboard"] .l4ps li a:focus:after, [data-whatin="keyboard"] .l4ps .li a:focus:after, [data-whatin="keyboard"] .l4pr .li a:focus:after { content: ""; display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 9; border: 2px solid var(--secondary_bg); }
+[data-whatin="mouse"] input:focus, [data-whatin="mouse"] select:focus, [data-whatin="mouse"] textarea:focus, [data-whatin="keyboard"] .l4ps li a:focus, [data-whatin="keyboard"] .l4pr li a:focus { outline: none; }
+[data-whatin="touch"] button, [data-whatin="touch"] a, [data-whatin="touch"] input, [data-whatin="touch"] select, [data-whatin="touch"] textarea, [data-whatin="touch"] [role="button"] { outline: none !important; }
+
+
+/* Animations --------- */
+.fade-me-out { -webkit-animation-duration: .4s; animation-duration: .4s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-name: fade-up; animation-name: fade-up; }
+	#root > .l4al li.fade-me-out { -webkit-animation-name: fade-right; animation-name: fade-right; }		
+
+@-webkit-keyframes fade-up { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-10px); } }
+@keyframes fade-up { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateY(-10px); transform: translateY(-10px); } }
+@-webkit-keyframes fade-down { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateY(10px); transform: translateY(10px); } }
+@keyframes fade-down { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateY(10px); transform: translateY(10px); } }
+@-webkit-keyframes fade-left { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateX(-10px); transform: translateX(-10px); } }
+@keyframes fade-left { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateX(-10px); transform: translateX(-10px); } }
+@-webkit-keyframes fade-right { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateX(10px); transform: translateX(10px); } }
+@keyframes fade-right { 0% { visibility: visible; opacity: 1; -webkit-transform: none; transform: none; } 100% { visibility: hidden; opacity: 0; -webkit-transform: translateX(10px); transform: translateX(10px); } }
+
+@keyframes spin { 0% { -webkit-transform: none; transform: none; } 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+@-webkit-keyframes spin { 0% { -webkit-transform: none; transform: none; } 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+
+
+@media only screen and (max-width: 1000px) { /* 1000 */
+/*.shopify-section-header > a.close, #header > a.close { transition-property: all; transition-duration: .4s; transition-timing-function: cubic-bezier(.4,0,.2,1); transition-delay: 0s; }*/
+}

@@ -1,0 +1,92 @@
+<nav class="n6br{% if settings.breadcrumbs_font == 'primary' %} title-font{% endif %}" role="navigation" aria-label="breadcrumbs">
+  <ol class="{% if hide_desktop %}desktop-hide{% endif %}{% if hide_mobile or template.name == 'product' %} mobile-hide{% endif %}">
+
+    <li>
+      <a href="/" title="Home">{{ 'general.breadcrumbs.home' | t }}</a>
+    </li>
+
+    {% if template.name == 'collection' and collection.handle %}
+      {% if current_tags %}
+        {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
+        <li>
+          {{ collection.title | link_to: url }}
+        </li>
+        <li>
+          {% for tag in current_tags %}
+            {% assign filter = tag | split: ':' | last %}
+            {{ filter | capitalize }} {% unless forloop.last %}+ {% endunless %}
+          {% endfor %}
+        </li>
+      {% else %}
+        <li>
+          {{ collection.title }}
+        </li>
+      {% endif %}
+
+    {% elsif template.name == 'blog' %}
+      <li>
+        {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
+      </li>
+      <li>
+        {{ blog.title | capitalize }}
+      </li>
+
+    {% elsif template.name == 'article' %}
+      <li>
+        {{ 'blog.breadcrumb' | t | capitalize | link_to: blog.url }}
+      </li>
+      <li>
+        {{ blog.title | link_to: blog.url }}
+      </li>
+      <li>
+        {{ article.title }}
+      </li>
+
+    {% elsif template.name == 'page' %}
+     <li>
+       {{ page.title }}
+     </li>
+
+    {% elsif page_title == 'Account' and template.name != 'account' %}
+      <li>
+        {{ page_title }}
+      </li>
+      <li>
+        {{ template.name | capitalize }}
+      </li>
+
+    {% elsif template.name == 'search' %}
+    <li>
+      {{ 'search.title' | t }}
+    </li>
+
+    {% elsif template.name == 'cart' %}
+    <li>
+      {{ 'cart.title' | t }}
+    </li>
+
+    {% elsif template.name == 'product' and product != blank %}
+    <li>
+        {{ product.title }}
+    </li>
+
+    {% elsif template.suffix != nil %}
+    <li>
+      {{ template.suffix | capitalize }}
+    </li>
+
+    {% else %}
+     <li>
+       {{ page_title }}
+     </li>
+
+    {% endif %}
+  </ol>
+
+  {%- if template.name == 'product' and hide_mobile == false -%}
+      <p class="mobile-only cols cols-mobile">
+          <a class="breadcrumb-back"><i aria-hidden="true" class="icon-chevron-left size-content"></i> <span class="hidden">{{ 'general.breadcrumbs.back' | t }}</span></a>
+         {% if enable_share_button %}<a href="./" data-share="./" role="button" class="align-end"><i aria-hidden="true" class="icon-upload"></i> <span class="hidden">{{ 'social_share.share_this_product' | t }}</span></a>{% endif %}
+      </p>
+  {%- endif -%}
+</nav>

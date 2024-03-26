@@ -1,0 +1,55 @@
+/*! Mode Accessible --------- */
+.t1ac {	
+    --gray_text:    #333333; 
+	--coal:         #000000;
+	--lime:         #416300;
+	--wine:         #c9383e;
+	
+	/*--secondary_bg:         #cb3d07;
+	--secondary_bg_dark:    #bf3600;
+	--secondary_bg_fade:    #c97757;
+	
+	--tertiary_bg_dark:     #375400;
+	--tertiary_bg_fade:     #7e8f5d;*/
+	
+	--main_fz: 16px;
+	--main_h1: 34px;
+	--main_h2: 26px;
+	--main_h3: 24px;
+	--main_h4: 18px;
+	--main_h5: 18px;
+	--main_h6: 18px;
+	--main_lead: 22px;
+	
+	--mob_fz: 16px;
+	--mob_h1: 22px;
+	--mob_h2: 20px;
+	--mob_h3: 18px;
+	--mob_h4: 16px;
+	--mob_h5: 16px;
+	--mob_h6: 16px;
+	--mob_lead: 20px;
+	
+	--size_8_f: 12px;
+	--size_10_f: 12px;
+	--size_12_f: 14px;
+	--size_13_f: 14px;
+	--size_14_f: 16px;
+	--size_16_f: 18px;
+	--size_18_f: 20px;
+	--size_20_f: 22px;
+	--size_22_f: 24px;
+	--size_24_f: 26px;
+	--size_26_f: 28px;
+	--size_28_f: 30px;
+	--size_30_f: 32px;
+	--size_32_f: 34px;
+	--size_34_f: 36px;
+	--size_36_f: 38px;
+	--size_38_f: 40px;
+	
+	--sale_label_fz: var(--size_12_f);
+}
+.t1ac #nav, .t1ac #nav-bar { --main_fz: 15px; }
+.input-amount, .input-amount input, .f8ps .input-amount input, .l4ca.compact .input-amount { width: 64px; }
+.t1ac .icon-text-size:before { content: "\e97e"; }

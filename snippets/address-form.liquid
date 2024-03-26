@@ -1,0 +1,74 @@
+{%- liquid
+  if address
+    assign form_id = address.id
+    assign title = 'customer.addresses.edit_address' | t
+    assign button = 'customer.addresses.confirm_edit' | t
+  else
+    assign address = customer.new_address
+    assign form_id = 'new'
+    assign title = 'customer.addresses.add_address_title' | t
+    assign button = 'customer.addresses.add' | t
+  endif
+  assign address_form_class = 'address-form f8lg hidden'
+  assign address_form_data_element = 'address-' | append: form_id | append: '-form'
+-%}
+{%- form 'customer_address', address, class: address_form_class, data-element: address_form_data_element, data-address-form: '' -%}
+  <fieldset>
+    <legend>{{ title }}</legend>
+    <h2 class="size-18 m20">{{ title }}</h2>
+    <div class="cols">
+      <p class="w50">
+        <label for="first_name_{{ form.id }}">{{ 'customer.addresses.first_name' | t }}<span class="overlay-theme">*</span></label>
+        <input type="text" id="first_name_{{ form.id }}" name="address[first_name]" placeholder="{{ 'customer.addresses.first_name' | t }}" value="{{ form.first_name }}" required>
+      </p>
+      <p class="w50">
+        <label for="last_name_{{ form.id }}">{{ 'customer.addresses.last_name' | t }}<span class="overlay-theme">*</span></label>
+        <input type="text" id="last_name_{{ form.id }}" name="address[last_name]" placeholder="{{ 'customer.addresses.last_name' | t }}" value="{{ form.last_name }}" required>
+      </p>
+    </div>
+    <p>
+      <label for="company_name_{{ form.id }}">{{ 'customer.addresses.company' | t }}</label>
+      <input type="text" id="company_name_{{ form.id }}" name="address[company]" placeholder="{{ 'customer.addresses.company' | t }}" value="{{ form.company }}">
+    </p>
+    <p>
+      <label for="country_{{ form.id }}">{{ 'customer.addresses.country' | t }}<span class="overlay-theme">*</span></label>
+      <select id="country_{{ form.id }}" name="address[country]" class="address-country-option" data-search-placeholder="{{ 'customer.addresses.search_country' | t }}" data-form-id="{{ form.id }}" data-default="{{ form.country }}">
+        <option value="" selected disabled>{{ 'customer.addresses.country' | t }}</option>
+        {{ all_country_option_tags }}
+      </select>
+    </p>
+    <p class="address-provinces" style="display: none">
+      <label for="province_{{ form.id }}">{{ 'customer.addresses.province' | t }}</label>
+      <select id="province_{{ form.id }}" name="address[province]" class="address-province-option" data-form-id="{{ form.id }}" data-default="{{ form.province }}">
+        <option value="" selected disabled>{{ 'customer.addresses.province' | t }}</option>
+      </select>
+    </p>
+    <p>
+      <label for="address_1_{{ form.id }}">{{ 'customer.addresses.address1' | t }}<span class="overlay-theme">*</span></label>
+      <input type="text" id="address_1_{{ form.id }}" name="address[address1]" placeholder="{{ 'customer.addresses.address1' | t }}" value="{{ form.address1 }}" required>
+    </p>
+    <p>
+      <label for="address_2_{{ form.id }}">{{ 'customer.addresses.address2' | t }}</label>
+      <input type="text" id="address_2_{{ form.id }}" name="address[address2]" placeholder="{{ 'customer.addresses.address2' | t }}" value="{{ form.address2 }}">
+    </p>
+    <p>
+      <label for="postal_code_{{ form.id }}">{{ 'customer.addresses.zip' | t }}</label>
+      <input type="text" id="postal_code_{{ form.id }}" name="address[zip]" placeholder="{{ 'customer.addresses.zip' | t }}" value="{{ form.zip }}">
+    </p>
+    <p>
+      <label for="city_{{ form.id }}">{{ 'customer.addresses.city' | t }}</label>
+      <input type="text" id="city_{{ form.id }}" name="address[city]" placeholder="{{ 'customer.addresses.city' | t }}" value="{{ form.city }}">
+    </p>
+    <p class="m20">
+      <label for="phone_{{ form.id }}">{{ 'customer.addresses.phone' | t }}</label>
+      <input type="tel" id="phone_{{ form.id }}" name="address[phone]" minlength="4" placeholder="{{ 'customer.addresses.phone' | t }}" value="{{ form.phone }}">
+    </p>
+    <p class="check">
+      <span>{{ form.set_as_default_checkbox }} <label for="address_default_address_{{ form.id }}"> {{ 'customer.addresses.set_default' | t }}</label></span>
+    </p>
+    <p class="submit">
+      <button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ button }}</button>
+      <button type="reset" class="inline" data-disable="{{ address_form_data_element }}">{{ 'customer.addresses.cancel' | t }}</button>
+    </p>
+  </fieldset>
+{%- endform -%}

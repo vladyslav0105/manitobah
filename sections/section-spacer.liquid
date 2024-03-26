@@ -1,0 +1,44 @@
+<div class="module-spacer desktop-only" style="margin-bottom:{{ section.settings.height }}px;"></div>
+<div class="module-spacer desktop-hide" style="margin-bottom:{{ section.settings.height_mobile }}px;"></div>
+
+{% schema %}
+{
+  "name": "t:sections.spacer.name",
+  "disabled_on": {
+    "groups": [
+      "header"
+    ]
+  },
+  "settings": [
+    {
+      "id": "height",
+      "type": "range",
+      "label": "t:sections.spacer.settings.height.label",
+      "min": -300,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "t:sections.spacer.settings.mobile.header"
+    },
+    {
+      "id": "height_mobile",
+      "type": "range",
+      "label": "t:sections.spacer.settings.mobile.height_mobile.label",
+      "min": -300,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.spacer.presets.name"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,355 @@
+<link href="{{ 'async-validation.css' | asset_url }}" rel="preload" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ 'async-validation.css' | asset_url }}"></noscript>
+
+{%- liquid
+  assign display = display | default: 'filters'
+  assign origin = origin | default: 'collection'
+  assign object = object | default: collection
+  assign show_amount_of_products = show_amount_of_products | default: false
+  assign show_collection_image = show_collection_image | default: false
+  assign show_filters = show_filters | default: false
+  assign layout = layout | default: 'static'
+
+  assign collection_grid_view = collection_grid_view | default: 'w33'
+  assign collection_img_view = collection_img_view | default: 'first'
+  if origin == "collection"
+    assign amount_of_products = collection.products_count | default: 0
+    assign amount_of_products_translation = 'collection.amount_of_products'
+  elsif origin == "search"
+    assign amount_of_products = search.results_count | default: 0
+    assign amount_of_products_translation = 'search.amount_of_results'
+  endif
+
+  assign quick_links = quick_links | default: empty
+  assign collections_menu = collections_menu | default: empty
+  if quick_links != empty
+    assign has_quick_links = true
+  endif
+  if collections_menu != empty
+    assign has_quick_links = true
+  endif
+-%}
+
+{%- if display == 'filters' or display == 'menu' -%}
+  {%- liquid
+    assign filters = filters | default: object.filters
+    for filter in filters
+      if filter.active_values != null and filter.active_values != empty
+        assign has_active_filters = true
+        break
+      endif
+      if filter.type == "price_range"
+        if filter.min_value.value != nil or filter.max_value.value != nil
+          if filter.min_value.value != filter.range_min and filter.max_value.value != filter.range_max
+            assign has_active_filters = true
+            break
+          endif
+        endif
+      endif
+    endfor
+  -%}
+  {%- liquid
+    assign show_n6as = false
+    if display != 'filters' or layout == 'static'
+      if has_quick_links
+        assign show_n6as = true
+      elsif object.image and show_collection_image
+        assign show_n6as = true
+      endif
+    endif
+  -%}
+  {%- if show_n6as -%}
+    <nav class="n6as mobile-hide">
+      {%- if object.image and show_collection_image -%}
+        <figure class="mobile-hide {% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}">
+          <img
+            src="{{ object.image | image_url: width: 350 }}"
+            srcset="{% render 'image-srcset', image: object.image, max_width: 350 %}"
+            sizes="
+              (min-width: 1000px) 245
+              0
+            "
+            alt="{{ object.image.alt | default: object.title | escape }}"
+            width="245"
+            height="245"
+            loading="lazy"
+          >
+        </figure>
+      {%- endif -%}
+      {%- if has_quick_links -%}
+        <ul>
+          <li><a href="{{ routes.collections_url }}">{{ 'collection.view_all_collections' | t }}</a></li>
+          {%- liquid
+            assign handles = empty
+            assign collection_links = quick_links.links | where: 'type', 'collection_link'
+            assign collection_links_handles = collection_links | map: 'handle'
+            assign handles = handles | concat: collection_links_handles
+          -%}
+          {%- for link in quick_links.links -%}
+          <li class="{% if link.active or link.child_active %}strong toggle{% endif %}">
+            <a href="{{ link.url }}">{{ link.title }}</a>
+            {%- if link.links != blank -%}
+              {%- liquid
+                assign collection_links = link.links | where: 'type', 'collection_link'
+                assign collection_links_handles = collection_links | map: 'handle'
+                assign handles = handles | concat: collection_links_handles
+              -%}
+              <a href="./" class="toggle">{{ 'general.accessibility.toggle' | t: item: link.title }}</a>
+              <ul>
+                {%- for sublink in link.links -%}
+                  {%- liquid
+                    assign collection_links = sublink.links | where: 'type', 'collection_link'
+                    assign collection_links_handles = collection_links | map: 'handle'
+                    assign handles = handles | concat: collection_links_handles
+                  -%}
+                  <li class="{% if sublink.active or sublink.child_active %}strong toggle{% endif %}">
+                    <a href="{{ sublink.url }}">{{ sublink.title }}</a>
+                    {%- if sublink.links != blank -%}
+                      <a href="./" class="toggle">{{ 'general.accessibility.toggle' | t: item: sublink.title }}</a>
+                      <ul>
+                        {%- for subsublink in sublink.links -%}
+                          {%- liquid
+                            assign collection_links = subsublink.links | where: 'type', 'collection_link'
+                            assign collection_links_handles = collection_links | map: 'handle'
+                            assign handles = handles | concat: collection_links_handles
+                          -%}
+                          <li class="{% if subsublink.active %}strong{% endif %}">
+                            <a href="{{ subsublink.url }}">{{ subsublink.title }}</a>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
+                    {%- endif -%}
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+          {%- for collection in collections_menu -%}
+            {% unless handles contains collection.handle %}
+              <li class="{% if collection.handle == object.handle %}active toggle{% endif %}">
+                <a href="{{ collection.url }}">{{ collection.title }}</a>
+              </li>
+            {% endunless %}
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+    </nav>
+  {%- endif %}
+  {%- if display == 'filters' -%}
+    <form action="" method="get" class="f8fl" id="filter" data-template="{{ section.id }}" data-drawer="{{ layout }}">
+      {%- if search.performed -%}<input type="hidden" name="q" value="{{ search.terms | escape }}">{%- endif -%}
+      {%- if show_filters -%}
+          <fieldset>
+            <legend>{{ 'collection.filters.filter' | t }}</legend>
+            <header>
+              <h3>
+                {%- if has_active_filters -%}<span class="desktop-only">{{ 'collection.filters.current_filters' | t }}</span>{%- endif -%}
+                <span {% if has_active_filters %}class="desktop-hide"{% endif %}>{{ 'collection.filters.filter' | t }}</span>
+                {%- if has_active_filters -%}<a href="{{ collection.url }}" class="desktop-hide remove-all">{{ 'collection.filters.remove_all_filters' | t }}</a>{%- endif -%}
+              </h3>
+              {%- if has_active_filters -%}
+                <ul class="desktop-only">
+                  {%- for filter in filters -%}
+                      {%- for value in filter.active_values -%}
+                        <li>
+                          <label for="Filter-{{ value.param_name }}-{{ value.value }}">
+                            <a href="{{ value.url_to_remove }}">
+                              <span>{{ filter.label | escape }}</span> {{ value.label | escape }}
+                            </a>
+                          </label>
+                        </li>
+                      {%- endfor -%}
+                      {% if filter.type == "price_range" %}
+                        {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+                          {%- if filter.min_value.value != filter.range_min and filter.max_value.value != filter.range_max -%}
+                            <li>
+                              <a href="{{ filter.url_to_remove }}" class="clear-range">
+                                <span>{{ filter.label | escape }}</span> {% if filter.min_value.value %}{{ filter.min_value.value | money }}{% else %}{{ filter.range_min | money }}{% endif %} - {% if filter.max_value.value %}{{ filter.max_value.value | money }}{% else %}{{ filter.range_max | money }}{% endif %}
+                              </a>
+                            </li>
+                          {%- endif -%}
+                        {%- endif -%}
+                      {% endif %}
+                  {%- endfor -%}
+                  <li class="strong"><a href="{{ collection.url }}" class="remove-all">{{ 'collection.filters.remove_all_filters' | t }}</a></li>
+                </ul>
+              {%- endif -%}
+            </header>
+              <div class="mobile-only">
+                  <h4 data-filter-toggle="sort_by">{{ 'collection.sort_by.sort_by_label' | t }}</h4>
+                  <ul class="check mobile-only">
+                      {%- for option in object.sort_options -%}
+                          <li><input type="radio" id="sort_by_{{ forloop.index }}" name="sort_by" value="{{ option.value }}" {% if option.value == sort_by %}checked{% endif %}> <label for="sort_by_{{ forloop.index }}">{{ option.name }}</label></li>
+                      {%- endfor -%}
+                  </ul>
+              </div>
+            {%- for filter in filters -%}
+              {%- case filter.type -%}
+                {%- when 'list' -%}
+                  {%- if filter.param_name == 'filter.v.availability' -%}
+                    {%- assign in_stock_filter = filter.values | where: 'value', '1' | first -%}
+                    <h4 data-filter-toggle="{{ filter.label | handleize }}" class="desktop-hide">{{ filter.label }}</h4>
+                    <ul class="check">
+                      <li>
+                        <input type="checkbox" name="{{ in_stock_filter.param_name }}" value="{{ in_stock_filter.value }}" id="Filter-{{ in_stock_filter.param_name }}-{{ in_stock_filter.value }}" {% if in_stock_filter.active %}checked{% endif %}>
+                        <label for="Filter-{{ in_stock_filter.param_name }}-{{ in_stock_filter.value }}" class="strong">
+                          <a href="{%- if in_stock_filter.active -%}{{ in_stock_filter.url_to_remove }}{%- else -%}{{ in_stock_filter.url_to_add }}{%- endif -%}">
+                            {{ in_stock_filter.label }}
+                          </a>
+                        </label>
+                      </li>
+                    </ul>
+                  {%- else -%}
+                  {%- liquid
+                      assign triggers = settings.color_swatch_name | newline_to_br | strip_newlines | replace: '<br />', ',' | split: ','
+                      if settings.enable_color_swatches and triggers contains filter.label
+                          assign is_color = true
+                          render 'color-swatches'
+                      else
+                          assign is_color = false
+                      endif
+                  -%}
+                    <h4 data-filter-toggle="{{ filter.label | handleize }}">{{ filter.label }}</h4>
+                    <ul class="check">
+                      {%- for filter_value in filter.values -%}
+                        <li>
+                          <input type="checkbox" name="{{ filter_value.param_name }}" value="{{ filter_value.value }}" id="Filter-{{ filter_value.param_name }}-{{ filter_value.value }}" {% if filter_value.active %}checked{% endif %}>
+                            <label for="Filter-{{ filter_value.param_name }}-{{ filter_value.value }}" class="align-middle">
+                                {% if filter.presentation == 'swatch' %}
+                                    {%- assign value = filter_value.display.value -%}
+                                    {% if filter_value.display.type == 'colors' %}
+                                        {% liquid
+                                            assign size_limit = value.size | at_most: 4
+                                            assign rotation = '0deg'
+                                            if size_limit == 2
+                                                assign rotation = '45deg'
+                                            endif
+                                            assign angle_increment = 360 | divided_by: size_limit
+                                            assign angle = 0
+                                        %}
+                                        {%- capture conic_gradient -%}
+                                            {%- for color in value limit: size_limit -%}
+                                                {{ color }} {{ angle }}deg{%- assign angle = angle | plus: angle_increment %} {{ angle }}deg{%- unless forloop.last %}, {%- endunless -%}
+                                            {%- endfor -%}
+                                        {%- endcapture -%}
+                                        <i aria-hidden="true" class="icon-circle" style="background: conic-gradient({{ conic_gradient }}); transform: rotateZ({{ rotation }});"></i>
+                                    {% elsif filter_value.display.type == 'image' %}
+                                        {%- liquid
+                                            case section.settings.image_swatches_size
+                                                when 'xs'
+                                                    assign width = 15
+                                                when 's'
+                                                    assign width = 30
+                                                when 'm'
+                                                    assign width = 45
+                                                when 'l'
+                                                    assign width = 60
+                                            endcase
+                                            assign width_2 = width | times: 2
+                                        -%}
+                                        <figure class="size-{{ section.settings.image_swatches_size }}{% if section.settings.image_swatches_fill_images %} cover{% if section.settings.image_swatches_show_in_circle %} rounded{% endif %}{% endif %}">
+                                            <picture>
+                                                <img src="{{ value | image_url: width: width }}"
+                                                     srcset="{{ value | image_url: width: width }} 1x,{{ value | image_url: width: width_2 }} 2x"
+                                                     alt="{{ value.label | escape }}"
+                                                     width="{{ width }}"
+                                                     height="{{ width }}"
+                                                     style="object-fit:{% if section.settings.image_swatches_fill_images %}cover{% else %}contain{% endif %};"
+                                                     loading="lazy"
+                                                >
+                                            </picture>
+                                        </figure>
+                                    {% endif %}
+                                {% elsif is_color %}
+                                    <i aria-hidden="true" class="icon-circle swatch-custom-color-{{ filter_value.label | handleize }}" style="background-color: {{ filter_value.label | split: ' ' | last }};"></i>
+                                {% endif %}
+                                <span>
+                                    {{ filter_value.label }} <span>({{ filter_value.count }})</span>
+                                </span>
+                            </label>
+                        </li>
+                      {%- endfor -%}
+                      {%- if filter.values.size > filters_show_more_limit -%}<li class="link-more"><a href="./" class="link-more strong" data-limit="{{ filters_show_more_limit }}">{{ 'general.read_more.show' | t }} <span>{{ 'general.read_more.more' | t }}</span> <span class="hidden">{{ 'general.read_more.less' | t }}</span> <i aria-hidden="true" class="icon-chevron-down"></i></a></li>{%- endif -%}
+                    </ul>
+                  {%- endif -%}
+                {%- when 'boolean' -%}
+                  <h4 data-filter-toggle="{{ filter.label | handleize }}">{{ filter.label }}</h4>
+                  <ul class="check">
+                    {%- for filter_value in filter.values -%}
+                      <li>
+                        <input type="checkbox" name="{{ filter_value.param_name }}" value="{{ filter_value.value }}" id="Filter-{{ filter_value.param_name }}-{{ filter_value.value }}" {% if filter_value.active %}checked{% endif %}>
+                        <label for="Filter-{{ filter_value.param_name }}-{{ filter_value.value }}"><a href="{%- if filter_value.active -%}{{ filter_value.url_to_remove }}{%- else -%}{{ filter_value.url_to_add }}{%- endif -%}">{{ filter_value.label }} <span>({{ filter_value.count }})</span></a></label>
+                      </li>
+                    {%- endfor -%}
+                    {%- if filter.values.size > filters_show_more_limit -%}<li class="link-more"><a href="./" class="link-more strong" data-limit="{{ filters_show_more_limit }}">{{ 'general.read_more.show' | t }} <span>{{ 'general.read_more.more' | t }}</span> <span class="hidden">{{ 'general.read_more.less' | t }}</span> <i aria-hidden="true" class="icon-chevron-down"></i></a></li>{%- endif -%}
+                  </ul>
+                {%- when 'price_range' -%}
+                  <h4 data-filter-toggle="{{ filter.label | handleize }}"><span class="desktop-only">{{ 'collection.filters.price.title' | t }}</span><span class="desktop-hide">{{ filter.label }}</span></h4>
+                  <p class="input-range">
+                    <span>
+                      <label for="min">{{ 'collection.filters.price.range_from' | t }}</label>
+                      <span class="input-prefix">
+                        <span>{{ cart.currency.symbol }}</span>
+                        <input type="number" id="min" name="{{ filter.min_value.param_name }}" value="{% if filter.min_value.value -%}{{ filter.min_value.value | ceil | divided_by: 100 }}{% else %}0{% endif %}" min="{{ filter.range_min | ceil | divided_by: 100 }}">
+                      </span>
+                    </span>
+                    <span>
+                      <label for="max">{{ 'collection.filters.price.range_to' | t }}</label>
+                      <span class="input-prefix">
+                        <span>{{ cart.currency.symbol }}</span>
+                        <input type="number" id="max" name="{{ filter.max_value.param_name }}" value="{% if filter.max_value.value -%}{{ filter.max_value.value | ceil | divided_by: 100 }}{% else %}{{ filter.range_max | ceil | divided_by: 100 }}{% endif %}" max="{{ filter.range_max | ceil | divided_by: 100 }}">
+                      </span>
+                    </span>
+                  </p>
+              {%- endcase -%}
+            {%- endfor -%}
+            <p class="link-btn submit desktop-hide"><a href="./" aria-controls="filter"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'collection.filters.show_products' | t: count: amount_of_products }} <span>({{ amount_of_products }})</span></a></p>
+          {%- endif -%}
+      </fieldset>
+    </form>
+  {%- endif %}
+
+{%- elsif display == 'sorting' -%}
+
+  <form action="./" method="post" class="f8sr mobile-compact {% if sticky %} mobile-sticky{% endif %}">
+    <fieldset>
+      {% if layout == 'drawer' and show_filters %}<p class="link-btn mobile-hide"><a {% if settings.button_style == 'inv' %} class="inv"{% endif %} href="./" data-panel="filters-aside" aria-label="Filters"><i aria-hidden="true" class="icon-filter"></i> Filter</a></p>{% endif %}
+      {%- if show_amount_of_products -%}
+        <h2 class="ff-{{ settings.body_font }}">{{ amount_of_products_translation | t: count: amount_of_products, amount: amount_of_products }}</h2>
+      {%- endif -%}
+      {%- if enable_image_choice and image_choice_1 != empty and image_choice_2 != empty -%}
+        <ul class="l4in mobile-hide" aria-controls="collection">
+          <li {% if collection_img_view == 'first' %}class="active"{% endif %}><a href="./" aria-label="Images display: {{ image_choice_1 | escape }}" data-collection_img_view="first">{{ image_choice_1 }}</a></li>
+          <li {% unless collection_img_view == 'first' %}class="active"{% endunless %}><a href="./" aria-label="Images display: {{ image_choice_2 | escape }}" data-collection_img_view="{{ collection_choice }}">{{ image_choice_2 }}</a></li>
+        </ul>
+      {%- endif -%}
+      <ul class="l4vw outline" aria-controls="collection">
+        <li {% if collection_grid_view == grid_1 %}class="active"{% endif %}><a href="./" aria-label="Grid display 1"><i aria-hidden="true" class="icon-view-square" data-collection_grid_view="{{ grid_1 }}"></i> <span class="hidden">Grid {{ grid_1 }}</span></a></li>
+        <li {% if collection_grid_view == grid_2 %}class="active"{% endif %}><a href="./" aria-label="Grid display 2"><i aria-hidden="true" class="icon-view-grid" data-collection_grid_view="{{ grid_2 }}"></i> <span class="hidden">Grid {{ grid_2 }}</span></a></li>
+        {%- if show_filters -%}<li class="mobile-only"><a {% if layout == 'drawer' %}data-panel="filters-aside"{% else %}href="#filter"{% endif %}><i aria-hidden="true" class="icon-filter"></i> <span>{{ 'collection.filters.filter' | t }}</span></a></li>{%- endif -%}
+      </ul>
+      <p class="mobile-hide">
+        <label for="sort_by">{{ 'collection.sort_by.sort_by' | t }}</label>
+        <select id="sort_by" name="sort_by">
+          {%- assign sort_by = object.sort_by | default: object.default_sort_by -%}
+          {%- for option in object.sort_options -%}
+            <option value="{{ option.value }}" {% if option.value == sort_by %}selected{% endif %}>{{ option.name }}</option>
+          {%- endfor -%}
+        </select>
+      </p>
+    </fieldset>
+  </form>
+
+{%- elsif display == 'filter-button' -%}
+
+  <form action="./" method="post" class="f8sr mobile-compact{% if layout == 'static' %} mobile-only{% endif %}{% if sticky %} mobile-sticky{% endif %}">
+    <fieldset>
+        <p class="link-btn mobile-hide"><a {% if layout == 'drawer' %}data-panel="filters-aside"{% else %}href="#filter"{% endif %}{% if settings.button_style == 'inv' %} class="inv"{% endif %}><i aria-hidden="true" class="icon-filter"></i> {{ 'collection.filters.filter' | t }}</a></p>
+        <ul class="l4vw mobile-only">
+            <li class="mobile-only"><a {% if layout == 'drawer' %}data-panel="filters-aside"{% else %}href="#filter"{% endif %}><i aria-hidden="true" class="icon-filter"></i> <span>{{ 'collection.filters.filter' | t }}</span></a></li>
+        </ul>
+    </fieldset>
+  </form>
+
+{%- endif -%}

@@ -1,0 +1,41 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- if settings.show_cookiebanner == 'banner' -%}
+  <footer id="cookie-bar">
+    <div id="cookie-inner">
+      <i aria-hidden="true" class="icon-cookie"></i>
+      {%- if settings.cookiebanner_text -%}{{ settings.cookiebanner_text }}{%- endif -%}
+      <p class="link-btn">
+        <a href="./" class="inline close cookie-decline">{{ 'cookiebanner.decline' | t }}</a>
+        <a href="./" class="close cookie-accept{% if settings.button_style == 'inv' %} inv{% endif %}">{{ 'cookiebanner.accept' | t }}</a>
+      </p>
+    </div>
+  </footer>
+{%- elsif settings.show_cookiebanner == 'popup' -%}
+  <article id="cookie" class="popup-a w690 box" data-title="cookies-popup" data-popup-delay="000" style="font-size:{{ settings.cookiebanner_font_size }};">
+    {%- if settings.cookiebanner_image -%}
+      <figure class="aside">
+        <picture>
+          <img
+            src="{{- settings.cookiebanner_image | image_url: width: 290, height: 268 -}}"
+            srcset="{{ settings.cookiebanner_image | image_url: width: 290, height: 268 }} 1x,{{ settings.cookiebanner_image | image_url: width: 580, height: 536 }} 2x"
+            width="290"
+            height="268"
+            alt="{{ settings.cookiebanner_image.alt | default: settings.cookiebanner_title | escape }}"
+            loading="lazy"
+          >
+        </picture>
+      </figure>
+    {%- endif -%}
+    {%- if settings.cookiebanner_title != empty -%}
+      <{{ settings.cookiebanner_title_size }} class="text-palette-{{ settings.cookiebanner_title_color_palette }} ff-{{ settings.cookiebanner_title_font }} fw-{{ settings.cookiebanner_title_weight }}{% if settings.cookiebanner_subtitle != blank %} m0{% else %} m15{% endif %}">{{ settings.cookiebanner_title }}</{{ settings.cookiebanner_title_size }}>
+    {%- endif -%}
+    {%- if settings.cookiebanner_subtitle != empty -%}
+      <{{ settings.cookiebanner_subtitle_size }} class="text-palette-{{ settings.cookiebanner_subtitle_color_palette }} ff-{{ settings.cookiebanner_subtitle_font }} fw-{{ settings.cookiebanner_subtitle_weight }} m15">{{ settings.cookiebanner_subtitle }}</{{ settings.cookiebanner_subtitle_size }}>
+    {%- endif -%}
+    {%- if settings.cookiebanner_text -%}{{ settings.cookiebanner_text }}{%- endif -%}
+    <p class="link-btn">
+      <a href="./" class="inline close cookie-decline">{{ 'cookiebanner.decline' | t }}</a>
+      <a href="./" class="close cookie-accept{% if settings.button_style == 'inv' %} inv{% endif %}">{{ 'cookiebanner.accept' | t }}</a>
+    </p>
+  </article>
+{%- endif -%}

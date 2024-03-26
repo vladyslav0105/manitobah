@@ -1,0 +1,152 @@
+{%- if section.blocks.size > 0 -%}
+  <div class="shopify-section-announcement-bar{% if section.blocks.size > 1 and section.settings.enable_slider_arrows == false %} no-nav{% endif %}"{% if section.blocks.size > 1 and section.settings.enable_slider_autoplay %} data-autoplay={{ section.settings.slider_autoplay_seconds | times: 1000 }}{% endif %} style="font-size:{{ section.settings.font_size }}">
+  {%- for block in section.blocks -%}
+    {%- if block.settings.text != empty -%}
+      <p class="text-center size-{{ section.settings.height }}">
+        {{ block.settings.text }}
+      </p>
+    {%- endif -%}
+  {%- endfor -%}
+  </div>
+  <style>
+    :root {
+      --custom_alert_bg: var(--{{ section.settings.color_palette }}_bg);
+      --custom_alert_fg: var(--{{ section.settings.color_palette | remove: '_gradient' }}_fg);
+    }
+  </style>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:static_sections.announcement_bar.name",
+  "class": "shopify-section-announcement-bar-container",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:static_sections.announcement_bar.settings.paragraph"
+    },
+    {
+      "type": "select",
+      "id": "color_palette",
+      "label": "t:global.color_palette.label",
+      "options": [
+        {
+          "value": "white",
+          "label": "t:global.color_palette.white.label"
+        },
+        {
+          "value": "black",
+          "label": "t:global.color_palette.black.label"
+        },
+        {
+          "value": "light",
+          "label": "t:global.color_palette.light.label"
+        },
+        {
+          "value": "dark",
+          "label": "t:global.color_palette.dark.label"
+        },
+        {
+          "value": "accent",
+          "label": "t:global.color_palette.accent.label"
+        },
+        {
+          "value": "light_2",
+          "label": "t:global.color_palette.light_2.label"
+        },
+        {
+          "value": "light_gradient",
+          "label": "t:global.color_palette.light_gradient.label"
+        },
+        {
+          "value": "dark_gradient",
+          "label": "t:global.color_palette.dark_gradient.label"
+        }
+      ],
+      "default": "light_2"
+    },
+    {
+      "id": "height",
+      "type": "select",
+      "label": "t:static_sections.announcement_bar.settings.height.label",
+      "options": [
+        {
+          "label": "t:static_sections.announcement_bar.settings.height.options__1.label",
+          "value": "s"
+        },
+        {
+          "label": "t:static_sections.announcement_bar.settings.height.options__2.label",
+          "value": "m"
+        },
+        {
+          "label": "t:static_sections.announcement_bar.settings.height.options__3.label",
+          "value": "l"
+        }
+      ],
+      "default": "s"
+    },
+    {
+      "type": "select",
+      "id": "font_size",
+      "label": "t:static_sections.announcement_bar.settings.font_size.label",
+      "options": [
+        {
+          "value": "13px",
+          "label": "t:static_sections.announcement_bar.settings.font_size.options__1.label"
+        },
+        {
+          "value": "14px",
+          "label": "t:static_sections.announcement_bar.settings.font_size.options__2.label"
+        },
+        {
+          "value": "16px",
+          "label": "t:static_sections.announcement_bar.settings.font_size.options__3.label"
+        },
+        {
+          "value": "18px",
+          "label": "t:static_sections.announcement_bar.settings.font_size.options__4.label"
+        }
+      ],
+      "default": "14px"
+    },
+    {
+      "id": "enable_slider_arrows",
+      "type": "checkbox",
+      "label": "t:static_sections.announcement_bar.settings.enable_slider_arrows.label",
+      "default": true
+    },
+    {
+      "id": "enable_slider_autoplay",
+      "type": "checkbox",
+      "label": "t:static_sections.announcement_bar.settings.enable_slider_autoplay.label"
+    },
+    {
+      "id": "slider_autoplay_seconds",
+      "type": "range",
+      "label": "t:static_sections.announcement_bar.settings.slider_autoplay_seconds.label",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "default": 3
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "t:static_sections.announcement_bar.blocks.text.name",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "label": "t:static_sections.announcement_bar.blocks.text.settings.text.label",
+          "default": {
+            "en": "Shout out your big announcement here!",
+            "nl": "Beschrijf je grote aankondiging hier!"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

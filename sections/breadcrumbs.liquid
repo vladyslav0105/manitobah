@@ -1,0 +1,33 @@
+{%- render 'breadcrumbs', hide_desktop: section.settings.hide_desktop, hide_mobile: section.settings.hide_mobile, enable_share_button: section.settings.enable_share_button %}
+
+{% schema %}
+{
+  "name": "t:static_sections.breadcrumbs.name",
+  "class": "shopify-section-breadcrumbs",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "hide_desktop",
+      "label": "t:static_sections.breadcrumbs.settings.hide_desktop.label",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "t:static_sections.breadcrumbs.settings.mobile.header"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_mobile",
+      "label": "t:static_sections.breadcrumbs.settings.mobile.hide_mobile.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_share_button",
+      "label": "t:static_sections.breadcrumbs.settings.mobile.enable_share_button.label",
+      "info": "t:static_sections.breadcrumbs.settings.mobile.enable_share_button.info",
+      "default": false
+    }
+  ]
+}
+{% endschema %}

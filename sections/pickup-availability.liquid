@@ -1,0 +1,27 @@
+<aside id="pickup-availability" aria-hidden="true">
+  <h2>{{ 'product.pickup_availability.title' | t }}</h2>
+  <p>{{ 'product.pickup_availability.subtitle' | t }}</p>
+  <ul class="l4ad">
+    {%- assign pick_up_availabilities = product_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+    {%- for availability in pick_up_availabilities -%}
+      <li>
+        <h3><i aria-hidden="true" class="icon-pin"></i> {{ availability.location.name }}</h3>
+        {%- if availability.available -%}
+          <p class="overlay-valid m0">{{ 'product.pickup_availability.pick_up_available' | t }} <span class="strong"><i aria-hidden="true" class="icon-check"></i> {{ availability.pick_up_time }}</span></p>
+        {%- else -%}
+          <p class="overlay-gray m0">{{ 'product.pickup_availability.pick_up_unavailable' | t }}</p>
+        {%- endif -%}
+        {%- assign address = availability.location.address -%}
+        {{ address | format_address }}
+        <ul class="l4cn">
+          {% if settings.whatsapp and settings.whatsapp != 0 %}
+            <li><a href="https://wa.me/{{ settings.whatsapp }}"><i aria-hidden="true" class="icon-whatsapp"></i> {{ 'footer.whatsapp_html' | t }}</a></li>
+          {% endif %}
+          {%- if address.phone.size > 0 -%}
+            <li><a href="tel:{{ address.phone }}"><i aria-hidden="true" class="icon-phone"></i> {{ address.phone }}</a></li>
+          {%- endif -%}
+        </ul>
+      </li>
+    {%- endfor -%}
+  </ul>
+</aside>

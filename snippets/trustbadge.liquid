@@ -1,0 +1,26 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- liquid
+assign image_width = settings.trustbadge_custom_image_width
+assign image_width_2 = image_width | times: 2
+-%}
+<ul class="l4al l4al-trustbadge{% if shopify_attributes %} m20{% endif %}"{% if shopify_attributes %} {{ shopify_attributes }}{% endif %}>
+    <li class="plain size-m">
+        <i aria-hidden="true" class="icon-lock sticky"></i>
+        <span class="cols cols-mobile align-middle">
+            <span>{{ settings.trustbadge_text }}</span>
+            {%- if settings.trustbadge_custom_image -%}
+                 <img
+                     src="{{- settings.trustbadge_custom_image | image_url: width: image_width -}}"
+                     srcset="{{ settings.trustbadge_custom_image | image_url: width: image_width }} 1x,{{ settings.trustbadge_custom_image | image_url: width: image_width_2 }} 2x"
+                     width="{{ image_width }}"
+                     height="28"
+                     alt="{{ settings.trustbadge_custom_image.alt | default: settings.trustbadge_text | escape }}"
+                     loading="lazy"
+                     class="no-bd-radius"
+                 >
+            {%- elsif settings.trustbadge_image != 'none' -%}
+                <img src="{{ 'trustbadge-' | append: settings.trustbadge_image | handleize | append: '.svg' | asset_url }}" alt="{{ settings.trustbadge_image }}" width="85" height="28" loading="lazy" class="no-bd-radius">
+            {%- endif -%}
+        </span>
+    </li>
+</ul>

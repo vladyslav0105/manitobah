@@ -1,0 +1,112 @@
+{%- if paginate.pages > 1 -%}
+    {%- liquid
+        assign show_amount = show_amount | default: false
+        assign mobile_center = mobile_center | default: false
+        assign pagination_type = pagination_type | default: 'pages'
+        assign prev_button = prev_button | default: false
+
+        if template.name == 'collection'
+            assign pagination_text = 'collection.seen_number_of_products_html'
+            assign number1 = collection.products.size | times: paginate.current_page
+            unless paginate.next
+                assign number1 = collection.products_count
+            endunless
+            assign number2 = collection.products_count
+            assign next_button_text = 'collection.show_more_products' | t
+            assign prev_button_text = 'collection.show_previous_products' | t
+        elsif template.name == 'search'
+            assign pagination_text = 'search.seen_number_of_results_html'
+            assign number1 = search.results.size | times: paginate.current_page
+            unless paginate.next
+                assign number1 = search.results_count
+            endunless
+            assign number2 = search.results_count
+            assign next_button_text = 'search.show_more_results' | t
+            assign prev_button_text = 'search.show_previous_results' | t
+        elsif template.name == 'blog'
+            assign pagination_text = 'blog.seen_number_of_articles_html'
+            assign number1 = blog.articles.size | times: paginate.current_page
+            unless paginate.next
+                assign number1 = blog.articles_count
+            endunless
+            assign number2 = blog.articles_count
+        elsif template.name == 'article'
+            assign pagination_text = 'blog.article.comment_form.seen_number_of_comments_html'
+            assign number1 = article.comments.size | times: paginate.current_page
+            unless paginate.next
+                assign number1 = article.comments_count
+            endunless
+            assign number2 = article.comments_count
+        elsif template.name == 'account'
+            assign pagination_text = 'customer.orders.seen_number_of_orders_html'
+            assign number1 = customer.orders.size | times: paginate.current_page
+            unless paginate.next
+                assign number1 = customer.orders_count
+            endunless
+            assign number2 = customer.orders_count
+        endif
+    -%}
+    {%- if pagination_type == 'pages' -%}
+         <nav class="n6pg text-end{% if mobile_center %} text-center-mobile{% endif %}{% if settings.button_style == 'inv' %} inv{% endif %}">
+         {%- unless template.name == 'collection' or template.name == 'search' -%}
+            {%- if show_amount -%}
+                <p>{{ pagination_text | t: number1: number1, number2: number2 }}</p>
+            {%- endif -%}
+         {%- endunless -%}
+          {%- liquid
+            assign second_to_last = paginate.pages | minus: 1
+            assign current_minus_2 = paginate.current_page | minus: 2
+            assign current_plus_2 = paginate.current_page | plus: 2
+          -%}
+          <ol>
+            {%- if paginate.previous -%}<li class="prev"><a href="{{ paginate.previous.url }}">Previous</a></li>{%- endif -%}
+            {%- for part in paginate.parts -%}
+                 {%- liquid
+                     assign show = true
+                     if part.title == current_minus_2 or part.title == current_plus_2
+                         if part.is_link and forloop.first == false and forloop.last == false and part.title != 2 and part.title != second_to_last
+                            assign show = false
+                         endif
+                     endif
+                 -%}
+                {% if show %}
+                  {%- if part.is_link -%}
+                    <li><a href="{{ part.url }}">{{ part.title }}</a></li>
+                  {%- else -%}
+                    {%- if part.title == paginate.current_page -%}
+                      <li class="active" aria-current="page">{{ part.title }}</li>
+                    {%- else -%}
+                      <li>{{ part.title }}</li>
+                    {%- endif -%}
+                  {%- endif -%}
+                {%- endif -%}
+            {%- endfor -%}
+            {%- if paginate.next -%}<li class="next"><a href="{{ paginate.next.url }}">Next</a></li>{%- endif -%}
+          </ol>
+        </nav>
+    {%- else -%}
+        {%- if paginate.next and prev_button == false -%}
+            <hr class="m25">
+        {%- endif -%}
+        {%- if show_amount -%}
+            <div id="load-more-info" class="text-center">
+                <p class="s1br m20" data-val="{{ number1 }}" data-of="{{ number2 }}">{{ pagination_text | t: number1: number1, number2: number2 }}</p>
+            </div>
+        {%- endif -%}
+        <p class="link-btn text-center">
+            {%- if prev_button and paginate.previous -%}
+                <a id="load-more-button" href="{{ paginate.previous.url }}" data-section="{{ section.id }}" data-prev{% if settings.button_style == 'inv' %} class="inv"{% endif %}>
+                    {{ prev_button_text }}
+                </a>
+            {%- elsif paginate.next -%}
+                <a id="load-more-button" href="{{ paginate.next.url }}" data-section="{{ section.id }}" data-next{% if settings.button_style == 'inv' %} class="inv"{% endif %}>
+                    {{ next_button_text }}
+                </a>
+            {%- elsif prev_button == false -%}
+                <a id="load-more-button" href="#root" data-top{% if settings.button_style == 'inv' %} class="inv"{% endif %}>
+                    {{ 'general.accessibility.back_to_top' | t }}
+                </a>
+            {%- endif -%}
+        </p>
+    {%- endif -%}
+{%- endif -%}

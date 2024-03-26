@@ -1,0 +1,57 @@
+{%- if section.settings.show_breadcrumbs -%}
+  {%- render 'breadcrumbs' -%}
+{%- endif -%}
+<header>
+  <p class="m25"><a href="{{ routes.account_url }}" class="strong"><i aria-hidden="true" class="icon-chevron-left"></i> {{ 'customer.account.back_to_account' | t }}</a></p>
+  <{{ settings.global_title_size }} class="m25">{{ 'customer.addresses.title' | t }}</{{ settings.global_title_size }}>
+</header>
+<article class="cols m10">
+  {%- if customer.addresses == blank -%}
+    <p>{{ 'customer.addresses.empty' | t }}</p>
+  {%- else -%}
+    {%- if customer.default_address -%}
+      <div class="w50">
+        <h2 class="size-18">{{ 'customer.addresses.default_address_label' | t }}</h2>
+        <div class="m6bx">
+          <p>
+            {{ customer.default_address.first_name }} {{ customer.default_address.last_name }}<br>
+            {% if customer.default_address.company != empty %}{{ customer.default_address.company }}<br>{% endif %}
+            {{ customer.default_address.street }}<br>
+            {{ customer.default_address.zip }} {{ customer.default_address.city }}{% if customer.default_address.province %}, {{ customer.default_address.province }}{% endif %}<br>
+            {{ customer.default_address.country }}<br>
+            {%- if customer.default_address.phone != blank -%}<a href="tel:+{{ customer.default_address.phone }}"><i aria-hidden="true" class="icon-phone"></i> {{ customer.default_address.phone }}</a>{%- endif -%}
+          </p>
+          <ul class="l4in">
+            <li><a href="./" data-toggle="address-{{ customer.default_address.id }}-form"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.addresses.edit' | t }}</a></li>
+            <li><a class="inline address-delete-button" data-target="{{ customer.default_address.url }}" data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}">{{ 'customer.addresses.delete' | t }}</a></li>
+          </ul>
+          {%- render 'address-form', address: customer.default_address -%}
+        </div>
+      </div>
+    {%- endif -%}
+    {%- for address in customer.addresses -%}
+      {%- unless address == customer.default_address -%}
+        <div class="w50">
+          <h2 class="size-18">{{ 'customer.addresses.address_label' | t: position: forloop.index }}</h2>
+          <div class="m6bx">
+            <p>
+              {{ address.first_name }} {{ address.last_name }}<br>
+              {% if address.company != empty %}{{ address.company }}<br>{% endif %}
+              {{ address.street }}<br>
+              {{ address.zip }} {{ address.city }}{% if address.province %}, {{ address.province }}{% endif %}<br>
+              {{ address.country }}<br>
+              {%- if address.phone != blank -%}<a href="tel:+{{ address.phone }}"><i aria-hidden="true" class="icon-phone"></i> {{ address.phone }}</a>{%- endif -%}
+            </p>
+            <ul class="l4in">
+              <li><a href="./" data-toggle="address-{{ address.id }}-form"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.addresses.edit' | t }}</a></li>
+              <li><a class="inline address-delete-button" data-target="{{ address.url }}" data-confirm-message="{{ 'customer.addresses.delete_confirm' | t }}">{{ 'customer.addresses.delete' | t }}</a></li>
+            </ul>
+            {%- render 'address-form', address: address -%}
+          </div>
+        </div>
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+</article>
+<p class="link-btn m40"><a href="./" data-toggle="address-new-form"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.addresses.add_address_button' | t }}</a></p>
+{%- render 'address-form' -%}

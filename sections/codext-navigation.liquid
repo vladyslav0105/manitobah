@@ -1,0 +1,232 @@
+<div class="lb-swiper-stories">
+  <div class="lb-swiper-stories-holder">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.url }}">
+        <div {% if block.settings.highlight == true %}class="lb-swiper-highlight"{% endif %}>
+          <img src="{{ block.settings.image | img_url: '200x' }}" alt="{{ block.settings.heading }}">
+        </div>
+        {{ block.settings.heading }}
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  {% assign schriftart = section.settings.schriftart %}
+  {{ section.settings.schriftart | font_face }}
+
+  .lb-swiper-stories {
+    background: {{ section.settings.background-color }} !important;
+    display: block !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .lb-swiper-stories {
+      display: block !important;
+    }
+  }
+
+  .lb-swiper-stories-holder {
+    max-width: 100% !important;
+    padding: 18px 0px 18px 0px !important;
+    margin: auto !important;
+    text-align: center !important;
+    overflow: auto !important;
+    white-space: nowrap !important;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .lb-swiper-stories-holder::-webkit-scrollbar {
+    display: none;
+  }
+
+  .lb-swiper-stories a {
+    max-width: 92px !important;
+    width: 100% !important;
+    display: inline-block !important;
+    margin-right: {{ section.settings.abstand_zwischen_blocken_desktop }}px !important; /* Desktop-Abstand */
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: {{ section.settings.schriftfarbe }} !important;
+    font-weight: 600 !important;
+    font-family: {{ section.settings.schriftart.family }}, {{ schriftart.fallback_families }} !important;
+    text-decoration: none !important;
+    transition: opacity 0.3s ease-in-out; /* Hinzugefügter Übergangseffekt */
+  }
+
+  .lb-swiper-stories a:hover {
+    opacity: {{ section.settings.hover-effekt-opacity }}; /* Hinzugefügte Hover-Effekt-Opazität */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .lb-swiper-stories a {
+      max-width: 20% !important;
+      margin-right: {{ section.settings.abstand_zwischen_blocken_mobile }}px !important; /* Mobile-Abstand */
+    }
+
+    .lb-swiper-stories a:first-child {
+      margin-left: 10px !important; /* Platz links vom ersten Block auf mobilen Geräten */
+    }
+  }
+
+  .lb-swiper-stories a div {
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 5px !important;
+    position: relative !important;
+  }
+
+  .lb-swiper-stories a div img {
+    width: 100% !important;
+    display: block !important;
+    border-radius: {{ section.settings.abgerundete_ecken }}px !important;
+    overflow: hidden !important;
+  }
+
+  .lb-swiper-highlight:after {
+    content: ' ' !important;
+    border: 1.5px solid {{ section.settings.highlight-color }} !important;
+    border-radius: {{ section.settings.abgerundete_ecken }}px !important;
+    z-index: 2 !important;
+    width: 110% !important;
+    height: 110% !important;
+    position: absolute !important;
+    top: -5% !important;
+    left: -5% !important;
+  }
+</style>
+
+{% schema %}
+{
+  "name": {
+    "en": "Lb Storie Swiper"
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Einstellungen"
+    },
+    {
+      "type": "color",
+      "id": "background-color",
+      "default": "#f2f2f2",
+      "label": "Hintergrundfarbe",
+      "info": "Wähle den Hintergrund der Section"
+    },
+    {
+      "type": "range",
+      "id": "max-show",
+      "min": 400,
+      "max": 2000,
+      "step": 20,
+      "default": 600,
+      "label": "Maximale Anzeige",
+      "info": "Maximale Anzeigebreite in Pixel"
+    },
+    {
+      "type": "header",
+      "content": "Link Einstellungen"
+    },
+    {
+      "type": "range",
+      "id": "abgerundete_ecken",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 50,
+      "label": "Bilder Abrundung"
+    },
+    {
+      "type": "font_picker",
+      "id": "schriftart",
+      "default": "sans-serif",
+      "label": "Schriftart"
+    },
+    {
+      "type": "color",
+      "id": "schriftfarbe",
+      "default": "#000",
+      "label": "Schriffarbe"
+    },
+    {
+      "type": "color",
+      "id": "highlight-color",
+      "default": "#c4258d",
+      "label": "Bildumrandung Farbe"
+    },
+    {
+      "type": "range",
+      "id": "abstand_zwischen_blocken_desktop",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 18,
+      "label": "Abstand zwischen Blöcken (Desktop)"
+    },
+    {
+      "type": "range",
+      "id": "abstand_zwischen_blocken_mobile",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 18,
+      "label": "Abstand zwischen Blöcken (Mobile)"
+    },
+    {
+      "type": "range",
+      "id": "hover-effekt-opacity",
+      "min": 0,
+      "max": 1,
+      "step": 0.1,
+      "default": 0.8,
+      "label": "Hover-Effekt Opazität"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Block",
+      "type": "block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Anzeigebild"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Linkname",
+          "label": "Linkname"
+        },
+        {
+          "type": "text",
+          "id": "url",
+          "label": "Link url"
+        },
+        {
+          "type": "checkbox",
+          "id": "highlight",
+          "label": "Link hervorheben"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Codext-Navigation",
+      "blocks": [
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        },
+        {
+          "type": "block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

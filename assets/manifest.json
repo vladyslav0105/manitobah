@@ -1,0 +1,14 @@
+{
+  "name": "{{ shop.name }}",
+  "short_name": "{{ shop.name }}",
+  "description": "{{ shop.description }}",
+  "lang": "{{ shop_locale.iso_code }}",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "browser",
+  "author": "https://someoneyouknow.online",
+  "developer": {
+    "name": "Someoneyouknow",
+    "url": "https://someoneyouknow.online"
+  }
+}

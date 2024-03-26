@@ -1,0 +1,18 @@
+<aside class="m6pn wide" id="add-products-to-banner" aria-hidden="true">
+    <div>
+        <header>
+            {%- unless settings.shop_the_look_title == empty -%}<{{ settings.shop_the_look_size }}>{{ settings.shop_the_look_title }}</{{ settings.shop_the_look_size }}>{%- endunless -%}
+            {%- unless settings.shop_the_look_subtitle == empty -%}<p>{{ settings.shop_the_look_subtitle }}</p>{%- endunless -%}
+        </header>
+        <ul data-items="{{ settings.shop_the_look_items }}">
+            {%- liquid
+                for i in (1..settings.shop_the_look_items)
+                    capture placeholder_int
+                        cycle 1, 2, 3, 4, 5, 6
+                    endcapture
+                    render 'product-item', product: blank, placeholder_int: placeholder_int
+                endfor
+            -%}
+        </ul>
+    </div>
+</aside>

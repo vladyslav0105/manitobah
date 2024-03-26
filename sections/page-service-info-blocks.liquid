@@ -1,0 +1,179 @@
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when '@app' -%}
+      {% render block %}
+    {%- when 'spacer' -%}
+      <div class="module-spacer" style="margin-bottom:{{ block.settings.height }}px;" {{ block.shopify_attributes }}></div>
+    {%- when 'information' -%}
+      {% liquid
+        assign overlay = false
+        assign color_palette_handle = 'palette_' | append: block.settings.color_palette
+        assign color_palette = settings[color_palette_handle] | upcase
+        assign background_color = settings.body_background_color | upcase
+        if color_palette != background_color
+          assign overlay = true
+        endif
+      -%}
+      <div class="palette-{{ block.settings.color_palette }} {% if overlay %}overlay{% endif %} m6bx" {{ block.shopify_attributes }}>
+        <h2 class="size-20">{{ block.settings.title }}</h2>
+        {%- if block.settings.show_shop_address and shop.address.street -%}
+        <p class="m15">
+          {{ shop.address.street }}<br> {{ shop.address.zip }} {{ shop.address.city }}<br> {{ shop.address.country }}
+          {% if block.settings.show_maps_url %}<a href="https://www.google.com/maps/search/?api=1&query={{ shop.name | append: ',' | append: shop.address.street | append: ',' | append: shop.address.zip | append: ',' | append: shop.address.city | append: ',' | append: shop.address.country | url_encode }}" rel="external noopener" target="external">{{ 'service.open_in_google_maps' | t }}</a>{% endif %}
+        </p>
+        {%- endif -%}
+
+        {{ block.settings.text }}
+
+        {%- if block.settings.show_login_links -%}
+          <ul class="l4pl">
+            {%- if customer -%}
+              <li><a href="{{ routes.account_url }}">{{ 'customer.account.title' | t }}</a></li>
+            {%- else -%}
+              <li><a href="{{ routes.account_login_url }}">{{ 'service.login' | t }}</a></li>
+              <li><a href="{{ routes.account_register_url }}">{{ 'service.register' | t }}</a></li>
+            {%- endif -%}
+          </ul>
+        {%- endif -%}
+        {%- if block.settings.show_phone_link or block.settings.show_mail_link or block.settings.show_whatsapp_link -%}
+          <ul class="l4cn box">
+            {% if shop.phone != empty and block.settings.show_phone_link %}
+              <li><a href="tel:{{ shop.phone }}"><i aria-hidden="true" class="icon-phone"></i> {{ shop.phone }}</a></li>
+            {% endif %}
+            {% if shop.email != empty and block.settings.show_mail_link %}
+              <li><a href="mailto:{{ shop.email }}" class="email"><i aria-hidden="true" class="icon-envelope"></i> {{ shop.email }}</a></li>
+            {% endif %}
+            {% if settings.whatsapp != empty and settings.whatsapp != 0 and block.settings.show_whatsapp_link %}
+              <li><a href="https://wa.me/{{ settings.whatsapp }}"><i aria-hidden="true" class="icon-whatsapp-overlay"></i> {{ 'footer.whatsapp_html' | t }}</a></li>
+            {% endif %}
+          </ul>
+        {%- endif -%}
+      </div>
+  {%- endcase -%}
+{%- endfor -%}
+
+{% schema %}
+{
+  "name": "t:static_sections.page_service_info_blocks.name",
+  "tag": "aside",
+  "class": "w36 t45",
+  "settings": [
+
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    },
+    {
+      "type": "spacer",
+      "name": "t:static_sections.page_service_info_blocks.blocks.spacer.name",
+      "settings": [
+        {
+          "id": "height",
+          "type": "range",
+          "label": "t:static_sections.page_service_info_blocks.blocks.spacer.height.label",
+          "min": -100,
+          "max": 200,
+          "step": 5,
+          "unit": "px",
+          "default": 20
+        }
+      ]
+    },
+    {
+      "type": "information",
+      "name": "t:static_sections.page_service_info_blocks.blocks.information.name",
+      "settings": [
+        {
+          "type": "select",
+          "id": "color_palette",
+          "label": "t:global.color_palette.label",
+          "options": [
+            {
+              "value": "white",
+              "label": "t:global.color_palette.white.label"
+            },
+            {
+              "value": "black",
+              "label": "t:global.color_palette.black.label"
+            },
+            {
+              "value": "light",
+              "label": "t:global.color_palette.light.label"
+            },
+            {
+              "value": "dark",
+              "label": "t:global.color_palette.dark.label"
+            },
+            {
+              "value": "accent",
+              "label": "t:global.color_palette.accent.label"
+            },
+            {
+              "value": "light_2",
+              "label": "t:global.color_palette.light_2.label"
+            },
+            {
+              "value": "light_gradient",
+              "label": "t:global.color_palette.light_gradient.label"
+            },
+            {
+              "value": "dark_gradient",
+              "label": "t:global.color_palette.dark_gradient.label"
+            }
+          ],
+          "default": "dark"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.title.label",
+          "default": "Customer service"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.text.label",
+          "default": "<p>Give your customers more details about your online store.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_login_links",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.show_login_links.label",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_shop_address",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.show_shop_address.label",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_maps_url",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.show_maps_url.label",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_phone_link",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.show_phone_link.label",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mail_link",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.show_mail_link.label",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "show_whatsapp_link",
+          "label": "t:static_sections.page_service_info_blocks.blocks.information.settings.show_whatsapp_link.label",
+          "default": false
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

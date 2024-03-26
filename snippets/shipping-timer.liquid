@@ -1,0 +1,44 @@
+{%- liquid
+  assign show_days = ''
+  for day in (1..7)
+    assign day_setting = 'shipping_timer_enable_' | append: day
+    if settings[day_setting]
+      if forloop.index == 7
+        assign show_days = show_days | append: '0'
+      else
+        assign show_days = show_days | append: day
+      endif
+    endif
+  endfor
+
+  assign start_time = 'now' | date: '%b %d, %Y ' | append: ' ' | append: settings.shipping_timer_show_from | date: "%s"
+  assign end_time = 'now' | date: '%b %d, %Y ' | append: ' ' | append: settings.shipping_timer_show_until | date: "%s"
+  assign now =  "now" | date: '%s'
+
+  if start_time > end_time and now > end_time
+    assign end_time = end_time | plus: 86400 | date: "%s"
+  elsif start_time > end_time and now < end_time
+    assign start_time = start_time | minus: 86400 | date: "%s"
+  endif
+
+  assign show_countdown = true
+  if now > end_time
+    assign show_countdown = false
+  elsif start_time > now
+    assign show_countdown = false
+  endif
+-%}
+
+{%- if show_countdown -%}
+  {%- capture countdown -%}
+    <span class="countdown compact hide-days"
+          data-show-from="{{ start_time | date: "%b %d, %Y %H:%M:%S %z" }}"
+          data-show-until="{{ end_time | date: "%b %d, %Y %H:%M:%S %z" }}"
+          data-show-days="{{ show_days }}">
+      {{ end_time | date: "%b %d, %Y %H:%M:%S %z" }}
+    </span>
+  {%- endcapture -%}
+  <li class="countdown-container">
+    <span class="strong">{{ 'general.shipping_timer.shipped_today' | t }}</span> {{ 'general.shipping_timer.you_have_left_html' | t: time: countdown }}
+  </li>
+{%- endif -%}

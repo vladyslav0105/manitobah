@@ -1,0 +1,190 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- liquid
+  assign product_image_ratio = settings.product_image_ratio
+  case product_image_ratio
+    when '310x430'
+      assign image_ratio =  "portrait"
+    when '430x310'
+      assign image_ratio =  "landscape"
+    else
+      assign image_ratio =  "square"
+  endcase
+-%}
+{%- if section.settings.show_breadcrumbs -%}
+  {%- render 'breadcrumbs' -%}
+{%- endif -%}
+
+<header>
+  <p class="m15"><a href="{{ routes.account_url }}" class="strong"><i aria-hidden="true" class="icon-chevron-left"></i> {{ 'customer.account.back_to_account' | t }}</a></p>
+  <{{ settings.global_title_size }} class="m15">{{ 'customer.order.title' | t: order_number: order.name }}</{{ settings.global_title_size }}>
+  {%- assign order_date = order.created_at | time_tag: format: "date_at_time" -%}
+  <p>{{ 'customer.order.date_html' | t: date: order_date }}</p>
+  {% if order.cancelled %}
+    {%- assign cancelled_at = order.cancelled_at | time_tag: format: "date_at_time" -%}
+    <p>{{ 'customer.order.cancelled_html' | t: date: cancelled_at }}</p>
+    <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason }}</p>
+  {% endif %}
+</header>
+<div class="cols">
+  <article class="w60 t65">
+    <ul class="l4ca summary">
+      {%- for line_item in order.line_items -%}
+        <li class="{{ image_ratio }}">
+          {% if line_item.image %}
+            <figure>
+              <picture>
+                <img
+                  {% if settings.fill_product_images %}
+                    src="{{ line_item.image | image_url: width: 320, height: 320, crop: 'center' }}"
+                    srcset="{{ line_item.image | image_url: width: 160, height: 160, crop: 'center' }} 1x,{{ line_item.image | image_url: width: 320, height: 320, crop: 'center' }} 2x"
+                  {% else %}
+                    src="{{ line_item.image | image_url: width: 320, height: 320 }}"
+                    srcset="{{ line_item.image | image_url: width: 160, height: 160 }} 1x,{{ line_item.image | image_url: width: 320, height: 320 }} 2x"
+                  {% endif %}
+                  width="160"
+                  height="160"
+                  alt="{{ line_item.image.alt | default: line_item.title | escape }}"
+                  loading="lazy"
+                >
+              </picture>
+            </figure>
+          {% endif %}
+          <section>
+            <h2>
+              {%- if settings.show_vendor and line_item.vendor != "vendor-unknown" and line_item.vendor != shop.name -%}
+                <span class="small">{{ line_item.vendor }}</span>
+              {%- endif -%}
+              {{ line_item.product.title | link_to: line_item.product.url }}
+            </h2>
+            <ul>
+              {% if line_item.unit_price_measurement %}
+                {%- capture unit_price_base_unit -%}
+                  {%- if line_item.unit_price_measurement -%}
+                    {%- if line_item.unit_price_measurement.reference_value != 1 -%}
+                      {{- line_item.unit_price_measurement.reference_value -}}
+                    {%- endif -%}
+                    {{ line_item.unit_price_measurement.reference_unit }}
+                  {%- endif -%}
+                {%- endcapture -%}
+                <li>{{ 'product.unit_price_label' | t }}&nbsp;{{ line_item.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</li>
+              {% endif %}
+              {%- unless line_item.product.has_only_default_variant -%}
+                {%- for option in line_item.options_with_values -%}
+                  <li>{{ option.value }}</li>
+                {%- endfor -%}
+              {%- endunless -%}
+              {%- if line_item.selling_plan_allocation -%}
+                <li>{{ line_item.selling_plan_allocation.selling_plan.name }}</li>
+              {%- endif -%}
+              {%- for property in line_item.properties -%}
+                {%- if property.first.first == '_' or property.last == blank -%}{%- continue -%}{%- endif -%}
+                <li>
+                  {{ property.first }}:&nbsp;{% if property.last contains '/uploads/' %}<a href="{{ property.last }}">{{ property.last | split: '/' | last }}</a>{% else %}{{ property.last }}{% endif %}
+                </li>
+              {%- endfor -%}
+            </ul>
+            <p class="price">
+              {{ line_item.final_price | money }}
+            </p>
+          </section>
+        </li>
+      {%- endfor -%}
+    </ul>
+    <h2 class="size-18">{{ 'customer.order.summary' | t }}</h2>
+    <div class="table-wrapper m10">
+      <table class="table-drop static">
+        <caption>{{ 'customer.order.summary' | t }}</caption>
+        {%- for line_item in order.line_items -%}
+          <thead>
+            <tr>
+              <th>{{ 'customer.order.product' | t }}</th>
+              <th>{% if line_item.sku != empty %}<span class="mobile-hide">{{ 'product.sku' | t }}</span>{% endif %} <span class="mobile-only">{{ line_item.title }}</span></th>
+              <th>{{ 'customer.order.price' | t }}</th>
+              <th>{{ 'customer.order.quantity' | t }}</th>
+              <th class="text-end"><span class="mobile-hide">{{ 'customer.order.total' | t }}</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ line_item.title }}</td>
+              <td>{% if line_item.sku != empty %}<a>{{ line_item.sku }}</a>{% endif %}</td>
+              <td>{{ line_item.final_price | money }}</td>
+              <td>{{ line_item.quantity }}</td>
+              <td class="text-end">{{ line_item.final_line_price | money }}</td>
+            </tr>
+            <tr class="sub">
+              {%- if line_item.sku != empty -%}
+                <th>{{ 'product.sku' | t }}</th>
+                <td><a href="./">{{ line_item.sku }}</a></td>
+              {%- endif -%}
+            </tr>
+            <tr class="sub">
+              <th>{{ 'customer.order.price' | t }}</th>
+              <td>{{ line_item.final_price | money }}</td>
+            </tr>
+            <tr class="sub">
+              <th>{{ 'customer.order.quantity' | t }}</th>
+              <td>{{ line_item.quantity }}</td>
+            </tr>
+            <tr class="sub">
+              <th>{{ 'customer.order.total' | t }}</th>
+              <td>{{ line_item.final_line_price | money }}</td>
+            </tr>
+          </tbody>
+        {%- endfor -%}
+      </table>
+    </div>
+    <ul class="l4tt m15">
+      <li><span>{{ 'customer.order.subtotal' | t }}</span> {{ order.line_items_subtotal_price | money }}</li>
+      {%- assign total_discount = 0 -%}
+      {%- for discount in order.discount_applications -%}
+        {%- assign total_discount = total_discount | plus: discount.total_allocated_amount %}
+      {%- endfor -%}
+      {%- if total_discount > 0 %}
+        <li><span>{{ 'customer.order.discount' | t }}</span> -{{ total_discount | money }}</li>
+      {%- endif -%}
+      {%- for shipping_method in order.shipping_methods -%}
+        <li><span>{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})</span> {{ shipping_method.price | money }}</li>
+      {% endfor %}
+      {%- for tax_line in order.tax_lines -%}
+        <li><span>{{ 'customer.order.tax' | t }} ({{ tax_line.title }} {{ tax_line.rate | times: 100 }}%)</span> {{ tax_line.price | money }}</li>
+      {%- endfor -%}
+      <li class="size-18"><span>{{ 'customer.order.total' | t }}</span> {{ order.total_price | money }}</li>
+    </ul>
+    {%- if order.note != blank -%}
+     <p><strong>{{ 'customer.order.note' | t }}:</strong> {{ order.note }}</p>
+    {%- endif -%}
+  </article>
+  <article class="w40 t35">
+    <h2 class="size-18">{{ 'customer.order.billing_address' | t }}</h2>
+    <div class="m6bx">
+      <p class="m0">{{ 'customer.orders.payment_status' | t }}: {% if order.financial_status == 'paid' %}<span class="strong"><i aria-hidden="true" class="icon-check"></i> {% endif %}{{ order.financial_status_label }}</span></p>
+      {{ order.billing_address | format_address }}
+    </div>
+    <h2 class="size-18">{{ 'customer.order.shipping_address' | t }}</h2>
+    <div class="m6bx">
+      <p class="m0">{{ 'customer.orders.fulfillment_status' | t }}: <span class="strong">{{ order.fulfillment_status_label }}</span></p>
+      {%- if order.shipping_address != blank -%}
+        {{ order.shipping_address | format_address }}
+      {%- else -%}
+        {{ order.billing_address | format_address }}
+      {%- endif -%}
+    </div>
+    {%- assign fulfillments = order.line_items | map: "fulfillment" | where: "tracking_company" | uniq %}
+    {%- if fulfillments.size > 0 -%}
+      <h2 class="size-18">{{ 'customer.orders.track_shipment' | t }}</h2>
+      <div class="m6bx">
+        {%- for fulfillment in fulfillments -%}
+          {%- assign created_at = fulfillment.created_at | time_tag: format: 'date' -%}
+          <p class="m0">{{ 'customer.orders.fulfilled_at_html' | t: date: created_at }}</p>
+          <p>
+            {%- if fulfillment.tracking_url -%}<a href="{{ fulfillment.tracking_url }}">{%- endif -%}
+              {{ fulfillment.tracking_company }}
+              {%- if fulfillment.tracking_number -%} #{{ fulfillment.tracking_number }}{%- endif -%}
+            {%- if fulfillment.tracking_url -%}</a>{%- endif -%}
+          </p>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </article>
+</div>

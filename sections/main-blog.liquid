@@ -1,0 +1,159 @@
+{%- paginate blog.articles by section.settings.pagination_qty -%}
+  <article class="m0">
+    <header class="cols">
+      <{{ section.settings.title_size }} {% if section.settings.text_alignment == 'center' %}class="text-center align-center"{% endif %}>
+        {%- if section.settings.title != empty -%}
+          {{ section.settings.title }}
+        {%- else -%}
+          {{ blog.title }}
+        {%- endif -%}
+      </{{ section.settings.title_size }}>
+    </header>
+    <ul class="l4ne landscape wide main-blog-list">
+      {%- for article in blog.articles -%}
+        {%- liquid
+          if section.index > 2 or forloop.first == false
+            assign lazyload = true
+          else
+            assign lazyload = false
+          endif
+        -%}
+        {%- render 'article-item',
+          article: article, show_excerpt: section.settings.show_excerpt, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_link: section.settings.show_link_post, button_color_palette: section.settings.button_color_palette_post, lazyload: lazyload
+        -%}
+      {%- endfor -%}
+    </ul>
+  </article>
+  {% render 'pagination',
+    paginate: paginate,
+    show_amount: true
+  %}
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "t:main.blog.name",
+  "settings": [
+    {
+      "id": "text_alignment",
+      "type": "select",
+      "label": "t:main.blog.settings.text_alignment.label",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:main.blog.settings.text_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:main.blog.settings.text_alignment.options__2.label"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "id": "title_size",
+      "type": "select",
+      "label": "t:main.blog.settings.title_size.label",
+      "options": [
+        {
+          "value": "h5",
+          "label": "t:main.blog.settings.title_size.options__1.label"
+        },
+        {
+          "value": "h4",
+          "label": "t:main.blog.settings.title_size.options__2.label"
+        },
+        {
+          "value": "h3",
+          "label": "t:main.blog.settings.title_size.options__3.label"
+        },
+        {
+          "value": "h2",
+          "label": "t:main.blog.settings.title_size.options__4.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:main.blog.settings.title_size.options__5.label"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:main.blog.settings.title.label",
+      "info": "t:main.blog.settings.title.info"
+    },
+    {
+      "type": "range",
+      "id": "pagination_qty",
+      "label": "t:main.blog.settings.pagination_qty.label",
+      "min": 3,
+      "max": 15,
+      "step": 3,
+      "default": 12
+    },
+    {
+      "id": "show_image",
+      "type": "checkbox",
+      "label": "t:main.blog.settings.show_image.label",
+      "default": true
+    },
+    {
+      "id": "show_date",
+      "type": "checkbox",
+      "label": "t:main.blog.settings.show_date.label",
+      "default": true
+    },
+    {
+      "id": "show_author",
+      "type": "checkbox",
+      "label": "t:main.blog.settings.show_author.label",
+      "default": true
+    },
+    {
+      "id": "show_excerpt",
+      "type": "checkbox",
+      "label": "t:main.blog.settings.show_excerpt.label"
+    },
+    {
+      "type": "select",
+      "id": "button_color_palette_post",
+      "label": "t:global.button_color_palette.label",
+      "options": [
+        {
+          "value": "white",
+          "label": "t:global.button_color_palette.white.label"
+        },
+        {
+          "value": "black",
+          "label": "t:global.button_color_palette.black.label"
+        },
+        {
+          "value": "light",
+          "label": "t:global.button_color_palette.light.label"
+        },
+        {
+          "value": "dark",
+          "label": "t:global.button_color_palette.dark.label"
+        },
+        {
+          "value": "accent",
+          "label": "t:global.button_color_palette.accent.label"
+        },
+        {
+          "value": "light_2",
+          "label": "t:global.button_color_palette.light_2.label"
+        }
+      ],
+      "default": "accent"
+    },
+    {
+      "id": "show_link_post",
+      "type": "checkbox",
+      "label": "t:main.blog.settings.show_link.label",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,138 @@
+{%- liquid
+  assign og_title = page_title
+  assign og_url = canonical_url
+  assign og_type = 'website'
+  assign og_description = page_description | default: shop.description | default: shop.name
+  assign og_image_tag = ''
+
+  if request.page_type == 'product'
+    assign og_title = product.title | strip_html
+    assign og_type = 'product'
+    assign image = product.featured_image | image_url: width: 600, height: 500, crop: 'center'
+    assign og_image_tag = '<meta property="og:image" content="' | append: image | append: '">'
+    assign twitter_image_tag = '<meta property="twitter:image" content="' | append: image | append: '">'
+  elsif request.page_type == 'article'
+    assign og_title = article.title | strip_html
+    assign og_type = 'article'
+    assign og_description = article.excerpt_or_content | strip_html
+    if article.image
+      assign image = article.image | image_url: width: 600, height: 500, crop: 'center'
+      assign og_image_tag = '<meta property="og:image" content="http:' | append: image | append: '">'
+      assign og_image_secure_url_tag = '<meta property="og:image:secure_url" content="https:' | append: image | append: '">'
+      assign twitter_image_tag = '<meta property="twitter:image" content="http:' | append: image | append: '">'
+    endif
+  elsif request.page_type == 'collection'
+    assign og_title = collection.title | strip_html
+    assign og_type = 'product.group'
+    if collection.image
+      assign image = collection.image | image_url: width: 600, height: 500, crop: 'center'
+      assign og_image_tag = '<meta property="og:image" content="http:' | append: image | append: '">'
+      assign og_image_secure_url_tag = '<meta property="og:image:secure_url" content="https:' | append: image | append: '">'
+      assign twitter_image_tag = '<meta property="twitter:image" content="http:' | append: image | append: '">'
+    endif
+  elsif request.page_type == 'password'
+    assign og_title = shop.name
+    assign og_url = shop.url
+    assign og_description = shop.description | default: shop.name
+  endif
+  if og_image_tag == '' and page_image
+    assign image = page_image | image_url: width: 600, height: 500, crop: 'center'
+    assign og_image_tag = '<meta property="og:image" content="' | append: image | append: '">'
+  endif
+-%}
+<meta name="msapplication-config" content="{{ 'browserconfig.xml' | asset_url }}">
+<meta property="og:title" content="{{ og_title }}">
+<meta property="og:type" content="{{ og_type }}">
+<meta property="og:description" content="{{ og_description }}">
+<meta property="og:site_name" content="{{ shop.name }}">
+<meta property="og:url" content="{{ og_url }}">
+{% if request.page_type == 'product' %}
+  {% assign current_variant = product.selected_or_first_available_variant %}
+  <meta property="product:price:amount" content="{{ current_variant.price | money | strip_html }}">
+  <meta property="og:price:amount" content="{{ current_variant.price | money | strip_html }}">
+  <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
+  <meta property="og:availability" content="{% if product.available %}instock{% else %}out of stock{% endif %}" />
+{% endif %}
+{% if og_image_tag %}{{ og_image_tag }}{% endif %}
+{% if og_image_secure_url_tag %}{{ og_image_secure_url_tag }}{% endif %}
+<meta name="twitter:title" content="{{ og_title }}">
+<meta name="twitter:description" content="{{ og_description }}">
+<meta name="twitter:site" content="{{ shop.name }}">
+{% if settings.logo %}
+  <meta name="twitter:card" content="{{ settings.logo | image_url }}">
+{% endif %}
+{% if twitter_image_tag %}{{ twitter_image_tag }}{% endif %}
+<script type="application/ld+json">
+  [
+    {%- if request.page_type == 'product' -%}
+      {
+        "@context": "http://schema.org",
+        "@type": "Product",
+        "name": "{{ product.title }}",
+        "url": "{{ shop.url }}{{ product.url }}",
+        {%- if product.vendor != "" and product.vendor != "vendor-unknown" -%}"brand": { "@type": "Brand", "name": "{{ product.vendor }}" },{%- endif -%}
+        {%- if product.description != "" or product.descripton != blank or product.descripton != null -%}"description": {{ product.description | strip_html | json }},{%- endif -%}
+        {%- if product.featured_image -%}"image": "{{ product.featured_image | image_url: width: 600, height: 500 }}",{%- endif -%}
+        {%- if current_variant.barcode != "" -%}"gtin8": "{{ current_variant.barcode }}",{%- endif -%}
+        {%- if current_variant.sku != "" -%}"sku": "{{ current_variant.sku }}",{%- endif -%}
+        "offers": {
+          "@type": "Offer",
+          "price": "{{ current_variant.price | divided_by: 100.00 }}",
+          "url": "{{ shop.url }}{{ product.url }}",
+          {%- assign date = 'now' | date: "%s" | plus : 31556926 %}
+          "priceValidUntil": "{{ date | date: '%Y-%m-%d' }}",
+          "priceCurrency": "{{ cart.currency.iso_code }}"{%- if current_variant.inventory_quantity > 0 and current_variant.available -%},
+            "availability": "https://schema.org/InStock",
+            "inventoryLevel": "{{ current_variant.inventory_quantity }}"
+          {%- endif -%}
+        }
+      },
+    {%- endif -%}
+    {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "{{ og_url }}",
+      "name": "{{ shop.name }}",
+      "legalName": "{{ shop.name }}",
+      "description": "{{ og_description }}",
+      {%- if settings.logo -%}
+        "logo": "{{ settings.logo | image_url }}",
+        "image": "{{ settings.logo | image_url }}",
+      {%- endif -%}
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer service",
+        "telephone": "{{ shop.phone }}"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ shop.address.street }}",
+        "addressLocality": "{{ shop.address.city }}",
+        "postalCode": "{{ shop.address.zip }}",
+        "addressCountry": "{{ shop.address.country | upcase }}"
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "{{ og_url }}",
+      "name": "{{ shop.name }}",
+      "description": "{{ og_description }}",
+      "author": [
+        {
+          "@type": "Organization",
+          "url": "https://www.someoneyouknow.online",
+          "name": "Someoneyouknow",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Wilhelminaplein 25",
+            "addressLocality": "Eindhoven",
+            "addressRegion": "NB",
+            "postalCode": "5611 HG",
+            "addressCountry": "NL"
+          }
+        }
+      ]
+    }
+  ]
+</script>

@@ -1,0 +1,28 @@
+{%- if section.settings.menu -%}
+  {%- assign menu = linklists[section.settings.menu] -%}
+  <nav class="m35">
+    <ul class="l4in slider">
+      {%- for link in menu.links -%}
+        <li {% if link.handle == page.handle %}class="active"{% endif %}>
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:static_sections.page_service_menu.name",
+  "class": "shopify-section-page-service-menu",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "t:static_sections.page_service_menu.settings.menu.label",
+      "info": "t:static_sections.page_service_menu.settings.menu.info",
+      "default": "main-menu"
+    }
+  ]
+}
+{% endschema %}

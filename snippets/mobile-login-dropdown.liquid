@@ -1,0 +1,19 @@
+{%- assign mobile_login_form_classes = 'm6pn m6pl f8vl' %}
+{%- form 'customer_login', class: mobile_login_form_classes, id: 'login' -%}
+	<header>
+		<h2>{{ 'customer.login.title' | t }}</h2>
+	</header>
+	<p>
+		<label for="login_email_address_mobile">{{ 'customer.login.email' | t }}<span class="overlay-theme">*</span></label>
+		<input type="email" id="login_email_address_mobile" name="customer[email]" placeholder="{{ 'customer.login.email' | t }}" required>
+	</p>
+	<p>
+		<label for="login_password_mobile">{{ 'customer.login.password' | t }}<span class="overlay-theme">*</span> <a href="./" class="show"><span>Toon</span> <span class="hidden">Hide</span></a></label>
+		<input type="password" id="login_password_mobile" name="customer[password]" placeholder="{{ 'customer.login.password' | t }}" required>
+		<a href="{{ routes.account_login_url }}#recover" class="size-12">{{ 'customer.login.forgot_password' | t }}</a>
+	</p>
+	<p class="submit">
+		<button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.login.submit' | t }}</button>
+		{{ 'customer.register.title' | t }}<br> <a href="{{ routes.account_register_url }}" class="overlay-content">{{ 'customer.register.create_account_info' | t }}</a>
+	</p>
+{%- endform -%}

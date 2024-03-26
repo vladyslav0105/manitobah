@@ -1,0 +1,77 @@
+@keyframes spin { 0% { -webkit-transform: none; transform: none; } 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+@-webkit-keyframes spin { 0% { -webkit-transform: none; transform: none; } 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+
+@media only screen and (max-width: 1000px) { /* 1000 */
+
+.f8fl .f8fl-toggle:before { display: block; overflow: visible; position: absolute; left: 0; right: 0; top: 50%; bottom: auto; margin: -10px 0 0; box-shadow: none; border-radius: 0; border-width: 0; background: none; font-weight: 400; font-family: i; line-height: 20px; text-align: center; text-indent: 0; letter-spacing: normal; }
+
+.js .f8fl { margin-bottom: 0; padding-bottom: 0; border-bottom-width: 0; --margin_off: -20px; }
+	.js .m6pn .f8fl { --margin_off: var(--rpn); }
+	.js .f8fl > .f8fl-toggle, .js .f8fl > .close { display: block; overflow: hidden; position: absolute; right: 0; top: 0; z-index: 999; width: 48px; height: 48px; color: var(--custom_top_main_fg); font-size: var(--main_fz_small); text-align: left; text-indent: -3000em; direction: ltr; }
+		.js .f8fl > .f8fl-toggle:before, .js .f8fl > .close:before { content: "\e91f"; }
+	.js .f8fl h1, .js .f8fl h2, .js .f8fl h3, .js .f8fl h4, .js .f8fl h5, .js .f8fl h6 { margin: 0 var(--margin_off); padding: 14px 20px; border-top: 1px solid rgba(0,0,0,0); color: inherit; }
+		.js .f8fl h1:before, .js .f8fl h2:before, .js .f8fl h3:before, .js .f8fl h4:before, .js .f8fl h5:before, .js .f8fl h6:before, .js .f8fl .check.switch:before, .js .f8fl .submit:before, .js .f8fl .link-btn:before { content: ""; display: block; position: absolute; left: 0; right: 0; top: -1px; border-top: 1px solid var(--black); opacity: .07; }
+		.js .f8fl h1.toggle, .js .f8fl h2.toggle, .js .f8fl h3.toggle, .js .f8fl h4.toggle, .js .f8fl h5.toggle, .js .f8fl h6.toggle { margin-bottom: -7px; }
+		.js .f8fl .header-toggle { display: block; overflow: hidden; position: absolute; right: 0; top: 0; left: 0; z-index: 9; height: 100%; max-height: 44px; text-indent: -3000em; text-align: left; direction: ltr; }
+			.js .f8fl .header-toggle:before { content: "\e904"; right: var(--rpp); left: auto; font-size: 6px; }
+			.js .f8fl .toggle > .header-toggle:before { -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+		.js .f8fl h1 .strong, .js .f8fl h2 .strong, .js .f8fl h3 .strong, .js .f8fl h4 .strong, .js .f8fl h5 .strong, .js .f8fl h6 .strong { display: inline; margin: 0; padding: 0; font-size: 1em; }
+			.js .f8fl h1.toggle .strong ~ .mobile-hide, .js .f8fl h2.toggle .strong ~ .mobile-hide, .js .f8fl h3.toggle .strong ~ .mobile-hide, .js .f8fl h4.toggle .strong ~ .mobile-hide, .js .f8fl h5.toggle .strong ~ .mobile-hide, .js .f8fl h6.toggle .strong ~ .mobile-hide { display: block; position: relative; left: 0; top: 0; padding: 17px 0 0; font-weight: var(--main_fw); font-size: 0.9285714286em; }
+		.js .f8fl h1 a, .js .f8fl h2 a, .js .f8fl h3 a, .js .f8fl h4 a, .js .f8fl h5 a, .js .f8fl h6 a { font-size: var(--main_fz); }
+		.js .f8fl header + h1, .js .f8fl header + h2, .js .f8fl header + h3, .js .f8fl header + h4, .js .f8fl header + h5, .js .f8fl header + h6 { border-top-width: 0; }
+		.js .f8fl .check.switch { margin: 0 -20px; padding: 9px 20px 5px; border-top: 1px solid rgba(0,0,0,0); }
+		.js .f8fl .submit, .js .f8fl .link-btn { margin: 0 -20px; padding: 20px 20px 12px; border-top: 1px solid rgba(0,0,0,0); }		
+		/* Active input still visible */
+		.js .f8fl .toggle + .check { margin-bottom: 20px; }
+		.js .f8fl .check.switch li, .js .f8fl .toggle + .check li { margin-bottom: 4px; }
+			.js .f8fl .check { margin-top: -8px; margin-bottom: 8px; }
+			.js .f8fl .check label { padding: 0; font-size: var(--main_fz_small); }
+			.js .f8fl .check.switch { margin-top: 0; margin-bottom: 0; }
+				.js .f8fl .check.switch label { padding-right: 55px; font-size: 1em; }					
+			.js .f8fl .toggle + .check { margin-top: 0; margin-bottom: 20px; }
+				.js .f8fl .toggle + .check label { padding-left: 26px; border: 0 solid rgba(0,0,0,0); font-size: 1em; }					
+				.js .f8fl .toggle + .check label span { display: inline; }
+				/*.js .f8fl .toggle + .check li { margin-bottom: 0; }
+				.js .f8fl .toggle + .check label {border-top-width: 9px; border-bottom-width: 9px; }	*/
+ 			 .js .f8fl .check label.strong { font-weight: var(--main_fw); }
+		.js .f8fl .check li, .js .f8fl .toggle + .check.switch { margin-bottom: 0; }
+		.js .f8fl .check label, .js .f8fl .check .link-more, .js .f8fl .toggle + .check .link-more.link-more-clicked, .js .f8fl .input-range, .js .f8fl .check label:before, .js .f8fl .check label span { display: none; }
+		.js #root .f8fl h1:not(.toggle) + ul .link-more a, .js #root .f8fl h2:not(.toggle) + ul .link-more a, .js #root .f8fl h3:not(.toggle) + ul .link-more a, .js #root .f8fl h4:not(.toggle) + ul .link-more a, .js #root .f8fl h5:not(.toggle) + ul .link-more a, .js #root .f8fl h6:not(.toggle) + ul .link-more a { display: none; }
+		/*#root .f8fl .check li.hidden ~ .has-link-more { display: block; }
+		#root .f8fl h1:not(.toggle) ~ .check li[class*="hidden"] ~ .has-link-more, #root .f8fl h2:not(.toggle) ~ .check li[class*="hidden"] ~ .has-link-more, #root .f8fl h3:not(.toggle) ~ .check li[class*="hidden"] ~ .has-link-more, #root .f8fl h4:not(.toggle) ~ .check li[class*="hidden"] ~ .has-link-more, #root .f8fl h5:not(.toggle) ~ .check li[class*="hidden"] ~ .has-link-more, #root .f8fl h6:not(.toggle) ~ .check li[class*="hidden"] ~ .has-link-more { display: none; }*/
+		.js .f8fl .toggle + .check label, /*.js .f8fl .toggle + .check .link-more,*/ .js .f8fl .toggle + .input-range, .js .f8fl .toggle + .input-range ~ .input-range, .js .f8fl .check input:checked ~ label, .js .f8fl .check.switch label, .js .f8fl .check.switch label:before, .js .f8fl .toggle + .check, .js .f8fl .toggle + .check label:before { display: block; }
+		.js .f8fl .toggle + .check li.link-more:nth-child(n+9), .js .f8fl .toggle + .check li.link-more:nth-child(n+9) a, .js .f8fl .toggle + .check .link-more { display: block; }
+		/* End of active input still visible */
+		/*.js .f8fl h1 + .check, .js .f8fl h2 + .check, .js .f8fl h3 + .check, .js .f8fl h4 + .check, .js .f8fl h5 + .check, .js .f8fl h6 + .check, .js .f8fl .input-range { display: none; }*/
+	.js .f8fl header { margin-left: -20px; margin-right: -20px; margin-bottom: -11px; padding-left: 20px; padding-right: 20px; }
+		.js .f8fl header > h1, .js .f8fl header > h2, .js .f8fl header > h3, .js .f8fl header > h4, .js .f8fl header > h5, .js .f8fl header > h6 { display: block; overflow: hidden; height: 48px; margin: -45px -20px 11px; padding: 0 48px 0 20px; border-width: 0; background: var(--custom_top_main_bg); color: var(--custom_top_main_fg); line-height: 48px; }
+			.js .f8fl header > h1 a, .js .f8fl header > h2 a, .js .f8fl header > h3 a, .js .f8fl header > h4 a, .js .f8fl header > h5 a, .js .f8fl header > h6 a { display: block; float: right; font-size: 14px; }
+			/*.js .f8fl header > h1 + *, .js .f8fl header > h2 + *, .js .f8fl header > h3 + *, .js .f8fl header > h4 + *, .js .f8fl header > h5 + *, .js .f8fl header > h6 + * { margin-top: 11px; }*/
+		.js .f8fl header > ul { margin-bottom: 11px; }
+			.js .f8fl header > ul:last-child > li:last-child { position: relative; z-index: 2; margin-left: -20px; margin-right: -20px; padding-left: 20px; padding-right: 20px; padding-bottom: 11px; }
+			.js .f8fl header > ul:last-child > li:last-child { border-bottom: 1px solid rgba(0,0,0,0); }
+	.js .f8fl header ul a:before, .js .f8fl header ul label:before, .js .f8fl header ul li.strong a { color: var(--custom_drop_nav_fg_hover); }
+		
+/*.f8fl header ul a:before, .f8fl header ul label:before { right: -2px; }*/
+
+/*#root > .f8fl-toggle { display: block; overflow: hidden; visibility: hidden; position: fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 150; background: var(--primary_text); text-indent: -3000em; text-align: left; direction: ltr; opacity: 0; }*/
+	/*.f8fl-open #root > .f8fl-toggle,*/ .f8fl-open #root > .overlay-close, .f8fl-open .shopify-section-header > .overlay-close, .f8fl-open .shopify-section-announcement-bar > .overlay-close { visibility: visible; opacity: 1; }
+
+ .f8fl-open #root .m6cl > aside { visibility: visible; opacity: 1; }
+ .f8fl-open #root .m6cl > aside { -webkit-transform: none; transform: none; }
+
+.f8fl { margin-bottom: 0; padding-bottom: 0; border-bottom-width: 0; }
+	.f8fl .submit, .f8fl .link-btn { margin-right: 0; }
+		.f8fl .submit:last-child , .f8fl .link-btn:last-child { margin-bottom: 0; }
+	.f8fl button, .f8fl .link-btn a { width: 100%; margin-right: 0; }
+
+.f8fl.processing .submit button, .f8fl.processing .submit a, .f8fl.processing .submit button *, .f8fl.processing .submit a * { color: rgba(0,0,0,0); }
+.f8fl.processing .submit button:after, .f8fl.processing .submit a:after { content: ""; display: block; position: absolute; left: 50%; top: 50%; width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 20px; border: 2px solid var(--white); border-left-color: rgba(0,0,0,0) !important; }
+	#root .f8fl.processing .submit .overlay-content[type="button"]:after, #root form.processing .submi.link-btn a.overlay-content:after { border-color: var(--primary_text); }
+	.f8fl.processing .submit button:after, .f8fl.processing .submit a:after { -webkit-animation-name: spin; animation-name: spin; -webkit-animation-duration: .75s; animation-duration: .75s; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+	
+.js .f8fl header > h1, .js .f8fl header > h2, .js .f8fl header > h3, .js .f8fl header > h4, .js .f8fl header > h5, .js .f8fl header > h6, .js .f8fl .toggle + .input-range, .js .f8fl .toggle + .input-range ~ .input-range { display: -moz-box; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+
+.m6cl > aside .n6as { display: none; }
+}
+

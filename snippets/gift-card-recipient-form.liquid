@@ -1,0 +1,49 @@
+<style>
+    #content > [id$="main-product"] { z-index: 2; }
+</style>
+{%- if form.errors -%}
+    {%- for field in form.errors -%}
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var alertAttributes = { message: "{{ form.errors.messages[field] }}", type: "error", origin: "product" },
+                    showAlertEvent = new CustomEvent("showAlert", {detail: alertAttributes});
+                window.dispatchEvent(showAlertEvent);
+            });
+        </script>
+    {%- endfor -%}
+{%- endif -%}
+
+{%- assign gift_card_recipient_control_flag = 'properties[__shopify_send_gift_card_to_recipient]' -%}
+<input id="recipient-checkbox-{{ section.id }}" type="hidden" name="{{ gift_card_recipient_control_flag }}" disabled>
+<ul class="check inline">
+    <li>
+        <input type="checkbox" id="gift_card_recipient_form-{{ section.id }}" name="gift_card_recipient_form" value="" data-toggle="gift-card-recipient-form" data-template="{{ section.id }}">
+        <label for="gift_card_recipient_form-{{ section.id }}">{{ 'gift_cards.recipient.form.checkbox' | t }}</label>
+    </li>
+</ul>
+<div class="hidden" data-element="gift-card-recipient-form" data-disable-inputs>
+    <fieldset class="form-m-14">
+        <legend>{{ 'service.contact_form.title' | t }}</legend>
+        <p{%- if form.errors contains 'email' -%} class="is-invalid"{% endif %}>
+            <label for="recipient-email-{{ section.id }}">{{ 'gift_cards.recipient.form.email_label' | t }}<span class="overlay-theme">*</span></label>
+            <input type="email" id="recipient-email-{{ section.id }}" name="properties[Recipient email]" placeholder="{{ 'gift_cards.recipient.form.email' | t }}" value="{{ form.email }}" data-required>
+        </p>
+        <p{%- if form.errors contains 'name' -%} class="is-invalid"{% endif %}>
+            <label for="recipient-name-{{ section.id }}">{{ 'gift_cards.recipient.form.name_label' | t }}</label>
+            <input type="text" id="recipient-name-{{ section.id }}" name="properties[Recipient name]" placeholder="{{ 'gift_cards.recipient.form.name' | t }}" value="{{ form.name }}">
+        </p>
+        <p{%- if form.errors contains 'message' -%} class="is-invalid"{% endif %}>
+            {%- assign max_chars_message = 200 -%}
+            {%- assign max_chars_message_rendered = 'gift_cards.recipient.form.max_characters' | t: max_chars: max_chars_message -%}
+            <label for="recipient-message-{{ section.id }}">{{ 'gift_cards.recipient.form.message_label' | t }}</label>
+            <textarea id="recipient-message-{{ section.id }}" name="properties[Message]" maxlength="{{ max_chars_message }}" placeholder="{{ 'gift_cards.recipient.form.message' | t }}">{{ form.message }}</textarea>
+            <span class="overlay-gray size-12 last-child">{{ max_chars_message_rendered }}</span>
+        </p>
+        <p data-error-key="send_on"{%- if form.errors contains 'send_on' -%} class="is-invalid"{% endif %}>
+            <label for="recipient-send-on-{{ section.id }}">{{ 'gift_cards.recipient.form.send_on_label' | t }}</label>
+            <input type="date" autocomplete="send_on" id="recipient-name-{{ section.id }}" data-min-date="today" data-max-days=90 name="properties[Send on]" pattern="\d{4}-\d{2}-\d{2}" placeholder="{{ 'gift_cards.recipient.form.send_on' | t }}" value="{{ form.send_on }}">
+        </p>
+        <input type="hidden" name="{{ gift_card_recipient_control_flag }}" value="if_present" id="recipient-control-{{ section.id }}">
+        <input type="hidden" name="properties[__shopify_offset]" value="" id="recipient-timezone-offset-{{ section.id }}" disabled>
+    </fieldset>
+</div>

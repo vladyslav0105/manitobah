@@ -1,0 +1,76 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{% assign display = display | default: 'language' %}
+
+{% if display == 'language' %}
+  {%- assign supported_language_flags = 'ar,cs,cz,de,da,de,en,en-gb,en-us,es,fi,fr,gr,he,hr,hu,it,ja,ko,nl,no,pl,pt,pt-pt,pt-br,ru,se,sk,sl,sv,th,tr,us,vi,zh,zh-tw,zh-cn' | split: ',' %}
+  <li class="sub lang {{ extra_classes }}" data-title="{{ 'header.language' | t }}">
+    <a class="toggle{% if origin == 'footer' %} mobile-hide{% endif %}" href="./">
+      {% assign iso_code_downcase = localization.language.iso_code | downcase %}
+      {%- if supported_language_flags contains iso_code_downcase -%}
+        <img src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}" alt="{{ 'header.flag_of' | t: country: localization.language.name }}" width="17" height="12" {% if origin == 'footer' %}loading="lazy"{% endif %}>
+      {% else %}
+          <span class="mobile-hide">{{ localization.language.iso_code | upcase }}</span>
+      {%- endif -%}
+      <span class="hidden">{{ 'general.accessibility.menu' | t }}</span>
+    </a>
+    {%- if origin == 'footer' -%}
+      <a class="mobile-only" href="./" aria-controls="nav">
+        {%- if supported_language_flags contains iso_code_downcase -%}
+            <img src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}" alt="{{ 'header.flag_of' | t: country: localization.language.name }}" width="17" height="12" loading="lazy">
+        {% else %}
+            <span class="mobile-only">{{ localization.language.iso_code | upcase }}</span>
+        {%- endif -%}
+        <span class="hidden">{{ 'general.accessibility.menu' | t }}</span>
+      </a>
+    {%- endif -%}
+      {%- form 'localization', class: 'localization-form' -%}
+    <ul>
+      {%- for language in localization.available_languages -%}
+        {% assign iso_code_downcase = language.iso_code | downcase %}
+        <li>
+          {%- if supported_language_flags contains iso_code_downcase -%}
+            <img
+              src="{{ 'flag-' | append: iso_code_downcase | append: '.svg' | asset_url }}"
+              alt="{{ 'header.flag_of' | t: country: language.endonym_name }}"
+              width="17"
+              height="12"
+              loading="lazy"
+            >
+          {%- endif -%}
+          <a href="{{ language.root_url }}" hreflang="{{ language.iso_code }}" data-value="{{ language.iso_code }}" lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true" class="active"{% endif %}>{{ language.endonym_name }}</a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    <input type="hidden" name="locale_code" value="{{ localization.language.iso_code }}">
+    <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+  {%- endform -%}
+  </li>
+
+{% elsif display == 'country' %}
+  <li class="sub currency {{ extra_classes }}" data-title="{{ 'header.country' | t }}">
+    <a class="toggle{% if origin == 'footer' %} mobile-hide{% endif %}" href="./">
+      <span class="mobile-hide">{{ localization.country.iso_code }}&nbsp;({{ localization.country.currency.iso_code }}&nbsp;{{ localization.country.currency.symbol }})</span>
+      <span class="hidden">{{ 'general.accessibility.menu' | t }}</span>
+    </a>
+    {%- if origin == 'footer' -%}
+        <a class="mobile-only" href="./" aria-controls="nav">
+            <span>{{ localization.country.iso_code }}&nbsp;({{ localization.country.currency.iso_code }}&nbsp;{{ localization.country.currency.symbol }})</span>
+            <span class="hidden">{{ 'general.accessibility.menu' | t }}</span>
+        </a>
+    {%- endif -%}
+    {%- form 'localization', class: 'localization-form' -%}
+    <ul>
+      {%- for country in localization.available_countries -%}
+        <li{% if country.iso_code == localization.country.iso_code %} aria-current="true" class="active"{% endif %}>
+          <a href="#" data-value="{{ country.iso_code }}">
+            {{ country.name }}&nbsp;<span>({{ country.currency.iso_code }}&nbsp;{{ country.currency.symbol }})</span>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+    <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+    <input type="hidden" name="locale_code" value="{{ localization.language.iso_code }}">
+  {%- endform -%}
+  </li>
+
+{%- endif -%}

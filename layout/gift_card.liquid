@@ -1,0 +1,64 @@
+<!doctype html>
+{%- assign rtl_languages = 'ae,ar,arc,bcc,bqi,ckb,dv,fa,glk,ha,he,kwh,ks,ku,mzn,nqo,pnb,ps,sd,ug,ur,yi' | split: ',' %}
+<html lang="{{ request.locale.iso_code }}" data-theme="xclusive" dir="{% if rtl_languages contains localization.language.iso_code %}rtl{% else %}ltr{% endif %}" class="no-js t1pl {% if request.design_mode %}theme-editor{% endif %}{% if settings.button_style == 'inv' %} hover-inv{% endif %}">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+    {%- assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros: gift_card.currency -%}
+    {%- assign formatted_initial_value_stripped = formatted_initial_value | strip_html -%}
+    <title>{{ 'gift_cards.issued.page_title' | t: value: formatted_initial_value_stripped, shop: shop.name }}</title>
+		<meta name="theme-color" content="{{ settings.accent_color }}">
+		<meta name="MobileOptimized" content="320">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover, shrink-to-fit=no">
+		<meta name="msapplication-config" content="{{ 'browserconfig.xml' | asset_url }}">
+		<link rel="canonical" href="{{ canonical_url }}">
+		{% unless settings.primary_font.system? and settings.secondary_font.system? %}<link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>{%- endunless -%}
+		<link rel="preload" as="style" href="{{ 'screen.css' | asset_url }}">
+		<link rel="preload" as="style" href="{{ 'theme-xclusive.css' | asset_url }}">
+		<link rel="preload" as="style" href="{{ 'screen-settings.css' | asset_url }}">
+		{% if rtl_languages contains localization.language.iso_code %}<link rel="preload" as="style" href="{{ 'rtl.css' | asset_url }}">{% endif %}
+		{% unless settings.primary_font.system? %}<link rel="preload" as="font" href="{{ settings.primary_font | font_url }}" type="font/woff2" crossorigin>{% endunless %}
+    {% unless settings.secondary_font.system? %}<link rel="preload" as="font" href="{{ settings.secondary_font | font_url }}" type="font/woff2" crossorigin>{% endunless %}
+		<link rel="preload" as="font" href="{{ 'xclusive.woff2' | asset_url }}" crossorigin>
+		<link media="screen" rel="stylesheet" href="{{ 'screen.css' | asset_url }}" id="core-css">
+		<link media="screen" rel="stylesheet" href="{{ 'theme-xclusive.css' | asset_url }}" id="xclusive-css">
+		<link media="screen" rel="stylesheet" href="{{ 'screen-settings.css' | asset_url }}" id="custom-css">
+		{% if rtl_languages contains localization.language.iso_code %}<link media="screen" rel="stylesheet" href="{{ 'rtl.css' | asset_url }}">{% endif %}
+		<noscript><link rel="stylesheet" href="{{ 'async-menu.css' | asset_url }}"></noscript>
+		<link media="screen" rel="stylesheet" href="{{ 'page-misc.css' | asset_url }}" id="misc-css">
+		{%- if settings.favicon -%}
+    	<link rel="icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png">
+			<link rel="mask-icon" href="safari-pinned-tab.svg" color="#333333">
+			<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    {%- endif -%}
+		<link rel="manifest" href="{{ 'manifest.json' | asset_url }}">
+		<script>document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js');</script>
+		{% render 'social-meta-tags' %}
+		{{ content_for_header }}
+	</head>
+	<body class="template-{{ template.name | handle }}">
+		<div id="root">
+			<main id="content">
+				{{ content_for_layout }}
+			</main>
+		</div>
+		{% render 'global-variables' %}
+		{%- if rtl_languages contains localization.language.iso_code -%}<link media="screen" rel="stylesheet" href="{{ 'rtl.css' | asset_url }}">{%- endif -%}
+		<script defer src="{{ 'scripts.js' | asset_url }}"></script>
+		<script defer src="{{ 'custom.js' | asset_url }}"></script>
+    	<script defer src="{{ 'vendor/qrcode.js' | shopify_asset_url }}"></script>
+		{%- if request.design_mode -%}<script defer src="{{ 'backend-listeners.js' | asset_url }}"></script>{%- endif -%}
+		<script>
+			var string = { qrImageAlt: {{ 'gift_cards.issued.qr_image_alt' | t | json }} };
+		  document.addEventListener('DOMContentLoaded', function() {
+		    new QRCode( document.querySelector('.giftcard-qr'), {
+		     text: document.querySelector('.giftcard-qr').dataset.identifier,
+		     width: 120,
+		     height: 120,
+		     imageAltText: string.qrImageAlt
+		     });
+		  });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+.bv_atual { background-position: -3000em -3000em; }
+.bv_mainselect { display: block; }
+.bv_mainselect .bv_ul_inner { display: none; overflow-x: hidden; overflow-y: auto; position: absolute; left: 0; right: 0; top: 100%; list-style: none; max-height: 200px; margin: 0; padding: 0; opacity: 1 !important; border-radius: 0 0 var(--b2i) var(--b2i); border: 1px solid var(--custom_input_bd); border-top-width: 0; background: var(--custom_input_bg); }
+.bv_mainselect .bv_ul_inner .li { display: block; overflow: hidden; position: relative; z-index: 2; width: 100%; margin: 0; padding: 0; border-width: 0; cursor: pointer; }
+#root .bv_mainselect .bv_ul_inner .li { }
+.bv_mainselect .bv_ul_inner .li.bv_disabled, .bv_mainselect .bv_ul_inner .li.disabled { color: var(--custom_input_fg); }
+.bv_mainselect .bv_ul_inner .li.bv_disabled a, .bv_mainselect .bv_ul_inner .li.disabled a { color: inherit; }
+.bv_mainselect .bv_ul_inner .li.bv_disabled .text, .bv_mainselect .bv_ul_inner .li.disabled .text, .bv_mainselect .bv_ul_inner .li.bv_disabled img, .bv_mainselect .bv_ul_inner .li.disabled img, .bv_mainselect .bv_ul_inner .li.bv_disabled i:not(.icon-circle), .bv_mainselect .bv_ul_inner .li.disabled i:not(.icon-circle) { opacity: .53; }
+.bv_mainselect .bv_ul_inner .li a { display: block; position: relative; z-index: 2; min-height: calc(var(--main_fz) * 3.1428571429); padding: calc(var(--main_fz) * 0.3571428571) calc(var(--main_fz) * 1.1428571429); color: var(--custom_input_fg); font-weight: var(--main_fw); text-decoration: none; text-align: var(--text_align_start); }
+.bv_mainselect .bv_ul_inner .li a:before { content: ""; display: block; overflow: hidden; position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: -1; text-align: left; text-indent: -3000em; direction: ltr; }
+.bv_mainselect .bv_ul_inner .li a i { display: inline-block; position: relative; margin-right: 8px; font-size: var(--size_18_f); line-height: 1px; }
+.bv_mainselect .bv_ul_inner .li a i.icon-circle { display: block; overflow: hidden; position: relative; top: 10px; width: var(--size_22_f); height: var(--size_22_f); margin-right: 12px; margin-top: -20px; border-radius: 99px; box-shadow: inset 0 1px 2px rgba(0,0,0,.2); text-align: left; text-indent: -3000em; direction: ltr; }
+.bv_mainselect .bv_ul_inner .li a span.text { display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.bv_mainselect .bv_ul_inner .img { display: block; position: relative; width: 42px; /*height: 38px;*/ margin: 0 20px 0 0; padding-top: calc(var(--ratio) * 42px); -webkit-flex-shrink: 0; -ms-flex-shrink: 0; flex-shrink: 0; }
+.bv_mainselect .bv_ul_inner .img img { display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; width: 100% !important; height: 100% !important; max-height: none !important; -o-object-fit: contain; object-fit: contain; -o-object-position: center center; object-position: center center; }
+.bv_mainselect .bv_ul_inner .img.auto { padding-top: 0; }
+.bv_mainselect .bv_ul_inner .img.auto img { position: relative; }
+.bv_mainselect .bv_atual.up ~ .bv_ul_inner { display: block !important; }
+#root .bv_mainselect input { width: calc(100% - 20px); margin: 10px; }
+.bv_mainselect :focus::-wezzzzzzzzzzzzbkit-input-placeholder { opacity: .75; }
+.bv_mainselect :focus:-ms-input-placeholder { opacity: .75; }
+.bv_mainselect :focus::-ms-input-placeholder { opacity: .75; }
+.bv_mainselect :focus::placeholder { opacity: .75; }
+#root .bv_atual, #root .bv_mainselect .bv_atual.done[data-class*="disabled"] { color: var(--custom_input_pl); }
+#root .bv_atual:after { content: ""; display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 999; }
+.bv_mainselect .bv_atual.up { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.bv_atual.up:before { -webkit-transform: rotate(180deg); transform: rotate(180deg); }
+#root .bv_mainselect .bv_atual.done, #root .select-wrapper.done .bv_mainselect .bv_atual, #root .done > .select-wrapper .bv_mainselect .bv_atual { color: var(--custom_input_fg); }
+
+.bv_mainselect .bv_ul_inner .li.bv_disabled:before { content: ""; display: block; overflow: hidden; position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: -1; margin: 0; text-align: left; text-indent: -3000em; direction: ltr; }
+.bv_mainselect .bv_ul_inner .li.bv_disabled:before { z-index: 8; }
+.bv_mainselect .bv_ul_inner { scrollbar-width: thin; }
+.bv_mainselect .bv_ul_inner::-webkit-scrollbarr { width: 6px; height: 6px; }
+.bv_mainselect .bv_ul_inner::-webkit-scrollbar-track { background: none; }
+.bv_mainselect .bv_ul_inner::-webkit-scrollbar-thumb { background: var(--gallery); }
+
+.bv_mainselect .innerinput, .bv_mainselect .bv_ul_inner .li.bv_disabled.bv_selected, .bv_ul_b { display: none; }
+[data-search-placeholder] ~ .bv_mainselect li.nofocus:first-child + .bv_disabled.bv_selected, .bv_mainselect .bv_ul_inner .li.bv_disabled.bv_selected { display: none !important; }
+[data-search-placeholder] ~ .bv_mainselect .innerinput { display: block; }
+
+.bv_mainselect .bv_ul_inner .img, .bv_mainselect .bv_ul_inner .li a { display: -moz-box; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+.bv_mainselect .bv_ul_inner .li a { -webkit-flex-direction: row; flex-direction: row; }
+.bv_mainselect .bv_ul_inner .li a { -webkit-flex-wrap: nowrap; flex-wrap: nowrap; }
+.bv_mainselect .bv_ul_inner .img { -webkit-justify-content: center; justify-content: center; }
+.bv_mainselect .bv_ul_inner .img, .bv_mainselect .bv_ul_inner .li a { -webkit-align-items: center; align-items: center; }
+
+
+[data-whatin="mouse"] .bv_mainselect .bv_ul_inner .li a:hover:before, .bv_mainselect .bv_ul_inner .li.active a:before { background: var(--custom_input_fg); opacity: .05; }
+[data-whatin="mouse"] #root .f8sr .bv_mainselect .bv_ul_inner a:hover { background: none; color: var(--secondary_bg); }
+
+
+@media only screen and (max-width: 760px) { /* 760 */
+	.l4ca.compact.in-panel .bv_mainselect .bv_ul_inner { right: -68px; width: auto !important; border-top-right-radius: var(--b2r); }
+	[dir="rtl"] .l4ca.compact.in-panel .bv_mainselect .bv_ul_inner { left: -68px; right: 0; border-top-left-radius: var(--b2r); border-top-right-radius: 0; }
+}

@@ -1,0 +1,150 @@
+{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+{%- liquid
+  assign custom_height_ratio = section.settings.custom_image_ratio | divided_by: 100.0
+  assign image_width = 430
+  assign image_height = image_width | times: custom_height_ratio | round
+  assign limit = section.settings.number_of_items
+  case limit
+    when 0
+      assign width_class = 'w20'
+    when 2
+      assign width_class = 'w50'
+    when 3
+      assign width_class = 'w33'
+    when 4
+      assign width_class = 'w25'
+    when 5
+      assign width_class = 'w20'
+    when 6
+      assign width_class = 'w16'
+    when 7
+      assign width_class = 'w14'
+    else
+      assign width_class = 'w12'
+  endcase
+  assign img_width_limit = limit
+  assign img_width = 100 | divided_by: img_width_limit
+-%}
+{%- paginate collections by section.settings.pagination_qty -%}
+  <header class="cols">
+    <{{ section.settings.title_size }}>{{ 'collection.all_collections' | t }}</{{ section.settings.title_size }}>
+  </header>
+  <ul class="l4cl mobile-wide category {{ width_class }}" style="--ratio:{{ section.settings.custom_image_ratio | divided_by: 100.0 }}">
+    {%- for collection in collections -%}
+      {%- liquid
+        capture current
+          cycle 1, 2, 3, 4, 5, 6
+        endcapture
+      -%}
+      <li>
+        <figure class="{% if settings.multiply_collection_images == 'multiply' %}img-multiply{% elsif settings.multiply_collection_images == 'multiply-bg' %}img-multiply-bg{% endif %}">
+          <picture>
+            {% if collection.featured_image %}
+              <img
+                src="{{ collection.featured_image | image_url: width: image_width, height: image_height }}"
+                srcset="
+                  {% if section.settings.fill_images %}
+                    {% render 'image-srcset', image: collection.featured_image, format: 'custom', crop: 'center' %}
+                  {% else %}
+                    {% render 'image-srcset', image: collection.featured_image %}
+                  {% endif %}
+                "
+                sizes="
+                  {% if settings.width < 2000 %}
+                    (min-width: 1300px) {% if img_width == 100 %}calc({{ settings.width }}px * 0.2){% else %}calc({{ settings.width }}px * 0.{{ img_width }}){% endif %},
+                  {% endif %}
+                  (min-width: 760px) {% if img_width == 100 %}calc(100vw * 0.2){% else %}calc(100vw * 0.{{ img_width }}){% endif %},
+                  141px
+                "
+                width="{{ image_width }}"
+                height="{{ image_height }}"
+                alt="{% if collection.featured_image.alt == blank or collection.featured_image.alt == collection.title %}Collection image for: {% endif %}{{ collection.featured_image.alt | default: collection.title | escape }}"
+                {% if section.settings.fill_images %}class="filled"{% endif %}
+                loading="{% if section.index > 2 or forloop.first == false %}lazy{% else %}eager{% endif %}"
+              >
+            {% else %}
+              {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </picture>
+        </figure>
+        <p><a href="{{ collection.url }}">{{ collection.title }}&nbsp;<i aria-hidden="true" class="icon-chevron-right mobile-hide"></i></a></p>
+      </li>
+    {%- endfor -%}
+  </ul>
+  {% render 'pagination',
+    paginate: paginate,
+    mobile_center: true
+  %}
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "t:main.list_collection.name",
+  "tag": "article",
+  "settings": [
+    {
+      "id": "title_size",
+      "type": "select",
+      "label": "t:main.list_collection.settings.title_size.label",
+      "options": [
+        {
+          "value": "h5",
+          "label": "t:main.list_collection.settings.title_size.options__1.label"
+        },
+        {
+          "value": "h4",
+          "label": "t:main.list_collection.settings.title_size.options__2.label"
+        },
+        {
+          "value": "h3",
+          "label": "t:main.list_collection.settings.title_size.options__3.label"
+        },
+        {
+          "value": "h2",
+          "label": "t:main.list_collection.settings.title_size.options__4.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:main.list_collection.settings.title_size.options__5.label"
+        }
+      ],
+      "default": "h2"
+    },
+    {
+      "id": "custom_image_ratio",
+      "type": "range",
+      "label": "t:main.list_collection.settings.custom_image_ratio.label",
+      "info": "t:main.list_collection.settings.custom_image_ratio.info",
+      "min": 50,
+      "max": 175,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "id": "fill_images",
+      "type": "checkbox",
+      "label": "t:main.list_collection.settings.fill_images.label",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "pagination_qty",
+      "label": "t:main.list_collection.settings.pagination_qty.label",
+      "min": 12,
+      "max": 48,
+      "step": 12,
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "number_of_items",
+      "label": "t:main.list_collection.settings.number_of_items.label",
+      "min": 2,
+      "max": 8,
+      "step": 1,
+      "default": 5
+    }
+  ]
+}
+{% endschema %}

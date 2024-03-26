@@ -1,0 +1,124 @@
+<div id="recover" class="w630 align-center">
+  <{{ settings.global_title_size }} class="m30">{{ 'customer.recover_password.title' | t }}</{{ settings.global_title_size }}>
+  {%- assign recover_password_form_classes = 'f8lg text-start' %}
+  {%- form 'recover_customer_password', class: recover_password_form_classes -%}
+    {%- if form.posted_successfully? -%}
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var alertAttributes = { message: "{{ 'customer.recover_password.posted_successfully' | t }}", type: "success", origin: "recover_password" },
+                showAlertEvent = new CustomEvent("showAlert", {detail: alertAttributes});
+            window.dispatchEvent(showAlertEvent);
+        });
+      </script>
+    {%- elsif form.errors -%}
+      {%- for error in form.errors -%}
+        <script>
+          document.addEventListener('DOMContentLoaded', function () {
+              var alertAttributes = { message: "{%- if error == 'form' -%}{{ form.errors.messages[error] }}{%- else -%}{{ form.errors.translated_fields[error] | capitalize }} {{ form.errors.messages[error] }}{%- endif -%}", type: "error", origin: "recover_password" },
+                  showAlertEvent = new CustomEvent("showAlert", {detail: alertAttributes});
+              window.dispatchEvent(showAlertEvent);
+          });
+        </script>
+      {%- endfor -%}
+    {%- endif -%}
+    <fieldset>
+      <legend>{{ 'customer.recover_password.title' | t }}</legend>
+      <header>
+        <h2 class="size-16 m20">{{ 'customer.recover_password.subtitle' | t }}</h2>
+        <p>{{ 'customer.recover_password.text' | t }}</p>
+      </header>
+      <p>
+        <label for="email_address">{{ 'customer.recover_password.email' | t }}<span class="overlay-theme">*</span></label>
+        <input type="email" id="email_address" name="email" placeholder="{{ 'customer.recover_password.email' | t }}" required>
+      </p>
+      <p class="submit">
+        <button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.recover_password.submit' | t }}</button>
+        <a href="{{ routes.account_login_url }}"><i aria-hidden="true" class="icon-chevron-left"></i> {{ 'customer.recover_password.go_back' | t }}</a>
+      </p>
+    </fieldset>
+  {%- endform -%}
+</div>
+
+<div id="login" class="w720 align-center">
+  <{{ settings.global_title_size }} class="m30">{{ 'customer.login.title' | t }}</{{ settings.global_title_size }}>
+  <div class="cols b50">
+    {%- assign login_form_class = 'w45 f8vl f8lg text-start' -%}
+    {% form 'customer_login', class: login_form_class %}
+      {%- if form.errors -%}
+        {%- for error in form.errors -%}
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                var alertAttributes = { message: "{%- if error == 'form' -%}{{ form.errors.messages[error] }}{%- else -%}{{ form.errors.translated_fields[error] | capitalize }} {{ form.errors.messages[error] }}{%- endif -%}", type: "error", origin: "login" },
+                    showAlertEvent = new CustomEvent("showAlert", {detail: alertAttributes});
+                window.dispatchEvent(showAlertEvent);
+            });
+          </script>
+        {%- endfor -%}
+      {%- endif -%}
+      <fieldset>
+        <legend>{{ 'customer.login.title' | t }}</legend>
+        <header>
+          <h2 class="size-16 m20">{{ 'customer.login.existing_customer' | t }}</h2>
+        </header>
+        {%- if section.blocks.size > 0 -%}
+          <ul class="l4ch mobile-only">
+            {%- for block in section.blocks -%}
+              {%- if block.settings.usp != empty -%}
+                <li {{ block.shopify_attributes }}>{{ block.settings.usp | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' }}</li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+        <p>
+          <label for="email_address">{{ 'customer.login.email' | t }}<span class="overlay-theme">*</span></label>
+          <input type="email" id="email_address" name="customer[email]" placeholder="{{ 'customer.login.email' | t }}" required>
+        </p>
+        {%- if form.password_needed -%}
+          <p class="m20">
+            <label for="password">{{ 'customer.login.password' | t }}<span class="overlay-theme">*</span> <a href="./" class="show"><span>{{ 'general.accessibility.show' | t }}</span> <span class="hidden">{{ 'general.accessibility.hide' | t }}</span></a></label>
+            <input type="password" id="password" name="customer[password]" placeholder="{{ 'customer.login.password' | t }}" required>
+            <a href="{{ routes.account_login_url }}#recover" class="size-12">{{ 'customer.login.forgot_password' | t }}</a>
+          </p>
+        {%- endif -%}
+        <p class="submit"><button type="submit" class="wide{% if settings.button_style == 'inv' %} inv{% endif %}">{{ 'customer.login.submit' | t }}</button></p>
+      </fieldset>
+    {%- endform -%}
+    <div class="w55">
+      <h2 class="size-16 m20">{{ 'customer.register.title' | t }}</h2>
+      <p class="m20">{{ 'customer.register.create_account_info' | t }}</p>
+      {%- if section.blocks.size > 0 -%}
+        <ul class="l4ch m15">
+          {%- for block in section.blocks -%}
+            {%- if block.settings.usp != empty -%}
+              <li {{ block.shopify_attributes }}>{{ block.settings.usp | replace: '</p><p>', '<br>' | remove: '<p>' | remove: '</p>' }}</li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+      {%- endif -%}
+      <p class="link-btn"><a href="{{ routes.account_register_url }}" class="wide{% if settings.button_style == 'inv' %} inv{% endif %}">{{ 'customer.login.create_account_button' | t }}</a></p>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:main.account_login.name",
+  "settings": [
+
+  ],
+  "blocks": [
+    {
+      "type": "usp",
+      "name": "t:main.account_login.blocks.usp.name",
+      "settings": [
+        {
+          "id": "usp",
+          "type": "richtext",
+          "label": "t:main.account_login.blocks.usp.settings.usp.label",
+          "default": "<p>Give your customers more details.</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,19 @@
+{% assign mobile_hide = mobile_hide | default: false %}
+{%- if share_whatsapp -%}
+  <li{% if mobile_hide %} class="mobile-hide"{% endif %}><a target="_blank" href="https://api.whatsapp.com/send?text={{ shop.url }}{{ share.url }}"><i aria-hidden="true" class="icon-whatsapp"></i> <span>{{ 'social_share.whatsapp' | t }}</span></a></li>
+{% endif %}
+{%- if share_facebook -%}
+  <li{% if mobile_hide %} class="mobile-hide"{% endif %}><a target="_blank" onclick="return !window.open(this.href,'{{ share.title }}', 'width=500,height=500')" href="https://www.facebook.com/sharer/sharer.php?u={{ shop.url }}{{ share.url }}"><i aria-hidden="true" class="icon-facebook"></i> <span>{{ 'social_share.facebook' | t }}</span></a></li>
+{%- endif %}
+{% if share_twitter -%}
+  <li{% if mobile_hide %} class="mobile-hide"{% endif %}><a target="_blank" onclick="return !window.open(this.href,'{{ share.title }}', 'width=500,height=500')" href="https://twitter.com/intent/tweet?url={{ shop.url }}{{ share.url }}"><i aria-hidden="true" class="icon-twitter"></i> <span>{{ 'social_share.twitter' | t }}</span></a></li>
+{%- endif -%}
+{%- if share_pinterest -%}
+  <li{% if mobile_hide %} class="mobile-hide"{% endif %}><a target="_blank" onclick="return !window.open(this.href,'{{ share.title }}', 'width=500,height=500')" href="http://pinterest.com/pin/create/button/?url={{ shop.url }}{{ share.url }}&media={{ share.featured_image | image_url }}&description={{ share.title | url_encode }}"><i aria-hidden="true" class="icon-pinterest"></i> <span>{{ 'social_share.pinterest' | t }}</span></a></li>
+{% endif %}
+{%- if share_messenger -%}
+  <li class="desktop-hide{% if mobile_hide %} mobile-hide{% endif %}"><a href="fb-messenger://share/?link={{ shop.url }}{{ share.url }}"><i aria-hidden="true" class="icon-messenger"></i> <span>{{ 'social_share.messenger' | t }}</span></a></li>
+{%- endif -%}
+{%- if share_email -%}
+  <li{% if mobile_hide %} class="mobile-hide"{% endif %}><a href="mailto:?subject=&body={{ shop.url }}{{ share.url }}"><i aria-hidden="true" class="icon-envelope"></i> <span>{{ 'social_share.email' | t }}</span></a></li>
+{%- endif -%}
