@@ -150,7 +150,7 @@
     {%- assign letters_to_color = block.settings.letters_to_color | default: 0 -%}
     {%- assign title_first_part = title | slice: 0, letters_to_color -%}
     {%- assign title_second_part = title | slice: letters_to_color -%}
-    {%- if letters_to_color > 0 -%}
+    {%- if letters_to_color > 1 -%}
     <{{ block.settings.title_size }} class="ff-{{ block.settings.title_font }} {% if block.settings.enable_custom_text_styling %}text-palette-{{ block.settings.title_color_palette }} fw-{{ block.settings.title_weight }}{% endif %}{% if block.settings.subtitle != blank %} m0{% endif %}">
         <span style="color: {{ section.settings.title_color }};">{{ title_first_part }}</span>{{ title_second_part }}
     </{{ block.settings.title_size }}>
