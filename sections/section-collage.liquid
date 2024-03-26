@@ -145,19 +145,9 @@
             {% endif %}
           </figure>
           <div>
-           {%- if block.settings.title != empty -%}
-    {%- assign title = block.settings.title -%}
-    {%- assign letters_to_color = block.settings.letters_to_color | default: 0 -%}
-    {%- assign title_first_part = title | slice: 0, letters_to_color -%}
-    {%- assign title_second_part = title | slice: letters_to_color -%}
-    {%- if letters_to_color > 1 -%}
-    <{{ block.settings.title_size }} class="ff-{{ block.settings.title_font }} {% if block.settings.enable_custom_text_styling %}text-palette-{{ block.settings.title_color_palette }} fw-{{ block.settings.title_weight }}{% endif %}{% if block.settings.subtitle != blank %} m0{% endif %}">
-        <span style="color: {{ section.settings.title_color }};">{{ title_first_part }}</span>{{ title_second_part }}
-    </{{ block.settings.title_size }}>
-    {%- else -%}
-    <{{ block.settings.title_size }} class="ff-{{ block.settings.title_font }} {% if block.settings.enable_custom_text_styling %}text-palette-{{ block.settings.title_color_palette }} fw-{{ block.settings.title_weight }}{% endif %}{% if block.settings.subtitle != blank %} m0{% endif %}">{{ title }}</{{ block.settings.title_size }}>
-    {%- endif -%}
-{%- endif -%}
+            {%- if block.settings.title != empty -%}
+              <{{ block.settings.title_size }} class="ff-{{ block.settings.title_font }} {% if block.settings.enable_custom_text_styling %}text-palette-{{ block.settings.title_color_palette }} fw-{{ block.settings.title_weight }}{% endif %}{% if block.settings.subtitle != blank %} m0{% endif %}">{{ block.settings.title }}</{{ block.settings.title_size }}>
+            {%- endif -%}
             {%- if block.settings.subtitle != empty -%}
               <{{ block.settings.subtitle_size }} class="ff-{{ block.settings.subtitle_font }} {% if block.settings.enable_custom_subtext_styling %}text-palette-{{ block.settings.subtitle_color_palette }} fw-{{ block.settings.subtitle_weight }}{% endif %}">{{ block.settings.subtitle }}</{{ block.settings.subtitle_size }}>
             {%- endif -%}
@@ -390,18 +380,6 @@
           "type": "image_picker",
           "label": "t:sections.collage.blocks.image.settings.image.label"
         },
-        {
-  "type": "text",
-  "id": "letters_to_color",
-  "label": "Anzahl der einzufärbenden Buchstaben",
-  "default": "0"
-},
-{
-  "type": "color",
-  "id": "title_color",
-  "label": "Farbe für Titeltext",
-  "default": "#000000"
-},
         {
           "type": "video",
           "id": "video",
