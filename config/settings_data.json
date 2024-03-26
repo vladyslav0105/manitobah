@@ -532,5 +532,10 @@
       "heading_letter_spacing": -3,
       "mobile_font_size": "18px"
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "p.price {font-size: 20px !important; font-weight: 800!important;}"
+    ]
   }
 }
