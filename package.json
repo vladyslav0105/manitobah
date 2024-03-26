@@ -1,0 +1,27 @@
+{
+  "name": "medicom-de",
+  "scripts": {
+    "start": "concurrently npm:watch* --restart-tries 10",
+    "watch:tailwind": "npx tailwindcss -i ./src/input.css -o ./assets/tailwind.css --watch",
+    "tailwind:build": "npx tailwindcss -i ./src/input.css -o ./assets/tailwind.css --build",
+    "format:write": "prettier --write \"./**/*{.ts,.json,.css,.scss,.html,.liquid}\"",
+    "shopify:check": "npx shopify theme check -a",
+    "watch:shopify": "npx shopify theme dev --store=medicom-de.myshopify.com",
+    "typescript:dev": "vite build --watch"
+  },
+  "devDependencies": {
+    "@shopify/cli": "^3.52.0",
+    "@shopify/prettier-plugin-liquid": "^1.4.0",
+    "@shopify/theme": "^3.52.0",
+    "@types/alpinejs": "^3.13.5",
+    "concurrently": "^8.2.2",
+    "fast-glob": "^3.3.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.10",
+    "tailwindcss": "^3.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  }
+}

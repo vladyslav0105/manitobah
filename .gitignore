@@ -1,0 +1,9 @@
+# ignore all template files
+# *.json
+node_modules
+
+!.prettierrc.json
+!package.json
+!.vscode/*
+
+.idea
