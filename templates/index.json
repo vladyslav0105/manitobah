@@ -1,1 +1,1260 @@
-{"sections":{"86d43546-c3ee-4763-8d9e-efbf3b62d046":{"type":"section-spacer","settings":{"height":-10,"height_mobile":-10}},"494041aa-66c0-450a-acb0-f3bc90d6b837":{"type":"section-collage","blocks":{"fd93849e-8a2d-47d7-a8b8-7dd02ccde46a":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"Geschenke Aktion","title_font":"primary","title_size":"h2","enable_custom_text_styling":true,"title_color_palette":"white","title_weight":"500","subtitle":"","subtitle_font":"secondary","subtitle_size":"h4","enable_custom_subtext_styling":false,"subtitle_color_palette":"white","subtitle_weight":"700","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"","link_url":"\/","button_color_palette":"black","show_link":false,"show_look":false,"product_list":[],"look_btn_color_palette":"black","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"17e623f9-2f1a-4bdb-a143-35b7bace4700":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/nobilin-584x584.webp","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"Bestseller","title_font":"primary","title_size":"h2","enable_custom_text_styling":true,"title_color_palette":"white","title_weight":"700","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"show_look":false,"product_list":[],"look_btn_color_palette":"buy_button","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"image_wqpPtx":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/schwarzer-knoblauch-400x400.webp","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"Beliebteste Wirkstoffe","title_font":"primary","title_size":"h2","enable_custom_text_styling":true,"title_color_palette":"white","title_weight":"700","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":true,"subtitle_color_palette":"white","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"show_look":false,"product_list":[],"look_btn_color_palette":"buy_button","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"image_MLcLpc":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/kapsel.jpg","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"Krillöl","title_font":"primary","title_size":"h2","enable_custom_text_styling":true,"title_color_palette":"white","title_weight":"700","subtitle":"Weltweit beste Omega-3-Quelle","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":true,"subtitle_color_palette":"white","subtitle_weight":"400","text":"","enable_custom_font_styling":true,"font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"show_look":false,"product_list":[],"look_btn_color_palette":"buy_button","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"image_LABcmU":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/QH-584x584.webp","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"","title_font":"primary","title_size":"h2","enable_custom_text_styling":false,"title_color_palette":"black","title_weight":"700","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"show_look":false,"product_list":[],"look_btn_color_palette":"buy_button","look_position":"end","show_look_label":false,"look_label_text":"Label"}}},"block_order":["fd93849e-8a2d-47d7-a8b8-7dd02ccde46a","17e623f9-2f1a-4bdb-a143-35b7bace4700","image_wqpPtx","image_MLcLpc","image_LABcmU"],"custom_css":["h2 {text-shadow: 2px 2px 1px #000000;}"],"settings":{"mirrored":false,"width":"boxed","height":"size-m","enable_custom_height":false,"custom_height":700,"space_between":16,"image_zoom":false,"image_move":true,"layout_mobile":"rows","mobile_height":"size-m","spacing_desktop":70,"spacing_mobile":40,"fix_zindex":0}},"codext_navigation_9XM6rE":{"type":"codext-navigation","blocks":{"block_fchtfF":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/QH-400x400.webp","heading":"Energie & Zellen","url":"","highlight":false}},"block_yAyRqE":{"type":"block","settings":{"image":"shopify:\/\/shop_images\/Omega3-400x400.webp","heading":"Omega-3","url":"","highlight":false}},"block_GGWt63":{"type":"block","settings":{"heading":"Immunsystem","url":"","highlight":false}},"block_r3DMUj":{"type":"block","settings":{"heading":"Naturprodukte","url":"","highlight":false}},"block_jD7iyz":{"type":"block","settings":{"heading":"Sport & Muskeln","url":"","highlight":false}},"block_FBJ4fx":{"type":"block","settings":{"heading":"Magen & Darm","url":"","highlight":false}}},"block_order":["block_fchtfF","block_yAyRqE","block_GGWt63","block_r3DMUj","block_jD7iyz","block_FBJ4fx"],"disabled":true,"settings":{"background-color":"#ffffff","max-show":600,"abgerundete_ecken":50,"schriftart":"sans-serif","schriftfarbe":"#000000","highlight-color":"#c4258d","abstand_zwischen_blocken_desktop":31,"abstand_zwischen_blocken_mobile":18,"hover-effekt-opacity":0.8}},"section_icon_text_blocks_Ba8mFi":{"type":"section-icon-text-blocks","blocks":{"text_TiQwL7":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/QH-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Energie & Zellen<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_DeGYKm":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Omega3-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Omega-3 \/ EPA & DHA<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_YdBq9m":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/VitaminC-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Immunsystem<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_GRKHVm":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Propolis-400x400_1.webp","image_height":180,"title":"","subtitle":"","text":"<p>Naturprodukte<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_p49REF":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Elektrolyte-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Sport & Muskeln<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_h3PqH6":{"type":"text","disabled":true,"settings":{"icon":"none","image":"shopify:\/\/shop_images\/Elektrolyte-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Sport & Muskeln<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}}},"block_order":["text_TiQwL7","text_DeGYKm","text_YdBq9m","text_GRKHVm","text_p49REF","text_h3PqH6"],"custom_css":["img {border-radius: 100px;}"],"settings":{"items_width":6,"text_alignment":"center","title":"―――――  Beliebteste Themen  ―――――","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"blocks_text_alignment":"center","blocks_title_font":"primary","blocks_title_size":"h2","blocks_subtitle_font":"secondary","blocks_subtitle_size":"h2","blocks_title_color_palette":"black","blocks_title_weight":"700","blocks_subtitle_color_palette":"black","blocks_subtitle_weight":"400","blocks_font_size":"16px","spacing_desktop":120,"spacing_mobile":30,"fix_zindex":0}},"section_icon_text_blocks_d6r3gE":{"type":"section-icon-text-blocks","blocks":{"text_fmdxwE":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/icon-whatsapp_3.webp","image_height":35,"title":"","subtitle":"","text":"<p>Bestellen via <strong>WhatsApp<br\/>+49 152 587 587 54<\/strong><\/p>","link_text":"","link_url":"","button_color_palette":"accent","show_link":false}},"text_pPLcpb":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/icon-clock_1.webp","image_height":35,"title":"","subtitle":"","text":"<p>Wir <strong>liefern <br\/>garantiert <\/strong>in 2 Tagen <\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_zB8BzM":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Icon_Geld_zurueck_Garantie-45x45.webp","image_height":35,"title":"","subtitle":"","text":"<p>90-Tage <br\/><strong>Geld-zurück-Garantie<\/strong><\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_TKMEgJ":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/icon-truck_1.webp","image_height":35,"title":"","subtitle":"","text":"<p><strong>Kostenloser Versand<\/strong><br\/>deutschlandweit ab € 15,- <\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}}},"block_order":["text_fmdxwE","text_pPLcpb","text_zB8BzM","text_TKMEgJ"],"custom_css":["li {border: 1px solid black; margin-right: 30px; max-width: 260px;}","p {font-size: 18px; line-height: 25px;}"],"settings":{"items_width":4,"text_alignment":"center","title":"―――――  Ihre Vorteile bei Medicom  ―――――","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"blocks_text_alignment":"center","blocks_title_font":"primary","blocks_title_size":"h2","blocks_subtitle_font":"secondary","blocks_subtitle_size":"h2","blocks_title_color_palette":"black","blocks_title_weight":"700","blocks_subtitle_color_palette":"black","blocks_subtitle_weight":"400","blocks_font_size":"16px","spacing_desktop":150,"spacing_mobile":30,"fix_zindex":0}},"section_featured_products_jeNXEH":{"type":"section-featured-products","settings":{"products":["vitamin-c-shot-1-000-mg","propolis-bio","magnesium-direkt-400-mg","nobilin-agevital®","qh-mono-100-mg"],"layout":"slider","number_of_items":5,"text_alignment":"center","title":"―――――  Favoriten unserer Kunden  ―――――","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"","link_url":"\/","button_color_palette":"accent","show_link":false,"mobile_layout":"slider","spacing_desktop":150,"spacing_mobile":30,"fix_zindex":0}},"section_newsletter_44CTW3":{"type":"section-newsletter","settings":{"overlay_opacity_img":0,"color_palette":"dark_gradient","overlay_opacity":100,"width":"boxed","title":"MELDEN SIE SICH AN UND ERHALTEN SIE 20% RABATT","title_font":"primary","title_size":"h2","enable_custom_text_styling":false,"title_color_palette":"black","title_weight":"700","subtitle":"","subtitle_font":"primary","subtitle_size":"h4","enable_custom_subtext_styling":true,"subtitle_color_palette":"white","subtitle_weight":"400","text":"<p>Mit dem Medicom-Newsletter erhalten Sie die neuesten Angebote und Informationen direkt ins Postfach.<\/p>","enable_custom_font_styling":false,"font_size":"16px","link_text":"Subscribe","button_color_palette":"dark","enable_newsletter_terms_checkbox":true,"newsletter_terms_text":"<p>Ja, ich habe die <a>Datenschutzbestimmungen <\/a>gelesen und akzeptiere diese. <\/p>","spacing_desktop":150,"spacing_mobile":30,"fix_zindex":0}},"section_icon_text_blocks_hyWFdY":{"type":"section-icon-text-blocks","blocks":{"text_K3XR3g":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Krilloel-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Krillöl<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_hWG9rU":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/qh-400x400_1.webp","image_height":180,"title":"","subtitle":"","text":"<p>Biokatives Q10 (Ubiquinol)<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_GtkJNe":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Probiotika-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Probiotika<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_wkhcLw":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/schwarzer-knoblauch-400x400_1.webp","image_height":180,"title":"","subtitle":"","text":"<p>Schwarzer Knoblauch<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_DChnGJ":{"type":"text","settings":{"icon":"none","image":"shopify:\/\/shop_images\/Artischocke-400x400_1.webp","image_height":180,"title":"","subtitle":"","text":"<p>Artischocke<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_GyF3AT":{"type":"text","disabled":true,"settings":{"icon":"none","image":"shopify:\/\/shop_images\/Elektrolyte-400x400.webp","image_height":180,"title":"","subtitle":"","text":"<p>Sport & Muskeln<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}}},"block_order":["text_K3XR3g","text_hWG9rU","text_GtkJNe","text_wkhcLw","text_DChnGJ","text_GyF3AT"],"custom_css":["img {border-radius: 100px;}"],"settings":{"items_width":6,"text_alignment":"center","title":"―――――  Beliebteste Wirkstoffe  ―――――","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"blocks_text_alignment":"center","blocks_title_font":"primary","blocks_title_size":"h2","blocks_subtitle_font":"secondary","blocks_subtitle_size":"h2","blocks_title_color_palette":"black","blocks_title_weight":"700","blocks_subtitle_color_palette":"black","blocks_subtitle_weight":"400","blocks_font_size":"16px","spacing_desktop":150,"spacing_mobile":30,"fix_zindex":0}},"section_image_with_text_pmeiji":{"type":"section-image-with-text","blocks":{"title_YKRepC":{"type":"title","settings":{"title":"Online Nahrungsergänzungsmittel kaufen","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200"}},"text_MGGeCw":{"type":"text","settings":{"text":"<p>Medicom ist Ihr Onlinegeschäft für <strong>Nahrungsergänzungsmittel<\/strong>! In unserem Vitamin-Shop finden Sie eine riesige Auswahl an Ergänzungspräparaten, sinnvoll abgestimmten Vitalstoff-Produkten und freiverkäuflichen Arzneimitteln, die zu Ihrem individuellem Lebensstil passen. Diese Vitalstoffe helfen Ihnen bei Ihrer <strong>Gesunderhaltung, Lebensqualität und Ihrem Wohlbefinden<\/strong>. Mit ihnen können Sie hervorragend Ihre Ernährung ergänzen, damit Sie immer genügend Vitalstoffe zu sich nehmen. Eine gesunde ausgewogene Ernährung ist dafür natürlich äußerst wichtig und geht Hand in Hand mit einer Nahrungsergänzung.<\/p>","font":"primary","font_weight":"300","font_size":"16px"}}},"block_order":["title_YKRepC","text_MGGeCw"],"custom_css":["img {padding: 30px;}"],"settings":{"image":"shopify:\/\/shop_images\/women.png","overlay_opacity_img":0,"color_palette":"light","overlay_opacity":100,"layout":"image-right","width":"boxed","height":"l","enable_custom_height":false,"custom_height":250,"text_position":"text-start","spacing_desktop":150,"spacing_mobile":30,"fix_zindex":0}},"section_collection_button_list_ApDzmh":{"type":"section-collection-button-list","settings":{"collections":["abnehmen-diat","abwehrkrafte-starken","anspannung-unruhe","augen","bioaktives-q10-ubiquinol-qh","beauty-haut-haare-nagel","eisenmangel","frauen-wechseljahre-osteoporose","gedachtnis-nerven","gelenke-bewegung","herz-blut-omega-3","immunsystem","krillol","magen-darm-verdauung"],"buttons_color_palette":"black","button_styling":"inv","text_alignment":"center","title":"―――――  Ihre Themen – unsere Produkte  ―――――","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"300","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"300","text":"<p>Sie können unser Sortiment ganz einfach nach Inhaltsstoffen, Produkten oder Themen durchsuchen. Die Themen und <a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\">Anwendungsgebiete <\/a>sind unterteilt und umfassen unter anderem folgende:<\/p>","enable_custom_font_styling":false,"font_size":"16px","link_text":"","link_url":"shopify:\/\/collections","button_color_palette":"accent","show_link":false,"mobile_layout":"slider","spacing_desktop":150,"spacing_mobile":30,"fix_zindex":0}},"section_icon_text_blocks_N3hhVc":{"type":"section-icon-text-blocks","blocks":{"text_4XWJpp":{"type":"text","settings":{"icon":"none","image_height":55,"title":"","subtitle":"","text":"<ul><li><a href=\"https:\/\/www.medicom.de\/krilloel-forte-kapseln\" target=\"_blank\">Krillöl<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/wirkstoffe\/vitamine\/ubiquinol\" target=\"_blank\">Bioaktives Q10 - Ubiquinol (QH)<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/abnehmen-diaet\">Abnehmen, Diät<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/terra-produkte\">TERRA Pflanzenkraft<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/herz-kreislauf-blutdruck-omega-3\">Herz, Blut, Omega 3<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/magen-darm-verdauung\">Magen, Darm, Verdauung<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/gelenke-arthrose\">Gelenke, Bewegung<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/eisenmangel-blutbildung\">Eisenmangel<\/a><\/li><\/ul>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_M7gYEw":{"type":"text","settings":{"icon":"none","image_height":55,"title":"","subtitle":"","text":"<ul><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/wechseljahre-osteoporose\">Frauen, Wechseljahre, Osteoporose<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/augen-sehkraft\">Augen<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/haut-haare-naegel-beauty\">Beauty, Haut, Haare, Nägel<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/erkaeltung-husten-schnupfen\">Abwehrkräfte stärken<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/immunsystem-freie-radikale\">Immunsystem<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/anspannung-unruhe-belastung\">Anspannung, Unruhe<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/gedaechtnis-nerven\">Gedächtnis, Nerven<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/schlaf-schlafstoerungen\">Schlaf, Schlafstörung<\/a><\/li><\/ul>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}}},"block_order":["text_4XWJpp","text_M7gYEw"],"disabled":true,"custom_css":["a {text-align: center;}"],"settings":{"items_width":2,"text_alignment":"center","title":"―――――  Ihre Themen – unsere Produkte  ―――――","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"<p>Sie können unser Sortiment ganz einfach nach Inhaltsstoffen, Produkten oder Themen durchsuchen. Die Themen und <a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\">Anwendungsgebiete <\/a>sind unterteilt und umfassen unter anderem folgende:<\/p>","font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"blocks_text_alignment":"start","blocks_title_font":"primary","blocks_title_size":"h2","blocks_subtitle_font":"secondary","blocks_subtitle_size":"h2","blocks_title_color_palette":"black","blocks_title_weight":"700","blocks_subtitle_color_palette":"black","blocks_subtitle_weight":"400","blocks_font_size":"16px","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"section_image_with_text_YcF9KM":{"type":"section-image-with-text","blocks":{"text_RpGjYW":{"type":"text","settings":{"text":"<p>Natürlich können Sie auch einfach <a href=\"https:\/\/www.medicom.de\/alle-produkte\">alle Produkte<\/a> durchstöbern, um die richtigen Nahrungsergänzungsmittel als Kapseln, Tabletten oder in Flüssigform zu finden. Vielleicht entdecken Sie so etwas Neues, was Sie lieben werden.<br\/>Unsere Vitalstoff-Kombinationen und Inhaltsstoffe sind sinnvoll aufeinander abgestimmt und zielen darauf ab, Sie und Ihr Leben gesünder zu machen. Deshalb wird deren Entwicklung von <strong>wissenschaftlichen Erkenntnissen<\/strong> geleitet.<\/p><p> <\/p><p>Die <strong>hohe Qualität<\/strong> unserer Produkte ist uns sehr wichtig. Unser <strong>Sitz befindet sich in Deutschland<\/strong> und wir folgen den strengen Deutschen Gesetzen. Viele Produkte sind <strong>100% vegan<\/strong> und alle Produkte werden <strong>ohne Gentechnik und ohne Tierversuche<\/strong> hergestellt. Deshalb zögern wir nicht, Ihnen eine <strong>90-Tage-Geld-zurück-Garantie<\/strong> zu bieten, falls Ihnen mal etwas nicht gefallen sollte. Denn wir sind davon überzeugt, dass unsere Medicom-Produkte Sie überzeugen werden!<\/p>","font":"primary","font_weight":"300","font_size":"16px"}}},"block_order":["text_RpGjYW"],"custom_css":["img {padding: 30px;}"],"settings":{"image":"shopify:\/\/shop_images\/serviceprice.png","overlay_opacity_img":0,"color_palette":"light","overlay_opacity":100,"layout":"image-left","width":"boxed","height":"l","enable_custom_height":false,"custom_height":250,"text_position":"text-start","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"section_image_with_text_zyLjVr":{"type":"section-image-with-text","blocks":{"title_FBwHWd":{"type":"title","settings":{"title":"Online über Gesundheitsthemen informieren","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200"}},"text_7UCGQk":{"type":"text","settings":{"text":"<p>Um immer über aktuelle Aktionen und Trends informiert zu bleiben, können Sie sich für unseren kostenlosen <a href=\"https:\/\/www.medicom.de\/newsletter\" title=\"newsletter\">Gesundheitsnewsletter<\/a> anmelden.<br\/>Wir legen viel Wert auf unseren <strong>Service beim Nahrungsergänzungsmittel Verkauf<\/strong> und wollen, dass er der beste der Branche ist. Auf unserer Webseite finden Sie viele <strong>hilfreiche Informationen über Gesundheits- und Wohlfühlthemen<\/strong> in unserem Online-Magazin <a href=\"https:\/\/www.medicom.de\/lebennurbesser\">#lebennurbesser<\/a> mit Podcastinterviews.<\/p>","font":"primary","font_weight":"300","font_size":"16px"}}},"block_order":["title_FBwHWd","text_7UCGQk"],"custom_css":["img {padding: 3px;}"],"settings":{"image":"shopify:\/\/shop_images\/paar.png","overlay_opacity_img":0,"color_palette":"white","overlay_opacity":100,"layout":"image-right","width":"boxed","height":"l","enable_custom_height":false,"custom_height":250,"text_position":"text-start","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"section_image_with_text_trmeHQ":{"type":"section-image-with-text","blocks":{"title_XxVjP6":{"type":"title","settings":{"title":"Kostenlose Beratung","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200"}},"text_hfr4Be":{"type":"text","settings":{"text":"<p>Natürlich können Sie uns aber auch jederzeit kontaktieren, falls Sie <strong>Fragen haben oder individuell beraten <\/strong>werden möchten. Telefonisch ist unser Team für Sie unter der kostenlosen <br\/><strong>Service-Hotline 0800 - 50 400 50 <\/strong>montags bis samstags von 8:00 h bis 19:00 h erreichbar. Sie können uns auch einfach eine <br\/><strong>E-Mail an <\/strong><a href=\"mailto:info@medicom.de\"><strong>info@medicom.de <\/strong><\/a>schicken und ein Teammitglied wird sich so schnell wie möglich bei Ihnen melden. Besonders praktisch: unser <strong>WhatsApp-Service unter <\/strong><a href=\"https:\/\/wa.me\/message\/S3FYH34FVG5HF1\"><strong>0152 - 587 587 54<\/strong><\/a>. Schreiben Sie uns Ihre Fragen oder Ihren Bestellwunsch ganz bequem direkt in WhatsApp. Zögern Sie also nicht, noch heute mit uns Kontakt aufzunehmen und bei uns Ihre Nahrungsergänzungsmittel zu kaufen!<\/p>","font":"primary","font_weight":"300","font_size":"16px"}}},"block_order":["title_XxVjP6","text_hfr4Be"],"custom_css":["img {padding: 30px;}"],"settings":{"image":"shopify:\/\/shop_images\/beratung.png","overlay_opacity_img":0,"color_palette":"light","overlay_opacity":100,"layout":"image-left","width":"boxed","height":"l","enable_custom_height":false,"custom_height":250,"text_position":"text-start","spacing_desktop":0,"spacing_mobile":30,"fix_zindex":0}},"section_rich_text_XpNLUX":{"type":"section-rich-text","blocks":{"title_HcTMV6":{"type":"title","settings":{"title":"―――――  Haben Sie alles gefunden?  ―――――","title_font":"primary","title_size":"h3","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"200"}}},"block_order":["title_HcTMV6"],"custom_css":["{margin-top: -100px; z-index: -1 !important; position: relative;}"],"settings":{"color_palette":"white","overlay_opacity":100,"text_position":"align-bottom text-center","content_width":1280,"height":"xs","enable_custom_height":true,"custom_height":250,"width":"wide","height_mobile":"xs","spacing_desktop":0,"spacing_mobile":30,"fix_zindex":0}},"section_banner_columns_Q39FYB":{"type":"section-banner-columns","blocks":{"image_xgmkRg":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/nobilin-584x584_f325de62-1c27-4d90-abf2-8e2191eb7c85.webp","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"","title_font":"primary","title_size":"h4","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"400","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"ZU ALLEN PRODUKTEN","link_url":"shopify:\/\/collections","button_color_palette":"accent","show_link":true,"show_look":false,"product_list":[],"look_btn_color_palette":"buy_button","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"image_mQ8BPG":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/whatsapp-389x291.webp","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"","title_font":"primary","title_size":"h4","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"400","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"BESTELLEN PER WHATSAPP","link_url":"shopify:\/\/collections","button_color_palette":"accent","show_link":true,"show_look":false,"product_list":[],"look_btn_color_palette":"buy_button","look_position":"end","show_look_label":false,"look_label_text":"Label"}},"image_M98UNV":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/medicom_produkt_katalog-389x291.webp","overlay_opacity":0,"color_palette":"white","text_position":"text-center","title":"","title_font":"primary","title_size":"h4","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"400","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","link_text":"KATALOG DOWNLOADEN","link_url":"shopify:\/\/collections","button_color_palette":"accent","show_link":true,"show_look":false,"product_list":[],"look_btn_color_palette":"buy_button","look_position":"end","show_look_label":false,"look_label_text":"Label"}}},"block_order":["image_xgmkRg","image_mQ8BPG","image_M98UNV"],"settings":{"items_width":3,"width":"boxed","height":"size-s","enable_custom_height":true,"custom_height":300,"space_between":16,"image_zoom":true,"image_move":false,"show_content_below":true,"layout_mobile":"rows","mobile_height":"size-s","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"section_custom_liquid_Chf4qz":{"type":"section-custom-liquid","settings":{"custom_liquid":"{% assign meta_thumbnail = page.meta_thumbnail %}\n{% assign h1_heading = page.h1_heading %}\n{% assign page_url = \"https:\/\/www.medicom.de\/lebennurbesser\/warum-ist-ubiquinol-biaktives-q10-das-bessere-q10-experteninterview\/\" %}\n\n<meta property=\"og:image\" content=\"{{ meta_thumbnail }}\">\n<meta property=\"og:url\" content=\"{{ page_url }}\">\n<h1>{{ h1_heading }}<\/h1>","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}}},"order":["86d43546-c3ee-4763-8d9e-efbf3b62d046","494041aa-66c0-450a-acb0-f3bc90d6b837","codext_navigation_9XM6rE","section_icon_text_blocks_Ba8mFi","section_icon_text_blocks_d6r3gE","section_featured_products_jeNXEH","section_newsletter_44CTW3","section_icon_text_blocks_hyWFdY","section_image_with_text_pmeiji","section_collection_button_list_ApDzmh","section_icon_text_blocks_N3hhVc","section_image_with_text_YcF9KM","section_image_with_text_zyLjVr","section_image_with_text_trmeHQ","section_rich_text_XpNLUX","section_banner_columns_Q39FYB","section_custom_liquid_Chf4qz"]}
+{
+  "sections": {
+    "86d43546-c3ee-4763-8d9e-efbf3b62d046": {
+      "type": "section-spacer",
+      "settings": {
+        "height": -10,
+        "height_mobile": -10
+      }
+    },
+    "494041aa-66c0-450a-acb0-f3bc90d6b837": {
+      "type": "section-collage",
+      "blocks": {
+        "fd93849e-8a2d-47d7-a8b8-7dd02ccde46a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Geschenke Aktion",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "white",
+            "title_weight": "500",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h4",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "white",
+            "subtitle_weight": "700",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "",
+            "link_url": "\/",
+            "button_color_palette": "black",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "black",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "17e623f9-2f1a-4bdb-a143-35b7bace4700": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nobilin-584x584.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Bestseller",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "white",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_wqpPtx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/schwarzer-knoblauch-400x400.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Beliebteste Wirkstoffe",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "white",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": true,
+            "subtitle_color_palette": "white",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_MLcLpc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kapsel.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Krillöl",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "white",
+            "title_weight": "700",
+            "subtitle": "Weltweit beste Omega-3-Quelle",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": true,
+            "subtitle_color_palette": "white",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": true,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_LABcmU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/QH-584x584.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "fd93849e-8a2d-47d7-a8b8-7dd02ccde46a",
+        "17e623f9-2f1a-4bdb-a143-35b7bace4700",
+        "image_wqpPtx",
+        "image_MLcLpc",
+        "image_LABcmU"
+      ],
+      "custom_css": [
+        "h2 {background-color: #484848; padding: 10px;}"
+      ],
+      "settings": {
+        "mirrored": false,
+        "width": "boxed",
+        "height": "size-m",
+        "enable_custom_height": false,
+        "custom_height": 700,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "layout_mobile": "rows",
+        "mobile_height": "size-m",
+        "spacing_desktop": 70,
+        "spacing_mobile": 40,
+        "fix_zindex": 0
+      }
+    },
+    "codext_navigation_9XM6rE": {
+      "type": "codext-navigation",
+      "blocks": {
+        "block_fchtfF": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/QH-400x400.webp",
+            "heading": "Energie & Zellen",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "block_yAyRqE": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Omega3-400x400.webp",
+            "heading": "Omega-3",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "block_GGWt63": {
+          "type": "block",
+          "settings": {
+            "heading": "Immunsystem",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "block_r3DMUj": {
+          "type": "block",
+          "settings": {
+            "heading": "Naturprodukte",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "block_jD7iyz": {
+          "type": "block",
+          "settings": {
+            "heading": "Sport & Muskeln",
+            "url": "",
+            "highlight": false
+          }
+        },
+        "block_FBJ4fx": {
+          "type": "block",
+          "settings": {
+            "heading": "Magen & Darm",
+            "url": "",
+            "highlight": false
+          }
+        }
+      },
+      "block_order": [
+        "block_fchtfF",
+        "block_yAyRqE",
+        "block_GGWt63",
+        "block_r3DMUj",
+        "block_jD7iyz",
+        "block_FBJ4fx"
+      ],
+      "disabled": true,
+      "settings": {
+        "background-color": "#ffffff",
+        "max-show": 600,
+        "abgerundete_ecken": 50,
+        "schriftart": "sans-serif",
+        "schriftfarbe": "#000000",
+        "highlight-color": "#c4258d",
+        "abstand_zwischen_blocken_desktop": 31,
+        "abstand_zwischen_blocken_mobile": 18,
+        "hover-effekt-opacity": 0.8
+      }
+    },
+    "section_icon_text_blocks_Ba8mFi": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_TiQwL7": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/QH-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Energie & Zellen<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_DeGYKm": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Omega3-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Omega-3 \/ EPA & DHA<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_YdBq9m": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/VitaminC-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Immunsystem<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_GRKHVm": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Propolis-400x400_1.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Naturprodukte<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_p49REF": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Elektrolyte-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Sport & Muskeln<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_h3PqH6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Elektrolyte-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Sport & Muskeln<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_TiQwL7",
+        "text_DeGYKm",
+        "text_YdBq9m",
+        "text_GRKHVm",
+        "text_p49REF",
+        "text_h3PqH6"
+      ],
+      "custom_css": [
+        "img {border-radius: 100px;}"
+      ],
+      "settings": {
+        "items_width": 6,
+        "text_alignment": "center",
+        "title": "―――――  Beliebteste Themen  ―――――",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "200",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 120,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_d6r3gE": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_fmdxwE": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/icon-whatsapp_3.webp",
+            "image_height": 35,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Bestellen via <strong>WhatsApp<br\/>+49 152 587 587 54<\/strong><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_pPLcpb": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/icon-clock_1.webp",
+            "image_height": 35,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Wir <strong>liefern <br\/>garantiert <\/strong>in 2 Tagen <\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_zB8BzM": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Icon_Geld_zurueck_Garantie-45x45.webp",
+            "image_height": 35,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>90-Tage <br\/><strong>Geld-zurück-Garantie<\/strong><\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_TKMEgJ": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/icon-truck_1.webp",
+            "image_height": 35,
+            "title": "",
+            "subtitle": "",
+            "text": "<p><strong>Kostenloser Versand<\/strong><br\/>deutschlandweit ab € 15,- <\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_fmdxwE",
+        "text_pPLcpb",
+        "text_zB8BzM",
+        "text_TKMEgJ"
+      ],
+      "custom_css": [
+        "li {border: 1px solid black; margin-right: 30px; max-width: 260px;}",
+        "p {font-size: 18px; line-height: 25px;}"
+      ],
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "―――――  Ihre Vorteile bei Medicom  ―――――",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "200",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 150,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_featured_products_jeNXEH": {
+      "type": "section-featured-products",
+      "settings": {
+        "products": [
+          "vitamin-c-shot-1-000-mg",
+          "propolis-bio",
+          "magnesium-direkt-400-mg",
+          "nobilin-agevital®",
+          "qh-mono-100-mg"
+        ],
+        "layout": "slider",
+        "number_of_items": 5,
+        "text_alignment": "center",
+        "title": "―――――  Favoriten unserer Kunden  ―――――",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "200",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "",
+        "link_url": "\/",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "mobile_layout": "slider",
+        "spacing_desktop": 150,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_newsletter_44CTW3": {
+      "type": "section-newsletter",
+      "settings": {
+        "overlay_opacity_img": 0,
+        "color_palette": "dark_gradient",
+        "overlay_opacity": 100,
+        "width": "boxed",
+        "title": "MELDEN SIE SICH AN UND ERHALTEN SIE 20% RABATT",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "primary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": true,
+        "subtitle_color_palette": "white",
+        "subtitle_weight": "400",
+        "text": "<p>Mit dem Medicom-Newsletter erhalten Sie die neuesten Angebote und Informationen direkt ins Postfach.<\/p>",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "Subscribe",
+        "button_color_palette": "dark",
+        "enable_newsletter_terms_checkbox": true,
+        "newsletter_terms_text": "<p>Ja, ich habe die <a>Datenschutzbestimmungen <\/a>gelesen und akzeptiere diese. <\/p>",
+        "spacing_desktop": 150,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_hyWFdY": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_K3XR3g": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Krilloel-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Krillöl<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_hWG9rU": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/qh-400x400_1.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Biokatives Q10 (Ubiquinol)<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_GtkJNe": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Probiotika-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Probiotika<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_wkhcLw": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/schwarzer-knoblauch-400x400_1.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Schwarzer Knoblauch<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_DChnGJ": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Artischocke-400x400_1.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Artischocke<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_GyF3AT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "image": "shopify:\/\/shop_images\/Elektrolyte-400x400.webp",
+            "image_height": 180,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Sport & Muskeln<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_K3XR3g",
+        "text_hWG9rU",
+        "text_GtkJNe",
+        "text_wkhcLw",
+        "text_DChnGJ",
+        "text_GyF3AT"
+      ],
+      "custom_css": [
+        "img {border-radius: 100px;}"
+      ],
+      "settings": {
+        "items_width": 6,
+        "text_alignment": "center",
+        "title": "―――――  Beliebteste Wirkstoffe  ―――――",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "200",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 150,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_pmeiji": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_YKRepC": {
+          "type": "title",
+          "settings": {
+            "title": "Online Nahrungsergänzungsmittel kaufen",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "200"
+          }
+        },
+        "text_MGGeCw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Medicom ist Ihr Onlinegeschäft für <strong>Nahrungsergänzungsmittel<\/strong>! In unserem Vitamin-Shop finden Sie eine riesige Auswahl an Ergänzungspräparaten, sinnvoll abgestimmten Vitalstoff-Produkten und freiverkäuflichen Arzneimitteln, die zu Ihrem individuellem Lebensstil passen. Diese Vitalstoffe helfen Ihnen bei Ihrer <strong>Gesunderhaltung, Lebensqualität und Ihrem Wohlbefinden<\/strong>. Mit ihnen können Sie hervorragend Ihre Ernährung ergänzen, damit Sie immer genügend Vitalstoffe zu sich nehmen. Eine gesunde ausgewogene Ernährung ist dafür natürlich äußerst wichtig und geht Hand in Hand mit einer Nahrungsergänzung.<\/p>",
+            "font": "primary",
+            "font_weight": "300",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_YKRepC",
+        "text_MGGeCw"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/women.png",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 250,
+        "text_position": "text-start",
+        "spacing_desktop": 150,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_collection_button_list_ApDzmh": {
+      "type": "section-collection-button-list",
+      "settings": {
+        "collections": [
+          "abnehmen-diat",
+          "abwehrkrafte-starken",
+          "anspannung-unruhe",
+          "augen",
+          "bioaktives-q10-ubiquinol-qh",
+          "beauty-haut-haare-nagel",
+          "eisenmangel",
+          "frauen-wechseljahre-osteoporose",
+          "gedachtnis-nerven",
+          "gelenke-bewegung",
+          "herz-blut-omega-3",
+          "immunsystem",
+          "krillol",
+          "magen-darm-verdauung"
+        ],
+        "buttons_color_palette": "black",
+        "button_styling": "inv",
+        "text_alignment": "center",
+        "title": "―――――  Ihre Themen – unsere Produkte  ―――――",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "300",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "300",
+        "text": "<p>Sie können unser Sortiment ganz einfach nach Inhaltsstoffen, Produkten oder Themen durchsuchen. Die Themen und <a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\">Anwendungsgebiete <\/a>sind unterteilt und umfassen unter anderem folgende:<\/p>",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "",
+        "link_url": "shopify:\/\/collections",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "mobile_layout": "slider",
+        "spacing_desktop": 150,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_icon_text_blocks_N3hhVc": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "text_4XWJpp": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<ul><li><a href=\"https:\/\/www.medicom.de\/krilloel-forte-kapseln\" target=\"_blank\">Krillöl<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/wirkstoffe\/vitamine\/ubiquinol\" target=\"_blank\">Bioaktives Q10 - Ubiquinol (QH)<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/abnehmen-diaet\">Abnehmen, Diät<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/terra-produkte\">TERRA Pflanzenkraft<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/herz-kreislauf-blutdruck-omega-3\">Herz, Blut, Omega 3<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/magen-darm-verdauung\">Magen, Darm, Verdauung<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/gelenke-arthrose\">Gelenke, Bewegung<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/eisenmangel-blutbildung\">Eisenmangel<\/a><\/li><\/ul>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_M7gYEw": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "image_height": 55,
+            "title": "",
+            "subtitle": "",
+            "text": "<ul><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/wechseljahre-osteoporose\">Frauen, Wechseljahre, Osteoporose<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/augen-sehkraft\">Augen<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/haut-haare-naegel-beauty\">Beauty, Haut, Haare, Nägel<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/erkaeltung-husten-schnupfen\">Abwehrkräfte stärken<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/immunsystem-freie-radikale\">Immunsystem<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/anspannung-unruhe-belastung\">Anspannung, Unruhe<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/gedaechtnis-nerven\">Gedächtnis, Nerven<\/a><\/li><li><a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\/schlaf-schlafstoerungen\">Schlaf, Schlafstörung<\/a><\/li><\/ul>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "text_4XWJpp",
+        "text_M7gYEw"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "a {text-align: center;}"
+      ],
+      "settings": {
+        "items_width": 2,
+        "text_alignment": "center",
+        "title": "―――――  Ihre Themen – unsere Produkte  ―――――",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "200",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "<p>Sie können unser Sortiment ganz einfach nach Inhaltsstoffen, Produkten oder Themen durchsuchen. Die Themen und <a href=\"https:\/\/www.medicom.de\/anwendungsgebiete\">Anwendungsgebiete <\/a>sind unterteilt und umfassen unter anderem folgende:<\/p>",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "start",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h2",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_YcF9KM": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "text_RpGjYW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Natürlich können Sie auch einfach <a href=\"https:\/\/www.medicom.de\/alle-produkte\">alle Produkte<\/a> durchstöbern, um die richtigen Nahrungsergänzungsmittel als Kapseln, Tabletten oder in Flüssigform zu finden. Vielleicht entdecken Sie so etwas Neues, was Sie lieben werden.<br\/>Unsere Vitalstoff-Kombinationen und Inhaltsstoffe sind sinnvoll aufeinander abgestimmt und zielen darauf ab, Sie und Ihr Leben gesünder zu machen. Deshalb wird deren Entwicklung von <strong>wissenschaftlichen Erkenntnissen<\/strong> geleitet.<\/p><p> <\/p><p>Die <strong>hohe Qualität<\/strong> unserer Produkte ist uns sehr wichtig. Unser <strong>Sitz befindet sich in Deutschland<\/strong> und wir folgen den strengen Deutschen Gesetzen. Viele Produkte sind <strong>100% vegan<\/strong> und alle Produkte werden <strong>ohne Gentechnik und ohne Tierversuche<\/strong> hergestellt. Deshalb zögern wir nicht, Ihnen eine <strong>90-Tage-Geld-zurück-Garantie<\/strong> zu bieten, falls Ihnen mal etwas nicht gefallen sollte. Denn wir sind davon überzeugt, dass unsere Medicom-Produkte Sie überzeugen werden!<\/p>",
+            "font": "primary",
+            "font_weight": "300",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "text_RpGjYW"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/serviceprice.png",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 250,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_zyLjVr": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_FBwHWd": {
+          "type": "title",
+          "settings": {
+            "title": "Online über Gesundheitsthemen informieren",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "200"
+          }
+        },
+        "text_7UCGQk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Um immer über aktuelle Aktionen und Trends informiert zu bleiben, können Sie sich für unseren kostenlosen <a href=\"https:\/\/www.medicom.de\/newsletter\" title=\"newsletter\">Gesundheitsnewsletter<\/a> anmelden.<br\/>Wir legen viel Wert auf unseren <strong>Service beim Nahrungsergänzungsmittel Verkauf<\/strong> und wollen, dass er der beste der Branche ist. Auf unserer Webseite finden Sie viele <strong>hilfreiche Informationen über Gesundheits- und Wohlfühlthemen<\/strong> in unserem Online-Magazin <a href=\"https:\/\/www.medicom.de\/lebennurbesser\">#lebennurbesser<\/a> mit Podcastinterviews.<\/p>",
+            "font": "primary",
+            "font_weight": "300",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_FBwHWd",
+        "text_7UCGQk"
+      ],
+      "custom_css": [
+        "img {padding: 3px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/paar.png",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 250,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_trmeHQ": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_XxVjP6": {
+          "type": "title",
+          "settings": {
+            "title": "Kostenlose Beratung",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "200"
+          }
+        },
+        "text_hfr4Be": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Natürlich können Sie uns aber auch jederzeit kontaktieren, falls Sie <strong>Fragen haben oder individuell beraten <\/strong>werden möchten. Telefonisch ist unser Team für Sie unter der kostenlosen <br\/><strong>Service-Hotline 0800 - 50 400 50 <\/strong>montags bis samstags von 8:00 h bis 19:00 h erreichbar. Sie können uns auch einfach eine <br\/><strong>E-Mail an <\/strong><a href=\"mailto:info@medicom.de\"><strong>info@medicom.de <\/strong><\/a>schicken und ein Teammitglied wird sich so schnell wie möglich bei Ihnen melden. Besonders praktisch: unser <strong>WhatsApp-Service unter <\/strong><a href=\"https:\/\/wa.me\/message\/S3FYH34FVG5HF1\"><strong>0152 - 587 587 54<\/strong><\/a>. Schreiben Sie uns Ihre Fragen oder Ihren Bestellwunsch ganz bequem direkt in WhatsApp. Zögern Sie also nicht, noch heute mit uns Kontakt aufzunehmen und bei uns Ihre Nahrungsergänzungsmittel zu kaufen!<\/p>",
+            "font": "primary",
+            "font_weight": "300",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_XxVjP6",
+        "text_hfr4Be"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/beratung.png",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 250,
+        "text_position": "text-start",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_XpNLUX": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_HcTMV6": {
+          "type": "title",
+          "settings": {
+            "title": "―――――  Haben Sie alles gefunden?  ―――――",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "200"
+          }
+        }
+      },
+      "block_order": [
+        "title_HcTMV6"
+      ],
+      "custom_css": [
+        "{margin-top: -100px; z-index: -1 !important; position: relative;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "align-bottom text-center",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": true,
+        "custom_height": 250,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_banner_columns_Q39FYB": {
+      "type": "section-banner-columns",
+      "blocks": {
+        "image_xgmkRg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nobilin-584x584_f325de62-1c27-4d90-abf2-8e2191eb7c85.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h4",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "400",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "ZU ALLEN PRODUKTEN",
+            "link_url": "shopify:\/\/collections",
+            "button_color_palette": "accent",
+            "show_link": true,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_mQ8BPG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/whatsapp-389x291.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h4",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "400",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "BESTELLEN PER WHATSAPP",
+            "link_url": "shopify:\/\/collections",
+            "button_color_palette": "accent",
+            "show_link": true,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_M98UNV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/medicom_produkt_katalog-389x291.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h4",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "400",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "KATALOG DOWNLOADEN",
+            "link_url": "shopify:\/\/collections",
+            "button_color_palette": "accent",
+            "show_link": true,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_xgmkRg",
+        "image_mQ8BPG",
+        "image_M98UNV"
+      ],
+      "settings": {
+        "items_width": 3,
+        "width": "boxed",
+        "height": "size-s",
+        "enable_custom_height": true,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": false,
+        "show_content_below": true,
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_Chf4qz": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "{% assign meta_thumbnail = page.meta_thumbnail %}\n{% assign h1_heading = page.h1_heading %}\n{% assign page_url = \"https:\/\/www.medicom.de\/lebennurbesser\/warum-ist-ubiquinol-biaktives-q10-das-bessere-q10-experteninterview\/\" %}\n\n<meta property=\"og:image\" content=\"{{ meta_thumbnail }}\">\n<meta property=\"og:url\" content=\"{{ page_url }}\">\n<h1>{{ h1_heading }}<\/h1>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "86d43546-c3ee-4763-8d9e-efbf3b62d046",
+    "494041aa-66c0-450a-acb0-f3bc90d6b837",
+    "codext_navigation_9XM6rE",
+    "section_icon_text_blocks_Ba8mFi",
+    "section_icon_text_blocks_d6r3gE",
+    "section_featured_products_jeNXEH",
+    "section_newsletter_44CTW3",
+    "section_icon_text_blocks_hyWFdY",
+    "section_image_with_text_pmeiji",
+    "section_collection_button_list_ApDzmh",
+    "section_icon_text_blocks_N3hhVc",
+    "section_image_with_text_YcF9KM",
+    "section_image_with_text_zyLjVr",
+    "section_image_with_text_trmeHQ",
+    "section_rich_text_XpNLUX",
+    "section_banner_columns_Q39FYB",
+    "section_custom_liquid_Chf4qz"
+  ]
+}
