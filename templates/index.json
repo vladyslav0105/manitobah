@@ -546,6 +546,9 @@
     },
     "section_featured_products_jeNXEH": {
       "type": "section-featured-products",
+      "custom_css": [
+        "img {padding: 30px!important;}"
+      ],
       "settings": {
         "products": [
           "vitamin-c-shot-1-000-mg",
