@@ -1,1 +1,308 @@
-{"type":"footer","name":"t:static_sections.footer.name","sections":{"c7b2fa9c-da19-428b-aec3-a9c706756f5a":{"type":"section-icon-text-blocks","blocks":{"sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>Vollversicherte Sendungen \/ Abholungen in DE kostenlos<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_FGqfLe":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>individuelle Bandanpassung<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_JgWVqL":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>zertifizierter Shop<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_EKRqAC":{"type":"text","disabled":true,"settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>Sicher dank SSL Verschlüsselung<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_L9zeFB":{"type":"text","disabled":true,"settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>vor Ort Abholung Ihrer Uhr möglich<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}},"text_TiJPhi":{"type":"text","settings":{"icon":"verified","image_height":30,"title":"","subtitle":"","text":"<p>365 Tage im Jahr Service<\/p>","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false}}},"block_order":["sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0","text_FGqfLe","text_JgWVqL","text_EKRqAC","text_L9zeFB","text_TiJPhi"],"disabled":true,"settings":{"items_width":4,"text_alignment":"center","title":"","title_font":"primary","title_size":"h2","enable_custom_text_styling":true,"title_color_palette":"black","title_weight":"700","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","font_size":"16px","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"blocks_text_alignment":"center","blocks_title_font":"primary","blocks_title_size":"h4","blocks_subtitle_font":"secondary","blocks_subtitle_size":"h2","blocks_title_color_palette":"black","blocks_title_weight":"700","blocks_subtitle_color_palette":"black","blocks_subtitle_weight":"400","blocks_font_size":"16px","spacing_desktop":50,"spacing_mobile":30,"fix_zindex":0}},"1023a433-3232-4476-b264-6cc700708879":{"type":"section-social-bar","disabled":true,"custom_css":[],"settings":{"color_palette":"black","color_palette_active":"accent","icon_width":"m","show_in_circle":true,"text_alignment":"center","title":"FOLGEN SIE UNS AUF SOCIAL-MEDIA","title_font":"primary","title_size":"h4","enable_custom_text_styling":false,"title_color_palette":"dark","title_weight":"400","subtitle":"","subtitle_font":"secondary","subtitle_size":"h2","enable_custom_subtext_styling":false,"subtitle_color_palette":"black","subtitle_weight":"400","text":"","enable_custom_font_styling":false,"font_size":"16px","spacing_desktop":-50,"spacing_mobile":40,"fix_zindex":0}},"footer":{"type":"footer","blocks":{"html_tyNWfe":{"type":"html","disabled":true,"settings":{"html":"<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/0311\/4525\/files\/logo-white.png?v=1711016236\" style=\"display: block; margin: 0 auto;\" align=\"middle\">"}},"footer-block-menu-1":{"type":"menu","settings":{"title_size":"h5","title_weight":"700","menu":"footer-menu","split_menu":false}},"customer_support_jycXFp":{"type":"customer_support","settings":{"title":"Kontakt","title_size":"h5","title_weight":"700","customer_support_img_width":200,"customer_support_offset_right":0,"customer_support_offset_bottom":0,"extra_customer_support":"<p><strong>Tel.: 0800 - 50 400 50<br\/>E-Mail: info@medicom.de<br\/>SMS: 0152-587 587 54<br\/>WhatsApp: 0152-587 587 54<\/strong><\/p>","show_socials":true,"socials_in_circle":false,"socials_color_palette":"white","enable_follow_on_shop":false,"customer_support_offset_right_mobile":0,"customer_support_offset_bottom_mobile":0}},"newsletter_VaCqb6":{"type":"newsletter","settings":{"title":"Melden Sie sich an und erhalten sie 20% Rabatt","title_size":"h5","title_weight":"700","newsletter_text":"<p>Mit dem Medicom-Newsletter erhalten Sie die neuesten Angebote und Informationen direkt ins Postfach.<\/p>","footer_button_color":"white","enable_newsletter_terms_checkbox":true,"newsletter_terms_text":"<p>Ich bin mit der <a href=\"\/collections\/abnehmen-diat\" title=\"Abnehmen, Diät\">Datenschutzerklärung <\/a>einverstanden<\/p>"}},"html_6hNkaU":{"type":"html","disabled":true,"settings":{"html":""}}},"block_order":["html_tyNWfe","footer-block-menu-1","customer_support_jycXFp","newsletter_VaCqb6","html_6hNkaU"],"settings":{"footer_color":"black","column_text_alignment":"left","content_position":"left","title_font":"primary","font_size":"13px","bottom_color":"dark","bottom_img":"shopify:\/\/shop_images\/logo-white.png","bottom_img_width":200,"bottom_img_link":"shopify:\/\/collections\/abnehmen-diat","enable_country_selector":true,"enable_language_selector":true,"enable_follow_on_shop":false,"show_payment_methods":true,"spacing_desktop":0,"spacing_mobile":0}}},"order":["c7b2fa9c-da19-428b-aec3-a9c706756f5a","1023a433-3232-4476-b264-6cc700708879","footer"]}
+{
+  "type": "footer",
+  "name": "t:static_sections.footer.name",
+  "sections": {
+    "c7b2fa9c-da19-428b-aec3-a9c706756f5a": {
+      "type": "section-icon-text-blocks",
+      "blocks": {
+        "sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Vollversicherte Sendungen \/ Abholungen in DE kostenlos<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_FGqfLe": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>individuelle Bandanpassung<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_JgWVqL": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>zertifizierter Shop<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_EKRqAC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>Sicher dank SSL Verschlüsselung<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_L9zeFB": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>vor Ort Abholung Ihrer Uhr möglich<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        },
+        "text_TiJPhi": {
+          "type": "text",
+          "settings": {
+            "icon": "verified",
+            "image_height": 30,
+            "title": "",
+            "subtitle": "",
+            "text": "<p>365 Tage im Jahr Service<\/p>",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0",
+        "text_FGqfLe",
+        "text_JgWVqL",
+        "text_EKRqAC",
+        "text_L9zeFB",
+        "text_TiJPhi"
+      ],
+      "disabled": true,
+      "settings": {
+        "items_width": 4,
+        "text_alignment": "center",
+        "title": "",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": true,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "font_size": "16px",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "blocks_text_alignment": "center",
+        "blocks_title_font": "primary",
+        "blocks_title_size": "h4",
+        "blocks_subtitle_font": "secondary",
+        "blocks_subtitle_size": "h2",
+        "blocks_title_color_palette": "black",
+        "blocks_title_weight": "700",
+        "blocks_subtitle_color_palette": "black",
+        "blocks_subtitle_weight": "400",
+        "blocks_font_size": "16px",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1023a433-3232-4476-b264-6cc700708879": {
+      "type": "section-social-bar",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_palette": "black",
+        "color_palette_active": "accent",
+        "icon_width": "m",
+        "show_in_circle": true,
+        "text_alignment": "center",
+        "title": "FOLGEN SIE UNS AUF SOCIAL-MEDIA",
+        "title_font": "primary",
+        "title_size": "h4",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "dark",
+        "title_weight": "400",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "spacing_desktop": -50,
+        "spacing_mobile": 40,
+        "fix_zindex": 0
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "html_tyNWfe": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "html": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/0311\/4525\/files\/logo-white.png?v=1711016236\" style=\"display: block; margin: 0 auto;\" align=\"middle\">"
+          }
+        },
+        "footer-block-menu-1": {
+          "type": "menu",
+          "settings": {
+            "title_size": "h5",
+            "title_weight": "700",
+            "menu": "footer-menu",
+            "split_menu": false
+          }
+        },
+        "customer_support_jycXFp": {
+          "type": "customer_support",
+          "settings": {
+            "title": "Kontakt",
+            "title_size": "h5",
+            "title_weight": "700",
+            "customer_support_img_width": 200,
+            "customer_support_offset_right": 0,
+            "customer_support_offset_bottom": 0,
+            "extra_customer_support": "<p><strong>Tel.: 0800 - 50 400 50<br\/>E-Mail: info@medicom.de<br\/>SMS: 0152-587 587 54<br\/>WhatsApp: 0152-587 587 54<\/strong><\/p>",
+            "show_socials": true,
+            "socials_in_circle": false,
+            "socials_color_palette": "white",
+            "enable_follow_on_shop": false,
+            "customer_support_offset_right_mobile": 0,
+            "customer_support_offset_bottom_mobile": 0
+          }
+        },
+        "newsletter_VaCqb6": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Melden Sie sich an und erhalten sie 20% Rabatt",
+            "title_size": "h5",
+            "title_weight": "700",
+            "newsletter_text": "<p>Mit dem Medicom-Newsletter erhalten Sie die neuesten Angebote und Informationen direkt ins Postfach.<\/p>",
+            "footer_button_color": "white",
+            "enable_newsletter_terms_checkbox": true,
+            "newsletter_terms_text": "<p>Ich bin mit der <a href=\"\/collections\/abnehmen-diat\" title=\"Abnehmen, Diät\">Datenschutzerklärung <\/a>einverstanden<\/p>"
+          }
+        },
+        "html_6hNkaU": {
+          "type": "html",
+          "disabled": true,
+          "settings": {
+            "html": ""
+          }
+        },
+        "certificate_icon_list_NQEnp9": {
+          "type": "certificate_icon_list",
+          "settings": {
+            "certificate_icon_item": "shopify:\/\/shop_images\/TA-Excellent-Shop-5-Jahre-96px.webp",
+            "certificate_item_link": "https:\/\/www.trustedshops.com\/de\/lp\/trusted-shops-awards"
+          }
+        },
+        "certificate_icon_list_TUH3LX": {
+          "type": "certificate_icon_list",
+          "settings": {
+            "certificate_icon_item": "shopify:\/\/shop_images\/111.png",
+            "certificate_item_link": "https:\/\/versandhandel.dimdi.de\/websearch\/servlet\/Gate;jsessionid=5B6DF65E7E6E4E89D340C02BFE74EB1A?accessid=dimdi_var&term=d7614326a035ff7d06d6fc36d86edb34"
+          }
+        },
+        "certificate_icon_list_aL3wrm": {
+          "type": "certificate_icon_list",
+          "settings": {
+            "certificate_icon_item": "shopify:\/\/shop_images\/oeko.webp",
+            "certificate_item_link": ""
+          }
+        },
+        "certificate_icon_list_GXpAcB": {
+          "type": "certificate_icon_list",
+          "settings": {
+            "certificate_icon_item": "shopify:\/\/shop_images\/123.png",
+            "certificate_item_link": "https:\/\/www.medicom.de\/qualitaet-forschung"
+          }
+        },
+        "certificate_icon_list_YzDGh3": {
+          "type": "certificate_icon_list",
+          "settings": {
+            "certificate_icon_item": "shopify:\/\/shop_images\/gogreen.webp",
+            "certificate_item_link": "https:\/\/www.medicom.de\/go-green"
+          }
+        },
+        "certificate_icon_list_zMAhzF": {
+          "type": "certificate_icon_list",
+          "settings": {
+            "certificate_icon_item": "shopify:\/\/shop_images\/125.png",
+            "certificate_item_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "html_tyNWfe",
+        "footer-block-menu-1",
+        "customer_support_jycXFp",
+        "newsletter_VaCqb6",
+        "html_6hNkaU",
+        "certificate_icon_list_NQEnp9",
+        "certificate_icon_list_TUH3LX",
+        "certificate_icon_list_aL3wrm",
+        "certificate_icon_list_GXpAcB",
+        "certificate_icon_list_YzDGh3",
+        "certificate_icon_list_zMAhzF"
+      ],
+      "settings": {
+        "footer_color": "black",
+        "column_text_alignment": "left",
+        "content_position": "left",
+        "title_font": "primary",
+        "font_size": "13px",
+        "bottom_color": "dark",
+        "bottom_img": "shopify:\/\/shop_images\/logo-white.png",
+        "bottom_img_width": 200,
+        "bottom_img_link": "shopify:\/\/collections\/abnehmen-diat",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "enable_follow_on_shop": false,
+        "show_payment_methods": true,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "c7b2fa9c-da19-428b-aec3-a9c706756f5a",
+    "1023a433-3232-4476-b264-6cc700708879",
+    "footer"
+  ]
+}

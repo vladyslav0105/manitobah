@@ -45,7 +45,11 @@
   --tw-backdrop-invert:  ;
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  
 }
 
 ::backdrop {
@@ -95,7 +99,11 @@
   --tw-backdrop-invert:  ;
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
-  --tw-backdrop-sepia:  
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  
 }
 
 .visible {
@@ -130,6 +138,31 @@
   bottom: 0.25rem
 }
 
+.m-0 {
+  margin: 0px
+}
+
+.m-2 {
+  margin: 0.5rem
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.\!mb-0 {
+  margin-bottom: 0px !important
+}
+
+.ml-2 {
+  margin-left: 0.5rem
+}
+
+.mt-6 {
+  margin-top: 1.5rem
+}
+
 .block {
   display: block
 }
@@ -142,6 +175,10 @@
   display: inline
 }
 
+.\!flex {
+  display: flex !important
+}
+
 .flex {
   display: flex
 }
@@ -152,6 +189,10 @@
 
 .grid {
   display: grid
+}
+
+.\!hidden {
+  display: none !important
 }
 
 .hidden {
@@ -173,20 +214,126 @@
   height: 5rem
 }
 
+.h-full {
+  height: 100%
+}
+
+.\!max-h-\[100\%\] {
+  max-height: 100% !important
+}
+
+.max-h-5 {
+  max-height: 1.25rem
+}
+
+.max-h-7 {
+  max-height: 1.75rem
+}
+
+.max-h-\[50px\] {
+  max-height: 50px
+}
+
+.\!min-h-\[100\%\] {
+  min-height: 100% !important
+}
+
+.min-h-5 {
+  min-height: 1.25rem
+}
+
+.min-h-7 {
+  min-height: 1.75rem
+}
+
+.min-h-\[50px\] {
+  min-height: 50px
+}
+
+.\!w-fit {
+  width: -moz-fit-content !important;
+  width: fit-content !important
+}
+
+.\!w-full {
+  width: 100% !important
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content
+}
+
+.\!min-w-full {
+  min-width: 100% !important
+}
+
+.min-w-5 {
+  min-width: 1.25rem
+}
+
+.min-w-7 {
+  min-width: 1.75rem
+}
+
+.\!max-w-full {
+  max-width: 100% !important
+}
+
+.max-w-5 {
+  max-width: 1.25rem
+}
+
+.max-w-7 {
+  max-width: 1.75rem
+}
+
+.max-w-\[1500px\] {
+  max-width: 1500px
+}
+
 .transform {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.cursor-pointer {
+  cursor: pointer
 }
 
 .resize {
   resize: both
 }
 
+.list-none {
+  list-style-type: none
+}
+
+.\!flex-col {
+  flex-direction: column !important
+}
+
 .flex-wrap {
   flex-wrap: wrap
 }
 
+.items-center {
+  align-items: center
+}
+
+.\!justify-center {
+  justify-content: center !important
+}
+
 .justify-center {
   justify-content: center
+}
+
+.justify-between {
+  justify-content: space-between
+}
+
+.overflow-hidden {
+  overflow: hidden
 }
 
 .rounded {
@@ -195,6 +342,26 @@
 
 .border {
   border-width: 1px
+}
+
+.p-0 {
+  padding: 0px
+}
+
+.\!pb-4 {
+  padding-bottom: 1rem !important
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem
+}
+
+.pt-2 {
+  padding-top: 0.5rem
+}
+
+.pt-3 {
+  padding-top: 0.75rem
 }
 
 .text-center {
@@ -225,12 +392,31 @@
   vertical-align: bottom
 }
 
+.\!text-xs {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem
+}
+
+.\!font-normal {
+  font-weight: 400 !important
+}
+
 .capitalize {
   text-transform: capitalize
 }
 
 .italic {
   font-style: italic
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity))
 }
 
 .outline {
@@ -267,4 +453,40 @@
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms
+}
+
+@media (min-width: 768px) {
+  .md\:ml-5 {
+    margin-left: 1.25rem
+  }
+
+  .md\:flex {
+    display: flex
+  }
+
+  .md\:max-h-\[70px\] {
+    max-height: 70px
+  }
+
+  .md\:min-h-\[70px\] {
+    min-height: 70px
+  }
+
+  .md\:w-\[calc\(100\%-180px\)\] {
+    width: calc(100% - 180px)
+  }
+
+  .md\:justify-center {
+    justify-content: center
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:max-h-\[100px\] {
+    max-height: 100px
+  }
+
+  .lg\:min-h-\[100px\] {
+    min-height: 100px
+  }
 }

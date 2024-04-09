@@ -1,0 +1,141 @@
+/****************************************************************************
+*****************************************************************************
+
+    begin medicom.de whole update style code
+    update date : 2024.3.27
+
+******************************************************************************
+******************************************************************************/
+
+
+/********
+
+    begin homepage style code
+
+********/
+
+/* begin header search bar style code */
+
+#header .search-form-content {
+    filter: blur(0)!important;
+}
+
+@media (min-width : 1200px) {
+    #header .search-form-content {
+        min-width: 700px;
+    }
+}
+
+@media (min-width : 1024px) {
+    #header .search-form-content {
+        min-width: 600px;
+    }
+}
+
+#header .search-form-content button[type="submit"] {
+    background-color : #E93D3D;
+    color : #fff;
+}
+
+.heading-line-through {
+    position :relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.heading-text-line-through h3,
+.heading-text-line-through h4,
+.heading-text-line-through h5,
+.heading-text-line-through h6,
+.heading-text-line-through h2,
+.heading-text-line-through h1 {
+    width: fit-content;
+    padding: 0 10px;
+    position: relative;
+    max-width  :calc(100% - 50px)!important;
+    background-color: white;
+}
+
+.heading-text-line-through h3:before,
+.heading-text-line-through h4:before,
+.heading-text-line-through h5:before,
+.heading-text-line-through h6:before,
+.heading-text-line-through h2:before,
+.heading-text-line-through h1:before {
+    content : "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 1px;
+    z-index: -1;
+    background-color: black;
+    width: 150%;
+
+}
+
+
+
+.heading-line-through > h3,
+.heading-line-through > h4,
+.heading-line-through > h5,
+.heading-line-through > h6,
+.heading-line-through > h2,
+.heading-line-through > h1{
+    
+    padding: 0 10px!important;
+    margin : 0!important;
+    min-width : fit-content!important;
+    width: fit-content!important;
+    max-width : fit-content!important;
+    border: none!important;
+    z-index: 4;
+    background-color: white!important;
+}
+
+.heading-line-through:before {
+    width : 55%;
+    content : "";
+    height:  1px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media(max-width : 768px) {
+    .heading-line-through:before  {
+        width: 80%;
+    }
+
+
+    .heading-text-line-through h3:before,
+    .heading-text-line-through h4:before,
+    .heading-text-line-through h5:before,
+    .heading-text-line-through h6:before,
+    .heading-text-line-through h2:before,
+    .heading-text-line-through h1:before {
+        content : "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 1px;
+        z-index: -1;
+        background-color: black;
+        width: 120%;
+
+    }
+}
+
+/* .heading-line-through .heading-line {
+    max-width: 150px;
+    width: 15%!important;
+    min-width: 30px;
+    height : 1px;
+    background-color: black;
+} */
+

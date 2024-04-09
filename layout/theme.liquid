@@ -54,6 +54,15 @@
 		{{ content_for_header }}
 		{{ settings.custom_script_for_head }}
 		{{ 'tailwind.css' | asset_url | stylesheet_tag }}
+	
+	
+		{% comment %} begin my add code {% endcomment %}
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		{{ 'new-custom-layout.css' | asset_url | stylesheet_tag }}		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+		{% comment %} end my add code {% endcomment %}
+		
 	</head>
 	<body class="template-{{ template.name | handle }}">
 		<div id="root">

@@ -136,8 +136,8 @@
 
 {%- if aside %}<div class="m6ac">{%- endif -%}
     {%- if show_header -%}
-    <header class="{% unless aside %}cols{% if link and section.settings.show_link == false %} align-middle{% endif %}{% if section.settings.title == empty and section.settings.subtitle == empty and section.settings.text == empty %} text-end{% endif %}{% endunless %}" {% if section.settings.enable_custom_font_styling %}style="font-size:{{ section.settings.font_size }};"{% endif %}>
-        {%- if container_div -%}<div class="{{ title_classes }}">{%- endif -%}
+    <header class="heading-line-through {% unless aside %}cols{% if link and section.settings.show_link == false %} align-middle{% endif %}{% if section.settings.title == empty and section.settings.subtitle == empty and section.settings.text == empty %} text-end{% endif %}{% endunless %}" {% if section.settings.enable_custom_font_styling %}style="font-size:{{ section.settings.font_size }};"{% endif %}>
+              {%- if container_div -%}<div class="{{ title_classes }}">{%- endif -%}
             {%- if section.settings.title != blank -%}
                 <{{ section.settings.title_size }} class="{{ title_classes }} ff-{{ section.settings.title_font }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
             {%- endif -%}

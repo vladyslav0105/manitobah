@@ -6,6 +6,9 @@
     assign split_menu = true
   endif
 -%}
+
+
+
 <nav id="shopify-section-footer" class="{% if section.settings.content_position == 'center' %}align-center {% endif %}{% if section.settings.column_text_alignment == 'center' %}text-center{% endif %}">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
@@ -120,11 +123,11 @@
               </p>
               {%- if block.settings.enable_newsletter_terms_checkbox and block.settings.newsletter_terms_text != empty -%}
                 <p class="check size-12">
-                  <input type="checkbox" id="newsletter_check-{{ section.id }}" name="newsletter_check-{{ section.id }}" required>
-                  <label for="newsletter_check-{{ section.id }}">{{ block.settings.newsletter_terms_text | remove: '<p>' | remove: '</p>' }}</label>
+                  <input type="checkbox" id="newsletter_check-{{ section.id }}" name="newsletter_check-{{ section.id }}"  required>
+                  <label for="newsletter_check-{{ section.id }}" class='!w-fit' style='width : fit-content;'>{{ block.settings.newsletter_terms_text | remove: '<p>' | remove: '</p>' }}</label>
                 </p>
               {%- endif -%}
-              <p class="submit mobile-hide"><button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'newsletter.form.submit_button' | t }}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i></button></p>
+              <p class="submit mobile-hide mt-6"><button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'newsletter.form.submit_button' | t }}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i></button></p>
             </fieldset>
           {%- endform -%}
         </div>
@@ -181,7 +184,114 @@
         {%- endif -%}
     {%- endcase -%}
   {%- endfor -%}
+
+
+  {% style %}
+
+  .footer-certificate-bar {
+    max-width : 100%!important;
+    padding : 0!important;
+    margin : 0!important;
+  }
+
+  .footer-certificate-bar:before {
+    display : none!important;
+  }
+
+  .footer-certificate-bar input#certificate-button ~ ul {
+    column-gap : 40px!important;
+    row-gap : 15px!important;
+  }
+
+  @media (min-width : 768px) {
+    .footer-certificate-bar .cert-button {
+      padding : 15px 0;
+      margin-bottom : 20px;
+      position :relative;
+      text-align : center;
+    }
+  }
+
+  @media (max-width : 767px) {
+    .footer-certificate-bar {
+      padding-bottom:0!important;
+    }
+
+    .footer-certificate-bar input#certificate-button ~ ul {
+      height : 0;
+      overflow : hidden;
+      align-items : flex-start!important;
+      /* margin-left : -16px; */
+      column-gap : 20px;
+      row-gap : 10px;
+    }
+
+    .footer-certificate-bar input#certificate-button:checked ~ ul {
+      height : 100%;
+    }
+
+    .footer-certificate-bar .cert-button {
+      padding : 8px 0;
+      border-top : 1px solid rgba(255, 255, 255, 0.2);
+      border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+      width :calc(100% + 32px)!important;
+      padding-left : 16px!important;
+      margin-left : -16px;
+      margin-bottom : 20px;
+      position :relative;
+      text-align : start;
+    }
+
+    .footer-certificate-bar .cert-button:before {
+      content : "";
+      position :absolute;
+      top :calc(50% - 2px);
+      right : 16px;
+      width : 10px;
+      height : 10px;
+      border-left: 2px solid white;
+      border-bottom: 2px solid white;
+      transform : translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .footer-certificate-bar input:checked + .cert-button:before {
+      top :calc(50% + 1px);
+      transform : translate(-50%, -50%) rotate(135deg);
+      padding-left : 0!important;
+    }
+
+  }
+
+  @media (max-width : 760px) {
+    .footer-certificate-bar .cert-button {
+      padding : 8px 0;
+      margin-left : -16px;
+    }
+  }
+
+{%  endstyle %}
+
+{% comment %} begin my payment certificate footer container {% endcomment %}
+<div class='footer-certificate-bar justify-center !pb-4 !flex-col !w-full !min-w-full !max-w-full' >
+  <input type="checkbox" id='certificate-button' class=' !hidden'>
+  <label for="certificate-button" class='cert-button md:justify-center text-center cursor-pointer !w-full text-base'>Zertifikate</label>
+  <ul class='flex list-none p-0 m-0 items-center flex-wrap !justify-center pt-3'>
+  {% for block in section.blocks %}
+    {% if block.type == "certificate_icon_list" %}
+      <li class='list-none overflow-hidden'>
+        <a {% if block.settings.certificate_item_link != "" %} href="{{ block.settings.certificate_item_link }}" {% endif %} target='_blank' class='!max-h-[100%] !min-h-[100%] h-full'><img src='{{ block.settings.certificate_icon_item | img_url : "150x"}}' class='lg:max-h-[100px] lg:min-h-[100px] md:max-h-[70px] md:min-h-[70px] max-h-[50px] min-h-[50px]'></a>
+      </li>
+  {% endif %}
+  {% endfor %}
+  </ul>
+</div>
+{% comment %} end my payment certificate footer container {% endcomment %}
+
+
 </nav>
+
+
+
 
 {%- if split_menu -%}
   {%- assign menu_block = section.blocks | where: 'type', 'menu' | first -%}
@@ -1145,6 +1255,22 @@
           "type": "richtext",
           "label": "t:static_sections.footer.blocks.newsletter.settings.checkbox.newsletter_terms_text.label",
           "info": "t:static_sections.footer.blocks.newsletter.settings.checkbox.newsletter_terms_text.info"
+        }
+      ]
+    },
+    {
+      "type" : "certificate_icon_list",
+      "name" : "Certification List",
+      "settings" : [
+        {
+          "type" : "image_picker",
+          "id" : "certificate_icon_item",
+          "label" : "Certification Icon"
+        },
+        {
+          "type" : "text",
+          "id" : "certificate_item_link",
+          "label" : "Certification Link"
         }
       ]
     }

@@ -372,7 +372,6 @@
         },
         "text_h3PqH6": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "image": "shopify:\/\/shop_images\/Elektrolyte-400x400.webp",
@@ -401,7 +400,7 @@
       "settings": {
         "items_width": 6,
         "text_alignment": "center",
-        "title": "―――――  Beliebteste Themen  ―――――",
+        "title": "Beliebteste Themen",
         "title_font": "primary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
@@ -511,7 +510,7 @@
       "settings": {
         "items_width": 4,
         "text_alignment": "center",
-        "title": "―――――  Ihre Vorteile bei Medicom  ―――――",
+        "title": "Ihre Vorteile bei Medicom",
         "title_font": "primary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
@@ -547,7 +546,7 @@
     "section_featured_products_jeNXEH": {
       "type": "section-featured-products",
       "custom_css": [
-        "img {padding: 30px!important;}"
+        "img {padding: 30px !important;}"
       ],
       "settings": {
         "products": [
@@ -560,7 +559,7 @@
         "layout": "slider",
         "number_of_items": 5,
         "text_alignment": "center",
-        "title": "―――――  Favoriten unserer Kunden  ―――――",
+        "title": "Favoriten unserer Kunden",
         "title_font": "primary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
@@ -725,7 +724,7 @@
       "settings": {
         "items_width": 6,
         "text_alignment": "center",
-        "title": "―――――  Beliebteste Wirkstoffe  ―――――",
+        "title": "Beliebteste Wirkstoffe",
         "title_font": "primary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
@@ -828,7 +827,7 @@
         "buttons_color_palette": "black",
         "button_styling": "inv",
         "text_alignment": "center",
-        "title": "―――――  Ihre Themen – unsere Produkte  ―――――",
+        "title": "Ihre Themen – unsere Produkte",
         "title_font": "primary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
@@ -1067,7 +1066,7 @@
         "title_HcTMV6": {
           "type": "title",
           "settings": {
-            "title": "―――――  Haben Sie alles gefunden?  ―――――",
+            "title": "Haben Sie alles gefunden?",
             "title_font": "primary",
             "title_size": "h3",
             "enable_custom_text_styling": true,

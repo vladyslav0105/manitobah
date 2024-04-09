@@ -95,6 +95,8 @@
         assign preorder = true
     endif
 -%}
+
+
 {%- capture header -%}
     <header {{ title_block.shopify_attributes }} class="class-x">
         <{{ title_block.settings.title_size }} class="m5 mob-{{ title_block.settings.mobile_title_size }}">{{ product.title }}</{{ title_block.settings.title_size }}>
@@ -1382,7 +1384,6 @@
         {%- endif %}
     {%- endif %}
 </article>
-
 {%- if has_pros_and_cons or has_specs -%}
     <div class="m6tb static">
         <nav class="hidden">
@@ -1445,6 +1446,7 @@
 {%- if sizechart_popup -%}
     {{ sizechart_popup }}
 {%- endif %}
+
 {%- assign popup_blocks = section.blocks | where: "type", "popup" -%}
 {%- for block in popup_blocks %}
     {%- if block.settings.text != empty or block.settings.page.content != blank or block.settings.image or block.settings.liquid or block.settings.html -%}
@@ -1452,6 +1454,7 @@
             {%- if block.settings.title != empty -%}
                 <{{ block.settings.title_size }} class="{{ 'text-' | append: block.settings.alignment }}">{{ block.settings.title }}</{{ block.settings.title_size }}>
             {%- endif -%}
+
             <div>
                 {{ block.settings.text }}
                 {%- if block.settings.page.content != blank -%}
@@ -1483,7 +1486,6 @@
         </article>
     {%- endif -%}
 {%- endfor -%}
-
 <style>
     {% if section.settings.enable_custom_font_size %}
         #shopify-section-{{ section.id }}, #shopify-section-{{ section.id }} .m6bx { --main_fz: {{ section.settings.font_size }}; font-size: {{ section.settings.font_size }}; }

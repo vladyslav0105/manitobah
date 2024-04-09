@@ -160,7 +160,7 @@
 {%- endcapture -%}
 
 {%- capture searchbar -%}
-  <form action="{{ routes.search_url }}" method="get" id="search" class="
+  <form action="{{ routes.search_url }}" method="get" id="search" class="search-form-content 
     {% if search_compact %}compact{% endif %}
     {% if search_centered %}text-center-sticky{% endif %}
     {% if search_right %}text-end{% endif %}
@@ -185,7 +185,7 @@
   </form>
 {%- endcapture -%}
 
-{%- if section.settings.show_top_bar -%}
+{% comment %} {%- if section.settings.show_top_bar -%}
   <nav id="nav-top" style="--main_fz:{{ section.settings.top_bar_font_size }}">
     {%- if usp_blocks -%}
       <ul class="l4us mobile-text-center{% if usp_blocks.size > 1 %}{% if section.settings.enable_usp_slider %} slider slider-single{% endif %}{% unless section.settings.enable_usp_slider_arrows %} no-arrows{% endunless %}{% endif %}" {% if section.settings.enable_usp_slider_autoplay %}data-autoplay={{ section.settings.usp_slider_autoplay_seconds | times: 1000 }}{% endif %}>
@@ -215,7 +215,7 @@
       -%}
     </ul>
   </nav>
-{%- endif -%}
+{%- endif -%} {% endcomment %}
 
 <div id="header-outer">
   <div id="header">

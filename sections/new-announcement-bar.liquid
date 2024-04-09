@@ -1,0 +1,122 @@
+<div class='announcement-bar justify-between pt-2 pb-2 items-center mx-auto max-w-[1500px] md:flex '>
+    <div class='announcement-bar-slide md:w-[calc(100%-180px)]'>
+        {% for block in section.blocks %}
+            {%  if block.type == "text" %}
+                <div class='!flex items-center justify-center slider-item'>
+                  <img src="{{ block.settings.announcement_icon | img_url : "25x" }}" width='20' height='20' class=' min-h-5 max-h-5 min-w-5 max-w-5'>
+                    <label class='m-2 !text-xs !font-normal text-black'>{{ block.settings.text }}</label>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class='md:flex items-center md:ml-5 hidden justify-center'>
+      {% for block in section.blocks %}
+        {% if block.type == "icon_list" %}
+          <a {% if block.settings.list-item-link != "" %} href='{{ block.settings.list-item-link }}' {% endif %} target='_blank' class='ml-2 cursor-pointer'><img src="{{ block.settings.list-icon-item | img_url : "30x" }}" width='28' height='28' class='w-max min-h-7 max-h-7 min-w-7 max-w-7'></a>
+        {% endif %}
+      {% endfor %}
+    </div>
+</div>
+
+
+
+<script>
+
+let item_length = $(".announcement-bar-slide").find(".slider-item").length;
+
+$(".announcement-bar-slide").slick({
+    slidesToShow : 4,
+    slidesToScroll: 1,
+    infinite:false,
+    focusOnSelect: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1300,
+        settings: {
+          infinite:false,
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          infinite:false,
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          infinite:false,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+
+
+  $('.announcement-bar-slide').on('afterChange', function(event, slick, currentSlide, nextSlide) {
+    let screen_width = window.screen.width;
+    {% comment %} console.log(currentSlide + ", " + window.screen.width); {% endcomment %}
+    if((currentSlide + 4) == item_length && screen_width > 1300 || (currentSlide + 3) == item_length && screen_width > 1023) {
+      $('.announcement-bar-slide').slick("slickGoTo", 0);
+    }
+});
+</script>
+
+{% schema %}
+  {
+    "name": "Announcement Bar",
+    "settings": [
+      
+    ],
+    "blocks": [
+      {
+        "type": "text",
+        "name": "t:static_sections.announcement_bar.blocks.text.name",
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "text",
+            "label": "t:static_sections.announcement_bar.blocks.text.settings.text.label",
+            "default": {
+              "en": "Shout out your big announcement here!",
+              "nl": "Beschrijf je grote aankondiging hier!"
+            }
+          },
+          {
+            "type" : "image_picker",
+            "id" : "announcement_icon",
+            "label" : "Announcement Icon"
+          }
+        ]
+      },
+      {
+        "type" : "icon_list",
+        "name" : "Icon List",
+        "settings" : [
+          {
+            "type" : "image_picker",
+            "id" : "list-icon-item",
+            "label" : "Icon"
+          },
+          {
+            "type" : "text",
+            "id" : "list-item-link",
+            "label" : "Link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

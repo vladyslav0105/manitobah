@@ -1,1 +1,245 @@
-{"type":"header","name":"t:static_sections.header.name","sections":{"announcement":{"type":"announcement-bar","blocks":{"announcement-1":{"type":"text","settings":{"text":"Shout out your big announcement here!"}}},"block_order":["announcement-1"],"disabled":true,"settings":{"color_palette":"light","height":"s","font_size":"14px","enable_slider_arrows":false,"enable_slider_autoplay":true,"slider_autoplay_seconds":3}},"header":{"type":"header","blocks":{"header-block-usp-1":{"type":"usp","settings":{"usp":"<p>Service Hotline 0800 - 50 400 50<\/p>","show_check":true}},"header-block-usp-2":{"type":"usp","disabled":true,"settings":{"usp":"<p>Give your customers more details about your online store<\/p>","show_check":false}},"389714c7-7aae-4332-b8fe-9bf28b57ab30":{"type":"promo_banners","settings":{"menu_item":"Themen","height":"size-s","enable_custom_height":true,"custom_height":300,"image_zoom":false,"show_content_below":false,"layout":"rows","enable_banner_1":true,"image_1":"shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg","overlay_opacity_1":0,"color_palette_1":"black","button_color_palette_1":"black","text_position_1":"text-center","title_1":"Bestseller","title_font_1":"primary","title_size_1":"h2","enable_custom_text_styling_1":true,"title_color_palette_1":"white","title_weight_1":"700","subtitle_1":"","subtitle_font_1":"secondary","subtitle_size_1":"h3","enable_custom_sub_styling_1":false,"subtitle_color_palette_1":"white","subtitle_weight_1":"400","text_1":"","enable_custom_font_styling_1":false,"font_size_1":"16px","link_text_1":"","link_url_1":"","show_link_1":false,"enable_banner_2":true,"image_2":"shopify:\/\/shop_images\/nobilin-584x584_f325de62-1c27-4d90-abf2-8e2191eb7c85.webp","overlay_opacity_2":0,"color_palette_2":"black","button_color_palette_2":"black","text_position_2":"text-center","title_2":"Neue Produkte","title_font_2":"primary","title_size_2":"h2","enable_custom_text_styling_2":true,"title_color_palette_2":"white","title_weight_2":"700","subtitle_2":"","subtitle_font_2":"secondary","subtitle_size_2":"h2","enable_custom_sub_styling_2":false,"subtitle_color_palette_2":"black","subtitle_weight_2":"400","text_2":"","enable_custom_font_styling_2":false,"font_size_2":"16px","link_text_2":"","link_url_2":"","show_link_2":false,"layout_mobile":"rows","mobile_height":"size-xs"}},"menu_MJw9yL":{"type":"menu","settings":{"menu-block":""}}},"block_order":["header-block-usp-1","header-block-usp-2","389714c7-7aae-4332-b8fe-9bf28b57ab30","menu_MJw9yL"],"custom_css":["h2 {text-shadow: 2px 2px 1px #000000;}"],"settings":{"layout":"layout_1","width":1500,"header_height":"89px|70px","top_bar_color":"light","header_color":"white","search_color":"white","menubar_color":"white","show_top_bar":true,"top_bar_font_size":"14px","navbar_menu_item_text":"","navbar_menu_item_link":"","enable_usp_slider":false,"enable_usp_slider_arrows":true,"enable_usp_slider_autoplay":true,"usp_slider_autoplay_seconds":3,"logo":"shopify:\/\/shop_images\/logo.png","logo_width":280,"enable_country_selector":true,"enable_language_selector":true,"searchbar_font_size":"14px","searchbar_height":42,"enable_sticky_header":true,"sticky":"sticky-header","cart_icon":"cart-bag|e963","cart_icon_color":"black","menubar_menu":"main-menu","menubar_height":"55px","menu_layout":"mega","show_dropdown_images":true,"show_dropdown_images_autofill":false,"menubar_alignment":"center","menubar_border":false,"menubar_border_width":"wide","menubar_border_color":"#000000","main_menu_items_clickable":true,"menubar_caps":true,"sale_highlight":true,"sale_highlight_item":"Sale","menu_font":"primary","menu_font_weight":"700","menu_font_size":16,"menu_letter_spacing":-2,"menu_items_limit":5,"main_menu_show_lines":true,"menu_subs_font":"secondary","enable_menu_subs_font_size":true,"menu_subs_font_size":16,"extra_image_width":100,"extra_image_link":"","disable_online_store":false,"logo_width_mobile":270,"search_compact_mobile":false,"menu_font_size_mobile":15,"trusted-shop-icon_star":"shopify:\/\/shop_images\/trust.png","trusted-shop-link":"https:\/\/www.trustedshops.de\/bewertung\/info_X6530CBFC24A42ABB17101308561D292A.html"}}},"order":["announcement","header"]}
+{
+  "type": "header",
+  "name": "t:static_sections.header.name",
+  "sections": {
+    "announcement": {
+      "type": "new-announcement-bar",
+      "blocks": {
+        "text_AJGLdE": {
+          "type": "text",
+          "settings": {
+            "text": "Service Hotline 0800 - 50 400 50",
+            "announcement_icon": "shopify:\/\/shop_images\/images.png"
+          }
+        },
+        "text_gxJwwg": {
+          "type": "text",
+          "settings": {
+            "text": "Lieferung in 2 Tagen",
+            "announcement_icon": "shopify:\/\/shop_images\/images_watch.png"
+          }
+        },
+        "announcement-1": {
+          "type": "text",
+          "settings": {
+            "text": "90-Tage-Geld-zurück-Garantie",
+            "announcement_icon": "shopify:\/\/shop_images\/images_1.png"
+          }
+        },
+        "text_yhprz4": {
+          "type": "text",
+          "settings": {
+            "text": "Kostenloser Versand deutschlandweit ab €15",
+            "announcement_icon": "shopify:\/\/shop_images\/icon-truck_1.webp"
+          }
+        },
+        "text_GwzbRj": {
+          "type": "text",
+          "settings": {
+            "text": "Anmelden und Rabatt sichern!",
+            "announcement_icon": "shopify:\/\/shop_images\/download.png"
+          }
+        },
+        "icon_list_ttzkn3": {
+          "type": "icon_list",
+          "settings": {
+            "list-icon-item": "shopify:\/\/shop_images\/ekomi.webp",
+            "list-item-link": "https:\/\/www.ekomi.de\/bewertungen-medicom-pharma-gmbh.html"
+          }
+        },
+        "icon_list_UJFWw8": {
+          "type": "icon_list",
+          "settings": {
+            "list-icon-item": "shopify:\/\/shop_images\/trusted_small_acacd79d-e192-495f-98ac-16d51f5f8f09.webp",
+            "list-item-link": "https:\/\/www.trustedshops.de\/bewertung\/info_XEEFA6D347AA404B49208F0F390E8292B.html"
+          }
+        },
+        "icon_list_AjpLhX": {
+          "type": "icon_list",
+          "settings": {
+            "list-icon-item": "shopify:\/\/shop_images\/madein_small_5d8f7d66-f687-41e1-b3a3-5a95bbff0e0f.webp",
+            "list-item-link": ""
+          }
+        },
+        "icon_list_iAdMkB": {
+          "type": "icon_list",
+          "settings": {
+            "list-icon-item": "shopify:\/\/shop_images\/servicepreis-2023-medicom-xsmall.webp",
+            "list-item-link": "https:\/\/www.medicom.de\/serviceleistungen"
+          }
+        }
+      },
+      "block_order": [
+        "text_AJGLdE",
+        "text_gxJwwg",
+        "announcement-1",
+        "text_yhprz4",
+        "text_GwzbRj",
+        "icon_list_ttzkn3",
+        "icon_list_UJFWw8",
+        "icon_list_AjpLhX",
+        "icon_list_iAdMkB"
+      ],
+      "settings": {
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-block-usp-1": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Service Hotline 0800 - 50 400 50<\/p>",
+            "show_check": true
+          }
+        },
+        "header-block-usp-2": {
+          "type": "usp",
+          "disabled": true,
+          "settings": {
+            "usp": "<p>Give your customers more details about your online store<\/p>",
+            "show_check": false
+          }
+        },
+        "389714c7-7aae-4332-b8fe-9bf28b57ab30": {
+          "type": "promo_banners",
+          "settings": {
+            "menu_item": "Themen",
+            "height": "size-s",
+            "enable_custom_height": true,
+            "custom_height": 300,
+            "image_zoom": false,
+            "show_content_below": false,
+            "layout": "rows",
+            "enable_banner_1": true,
+            "image_1": "shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg",
+            "overlay_opacity_1": 0,
+            "color_palette_1": "black",
+            "button_color_palette_1": "black",
+            "text_position_1": "text-center",
+            "title_1": "Bestseller",
+            "title_font_1": "primary",
+            "title_size_1": "h2",
+            "enable_custom_text_styling_1": true,
+            "title_color_palette_1": "white",
+            "title_weight_1": "700",
+            "subtitle_1": "",
+            "subtitle_font_1": "secondary",
+            "subtitle_size_1": "h3",
+            "enable_custom_sub_styling_1": false,
+            "subtitle_color_palette_1": "white",
+            "subtitle_weight_1": "400",
+            "text_1": "",
+            "enable_custom_font_styling_1": false,
+            "font_size_1": "16px",
+            "link_text_1": "",
+            "link_url_1": "",
+            "show_link_1": false,
+            "enable_banner_2": true,
+            "image_2": "shopify:\/\/shop_images\/nobilin-584x584_f325de62-1c27-4d90-abf2-8e2191eb7c85.webp",
+            "overlay_opacity_2": 0,
+            "color_palette_2": "black",
+            "button_color_palette_2": "black",
+            "text_position_2": "text-center",
+            "title_2": "Neue Produkte",
+            "title_font_2": "primary",
+            "title_size_2": "h2",
+            "enable_custom_text_styling_2": true,
+            "title_color_palette_2": "white",
+            "title_weight_2": "700",
+            "subtitle_2": "",
+            "subtitle_font_2": "secondary",
+            "subtitle_size_2": "h2",
+            "enable_custom_sub_styling_2": false,
+            "subtitle_color_palette_2": "black",
+            "subtitle_weight_2": "400",
+            "text_2": "",
+            "enable_custom_font_styling_2": false,
+            "font_size_2": "16px",
+            "link_text_2": "",
+            "link_url_2": "",
+            "show_link_2": false,
+            "layout_mobile": "rows",
+            "mobile_height": "size-xs"
+          }
+        },
+        "menu_MJw9yL": {
+          "type": "menu",
+          "settings": {
+            "menu-block": ""
+          }
+        }
+      },
+      "block_order": [
+        "header-block-usp-1",
+        "header-block-usp-2",
+        "389714c7-7aae-4332-b8fe-9bf28b57ab30",
+        "menu_MJw9yL"
+      ],
+      "custom_css": [
+        "h2 {text-shadow: 2px 2px 1px #000000;}"
+      ],
+      "settings": {
+        "layout": "layout_1",
+        "width": 1500,
+        "header_height": "89px|70px",
+        "top_bar_color": "light",
+        "header_color": "white",
+        "search_color": "white",
+        "menubar_color": "white",
+        "show_top_bar": true,
+        "top_bar_font_size": "14px",
+        "navbar_menu_item_text": "",
+        "navbar_menu_item_link": "",
+        "enable_usp_slider": false,
+        "enable_usp_slider_arrows": true,
+        "enable_usp_slider_autoplay": true,
+        "usp_slider_autoplay_seconds": 3,
+        "logo": "shopify:\/\/shop_images\/logo.png",
+        "logo_width": 280,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "searchbar_font_size": "14px",
+        "searchbar_height": 42,
+        "enable_sticky_header": true,
+        "sticky": "sticky-header",
+        "cart_icon": "cart-bag|e963",
+        "cart_icon_color": "black",
+        "menubar_menu": "main-menu",
+        "menubar_height": "55px",
+        "menu_layout": "mega",
+        "show_dropdown_images": true,
+        "show_dropdown_images_autofill": false,
+        "menubar_alignment": "center",
+        "menubar_border": false,
+        "menubar_border_width": "wide",
+        "menubar_border_color": "#000000",
+        "main_menu_items_clickable": true,
+        "menubar_caps": true,
+        "sale_highlight": true,
+        "sale_highlight_item": "Sale",
+        "menu_font": "primary",
+        "menu_font_weight": "700",
+        "menu_font_size": 16,
+        "menu_letter_spacing": -2,
+        "menu_items_limit": 5,
+        "main_menu_show_lines": true,
+        "menu_subs_font": "secondary",
+        "enable_menu_subs_font_size": true,
+        "menu_subs_font_size": 16,
+        "extra_image_width": 100,
+        "extra_image_link": "",
+        "disable_online_store": false,
+        "logo_width_mobile": 270,
+        "search_compact_mobile": false,
+        "menu_font_size_mobile": 15,
+        "trusted-shop-icon_star": "shopify:\/\/shop_images\/trust.png",
+        "trusted-shop-link": "https:\/\/www.trustedshops.de\/bewertung\/info_X6530CBFC24A42ABB17101308561D292A.html"
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
