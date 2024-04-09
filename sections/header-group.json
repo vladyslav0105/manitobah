@@ -181,7 +181,8 @@
       ],
       "custom_css": [
         ".sub > a:hover {color: #e93d3d !important;}",
-        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}"
+        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}",
+        "a:hover {color: #e93d3d !important;}"
       ],
       "settings": {
         "layout": "layout_1",
