@@ -381,7 +381,7 @@
     </figure>
     {%- if section.settings.bottom_img_link != empty -%}</a>{%- endif -%}
   {%- endif -%}
-  <p>&copy; <span class="date">{{ 'now' | date: "%Y" }}</span> {{ shop.name }}, {{ powered_by_link }}</a></p>
+  <p>&copy; <span class="date">{{ 'now' | date: "%Y" }}</span> {{ shop.name }}</a></p>
   <ul class="l4dr">
     {%- liquid
       if section.settings.enable_country_selector and localization.available_countries.size > 1
