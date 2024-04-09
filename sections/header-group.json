@@ -3,7 +3,6 @@
   "name": "t:static_sections.header.name",
   "sections": {
     "announcement": {
-<<<<<<< HEAD
       "type": "new-announcement-bar",
       "blocks": {
         "text_AJGLdE": {
@@ -67,19 +66,10 @@
           "settings": {
             "list-icon-item": "shopify:\/\/shop_images\/servicepreis-2023-medicom-xsmall.webp",
             "list-item-link": "https:\/\/www.medicom.de\/serviceleistungen"
-=======
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement-1": {
-          "type": "text",
-          "settings": {
-            "text": "Shout out your big announcement here!"
->>>>>>> 097a51407c2768deaedb6baff37648f4e441aee6
           }
         }
       },
       "block_order": [
-<<<<<<< HEAD
         "text_AJGLdE",
         "text_gxJwwg",
         "announcement-1",
@@ -90,19 +80,10 @@
         "icon_list_AjpLhX",
         "icon_list_iAdMkB"
       ],
-      "settings": {
-=======
-        "announcement-1"
+      "custom_css": [
+
       ],
-      "disabled": true,
       "settings": {
-        "color_palette": "light",
-        "height": "s",
-        "font_size": "14px",
-        "enable_slider_arrows": false,
-        "enable_slider_autoplay": true,
-        "slider_autoplay_seconds": 3
->>>>>>> 097a51407c2768deaedb6baff37648f4e441aee6
       }
     },
     "header": {
@@ -132,22 +113,14 @@
             "custom_height": 300,
             "image_zoom": false,
             "show_content_below": false,
-<<<<<<< HEAD
             "layout": "rows",
-=======
-            "layout": "columns",
->>>>>>> 097a51407c2768deaedb6baff37648f4e441aee6
             "enable_banner_1": true,
             "image_1": "shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg",
             "overlay_opacity_1": 0,
             "color_palette_1": "black",
             "button_color_palette_1": "black",
             "text_position_1": "text-center",
-<<<<<<< HEAD
             "title_1": "Bestseller",
-=======
-            "title_1": "",
->>>>>>> 097a51407c2768deaedb6baff37648f4e441aee6
             "title_font_1": "primary",
             "title_size_1": "h2",
             "enable_custom_text_styling_1": true,
@@ -171,11 +144,7 @@
             "color_palette_2": "black",
             "button_color_palette_2": "black",
             "text_position_2": "text-center",
-<<<<<<< HEAD
             "title_2": "Neue Produkte",
-=======
-            "title_2": "",
->>>>>>> 097a51407c2768deaedb6baff37648f4e441aee6
             "title_font_2": "primary",
             "title_size_2": "h2",
             "enable_custom_text_styling_2": true,
@@ -211,13 +180,7 @@
         "menu_MJw9yL"
       ],
       "custom_css": [
-<<<<<<< HEAD
         "h2 {text-shadow: 2px 2px 1px #000000;}"
-=======
-        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}",
-        ".sub > a:hover {color: #e93d3d !important;}",
-        "a:hover {color: #e93d3d !important;}"
->>>>>>> 097a51407c2768deaedb6baff37648f4e441aee6
       ],
       "settings": {
         "layout": "layout_1",
@@ -282,8 +245,4 @@
     "announcement",
     "header"
   ]
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 097a51407c2768deaedb6baff37648f4e441aee6
