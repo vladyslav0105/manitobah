@@ -52,7 +52,7 @@
             "custom_height": 300,
             "image_zoom": false,
             "show_content_below": false,
-            "layout": "rows",
+            "layout": "columns",
             "enable_banner_1": true,
             "image_1": "shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg",
             "overlay_opacity_1": 0,
@@ -120,7 +120,7 @@
       ],
       "custom_css": [
         ".sub > a:first-child {font-weight: bold; text-decoration: underline;}",
-        ".toggle{color: blue;}"
+        ".toggle {color: blue;}"
       ],
       "settings": {
         "layout": "layout_1",
