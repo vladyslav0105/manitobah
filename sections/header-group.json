@@ -180,7 +180,8 @@
         "menu_MJw9yL"
       ],
       "custom_css": [
-        "h2 {text-shadow: 2px 2px 1px #000000;}"
+        ".sub > a:hover {color: #e93d3d !important;}",
+        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}"
       ],
       "settings": {
         "layout": "layout_1",
