@@ -81,7 +81,7 @@
         "icon_list_iAdMkB"
       ],
       "custom_css": [
-
+        "{background-color: #f7f7f7; margin: 0; padding: 0;}"
       ],
       "settings": {
       }
