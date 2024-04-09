@@ -898,7 +898,7 @@ html:not([dir="rtl"]) #nav > ul > li.text-end, html:not([dir="rtl"]) #nav-bar > 
 .shopify-section-announcement-bar { display: none; }
 body > *:not(#root, .fancybox__container) button:before { display: none; }
 #root > .shopify-section:not(.shopify-section-header, .shopify-section-footer, [class*="shopify-section-announcement-bar"]) { width: calc(100% + 2 * var(--rpp));
-    margin-left: calc(0 - var(--rpp)); }
+    margin-left: calc(0px - var(--rpp)); }
 
 /*.t1as {}*/
 .t1as.t1pl #root { min-height: 100vh !important; padding-top: 0; }
