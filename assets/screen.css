@@ -897,7 +897,8 @@ html:not([dir="rtl"]) #nav > ul > li.text-end, html:not([dir="rtl"]) #nav-bar > 
 .cookie-off #cookie-bar, .cookie-toggle #cookie-bar { -webkit-transform: translateY(110%); transform: translateY(110%); }
 .shopify-section-announcement-bar { display: none; }
 body > *:not(#root, .fancybox__container) button:before { display: none; }
-#root > .shopify-section:not(.shopify-section-header, .shopify-section-footer, [class*="shopify-section-announcement-bar"]) { width: 100%; }
+#root > .shopify-section:not(.shopify-section-header, .shopify-section-footer, [class*="shopify-section-announcement-bar"]) { width: calc(100% + 40px);
+    margin-left: -20px; }
 
 /*.t1as {}*/
 .t1as.t1pl #root { min-height: 100vh !important; padding-top: 0; }
