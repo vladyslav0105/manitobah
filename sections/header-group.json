@@ -119,7 +119,9 @@
         "menu_MJw9yL"
       ],
       "custom_css": [
-        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}"
+        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}",
+        ".sub > a:hover {color: #e93d3d !important;}",
+        "a:hover {color: #e93d3d !important;}"
       ],
       "settings": {
         "layout": "layout_1",
