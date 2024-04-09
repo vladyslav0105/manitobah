@@ -119,8 +119,7 @@
         "menu_MJw9yL"
       ],
       "custom_css": [
-        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}",
-        ".toggle {color: blue;}"
+        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}"
       ],
       "settings": {
         "layout": "layout_1",
