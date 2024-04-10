@@ -116,6 +116,12 @@
           "settings": {
           }
         },
+        "custom_liquid_CR7aKn": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"border-top: 1px solid #CCCCCC; margin-bottom: 20px; margin-top: -15px;\"><\/div>"
+          }
+        },
         "usp_LPtQzH": {
           "type": "usp",
           "settings": {
@@ -197,6 +203,7 @@
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
+        "custom_liquid_CR7aKn",
         "usp_LPtQzH",
         "usp_jwMfEx",
         "usp_DfkaEE",
@@ -245,7 +252,7 @@
     "section_custom_liquid_r3a8UE": {
       "type": "section-custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin-top: 20px;\"><\/div>",
+        "custom_liquid": "<div style=\"border-top: 1px solid #CCCCCC; margin-top: 20px;\"><\/div>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
