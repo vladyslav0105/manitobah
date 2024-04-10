@@ -212,7 +212,7 @@
             "collection": "",
             "products_limit": 5,
             "number_of_items": 4,
-            "text": "<p>RICHTEXT METAFIELD<br\/><br\/>DOWNLOAD BUTTON<\/p>",
+            "text": "{{ product.metafields.custom.pdp_inhaltsstoffe | metafield_tag }}<p><strong>ADD METAOBJECT FOR DOWNLOADS HERE<\/strong><\/p>",
             "page": "",
             "image_width": 460,
             "liquid": "",
