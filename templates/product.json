@@ -229,7 +229,7 @@
             "collection": "",
             "products_limit": 5,
             "number_of_items": 4,
-            "text": "<p>RICHTEXT METAFIELD<\/p>",
+            "text": "{{ product.metafields.custom.pdp_anwendung | metafield_tag }}",
             "page": "",
             "image_width": 460,
             "liquid": "",
