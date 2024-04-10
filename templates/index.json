@@ -224,7 +224,7 @@
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
-            "title": "Beliebteste Wirkstoffe",
+            "title": "Wirkstoffe",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
