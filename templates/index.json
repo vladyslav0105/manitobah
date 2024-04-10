@@ -16,13 +16,13 @@
             "image": "shopify:\/\/shop_images\/banner.jpg",
             "layout": "background",
             "image_width": 50,
-            "overlay_opacity": 0,
-            "color_palette": "light_gradient",
+            "overlay_opacity": 5,
+            "color_palette": "white",
             "text_position": "text-start",
             "title": "<strong>BIS ZU 60% SPAREN<\/strong>",
             "title_font": "secondary",
             "title_size": "h1",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
             "title_weight": "700",
             "subtitle": "Wir senken die Preise!",
@@ -31,7 +31,7 @@
             "enable_custom_subtext_styling": false,
             "subtitle_color_palette": "black",
             "subtitle_weight": "400",
-            "text": "<p>Während das meiste teurer wird, senken wir die Preise einiger <br\/>unserer Produkte.<\/p>",
+            "text": "",
             "enable_custom_font_styling": false,
             "font_size": "16px",
             "first_link_text": "Jetzt Sparen!",
@@ -51,7 +51,10 @@
         "slide_xYBz66"
       ],
       "custom_css": [
-        "h1 {color: white; background-color: black; padding: 0 auto;}"
+        "h1 {color: white; background-color: black; padding: 15px; display: inline-block; max-width: fit-content;}",
+        "h4 {color: black; background-color: white; padding: 15px; display: inline-block; max-width: fit-content;}",
+        "p {text-align: left; font-weight: bold;}",
+        "a {color: white;}"
       ],
       "settings": {
         "width": "boxed",
