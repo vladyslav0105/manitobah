@@ -7,6 +7,63 @@
         "height_mobile": -10
       }
     },
+    "section_slideshow_8wyDhw": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_xYBz66": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-start",
+            "title": "<strong>BIS ZU 60% SPAREN<\/strong>",
+            "title_font": "secondary",
+            "title_size": "h1",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "Wir senken die Preise!",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h4",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Während das meiste teurer wird, senken wir die Preise einiger <br\/>unserer Produkte.<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "Jetzt Sparen!",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "light_2",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_xYBz66"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "494041aa-66c0-450a-acb0-f3bc90d6b837": {
       "type": "section-collage",
       "blocks": {
@@ -1167,6 +1224,7 @@
   },
   "order": [
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
+    "section_slideshow_8wyDhw",
     "494041aa-66c0-450a-acb0-f3bc90d6b837",
     "section_icon_text_blocks_Ba8mFi",
     "section_icon_text_blocks_d6r3gE",
