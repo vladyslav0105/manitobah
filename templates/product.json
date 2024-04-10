@@ -280,7 +280,9 @@
         "tab_6bFrgC"
       ],
       "custom_css": [
-        "h2,h3 {text-align: left;}"
+        "h2,h3 {text-align: left;}",
+        ".detail-information h2 {border-top: 2px solid #ccc; padding-top: 30px; margin-top: 30px;}",
+        "h2 {font-size: 20px;}"
       ],
       "settings": {
         "alignment": "left",
