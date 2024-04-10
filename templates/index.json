@@ -217,81 +217,6 @@
         "fix_zindex": 0
       }
     },
-    "codext_navigation_9XM6rE": {
-      "type": "codext-navigation",
-      "blocks": {
-        "block_fchtfF": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/QH-400x400.webp",
-            "heading": "Energie & Zellen",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "block_yAyRqE": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Omega3-400x400.webp",
-            "heading": "Omega-3",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "block_GGWt63": {
-          "type": "block",
-          "settings": {
-            "heading": "Immunsystem",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "block_r3DMUj": {
-          "type": "block",
-          "settings": {
-            "heading": "Naturprodukte",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "block_jD7iyz": {
-          "type": "block",
-          "settings": {
-            "heading": "Sport & Muskeln",
-            "url": "",
-            "highlight": false
-          }
-        },
-        "block_FBJ4fx": {
-          "type": "block",
-          "settings": {
-            "heading": "Magen & Darm",
-            "url": "",
-            "highlight": false
-          }
-        }
-      },
-      "block_order": [
-        "block_fchtfF",
-        "block_yAyRqE",
-        "block_GGWt63",
-        "block_r3DMUj",
-        "block_jD7iyz",
-        "block_FBJ4fx"
-      ],
-      "disabled": true,
-      "settings": {
-        "background-color": "#ffffff",
-        "max-show": 600,
-        "abgerundete_ecken": 50,
-        "schriftart": "sans-serif",
-        "schriftfarbe": "#000000",
-        "highlight-color": "#c4258d",
-        "abstand_zwischen_blocken_desktop": 31,
-        "abstand_zwischen_blocken_mobile": 18,
-        "hover-effekt-opacity": 0.8
-      }
-    },
     "section_icon_text_blocks_Ba8mFi": {
       "type": "section-icon-text-blocks",
       "blocks": {
@@ -374,11 +299,11 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "image": "shopify:\/\/shop_images\/Elektrolyte-400x400.webp",
+            "image": "shopify:\/\/shop_images\/Probiotika-400x400_1.webp",
             "image_height": 180,
             "title": "",
             "subtitle": "",
-            "text": "<p>Sport & Muskeln<\/p>",
+            "text": "<p>Magen und Darm<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
@@ -1243,7 +1168,6 @@
   "order": [
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
     "494041aa-66c0-450a-acb0-f3bc90d6b837",
-    "codext_navigation_9XM6rE",
     "section_icon_text_blocks_Ba8mFi",
     "section_icon_text_blocks_d6r3gE",
     "section_featured_products_jeNXEH",
