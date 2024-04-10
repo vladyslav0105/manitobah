@@ -116,6 +116,30 @@
           "settings": {
           }
         },
+        "usp_LPtQzH": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p><strong>Service-Hotline:<\/strong> 0800-50 400 50<\/p>"
+          }
+        },
+        "usp_jwMfEx": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>Lieferung in <strong>2 Tagen<\/strong><\/p>"
+          }
+        },
+        "usp_DfkaEE": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p>90-Tage-<strong>Geld-Zurück-Garantie<\/strong><\/p>"
+          }
+        },
+        "usp_UXiTz3": {
+          "type": "usp",
+          "settings": {
+            "usp": "<p><strong>Kostenfreier Versand<\/strong> ab 15€ deutschlandweit<\/p>"
+          }
+        },
         "c300d32f-398c-41a9-b22b-d5c9f40ed345": {
           "type": "spacer",
           "settings": {
@@ -173,6 +197,10 @@
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
+        "usp_LPtQzH",
+        "usp_jwMfEx",
+        "usp_DfkaEE",
+        "usp_UXiTz3",
         "c300d32f-398c-41a9-b22b-d5c9f40ed345",
         "complementary_products_FDVCRJ",
         "content_78LVhb"
