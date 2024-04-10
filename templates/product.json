@@ -249,7 +249,7 @@
             "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "{% assign pdp_downloads = product.metafields.custom.pdp_downloads %}\n\n{% if pdp_downloads %}\n  {% assign link_title = pdp_downloads | dig: 'pdp_downloads.linktitel' %}\n  {% assign file_url = pdp_downloads | dig: 'pdp_downloads.datei' %}\n\n  {% if link_title and file_url %}\n    <a href=\"{{ file_url }}\" download>{{ link_title }}<\/a>\n  {% endif %}\n{% endif %}",
+            "liquid": "{% assign pdp_downloads = product.metafields.custom.pdp_downloads %}\n\n{% if pdp_downloads %}\n  {% assign link_title = pdp_downloads.linktitle %}\n  {% assign file_url = pdp_downloads.file %}\n\n  {% if link_title and file_url %}\n    <a href=\"{{ file_url }}\" download=\"{{ link_title }}\">{{ link_title }}<\/a>\n  {% else %}\n    <p>Download information not available.<\/p>\n  {% endif %}\n{% endif %}",
             "html": "",
             "show_contact_form": false
           }
