@@ -93,6 +93,23 @@
           "settings": {
           }
         },
+        "content_bNGEAJ": {
+          "type": "content",
+          "settings": {
+            "layout": "none",
+            "collapse": false,
+            "title_size": "h2",
+            "title": "",
+            "icon": "none",
+            "header_image_width": 25,
+            "text": "<p>Alle Preise inkl. MwSt.,zzgl. <a href=\"https:\/\/www.medicom.de\/lieferkonditionen\">Versandkosten<\/a><\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
         "inventory": {
           "type": "inventory",
           "settings": {
@@ -212,6 +229,7 @@
         "price",
         "variant_selection",
         "pickup",
+        "content_bNGEAJ",
         "inventory",
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
