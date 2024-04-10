@@ -33,6 +33,11 @@
             "mobile_title_size": "h3"
           }
         },
+        "product_ratings_4cYjUK": {
+          "type": "product_ratings",
+          "settings": {
+          }
+        },
         "90724a70-740a-4cc9-984c-764e1d76a5bd": {
           "type": "codes",
           "settings": {
@@ -114,13 +119,13 @@
         "80e67d89-9369-4ddb-8111-2aa1c36fb500": {
           "type": "usp",
           "settings": {
-            "usp": "<p>Tell a unique detail about this product<\/p>"
+            "usp": "<p>Service-Hotline 0800-50  400 50<\/p>"
           }
         },
         "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924": {
           "type": "usp",
           "settings": {
-            "usp": "<p>Tell a unique detail about this product<\/p>"
+            "usp": "<p>Lieferung in 2 Tagen<\/p>"
           }
         },
         "c300d32f-398c-41a9-b22b-d5c9f40ed345": {
@@ -129,10 +134,31 @@
             "height": 20,
             "height_mobile": 20
           }
+        },
+        "complementary_products_FDVCRJ": {
+          "type": "complementary_products",
+          "settings": {
+            "layout": "accordion",
+            "collapse": true,
+            "title_size": "h5",
+            "title": "Kunden kauften auch",
+            "icon": "shopping_bag",
+            "header_image_width": 25,
+            "products_layout": "list",
+            "number_of_items": 3,
+            "products_show_image": true,
+            "products_show_labels": false,
+            "products_show_vendor": false,
+            "products_show_title": true,
+            "products_show_rating": true,
+            "products_show_price": true,
+            "products_show_stock": false
+          }
         }
       },
       "block_order": [
         "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "product_ratings_4cYjUK",
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "price",
@@ -144,7 +170,8 @@
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "80e67d89-9369-4ddb-8111-2aa1c36fb500",
         "ce57c15f-9a2f-4731-8dfe-6ed8eefa9924",
-        "c300d32f-398c-41a9-b22b-d5c9f40ed345"
+        "c300d32f-398c-41a9-b22b-d5c9f40ed345",
+        "complementary_products_FDVCRJ"
       ],
       "custom_css": [
 
