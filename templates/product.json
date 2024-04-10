@@ -316,30 +316,6 @@
         "fix_zindex": 0
       }
     },
-    "recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "recommended_products_qty": 6,
-        "number_of_items": 4,
-        "text_alignment": "start",
-        "title": "You may also like",
-        "title_font": "primary",
-        "title_size": "h3",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h4",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "spacing_desktop": 50,
-        "spacing_mobile": 0,
-        "mobile_collapse": false
-      }
-    },
     "reviews": {
       "type": "product-reviews",
       "disabled": true,
@@ -602,6 +578,30 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "recommended_products_qty": 6,
+        "number_of_items": 4,
+        "text_alignment": "start",
+        "title": "Andere Kunden kauften auch",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h4",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 0,
+        "mobile_collapse": false
+      }
     }
   },
   "order": [
@@ -610,12 +610,12 @@
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
     "section_content_tabs_mX6gbY",
     "section_custom_liquid_n3eUfR",
-    "recommendations",
     "reviews",
     "recently-viewed",
     "section_image_with_text_Qqdf7q",
     "section_image_with_text_xWUqgn",
     "section_image_with_text_GEMaY4",
-    "section_faq_xaE6NR"
+    "section_faq_xaE6NR",
+    "recommendations"
   ]
 }
