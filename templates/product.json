@@ -132,7 +132,7 @@
             "title": "Wir empfehlen",
             "icon": "shopping_bag",
             "header_image_width": 25,
-            "products_layout": "list",
+            "products_layout": "grid",
             "number_of_items": 3,
             "products_show_image": true,
             "products_show_labels": false,
