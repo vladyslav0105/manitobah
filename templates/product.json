@@ -123,6 +123,23 @@
             "height_mobile": 20
           }
         },
+        "content_78LVhb": {
+          "type": "content",
+          "settings": {
+            "layout": "tab",
+            "collapse": false,
+            "title_size": "h2",
+            "title": "Fragen?",
+            "icon": "24_7_call",
+            "header_image_width": 25,
+            "text": "",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": true
+          }
+        },
         "complementary_products_FDVCRJ": {
           "type": "complementary_products",
           "settings": {
@@ -142,23 +159,6 @@
             "products_show_price": true,
             "products_show_stock": false
           }
-        },
-        "content_78LVhb": {
-          "type": "content",
-          "settings": {
-            "layout": "tab",
-            "collapse": false,
-            "title_size": "h2",
-            "title": "Fragen?",
-            "icon": "24_7_call",
-            "header_image_width": 25,
-            "text": "",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": true
-          }
         }
       },
       "block_order": [
@@ -174,8 +174,8 @@
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "c300d32f-398c-41a9-b22b-d5c9f40ed345",
-        "complementary_products_FDVCRJ",
-        "content_78LVhb"
+        "content_78LVhb",
+        "complementary_products_FDVCRJ"
       ],
       "custom_css": [
 
