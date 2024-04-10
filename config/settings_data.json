@@ -83,6 +83,7 @@
     "enable_cart_drawer_upsell_variants": true,
     "show_trustbadge": true,
     "trustbadge_image": "amazon pay",
+    "trustbadge_text": "<p><strong>Schnell & sicher<\/strong> bezahlen<\/p>",
     "search_drawer_show_vendor": true,
     "sale_label_price": "amount",
     "stock_label_qty": 5,
