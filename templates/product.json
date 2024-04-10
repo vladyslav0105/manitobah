@@ -206,7 +206,7 @@
           "type": "content",
           "settings": {
             "layout": "tab",
-            "collapse": false,
+            "collapse": true,
             "title_size": "h2",
             "title": "Fragen?",
             "icon": "24_7_call",
