@@ -479,7 +479,8 @@
         "text_bVPTnr"
       ],
       "custom_css": [
-        "img {padding: 80px;}"
+        "img {padding: 80px;}",
+        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 100;}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.pdp_info_image_1.value }}",
@@ -515,7 +516,8 @@
         "text_KK6nMm"
       ],
       "custom_css": [
-        "img {padding: 80px;}"
+        "img {padding: 80px;}",
+        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 100;}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.pdp_info_image_2.value }}",
@@ -549,6 +551,10 @@
       },
       "block_order": [
         "text_y7aiE6"
+      ],
+      "custom_css": [
+        "img {padding: 80px;}",
+        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 100;}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.pdp_info_image_3.value }}",
