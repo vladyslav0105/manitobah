@@ -98,7 +98,7 @@
       "new_password": "Neues Passwort",
       "repeat_new_password": "Wiederholung des neuen Passworts",
       "repeated_password": "Wiederholtes Passwort",
-      "submit": "Send"
+      "submit": "Senden"
     },
     "continue_as_guest": {
       "title": "oder",
@@ -513,7 +513,7 @@
       "subject": "Thema",
       "message": "Nachricht",
       "required": "Erforderlich",
-      "send": "Send",
+      "send": "Senden",
       "posted_successfully": "Danke, dass Sie uns eine Nachricht geschickt haben!",
       "email_disclaimer": "E-Mail-Haftungsausschluss"
     }
