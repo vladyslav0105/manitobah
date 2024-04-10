@@ -214,6 +214,15 @@
         "height_mobile": 20
       }
     },
+    "section_custom_liquid_r3a8UE": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin-top: 20px;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_content_tabs_mX6gbY": {
       "type": "section-content-tabs",
       "blocks": {
@@ -313,10 +322,12 @@
       "custom_css": [
         "h2,h3 {text-align: left;}",
         ".detail-information h2 {border-top: 2px solid #ccc; padding-top: 30px; margin-top: 30px;}",
-        "h2 {font-size: 20px;}"
+        "h2 {font-size: 20px;}",
+        "p {text-align: left !important;}",
+        "a {text-align: left !important;}"
       ],
       "settings": {
-        "alignment": "left",
+        "alignment": "center",
         "compact": false,
         "title": "",
         "title_font": "primary",
@@ -639,6 +650,7 @@
     "breadcrumbs",
     "main-product",
     "fba97795-cd0a-43bb-b23d-6d65a7ee795f",
+    "section_custom_liquid_r3a8UE",
     "section_content_tabs_mX6gbY",
     "section_custom_liquid_n3eUfR",
     "reviews",
