@@ -58,7 +58,7 @@
       ],
       "settings": {
         "width": "boxed",
-        "height": "m",
+        "height": "s",
         "enable_custom_height": false,
         "custom_height": 300,
         "autoplay": false,
