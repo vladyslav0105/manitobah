@@ -82,7 +82,7 @@
     "enable_cart_drawer_upsell_related": true,
     "enable_cart_drawer_upsell_variants": true,
     "show_trustbadge": true,
-    "trustbadge_image": "klarna",
+    "trustbadge_image": "amazon pay",
     "search_drawer_show_vendor": true,
     "sale_label_price": "amount",
     "stock_label_qty": 5,
