@@ -470,7 +470,7 @@
           "settings": {
             "text": "{{ product.metafields.custom.pdp_info_text_1 | metafield_tag }}",
             "font": "secondary",
-            "font_weight": "400",
+            "font_weight": "300",
             "font_size": "16px"
           }
         }
@@ -480,7 +480,7 @@
       ],
       "custom_css": [
         "img {padding: 80px;}",
-        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 100; font-size: 25px;}"
+        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.pdp_info_image_1.value }}",
@@ -507,7 +507,7 @@
           "settings": {
             "text": "{{ product.metafields.custom.pdp_info_text_2 | metafield_tag }}",
             "font": "secondary",
-            "font_weight": "400",
+            "font_weight": "300",
             "font_size": "16px"
           }
         }
@@ -517,7 +517,7 @@
       ],
       "custom_css": [
         "img {padding: 80px;}",
-        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 100; font-size: 25px;}"
+        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.pdp_info_image_2.value }}",
@@ -544,7 +544,7 @@
           "settings": {
             "text": "{{ product.metafields.custom.pdp_info_text_3 | metafield_tag }}",
             "font": "secondary",
-            "font_weight": "400",
+            "font_weight": "300",
             "font_size": "16px"
           }
         }
@@ -554,7 +554,7 @@
       ],
       "custom_css": [
         "img {padding: 80px;}",
-        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 100; font-size: 25px;}"
+        "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
         "image": "{{ product.metafields.custom.pdp_info_image_3.value }}",
