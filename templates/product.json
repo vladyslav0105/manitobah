@@ -690,11 +690,10 @@
     },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "recommended_products_qty": 6,
         "number_of_items": 4,
-        "text_alignment": "start",
+        "text_alignment": "center",
         "title": "Andere Kunden kauften auch",
         "title_font": "primary",
         "title_size": "h3",
