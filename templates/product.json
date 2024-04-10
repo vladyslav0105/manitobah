@@ -322,10 +322,10 @@
         "text_KK9Cb9": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "Wieso ist QH wichtig für den Körper?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>QH ist die bioaktive Form von Q10, ein Coenzym, ein vitaminähnlicher Stoff, der vom Körper selbst produziert wird. Mit steigendem Alter – ab ca. Vierzig – nimmt die körpereigene Bildung ab. Q10\/QH haben vor allem 2 wichtige Funktionen im Körper. Erstens: Sie sind daran beteiligt, Energie aus der Nahrung in körpereigene Energie umzuwandeln. Organe, die besonders viel Energie benötigen, um zu funktionieren sind unter anderem: Leber, Lunge und vor allem das Herz. Dort befinden sich auch die höchsten Mengen an Q10\/QH. Ein Defizit an der vitaminähnlichen Substanz führt dazu, dass dem Körper weniger Energie zur Verfügung steht und das Immunsystem schwächer werden kann. Zweitens: QH gilt als Antioxidans und hilft beim Zellschutz.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -336,10 +336,10 @@
         "text_GXFXnf": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "Welchen Vorteil hat QH gegenüber Q10?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>QH (Ubiquinol) ist die reduzierte Form von Q10 (Ubiquinon), also die aktive Q10-Form. Q10 muss im Darm erst in QH umgewandelt werden und steht erst dann für den Körper zur Verfügung. QH muss nicht mehr umgewandelt werden, es gelangt sofort ins Blut und steht dort direkt zur Verfügung, wo es gebraucht wird. Der Extraschub, der sofort verfügbar ist. Empfehlenswert für Personen ab 30 Jahren, die einen hohen Energieverbrauch haben (wie Sportler oder durch Beruf und Umfeld stark geforderte Personen) und vor allem für Personen im Alter, deren körpereigene Q10-Bildung nach und nach abnimmt.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -350,10 +350,38 @@
         "text_8excnB": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "Was macht eine hohe Dosierung von 100 mg QH so wertvoll?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>100 mg QH pro Soft-Gel-Kapsel ist hochdosiert und bietet eine hochwertige Versorgung – auch in herausfordernden Zeiten und bei hohen Ansprüchen. Gut zu wissen: Die Soft-Gel-Kapseln von Medicom liefern den Inhaltsstoff bereits in Öl gelöst. In dieser Form kann QH besonders gut von unserem Organismus verstoffwechselt werden. Alle Produkte von Medicom, so auch QH Mono 100 mg, werden nach GMP-Richtlinien (englisch: Good manufacturing practice – gute Herstellungspraxis) für Arzneimittel hergestellt.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_jCJezL": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Warum ist QH bei Medikamenteneinnahme wie Cholesterinsenkern (Statinen) ratsam?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Zur Cholesterinsenkung werden sogenannte Statine als Cholesterinsenker eingesetzt. Statine blockieren ein bestimmtes Enzym, das für die Cholesterinsynthese in der Leber zuständig ist, und senken so den Cholesterinspiegel. Aber gleichzeitig wird durch die Einnahme der Statine auch die Q10-Körperproduktion in diesem Organ gehemmt. Daher ist bei Verwendung von Cholesterinsenkern (Statinen) eine zusätzliche Einnahme von Q10\/QH ratsam, um ein mögliches Q10\/QH-Defizit zu vermeiden und die Nebenwirkungen von Cholesterinsenkern zu reduzieren.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Qhqy3C": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Wie lange können Sie QH Mono 100 mg von Medicom einnehmen?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>QH Mono 100 mg ist sicher und kann langfristig eingenommen werden. <\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -365,7 +393,9 @@
       "block_order": [
         "text_KK9Cb9",
         "text_GXFXnf",
-        "text_8excnB"
+        "text_8excnB",
+        "text_jCJezL",
+        "text_Qhqy3C"
       ],
       "settings": {
         "alignment": "left",
