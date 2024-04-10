@@ -51,7 +51,7 @@
         "slide_xYBz66"
       ],
       "custom_css": [
-        "h1 {color: white; background-color: black; padding: 15px; display: inline-block; max-width: fit-content; box-shadow: 2px 2px 30px black;}",
+        "h1 {color: white; background-color: black; padding: 15px; display: inline-block; max-width: fit-content; box-shadow: 1px 1px 3px black;}",
         "h4 {color: black; background-color: white; padding: 15px; display: inline-block; max-width: fit-content; box-shadow: 2px 2px 5px #e0e0e0;}",
         "p {text-align: left; font-weight: bold;}",
         "a {color: white;}"
