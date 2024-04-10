@@ -237,6 +237,23 @@
             "show_contact_form": false
           }
         },
+        "tab_iACUEQ": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab",
+            "icon": "none",
+            "header_image_width": 25,
+            "collection": "",
+            "products_limit": 5,
+            "number_of_items": 4,
+            "text": "",
+            "page": "",
+            "image_width": 460,
+            "liquid": "{% if product.metafields.custom.pdp_downloads %}\n  {% assign pdp_downloads = product.metafields.custom.pdp_downloads %}\n  {% if pdp_downloads.linktitel and pdp_downloads.datei %}\n    <a href=\"{{ pdp_downloads.datei | asset_url }}\" download=\"{{ pdp_downloads.linktitel }}\">{{ pdp_downloads.linktitel }}<\/a>\n  {% endif %}\n{% endif %}",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
         "tab_j3bK37": {
           "type": "tab",
           "settings": {
@@ -276,6 +293,7 @@
         "tab_AKLGH8",
         "tab_KXtzQk",
         "tab_xLKTYa",
+        "tab_iACUEQ",
         "tab_j3bK37",
         "tab_6bFrgC"
       ],
