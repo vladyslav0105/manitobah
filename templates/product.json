@@ -237,23 +237,6 @@
             "show_contact_form": false
           }
         },
-        "tab_iACUEQ": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab",
-            "icon": "none",
-            "header_image_width": 25,
-            "collection": "",
-            "products_limit": 5,
-            "number_of_items": 4,
-            "text": "",
-            "page": "",
-            "image_width": 460,
-            "liquid": "<div class=\"liquid-section\">\n  <div class=\"content\">\n    <!-- Anzeige des Linktitels -->\n    <h2>{{ product.metafields.custom.pdp_downloads.linktitel }}<\/h2>\n    \n    <!-- Bedingung, um zu überprüfen, ob das Dateifeld vorhanden ist -->\n    {% if product.metafields.custom.pdp_downloads.datei != blank %}\n      <div class=\"download\">\n        <!-- Anzeigen des Download-Links. Die URL zum Herunterladen der Datei wird aus dem Metafeld abgerufen -->\n        <a href=\"{{ product.metafields.custom.pdp_downloads.datei }}\" target=\"_blank\">Download<\/a>\n      <\/div>\n    {% endif %}\n  <\/div>\n<\/div>",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
         "tab_j3bK37": {
           "type": "tab",
           "settings": {
@@ -293,7 +276,6 @@
         "tab_AKLGH8",
         "tab_KXtzQk",
         "tab_xLKTYa",
-        "tab_iACUEQ",
         "tab_j3bK37",
         "tab_6bFrgC"
       ],
