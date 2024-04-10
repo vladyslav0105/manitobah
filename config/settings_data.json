@@ -21,7 +21,7 @@
     "buy_button_color": "#e93d3d",
     "buy_button_text_color": "#ffffff",
     "dynamic_buy_button_color": "#e93d3d",
-    "active_tabs_color": "accent",
+    "active_tabs_color": "light",
     "price_color": "#e93d3d",
     "compare_at_price_color": "#0d0d0d",
     "product_label_color": "#0d0d0d",
