@@ -260,7 +260,7 @@
         "img_info": "",
         "img_info_color_palette": "black",
         "enable_custom_font_size": true,
-        "font_size": "14px",
+        "font_size": "13px",
         "show_product_description": false,
         "description_title_size": "h3",
         "product_description_enable_read_more": false,
