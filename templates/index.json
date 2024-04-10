@@ -50,6 +50,9 @@
       "block_order": [
         "slide_xYBz66"
       ],
+      "custom_css": [
+        "h1 {color: #fff; background-color: black; padding: 0 auto;}"
+      ],
       "settings": {
         "width": "boxed",
         "height": "m",
