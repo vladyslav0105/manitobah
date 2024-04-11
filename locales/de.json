@@ -270,7 +270,7 @@
       "dark_gradient": "Gradienten dunkel"
     },
     "shipping_timer": {
-      "shipped_today": "Versand noch heute bei Bestellung vor 14 Uhr",
+      "shipped_today": "Versand noch heute!",
       "you_have_left_html": "Bestellung innerhalb: {{ time }}"
     },
     "choose_option": "Treffen Sie eine Entscheidung",
