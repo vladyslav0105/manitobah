@@ -543,9 +543,10 @@
     "custom_css": [
       "p.price {font-size: 20px !important; font-weight: 800 !important;}",
       "p.price {color: #e61446 !important;}",
-      ".countdown {color: #64CD82; font-weight: 800 !important;}",
+      ".countdown {color: #64cd82; font-weight: 800 !important;}",
       ".s1pr .small {font-size: 10px; color: gray;}",
-      ".l4cl .price .small {font-size: 10px; color: gray;}"
+      ".l4cl .price .small {font-size: 10px; color: gray;}",
+      ".old-price {display: none;}"
     ]
   }
 }
