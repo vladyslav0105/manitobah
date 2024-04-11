@@ -410,7 +410,7 @@
       "one_time_purchase": "Einmaliger kauf",
       "title": "Produkt Form",
       "view_options": "Optionen anzeigen",
-      "in_stock": "{{ amount }} auf Lager",
+      "in_stock": "Auf Lager",
       "choose": "Bitte auswählen...",
       "pre_order": "Pre-order",
       "pre_order_info": "Pre-order Info"
