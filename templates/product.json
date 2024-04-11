@@ -394,7 +394,7 @@
         "a {text-align: left !important;}"
       ],
       "settings": {
-        "alignment": "center",
+        "alignment": "left",
         "compact": false,
         "title": "",
         "title_font": "primary",
