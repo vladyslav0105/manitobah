@@ -36,7 +36,7 @@
         "custom_liquid_ffhxV7": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div style=\"margin-top: -15px; margin-bottom: 20px; font-size: 15px; color: #262626;\">\n    {{ pdp_produkt_sub_title }}\n  <\/div>\n{% endif %}"
+            "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div style=\"margin-top: -15px; margin-bottom: 20px; font-size: 15px; color: #262626; margin-left: 2px;\">\n    {{ pdp_produkt_sub_title }}\n  <\/div>\n{% endif %}"
           }
         },
         "custom_liquid_weDQ7U": {
