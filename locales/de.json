@@ -510,7 +510,7 @@
       "email": "E-Mail",
       "company": "Unternehmen",
       "phone": "Telefonnummer",
-      "subject": "Thema",
+      "subject": "Betreff",
       "message": "Nachricht",
       "required": "Erforderlich",
       "send": "Senden",
