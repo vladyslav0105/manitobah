@@ -90,7 +90,14 @@
               -%}
             </ul>
           {%- endif -%}
-          {%- if block.settings.text != empty -%}{{ block.settings.text }}{%- endif -%}
+          {%- if block.settings.text != empty -%}
+          {{ block.settings.text }}
+          {% if block.settings.title == 'Inhaltsstoffe' %}
+            {% for item in product.metafields.custom.pdp_downloads.value %}
+            <a href="{{ item.datei | file_url }}" download> {{ item.linktitel }}</a>
+            {% endfor %}
+          {% endif %}
+          {%- endif -%}
           {%- if block.settings.page -%}{{ block.settings.page.content }}{%- endif %}
           {%- if block.settings.image != blank -%}
             <div class="m20">
