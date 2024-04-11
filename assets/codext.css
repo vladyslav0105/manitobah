@@ -1,5 +1,8 @@
 .left-side ul {
-  list-style-type: none !important;
+  content: "\2713" !important;
+  display: inline-block !important;
+  width: 1em !important;
+  margin-left: -1em !important;
 }
 
 .left-side li::marker {
