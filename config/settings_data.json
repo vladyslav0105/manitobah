@@ -542,7 +542,8 @@
     "custom_css": [
       "p.price {font-size: 20px !important; font-weight: 800 !important;}",
       "p.price {color: #e61446 !important;}",
-      ".countdown {color: #1f871f; font-weight: 800 !important;}"
+      ".countdown {color: #1f871f; font-weight: 800 !important;}",
+      ".s1pr .small {font-size: 10px; color: gray;}"
     ]
   }
 }
