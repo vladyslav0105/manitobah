@@ -33,16 +33,16 @@
             "mobile_title_size": "h3"
           }
         },
-        "custom_liquid_ffhxV7": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div style=\"width: 100%;\">\n    <div style=\"margin-top: -25px!important; margin-bottom: 20px; font-size: 10px; color: #262626; margin-left: 2px; background-color: #f7f7f7; display: inline-block; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; font-weight: 400;\">\n      {{ pdp_produkt_sub_title }}\n    <\/div>\n  <\/div>\n{% endif %}"
-          }
-        },
         "custom_liquid_weDQ7U": {
           "type": "custom_liquid",
           "settings": {
             "custom_liquid": "{% for i in (1..5) %}\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/0311\/4525\/files\/star.png?v=1712760302\" alt=\"Star\" style=\"height: 10px; margin-top: -30px;\">\n{% endfor %}"
+          }
+        },
+        "custom_liquid_ffhxV7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div style=\"width: 100%;\">\n    <div style=\"margin-top: -25px!important; margin-bottom: 20px; font-size: 13px; color: #262626; margin-left: 2px; background-color: #f7f7f7; display: inline-block; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; font-weight: 400;\">\n      {{ pdp_produkt_sub_title }}\n    <\/div>\n  <\/div>\n{% endif %}"
           }
         },
         "product_ratings_4cYjUK": {
@@ -229,8 +229,8 @@
       },
       "block_order": [
         "c7259cb9-7235-4028-b6df-3a68077fed80",
-        "custom_liquid_ffhxV7",
         "custom_liquid_weDQ7U",
+        "custom_liquid_ffhxV7",
         "product_ratings_4cYjUK",
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
@@ -253,7 +253,8 @@
         "content_78LVhb"
       ],
       "custom_css": [
-        "p.s1pr {font-size: 30px; font-weight: bold;}"
+        "p.s1pr {font-size: 30px; font-weight: bold;}",
+        ".m5.mob-h3 {font-weight: bold; font-size: 35px;}"
       ],
       "settings": {
         "media_layout": "slider",
