@@ -8,3 +8,10 @@
   width: 1em!important;
   margin-left: -1em!important;
 }
+
+.left-side ul li {
+  content: "\2713"!important;
+  display: inline-block!important;
+  width: 1em!important;
+  margin-left: -1em!important;
+}
