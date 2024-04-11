@@ -42,7 +42,7 @@
         "custom_liquid_weDQ7U": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% for i in (1..5) %}\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/0311\/4525\/files\/star.png?v=1712760302\" alt=\"Star\" style=\"height: 10px; margin-top: -20px;\">\n{% endfor %}"
+            "custom_liquid": "{% for i in (1..5) %}\n   <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/0311\/4525\/files\/star.png?v=1712760302\" alt=\"Star\" style=\"height: 10px; margin-top: -30px;\">\n{% endfor %}"
           }
         },
         "product_ratings_4cYjUK": {
@@ -52,6 +52,7 @@
         },
         "90724a70-740a-4cc9-984c-764e1d76a5bd": {
           "type": "codes",
+          "disabled": true,
           "settings": {
             "show_sku": true,
             "show_barcode": true
