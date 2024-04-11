@@ -913,7 +913,7 @@
                               endif
                             endcapture
                           -%}
-                          <span class="small">{{ 'product.unit_price_label' | t }}&nbsp;{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+                          <span class="small">{{ 'product.unit_price_label' | t }}&nbsp&nbsp;{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
                         {%- endif -%}
                     </p>
                     {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
