@@ -353,10 +353,10 @@
             "collection": "",
             "products_limit": 5,
             "number_of_items": 4,
-            "text": "<p>EKOMI WIDGET<\/p>",
+            "text": "",
             "page": "",
             "image_width": 460,
-            "liquid": "",
+            "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/0311\/4525\/files\/qh-mono-ekomi.png?v=1712824978\" alt=\"Description of the image\">",
             "html": "",
             "show_contact_form": false
           }
