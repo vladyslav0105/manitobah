@@ -226,6 +226,24 @@
             "html": "",
             "show_contact_form": true
           }
+        },
+        "popup_9KV9YC": {
+          "type": "popup",
+          "settings": {
+            "link_text": "Button",
+            "button_color_palette": "accent",
+            "button_style": "fill",
+            "wide": false,
+            "show_link": true,
+            "alignment": "left",
+            "title_size": "h2",
+            "title": "Popup",
+            "text": "<p>Testz<\/p>",
+            "page": "",
+            "image_width": 460,
+            "liquid": "",
+            "html": ""
+          }
         }
       },
       "block_order": [
@@ -251,7 +269,8 @@
         "custom_liquid_CR7aKn",
         "c300d32f-398c-41a9-b22b-d5c9f40ed345",
         "complementary_products_FDVCRJ",
-        "content_78LVhb"
+        "content_78LVhb",
+        "popup_9KV9YC"
       ],
       "custom_css": [
         "p.s1pr {font-size: 30px; font-weight: bold;}",
