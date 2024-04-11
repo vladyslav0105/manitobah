@@ -896,26 +896,31 @@
                                 </p>
                             {%- endif -%}
                     </div>
-                {%- when 'price' -%}
-                   <p class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
-                        {%- if current_variant.compare_at_price > current_variant.price -%}
-                            <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
-                        {%- endif -%}
-                        {{ current_variant.price | money }}{% if block.settings.show_tax %} {% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}{% endif %}
-                        {%- if current_variant.unit_price_measurement -%}
-                          {%- liquid
-                            capture unit_price_base_unit
-                              if current_variant.available and current_variant.unit_price_measurement
-                                if current_variant.unit_price_measurement.reference_value != 1
-                                  echo current_variant.unit_price_measurement.reference_value
-                                endif
-                                echo current_variant.unit_price_measurement.reference_unit
-                              endif
-                            endcapture
-                          -%}
-                          <span class="small">{{ 'product.unit_price_label' | t }}&nbsp;{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
-                        {%- endif -%}
-                    </p>
+  {%- when 'price' -%}
+   <p class="f8pr-price s1pr{% if current_variant.unit_price_measurement %} m0{% endif %}" {{ block.shopify_attributes }}>
+        {%- if current_variant.compare_at_price > current_variant.price -%}
+            <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
+        {%- endif -%}
+        {{ current_variant.price | money }}{% if block.settings.show_tax %} {% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}{% endif %}
+        {%- if current_variant.unit_price_measurement -%}
+          {%- liquid
+            capture unit_price_base_unit
+              if current_variant.available and current_variant.unit_price_measurement
+                if current_variant.unit_price_measurement.reference_value != 1
+                  echo current_variant.unit_price_measurement.reference_value
+                endif
+                echo current_variant.unit_price_measurement.reference_unit
+              endif
+            endcapture
+          -%}
+          <span class="small">{{ 'product.unit_price_label' | t }}&nbsp;{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+        {%- endif -%}
+    </p>
+    {%- if current_variant.unit_price_measurement -%}
+      {%- assign unit_price = current_variant.unit_price | money_with_currency -%}
+      {%- assign measure = current_variant.unit_price_measurement -%}
+      <p>Price per {{ measure.reference_unit }}: {{ unit_price }}</p>
+    {%- endif -%}
                     {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                     {%- form 'product', product, id: product_form_installment_id, class: 'f8pr-product-form-installment' -%}
                         <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
