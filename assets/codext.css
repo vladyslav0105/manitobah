@@ -2,7 +2,7 @@
   list-style-type: none!important;
 }
 
-.left-side ul li:before {
+.left-side ul li:marker {
   content: "\2713"!important;
   display: inline-block!important;
   width: 1em!important;
