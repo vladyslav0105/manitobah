@@ -89,23 +89,9 @@
     "header": {
       "type": "header",
       "blocks": {
-        "header-block-usp-1": {
-          "type": "usp",
-          "settings": {
-            "usp": "<p>Service Hotline 0800 - 50 400 50<\/p>",
-            "show_check": true
-          }
-        },
-        "header-block-usp-2": {
-          "type": "usp",
-          "disabled": true,
-          "settings": {
-            "usp": "<p>Give your customers more details about your online store<\/p>",
-            "show_check": false
-          }
-        },
         "389714c7-7aae-4332-b8fe-9bf28b57ab30": {
           "type": "promo_banners",
+          "disabled": true,
           "settings": {
             "menu_item": "Themen",
             "height": "size-s",
@@ -171,13 +157,73 @@
           "settings": {
             "menu-block": ""
           }
+        },
+        "promo_banners_M3gFeY": {
+          "type": "promo_banners",
+          "settings": {
+            "menu_item": "Themen",
+            "height": "size-s",
+            "enable_custom_height": false,
+            "custom_height": 1000,
+            "image_zoom": false,
+            "show_content_below": false,
+            "layout": "columns",
+            "enable_banner_1": false,
+            "image_1": "shopify:\/\/shop_images\/banner.jpg",
+            "overlay_opacity_1": 0,
+            "color_palette_1": "light_2",
+            "button_color_palette_1": "accent",
+            "text_position_1": "text-center",
+            "title_1": "Image banner",
+            "title_font_1": "primary",
+            "title_size_1": "h2",
+            "enable_custom_text_styling_1": false,
+            "title_color_palette_1": "black",
+            "title_weight_1": "700",
+            "subtitle_1": "",
+            "subtitle_font_1": "secondary",
+            "subtitle_size_1": "h2",
+            "enable_custom_sub_styling_1": false,
+            "subtitle_color_palette_1": "black",
+            "subtitle_weight_1": "400",
+            "text_1": "<p>Give customers details about the banner image(s)<\/p>",
+            "enable_custom_font_styling_1": false,
+            "font_size_1": "16px",
+            "link_text_1": "Button",
+            "link_url_1": "",
+            "show_link_1": false,
+            "enable_banner_2": false,
+            "overlay_opacity_2": 0,
+            "color_palette_2": "white",
+            "button_color_palette_2": "accent",
+            "text_position_2": "text-center",
+            "title_2": "Image banner",
+            "title_font_2": "primary",
+            "title_size_2": "h2",
+            "enable_custom_text_styling_2": false,
+            "title_color_palette_2": "black",
+            "title_weight_2": "700",
+            "subtitle_2": "",
+            "subtitle_font_2": "secondary",
+            "subtitle_size_2": "h2",
+            "enable_custom_sub_styling_2": false,
+            "subtitle_color_palette_2": "black",
+            "subtitle_weight_2": "400",
+            "text_2": "<p>Give customers details about the banner image(s)<\/p>",
+            "enable_custom_font_styling_2": false,
+            "font_size_2": "16px",
+            "link_text_2": "Button",
+            "link_url_2": "",
+            "show_link_2": false,
+            "layout_mobile": "rows",
+            "mobile_height": "size-s"
+          }
         }
       },
       "block_order": [
-        "header-block-usp-1",
-        "header-block-usp-2",
         "389714c7-7aae-4332-b8fe-9bf28b57ab30",
-        "menu_MJw9yL"
+        "menu_MJw9yL",
+        "promo_banners_M3gFeY"
       ],
       "custom_css": [
         ".sub > a:hover {color: #e61446 !important;}",
