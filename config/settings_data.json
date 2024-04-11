@@ -90,6 +90,7 @@
     "show_out_of_stock_label": true,
     "product_custom_label": "custom.preissenkung",
     "show_product_stock": true,
+    "show_product_stock_always": true,
     "layout_productcard": "add_to_cart",
     "quickshop_behavior": "on_hover",
     "cart_icon_no_text": false,
@@ -544,7 +545,7 @@
       "p.price {color: #e61446 !important;}",
       ".countdown {color: #1f871f; font-weight: 800 !important;}",
       ".s1pr .small {font-size: 10px; color: gray;}",
-      ".l4cl .price .small{font-size: 10px; color: gray;}"
+      ".l4cl .price .small {font-size: 10px; color: gray;}"
     ]
   }
 }
