@@ -45,6 +45,17 @@
             "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div style=\"width: 100%;\">\n    <div style=\"margin-top: -25px!important; margin-bottom: 20px; font-size: 13px; color: #262626; margin-left: 2px; background-color: #f7f7f7; display: inline-block; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; font-weight: 400;\">\n      {{ pdp_produkt_sub_title }}\n    <\/div>\n  <\/div>\n{% endif %}"
           }
         },
+        "inventory": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "ee5e9f1c-a80a-4244-950f-03806a509775": {
+          "type": "shipping_timer",
+          "settings": {
+          }
+        },
         "product_ratings_4cYjUK": {
           "type": "product_ratings",
           "settings": {
@@ -117,11 +128,6 @@
             "show_contact_form": false
           }
         },
-        "inventory": {
-          "type": "inventory",
-          "settings": {
-          }
-        },
         "buy_button": {
           "type": "buy_button",
           "settings": {
@@ -138,11 +144,6 @@
         "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
           "type": "trustbadge",
           "disabled": true,
-          "settings": {
-          }
-        },
-        "ee5e9f1c-a80a-4244-950f-03806a509775": {
-          "type": "shipping_timer",
           "settings": {
           }
         },
@@ -231,6 +232,8 @@
         "c7259cb9-7235-4028-b6df-3a68077fed80",
         "custom_liquid_weDQ7U",
         "custom_liquid_ffhxV7",
+        "inventory",
+        "ee5e9f1c-a80a-4244-950f-03806a509775",
         "product_ratings_4cYjUK",
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
@@ -238,10 +241,8 @@
         "variant_selection",
         "pickup",
         "content_bNGEAJ",
-        "inventory",
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
-        "ee5e9f1c-a80a-4244-950f-03806a509775",
         "custom_liquid_93wXtA",
         "usp_LPtQzH",
         "usp_jwMfEx",
