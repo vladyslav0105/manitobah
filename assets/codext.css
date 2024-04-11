@@ -1,10 +1,10 @@
 .left-side ul {
-  list-style-type: none!important;
+  list-style-type: none !important;
 }
 
-.left-side ul li:marker {
-  content: "\2713"!important;
-  display: inline-block!important;
-  width: 1em!important;
-  margin-left: -1em!important;
+.left-side li::marker {
+  content: "\2713" !important;
+  display: inline-block !important;
+  width: 1em !important;
+  margin-left: -1em !important;
 }
