@@ -253,7 +253,8 @@
         "content_78LVhb"
       ],
       "custom_css": [
-        "p.s1pr {font-size: 30px; font-weight: bold;}"
+        "p.s1pr {font-size: 30px; font-weight: bold;}",
+        ".s1pr .small {font-size: 10px; color: gray;}"
       ],
       "settings": {
         "media_layout": "slider",
