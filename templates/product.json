@@ -109,10 +109,10 @@
             "title": "",
             "icon": "none",
             "header_image_width": 25,
-            "text": "<p>Alle Preise inkl. MwSt. zzgl. <a href=\"https:\/\/www.medicom.de\/lieferkonditionen\">Versandkosten<\/a><\/p>",
+            "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "",
+            "liquid": "<style>\n  .custom-text {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n<span class=\"custom-text\">Alle Preise inkl. MwSt. <a href=\"https:\/\/www.google.de\/search?q=Versandkosten\" target=\"_blank\" class=\"custom-text\">zzgl. Versandkosten<\/a><\/span>",
             "html": "",
             "show_contact_form": false
           }
