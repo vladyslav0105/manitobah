@@ -33,6 +33,12 @@
             "mobile_title_size": "h3"
           }
         },
+        "custom_liquid_ffhxV7": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div>{{ pdp_produkt_sub_title }}<\/div>\n{% endif %}"
+          }
+        },
         "custom_liquid_weDQ7U": {
           "type": "custom_liquid",
           "settings": {
@@ -222,6 +228,7 @@
       },
       "block_order": [
         "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "custom_liquid_ffhxV7",
         "custom_liquid_weDQ7U",
         "product_ratings_4cYjUK",
         "90724a70-740a-4cc9-984c-764e1d76a5bd",
