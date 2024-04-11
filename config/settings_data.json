@@ -8,25 +8,25 @@
     "palette_light": "#f5f5f5",
     "palette_dark": "#202020",
     "palette_accent": "#0d0d0d",
-    "palette_light_2": "#e93d3d",
+    "palette_light_2": "#e61446",
     "palette_light_gradient": "linear-gradient(120deg, rgba(244, 244, 244, 1), rgba(239, 179, 76, 0.51) 100%)",
     "palette_dark_gradient": "linear-gradient(320deg, rgba(239, 179, 76, 1), rgba(226, 23, 69, 1) 100%)",
     "title_color": "black",
     "text_color": "black",
     "body_background_color": "#FFFFFF",
     "positive_vibes": "#64cd82",
-    "negative_vibes": "#e93d3d",
-    "regular_button_color": "#e93d3d",
+    "negative_vibes": "#e61446",
+    "regular_button_color": "#e61446",
     "regular_button_text_color": "#ffffff",
-    "buy_button_color": "#e93d3d",
+    "buy_button_color": "#e61446",
     "buy_button_text_color": "#ffffff",
-    "dynamic_buy_button_color": "#e93d3d",
+    "dynamic_buy_button_color": "#e61446",
     "active_tabs_color": "light",
-    "price_color": "#e93d3d",
+    "price_color": "#e61446",
     "compare_at_price_color": "#0d0d0d",
     "product_label_color": "#0d0d0d",
     "product_label_text_color": "#FFFFFF",
-    "sale_label_color": "#e93d3d",
+    "sale_label_color": "#e61446",
     "sale_label_text_color": "#ffffff",
     "enable_color_swatches": true,
     "primary_font": "open_sans_n4",
@@ -541,7 +541,7 @@
   "platform_customizations": {
     "custom_css": [
       "p.price {font-size: 20px !important; font-weight: 800 !important;}",
-      "p.price {color: #E93D3D !important;}"
+      "p.price {color: #e93d3d !important;}"
     ]
   }
 }
