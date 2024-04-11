@@ -92,11 +92,17 @@
           {%- endif -%}
 
           {{ block.settings.text }}
-          {% if block.settings.title == 'Inhaltsstoffe' %}
-            {% for item in product.metafields.custom.pdp_downloads.value %}
-            <a href="{{ item.datei | file_url }}" download> {{ item.linktitel }}</a>
-            {% endfor %}
-          {% endif %}
+{% if block.settings.title == 'Inhaltsstoffe' %}
+  {% for item in product.metafields.custom.pdp_downloads.value %}
+    <a href="{{ item.datei | file_url }}" download>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+        <path d="M7 13.5a.5.5 0 0 1-.5-.5V9a.5.5 0 0 1 1 0v4a.5.5 0 0 1-.5.5z"/>
+        <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3z"/>
+      </svg>
+      {{ item.linktitel }}
+    </a>
+  {% endfor %}
+{% endif %}
 
           {%- if block.settings.page -%}{{ block.settings.page.content }}{%- endif %}
           {%- if block.settings.image != blank -%}
