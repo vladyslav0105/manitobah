@@ -214,7 +214,7 @@
             "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "<script src=\"https:\/\/unpkg.com\/whatsapp-button?module\" type=\"module\"><\/script>\n<br>\n\n<whatsapp-button phone=\"123456789\" dialcode=\"44\" text=\"hey there lets chat!\" label=\"Jetzt chatten\"><\/whatsapp-button>\n<p>oder per E-Mail direkt an unseren Support<\/p>\n\n<style>\n    whatsapp-button {\n        display: block;\n        text-align: left;\npadding-bottom: 20px;\nborder-radius: 0px;\n    }\n<\/style>",
+            "liquid": "<script src=\"https:\/\/unpkg.com\/whatsapp-button?module\" type=\"module\"><\/script>\n<br>\n\n<whatsapp-button phone=\"15258758754\" dialcode=\"49\" text=\"Haben Sie Fragen?\" label=\"Jetzt chatten\"><\/whatsapp-button>\n<p>oder per E-Mail direkt an unseren Support<\/p>\n\n<style>\n    whatsapp-button {\n        display: block;\n        text-align: left;\npadding-bottom: 20px;\nborder-radius: 0px;\n    }\n<\/style>",
             "html": "",
             "show_contact_form": true
           }
