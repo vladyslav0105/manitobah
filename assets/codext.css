@@ -1,11 +1,10 @@
-
 .left-side ul {
-  list-style-type: none;
+  list-style-type: none!important;
 }
 
 .left-side ul li:before {
-  content: "\2713";
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+  content: "\2713"!important;
+  display: inline-block!important;
+  width: 1em!important;
+  margin-left: -1em!important;
 }
