@@ -95,7 +95,7 @@
 {% if block.settings.title == 'Inhaltsstoffe' %}
   {% for item in product.metafields.custom.pdp_downloads.value %}
     <a href="{{ item.datei | file_url }}" download>
-      <svg viewBox="-4 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg viewBox="-4 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" height="20px">
         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
         <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
         <g id="SVGRepo_iconCarrier">
@@ -106,6 +106,7 @@
     </a>
   {% endfor %}
 {% endif %}
+          
           {%- if block.settings.page -%}{{ block.settings.page.content }}{%- endif %}
           {%- if block.settings.image != blank -%}
             <div class="m20">
