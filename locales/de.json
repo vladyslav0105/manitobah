@@ -271,7 +271,7 @@
     },
     "shipping_timer": {
       "shipped_today": "Versand noch heute!",
-      "you_have_left_html": "Bestellung innerhalb: {{ time }}"
+      "you_have_left_html": "Bestellen Sie in : {{ time }}"
     },
     "choose_option": "Treffen Sie eine Entscheidung",
     "countdown": {
