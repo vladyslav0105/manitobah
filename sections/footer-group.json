@@ -281,6 +281,9 @@
         "certificate_icon_list_YzDGh3",
         "certificate_icon_list_zMAhzF"
       ],
+      "custom_css": [
+        "a:hover {color: #e61446 !important;}"
+      ],
       "settings": {
         "footer_color": "black",
         "column_text_alignment": "left",
