@@ -4964,3 +4964,13 @@ h6, .h6, .l4cl.category h6 { font-size: var(--mob_h6); }
 .w16667 {
   width: 16.666667%;
 }
+.left-side ul {
+  list-style-type: none!important;
+}
+
+.left-side ul li:before {
+  content: "\2713"!important;
+  display: inline-block!important;
+  width: 1em!important;
+  margin-left: -1em!important;
+}
