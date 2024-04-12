@@ -190,9 +190,12 @@
         "image_kUay8U",
         "image_mLtfB7"
       ],
+      "custom_css": [
+        "{margin-right: 50px; margin-left: 20px;}"
+      ],
       "settings": {
         "items_width": 4,
-        "width": "boxed",
+        "width": "wide",
         "height": "size-l",
         "enable_custom_height": false,
         "custom_height": 300,
