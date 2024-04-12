@@ -202,7 +202,7 @@
       "settings": {
         "items_width": 3,
         "width": "wide",
-        "height": "size-l",
+        "height": "size-m",
         "enable_custom_height": false,
         "custom_height": 300,
         "space_between": 16,
