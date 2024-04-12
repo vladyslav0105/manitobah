@@ -3,7 +3,9 @@
     "breadcrumbs": {
       "type": "breadcrumbs",
       "settings": {
-        "hide_mobile": false
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
       }
     },
     "main-page": {
@@ -25,15 +27,186 @@
         "title",
         "content"
       ],
+      "disabled": true,
       "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
         "text_alignment": "start",
         "spacing_desktop": 50,
         "spacing_mobile": 30
+      }
+    },
+    "section_image_columns_text_LWWmKR": {
+      "type": "section-image-columns-text",
+      "blocks": {
+        "image_AmTHmr": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Lernen Sie uns kennen",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "ERFAHREN SIE MEHR ÜBER MEDICOM",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_GRK3Hr": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Wir bieten Ihnen",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "QUALITÄT UND FORSCHUNG",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_kUay8U": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Wir bieten Ihnen",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "1-A-SERVICE",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_mLtfB7": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Wir bieten Ihnen",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "VIELFALT BEI DEN DARREICHUNGEN",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_AmTHmr",
+        "image_GRK3Hr",
+        "image_kUay8U",
+        "image_mLtfB7"
+      ],
+      "settings": {
+        "items_width": 2,
+        "width": "boxed",
+        "height": "size-l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": true,
+        "image_move": true,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     }
   },
   "order": [
     "breadcrumbs",
-    "main-page"
+    "main-page",
+    "section_image_columns_text_LWWmKR"
   ]
 }
