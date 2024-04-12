@@ -200,7 +200,7 @@
         "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 15px;}"
       ],
       "settings": {
-        "items_width": 4,
+        "items_width": 3,
         "width": "wide",
         "height": "size-l",
         "enable_custom_height": false,
