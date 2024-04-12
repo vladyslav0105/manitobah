@@ -52,7 +52,7 @@
             "text_position": "text-center",
             "title": "Lernen Sie uns kennen",
             "title_font": "primary",
-            "title_size": "h2",
+            "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
@@ -88,7 +88,7 @@
             "text_position": "text-center",
             "title": "Wir bieten Ihnen",
             "title_font": "primary",
-            "title_size": "h2",
+            "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
@@ -124,7 +124,7 @@
             "text_position": "text-center",
             "title": "Wir bieten Ihnen",
             "title_font": "primary",
-            "title_size": "h2",
+            "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
@@ -160,7 +160,7 @@
             "text_position": "text-center",
             "title": "Wir bieten Ihnen",
             "title_font": "primary",
-            "title_size": "h2",
+            "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
@@ -195,7 +195,9 @@
         "image_mLtfB7"
       ],
       "custom_css": [
-        "{margin-right: 50px; margin-left: 20px; margin-top: 30px; }"
+        "{margin-right: 50px; margin-left: 20px; margin-top: 30px;}",
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}"
       ],
       "settings": {
         "items_width": 4,
