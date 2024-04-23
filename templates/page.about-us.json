@@ -640,11 +640,24 @@
             "font_weight": "400",
             "font_size": "16px"
           }
+        },
+        "image_FgY4WF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25.webp",
+            "image_width": 360,
+            "link_url": "",
+            "image_width_mobile": 200
+          }
         }
       },
       "block_order": [
         "title_zyNg9R",
-        "content_GRBepU"
+        "content_GRBepU",
+        "image_FgY4WF"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {.m20.block-image-image_FgY4WF {display: block; margin-left: auto; margin-right: auto; }}"
       ],
       "settings": {
         "color_palette": "white",
