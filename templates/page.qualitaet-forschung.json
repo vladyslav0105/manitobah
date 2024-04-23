@@ -142,7 +142,7 @@
         "166005796961cc60d8-1"
       ],
       "custom_css": [
-        "img {width: 400px !important; height: auto;}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/premiumprodukte.webp",
@@ -238,7 +238,7 @@
         "text_x8fejV"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Darreichungsformen.webp",
@@ -286,7 +286,7 @@
         "text_JHE9Pi"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Bioverfuegbarkeit.webp",
@@ -334,7 +334,7 @@
         "text_DhktH3"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Wissenschaftlich.webp",
@@ -380,6 +380,9 @@
       "block_order": [
         "title_39qKXW",
         "text_bVyiLb"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Individuelle.webp",
@@ -427,7 +430,7 @@
         "text_PTHmGW"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Biozertifizierung.webp",
@@ -473,6 +476,9 @@
       "block_order": [
         "title_8WzmhV",
         "text_nn7rGw"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Nachhaltigkeit.webp",
