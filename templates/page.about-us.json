@@ -224,6 +224,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/transparent.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
