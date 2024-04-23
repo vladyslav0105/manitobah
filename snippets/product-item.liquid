@@ -769,6 +769,9 @@
       </h3>
     {%- endif -%}
     {%- if product.metafields.reviews.rating and show_rating -%}
+      {% for i in (1..5) %}
+   <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="height: 10px; margin-top: -30px; margin-left: -5px;">
+{% endfor %}
       <p class="r6rt" data-val="{{ product.metafields.reviews.rating.value }}" data-of="5">
         <a href="{{ product.url }}">
           {%- if product.metafields.reviews.rating_count -%}{{ product.metafields.reviews.rating_count }} <span>{{ 'product.reviews.count' | t: count: product.metafields.reviews.rating_count }}</span>{%- endif -%}
