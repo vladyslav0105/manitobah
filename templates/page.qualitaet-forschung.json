@@ -784,7 +784,7 @@
         "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
-        "color_palette": "white",
+        "color_palette": "light",
         "overlay_opacity": 100,
         "layout": "image-left",
         "width": "boxed",
