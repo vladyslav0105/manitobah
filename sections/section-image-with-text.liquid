@@ -43,10 +43,7 @@
         <img
           src="{{ section.settings.image | image_url: width: 500, height: 100, width: 640 }}"
           srcset="{% render 'image-srcset', image: section.settings.image %}"
-          sizes="
-            (min-width: 1300px) calc({% if settings.width < 2000 %}{{ settings.width }}px{% else %}100vw{% endif %} / 2),
-            100vw
-          "
+          
           width="240"
           height="95"
           alt="{{ section.settings.image.alt | default: section.settings.title | escape }}"
