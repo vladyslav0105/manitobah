@@ -1,1 +1,524 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{"hide_mobile":false}},"166005794226b48f03":{"type":"section-slideshow","blocks":{"166005794296ae0ec5-0":{"type":"slide","settings":{"layout":"background","overlay_opacity":0,"color_palette":"light_gradient","text_position":"text-center","title":"Image banner","title_size":"h2","text":"<p>Highlight a new collection and share details about products related to this image<\/p>"}},"d1052664-3b31-478b-9a46-1a40b162d77a":{"type":"slide","settings":{"layout":"background","overlay_opacity":0,"color_palette":"light_gradient","text_position":"text-center","title":"Image banner","title_size":"h2","text":"<p>Highlight a new collection and share details about products related to this image<\/p>"}}},"block_order":["166005794296ae0ec5-0","d1052664-3b31-478b-9a46-1a40b162d77a"],"settings":{"width":"wide","height":"s","autoplay":false,"autoplay_seconds":3,"enable_controls":false,"height_mobile":"m","spacing_desktop":50,"spacing_mobile":30}},"16600579701b9ea466":{"type":"section-image-with-text","blocks":{"166005796961cc60d8-0":{"type":"title","settings":{"title":"Image with text","title_size":"h2"}},"166005796961cc60d8-1":{"type":"text","settings":{"text":"<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<p>"}},"usp_1":{"type":"usp","settings":{"usp":"Tell a unique detail about this image"}},"usp_2":{"type":"usp","settings":{"usp":"Tell a unique detail about this image"}},"usp_3":{"type":"usp","settings":{"usp":"Tell a unique detail about this image"}},"166005796961cc60d8-3":{"type":"buttons","settings":{"link_text_1":"Button","link_url_1":"\/","button_color_palette_1":"accent","link_text_2":"","link_url_2":"","button_color_palette_2":"light"}}},"block_order":["166005796961cc60d8-0","166005796961cc60d8-1","usp_1","usp_2","usp_3","166005796961cc60d8-3"],"settings":{"color_palette":"white","overlay_opacity":0,"layout":"image-left","text_position":"text-start","spacing_desktop":50,"spacing_mobile":30}},"16600579852f4017d4":{"type":"section-image-with-text","blocks":{"1660057985549a4c95-0":{"type":"title","settings":{"title":"Image with text","title_size":"h2"}},"1660057985549a4c95-1":{"type":"text","settings":{"text":"<p>Pair text with an image and tell your customers something about this product, collection, blogpost or a promotion.<\/p>"}},"usp_1":{"type":"usp","settings":{"usp":"Tell a unique detail about this image"}},"usp_2":{"type":"usp","settings":{"usp":"Tell a unique detail about this image"}},"usp_3":{"type":"usp","settings":{"usp":"Tell a unique detail about this image"}},"1660057985549a4c95-3":{"type":"buttons","settings":{"link_text_1":"Button","link_url_1":"\/","button_color_palette_1":"accent","link_text_2":"","link_url_2":"","button_color_palette_2":"light"}}},"block_order":["1660057985549a4c95-0","1660057985549a4c95-1","usp_1","usp_2","usp_3","1660057985549a4c95-3"],"settings":{"color_palette":"white","overlay_opacity":0,"layout":"image-right","text_position":"text-start","spacing_desktop":50,"spacing_mobile":30}},"1660058006badb14d4":{"type":"section-logo-list","blocks":{"166005800624ee1e13-0":{"type":"logo","settings":{"link":""}},"166005800624ee1e13-1":{"type":"logo","settings":{"link":""}},"166005800624ee1e13-2":{"type":"logo","settings":{"link":""}},"166005800624ee1e13-3":{"type":"logo","settings":{"link":""}},"166005800624ee1e13-4":{"type":"logo","settings":{"link":""}},"166005800624ee1e13-5":{"type":"logo","settings":{"link":""}}},"block_order":["166005800624ee1e13-0","166005800624ee1e13-1","166005800624ee1e13-2","166005800624ee1e13-3","166005800624ee1e13-4","166005800624ee1e13-5"],"settings":{"number_of_items":4,"text_alignment":"start","title":"Brand logo slider","title_size":"h2","link_text":"Button","link_url":"","button_color_palette":"accent","show_link":false,"spacing_desktop":50,"spacing_mobile":30}},"main-page":{"type":"main-page","blocks":{"title":{"type":"title","settings":{"title_size":"h3"}},"content":{"type":"content","settings":{}}},"block_order":["title","content"],"settings":{"text_alignment":"start","spacing_desktop":50,"spacing_mobile":30}}},"order":["breadcrumbs","166005794226b48f03","16600579701b9ea466","16600579852f4017d4","1660058006badb14d4","main-page"]}
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "166005794226b48f03": {
+      "type": "section-slideshow",
+      "blocks": {
+        "166005794296ae0ec5-0": {
+          "type": "slide",
+          "settings": {
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Highlight a new collection and share details about products related to this image<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "Button",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "Button",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        },
+        "d1052664-3b31-478b-9a46-1a40b162d77a": {
+          "type": "slide",
+          "settings": {
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Highlight a new collection and share details about products related to this image<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "Button",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "Button",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "166005794296ae0ec5-0",
+        "d1052664-3b31-478b-9a46-1a40b162d77a"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_PgpVW7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_kqw8yF": {
+          "type": "title",
+          "settings": {
+            "title": "Die Marke Medicom",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_xarJkF": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Seit mehr als 25 Jahren gehört das Unternehmen Medicom zu den erfolgreichsten Direktvertreibern von Nahrungsergänzungsmitteln in Deutschland. Mehr als 80 Produkte runden das Angebot der Medicom ab. Über eine Million zufriedene Kunden schätzen die erstklassige Service-und-Beratungs-Leistung für individuelle Gesundheitsprävention durch Nahrungsergänzungsmittel. Wir bieten unseren Kunden Premium-Produkte für das Wohlbefinden und einen <strong>gesunden Lebensstil<\/strong>. Unser erstes Produkt <a href=\"https:\/\/www.medicom.de\/nobilin-q10-multivitamin-kaufen\">Nobilin Q10 Multivitamin<\/a>, lancierten wir 1995. Bis heute wurde Nobilin Q10 Multivitamin mehr als zwanzig Millionen Mal verkauft und zählt daher zurecht zu den Bestsellern. Die <strong>Welt von Medicom <\/strong>ist vielfältig und hält auch für Sie passende Produkte bereit. Lassen Sie sich von unseren wissenschaftlich fundierten Präparaten und unserer professionellen Kundenberatung überzeugen. Gerne helfen unsere Vitalstoff-Experten Ihnen persönlich weiter, wenn Sie Fragen zu unseren Produkten, Inhaltsstoffen, Anwendungsmöglichkeiten und sinnvollen Dosierungen haben. Rufen Sie uns <strong>gebührenfrei an unter 0800 50 - 400 50 <\/strong>oder <a href=\"https:\/\/www.medicom.de\/contacts\">schreiben Sie uns<\/a>, wir freuen uns auf Sie.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_kqw8yF",
+        "content_xarJkF"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16600579701b9ea466": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "166005796961cc60d8-0": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist besonders",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "166005796961cc60d8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seit 1995 fühlt sich Medicom der Tradition, Innovation und Qualität verpflichtet. Davon zeugen die ständig auf Qualität kontrollierten Gesundheitsprodukte, die Liebe zu traditionellen Heilpflanzen und eine stetig wachsende innovative Produktpalette, die auf die individuellen Bedürfnisse unserer Kunden eingeht.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "166005796961cc60d8-0",
+        "166005796961cc60d8-1"
+      ],
+      "settings": {
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16600579852f4017d4": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "1660057985549a4c95-0": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist transparent",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "1660057985549a4c95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Medicom ist es ein Bedürfnis, bei der Vermarktung ihrer Produkte auch die Wichtigkeit der Gesundheitsvorsorge zu vermitteln. Wir bieten bei Nahrungsergänzungsmitteln stets fundierte Informationen zu den Produkten und den darin enthaltenen Inhaltsstoffen an.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "1660057985549a4c95-0",
+        "1660057985549a4c95-1"
+      ],
+      "settings": {
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_UJnAgL": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_GfPKaz": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist Innovation",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_x8fejV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die verwendeten Rohstoffe sind sehr gut verträglich, optimal bioverfügbar und stammen nur von namhaften Herstellern. Für die Produkte werden nur wissenschaftlich sinnvolle Dosierungen eingesetzt. Wir nutzen innovative Darreichungsformen wie Licaps®- Kapseln, Direktgranulate, flüssige Zubereitungen und hochwertige Soft-Gel-Kapseln, deren Inhaltsstoffe in Öl gelöst vorliegen. Alle Produkte sind optimal verpackt, vor allem bei Kapsel- oder Tablettenprodukten nutzen wir die hochwertige Einzelverblisterung. So stellen wir sicher, dass alle Inhaltsstoffe vor Verunreinigungen geschützt und vom Körper in bestmöglicher Reinheit aufgenommen werden.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_GfPKaz",
+        "text_x8fejV"
+      ],
+      "settings": {
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_X3nppT": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_bzLWKL": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist kompetent",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_JHE9Pi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seit 2008 ist Medicom Teil einer familiengeführten Unternehmensgruppe. Die Inhaberfamilie leitet und entwickelt seit vier Generationen erfolgreich Firmen im Gesundheitsbereich. Zu den bekanntesten Marken, die aufgebaut wurden, gehören Salus, Dr. Dünner, SwissCaps, Twardy, Gelpell, Phytopoint, Renatura, Vitalia und natürlich Medicom. Ihr Engagement für die Gesundheit spiegelt sich in ihrer langjährigen Erfahrung und Erfolg in der Branche wider. Die hohen Qualitätsstandards der Medicom- Produkte entsprachen von Anfang an den Standards, die für die Unternehmensgruppe von hoher Bedeutung sind. Rohstoffbeschaffung, Produktion und Verpackung und vor allem die verschiedenen Darreichungsformen der Medicom-Produkte werden von Herstellern in Deutschland und der Schweiz verantwortungsvoll umgesetzt. So sind die Wege kurz und die Qualität auf durchgehend hohem Niveau. Deswegen ist Medicom „Swiss made“ und „made in Germany“.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_bzLWKL",
+        "text_JHE9Pi"
+      ],
+      "settings": {
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_qif7KW": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_gY3wGe": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist wissenschaftlich",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_DhktH3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Medicom-Produkte sind streng wissenschaftlich geprüft und werden zusätzlich regelmäßig von qualifizierten und unabhängigen Laboren in Deutschland evaluiert. Unsere Produkte unterliegen strengsten Qualitätskriterien gemäß den GMP-Richtlinien. GMP (Good Manufacturing Practice) steht für „gute Herstellungspraxis“. Das sind Richtlinien zur Sicherung der Qualität der Produktion von Arzneimitteln. Den GMP-Standard garantiert Medicom auch für die Produktion von Nahrungsergänzungsmitteln.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_gY3wGe",
+        "text_DhktH3"
+      ],
+      "settings": {
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_cFXgzp": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_9Gj9AN": {
+          "type": "title",
+          "settings": {
+            "title": "Medicoms Beitrag für den Klimaschutz",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_PTHmGW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wenn jeder einen Beitrag im nachhaltigeren Umgang mit unserem Planeten leistet, können wir zusammen für eine bessere Lebensqualität sorgen. Als Unternehmen möchte Medicom einen positiven Beitrag für das Klima leisten. Lesen Sie, welche Schritte Medicom in Sachen<a href=\"https:\/\/www.medicom.de\/nachhaltigkeit\">Klimaschutz und Nachhaltigkeit<\/a>bereits unternommen hat.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_9Gj9AN",
+        "text_PTHmGW"
+      ],
+      "settings": {
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "1660058006badb14d4": {
+      "type": "section-logo-list",
+      "blocks": {
+        "166005800624ee1e13-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-4": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166005800624ee1e13-5": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166005800624ee1e13-0",
+        "166005800624ee1e13-1",
+        "166005800624ee1e13-2",
+        "166005800624ee1e13-3",
+        "166005800624ee1e13-4",
+        "166005800624ee1e13-5"
+      ],
+      "settings": {
+        "number_of_items": 4,
+        "text_alignment": "start",
+        "title": "Brand logo slider",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "link_text": "Button",
+        "link_url": "",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h3"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "166005794226b48f03",
+    "section_rich_text_PgpVW7",
+    "16600579701b9ea466",
+    "16600579852f4017d4",
+    "section_image_with_text_UJnAgL",
+    "section_image_with_text_X3nppT",
+    "section_image_with_text_qif7KW",
+    "section_image_with_text_cFXgzp",
+    "1660058006badb14d4",
+    "main-page"
+  ]
+}
