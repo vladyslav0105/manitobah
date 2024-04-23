@@ -41,7 +41,7 @@
     {%- if section.settings.image -%}
       <picture{% if section.settings.image_mobile %} class="mobile-hide"{% endif %}>
         <img
-          src="{{ section.settings.image | img_url:"500x" }}"
+          src="{{ section.settings.image | img_url:"240x" }}"
           srcset="{% render 'image-srcset', image: section.settings.image %}"
           sizes="
             (min-width: 1300px) calc({% if settings.width < 2000 %}{{ settings.width }}px{% else %}100vw{% endif %} / 2),
