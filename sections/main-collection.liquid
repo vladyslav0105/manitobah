@@ -219,20 +219,24 @@
                     endfor
                   endif
                 -%}
-                {%- for product in collection.products -%}
-                  {%- liquid
-                    capture placeholder_int
-                      cycle 1, 2, 3, 4, 5, 6
-                    endcapture
-                    assign no_lazyload = false
-                    if forloop.first or largest_product_img == product
-                      assign no_lazyload = true
-                    elsif width_class contains 'w50-mobile' and forloop.index == 2
-                      assign no_lazyload = true
-                    else
-                      assign no_lazyload = false
-                    endif
-                  -%}
+{%- for product in collection.products -%}
+{%- if request.path != '/collections/uhren-archiv' and request.path != '/en/collections/uhren-archiv' and product.tags contains 'Uhren-Archiv' -%}
+    {%- continue -%}
+{%- endif -%}
+
+  {%- liquid
+    capture placeholder_int
+      cycle 1, 2, 3, 4, 5, 6
+    endcapture
+    assign no_lazyload = false
+    if forloop.first or largest_product_img == product
+      assign no_lazyload = true
+    elsif width_class contains 'w50-mobile' and forloop.index == 2
+      assign no_lazyload = true
+    else
+      assign no_lazyload = false
+    endif
+  -%}
                   {%- render 'product-item',
                     product: product,
                     placeholder_int: placeholder_int,
@@ -317,6 +321,16 @@
   @media only screen and (min-width: 761px) {
     .l4cl.dynamic-quickshop .link-btn.visible { display: none; }
   }
+#shopify-section-template--16525535445145__section_icon_text_blocks_gAUgfN {
+  background: linear-gradient(to bottom, #F8F8F8, #ffffff);
+  margin-left: -300px;
+  margin-right: -300px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 20px;
+  padding-top: 160px;
+}
+#shopify-section-template--16525535445145__section_custom_liquid_NnBJ8E > div {display: none;}
 </style>
 
 {% schema %}
