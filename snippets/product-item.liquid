@@ -757,9 +757,13 @@
           </span>
         {%- endif -%}
         {%- if show_title -%}
-{% for i in (1..5) %}
-   <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="height: 10px; margin-top: -30px; margin-left: -5px;">
-{% endfor %}
+          <div style="text-align: center;">
+  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
+  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
+  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
+  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
+  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
+</div>
           <a href="{{ product.url }}">{{ title }}</a>
         {%- endif -%}
         {%- if layout == 'list-compact' and product.has_only_default_variant == false -%}
