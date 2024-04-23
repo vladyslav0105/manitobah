@@ -1001,7 +1001,7 @@
                     <ul class="l4ch {{ block.id }}" {{ block.shopify_attributes }}>
                         {%- if block.settings.usp != empty -%}<li>{{ block.settings.usp | remove: '<p>' | remove: '</p>' }}</li>{%- endif -%}
                         {% style %}
-                          .l4ch li:before, .l4ch:before {
+                          .{{block.id}} li:before, .{{block.id}}:before {
                             content: '';
                             background-image: url("{{block.settings.icon|img_url:'12px'}}");
                             width: 20px;
