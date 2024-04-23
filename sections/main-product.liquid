@@ -998,7 +998,7 @@
                         </ul>
                 {%- endform -%}
                 {%- when 'usp' -%}
-                    <ul class="l4ch" {{ block.shopify_attributes }}>
+                    <ul class="l4ch {{ block.id }}" {{ block.shopify_attributes }}>
                         {%- if block.settings.usp != empty -%}<li>{{ block.settings.usp | remove: '<p>' | remove: '</p>' }}</li>{%- endif -%}
                         {% style %}
                           .l4ch li:before, .l4ch:before {
