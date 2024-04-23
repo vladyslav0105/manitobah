@@ -389,7 +389,7 @@
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
-        "overlay_opacity": 0,
+        "overlay_opacity": 100,
         "layout": "image-right",
         "width": "boxed",
         "height": "l",
