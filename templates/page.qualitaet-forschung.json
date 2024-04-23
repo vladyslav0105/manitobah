@@ -796,6 +796,141 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_image_with_text_4fGWei": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_e94CFA": {
+          "type": "title",
+          "settings": {
+            "title": "ABG10+®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_YFyfCq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Markenzeichen von Pharmactive Biotech Products, S. L., ein patentierter Markenrohstoff aus schwarzem Knoblauch<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_e94CFA",
+        "text_YFyfCq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_UVDy8d": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_jaGHhi": {
+          "type": "title",
+          "settings": {
+            "title": "Kaneka™",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_t7eyHW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Qualitätshersteller des QH-Rohstoffes von Medicom<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_jaGHhi",
+        "text_t7eyHW"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_tniyzy": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_34jFhx": {
+          "type": "title",
+          "settings": {
+            "title": "Institut Kuhlmann®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_jf4Et9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Das namhafte Institut Kuhlmann® steht für laboruntersuchte Qualität von Medicom-Produkten<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_34jFhx",
+        "text_jf4Et9"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -816,6 +951,9 @@
     "section_image_with_text_T6aYqi",
     "section_image_with_text_PaPyPH",
     "section_image_with_text_CcXgaY",
-    "section_image_with_text_ewbX7H"
+    "section_image_with_text_ewbX7H",
+    "section_image_with_text_4fGWei",
+    "section_image_with_text_UVDy8d",
+    "section_image_with_text_tniyzy"
   ]
 }
