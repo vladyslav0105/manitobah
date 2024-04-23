@@ -503,7 +503,7 @@
         "title_hmfMcr": {
           "type": "title",
           "settings": {
-            "title": "Medicom-Markenwelt",
+            "title": "Siegel für erstklassige Qualität",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -515,7 +515,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Die Welt von Medicom ist vielfältig und hält auch für Sie passende Produkte bereit. Lassen Sie sich von unseren wissenschaftlich fundierten Präparaten und unserer professionellen Kundenberatung überzeugen. Gerne helfen unsere Vitalstoff-Experten Ihnen persönlich weiter, wenn Sie Fragen zu unseren Produkten, Inhaltsstoffen, Anwendungsmöglichkeiten und sinnvollen Dosierungen haben.<\/p>",
+            "text": "<p>Zur Qualitätssicherung der Produktionsabläufe gibt es drei Qualitätskontrollen: <strong>Eingangs-, Inprozess- und Endkontrolle<\/strong>. Bei der Eingangskontrolle werden die Reinheit und die einwandfreie Beschaffenheit aller Stoffe geprüft. Während des Herstellungsprozesses kommt es bei der Inprozesskontrolle zudem zur Stichprobenentnahme, um Fehler in der Produktion früh zu erkennen. In der Endkontrolle finden Untersuchungen statt, die die Qualität des Präparates sicherstellen.<br\/>Auch wenn der Gesetzgeber diese <strong>sehr gründliche Herstellungspraxis<\/strong> nicht fordert – wir lassen sie freiwillig durchführen, um ein Höchstmaß an Qualität bieten zu können.<\/p><p>Alle Produkte von Medicom werden nach dem <strong>GMP-Standard<\/strong> hergestellt. GMP (kurz für Good Manufacturing Practice) beinhaltet sehr strenge Regeln, die bei der Produktion von pharmazeutischen Präparaten beachtet werden müssen. Viele unserer Produkte lassen wir außerdem durch externe, unabhängige Qualitätsprüfer wie das <strong>Institut Kuhlmann<\/strong> überprüfen.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
