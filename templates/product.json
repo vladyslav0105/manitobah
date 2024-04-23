@@ -158,26 +158,28 @@
           "type": "usp",
           "settings": {
             "usp": "<p><strong>Service-Hotline:<\/strong> 0800-50 400 50<\/p>",
-            "icon": "shopify:\/\/shop_images\/DE-OEKO-003-526x526.png"
+            "icon": "shopify:\/\/shop_images\/check.png"
           }
         },
         "usp_jwMfEx": {
           "type": "usp",
           "settings": {
             "usp": "<p>Lieferung in <strong>2 Tagen<\/strong><\/p>",
-            "icon": "shopify:\/\/shop_images\/trusted_small_acacd79d-e192-495f-98ac-16d51f5f8f09.webp"
+            "icon": "shopify:\/\/shop_images\/check.png"
           }
         },
         "usp_DfkaEE": {
           "type": "usp",
           "settings": {
-            "usp": "<p>90-Tage-<strong>Geld-Zurück-Garantie<\/strong><\/p>"
+            "usp": "<p>90-Tage-<strong>Geld-Zurück-Garantie<\/strong><\/p>",
+            "icon": "shopify:\/\/shop_images\/check.png"
           }
         },
         "usp_UXiTz3": {
           "type": "usp",
           "settings": {
-            "usp": "<p><strong>Kostenfreier Versand<\/strong> ab 15€ deutschlandweit<\/p>"
+            "usp": "<p><strong>Kostenfreier Versand<\/strong> ab 15€ deutschlandweit<\/p>",
+            "icon": "shopify:\/\/shop_images\/check.png"
           }
         },
         "custom_liquid_CR7aKn": {
