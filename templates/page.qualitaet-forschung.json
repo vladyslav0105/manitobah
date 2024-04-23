@@ -142,7 +142,7 @@
         "166005796961cc60d8-1"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "img {width: 400px !important; height: auto;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/premiumprodukte.webp",
@@ -190,7 +190,7 @@
         "1660057985549a4c95-1"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Einzelverblisterung.webp",
