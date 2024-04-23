@@ -20,7 +20,7 @@
             endif
           -%}
           {%- if block.settings.title != empty -%}
-            <header class="heading-line-through {% if text_position contains 'text-center' %} {% elsif text_position contains 'text-end' %} align-end{% endif %}"{{ blok.shopify_attributes }}{% unless section.settings.content_width == 1280 %} style="max-width:{{ section.settings.content_width }}px;"{% endunless %}>
+            <header class="heading-line-through {% if text_position contains 'text-center' %} {% elsif text_position contains 'text-end' %} align-end{% endif %}"{{ block.shopify_attributes }}{% unless section.settings.content_width == 1280 %} style="max-width:{{ section.settings.content_width }}px;"{% endunless %}>
               <{{ block.settings.title_size }} class="{% if block.settings.enable_custom_text_styling %}text-palette-{{ block.settings.title_color_palette }} fw-{{ block.settings.title_weight }} {% endif %}ff-{{ block.settings.title_font }} {% if no_margin %} m0{% endif %}">{{ block.settings.title }}</{{ block.settings.title_size }}>
             </header>
           {%- endif %}
