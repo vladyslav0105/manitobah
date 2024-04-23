@@ -157,7 +157,8 @@
         "usp_LPtQzH": {
           "type": "usp",
           "settings": {
-            "usp": "<p><strong>Service-Hotline:<\/strong> 0800-50 400 50<\/p>"
+            "usp": "<p><strong>Service-Hotline:<\/strong> 0800-50 400 50<\/p>",
+            "icon": "shopify:\/\/shop_images\/DE-OEKO-003-526x526.png"
           }
         },
         "usp_jwMfEx": {
