@@ -14,19 +14,19 @@
         "166005794296ae0ec5-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ueber-Uns-1170x584_e1133d0e-3700-47ea-9f25-2348f8292ce0.webp",
+            "image": "shopify:\/\/shop_images\/Qualitaet-Forschung-1170x584.webp",
             "layout": "background",
             "image_width": 50,
             "overlay_opacity": 0,
             "color_palette": "light_gradient",
             "text_position": "text-center",
-            "title": "Lernen Sie uns kennen",
+            "title": "Wir bieten Ihnen",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
-            "subtitle": "ERFAHREN SIE MEHR ÜBER MEDICOM",
+            "subtitle": "QUALITÄT UND FORSCHUNG",
             "subtitle_font": "secondary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
@@ -75,7 +75,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Die Marke Medicom",
+            "title": "Mehr Produktqualität und darüber hinaus",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -87,7 +87,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Seit mehr als 25 Jahren gehört das Unternehmen Medicom zu den erfolgreichsten Direktvertreibern von Nahrungsergänzungsmitteln in Deutschland. Mehr als 80 Produkte runden das Angebot der Medicom ab. Über eine Million zufriedene Kunden schätzen die erstklassige Service-und-Beratungs-Leistung für individuelle Gesundheitsprävention durch Nahrungsergänzungsmittel. Wir bieten unseren Kunden Premium-Produkte für das Wohlbefinden und einen <strong>gesunden Lebensstil<\/strong>. Unser erstes Produkt <a href=\"https:\/\/www.medicom.de\/nobilin-q10-multivitamin-kaufen\">Nobilin Q10 Multivitamin<\/a>, lancierten wir 1995. Bis heute wurde Nobilin Q10 Multivitamin mehr als zwanzig Millionen Mal verkauft und zählt daher zurecht zu den Bestsellern. Die <strong>Welt von Medicom <\/strong>ist vielfältig und hält auch für Sie passende Produkte bereit. Lassen Sie sich von unseren wissenschaftlich fundierten Präparaten und unserer professionellen Kundenberatung überzeugen. Gerne helfen unsere Vitalstoff-Experten Ihnen persönlich weiter, wenn Sie Fragen zu unseren Produkten, Inhaltsstoffen, Anwendungsmöglichkeiten und sinnvollen Dosierungen haben. Rufen Sie uns <strong>gebührenfrei an unter 0800 50 - 400 50 <\/strong>oder <a href=\"https:\/\/www.medicom.de\/contacts\">schreiben Sie uns<\/a>, wir freuen uns auf Sie.<\/p>",
+            "text": "<p>Medicom bietet hervorragende Produkte zu einem attraktiven Preis-Leistungs-Verhältnis und dazu besten, kompromisslosen Service. Medicom ist als Familienunternehmen sehr persönlich gegenüber Kunden und Mitarbeitern geprägt. Dies macht Medicom zu einem besonders kundenfreundlichen Unternehmen und ist Medicoms große Stärke.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
