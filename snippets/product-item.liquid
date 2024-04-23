@@ -804,7 +804,7 @@
           {%- if current_variant.compare_at_price > current_variant.price -%}
             <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
           {%- endif -%}
-          {{ price }}
+         ab {{ price }}
         {%- endif -%}
         {%- if current_variant.unit_price_measurement -%}
           {%- capture unit_price_base_unit -%}
