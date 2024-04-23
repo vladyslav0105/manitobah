@@ -598,7 +598,7 @@
         "text_iKa6xt"
       ],
       "custom_css": [
-
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
@@ -645,6 +645,9 @@
         "title_Q3ebx7",
         "text_b7p8da"
       ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/superbaboost_logo.webp",
         "enable_image_check": false,
@@ -689,6 +692,9 @@
       "block_order": [
         "title_fjbhPb",
         "text_iMkk8y"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/suberba2.webp",
@@ -735,6 +741,9 @@
         "title_V3R48t",
         "text_YdQjP8"
       ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/fruitflow.webp",
         "enable_image_check": false,
@@ -779,6 +788,9 @@
       "block_order": [
         "title_Rc7BPm",
         "text_x4WEYX"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/ksm66.webp",
@@ -825,6 +837,9 @@
         "title_e94CFA",
         "text_YFyfCq"
       ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/abg10.webp",
         "enable_image_check": false,
@@ -870,6 +885,9 @@
         "title_jaGHhi",
         "text_t7eyHW"
       ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/kaneka_0ad00be4-f3dc-4bc0-9619-b6a0e798651c.webp",
         "enable_image_check": false,
@@ -914,6 +932,9 @@
       "block_order": [
         "title_34jFhx",
         "text_jf4Et9"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/kuhlmann.webp",
