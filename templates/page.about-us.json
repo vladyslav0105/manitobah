@@ -445,6 +445,150 @@
         "fix_zindex": 0
       }
     },
+    "section_image_with_text_mjmj9h": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_mJwdxD": {
+          "type": "title",
+          "settings": {
+            "title": "NOBILIN",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_NFz6jz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bei den NOBILIN-Produkten geht Medicom keine Kompromisse ein. Unsere Philosophie ist es, dass Sie als Kunde stets das Beste für Ihr Geld bekommen. Zu den besonderen Produkten dieser Reihe gehören umfangreiche Versorgungen wie NOBILIN PREMIUM und NOBILIN Q10 MULTIVITAMIN. Unter dem Markennamen NOBILIN finden Sie darüberhinaus Produkte, die das Ergebnis wissenschaftlicher Fachkenntnis sind und durch ausgezeichnete Rezepturen bestechen. Jedes NOBILIN-Produkt ist einzigartig und darauf abgestimmt, eine gezielte Unterstützung für Individualbedürfnisse zu bieten.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_mJwdxD",
+        "text_NFz6jz"
+      ],
+      "custom_css": [
+        "img {padding: 80px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nobilin.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 10,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_pb3rpc": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_fGPWLm": {
+          "type": "title",
+          "settings": {
+            "title": "MEDICOM®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_qPcmqe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit den klassischen Medicom-Produkten fühlen Sie sich einfach wohl. Es handelt sich um typische Monoprodukte oder eine Auswahl an Vitalstoffen für einen bestimmten Bereich. Sie finden in diesem Katalog verschiedene Anwendungsgebiete und Themen (siehe auch Seite 3), zu denen wir unsere Produkte empfehlen, einzeln oder in Kombination mit einer umfangreichen Versorgung aus der NOBILIN-Reihe. Entdecken Sie Premiumnahrungsergänzungsmittel, Arzneimittel und Medizinprodukte, die Ihnen helfen, Ihren individuellen Bedarf abzudecken: von A wie Augen bis Z wie Zellschutz.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_fGPWLm",
+        "text_qPcmqe"
+      ],
+      "custom_css": [
+        "img {padding: 80px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/medicom.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_zbMLPj": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_kEH4wh": {
+          "type": "title",
+          "settings": {
+            "title": "MEDICOM TERRA®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_mE3mWa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die ausgezeichnete MEDICOM TERRA®-Markenreihe bietet beste natürliche Inhaltsstoffe und das Wissen über Heilpflanzen, die im indischen Ayurveda oder in der traditionellen chinesischen Medizin (TCM) verwendet werden. Die MEDICOM TERRA®-Naturlinie besticht durch ihre auserlesenen natürlichen Inhaltsstoffe in Premiumqualität und die attraktive Verpackung. MEDICOM TERRA® spricht alle an, die das ganz Besondere aus der Natur in exklusiver Qualität schätzen.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_kEH4wh",
+        "text_mE3mWa"
+      ],
+      "custom_css": [
+        "img {padding: 80px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/terra.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "main-page": {
       "type": "main-page",
       "blocks": {
@@ -485,6 +629,9 @@
     "section_image_with_text_qif7KW",
     "section_image_with_text_cFXgzp",
     "section_rich_text_RmzrwD",
+    "section_image_with_text_mjmj9h",
+    "section_image_with_text_pb3rpc",
+    "section_image_with_text_zbMLPj",
     "main-page"
   ]
 }
