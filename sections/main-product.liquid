@@ -1003,9 +1003,11 @@
                         {% style %}
                           .{{block.id}} li:before, .{{block.id}}:before {
                             content: '';
-                            background-image: url("{{block.settings.icon|img_url:'12x'}}");
+                            background-image: url("{{block.settings.icon|img_url:'20x'}}");
                             width: 20px;
                             height: 20px;
+                            background-repeat: no-repeat;
+                            background-position: center;
                           }
                         {% endstyle %}
                     </ul>
