@@ -41,11 +41,14 @@
     {%- if section.settings.image -%}
       <picture{% if section.settings.image_mobile %} class="mobile-hide"{% endif %}>
         <img
-          src="{{ section.settings.image | image_url: width: 240, height: 95 }}"
+          src="{{ section.settings.image | image_url: width: 100, height: 100, width: 640 }}"
           srcset="{% render 'image-srcset', image: section.settings.image %}"
-          
-          width="240"
-          height="95"
+          sizes="
+            (min-width: 1300px) calc({% if settings.width < 2000 %}{{ settings.width }}px{% else %}100vw{% endif %} / 2),
+            100vw
+          "
+          width="640"
+          height="530"
           alt="{{ section.settings.image.alt | default: section.settings.title | escape }}"
           loading="{% if section.index > 1 or section.location == 'footer' %}lazy{% else %}eager{% endif %}"
         >
