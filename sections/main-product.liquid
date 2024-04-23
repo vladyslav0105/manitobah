@@ -1001,6 +1001,9 @@
                     <ul class="l4ch {{ block.id }}" {{ block.shopify_attributes }}>
                         {%- if block.settings.usp != empty -%}<li>{{ block.settings.usp | remove: '<p>' | remove: '</p>' }}</li>{%- endif -%}
                         {% style %}
+                          .l4ch {
+                            padding-left: 25px;
+                          }
                           .{{block.id}} li:before, .{{block.id}}:before {
                             content: '';
                             background-image: url("{{block.settings.icon|img_url:'20x'}}");
@@ -1008,6 +1011,7 @@
                             height: 20px;
                             background-repeat: no-repeat;
                             background-position: center;
+                            left: -25px;
                             top: 50%;
                             transform: translateY(-50%);
                           }
