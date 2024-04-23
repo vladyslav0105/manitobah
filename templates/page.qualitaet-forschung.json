@@ -120,11 +120,11 @@
           "type": "title",
           "settings": {
             "title": "Premium-Produkte",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "200"
           }
         },
         "166005796961cc60d8-1": {
@@ -168,11 +168,11 @@
           "type": "title",
           "settings": {
             "title": "Einzelverblisterung",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "1660057985549a4c95-1": {
@@ -216,11 +216,11 @@
           "type": "title",
           "settings": {
             "title": "Hochwertige Rohstoffe",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_x8fejV": {
@@ -264,11 +264,11 @@
           "type": "title",
           "settings": {
             "title": "Hohe Bioverfügbarkeit",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_JHE9Pi": {
@@ -312,11 +312,11 @@
           "type": "title",
           "settings": {
             "title": "Wissenschaftlich fundierte Produkte",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_DhktH3": {
@@ -360,11 +360,11 @@
           "type": "title",
           "settings": {
             "title": "Individuelle Bedürfnisse",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_bVyiLb": {
@@ -408,11 +408,11 @@
           "type": "title",
           "settings": {
             "title": "Biozertifizierung",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_PTHmGW": {
@@ -456,11 +456,11 @@
           "type": "title",
           "settings": {
             "title": "Nachhaltigkeit",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_nn7rGw": {
@@ -504,11 +504,11 @@
           "type": "title",
           "settings": {
             "title": "Siegel für erstklassige Qualität",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "content_9ryAnD": {
@@ -576,11 +576,11 @@
           "type": "title",
           "settings": {
             "title": "AKER BIOMARINE™",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_iKa6xt": {
@@ -624,11 +624,11 @@
           "type": "title",
           "settings": {
             "title": "SUPERBABoost™",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_b7p8da": {
@@ -672,11 +672,11 @@
           "type": "title",
           "settings": {
             "title": "SUPERBA2™",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_iMkk8y": {
@@ -720,11 +720,11 @@
           "type": "title",
           "settings": {
             "title": "fruitflow®",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_YdQjP8": {
@@ -768,11 +768,11 @@
           "type": "title",
           "settings": {
             "title": "KSM-66 Ashwagandha®",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_x4WEYX": {
@@ -816,11 +816,11 @@
           "type": "title",
           "settings": {
             "title": "ABG10+®",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_YFyfCq": {
@@ -864,11 +864,11 @@
           "type": "title",
           "settings": {
             "title": "Kaneka™",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_t7eyHW": {
@@ -912,11 +912,11 @@
           "type": "title",
           "settings": {
             "title": "Institut Kuhlmann®",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
-            "enable_custom_text_styling": false,
+            "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "700"
+            "title_weight": "100"
           }
         },
         "text_jf4Et9": {

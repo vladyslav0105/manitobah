@@ -47,6 +47,7 @@
     "body_line_height": 180,
     "prices_font": "primary",
     "prices_font_weight": "400",
+    "breadcrumbs_font": "primary",
     "breadcrumbs_font_size": "13px",
     "h1_size_mobile": 38,
     "h2_size_mobile": 28,
