@@ -106,7 +106,7 @@
         "height": "xs",
         "enable_custom_height": false,
         "custom_height": 300,
-        "width": "boxed",
+        "width": "wide",
         "height_mobile": "xs",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
