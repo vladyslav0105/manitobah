@@ -616,6 +616,50 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
+    },
+    "section_rich_text_pNcfgw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_zyNg9R": {
+          "type": "title",
+          "settings": {
+            "title": "Gutes bewährt sich",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_GRBepU": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>1995 erschien mit der Marke NOBILIN die Premiumklasse unter den Nahrungsergänzungsmitteln. Dabei spielte NOBILIN Q10 MULTIVITAMIN eine besondere Rolle und auch fast drei Jahrzehnte später vertrauen weiterhin Tausende von Kunden diesem Produkt. NOBILIN steht für den Glauben an die individuelle Veränderung des Lebensstils. Die Marke steht für Innovation in der Kombination von Inhaltsstoffen zu einer einzigartigen Rezeptur, die Sie weltweit so nicht wiederfinden. Jede neue NOBILIN-Generation konnte mit Innovationen aufwarten, die zum Standard aller Medicom-Produkte wurden. Unser Ziel: Ihnen die besten Nahrungsergänzungsmittel der Welt anzubieten.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_zyNg9R",
+        "content_GRBepU"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -632,6 +676,7 @@
     "section_image_with_text_mjmj9h",
     "section_image_with_text_pb3rpc",
     "section_image_with_text_zbMLPj",
-    "main-page"
+    "main-page",
+    "section_rich_text_pNcfgw"
   ]
 }
