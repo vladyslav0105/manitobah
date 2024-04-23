@@ -172,7 +172,11 @@
         "166005796961cc60d8-0",
         "166005796961cc60d8-1"
       ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/besonders.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -215,6 +219,9 @@
       "block_order": [
         "1660057985549a4c95-0",
         "1660057985549a4c95-1"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
       ],
       "settings": {
         "enable_image_check": false,
@@ -260,6 +267,9 @@
         "title_GfPKaz",
         "text_x8fejV"
       ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
       "settings": {
         "enable_image_check": false,
         "overlay_opacity_img": 0,
@@ -303,6 +313,9 @@
       "block_order": [
         "title_bzLWKL",
         "text_JHE9Pi"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
       ],
       "settings": {
         "enable_image_check": false,
@@ -348,6 +361,9 @@
         "title_gY3wGe",
         "text_DhktH3"
       ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
       "settings": {
         "enable_image_check": false,
         "overlay_opacity_img": 0,
@@ -391,6 +407,9 @@
       "block_order": [
         "title_9Gj9AN",
         "text_PTHmGW"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
       ],
       "settings": {
         "enable_image_check": false,
