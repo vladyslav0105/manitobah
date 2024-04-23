@@ -568,6 +568,54 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
+    },
+    "section_image_with_text_AWC9k9": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_6b6myh": {
+          "type": "title",
+          "settings": {
+            "title": "AKER BIOMARINE™",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_iKa6xt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aker BioMarine ist der norwegische Qualitätshersteller für alle Krillölrohstoffe von Medicom<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_6b6myh",
+        "text_iKa6xt"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -583,6 +631,7 @@
     "section_image_with_text_cFXgzp",
     "section_image_with_text_4pqKV4",
     "section_rich_text_RmzrwD",
-    "main-page"
+    "main-page",
+    "section_image_with_text_AWC9k9"
   ]
 }
