@@ -164,7 +164,8 @@
         "usp_jwMfEx": {
           "type": "usp",
           "settings": {
-            "usp": "<p>Lieferung in <strong>2 Tagen<\/strong><\/p>"
+            "usp": "<p>Lieferung in <strong>2 Tagen<\/strong><\/p>",
+            "icon": "shopify:\/\/shop_images\/trusted_small_acacd79d-e192-495f-98ac-16d51f5f8f09.webp"
           }
         },
         "usp_DfkaEE": {
