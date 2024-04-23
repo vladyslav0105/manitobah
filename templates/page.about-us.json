@@ -488,7 +488,7 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
-        "spacing_desktop": 10,
+        "spacing_desktop": 0,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
@@ -536,7 +536,7 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
-        "spacing_desktop": 50,
+        "spacing_desktop": 0,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
