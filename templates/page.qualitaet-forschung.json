@@ -598,7 +598,7 @@
         "text_iKa6xt"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 600px !important; align-items: center; display: flex;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
