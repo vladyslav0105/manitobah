@@ -1,0 +1,695 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "166005794226b48f03": {
+      "type": "section-slideshow",
+      "blocks": {
+        "166005794296ae0ec5-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ueber-Uns-1170x584_e1133d0e-3700-47ea-9f25-2348f8292ce0.webp",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "Lernen Sie uns kennen",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "ERFAHREN SIE MEHR ÜBER MEDICOM",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "166005794296ae0ec5-0"
+      ],
+      "custom_css": [
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 15px;}"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_PgpVW7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_kqw8yF": {
+          "type": "title",
+          "settings": {
+            "title": "Die Marke Medicom",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_xarJkF": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Seit mehr als 25 Jahren gehört das Unternehmen Medicom zu den erfolgreichsten Direktvertreibern von Nahrungsergänzungsmitteln in Deutschland. Mehr als 80 Produkte runden das Angebot der Medicom ab. Über eine Million zufriedene Kunden schätzen die erstklassige Service-und-Beratungs-Leistung für individuelle Gesundheitsprävention durch Nahrungsergänzungsmittel. Wir bieten unseren Kunden Premium-Produkte für das Wohlbefinden und einen <strong>gesunden Lebensstil<\/strong>. Unser erstes Produkt <a href=\"https:\/\/www.medicom.de\/nobilin-q10-multivitamin-kaufen\">Nobilin Q10 Multivitamin<\/a>, lancierten wir 1995. Bis heute wurde Nobilin Q10 Multivitamin mehr als zwanzig Millionen Mal verkauft und zählt daher zurecht zu den Bestsellern. Die <strong>Welt von Medicom <\/strong>ist vielfältig und hält auch für Sie passende Produkte bereit. Lassen Sie sich von unseren wissenschaftlich fundierten Präparaten und unserer professionellen Kundenberatung überzeugen. Gerne helfen unsere Vitalstoff-Experten Ihnen persönlich weiter, wenn Sie Fragen zu unseren Produkten, Inhaltsstoffen, Anwendungsmöglichkeiten und sinnvollen Dosierungen haben. Rufen Sie uns <strong>gebührenfrei an unter 0800 50 - 400 50 <\/strong>oder <a href=\"https:\/\/www.medicom.de\/contacts\">schreiben Sie uns<\/a>, wir freuen uns auf Sie.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_kqw8yF",
+        "content_xarJkF"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16600579701b9ea466": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "166005796961cc60d8-0": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist besonders",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "166005796961cc60d8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seit 1995 fühlt sich Medicom der Tradition, Innovation und Qualität verpflichtet. Davon zeugen die ständig auf Qualität kontrollierten Gesundheitsprodukte, die Liebe zu traditionellen Heilpflanzen und eine stetig wachsende innovative Produktpalette, die auf die individuellen Bedürfnisse unserer Kunden eingeht.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "166005796961cc60d8-0",
+        "166005796961cc60d8-1"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/besonders.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16600579852f4017d4": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "1660057985549a4c95-0": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist transparent",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "1660057985549a4c95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Medicom ist es ein Bedürfnis, bei der Vermarktung ihrer Produkte auch die Wichtigkeit der Gesundheitsvorsorge zu vermitteln. Wir bieten bei Nahrungsergänzungsmitteln stets fundierte Informationen zu den Produkten und den darin enthaltenen Inhaltsstoffen an.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "1660057985549a4c95-0",
+        "1660057985549a4c95-1"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/transparent.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_UJnAgL": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_GfPKaz": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist Innovation",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_x8fejV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die verwendeten Rohstoffe sind sehr gut verträglich, optimal bioverfügbar und stammen nur von namhaften Herstellern. Für die Produkte werden nur wissenschaftlich sinnvolle Dosierungen eingesetzt. Wir nutzen innovative Darreichungsformen wie Licaps®- Kapseln, Direktgranulate, flüssige Zubereitungen und hochwertige Soft-Gel-Kapseln, deren Inhaltsstoffe in Öl gelöst vorliegen. Alle Produkte sind optimal verpackt, vor allem bei Kapsel- oder Tablettenprodukten nutzen wir die hochwertige Einzelverblisterung. So stellen wir sicher, dass alle Inhaltsstoffe vor Verunreinigungen geschützt und vom Körper in bestmöglicher Reinheit aufgenommen werden.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_GfPKaz",
+        "text_x8fejV"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Innovation.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_X3nppT": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_bzLWKL": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist kompetent",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_JHE9Pi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Seit 2008 ist Medicom Teil einer familiengeführten Unternehmensgruppe. Die Inhaberfamilie leitet und entwickelt seit vier Generationen erfolgreich Firmen im Gesundheitsbereich. Zu den bekanntesten Marken, die aufgebaut wurden, gehören Salus, Dr. Dünner, SwissCaps, Twardy, Gelpell, Phytopoint, Renatura, Vitalia und natürlich Medicom. Ihr Engagement für die Gesundheit spiegelt sich in ihrer langjährigen Erfahrung und Erfolg in der Branche wider. Die hohen Qualitätsstandards der Medicom- Produkte entsprachen von Anfang an den Standards, die für die Unternehmensgruppe von hoher Bedeutung sind. Rohstoffbeschaffung, Produktion und Verpackung und vor allem die verschiedenen Darreichungsformen der Medicom-Produkte werden von Herstellern in Deutschland und der Schweiz verantwortungsvoll umgesetzt. So sind die Wege kurz und die Qualität auf durchgehend hohem Niveau. Deswegen ist Medicom „Swiss made“ und „made in Germany“.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_bzLWKL",
+        "text_JHE9Pi"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/madeingermanyandswiss.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_qif7KW": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_gY3wGe": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom ist wissenschaftlich",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_DhktH3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Medicom-Produkte sind streng wissenschaftlich geprüft und werden zusätzlich regelmäßig von qualifizierten und unabhängigen Laboren in Deutschland evaluiert. Unsere Produkte unterliegen strengsten Qualitätskriterien gemäß den GMP-Richtlinien. GMP (Good Manufacturing Practice) steht für „gute Herstellungspraxis“. Das sind Richtlinien zur Sicherung der Qualität der Produktion von Arzneimitteln. Den GMP-Standard garantiert Medicom auch für die Produktion von Nahrungsergänzungsmitteln.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_gY3wGe",
+        "text_DhktH3"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Erfolg.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_cFXgzp": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_9Gj9AN": {
+          "type": "title",
+          "settings": {
+            "title": "Medicoms Beitrag für den Klimaschutz",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_PTHmGW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wenn jeder einen Beitrag im nachhaltigeren Umgang mit unserem Planeten leistet, können wir zusammen für eine bessere Lebensqualität sorgen. Als Unternehmen möchte Medicom einen positiven Beitrag für das Klima leisten. Lesen Sie, welche Schritte Medicom in Sachen <a href=\"https:\/\/www.medicom.de\/nachhaltigkeit\">Klimaschutz und Nachhaltigkeit <\/a>bereits unternommen hat.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_9Gj9AN",
+        "text_PTHmGW"
+      ],
+      "custom_css": [
+        "img {padding: 30px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nachhaltigkeit-umwelt-schuetzen-hand-herzblatt.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_RmzrwD": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_hmfMcr": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom-Markenwelt",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_9ryAnD": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Die Welt von Medicom ist vielfältig und hält auch für Sie passende Produkte bereit. Lassen Sie sich von unseren wissenschaftlich fundierten Präparaten und unserer professionellen Kundenberatung überzeugen. Gerne helfen unsere Vitalstoff-Experten Ihnen persönlich weiter, wenn Sie Fragen zu unseren Produkten, Inhaltsstoffen, Anwendungsmöglichkeiten und sinnvollen Dosierungen haben.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_hmfMcr",
+        "content_9ryAnD"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_mjmj9h": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_mJwdxD": {
+          "type": "title",
+          "settings": {
+            "title": "NOBILIN",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_NFz6jz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bei den NOBILIN-Produkten geht Medicom keine Kompromisse ein. Unsere Philosophie ist es, dass Sie als Kunde stets das Beste für Ihr Geld bekommen. Zu den besonderen Produkten dieser Reihe gehören umfangreiche Versorgungen wie NOBILIN PREMIUM und NOBILIN Q10 MULTIVITAMIN. Unter dem Markennamen NOBILIN finden Sie darüberhinaus Produkte, die das Ergebnis wissenschaftlicher Fachkenntnis sind und durch ausgezeichnete Rezepturen bestechen. Jedes NOBILIN-Produkt ist einzigartig und darauf abgestimmt, eine gezielte Unterstützung für Individualbedürfnisse zu bieten.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_mJwdxD",
+        "text_NFz6jz"
+      ],
+      "custom_css": [
+        "img {padding: 80px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nobilin.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_pb3rpc": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_fGPWLm": {
+          "type": "title",
+          "settings": {
+            "title": "MEDICOM®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_qPcmqe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit den klassischen Medicom-Produkten fühlen Sie sich einfach wohl. Es handelt sich um typische Monoprodukte oder eine Auswahl an Vitalstoffen für einen bestimmten Bereich. Sie finden in diesem Katalog verschiedene Anwendungsgebiete und Themen (siehe auch Seite 3), zu denen wir unsere Produkte empfehlen, einzeln oder in Kombination mit einer umfangreichen Versorgung aus der NOBILIN-Reihe. Entdecken Sie Premiumnahrungsergänzungsmittel, Arzneimittel und Medizinprodukte, die Ihnen helfen, Ihren individuellen Bedarf abzudecken: von A wie Augen bis Z wie Zellschutz.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_fGPWLm",
+        "text_qPcmqe"
+      ],
+      "custom_css": [
+        "img {padding: 80px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/medicom.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_zbMLPj": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_kEH4wh": {
+          "type": "title",
+          "settings": {
+            "title": "MEDICOM TERRA®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_mE3mWa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die ausgezeichnete MEDICOM TERRA®-Markenreihe bietet beste natürliche Inhaltsstoffe und das Wissen über Heilpflanzen, die im indischen Ayurveda oder in der traditionellen chinesischen Medizin (TCM) verwendet werden. Die MEDICOM TERRA®-Naturlinie besticht durch ihre auserlesenen natürlichen Inhaltsstoffe in Premiumqualität und die attraktive Verpackung. MEDICOM TERRA® spricht alle an, die das ganz Besondere aus der Natur in exklusiver Qualität schätzen.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_kEH4wh",
+        "text_mE3mWa"
+      ],
+      "custom_css": [
+        "img {padding: 80px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/terra.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 0,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h3"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_rich_text_pNcfgw": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_zyNg9R": {
+          "type": "title",
+          "settings": {
+            "title": "Gutes bewährt sich",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_GRBepU": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>1995 erschien mit der Marke NOBILIN die Premiumklasse unter den Nahrungsergänzungsmitteln. Dabei spielte NOBILIN Q10 MULTIVITAMIN eine besondere Rolle und auch fast drei Jahrzehnte später vertrauen weiterhin Tausende von Kunden diesem Produkt. NOBILIN steht für den Glauben an die individuelle Veränderung des Lebensstils. Die Marke steht für Innovation in der Kombination von Inhaltsstoffen zu einer einzigartigen Rezeptur, die Sie weltweit so nicht wiederfinden. Jede neue NOBILIN-Generation konnte mit Innovationen aufwarten, die zum Standard aller Medicom-Produkte wurden. Unser Ziel: Ihnen die besten Nahrungsergänzungsmittel der Welt anzubieten.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        },
+        "image_FgY4WF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25.webp",
+            "image_width": 360,
+            "link_url": "",
+            "image_width_mobile": 200
+          }
+        }
+      },
+      "block_order": [
+        "title_zyNg9R",
+        "content_GRBepU",
+        "image_FgY4WF"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 768px) {.m20.block-image-image_FgY4WF {display: block; margin-left: auto; margin-right: auto; }}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "166005794226b48f03",
+    "section_rich_text_PgpVW7",
+    "16600579701b9ea466",
+    "16600579852f4017d4",
+    "section_image_with_text_UJnAgL",
+    "section_image_with_text_X3nppT",
+    "section_image_with_text_qif7KW",
+    "section_image_with_text_cFXgzp",
+    "section_rich_text_RmzrwD",
+    "section_image_with_text_mjmj9h",
+    "section_image_with_text_pb3rpc",
+    "section_image_with_text_zbMLPj",
+    "main-page",
+    "section_rich_text_pNcfgw"
+  ]
+}
