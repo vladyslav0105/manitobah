@@ -401,73 +401,45 @@
         "fix_zindex": 0
       }
     },
-    "1660058006badb14d4": {
-      "type": "section-logo-list",
+    "section_rich_text_RmzrwD": {
+      "type": "section-rich-text",
       "blocks": {
-        "166005800624ee1e13-0": {
-          "type": "logo",
+        "title_hmfMcr": {
+          "type": "title",
           "settings": {
-            "link": ""
+            "title": "Medicom-Markenwelt",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
           }
         },
-        "166005800624ee1e13-1": {
-          "type": "logo",
+        "content_9ryAnD": {
+          "type": "content",
           "settings": {
-            "link": ""
-          }
-        },
-        "166005800624ee1e13-2": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "166005800624ee1e13-3": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "166005800624ee1e13-4": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "166005800624ee1e13-5": {
-          "type": "logo",
-          "settings": {
-            "link": ""
+            "page": "",
+            "text": "<p>Die Welt von Medicom ist vielfältig und hält auch für Sie passende Produkte bereit. Lassen Sie sich von unseren wissenschaftlich fundierten Präparaten und unserer professionellen Kundenberatung überzeugen. Gerne helfen unsere Vitalstoff-Experten Ihnen persönlich weiter, wenn Sie Fragen zu unseren Produkten, Inhaltsstoffen, Anwendungsmöglichkeiten und sinnvollen Dosierungen haben.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
           }
         }
       },
       "block_order": [
-        "166005800624ee1e13-0",
-        "166005800624ee1e13-1",
-        "166005800624ee1e13-2",
-        "166005800624ee1e13-3",
-        "166005800624ee1e13-4",
-        "166005800624ee1e13-5"
+        "title_hmfMcr",
+        "content_9ryAnD"
       ],
       "settings": {
-        "number_of_items": 4,
-        "text_alignment": "start",
-        "title": "Brand logo slider",
-        "title_font": "primary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "link_text": "Button",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -492,6 +464,7 @@
         "title",
         "content"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
@@ -511,7 +484,7 @@
     "section_image_with_text_X3nppT",
     "section_image_with_text_qif7KW",
     "section_image_with_text_cFXgzp",
-    "1660058006badb14d4",
+    "section_rich_text_RmzrwD",
     "main-page"
   ]
 }
