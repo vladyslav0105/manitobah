@@ -783,6 +783,7 @@
       </p>
     {%- endif -%}
     {%- if show_stock -%}
+       {% comment %}
       {%- render 'product-deliverytime',
               product: product,
               show_stock: false,
@@ -791,6 +792,7 @@
               extra_class: 'list-hide',
               origin: 'productitem'
       -%}
+    {% endcomment %}
     {%- endif -%}
     {%- if show_price -%}
       <p class="price">
