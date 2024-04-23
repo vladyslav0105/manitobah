@@ -51,6 +51,7 @@
           height="530"
           alt="{{ section.settings.image.alt | default: section.settings.title | escape }}"
           loading="{% if section.index > 1 or section.location == 'footer' %}lazy{% else %}eager{% endif %}"
+          style="object-fit: scale-down; object-position: center"
         >
       </picture>
       {%- if section.settings.image_mobile -%}
