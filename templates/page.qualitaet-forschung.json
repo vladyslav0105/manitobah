@@ -661,6 +661,141 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_image_with_text_PaPyPH": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_fjbhPb": {
+          "type": "title",
+          "settings": {
+            "title": "SUPERBA2™",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_iMkk8y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hochwertiges Antarktis-Krillöl in der üblichen Dosierung<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_fjbhPb",
+        "text_iMkk8y"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_CcXgaY": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_V3R48t": {
+          "type": "title",
+          "settings": {
+            "title": "fruitflow®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_YdQjP8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fruitflow® ist ein hochwertiger standardisierter wasserlöslicher Tomatenextrakt (WSTC II), wie er in Cardioflow zu finden ist<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_V3R48t",
+        "text_YdQjP8"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_ewbX7H": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_Rc7BPm": {
+          "type": "title",
+          "settings": {
+            "title": "KSM-66 Ashwagandha®",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_x4WEYX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vollspektrummarkenextrakt, einzigartiges Verfahren zur Extraktion aus den Ashwagandhawurzeln<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_Rc7BPm",
+        "text_x4WEYX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -678,6 +813,9 @@
     "section_rich_text_RmzrwD",
     "main-page",
     "section_image_with_text_AWC9k9",
-    "section_image_with_text_T6aYqi"
+    "section_image_with_text_T6aYqi",
+    "section_image_with_text_PaPyPH",
+    "section_image_with_text_CcXgaY",
+    "section_image_with_text_ewbX7H"
   ]
 }
