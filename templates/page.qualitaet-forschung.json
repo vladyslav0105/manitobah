@@ -145,7 +145,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/besonders.webp",
+        "image": "shopify:\/\/shop_images\/premiumprodukte.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -193,7 +193,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/transparent.webp",
+        "image": "shopify:\/\/shop_images\/Einzelverblisterung.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -241,7 +241,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Innovation.webp",
+        "image": "shopify:\/\/shop_images\/Darreichungsformen.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -289,7 +289,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/madeingermanyandswiss.webp",
+        "image": "shopify:\/\/shop_images\/Bioverfuegbarkeit.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -337,12 +337,57 @@
         "img {padding: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Erfolg.webp",
+        "image": "shopify:\/\/shop_images\/Wissenschaftlich.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
         "overlay_opacity": 0,
         "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_M76UF9": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_39qKXW": {
+          "type": "title",
+          "settings": {
+            "title": "Individuelle Bedürfnisse",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_bVyiLb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir berücksichtigen individuelle Ernährungsweisen wie zum Beispiel die vegetarische oder vegane Ernährung und Intoleranzen gegenüber Gluten oder Laktose. Achten Sie auf die entsprechenden Kennzeichnungen im Webshop.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_39qKXW",
+        "text_bVyiLb"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Individuelle.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-right",
         "width": "boxed",
         "height": "l",
         "enable_custom_height": false,
@@ -385,7 +430,52 @@
         "img {padding: 30px;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/nachhaltigkeit-umwelt-schuetzen-hand-herzblatt.webp",
+        "image": "shopify:\/\/shop_images\/Biozertifizierung.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_4pqKV4": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_8WzmhV": {
+          "type": "title",
+          "settings": {
+            "title": "Nachhaltigkeit",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "text_nn7rGw": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Nachhaltigkeit<\/strong>liegt uns am Herzen, denn was gut für die Umwelt ist, ist auch gut für unser Wohlbefinden. Auch wir sind nicht perfekt, deshalb arbeiten wir stetig daran, unser<strong>klimaneutrales Schaffen und Handeln<\/strong>auszubauen. Das beginnt schon bei der Beschaffung der Rohstoffe. Für unser Krillöl wird der Krill beispielsweise mit einer umweltfreundlichen, patentierten Methode gefangen. Wir verzichten bei der Herstellung unserer Präparate gänzlich auf Tierversuche und das gesamte Produktsortiment ist gentechnikfrei. Anschreiben, Kundenmagazine, Kataloge und Broschüren werden bei uns auf Recyclingpapier gedruckt. Und auch der Medicom-Versand ist klimaneutral. Darüber hinaus lassen wir bis zu 95 Prozent der Produkte von Partnerunternehmen in Deutschland und in der Schweiz herstellen. Das bedeutet Qualität und kürzere Transportwege von den Produktionsstätten zu unserem selbst betriebenen Logistikcenter. Mehr Informationen zum Thema finden Sie<a href=\"https:\/\/www.medicom.de\/nachhaltigkeit\">hier<\/a>.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_8WzmhV",
+        "text_nn7rGw"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nachhaltigkeit.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -684,7 +774,9 @@
     "section_image_with_text_UJnAgL",
     "section_image_with_text_X3nppT",
     "section_image_with_text_qif7KW",
+    "section_image_with_text_M76UF9",
     "section_image_with_text_cFXgzp",
+    "section_image_with_text_4pqKV4",
     "section_rich_text_RmzrwD",
     "section_image_with_text_mjmj9h",
     "section_image_with_text_pb3rpc",
