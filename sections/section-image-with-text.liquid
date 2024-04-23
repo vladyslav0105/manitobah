@@ -47,8 +47,8 @@
             (min-width: 1300px) calc({% if settings.width < 2000 %}{{ settings.width }}px{% else %}100vw{% endif %} / 2),
             100vw
           "
-          width="640"
-          height="530"
+          width="240"
+          height="95"
           alt="{{ section.settings.image.alt | default: section.settings.title | escape }}"
           loading="{% if section.index > 1 or section.location == 'footer' %}lazy{% else %}eager{% endif %}"
         >
