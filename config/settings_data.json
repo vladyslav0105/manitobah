@@ -547,7 +547,8 @@
       ".countdown {color: #64cd82; font-weight: 800 !important;}",
       ".s1pr .small {font-size: 10px; color: gray;}",
       ".l4cl .price .small {font-size: 10px; color: gray;}",
-      ".old-price {display: none;}"
+      ".old-price {display: none;}",
+      ".ab-price {color: black;}"
     ]
   }
 }
