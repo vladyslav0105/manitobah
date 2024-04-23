@@ -242,28 +242,28 @@
         "certificate_icon_list_aL3wrm": {
           "type": "certificate_icon_list",
           "settings": {
-            "certificate_icon_item": "shopify:\/\/shop_images\/oeko.webp",
+            "certificate_icon_item": "shopify:\/\/shop_images\/oeko.png",
             "certificate_item_link": ""
           }
         },
         "certificate_icon_list_GXpAcB": {
           "type": "certificate_icon_list",
           "settings": {
-            "certificate_icon_item": "shopify:\/\/shop_images\/123.png",
+            "certificate_icon_item": "shopify:\/\/shop_images\/kuhl-weis.png",
             "certificate_item_link": "https:\/\/www.medicom.de\/qualitaet-forschung"
           }
         },
         "certificate_icon_list_YzDGh3": {
           "type": "certificate_icon_list",
           "settings": {
-            "certificate_icon_item": "shopify:\/\/shop_images\/gogreen.webp",
+            "certificate_icon_item": "shopify:\/\/shop_images\/gogreen_cb9d9fae-7fe8-445f-ab7d-67d5da9df156.png",
             "certificate_item_link": "https:\/\/www.medicom.de\/go-green"
           }
         },
         "certificate_icon_list_zMAhzF": {
           "type": "certificate_icon_list",
           "settings": {
-            "certificate_icon_item": "shopify:\/\/shop_images\/125.png",
+            "certificate_icon_item": "shopify:\/\/shop_images\/de-ch.png",
             "certificate_item_link": ""
           }
         }
