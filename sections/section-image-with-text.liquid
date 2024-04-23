@@ -43,7 +43,7 @@
   {% if section.settings.width == 'wide' %}wide{% else %}boxed{% endif %}
   {% if hide_section %}hidden-section{% endif %}
   ">
-  <figure {% unless section.settings.image %}class="no-img {{ section.id }}"{% endunless %}>
+  <figure {% unless section.settings.image %}class="no-img"{% else %}class="{{ section.id }}"{% endunless %}>
     <span class="img-overlay" style="opacity:{{ section.settings.overlay_opacity_img | divided_by: 100.0 }}"></span>
     {%- if section.settings.image -%}
       <picture{% if section.settings.image_mobile %} class="mobile-hide"{% endif %}>
