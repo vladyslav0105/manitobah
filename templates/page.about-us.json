@@ -272,6 +272,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Innovation.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -319,6 +320,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/madeingermanyandswiss.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -366,6 +368,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Erfolg.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -413,6 +416,7 @@
         "img {padding: 30px;}"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/nachhaltigkeit-umwelt-schuetzen-hand-herzblatt.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
