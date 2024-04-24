@@ -108,6 +108,8 @@
     "preorder": true,
     "preorder_button_color": "#000000",
     "preorder_label_color": "#000000",
+    "shop_the_look_title": "",
+    "shop_the_look_items": 4,
     "enable_free_shipping": true,
     "free_shipping_amount": 15,
     "default_product_deliverytime_info": "",
