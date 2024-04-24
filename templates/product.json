@@ -119,6 +119,23 @@
             "show_contact_form": false
           }
         },
+        "content_EpHne9": {
+          "type": "content",
+          "settings": {
+            "layout": "none",
+            "collapse": false,
+            "title_size": "h2",
+            "title": "",
+            "icon": "none",
+            "header_image_width": 25,
+            "text": "",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
         "pickup": {
           "type": "pickup",
           "settings": {
@@ -244,6 +261,7 @@
         "price",
         "variant_selection",
         "content_bNGEAJ",
+        "content_EpHne9",
         "pickup",
         "inventory",
         "buy_button",
