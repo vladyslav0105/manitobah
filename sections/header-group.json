@@ -9,14 +9,14 @@
           "type": "text",
           "settings": {
             "text": "Service Hotline 0800 - 50 400 50",
-            "announcement_icon": "shopify:\/\/shop_images\/images.png"
+            "announcement_icon": "shopify:\/\/shop_images\/phone-4848.png"
           }
         },
         "text_gxJwwg": {
           "type": "text",
           "settings": {
             "text": "Lieferung in 2 Tagen",
-            "announcement_icon": "shopify:\/\/shop_images\/images_watch.png"
+            "announcement_icon": "shopify:\/\/shop_images\/clock-4848.png"
           }
         },
         "announcement-1": {
