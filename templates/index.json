@@ -137,7 +137,9 @@
             "show_link": false,
             "show_look": true,
             "product_list": [
-              "qh-mono-100-mg"
+              "qh-mono-100-mg",
+              "qh-mono-50-mg",
+              "q10-mono-30-mg"
             ],
             "look_btn_color_palette": "buy_button",
             "look_position": "end",
