@@ -6,18 +6,26 @@
     endif
   endcapture
 -%}
-<article class="{% if section.settings.compact %}w940 align-center{% endif %}">
-  {%- if section.settings.title != blank -%}
-    <{{ section.settings.title_size }} class="ff-{{ section.settings.title_font }} {{ title_classes }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
+{%- assign display_section = false -%}
+{%- for block in section.blocks -%}
+  {%- if block.settings.faq_question != blank -%}
+    {%- assign display_section = true -%}
   {%- endif -%}
-  {%- if section.settings.subtitle != blank -%}
-    <{{ section.settings.subtitle_size }} class="ff-{{ section.settings.subtitle_font }} {{ title_classes }} {% if section.settings.enable_custom_subtext_styling %}text-palette-{{ section.settings.subtitle_color_palette }} fw-{{ section.settings.subtitle_weight }}{% endif %}">{{ section.settings.subtitle }}</{{ section.settings.subtitle_size }}>
-  {%- endif -%}
-  <div class="accordion-a" style="--main_fz:{{ section.settings.font_size }};font-size:{{ section.settings.font_size }};">
-    {%- for block in section.blocks -%}
-      {%- if block.settings.faq_question != blank -%}
-      <details class="block-{{ block.id }}" {{ block.shopify_attributes }}>
-        <summary>
+{%- endfor -%}
+
+{%- if display_section -%}
+  <article class="{% if section.settings.compact %}w940 align-center{% endif %}">
+    {%- if section.settings.title != blank -%}
+      <{{ section.settings.title_size }} class="ff-{{ section.settings.title_font }} {{ title_classes }} {% if section.settings.enable_custom_text_styling %}text-palette-{{ section.settings.title_color_palette }} fw-{{ section.settings.title_weight }}{% endif %}{% if section.settings.subtitle != blank %} m0{% endif %}">{{ section.settings.title }}</{{ section.settings.title_size }}>
+    {%- endif -%}
+    {%- if section.settings.subtitle != blank -%}
+      <{{ section.settings.subtitle_size }} class="ff-{{ section.settings.subtitle_font }} {{ title_classes }} {% if section.settings.enable_custom_subtext_styling %}text-palette-{{ section.settings.subtitle_color_palette }} fw-{{ section.settings.subtitle_weight }}{% endif %}">{{ section.settings.subtitle }}</{{ section.settings.subtitle_size }}>
+    {%- endif -%}
+    <div class="accordion-a" style="--main_fz:{{ section.settings.font_size }};font-size:{{ section.settings.font_size }};">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.faq_question != blank -%}
+          <details class="block-{{ block.id }}" {{ block.shopify_attributes }}>
+            <summary>
           {%- if block.settings.header_image -%}
             {%- assign image_width = block.settings.header_image_width -%}
             {%- assign image_width_2 = image_width | times: 2 -%}
@@ -106,12 +114,13 @@
               </fieldset>
             {% endform %}
           {%- endif -%}
-        </div>
-      </details>
+            </div>
+          </details>
         {%- endif -%}
-    {%- endfor -%}
-  </div>
-</article>
+      {%- endfor -%}
+    </div>
+  </article>
+{%- endif -%}
 
 <style>
   #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
