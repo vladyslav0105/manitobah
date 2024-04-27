@@ -757,13 +757,6 @@
           </span>
         {%- endif -%}
         {%- if show_title -%}
-          <div style="text-align: center;">
-  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
-  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
-  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
-  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
-  <img src="https://cdn.shopify.com/s/files/1/0859/0311/4525/files/star.png?v=1712760302" alt="Star" style="display: inline-block; width: 20px; height: 20px;">
-</div>
           <a href="{{ product.url }}">{{ title }}</a>
         {%- endif -%}
         {%- if layout == 'list-compact' and product.has_only_default_variant == false -%}
@@ -783,7 +776,6 @@
       </p>
     {%- endif -%}
     {%- if show_stock -%}
-       {% comment %}
       {%- render 'product-deliverytime',
               product: product,
               show_stock: false,
@@ -792,7 +784,6 @@
               extra_class: 'list-hide',
               origin: 'productitem'
       -%}
-    {% endcomment %}
     {%- endif -%}
     {%- if show_price -%}
       <p class="price">
@@ -806,7 +797,7 @@
           {%- if current_variant.compare_at_price > current_variant.price -%}
             <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
           {%- endif -%}
-        ab <span class="ab-price">{{ price }}</span>
+          {{ price }}
         {%- endif -%}
         {%- if current_variant.unit_price_measurement -%}
           {%- capture unit_price_base_unit -%}
