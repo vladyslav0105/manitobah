@@ -21,6 +21,10 @@
       "block_order": [
         "image_BtjLdc"
       ],
+      "custom_css": [
+        "h1 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
+      ],
       "settings": {
         "width": "boxed",
         "first_image_width": 65,
@@ -33,13 +37,13 @@
         "text_position": "text-center",
         "title": "{{ collection.metafields.custom.collection_sub_heading.value }}",
         "title_font": "primary",
-        "title_size": "h2",
+        "title_size": "h3",
         "enable_custom_text_styling": false,
         "title_color_palette": "black",
         "title_weight": "700",
         "subtitle": "{{ collection.metafields.custom.collection_heading.value }}",
         "subtitle_font": "secondary",
-        "subtitle_size": "h2",
+        "subtitle_size": "h1",
         "enable_custom_subtext_styling": false,
         "subtitle_color_palette": "black",
         "subtitle_weight": "400",
