@@ -670,10 +670,10 @@
         "text_jCJezL": {
           "type": "text",
           "settings": {
-            "faq_question": "Warum ist QH bei Medikamenteneinnahme wie Cholesterinsenkern (Statinen) ratsam?",
+            "faq_question": "{{ product.metafields.custom.pdp_faq_frage_4.value }}",
             "icon": "question",
             "header_image_width": 25,
-            "faq_answer": "<p>Zur Cholesterinsenkung werden sogenannte Statine als Cholesterinsenker eingesetzt. Statine blockieren ein bestimmtes Enzym, das für die Cholesterinsynthese in der Leber zuständig ist, und senken so den Cholesterinspiegel. Aber gleichzeitig wird durch die Einnahme der Statine auch die Q10-Körperproduktion in diesem Organ gehemmt. Daher ist bei Verwendung von Cholesterinsenkern (Statinen) eine zusätzliche Einnahme von Q10\/QH ratsam, um ein mögliches Q10\/QH-Defizit zu vermeiden und die Nebenwirkungen von Cholesterinsenkern zu reduzieren.<\/p>",
+            "faq_answer": "{{ product.metafields.custom.pdp_faq_antwort_4 | metafield_tag }}",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -684,10 +684,10 @@
         "text_Qhqy3C": {
           "type": "text",
           "settings": {
-            "faq_question": "Wie lange können Sie QH Mono 100 mg von Medicom einnehmen?",
+            "faq_question": "{{ product.metafields.custom.pdp_faq_frage_5.value }}",
             "icon": "question",
             "header_image_width": 25,
-            "faq_answer": "<p>QH Mono 100 mg ist sicher und kann langfristig eingenommen werden. <\/p>",
+            "faq_answer": "{{ product.metafields.custom.pdp_faq_antwort_5 | metafield_tag }}",
             "page": "",
             "image_width": 465,
             "liquid": "",
