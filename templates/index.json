@@ -540,7 +540,7 @@
       "type": "section-featured-products",
       "custom_css": [
         "img {padding: 30px !important;}",
-        "a:hover {text-decoration: none;}"
+        "h3:hover {text-decoration: none;}"
       ],
       "settings": {
         "products": [
