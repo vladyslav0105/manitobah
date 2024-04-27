@@ -92,7 +92,7 @@
     "product_custom_label": "custom.preissenkung",
     "show_product_stock": true,
     "show_product_stock_always": true,
-    "layout_productcard": "add_to_cart",
+    "layout_productcard": "standard",
     "quickshop_behavior": "on_hover",
     "cart_icon_no_text": false,
     "variant_color_palette": "dark",
