@@ -14,6 +14,7 @@
         "image_BtjLdc": {
           "type": "image",
           "settings": {
+            "image": "{{ collection.metafields.custom.collection_banner.value }}"
           }
         }
       },
@@ -30,22 +31,22 @@
         "overlay_opacity": 0,
         "color_palette": "dark",
         "text_position": "text-center",
-        "title": "Image banner",
+        "title": "{{ collection.metafields.custom.collection_sub_heading.value }}",
         "title_font": "primary",
         "title_size": "h2",
         "enable_custom_text_styling": false,
         "title_color_palette": "black",
         "title_weight": "700",
-        "subtitle": "",
+        "subtitle": "{{ collection.metafields.custom.collection_heading.value }}",
         "subtitle_font": "secondary",
         "subtitle_size": "h2",
         "enable_custom_subtext_styling": false,
         "subtitle_color_palette": "black",
         "subtitle_weight": "400",
-        "text": "<p>Highlight a new collection and share details about products related to this image<\/p>",
+        "text": "",
         "enable_custom_font_styling": false,
         "font_size": "16px",
-        "link_text": "View all",
+        "link_text": "",
         "link_url": "",
         "button_color_palette": "accent",
         "show_link": false,
