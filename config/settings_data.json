@@ -97,7 +97,7 @@
     "cart_icon_no_text": false,
     "variant_color_palette": "dark",
     "background_opacity": 50,
-    "image_behaviour": "slider",
+    "image_behaviour": "second_image",
     "productcards_text_alignment": "center",
     "product_text_size": "16px",
     "product_button_fontsize": "14px",
