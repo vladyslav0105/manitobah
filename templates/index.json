@@ -539,7 +539,8 @@
     "section_featured_products_jeNXEH": {
       "type": "section-featured-products",
       "custom_css": [
-        "img {padding: 30px !important;}"
+        "img {padding: 30px !important;}",
+        "a:hover {text-decoration: none;}"
       ],
       "settings": {
         "products": [
