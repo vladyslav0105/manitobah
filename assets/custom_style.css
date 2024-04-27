@@ -155,14 +155,14 @@
 @media (min-width: 901px) {
   .l4cl.w25 li:hover {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1) !important;
-    border-radius: 36px !important;
-    padding: 30px;
+    border-radius: 0px !important;
+    padding: 10px;
     margin-bottom: 30px;
   }
 
   .l4cl.w25 li {
-    border-radius: 36px;
-    padding: 30px;
+    border-radius: 0px;
+    padding: 10px;
     margin-bottom: 30px;
   }
 }
