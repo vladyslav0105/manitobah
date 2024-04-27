@@ -153,7 +153,7 @@
 }
 
 @media (min-width: 901px) {
-  .l4cl.w25 li:hover {
+  .l4cl li:hover {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) !important;
     background-color: #f5f5f5;
     border-radius: 0px !important;
@@ -161,7 +161,7 @@
     margin-bottom: 30px;
   }
 
-  .l4cl.w25 li {
+  .l4cl li {
     border-radius: 0px;
     padding: 10px;
     margin-bottom: 30px;
@@ -169,14 +169,14 @@
 }
 
 @media (max-width: 900px) {
-  .l4cl.w25 li:hover {
+  .l4cl li:hover {
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.1) !important;
     border-radius: 36px !important;
     padding: 0px !important;
     margin-bottom: 30px;
   }
 
-  .l4cl.w25 li {
+  .l4cl li {
     border-radius: 36px;
     padding: 0px !important;
     margin-bottom: 30px;
