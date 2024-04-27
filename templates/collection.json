@@ -215,8 +215,8 @@
         "text_er74aV"
       ],
       "settings": {
-        "items_width": 2,
-        "text_alignment": "center",
+        "items_width": 6,
+        "text_alignment": "start",
         "title": "{{ collection.metafields.custom.seo_heading.value }}",
         "title_font": "primary",
         "title_size": "h2",
