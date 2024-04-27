@@ -550,7 +550,12 @@
       ".s1pr .small {font-size: 10px; color: gray;}",
       ".l4cl .price .small {font-size: 10px; color: gray;}",
       ".old-price {display: none;}",
-      ".ab-price {color: black;}"
+      ".ab-price {color: black;}",
+      "h1 {font-size: 50px!important;}",
+      "h2 {font-size: 28px!important;}",
+      "h3 {font-size: 25px!important;}",
+      "h4 {font-size: 20px!important;}",
+      "h5 {font-size: 15px;}"
     ]
   }
 }
