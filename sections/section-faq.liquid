@@ -15,6 +15,7 @@
   {%- endif -%}
   <div class="accordion-a" style="--main_fz:{{ section.settings.font_size }};font-size:{{ section.settings.font_size }};">
     {%- for block in section.blocks -%}
+      {%- if block.settings.faq_question != blank -%}
       <details class="block-{{ block.id }}" {{ block.shopify_attributes }}>
         <summary>
           {%- if block.settings.header_image -%}
@@ -107,6 +108,7 @@
           {%- endif -%}
         </div>
       </details>
+        {%- endif -%}
     {%- endfor -%}
   </div>
 </article>
