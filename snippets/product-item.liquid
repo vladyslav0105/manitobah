@@ -775,16 +775,7 @@
         </a>
       </p>
     {%- endif -%}
-    {%- if show_stock -%}
-      {%- render 'product-deliverytime',
-              product: product,
-              show_stock: false,
-              current_variant: current_variant,
-              container: "p",
-              extra_class: 'list-hide',
-              origin: 'productitem'
-      -%}
-    {%- endif -%}
+   
     {%- if show_price -%}
       <p class="price">
         {%- if product.price_varies and settings.show_price_varies and layout != 'list-compact' -%}
