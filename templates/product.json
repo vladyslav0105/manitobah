@@ -694,6 +694,20 @@
             "html": "",
             "show_contact_form": false
           }
+        },
+        "text_wLREUh": {
+          "type": "text",
+          "settings": {
+            "faq_question": "{{ product.metafields.custom.pdp_faq_frage_6.value }}",
+            "icon": "question",
+            "header_image_width": 25,
+            "faq_answer": "{{ product.metafields.custom.pdp_faq_antwort_6 | metafield_tag }}",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
         }
       },
       "block_order": [
@@ -701,7 +715,8 @@
         "text_GXFXnf",
         "text_8excnB",
         "text_jCJezL",
-        "text_Qhqy3C"
+        "text_Qhqy3C",
+        "text_wLREUh"
       ],
       "settings": {
         "alignment": "center",
