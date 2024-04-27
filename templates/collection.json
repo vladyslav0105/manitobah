@@ -147,12 +147,15 @@
         "product_grid",
         "423fb7f6-2c97-4420-8211-d45378349d2a"
       ],
+      "custom_css": [
+        ".n6as {background-color: #f5f5f5; padding: 20px;}"
+      ],
       "settings": {
         "pagination_qty": 48,
         "pagination_type": "button",
         "show_amount_of_products_in_collection": true,
-        "products_per_row": 4,
-        "secondary_products_per_row": 4,
+        "products_per_row": 3,
+        "secondary_products_per_row": 3,
         "custom_product_image_ratio": 115,
         "fill_images": false,
         "images_padding": 0,
