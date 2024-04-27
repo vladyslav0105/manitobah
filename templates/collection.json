@@ -148,9 +148,9 @@
         "423fb7f6-2c97-4420-8211-d45378349d2a"
       ],
       "custom_css": [
-        ".n6as {background-color: #f5f5f5; padding: 20px;}",
+        ".n6as {background-color: #f5f5f5; padding: 20px; border: solid #f5f5f5;}",
         ".n6as a:hover {color: #e61446;}",
-        ".n6as li.toggle>a {color: #e61446;}"
+        ".n6as li.toggle > a {color: #e61446;}"
       ],
       "settings": {
         "pagination_qty": 48,
