@@ -14,7 +14,7 @@
         "email": "E-mail",
         "email_disclaimer": "Votre courriel ne sera pas publié.",
         "title": "Comments",
-        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}</span> hors de <span class='strong'>{{ number2 }}</span> comments",
+        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}<\/span> hors de <span class='strong'>{{ number2 }}<\/span> comments",
         "comment": "Commentaire",
         "required": "Obligatoire",
         "send": "Envoyer",
@@ -24,7 +24,7 @@
     },
     "breadcrumb": "Blogues",
     "title": "Lisez nos derniers articles de blog",
-    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}</span> hors de <span class='strong'>{{ number2 }}</span> messages de blog",
+    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}<\/span> hors de <span class='strong'>{{ number2 }}<\/span> messages de blog",
     "tags": "Mots clés",
     "share": "Partager sur:",
     "written_by": "par",
@@ -50,9 +50,9 @@
     "upsell_title": "Tu pourrais aussi aimer",
     "checkout": "Vérifier",
     "free_shipping": "Livraison gratuite",
-    "free_shipping_long_html": "Votre commande sera <span class='strong'>shipped for free</span>!",
+    "free_shipping_long_html": "Votre commande sera <span class='strong'>shipped for free<\/span>!",
     "amount_to_free_shipping": "Commandez pour un autre {{ amount }} pour la livraison gratuite",
-    "amount_to_free_shipping_long_html": "Commandez pour  <span class='strong'>{{ amount }}</span> plus et votre commande sera expédiée <span class='strong'>free</span>!",
+    "amount_to_free_shipping_long_html": "Commandez pour  <span class='strong'>{{ amount }}<\/span> plus et votre commande sera expédiée <span class='strong'>free<\/span>!",
     "product": {
       "product": "Produit",
       "products": "Des produits",
@@ -68,7 +68,7 @@
     }
   },
   "collection": {
-    "empty_collection_html": "Il n'y a aucun produit dans cette collection. <a href='/collections'>Continuez vos achats</a>.",
+    "empty_collection_html": "Il n'y a aucun produit dans cette collection. <a href='\/collections'>Continuez vos achats<\/a>.",
     "amount_of_products": {
       "zero": "Aucun produit",
       "one": "{{ amount }} produit",
@@ -106,7 +106,7 @@
         "other": "Afficher les produits"
       }
     },
-    "seen_number_of_products_html": "Vous avez vu <span class='strong'>{{ number1 }}</span> produits sur <span class='strong'>{{ number2 }}</span>",
+    "seen_number_of_products_html": "Vous avez vu <span class='strong'>{{ number1 }}<\/span> produits sur <span class='strong'>{{ number2 }}<\/span>",
     "show_more_products": "Afficher plus de produits",
     "show_previous_products": "Afficher les produits précédents"
   },
@@ -162,7 +162,7 @@
       "fulfilled_at_html": "Expédié le {{ date }}",
       "total": "Total",
       "view_order": "Voir la commande",
-      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}</span> hors de <span class='strong'>{{ number2 }}</span> commandes"
+      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}<\/span> hors de <span class='strong'>{{ number2 }}<\/span> commandes"
     },
     "order": {
       "title": "Commandez {{ order_number }}",
@@ -173,8 +173,8 @@
       "cancelled_reason": "Raison de l'annulation de cette commande : {{ reason }}",
       "placed_at": "Commande passée le {{ date }}",
       "fulfilled_at": "Commande expédiée le {{ date }}",
-      "fulfillment_html": "Votre produit a été expédié. Suivez l'envoi avec le numéro {{ tracking_number }} ou en cliquant ici : <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
-      "line_fulfillment_html": "Votre produit \"{{ product_title }}\" a été expédié. Suivez l'envoi avec le numéro {{ tracking_number }} ou en cliquant ici : <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "fulfillment_html": "Votre produit a été expédié. Suivez l'envoi avec le numéro {{ tracking_number }} ou en cliquant ici : <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
+      "line_fulfillment_html": "Votre produit \"{{ product_title }}\" a été expédié. Suivez l'envoi avec le numéro {{ tracking_number }} ou en cliquant ici : <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
       "tracking_url": "URL de suivi",
       "track_shipment": "Suivi de l'expédition",
       "tracking_company": "Société de suivi",
@@ -212,7 +212,7 @@
       "city": "Ville",
       "country": "Pays",
       "search_country": "Recherchez",
-      "province": "État/Province",
+      "province": "État\/Province",
       "zip": "Code postal",
       "phone": "Numéro de téléphone",
       "set_default": "Définir comme adresse par défaut",
@@ -257,11 +257,11 @@
   },
   "date_formats": {
     "month_day_year": "%B %d %Y",
-    "month_day_year_basic": "%m/%d/%Y"
+    "month_day_year_basic": "%m\/%d\/%Y"
   },
   "footer": {
     "customer_service_img_default_alt": "Image du service clientèle",
-    "whatsapp_html": "Posez vos questions sur <span class='strong'>WhatsApp</span>"
+    "whatsapp_html": "Posez vos questions sur <span class='strong'>WhatsApp<\/span>"
   },
   "general": {
     "accessibility": {
@@ -367,14 +367,14 @@
       "logout": "Déconnexion",
       "my_account": "Mon compte",
       "login": "S'identifier",
-      "welcome_user_html": "Bonjour, <span class='strong'>{{ name }}</span>",
+      "welcome_user_html": "Bonjour, <span class='strong'>{{ name }}<\/span>",
       "overview": "Aperçu du compte",
       "info": "Info"
     },
     "cart": "Panier",
     "language": "Langue",
     "flag_of": "{{ country }} - drapeau",
-    "country": "Pays/région",
+    "country": "Pays\/région",
     "extra_img_default_alt": "Image supplémentaire d'en-tête",
     "navigation": {
       "view_more": "Voir plus",
@@ -427,7 +427,7 @@
     "stock_tag": "Dernier stock !",
     "not_in_stock_tag": "Rupture de stock",
     "price_varies_label": "De",
-    "unit_price_separator": "/",
+    "unit_price_separator": "\/",
     "save": "Sauver",
     "view_in_your_space": "Vue dans votre espace",
     "one_time_purchase": "Achat unique",
@@ -495,7 +495,7 @@
       "placeholder": "Que cherchez-vous ?",
       "search_again": "Rechercher à nouveau"
     },
-    "seen_number_of_results_html": "Vous avez vu <span class='strong'>{{ number1 }}</span> résultats sur <span class='strong'>{{ number2 }}</span>",
+    "seen_number_of_results_html": "Vous avez vu <span class='strong'>{{ number1 }}<\/span> résultats sur <span class='strong'>{{ number2 }}<\/span>",
     "show_more_results": "Afficher plus de résultats",
     "show_previous_results": "Afficher les résultats précédents"
   },

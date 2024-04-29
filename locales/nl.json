@@ -16,7 +16,7 @@
         "posted_successfully_moderated": "Bedankt voor je reactie! Het wordt na een beoordeling aan onze kant geplaatst.",
         "posted_successfully_not_moderated": "Bedankt voor je reactie! Ververs de pagina om je reactie te zien.",
         "required": "Verplicht",
-        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}</span> van de <span class='strong'>{{ number2 }}</span> reacties",
+        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}<\/span> van de <span class='strong'>{{ number2 }}<\/span> reacties",
         "send": "Verzenden",
         "subtitle": "Wat vindt u van dit artikel?",
         "title": "Reacties"
@@ -27,7 +27,7 @@
       "one": "{{ minutes }} min lezen",
       "other": "{{ minutes }} min lezen"
     },
-    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}</span> van de <span class='strong'>{{ number2 }}</span> artikelen",
+    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}<\/span> van de <span class='strong'>{{ number2 }}<\/span> artikelen",
     "share": "Deel met:",
     "tags": "Tags",
     "title": "Lees onze nieuwste artikelen",
@@ -37,7 +37,7 @@
     "add_note": "Speciale instructies voor verkoper",
     "add_note_placeholder": "Heb je extra op- of aanmerkingen?",
     "amount_to_free_shipping": "Bestel nog voor {{ amount }} extra voor gratis verzending",
-    "amount_to_free_shipping_long_html": "Bestel nog voor <span class='strong'>{{ amount }}</span> en je bestelling wordt <span class='strong'>gratis verzonden</span>!",
+    "amount_to_free_shipping_long_html": "Bestel nog voor <span class='strong'>{{ amount }}<\/span> en je bestelling wordt <span class='strong'>gratis verzonden<\/span>!",
     "button_proceed": "Je wordt nu doorgestuurd",
     "button_processing": "Data verwerken...",
     "checkout": "Checkout",
@@ -45,7 +45,7 @@
     "empty_subtitle": "Klik op verder winkelen en bekijk ons assortiment",
     "empty_title": "We zoeken je bestelling, maar zo te zien is je winkelwagen leeg...",
     "free_shipping": "Gratis verzending!",
-    "free_shipping_long_html": "Je bestelling wordt <span class='strong'>gratis verzonden</span>!",
+    "free_shipping_long_html": "Je bestelling wordt <span class='strong'>gratis verzonden<\/span>!",
     "giftcard_or_discount_code": {
       "placeholder": "Voeg hier code toe",
       "submit": "Activeer",
@@ -75,7 +75,7 @@
       "zero": "Geen producten"
     },
     "collections": "Categoriën",
-    "empty_collection_html": "Er zijn geen producten in deze collectie. <a href='/collections'>Winkel verder</a>.",
+    "empty_collection_html": "Er zijn geen producten in deze collectie. <a href='\/collections'>Winkel verder<\/a>.",
     "filters": {
       "current_filters": "Je huidige filters",
       "filter": "Filteren",
@@ -106,7 +106,7 @@
       "title-descending": "Alfabetisch, z-a"
     },
     "view_all_collections": "Bekijk all categoriën",
-    "seen_number_of_products_html": "Je hebt <span class='strong'>{{ number1 }}</span> van de <span class='strong'>{{ number2 }}</span> producten gezien",
+    "seen_number_of_products_html": "Je hebt <span class='strong'>{{ number1 }}<\/span> van de <span class='strong'>{{ number2 }}<\/span> producten gezien",
     "show_more_products": "Toon meer producten",
     "show_previous_products": "Toon vorige producten"
   },
@@ -192,9 +192,9 @@
       "date_html": "Geplaatst op {{ date }}",
       "discount": "Korting",
       "fulfilled_at": "Bestelling verzonden op {{ date }}",
-      "fulfillment_html": "Uw bestelling is verzonden. Volg de zending met nummer {{tracking_number}} of door hier te klikken: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "fulfillment_html": "Uw bestelling is verzonden. Volg de zending met nummer {{tracking_number}} of door hier te klikken: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
       "image": "Afbeelding",
-      "line_fulfillment_html": "Uw product \"{{ product_title }}\" is verzonden. Volg de zending met nummer {{ tracking_number }} of door hier te klikken: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "line_fulfillment_html": "Uw product \"{{ product_title }}\" is verzonden. Volg de zending met nummer {{ tracking_number }} of door hier te klikken: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
       "line_price": "Totaal",
       "no_shipping_address": "Geen verzendadres vereist voor deze bestelling.",
       "note": "Speciale instructies",
@@ -221,7 +221,7 @@
       "fulfilled_at_html": "Verzonden op {{ date }}",
       "order_number": "Bestelling",
       "payment_status": "Betaalstatus",
-      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}</span> van de <span class='strong'>{{ number2 }}</span> bestellingen",
+      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}<\/span> van de <span class='strong'>{{ number2 }}<\/span> bestellingen",
       "total": "Totaal",
       "view_order": "Bekijk bestelling"
     },
@@ -257,11 +257,11 @@
   },
   "date_formats": {
     "month_day_year": "%d %B %Y",
-    "month_day_year_basic": "%d/%m/%Y"
+    "month_day_year_basic": "%d\/%m\/%Y"
   },
   "footer": {
     "customer_service_img_default_alt": "Klantenservice afbeelding",
-    "whatsapp_html": "Stel jouw vraag via <span class='strong'>WhatsApp</span>"
+    "whatsapp_html": "Stel jouw vraag via <span class='strong'>WhatsApp<\/span>"
   },
   "general": {
     "accessibility": {
@@ -369,10 +369,10 @@
       "my_account": "Mijn account",
       "orders": "Bestellingen",
       "overview": "Accountoverzicht",
-      "welcome_user_html": "Hi, <span class='strong'>{{ name }}</span>"
+      "welcome_user_html": "Hi, <span class='strong'>{{ name }}<\/span>"
     },
     "cart": "Winkelwagen",
-    "country": "Land/regio",
+    "country": "Land\/regio",
     "extra_img_default_alt": "Header extra afbeelding",
     "flag_of": "{{ country }} - vlag",
     "language": "Taal",
@@ -390,7 +390,7 @@
       "submit_button": "Abonneren",
       "success": "Je bent nu ingeschreven, bedankt!"
     },
-    "subtitle_html": "Meld je aan voor onze mailing en ontvang <span class='strong'>€5 korting</span> op jouw eerste bestelling!",
+    "subtitle_html": "Meld je aan voor onze mailing en ontvang <span class='strong'>€5 korting<\/span> op jouw eerste bestelling!",
     "title_html": "Abonneer je op onze nieuwsbrief"
   },
   "newsletter_popup": {
@@ -473,7 +473,7 @@
     "stock_tag": "Bijna uitverkocht",
     "not_in_stock_tag": "Niet op voorraad",
     "unit_price_label": "",
-    "unit_price_separator": "/",
+    "unit_price_separator": "\/",
     "vendor": "Verkoper",
     "view_in_your_space": "Bekijk in jouw ruimte"
   },
@@ -495,7 +495,7 @@
     },
     "title": "Zoeken",
     "view_all_results": "Bekijk alle resultaten",
-    "seen_number_of_results_html": "Je hebt <span class='strong'>{{ number1 }}</span> van de <span class='strong'>{{ number2 }}</span> resultaten gezien",
+    "seen_number_of_results_html": "Je hebt <span class='strong'>{{ number1 }}<\/span> van de <span class='strong'>{{ number2 }}<\/span> resultaten gezien",
     "show_more_results": "Toon meer resultaten",
     "show_previous_results": "Toon vorige resultaten"
   },

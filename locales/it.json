@@ -14,7 +14,7 @@
         "posted_successfully_moderated": "Grazie per il tuo commento! Verrà pubblicato dopo un controllo di moderazione.",
         "posted_successfully_not_moderated": "Grazie per il tuo commento! Aggiorna la pagina per vedere il tuo commento.",
         "title": "{{ minutes }} tempo di lettura minimo",
-        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}</span> su <span class='strong'>{{ number2 }}</span> commenti",
+        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}<\/span> su <span class='strong'>{{ number2 }}<\/span> commenti",
         "form_title": "lascia un commento",
         "subtitle": "Cosa ne pensi di questo post sul blog?",
         "name": "Nome",
@@ -24,7 +24,7 @@
     },
     "breadcrumb": "Blog",
     "title": "Leggi i nostri ultimi post sul blog",
-    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}</span> su <span class='strong'>{{ number2 }}</span> Post del blog",
+    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}<\/span> su <span class='strong'>{{ number2 }}<\/span> Post del blog",
     "tags": "Tag",
     "share": "Condividere su:",
     "written_by": "di",
@@ -60,9 +60,9 @@
     "button_proceed": "Sarete inviati attraverso",
     "continue_shopping": "Continua gli acquisti",
     "free_shipping": "Spedizione gratuita!",
-    "free_shipping_long_html": "Il vostro ordine sarà <span class='strong'>spedito gratuitamente</span>!",
+    "free_shipping_long_html": "Il vostro ordine sarà <span class='strong'>spedito gratuitamente<\/span>!",
     "amount_to_free_shipping": "Ordine per un altro {{ amount }} per la spedizione gratuita",
-    "amount_to_free_shipping_long_html": "Ordinate per <span class='strong'>{{ amount }}</span> e il tuo ordine sarà spedito <span class='strong'>gratuitamente</span>!",
+    "amount_to_free_shipping_long_html": "Ordinate per <span class='strong'>{{ amount }}<\/span> e il tuo ordine sarà spedito <span class='strong'>gratuitamente<\/span>!",
     "title": "Carrello",
     "total": "Totale",
     "checkout": "Guardare"
@@ -106,7 +106,7 @@
       "one": "{{ amount }} prodotto",
       "other": "{{ amount }} prodotti"
     },
-    "seen_number_of_products_html": "Hai visto <span class='strong'>{{ number1 }}</span> prodotti su <span class='strong'>{{ number2 }}</span>",
+    "seen_number_of_products_html": "Hai visto <span class='strong'>{{ number1 }}<\/span> prodotti su <span class='strong'>{{ number2 }}<\/span>",
     "show_more_products": "Mostra più prodotti",
     "show_previous_products": "Mostra i prodotti precedenti"
   },
@@ -183,7 +183,7 @@
       "fulfilled_at_html": "Spedito il {{ date }}",
       "total": "Totale",
       "view_order": "Visualizza l'ordine",
-      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}</span> fuori <span class='strong'>{{ number2 }}</span> ordini"
+      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}<\/span> fuori <span class='strong'>{{ number2 }}<\/span> ordini"
     },
     "order": {
       "title": "Ordine {{ order_number }}",
@@ -194,8 +194,8 @@
       "cancelled_reason": "Motivo dell'annullamento dell'ordine: {{ reason }}",
       "placed_at": "Ordine effettuato su {{ date }}",
       "fulfilled_at": "Ordine spedito il {{ date }}",
-      "fulfillment_html": "Il vostro prodotto è stato spedito. Seguite la spedizione con il numero {{ tracking_number }} o cliccando qui: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
-      "line_fulfillment_html": "Il tuo prodotto \"{{ product_title }}\" è stato spedito. Seguite la spedizione con il numero {{ tracking_number }} o cliccando qui: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "fulfillment_html": "Il vostro prodotto è stato spedito. Seguite la spedizione con il numero {{ tracking_number }} o cliccando qui: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
+      "line_fulfillment_html": "Il tuo prodotto \"{{ product_title }}\" è stato spedito. Seguite la spedizione con il numero {{ tracking_number }} o cliccando qui: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
       "tracking_url": "URL di tracciamento",
       "track_shipment": "Traccia la spedizione",
       "tracking_company": "Società di tracciamento",
@@ -233,7 +233,7 @@
       "city": "City",
       "country": "Paese",
       "search_country": "Ricerca",
-      "province": "Stato/Provincia",
+      "province": "Stato\/Provincia",
       "zip": "Codice di avviamento postale",
       "phone": "Numero di telefono",
       "set_default": "Impostare come indirizzo predefinito",
@@ -257,18 +257,18 @@
   },
   "date_formats": {
     "month_day_year": "%B %d %Y",
-    "month_day_year_basic": "%m/%d/%Y"
+    "month_day_year_basic": "%m\/%d\/%Y"
   },
   "footer": {
     "customer_service_img_default_alt": "Immagine del servizio clienti",
-    "whatsapp_html": "Fate le vostre domande su <span class='strong'>WhatsApp</span>"
+    "whatsapp_html": "Fate le vostre domande su <span class='strong'>WhatsApp<\/span>"
   },
   "general": {
     "accessibility": {
       "toggle": "Toggle {{ item }}",
       "only_you_can_see_this": "Solo voi potete vedere questo",
       "enable_javascript_message": "Abilita JavaScript per migliorare la tua esperienza.",
-      "toggle_accessibility_mode": "Attiva/disattiva la modalità di accessibilità",
+      "toggle_accessibility_mode": "Attiva\/disattiva la modalità di accessibilità",
       "go_to_homepage": "Vai alla pagina principale",
       "go_to_navigation": "Vai alla navigazione",
       "go_to_search": "Vai alla ricerca",
@@ -366,7 +366,7 @@
       "logout": "Logout",
       "my_account": "Il mio account",
       "login": "Login",
-      "welcome_user_html": "Ciao, <span class='strong'>{{ name }}</span>",
+      "welcome_user_html": "Ciao, <span class='strong'>{{ name }}<\/span>",
       "overview": "Panoramica dell'Account",
       "orders": "Ordini",
       "info": "Informazioni"
@@ -374,13 +374,13 @@
     "cart": "Carrello",
     "language": "Lingua",
     "flag_of": "{{ country }} - bandiera",
-    "country": "Paese/regione",
+    "country": "Paese\/regione",
     "extra_img_default_alt": "Alt predefinita img extra",
     "navigation": {
       "view_more": "Visualizza di più",
       "view_all": "Mostra tutto",
       "view_catalog": "Visualizza catalogo",
-      "toggle_submenu": "Attiva/disattiva sottomenu",
+      "toggle_submenu": "Attiva\/disattiva sottomenu",
       "recently_viewed_products": "Prodotti visionati recentemente"
     }
   },
@@ -469,7 +469,7 @@
     "not_in_stock_tag": "Esaurito",
     "price_varies_label": "Da",
     "unit_price_label": "Etichetta prezzo unitario",
-    "unit_price_separator": "/",
+    "unit_price_separator": "\/",
     "save": "Salva",
     "view_in_your_space": "Visualizza nel tuo spazio",
     "one_time_purchase": "Acquisto una tantum",
@@ -495,7 +495,7 @@
       "placeholder": "Che cosa sta cercando?",
       "search_again": "Cerca di nuovo"
     },
-    "seen_number_of_results_html": "Hai visto <span class='strong'>{{ number1 }}</span> risultati su <span class='strong'>{{ number2 }}</span>",
+    "seen_number_of_results_html": "Hai visto <span class='strong'>{{ number1 }}<\/span> risultati su <span class='strong'>{{ number2 }}<\/span>",
     "show_more_results": "Mostra più risultati",
     "show_previous_results": "Mostra i risultati precedenti"
   },

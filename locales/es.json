@@ -14,7 +14,7 @@
         "posted_successfully_moderated": "Gracias por su comentario. Se publicará después de una comprobación de moderación.",
         "posted_successfully_not_moderated": "Gracias por su comentario. Actualiza la página para ver tu comentario.",
         "title": "Comments",
-        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}</span> fuera de <span class='strong'>{{ number2 }}</span> comentarios",
+        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}<\/span> fuera de <span class='strong'>{{ number2 }}<\/span> comentarios",
         "form_title": "Deja un comentario",
         "subtitle": "¿Qué opina de esta entrada del blog?",
         "name": "Name",
@@ -24,7 +24,7 @@
     },
     "breadcrumb": "Blogs",
     "title": "Lea nuestras últimas publicaciones en el blog",
-    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}</span> fuera de <span class='strong'>{{ number2 }}</span> Entradas del blog",
+    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}<\/span> fuera de <span class='strong'>{{ number2 }}<\/span> Entradas del blog",
     "tags": "Tags",
     "share": "Compartir en:",
     "written_by": "por",
@@ -35,9 +35,9 @@
   },
   "cart": {
     "free_shipping": "Envío gratuito.",
-    "free_shipping_long_html": "El <span class='strong'>envío de</span> su pedido será <span class='strong'>gratuito</span>.",
+    "free_shipping_long_html": "El <span class='strong'>envío de<\/span> su pedido será <span class='strong'>gratuito<\/span>.",
     "amount_to_free_shipping": "Pida otro {{ amount }} para el envío gratuito",
-    "amount_to_free_shipping_long_html": "Haga un pedido de <span class='strong'>{{ amount }}</span> ¡más y su pedido será enviado <span class='strong'>gratis</span>!",
+    "amount_to_free_shipping_long_html": "Haga un pedido de <span class='strong'>{{ amount }}<\/span> ¡más y su pedido será enviado <span class='strong'>gratis<\/span>!",
     "product": {
       "product": "Producto",
       "products": "Products",
@@ -100,13 +100,13 @@
     "all_collections": "Todas las colecciones",
     "collections": "Colecciones",
     "view_all_collections": "Ver todas las colecciones",
-    "empty_collection_html": "No hay productos en esta colección. <a href='/collections'>Sigue comprando</a>.",
+    "empty_collection_html": "No hay productos en esta colección. <a href='\/collections'>Sigue comprando<\/a>.",
     "amount_of_products": {
       "zero": "No hay productos",
       "one": "{{ amount }} producto",
       "other": "{{ amount }} productos"
     },
-    "seen_number_of_products_html": "Has visto <span class='strong'>{{ number1 }}</span> de <span class='strong'>{{ number2 }}</span> productos",
+    "seen_number_of_products_html": "Has visto <span class='strong'>{{ number1 }}<\/span> de <span class='strong'>{{ number2 }}<\/span> productos",
     "show_more_products": "Mostrar más productos",
     "show_previous_products": "Mostrar productos anteriores"
   },
@@ -183,7 +183,7 @@
       "fulfilled_at_html": "Enviado el {{ date }}",
       "total": "Total",
       "view_order": "Ver pedido",
-      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}</span> de <span class='strong'>{{ number2 }}</span> pedidos"
+      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}<\/span> de <span class='strong'>{{ number2 }}<\/span> pedidos"
     },
     "order": {
       "title": "Pida {{ order_number }}",
@@ -194,8 +194,8 @@
       "cancelled_reason": "Motivo de la anulación de este pedido: {{ reason }}",
       "placed_at": "Pedido realizado en {{ date }}",
       "fulfilled_at": "El pedido se envía el {{ date }}",
-      "fulfillment_html": "Su producto ha sido enviado. Siga el envío con el número {{ tracking_number }} o haciendo clic aquí: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
-      "line_fulfillment_html": "Su producto \"{{ product_title }}\" ha sido enviado. Siga el envío con el número {{ tracking_number }} o haciendo clic aquí: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "fulfillment_html": "Su producto ha sido enviado. Siga el envío con el número {{ tracking_number }} o haciendo clic aquí: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
+      "line_fulfillment_html": "Su producto \"{{ product_title }}\" ha sido enviado. Siga el envío con el número {{ tracking_number }} o haciendo clic aquí: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
       "tracking_url": "URL de seguimiento",
       "track_shipment": "Rastrear el envío",
       "tracking_company": "Empresa de seguimiento",
@@ -233,7 +233,7 @@
       "city": "City",
       "country": "País",
       "search_country": "Busca en",
-      "province": "Estado/Provincia",
+      "province": "Estado\/Provincia",
       "zip": "Código postal",
       "phone": "Número de teléfono",
       "set_default": "Establecer como dirección por defecto",
@@ -257,11 +257,11 @@
   },
   "date_formats": {
     "month_day_year": "%B %d %Y",
-    "month_day_year_basic": "%m/%d/%Y"
+    "month_day_year_basic": "%m\/%d\/%Y"
   },
   "footer": {
     "customer_service_img_default_alt": "Imagen de servicio al cliente",
-    "whatsapp_html": "Haz tus preguntas por <span class='strong'>WhatsApp</span>"
+    "whatsapp_html": "Haz tus preguntas por <span class='strong'>WhatsApp<\/span>"
   },
   "general": {
     "accessibility": {
@@ -366,7 +366,7 @@
       "logout": "Cierre de sesión",
       "my_account": "Mi cuenta",
       "login": "Firme en el registro",
-      "welcome_user_html": "Hola, <span class='strong'>{{ name }}</span>",
+      "welcome_user_html": "Hola, <span class='strong'>{{ name }}<\/span>",
       "overview": "Resumen de la cuenta",
       "orders": "Ordenes",
       "info": "Info"
@@ -374,7 +374,7 @@
     "cart": "Cesta",
     "language": "Idioma",
     "flag_of": "{{ country }} - bandera",
-    "country": "País/región",
+    "country": "País\/región",
     "extra_img_default_alt": "Imagen extra de la cabecera",
     "navigation": {
       "view_more": "Ver más",
@@ -468,7 +468,7 @@
     "stock_tag": "¡Últimas existencias!",
     "not_in_stock_tag": "No disponible en stock",
     "price_varies_label": "De",
-    "unit_price_separator": "/",
+    "unit_price_separator": "\/",
     "save": "Guardar",
     "view_in_your_space": "Vista en su espacio",
     "one_time_purchase": "Compra única",
@@ -495,7 +495,7 @@
       "placeholder": "¿Qué buscas?",
       "search_again": "Busca de nuevo"
     },
-    "seen_number_of_results_html": "Has visto <span class='strong'>{{ number1 }}</span> de <span class='strong'>{{ number2 }}</span> resultados",
+    "seen_number_of_results_html": "Has visto <span class='strong'>{{ number1 }}<\/span> de <span class='strong'>{{ number2 }}<\/span> resultados",
     "show_more_results": "Mostrar más resultados",
     "show_previous_results": "Mostrar resultados anteriores"
   },

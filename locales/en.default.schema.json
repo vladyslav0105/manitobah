@@ -373,7 +373,7 @@
     },
     "fix_zindex": {
       "label": "Control the stacking order of sections",
-      "info": "Increase or decrease the z-index value to control the visual layering of sections, ensuring the desired display arrangement when using negative spacing. [Read more](https://intercom.help/xtra-for-shopify/en/articles/8310188-z-index-settings)"
+      "info": "Increase or decrease the z-index value to control the visual layering of sections, ensuring the desired display arrangement when using negative spacing. [Read more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8310188-z-index-settings)"
     }
   },
   "settings_schema": {
@@ -384,7 +384,7 @@
           "header": "Accessibility",
           "rtl": {
             "label": "Enable RTL text direction",
-            "info": "Arabic, Hebrew and Persian are the most widespread RTL writing systems in modern times. Online stores in RTL language are recommended to enable this setting. [Learn more ](https://intercom.help/xtra-for-shopify/en/articles/7938629-accessibility)"
+            "info": "Arabic, Hebrew and Persian are the most widespread RTL writing systems in modern times. Online stores in RTL language are recommended to enable this setting. [Learn more ](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938629-accessibility)"
           },
           "banners_clickable": {
             "label": "Clickable images",
@@ -401,7 +401,7 @@
       "settings": {
         "favicon": {
           "label": "Favicon",
-          "info": "32 x 32px .png or .svg recommended [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938629-accessibility)"
+          "info": "32 x 32px .png or .svg recommended [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938629-accessibility)"
         }
       }
     },
@@ -551,7 +551,7 @@
         },
         "product_label": {
           "header": "Product label",
-          "paragraph": "Click [here](https://intercom.help/xtra-for-shopify/en/articles/7938624-products) for information about adding labels.",
+          "paragraph": "Click [here](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products) for information about adding labels.",
           "product_label_color": {
             "label": "Background"
           },
@@ -574,7 +574,7 @@
           "header": "Color swatches",
           "enable_color_swatches": {
             "label": "Enable color swatches",
-            "info": "[More information](https://intercom.help/xtra-for-shopify/en/articles/8310254-color-swatches)"
+            "info": "[More information](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8310254-color-swatches)"
           },
           "color_swatch_name": {
             "label": "Color swatches name",
@@ -871,7 +871,7 @@
           }
         },
         "buy_button_style": {
-          "label": "Buy button/add to cart styling",
+          "label": "Buy button\/add to cart styling",
           "options__1": {
             "label": "Fill"
           },
@@ -1128,7 +1128,7 @@
           },
           "show_stock_label": {
             "label": "Show 'Last stock!' on products",
-            "info": "When stock is running low on a product, inform your visitors about this. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938624-products)"
+            "info": "When stock is running low on a product, inform your visitors about this. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products)"
           },
           "stock_label_qty": {
             "label": "Stock level to show ‘Last stock!’ label"
@@ -1138,7 +1138,7 @@
           },
           "product_custom_label": {
             "label": "Metafield: custom label",
-            "info": "Create a metafield for a custom label and enter the namespace and key here (e.g. custom.label) [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938624-products)"
+            "info": "Create a metafield for a custom label and enter the namespace and key here (e.g. custom.label) [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products)"
           }
         },
         "stock": {
@@ -1171,7 +1171,7 @@
           },
           "product_short_description_text": {
             "label": "Metafield: custom short description",
-            "info": "Create a metafield for a custom short description and enter the namespace and key here (e.g. custom.short_description) [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938624-products)"
+            "info": "Create a metafield for a custom short description and enter the namespace and key here (e.g. custom.short_description) [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products)"
           }
         }
       }
@@ -1196,7 +1196,7 @@
           }
         },
         "quickshop": {
-          "header": "Add to cart / Quickshop",
+          "header": "Add to cart \/ Quickshop",
           "quickshop_behavior": {
             "label": "Behaviour",
             "info": "Only applicable when ‘Quickshop’ or ‘Add to cart’ is selected.",
@@ -1312,7 +1312,7 @@
           "header": "Free shipping",
           "enable_free_shipping": {
             "label": "Enable free shipping",
-            "info": "Note that this feature does not work well when multi-currency is enabled. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938626-shipping-and-delivery)"
+            "info": "Note that this feature does not work well when multi-currency is enabled. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938626-shipping-and-delivery)"
           },
           "free_shipping_amount": {
             "label": "Minimum order amount to free shipping"
@@ -1320,7 +1320,7 @@
         },
         "deliverytime": {
           "header": "Delivery time",
-          "paragraph": "Use metafields to show product delivery times. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938626-shipping-and-delivery)",
+          "paragraph": "Use metafields to show product delivery times. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938626-shipping-and-delivery)",
           "product_deliverytime_in_stock": {
             "label": "Metafield deliverytime - in stock"
           },
@@ -1534,7 +1534,7 @@
           "label": "WhatsApp phone number"
         },
         "header": "Social media accounts",
-        "paragraph": "You can set up your social links in the ['Brand' page](https://help.shopify.com/en/manual/promoting-marketing/managing-brand-assets) in the Shopify settings, but you can also choose to connect them here.",
+        "paragraph": "You can set up your social links in the ['Brand' page](https:\/\/help.shopify.com\/en\/manual\/promoting-marketing\/managing-brand-assets) in the Shopify settings, but you can also choose to connect them here.",
         "social_instagram": {
           "label": "Instagram"
         },
@@ -1621,7 +1621,7 @@
       "settings": {
         "show_age_verify_popup": {
           "label": "Enable age verification popup",
-          "info": "[Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938613-age-verification-popup)"
+          "info": "[Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938613-age-verification-popup)"
         },
         "age_verify_popup_testmode": {
           "label": "Enable test mode",
@@ -1640,7 +1640,7 @@
           },
           "age_verify_popup_cookie_text": {
             "label": "Cookies text (optional)",
-            "info": "The text will automatically be shown to visitors when this is obliged. Make sure you have enabled 'Limit tracking for customers in Europe'. [Learn more](https://help.shopify.com/en/manual/your-account/privacy/cookies#tracking-european-customers-and-gdpr-compliance)"
+            "info": "The text will automatically be shown to visitors when this is obliged. Make sure you have enabled 'Limit tracking for customers in Europe'. [Learn more](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies#tracking-european-customers-and-gdpr-compliance)"
           },
           "age_verify_popup_accept_text": {
             "label": "Approve button label"
@@ -1665,8 +1665,8 @@
       "name": "Cookies",
       "settings": {
         "show_cookiebanner": {
-          "label": "Show cookie banner/popup",
-          "info": "The cookie banner or popup will automatically be shown to visitors when this is obliged, and if no age verification popup is enabled. Make sure you have enabled 'Limit tracking for customers in Europe'. [Learn more](https://help.shopify.com/en/manual/your-account/privacy/cookies#tracking-european-customers-and-gdpr-compliance)",
+          "label": "Show cookie banner\/popup",
+          "info": "The cookie banner or popup will automatically be shown to visitors when this is obliged, and if no age verification popup is enabled. Make sure you have enabled 'Limit tracking for customers in Europe'. [Learn more](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies#tracking-european-customers-and-gdpr-compliance)",
           "options__1": {
             "label": "Banner"
           },
@@ -1679,7 +1679,7 @@
         },
         "cookiebanner_testmode": {
           "label": "Enable test mode",
-          "info": "This shows the banner/popup on every refresh, you should only use this for editing. Make sure 'Test mode' is disabled when publishing your theme."
+          "info": "This shows the banner\/popup on every refresh, you should only use this for editing. Make sure 'Test mode' is disabled when publishing your theme."
         },
         "cookiebanner_image": {
           "label": "Image in the cookie popup",
@@ -1766,7 +1766,7 @@
         },
         "shop_the_look_items": {
           "label": "Products per row",
-          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/8310269-shop-the-look)"
+          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8310269-shop-the-look)"
         }
       }
     }
@@ -1862,7 +1862,7 @@
               "label": "Video"
             },
             "overlay_opacity": {
-              "label": "Image/video overlay opacity"
+              "label": "Image\/video overlay opacity"
             },
             "color_palette": {
               "label": "Color scheme"
@@ -2059,7 +2059,7 @@
               "label": "Background opacity"
             },
             "overlay_opacity_img": {
-              "label": "Image/video overlay opacity"
+              "label": "Image\/video overlay opacity"
             },
             "show_sale_label": {
               "label": "Show sale label"
@@ -2131,7 +2131,7 @@
       "settings": {
         "number_of_items": {
           "label": "Columns per row",
-          "info": "If list includes more collections than columns per row, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/8128582-section-lookbook)"
+          "info": "If list includes more collections than columns per row, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128582-section-lookbook)"
         },
         "space_between": {
           "label": "Space between banners"
@@ -2676,14 +2676,14 @@
       "settings": {
         "image_before": {
           "label": "Before image",
-          "info": "For best results, use an image with a 3:2 aspect ratio. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938571-section-image-comparison)"
+          "info": "For best results, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938571-section-image-comparison)"
         },
         "image_after": {
           "label": "After image",
           "info": "Make sure the dimension match the before image."
         },
         "drag_color_palette": {
-          "label": "Drag button/line color scheme"
+          "label": "Drag button\/line color scheme"
         },
         "drag_direction": {
           "label": "Drag direction",
@@ -2850,7 +2850,7 @@
         },
         "number_of_items": {
           "label": "Collections per row",
-          "info": "If list includes more collections than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/collections/4045747-theme-xclusive-2-0-for-shopify)"
+          "info": "If list includes more collections than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/collections\/4045747-theme-xclusive-2-0-for-shopify)"
         },
         "text_alignment": {
           "label": "Heading position",
@@ -2950,7 +2950,7 @@
           "label": "Seconds between slides"
         },
         "enable_controls": {
-          "label": "Show play / pause button",
+          "label": "Show play \/ pause button",
           "info": "Only applicable when 'autoplay' is enabled."
         },
         "mobile": {
@@ -2978,7 +2978,7 @@
           "settings": {
             "image": {
               "label": "Image",
-              "info": "Slideshow can be used in three different layouts. For more information and recommended image sizes [click here](https://intercom.help/xtra-for-shopify/en/articles/8128591-section-slideshow)."
+              "info": "Slideshow can be used in three different layouts. For more information and recommended image sizes [click here](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128591-section-slideshow)."
             },
             "layout": {
               "label": "Layout",
@@ -3515,7 +3515,7 @@
       "settings": {
         "image": {
           "label": "Background image",
-          "info": "For best results with full background setting, use an image with a 3:2 aspect ratio. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938589-section-counters)"
+          "info": "For best results with full background setting, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938589-section-counters)"
         },
         "overlay_opacity_img": {
           "label": "Image overlay opacity"
@@ -3597,7 +3597,7 @@
           "label": "Video"
         },
         "overlay_opacity_img": {
-          "label": "Image/video overlay opacity"
+          "label": "Image\/video overlay opacity"
         },
         "height": {
           "label": "Height",
@@ -3704,7 +3704,7 @@
       "settings": {
         "number_of_items": {
           "label": "Logos per row",
-          "info": "If list includes more logos than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938588-section-brand-logo-slider)"
+          "info": "If list includes more logos than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938588-section-brand-logo-slider)"
         },
         "text_alignment": {
           "label": "Heading position",
@@ -3749,7 +3749,7 @@
       "settings": {
         "number_of_items": {
           "label": "Logos per row",
-          "info": "If list includes more logos than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/8128587-section-press-coverage)"
+          "info": "If list includes more logos than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128587-section-press-coverage)"
         },
         "text_alignment": {
           "label": "Heading position",
@@ -3800,7 +3800,7 @@
         },
         "image": {
           "label": "Background image (optional)",
-          "info": "For best results with full background setting, use an image with a 3:2 aspect ratio. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938587-section-newsletter)"
+          "info": "For best results with full background setting, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938587-section-newsletter)"
         },
         "overlay_opacity_img": {
           "label": "Image overlay opacity"
@@ -3840,7 +3840,7 @@
       "settings": {
         "number_of_items": {
           "label": "Products per row",
-          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938585-section-recently-viewed-products)"
+          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938585-section-recently-viewed-products)"
         },
         "image_ratio": {
           "label": "Image ratio",
@@ -3894,7 +3894,7 @@
         },
         "number_of_items": {
           "label": "Blog posts per row",
-          "info": "From 5 blog posts it generates another layout. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938584-section-blog-posts)"
+          "info": "From 5 blog posts it generates another layout. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938584-section-blog-posts)"
         },
         "text_alignment": {
           "label": "Heading position",
@@ -3943,7 +3943,7 @@
         },
         "content_width": {
           "label": "Content width",
-          "info": "When you choose 1280px, the content will be full width. Image/video width can be selected separately within the block settings."
+          "info": "When you choose 1280px, the content will be full width. Image\/video width can be selected separately within the block settings."
         },
         "height": {
           "label": "Banner height",
@@ -4302,7 +4302,7 @@
                 "label": "Question"
               },
               "options__21": {
-                "label": "24/7 on call"
+                "label": "24\/7 on call"
               },
               "options__22": {
                 "label": "Speech bubbles"
@@ -4448,7 +4448,7 @@
         },
         "number_of_items": {
           "label": "Products per row",
-          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938580-section-featured-collection)"
+          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938580-section-featured-collection)"
         },
         "text_alignment": {
           "label": "Heading position",
@@ -4498,7 +4498,7 @@
         },
         "number_of_items": {
           "label": "Products per row",
-          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938575-section-featured-products)"
+          "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938575-section-featured-products)"
         },
         "text_alignment": {
           "label": "Heading position",
@@ -4771,7 +4771,7 @@
                 "label": "Question"
               },
               "options__21": {
-                "label": "24/7 on call"
+                "label": "24\/7 on call"
               },
               "options__22": {
                 "label": "Speech bubbles"
@@ -4797,7 +4797,7 @@
             },
             "content": {
               "header": "Content",
-              "paragraph": "All content can be filled static or with metafields. All content can be used seperate or together in this block. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938578-section-collapsible-content)",
+              "paragraph": "All content can be filled static or with metafields. All content can be used seperate or together in this block. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938578-section-collapsible-content)",
               "faq_answer": {
                 "label": "Text"
               },
@@ -4940,7 +4940,7 @@
                 "label": "Question"
               },
               "options__21": {
-                "label": "24/7 on call"
+                "label": "24\/7 on call"
               },
               "options__22": {
                 "label": "Speech bubbles"
@@ -4966,7 +4966,7 @@
             },
             "content": {
               "header": "Content",
-              "paragraph": "All content can be filled static or with metafields. All content can be used seperate or together in this block. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/8128569-section-content-tabs)",
+              "paragraph": "All content can be filled static or with metafields. All content can be used seperate or together in this block. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128569-section-content-tabs)",
               "collection": {
                 "label": "Collection"
               },
@@ -4975,7 +4975,7 @@
               },
               "number_of_items": {
                 "label": "Products per row",
-                "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/8128569-section-content-tabs)"
+                "info": "If list includes more products than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128569-section-content-tabs)"
               },
               "text": {
                 "label": "Text"
@@ -5071,7 +5071,7 @@
         },
         "number_of_items": {
           "label": "Images per row",
-          "info": "If list includes more images than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/8128593-section-social-stories)"
+          "info": "If list includes more images than shown, it will be a slider automatically. Swipe is automatically activated on mobile. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128593-section-social-stories)"
         },
         "space_between": {
           "label": "Space between banners"
@@ -5258,7 +5258,7 @@
               "label": "Video"
             },
             "overlay_opacity": {
-              "label": "Image/video overlay opacity"
+              "label": "Image\/video overlay opacity"
             },
             "text": {
               "label": "Description"
@@ -5386,7 +5386,7 @@
               "label": "Video"
             },
             "overlay_opacity": {
-              "label": "Image/video overlay opacity"
+              "label": "Image\/video overlay opacity"
             },
             "link_text": {
               "label": "Button label",
@@ -5817,7 +5817,7 @@
     "announcement_bar": {
       "name": "Announcement bar",
       "settings": {
-        "paragraph": "The announcement bar will remain visible in the theme editor after clicking the 'close' icon. [Read more](https://intercom.help/xtra-for-shopify/en/articles/7938634-announcement-bar)",
+        "paragraph": "The announcement bar will remain visible in the theme editor after clicking the 'close' icon. [Read more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938634-announcement-bar)",
         "height": {
           "label": "Height",
           "options__1": {
@@ -5871,7 +5871,7 @@
       "settings": {
         "layout": {
           "label": "Layout",
-          "info": "Layout 4 does not show the menu button, more information on header layouts can be found [here](https://intercom.help/xtra-for-shopify/en/articles/7938633-header-settings).",
+          "info": "Layout 4 does not show the menu button, more information on header layouts can be found [here](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938633-header-settings).",
           "options__1": {
             "label": "Logo left, extended searchbar"
           },
@@ -6234,7 +6234,7 @@
           "settings": {
             "menu_item": {
               "label": "Menu item",
-              "info": "Copy and paste the name of an item created in your menu to create a dropdown menu. [Read more](https://intercom.help/xtra-for-shopify/en/articles/7938633-header-settings#h_4fb96ad5c6)"
+              "info": "Copy and paste the name of an item created in your menu to create a dropdown menu. [Read more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938633-header-settings#h_4fb96ad5c6)"
             },
             "text_alignment": {
               "label": "Heading position",
@@ -6302,7 +6302,7 @@
           "settings": {
             "menu_item": {
               "label": "Menu item",
-              "info": "Copy and paste the name of an item created in your menu to create a dropdown menu. [Read more](https://intercom.help/xtra-for-shopify/en/articles/7938633-header-settings#h_4fb96ad5c6)"
+              "info": "Copy and paste the name of an item created in your menu to create a dropdown menu. [Read more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938633-header-settings#h_4fb96ad5c6)"
             }
           }
         }
@@ -6354,7 +6354,7 @@
           },
           "enable_follow_on_shop": {
             "label": "Enable Follow on Shop",
-            "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+            "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
           }
         },
         "payment_methods": {
@@ -6448,7 +6448,7 @@
               "header": "Follow on shop",
               "enable_follow_on_shop": {
                 "label": "Enable Follow on Shop",
-                "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+                "info": "To allow customers to follow your store on the Shop app from your storefront, Shop Pay must be enabled. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
               }
             },
             "mobile": {
@@ -6485,7 +6485,7 @@
     "product_recommendations": {
       "name": "Product recommendations",
       "settings": {
-        "paragraph": "Dynamic recommendations use order and product information to change and improve over time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products#recommendation-logic)",
+        "paragraph": "Dynamic recommendations use order and product information to change and improve over time. [Learn more](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products#recommendation-logic)",
         "recommended_products_qty": {
           "label": "Maximum products to show"
         },
@@ -6512,7 +6512,7 @@
     "product_reviews": {
       "name": "Product reviews",
       "settings": {
-        "paragraph": "Make sure you install [Shopify's free Product Reviews](https://apps.shopify.com/product-reviews) app before enabling this section.",
+        "paragraph": "Make sure you install [Shopify's free Product Reviews](https:\/\/apps.shopify.com\/product-reviews) app before enabling this section.",
         "text_alignment": {
           "label": "Heading position",
           "options__1": {
@@ -6535,7 +6535,7 @@
       "settings": {
         "menu": {
           "label": "Menu",
-          "info": "Create a menu containing all of your info pages. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938606-default-pages)"
+          "info": "Create a menu containing all of your info pages. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938606-default-pages)"
         }
       }
     },
@@ -6586,7 +6586,7 @@
       "settings": {
         "google_maps_iframe": {
           "label": "Google Maps embed code",
-          "info": "Show your shops' location in Google Maps. You can find the embed code by searching your store in Google Maps, clicking 'Share' and then choosing 'Embed a map'. [Learn more](https://support.google.com/maps/answer/144361)"
+          "info": "Show your shops' location in Google Maps. You can find the embed code by searching your store in Google Maps, clicking 'Share' and then choosing 'Embed a map'. [Learn more](https:\/\/support.google.com\/maps\/answer\/144361)"
         }
       }
     },
@@ -6769,7 +6769,7 @@
           "cons": {
             "label": "Cons"
           },
-          "paragraph": "Pros and cons can be setup with metafields. More information on metafields and this feature can be found [here](https://intercom.help/xtra-for-shopify/en/articles/7938649-how-to-set-up-product-page-metafields)."
+          "paragraph": "Pros and cons can be setup with metafields. More information on metafields and this feature can be found [here](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938649-how-to-set-up-product-page-metafields)."
         },
         "specifications": {
           "header": "Product specifications",
@@ -6794,7 +6794,7 @@
           "specifications": {
             "label": "Specifications"
           },
-          "paragraph": "Product specifications can be setup with metafields. More information on metafields and this feature can be found [here](https://intercom.help/xtra-for-shopify/en/articles/7938649-how-to-set-up-product-page-metafields)."
+          "paragraph": "Product specifications can be setup with metafields. More information on metafields and this feature can be found [here](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938649-how-to-set-up-product-page-metafields)."
         },
         "mobile": {
           "header": "Mobile layout",
@@ -6821,7 +6821,7 @@
           },
           "multiply_bg_mobile": {
             "label": "Enable light background",
-            "info": "Only applicable when ‘Pass through colors on product images’ is enabled. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938617-images)"
+            "info": "Only applicable when ‘Pass through colors on product images’ is enabled. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938617-images)"
           }
         }
       },
@@ -7038,7 +7038,7 @@
             },
             "show_selected_variant_images": {
               "label": "Show images from selected variants only",
-              "info": "Only applicable when color swatches are active. Setup your color swatches in general settings: [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page#h_2d76ccaa41)"
+              "info": "Only applicable when color swatches are active. Setup your color swatches in general settings: [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page#h_2d76ccaa41)"
             },
             "show_unavailable_variants": {
               "label": "Show unavailable variants",
@@ -7050,7 +7050,7 @@
             },
             "enable_selling_plans": {
               "label": "Enable subscriptions",
-              "info": "For more information on how to set up subscriptions [click here](https://help.shopify.com/en/manual/products/purchase-options/subscriptions)."
+              "info": "For more information on how to set up subscriptions [click here](https:\/\/help.shopify.com\/en\/manual\/products\/purchase-options\/subscriptions)."
             },
             "sizechart": {
               "header": "Size chart",
@@ -7150,7 +7150,7 @@
             },
             "true_size_value": {
               "label": "Selected option",
-              "info": "Provide one of the options above to let customers know if this product is true to size. A metafield can be linked to this field. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page)"
+              "info": "Provide one of the options above to let customers know if this product is true to size. A metafield can be linked to this field. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page)"
             }
           }
         },
@@ -7175,7 +7175,7 @@
               },
               "benefit_value": {
                 "label": "Selected score",
-                "info": "Determine the score of the benefit from 1 to 5. A metafield can be linked to this field. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page)"
+                "info": "Determine the score of the benefit from 1 to 5. A metafield can be linked to this field. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page)"
               }
             }
           }
@@ -7285,7 +7285,7 @@
                 "label": "Question"
               },
               "options__21": {
-                "label": "24/7 on call"
+                "label": "24\/7 on call"
               },
               "options__22": {
                 "label": "Speech bubbles"
@@ -7311,7 +7311,7 @@
             },
             "content": {
               "header": "Content",
-              "paragraph": "All content can be filled static or with metafields. All content can be used seperate or together in this block. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page)",
+              "paragraph": "All content can be filled static or with metafields. All content can be used seperate or together in this block. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page)",
               "text": {
                 "label": "Text"
               },
@@ -7346,7 +7346,7 @@
         "complementary_products": {
           "name": "Complementary products",
           "settings": {
-            "paragraph": "This block only works with the Shopify Search & Discovery app. If no additional products are set, placeholder products will be shown (only in the theme editor). To select complementary products add the Search & Discovery app. [Learn more](https://help.shopify.com/en/manual/online-store/search-and-discovery/product-recommendations)",
+            "paragraph": "This block only works with the Shopify Search & Discovery app. If no additional products are set, placeholder products will be shown (only in the theme editor). To select complementary products add the Search & Discovery app. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/product-recommendations)",
             "layout": {
               "label": "Layout",
               "options__1": {
@@ -7449,7 +7449,7 @@
                 "label": "Question"
               },
               "options__21": {
-                "label": "24/7 on call"
+                "label": "24\/7 on call"
               },
               "options__22": {
                 "label": "Speech bubbles"
@@ -7478,7 +7478,7 @@
               "products_layout": {
                 "label": "Layout",
                 "options__1": {
-                  "label": "Grid / swipe"
+                  "label": "Grid \/ swipe"
                 },
                 "options__2": {
                   "label": "List"
@@ -7486,7 +7486,7 @@
               },
               "number_of_items": {
                 "label": "Products per row",
-                "info": "Only applicable for layout 'Grid / swipe'."
+                "info": "Only applicable for layout 'Grid \/ swipe'."
               }
             },
             "products_layout": {
@@ -7533,7 +7533,7 @@
             },
             "show_dynamic_buybutton": {
               "label": "Show dynamic buy button",
-              "info": "Customers will see their preferred payment method, like PayPal or Apple Pay. [Learn more](https://help.shopify.com/en/manual/online-store/themes/dynamic-checkout)"
+              "info": "Customers will see their preferred payment method, like PayPal or Apple Pay. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/dynamic-checkout)"
             },
             "button_style_dynamic_buybutton": {
               "label": "Dynamic buy button styling",
@@ -7543,7 +7543,7 @@
               "header": "Pre-order delivery label",
               "preorder_label": {
                 "label": "Delivery label",
-                "info": "Add a delivery message to the pre-order button with metafields or general text content. If you want to show this information in your order mails, click [here](https://community.shopify.com/c/shopify-design/product-pages-get-customization-information-for-products/td-p/616503) for documentation."
+                "info": "Add a delivery message to the pre-order button with metafields or general text content. If you want to show this information in your order mails, click [here](https:\/\/community.shopify.com\/c\/shopify-design\/product-pages-get-customization-information-for-products\/td-p\/616503) for documentation."
               },
               "preorder_label_color_palette": {
                 "label": "Delivery label color scheme"
@@ -7556,7 +7556,7 @@
               "header": "Gift card",
               "show_gift_card_recipient": {
                 "label": "Show recipient information form for gift card products",
-                "info": "Gift card products can optionally be sent direct to a recipient on a scheduled date along with a personal message. [Learn more](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+                "info": "Gift card products can optionally be sent direct to a recipient on a scheduled date along with a personal message. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
               }
             }
           }
@@ -7606,7 +7606,7 @@
         "pickup": {
           "name": "Pickup availability",
           "settings": {
-            "paragraph": "For more information about how to set up local pickup, click [here](https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/local-methods/local-pickup)."
+            "paragraph": "For more information about how to set up local pickup, click [here](https:\/\/help.shopify.com\/en\/manual\/shipping\/setting-up-and-managing-your-shipping\/local-methods\/local-pickup)."
           }
         },
         "button": {
@@ -7764,7 +7764,7 @@
           },
           "enable_image_choice": {
             "label": "Enable image choice",
-            "info": "This will give the visitor the option to switch between primary or secondary product images. For example: Model or product. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938607-collections)"
+            "info": "This will give the visitor the option to switch between primary or secondary product images. For example: Model or product. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938607-collections)"
           },
           "image_choice_1": {
             "label": "First label",
@@ -7820,11 +7820,11 @@
           },
           "filter_menu": {
             "label": "Menu",
-            "info": "A menu which will be used to display related collections. Click [here](https://intercom.help/xtra-for-shopify/en/articles/7938607-collections) for more info on how to build this menu."
+            "info": "A menu which will be used to display related collections. Click [here](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938607-collections) for more info on how to build this menu."
           },
           "collections_menu": {
             "label": "Collections",
-            "info": "Select related collections and/or choose a menu above. Duplicate items will be hidden automatically."
+            "info": "Select related collections and\/or choose a menu above. Duplicate items will be hidden automatically."
           },
           "filter_sticky": {
             "label": "Enable sticky filters",
@@ -7854,7 +7854,7 @@
         },
         "filter_swatches": {
           "header": "Visual filters",
-          "paragraph": "For more information on how to set up visual filters [click here](https://help.shopify.com/en/manual/online-store/search-and-discovery/filters#visual-filters).",
+          "paragraph": "For more information on how to set up visual filters [click here](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/filters#visual-filters).",
           "image_swatches_size": {
             "label": "Image size",
             "options__1": {
@@ -7993,7 +7993,7 @@
           "header": "Product images",
           "enable_image_choice": {
             "label": "Enable image choice",
-            "info": "This will give the visitor the option to switch between primary or secondary product images. For example: Model or product. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938602-search-page)"
+            "info": "This will give the visitor the option to switch between primary or secondary product images. For example: Model or product. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938602-search-page)"
           },
           "image_choice_1": {
             "label": "First label",
@@ -8027,11 +8027,11 @@
           },
           "filter_menu": {
             "label": "Menu",
-            "info": "A menu which will be used to display collections. Click [here](https://intercom.help/xtra-for-shopify/en/articles/7938602-search-page) for more info on how to build this menu."
+            "info": "A menu which will be used to display collections. Click [here](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938602-search-page) for more info on how to build this menu."
           },
           "collections_menu": {
             "label": "Collections",
-            "info": "Select related collections and/or choose a menu above. Duplicate items will be hidden automatically."
+            "info": "Select related collections and\/or choose a menu above. Duplicate items will be hidden automatically."
           },
           "filter_sticky": {
             "label": "Enable sticky filters",
@@ -8061,7 +8061,7 @@
         },
         "filter_swatches": {
           "header": "Visual filters",
-          "paragraph": "For more information on how to set up visual filters [click here](https://help.shopify.com/en/manual/online-store/search-and-discovery/filters#visual-filters).",
+          "paragraph": "For more information on how to set up visual filters [click here](https:\/\/help.shopify.com\/en\/manual\/online-store\/search-and-discovery\/filters#visual-filters).",
           "image_swatches_size": {
             "label": "Image size",
             "options__1": {
@@ -8426,7 +8426,7 @@
         },
         "show_dynamic_buybutton": {
           "label": "Show dynamic buy button",
-          "info": "Customers will see their preferred payment method, like PayPal or Apple Pay. [Learn more](https://help.shopify.com/en/manual/online-store/themes/dynamic-checkout)"
+          "info": "Customers will see their preferred payment method, like PayPal or Apple Pay. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/dynamic-checkout)"
         },
         "enable_giftcard_or_discount_tab": {
           "label": "Show giftcard or discount code redeem button"
@@ -8557,7 +8557,7 @@
         "newsletter_checkbox": {
           "name": "Newsletter checkbox",
           "settings": {
-            "paragraph": "Customize your form texts in the theme translations. [Learn more](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/translate-theme)"
+            "paragraph": "Customize your form texts in the theme translations. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/language\/translate-theme)"
           }
         },
         "custom_checkbox": {
@@ -8579,7 +8579,7 @@
       "settings": {
         "image": {
           "label": "Background",
-          "info": "For best results with full background setting, use an image with a 3:2 aspect ratio. [Learn more](https://intercom.help/xtra-for-shopify/en/articles/7938603-404-page)"
+          "info": "For best results with full background setting, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938603-404-page)"
         },
         "overlay_opacity": {
           "label": "Image overlay opacity"
@@ -8633,19 +8633,19 @@
         "message": {
           "name": "Message",
           "settings": {
-            "paragraph": "Customize your message in the 'Preferences' section of your Online Store. [Learn more](https://help.shopify.com/en/manual/online-store/themes/password-page#add-password-protection-to-your-online-store)"
+            "paragraph": "Customize your message in the 'Preferences' section of your Online Store. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/password-page#add-password-protection-to-your-online-store)"
           }
         },
         "newsletter_form": {
           "name": "Newsletter form",
           "settings": {
-            "paragraph": "Customize your form texts in the theme translations. [Learn more](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/translate-theme)"
+            "paragraph": "Customize your form texts in the theme translations. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/language\/translate-theme)"
           }
         },
         "password_form": {
           "name": "Password form",
           "settings": {
-            "paragraph": "Customize your form texts in the theme translations. [Learn more](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/translate-theme)"
+            "paragraph": "Customize your form texts in the theme translations. [Learn more](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/language\/translate-theme)"
           }
         },
         "title": {
@@ -8662,7 +8662,7 @@
         },
         "logo": {
           "show_logo": {
-            "label": "Show logo / shop name"
+            "label": "Show logo \/ shop name"
           },
           "header": "Logo",
           "logo": {
@@ -8672,7 +8672,7 @@
             "label": "Logo width"
           },
           "show_logo_giftcard": {
-            "label": "Show logo / shop name on the giftcard"
+            "label": "Show logo \/ shop name on the giftcard"
           },
           "logo_width_on_giftcard": {
             "label": "Logo width on the giftcard"

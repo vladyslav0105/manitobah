@@ -353,7 +353,7 @@
                                 {%- if sub.links != blank %}
                                     <a href="{{ sub.url }}" class="toggle">{{ 'header.navigation.toggle_submenu' | t: item: sub.title }}</a>
                                     <ul>
-                                        {%- for subsub in sub.links limit: items_limit -%}
+                                        {%- for subsub in sub.links -%}
                                             {%- liquid
                                                 assign item_nr = item_nr | plus: 1
                                                 assign item_modulo = item_nr | modulo: nr_of_items_per_col
@@ -382,9 +382,9 @@
                                                 </a>
                                             </li>
                                         {%- endfor -%}
-                                        {%- if sub.links.size > items_limit -%}
+                                        {% comment %} {%- if sub.links.size > items_limit -%}
                                             <li class="overlay-theme"><a href="{{ sub.url }}">{{ 'header.navigation.view_more' | t }}</a></li>
-                                        {%- endif -%}
+                                        {%- endif -%} {% endcomment %}
                                     </ul>
                                 {%- endif -%}
                             </li>

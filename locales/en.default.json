@@ -16,7 +16,7 @@
         "posted_successfully_moderated": "Thanks for your comment! It will be posted after a moderation check.",
         "posted_successfully_not_moderated": "Thanks for your comment! Refresh the page to see your comment.",
         "required": "Required",
-        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}</span> out of <span class='strong'>{{ number2 }}</span> comments",
+        "seen_number_of_comments_html": "<span class='strong'>{{ number1 }}<\/span> out of <span class='strong'>{{ number2 }}<\/span> comments",
         "send": "Send",
         "subtitle": "What do you think about this blog post?",
         "title": "Comments"
@@ -27,7 +27,7 @@
       "one": "{{ minutes }} min reading time",
       "other": "{{ minutes }} min reading time"
     },
-    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}</span> out of <span class='strong'>{{ number2 }}</span> Blog posts",
+    "seen_number_of_articles_html": "<span class='strong'>{{ number1 }}<\/span> out of <span class='strong'>{{ number2 }}<\/span> Blog posts",
     "share": "Share on:",
     "tags": "Tags",
     "title": "Read our newest Blog posts",
@@ -37,7 +37,7 @@
     "add_note": "Special instructions for the seller",
     "add_note_placeholder": "Do you have any notes for us?",
     "amount_to_free_shipping": "Order for another {{ amount }} for free shipping",
-    "amount_to_free_shipping_long_html": "Order for <span class='strong'>{{ amount }}</span> more and your order will be shipped for <span class='strong'>free</span>!",
+    "amount_to_free_shipping_long_html": "Order for <span class='strong'>{{ amount }}<\/span> more and your order will be shipped for <span class='strong'>free<\/span>!",
     "button_proceed": "You will be sent through",
     "button_processing": "Processing data...",
     "checkout": "Checkout",
@@ -45,7 +45,7 @@
     "empty_subtitle": "Click on continue shopping and check out our catalog",
     "empty_title": "We are looking for your products, but it looks like your cart is empty...",
     "free_shipping": "Free shipping!",
-    "free_shipping_long_html": "Your order will be <span class='strong'>shipped for free</span>!",
+    "free_shipping_long_html": "Your order will be <span class='strong'>shipped for free<\/span>!",
     "giftcard_or_discount_code": {
       "placeholder": "Add your code here",
       "submit": "Activate",
@@ -75,7 +75,7 @@
       "zero": "No products"
     },
     "collections": "Collections",
-    "empty_collection_html": "There are no products in this collection. <a href='/collections'>Keep on shopping</a>.",
+    "empty_collection_html": "There are no products in this collection. <a href='\/collections'>Keep on shopping<\/a>.",
     "filters": {
       "current_filters": "Your current filters",
       "filter": "Filter",
@@ -106,7 +106,7 @@
       "title-descending": "Alphabetically, z-a"
     },
     "view_all_collections": "View all collections",
-    "seen_number_of_products_html": "You have seen <span class='strong'>{{ number1 }}</span> out of <span class='strong'>{{ number2 }}</span> products",
+    "seen_number_of_products_html": "You have seen <span class='strong'>{{ number1 }}<\/span> out of <span class='strong'>{{ number2 }}<\/span> products",
     "show_more_products": "Show more products",
     "show_previous_products": "Show previous products"
   },
@@ -163,7 +163,7 @@
       "first_name": "First name",
       "last_name": "Last name",
       "phone": "Phone number",
-      "province": "State/Province",
+      "province": "State\/Province",
       "search_country": "Search",
       "set_default": "Set as default address",
       "title": "My addresses",
@@ -192,9 +192,9 @@
       "date_html": "Placed on {{ date }}",
       "discount": "Discount",
       "fulfilled_at": "Order shipped on {{ date }}",
-      "fulfillment_html": "Your product has been shipped. Follow the shipment with number {{ tracking_number }} or by clicking here: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "fulfillment_html": "Your product has been shipped. Follow the shipment with number {{ tracking_number }} or by clicking here: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
       "image": "Image",
-      "line_fulfillment_html": "Your product \"{{ product_title }}\" has been shipped. Follow the shipment with number {{ tracking_number }} or by clicking here: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} </a>",
+      "line_fulfillment_html": "Your product \"{{ product_title }}\" has been shipped. Follow the shipment with number {{ tracking_number }} or by clicking here: <a href=\"{{ tracking_url }}\" class=\"Link Link--underlineNative\" target=\"_blank\"> {{ tracking_url }} <\/a>",
       "line_price": "Total",
       "no_shipping_address": "No shipping address required for this order.",
       "note": "Special instructions",
@@ -221,7 +221,7 @@
       "fulfilled_at_html": "Shipped on {{ date }}",
       "order_number": "Order",
       "payment_status": "Payment status",
-      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}</span> out of <span class='strong'>{{ number2 }}</span> orders",
+      "seen_number_of_orders_html": "<span class='strong'>{{ number1 }}<\/span> out of <span class='strong'>{{ number2 }}<\/span> orders",
       "total": "Total",
       "view_order": "View order"
     },
@@ -257,11 +257,11 @@
   },
   "date_formats": {
     "month_day_year": "%B %d %Y",
-    "month_day_year_basic": "%m/%d/%Y"
+    "month_day_year_basic": "%m\/%d\/%Y"
   },
   "footer": {
     "customer_service_img_default_alt": "Customer service image",
-    "whatsapp_html": "Ask your questions on <span class='strong'>WhatsApp</span>"
+    "whatsapp_html": "Ask your questions on <span class='strong'>WhatsApp<\/span>"
   },
   "general": {
     "accessibility": {
@@ -369,10 +369,10 @@
       "my_account": "My account",
       "orders": "Orders",
       "overview": "Account overview",
-      "welcome_user_html": "Hi, <span class='strong'>{{ name }}</span>"
+      "welcome_user_html": "Hi, <span class='strong'>{{ name }}<\/span>"
     },
     "cart": "Cart",
-    "country": "Country/region",
+    "country": "Country\/region",
     "extra_img_default_alt": "Header extra image",
     "flag_of": "{{ country }} - flag",
     "language": "Language",
@@ -473,7 +473,7 @@
     "stock_tag": "Last stock!",
     "not_in_stock_tag": "Out of stock",
     "unit_price_label": "",
-    "unit_price_separator": "/",
+    "unit_price_separator": "\/",
     "vendor": "Vendor",
     "view_in_your_space": "View in your space"
   },
@@ -495,7 +495,7 @@
     },
     "title": "Search",
     "view_all_results": "View all results",
-    "seen_number_of_results_html": "You have seen <span class='strong'>{{ number1 }}</span> out of <span class='strong'>{{ number2 }}</span> results",
+    "seen_number_of_results_html": "You have seen <span class='strong'>{{ number1 }}<\/span> out of <span class='strong'>{{ number2 }}<\/span> results",
     "show_more_results": "Show more results",
     "show_previous_results": "Show previous results"
   },
