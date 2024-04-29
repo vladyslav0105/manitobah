@@ -405,7 +405,7 @@
             "products_limit": 5,
             "number_of_items": 4,
             "text": "",
-            "page": "qh-mono-100-mg",
+            "page": "{{ product.metafields.custom.pdp_detailinformation_seite_.value }}",
             "image_width": 460,
             "liquid": "",
             "html": "",
