@@ -366,7 +366,7 @@
     },
     "fix_zindex": {
       "label": "Bepaal de stapelvolgorde van secties",
-      "info": "Verhoog of verlaag de waarde van de z-index om de visuele overlapping van secties te regelen en zorg voor de gewenste weergave-indeling bij gebruik van negatieve marges. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/8310188-z-index-settings)"
+      "info": "Verhoog of verlaag de waarde van de z-index om de visuele overlapping van secties te regelen en zorg voor de gewenste weergave-indeling bij gebruik van negatieve marges. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8310188-z-index-settings)"
     }
   },
   "settings_schema": {
@@ -377,7 +377,7 @@
           "header": "Accessibility",
           "rtl": {
             "label": "RTL-tekstrichting inschakelen",
-            "info": "Arabisch, Hebreeuws en Perzisch zijn de meest voorkomende RTL-schrijfsystemen in de moderne tijd. Online winkels in RTL-taal worden aanbevolen om deze instelling in te schakelen. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938629-accessibility)"
+            "info": "Arabisch, Hebreeuws en Perzisch zijn de meest voorkomende RTL-schrijfsystemen in de moderne tijd. Online winkels in RTL-taal worden aanbevolen om deze instelling in te schakelen. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938629-accessibility)"
           },
           "banners_clickable": {
             "label": "Klikbare afbeeldingen",
@@ -394,7 +394,7 @@
       "settings": {
         "favicon": {
           "label": "Favicon",
-          "info": "32 x 32px .png of .svg aanbevolen [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938629-accessibility)"
+          "info": "32 x 32px .png of .svg aanbevolen [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938629-accessibility)"
         }
       }
     },
@@ -544,7 +544,7 @@
         },
         "product_label": {
           "header": "Productlabel",
-          "paragraph": "Klik [hier](https://intercom.help/xtra-for-shopify/en/articles/7938624-products) voor informatie over het toevoegen van labels.",
+          "paragraph": "Klik [hier](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products) voor informatie over het toevoegen van labels.",
           "product_label_color": {
             "label": "Achtergrond"
           },
@@ -567,7 +567,7 @@
           "header": "Kleurstalen",
           "enable_color_swatches": {
             "label": "Kleurstalen inschakelen",
-            "info": "[Meer informatie](https://intercom.help/xtra-for-shopify/en/articles/8310254-color-swatches)"
+            "info": "[Meer informatie](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8310254-color-swatches)"
           },
           "color_swatch_name": {
             "label": "Kleurstalen naam",
@@ -1115,7 +1115,7 @@
           },
           "show_stock_label": {
             "label": "Toon 'Bijna uitverkocht' op producten",
-            "info": "Wanneer de voorraad van een product bijna op is, informeer dan je bezoekers hierover. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938624-products)"
+            "info": "Wanneer de voorraad van een product bijna op is, informeer dan je bezoekers hierover. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products)"
           },
           "stock_label_qty": {
             "label": "Voorraadniveau om het label 'Bijna uitverkocht' weer te geven"
@@ -1125,7 +1125,7 @@
           },
           "product_custom_label": {
             "label": "Metaveld: aangepast label",
-            "info": "Maak een metaveld voor een aangepast label en voer hier de naamruimte en sleutel in (bijv. custom.label) [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938624-products)"
+            "info": "Maak een metaveld voor een aangepast label en voer hier de naamruimte en sleutel in (bijv. custom.label) [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products)"
           }
         },
         "stock": {
@@ -1158,7 +1158,7 @@
           },
           "product_short_description_text": {
             "label": "Metaveld: aangepaste korte productbeschrijving",
-            "info": "Maak een metaveld voor een aangepaste korte beschrijving en voer hier de naamruimte en sleutel in (bijv. custom.short_description) [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938624-products)"
+            "info": "Maak een metaveld voor een aangepaste korte beschrijving en voer hier de naamruimte en sleutel in (bijv. custom.short_description) [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938624-products)"
           }
         }
       }
@@ -1183,7 +1183,7 @@
           }
         },
         "quickshop": {
-          "header": "Toevoegen aan winkelwagen / Quickshop",
+          "header": "Toevoegen aan winkelwagen \/ Quickshop",
           "quickshop_behavior": {
             "label": "Gedrag",
             "info": "Alleen van toepassing wanneer ‘Quickshop’ of ‘Toevoegen aan winkelwagen’ is geselecteerd.",
@@ -1299,7 +1299,7 @@
           "header": "Gratis verzending",
           "enable_free_shipping": {
             "label": "Gratis verzending inschakelen",
-            "info": "Laat je klanten weten wanneer gratis verzending is bereikt. Let op dat deze functie niet goed werkt wanneer meerdere valuta is ingeschakeld. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938626-shipping-and-delivery)"
+            "info": "Laat je klanten weten wanneer gratis verzending is bereikt. Let op dat deze functie niet goed werkt wanneer meerdere valuta is ingeschakeld. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938626-shipping-and-delivery)"
           },
           "free_shipping_amount": {
             "label": "Minimaal orderbedrag tot gratis verzending"
@@ -1307,7 +1307,7 @@
         },
         "deliverytime": {
           "header": "Bezorgtijd",
-          "paragraph": "Gebruik metavelden om product levertijden te tonen. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938626-shipping-and-delivery)",
+          "paragraph": "Gebruik metavelden om product levertijden te tonen. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938626-shipping-and-delivery)",
           "product_deliverytime_in_stock": {
             "label": "Metaveld - op voorraad"
           },
@@ -1521,7 +1521,7 @@
           "label": "WhatsApp telefoonnummer"
         },
         "header": "Social media accounts",
-        "paragraph": "Je kunt je sociale links instellen op de ['Merk' pagina](https://help.shopify.com/nl/manual/promoting-marketing/managing-brand-assets) in de Shopify-instellingen, maar je kunt ook kiezen om ze hier in te stellen.",
+        "paragraph": "Je kunt je sociale links instellen op de ['Merk' pagina](https:\/\/help.shopify.com\/nl\/manual\/promoting-marketing\/managing-brand-assets) in de Shopify-instellingen, maar je kunt ook kiezen om ze hier in te stellen.",
         "social_instagram": {
           "label": "Instagram"
         },
@@ -1608,7 +1608,7 @@
       "settings": {
         "show_age_verify_popup": {
           "label": "Leeftijdsverificatie pop-up inschakelen",
-          "info": "[Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938613-age-verification-popup)"
+          "info": "[Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938613-age-verification-popup)"
         },
         "age_verify_popup_testmode": {
           "label": "Testmodus inschakelen",
@@ -1627,7 +1627,7 @@
           },
           "age_verify_popup_cookie_text": {
             "label": "Cookies tekst (optioneel)",
-            "info": "De tekst wordt getoond aan bezoekers wanneer dit verplicht is. Zorg ervoor dat je 'Beperk tracking voor klanten in Europa' hebt ingeschakeld. [Lees meer](https://help.shopify.com/en/manual/your-account/privacy/cookies#tracking-european-customers-and-gdpr-compliance)"
+            "info": "De tekst wordt getoond aan bezoekers wanneer dit verplicht is. Zorg ervoor dat je 'Beperk tracking voor klanten in Europa' hebt ingeschakeld. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies#tracking-european-customers-and-gdpr-compliance)"
           },
           "age_verify_popup_accept_text": {
             "label": "Goedkeuren knoplabel"
@@ -1652,8 +1652,8 @@
       "name": "Cookies",
       "settings": {
         "show_cookiebanner": {
-          "label": "Toon cookiebanner/pop-up",
-          "info": "De cookiebanner of pop-up wordt automatisch getoond aan bezoekers wanneer dit verplicht is, mits geen leeftijdsverificatie pop-up is ingeschakeld. Zorg ervoor dat je 'Beperk tracking voor klanten in Europa' hebt ingeschakeld. [Lees meer](https://help.shopify.com/en/manual/your-account/privacy/cookies#tracking-european-customers-and-gdpr-compliance)",
+          "label": "Toon cookiebanner\/pop-up",
+          "info": "De cookiebanner of pop-up wordt automatisch getoond aan bezoekers wanneer dit verplicht is, mits geen leeftijdsverificatie pop-up is ingeschakeld. Zorg ervoor dat je 'Beperk tracking voor klanten in Europa' hebt ingeschakeld. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/your-account\/privacy\/cookies#tracking-european-customers-and-gdpr-compliance)",
           "options__1": {
             "label": "Banner"
           },
@@ -1666,7 +1666,7 @@
         },
         "cookiebanner_testmode": {
           "label": "Testmodus inschakelen",
-          "info": "Dit toont de cookiebanner/pop-up bij elke verversing, je zou dit alleen moeten gebruiken om te bewerken. Zorg ervoor dat 'Testmodus' is uitgeschakeld bij het publiceren van je thema."
+          "info": "Dit toont de cookiebanner\/pop-up bij elke verversing, je zou dit alleen moeten gebruiken om te bewerken. Zorg ervoor dat 'Testmodus' is uitgeschakeld bij het publiceren van je thema."
         },
         "cookiebanner_image": {
           "label": "Afbeelding in de pop-up voor cookies",
@@ -1753,7 +1753,7 @@
         },
         "shop_the_look_items": {
           "label": "Producten per rij",
-          "info": "Als de lijst meer collecties bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/8310269-shop-the-look)"
+          "info": "Als de lijst meer collecties bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8310269-shop-the-look)"
         }
       }
     }
@@ -1849,7 +1849,7 @@
               "label": "Video"
             },
             "overlay_opacity": {
-              "label": "Afbeelding/video overlay doorzichtigheid"
+              "label": "Afbeelding\/video overlay doorzichtigheid"
             },
             "color_palette": {
               "label": "Afbeelding kleurenschema"
@@ -2046,7 +2046,7 @@
               "label": "Achtergrond doorzichtigheid"
             },
             "overlay_opacity_img": {
-              "label": "Afbeelding/video overlay doorzichtigheid"
+              "label": "Afbeelding\/video overlay doorzichtigheid"
             },
             "show_sale_label": {
               "label": "Toon sale label"
@@ -2118,7 +2118,7 @@
       "settings": {
         "number_of_items": {
           "label": "Kolommen per rij",
-          "info": "Als de lijst meer collecties dan kolommen per rij bevatten, wordt het automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/8128582-section-lookbook)"
+          "info": "Als de lijst meer collecties dan kolommen per rij bevatten, wordt het automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128582-section-lookbook)"
         },
         "space_between": {
           "label": "Ruimte tussen banners"
@@ -2712,14 +2712,14 @@
       "settings": {
         "image_before": {
           "label": "'Voor' afbeelding",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938571-section-image-comparison)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938571-section-image-comparison)"
         },
         "image_after": {
           "label": "'Na' afbeelding",
           "info": "Zorg ervoor dat de afmeting overeenkomt met de 'Voor' afbeelding."
         },
         "drag_color_palette": {
-          "label": "Sleepknop/lijn kleurenschema"
+          "label": "Sleepknop\/lijn kleurenschema"
         },
         "drag_direction": {
           "label": "Sleeprichting",
@@ -2864,7 +2864,7 @@
         },
         "image_ratio": {
           "label": "Afbeelding ratio",
-          "info": "Voeg afbeeldingen toe door je collecties te bewerken [Lees meer](https://intercom.help/xtra-for-shopify/en/collections/4045747-theme-xclusive-2-0-for-shopify)",
+          "info": "Voeg afbeeldingen toe door je collecties te bewerken [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/collections\/4045747-theme-xclusive-2-0-for-shopify)",
           "options__1": {
             "label": "Portret"
           },
@@ -2883,7 +2883,7 @@
         },
         "number_of_items": {
           "label": "Collecties per rij",
-          "info": "Als de lijst meer collecties bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/6208057-section-collection-list)"
+          "info": "Als de lijst meer collecties bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/6208057-section-collection-list)"
         },
         "layout": {
           "label": "Layout",
@@ -3221,7 +3221,7 @@
           "label": "Seconden tussen dia's"
         },
         "enable_controls": {
-          "label": "Toon afspeel-/pauzeknop",
+          "label": "Toon afspeel-\/pauzeknop",
           "info": "Alleen van toepassing wanneer automatisch afspelen is ingeschakeld"
         },
         "mobile": {
@@ -3249,7 +3249,7 @@
           "settings": {
             "image": {
               "label": "Afbeelding",
-              "info": "Diavoorstelling kan in drie verschillende lay-outs worden gebruikt. Voor meer informatie en aanbevolen afbeeldingsformaten [klik hier](https://intercom.help/xtra-for-shopify/en/articles/8128591-section-slideshow)."
+              "info": "Diavoorstelling kan in drie verschillende lay-outs worden gebruikt. Voor meer informatie en aanbevolen afbeeldingsformaten [klik hier](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128591-section-slideshow)."
             },
             "layout": {
               "label": "Lay-out",
@@ -3786,7 +3786,7 @@
       "settings": {
         "image": {
           "label": "Achtergrondafbeelding",
-          "info": "Gebruik voor de beste resultaten met volledige achtergrondinstelling een afbeelding met een beeldverhouding van 3:2. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938589-section-counters)"
+          "info": "Gebruik voor de beste resultaten met volledige achtergrondinstelling een afbeelding met een beeldverhouding van 3:2. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938589-section-counters)"
         },
         "overlay_opacity_img": {
           "label": "Afbeelding overlay doorzichtigheid"
@@ -3868,7 +3868,7 @@
           "label": "Video"
         },
         "overlay_opacity_img": {
-          "label": "Afbeelding/video overlay doorzichtigheid"
+          "label": "Afbeelding\/video overlay doorzichtigheid"
         },
         "height": {
           "label": "Hoogte",
@@ -3975,7 +3975,7 @@
       "settings": {
         "number_of_items": {
           "label": "Logo's per rij",
-          "info": "Als de lijst meer logo's bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938588-section-brand-logo-slider)"
+          "info": "Als de lijst meer logo's bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938588-section-brand-logo-slider)"
         },
         "text_alignment": {
           "label": "Titelpositie",
@@ -4020,7 +4020,7 @@
       "settings": {
         "number_of_items": {
           "label": "Logo's per rij",
-          "info": "Als de lijst meer logo's bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/8128587-section-press-coverage)"
+          "info": "Als de lijst meer logo's bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128587-section-press-coverage)"
         },
         "text_alignment": {
           "label": "Titelpositie",
@@ -4072,7 +4072,7 @@
         },
         "image": {
           "label": "Achtergrondafbeelding (optional)",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938587-section-newsletter)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938587-section-newsletter)"
         },
         "overlay_opacity_img": {
           "label": "Afbeelding overlay doorzichtigheid"
@@ -4112,7 +4112,7 @@
       "settings": {
         "number_of_items": {
           "label": "Producten per rij",
-          "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938585-section-recently-viewed-products)"
+          "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938585-section-recently-viewed-products)"
         },
         "image_ratio": {
           "label": "Afbeeldingverhouding",
@@ -4166,7 +4166,7 @@
         },
         "number_of_items": {
           "label": "Blog berichten per rij",
-          "info": "Vanaf 5 blogberichten genereert het een andere lay-out. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938584-section-blog-posts)"
+          "info": "Vanaf 5 blogberichten genereert het een andere lay-out. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938584-section-blog-posts)"
         },
         "text_alignment": {
           "label": "Titelpositie",
@@ -4215,7 +4215,7 @@
         },
         "content_width": {
           "label": "Inhoudsbreedte",
-          "info": "Wanneer je 1280px kiest, zal de inhoud de volledige breedte in beslag nemen. Afbeeldings-/videobreedte kan afzonderlijk worden geselecteerd in de blokinstellingen."
+          "info": "Wanneer je 1280px kiest, zal de inhoud de volledige breedte in beslag nemen. Afbeeldings-\/videobreedte kan afzonderlijk worden geselecteerd in de blokinstellingen."
         },
         "height": {
           "label": "Banner hoogte",
@@ -4512,7 +4512,7 @@
                 "label": "Vraag"
               },
               "options__21": {
-                "label": "24/7 bereikbaar"
+                "label": "24\/7 bereikbaar"
               },
               "options__22": {
                 "label": "Tekstballonnen"
@@ -4658,7 +4658,7 @@
         },
         "number_of_items": {
           "label": "Producten per rij",
-          "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938580-section-featured-collection)"
+          "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938580-section-featured-collection)"
         },
         "text_alignment": {
           "label": "Titelpositie",
@@ -4708,7 +4708,7 @@
         },
         "number_of_items": {
           "label": "Producten per rij",
-          "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938575-section-featured-products)"
+          "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938575-section-featured-products)"
         },
         "text_alignment": {
           "label": "Titelpositie",
@@ -4981,7 +4981,7 @@
                 "label": "Vraag"
               },
               "options__21": {
-                "label": "24/7 bereikbaar"
+                "label": "24\/7 bereikbaar"
               },
               "options__22": {
                 "label": "Tekstballonnen"
@@ -5007,7 +5007,7 @@
             },
             "content": {
               "header": "Inhoud",
-              "paragraph": "Alle inhoud kan statisch of met metavelden worden gevuld. Alle inhoud kan afzonderlijk of samen in dit blok worden gebruikt. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938578-section-collapsible-content)",
+              "paragraph": "Alle inhoud kan statisch of met metavelden worden gevuld. Alle inhoud kan afzonderlijk of samen in dit blok worden gebruikt. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938578-section-collapsible-content)",
               "faq_answer": {
                 "label": "Tekst"
               },
@@ -5150,7 +5150,7 @@
                 "label": "Vraag"
               },
               "options__21": {
-                "label": "24/7 bereikbaar"
+                "label": "24\/7 bereikbaar"
               },
               "options__22": {
                 "label": "Tekstballonnen"
@@ -5176,7 +5176,7 @@
             },
             "content": {
               "header": "Inhoud",
-              "paragraph": "Alle inhoud kan statisch of met metavelden worden gevuld. Alle inhoud kan afzonderlijk of samen in dit blok worden gebruikt. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/8128569-section-content-tabs)",
+              "paragraph": "Alle inhoud kan statisch of met metavelden worden gevuld. Alle inhoud kan afzonderlijk of samen in dit blok worden gebruikt. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128569-section-content-tabs)",
               "collection": {
                 "label": "Collectie"
               },
@@ -5185,7 +5185,7 @@
               },
               "number_of_items": {
                 "label": "Producten per rij",
-                "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/8128569-section-content-tabs)"
+                "info": "Als de lijst meer producten bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128569-section-content-tabs)"
               },
               "text": {
                 "label": "Tekst"
@@ -5281,7 +5281,7 @@
         },
         "number_of_items": {
           "label": "Collecties per rij",
-          "info": "Als de lijst meer collecties bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/8128593-section-social-stories)"
+          "info": "Als de lijst meer collecties bevat dan weergegeven, wordt dit automatisch een slider. Swipe wordt automatisch geactiveerd op mobiel. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/8128593-section-social-stories)"
         },
         "space_between": {
           "label": "Ruimte tussen banners"
@@ -5474,7 +5474,7 @@
               "label": "Video"
             },
             "overlay_opacity": {
-              "label": "Afbeelding/video overlay doorzichtigheid"
+              "label": "Afbeelding\/video overlay doorzichtigheid"
             },
             "text": {
               "label": "Beschrijving"
@@ -5636,7 +5636,7 @@
               "label": "Video"
             },
             "overlay_opacity": {
-              "label": "Afbeelding/video overlay doorzichtigheid"
+              "label": "Afbeelding\/video overlay doorzichtigheid"
             },
             "link_text": {
               "label": "Knop label",
@@ -5777,7 +5777,7 @@
     "announcement_bar": {
       "name": "Aankondigingsbalk",
       "settings": {
-        "paragraph": "De aankondigingsbalk blijft zichtbaar in de thema-editor na het klikken op het 'sluit'-icoon. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938634-announcement-bar)",
+        "paragraph": "De aankondigingsbalk blijft zichtbaar in de thema-editor na het klikken op het 'sluit'-icoon. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938634-announcement-bar)",
         "height": {
           "label": "Hoogte",
           "options__1": {
@@ -5831,7 +5831,7 @@
       "settings": {
         "layout": {
           "label": "Lay-out",
-          "info": "Lay-out 4 toont de menuknop niet, meer informatie over header lay-outs is [hier](https://intercom.help/xtra-for-shopify/en/articles/7938633-header-settings) te vinden.",
+          "info": "Lay-out 4 toont de menuknop niet, meer informatie over header lay-outs is [hier](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938633-header-settings) te vinden.",
           "options__1": {
             "label": "Logo links, uitgebreide zoekbalk"
           },
@@ -6090,7 +6090,7 @@
           },
           "collapse_menu_limit": {
             "label": "Menu-items per rij",
-            "info": "Wanneer 'handmatig menu-items samwenvouwen' is ingeschakeld. Het laatste menu-item wordt gevolgd door een 'meer'-link. Als je de muisaanwijzer op deze 'meer'-link plaatst, wordt de rest van het menu weergegeven in een uitklapmenu. [Meer informatie](https://intercom.help/xtra-for-shopify/en/articles/7938633-header-settings)"
+            "info": "Wanneer 'handmatig menu-items samwenvouwen' is ingeschakeld. Het laatste menu-item wordt gevolgd door een 'meer'-link. Als je de muisaanwijzer op deze 'meer'-link plaatst, wordt de rest van het menu weergegeven in een uitklapmenu. [Meer informatie](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938633-header-settings)"
           },
           "menu_font": {
             "label": "Menu lettertype",
@@ -6208,7 +6208,7 @@
           "settings": {
             "menu_item": {
               "label": "Menu item",
-              "info": "Kopieer en plak de naam van een item dat is aangemaakt in je menu om een dropdown-menu te make.n [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938633-header-settings#h_4fb96ad5c6)"
+              "info": "Kopieer en plak de naam van een item dat is aangemaakt in je menu om een dropdown-menu te make.n [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938633-header-settings#h_4fb96ad5c6)"
             },
             "text_alignment": {
               "label": "Titelpositie",
@@ -6276,7 +6276,7 @@
           "settings": {
             "menu_item": {
               "label": "Menu item",
-              "info": "Kopieer en plak de naam van een item dat is aangemaakt in je menu om een dropdown-menu te maken. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938633-header-settings#h_4fb96ad5c6)"
+              "info": "Kopieer en plak de naam van een item dat is aangemaakt in je menu om een dropdown-menu te maken. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938633-header-settings#h_4fb96ad5c6)"
             }
           }
         }
@@ -6328,7 +6328,7 @@
           },
           "enable_follow_on_shop": {
             "label": "'Volgen op Shop' inschakelen",
-            "info": "Klanten kunnen de winkel alleen vanuit de webshop volgen in de Shop-app als Shop Pay is ingeschakeld. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+            "info": "Klanten kunnen de winkel alleen vanuit de webshop volgen in de Shop-app als Shop Pay is ingeschakeld. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
           }
         },
         "payment_methods": {
@@ -6422,7 +6422,7 @@
               "header": "Volgen on shop",
               "enable_follow_on_shop": {
                 "label": "'Volgen op Shop' inschakelen",
-                "info": "Klanten kunnen de winkel alleen vanuit de webshop volgen in de Shop-app als Shop Pay is ingeschakeld. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
+                "info": "Klanten kunnen de winkel alleen vanuit de webshop volgen in de Shop-app als Shop Pay is ingeschakeld. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/follow-on-shop)"
               }
             },
             "mobile": {
@@ -6459,7 +6459,7 @@
     "product_recommendations": {
       "name": "Productaanbevelingen",
       "settings": {
-        "paragraph": "Dynamische aanbevelingen gebruiken bestel- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Lees meer](https://help.shopify.com/en/themes/development/recommended-products#recommendation-logic)",
+        "paragraph": "Dynamische aanbevelingen gebruiken bestel- en productinformatie om in de loop van de tijd te veranderen en te verbeteren. [Lees meer](https:\/\/help.shopify.com\/en\/themes\/development\/recommended-products#recommendation-logic)",
         "recommended_products_qty": {
           "label": "Maximaal producten te tonen"
         },
@@ -6486,7 +6486,7 @@
     "product_reviews": {
       "name": "Product reviews",
       "settings": {
-        "paragraph": "Zorg ervoor dat je [Shopify's gratis productreviews app](https://apps.shopify.com/product-reviews) installeert voordat je deze sectie inschakelt.",
+        "paragraph": "Zorg ervoor dat je [Shopify's gratis productreviews app](https:\/\/apps.shopify.com\/product-reviews) installeert voordat je deze sectie inschakelt.",
         "text_alignment": {
           "label": "Titelpositie",
           "options__1": {
@@ -6509,7 +6509,7 @@
       "settings": {
         "menu": {
           "label": "Menu",
-          "info": "Maak een menu met al je infopagina's. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938606-default-pages)"
+          "info": "Maak een menu met al je infopagina's. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938606-default-pages)"
         }
       }
     },
@@ -6560,7 +6560,7 @@
       "settings": {
         "google_maps_iframe": {
           "label": "Google Maps embed code",
-          "info": "Toon de locatie van je winkel in Google Maps. De embed code vind je door in Google Maps op je winkel te zoeken, op 'Delen' te klikken, en dan voor 'Een kaart insluiten' te kiezen. [Lees meer](https://support.google.com/maps/answer/144361)"
+          "info": "Toon de locatie van je winkel in Google Maps. De embed code vind je door in Google Maps op je winkel te zoeken, op 'Delen' te klikken, en dan voor 'Een kaart insluiten' te kiezen. [Lees meer](https:\/\/support.google.com\/maps\/answer\/144361)"
         }
       }
     },
@@ -6743,7 +6743,7 @@
           "cons": {
             "label": "Nadelen"
           },
-          "paragraph": "Voor- en nadelen kan worden ingesteld met metavelden. Meer informatie over metavelden en deze functie is [hier](https://intercom.help/xtra-for-shopify/en/articles/7938649-how-to-set-up-product-page-metafields) te vinden."
+          "paragraph": "Voor- en nadelen kan worden ingesteld met metavelden. Meer informatie over metavelden en deze functie is [hier](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938649-how-to-set-up-product-page-metafields) te vinden."
         },
         "specifications": {
           "header": "Product specificaties",
@@ -6768,7 +6768,7 @@
           "specifications": {
             "label": "Specificaties"
           },
-          "paragraph": "Productspecificaties kunnen worden ingesteld met metavelden. Meer informatie over metavelden en deze functie is [hier](https://intercom.help/xtra-for-shopify/en/articles/7938649-how-to-set-up-product-page-metafields) te vinden."
+          "paragraph": "Productspecificaties kunnen worden ingesteld met metavelden. Meer informatie over metavelden en deze functie is [hier](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938649-how-to-set-up-product-page-metafields) te vinden."
         },
         "mobile": {
           "header": "Mobiele lay-out",
@@ -6795,7 +6795,7 @@
           },
           "multiply_bg_mobile": {
             "label": "Lichte achtergrond inschakelen",
-            "info": "Alleen van toepassing wanneer 'Productafbeeldingen doordrukken' is ingeschakeld. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938617-images)"
+            "info": "Alleen van toepassing wanneer 'Productafbeeldingen doordrukken' is ingeschakeld. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938617-images)"
           }
         }
       },
@@ -7011,7 +7011,7 @@
           },
           "show_selected_variant_images": {
             "label": "Toon alleen afbeeldingen van geselecteerde varianten",
-            "info": "Alleen van toepassing wanneer kleurstalen actief zijn. Stel uw kleurstalen in algemene instellingen in: [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page#h_2d76ccaa41)"
+            "info": "Alleen van toepassing wanneer kleurstalen actief zijn. Stel uw kleurstalen in algemene instellingen in: [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page#h_2d76ccaa41)"
           },
           "show_unavailable_variants": {
             "label": "Toon niet-beschikbare varianten",
@@ -7023,7 +7023,7 @@
           },
           "enable_selling_plans": {
             "label": "Abonnementen inschakelen",
-            "info": "Voor meer informatie over hoe abonnementen ingesteld kunnen worden [klik hier](https://help.shopify.com/nl/manual/products/purchase-options/subscriptions)."
+            "info": "Voor meer informatie over hoe abonnementen ingesteld kunnen worden [klik hier](https:\/\/help.shopify.com\/nl\/manual\/products\/purchase-options\/subscriptions)."
           },
           "sizechart": {
             "header": "Maattabel",
@@ -7122,7 +7122,7 @@
             },
             "true_size_value": {
               "label": "Geselecteerde optie",
-              "info": "Geef een van de algemene opties hierboven op om klanten te laten weten of dit product klein, normaal of groot valt. Aan dit veld kan een metaveld worden gekoppeld. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page)"
+              "info": "Geef een van de algemene opties hierboven op om klanten te laten weten of dit product klein, normaal of groot valt. Aan dit veld kan een metaveld worden gekoppeld. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page)"
             }
           }
         },
@@ -7147,7 +7147,7 @@
               },
               "benefit_value": {
                 "label": "Geselecteerde score",
-                "info": "Bepaal de score van het voordeel van 1 tot 5. Aan dit veld kan een metaveld worden gekoppeld. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page)"
+                "info": "Bepaal de score van het voordeel van 1 tot 5. Aan dit veld kan een metaveld worden gekoppeld. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page)"
               }
             }
           }
@@ -7257,7 +7257,7 @@
                 "label": "Vraag"
               },
               "options__21": {
-                "label": "24/7 bereikbaar"
+                "label": "24\/7 bereikbaar"
               },
               "options__22": {
                 "label": "Tekstballonnen"
@@ -7283,7 +7283,7 @@
             },
             "content": {
               "header": "Inhoud",
-              "paragraph": "Alle inhoud kan statisch of met metavelden worden gevuld. Alle inhoud kan afzonderlijk of samen in dit blok worden gebruikt. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938608-product-page)",
+              "paragraph": "Alle inhoud kan statisch of met metavelden worden gevuld. Alle inhoud kan afzonderlijk of samen in dit blok worden gebruikt. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938608-product-page)",
               "text": {
                 "label": "Tekst"
               },
@@ -7318,7 +7318,7 @@
         "complementary_products": {
           "name": "Complementaire producten",
           "settings": {
-            "paragraph": "Dit blok werkt alleen met de Shopify Search & Discovery-app. Als er geen aanvullende producten zijn ingesteld, worden nep-producten getoond (enkel in de theme-editor). Voeg de Search & Discovery-app toe om aanvullende producten te selecteren. [Lees meer](https://help.shopify.com/nl/manual/online-store/search-and-discovery/product-recommendations)",
+            "paragraph": "Dit blok werkt alleen met de Shopify Search & Discovery-app. Als er geen aanvullende producten zijn ingesteld, worden nep-producten getoond (enkel in de theme-editor). Voeg de Search & Discovery-app toe om aanvullende producten te selecteren. [Lees meer](https:\/\/help.shopify.com\/nl\/manual\/online-store\/search-and-discovery\/product-recommendations)",
             "layout": {
               "label": "Lay-out",
               "options__1": {
@@ -7421,7 +7421,7 @@
                 "label": "Vraag"
               },
               "options__21": {
-                "label": "24/7 bereikbaar"
+                "label": "24\/7 bereikbaar"
               },
               "options__22": {
                 "label": "Tekstballonnen"
@@ -7450,7 +7450,7 @@
               "products_layout": {
                 "label": "Lay-out",
                 "options__1": {
-                  "label": "Raster / swipe"
+                  "label": "Raster \/ swipe"
                 },
                 "options__2": {
                   "label": "Lijst"
@@ -7458,7 +7458,7 @@
               },
               "number_of_items": {
                 "label": "Producten per rij",
-                "info": "Alleen van toepassing op layout 'Raster / swipe'."
+                "info": "Alleen van toepassing op layout 'Raster \/ swipe'."
               }
             },
             "products_layout": {
@@ -7505,7 +7505,7 @@
             },
             "show_dynamic_buybutton": {
               "label": "Toon dynamische koopknop",
-              "info": "Klanten zien hun favoriete betaalmethode, zoals PayPal of Apple Pay. [Lees meer](https://help.shopify.com/en/manual/online-store/themes/dynamic-checkout)"
+              "info": "Klanten zien hun favoriete betaalmethode, zoals PayPal of Apple Pay. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/dynamic-checkout)"
             },
             "button_style_dynamic_buybutton": {
               "label": "Dynamische koopknop styling",
@@ -7516,7 +7516,7 @@
               "paragraph": "Je vindt de pre-order instellingen in de algemene thema-instellingen onder het tabblad 'Pre-order'.",
               "preorder_label": {
                 "label": "Bezorging label",
-                "info": "Voeg een bezorgbericht toe aan de pre-orderknop met metavelden of algemene tekstinhoud. Als je deze informatie toe wilt voegen aan je e-mailnotificaties, klik [hier](https://community.shopify.com/c/shopify-design/product-pages-get-customization-information-for-products/td-p/616503) voor documentatie."
+                "info": "Voeg een bezorgbericht toe aan de pre-orderknop met metavelden of algemene tekstinhoud. Als je deze informatie toe wilt voegen aan je e-mailnotificaties, klik [hier](https:\/\/community.shopify.com\/c\/shopify-design\/product-pages-get-customization-information-for-products\/td-p\/616503) voor documentatie."
               },
               "preorder_label_color_palette": {
                 "label": "Bezorging label kleurenschema"
@@ -7529,7 +7529,7 @@
               "header": "Cadeaubon",
               "show_gift_card_recipient": {
                 "label": "Formulier voor gegevens van ontvanger weergeven voor cadeaubonnen",
-                "info": "Klanten kunnen cadeaubonnen rechtstreeks naar de ontvanger laten sturen op een geplande datum met een persoonlijk bericht. [Meer informatie](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+                "info": "Klanten kunnen cadeaubonnen rechtstreeks naar de ontvanger laten sturen op een geplande datum met een persoonlijk bericht. [Meer informatie](https:\/\/help.shopify.com\/manual\/online-store\/themes\/customizing-themes\/add-gift-card-recipient-fields)"
               }
             }
           }
@@ -7579,7 +7579,7 @@
         "pickup": {
           "name": "Beschikbaarheid voor afhalen",
           "settings": {
-            "paragraph": "Voor meer informatie over het instellen van lokaal afhalen, klik [hier](https://help.shopify.com/nl/manual/shipping/setting-up-and-managing-your-shipping/local-methods/local-pickup)."
+            "paragraph": "Voor meer informatie over het instellen van lokaal afhalen, klik [hier](https:\/\/help.shopify.com\/nl\/manual\/shipping\/setting-up-and-managing-your-shipping\/local-methods\/local-pickup)."
           }
         },
         "button": {
@@ -7737,7 +7737,7 @@
           },
           "enable_image_choice": {
             "label": "Afbeelding keuze inschakelen",
-            "info": "Dit geeft de bezoeker de mogelijkheid om te schakelen tussen primaire of secundaire productafbeeldingen. Bijvoorbeeld: Model of product. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938607-collections)"
+            "info": "Dit geeft de bezoeker de mogelijkheid om te schakelen tussen primaire of secundaire productafbeeldingen. Bijvoorbeeld: Model of product. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938607-collections)"
           },
           "image_choice_1": {
             "label": "Eerste label",
@@ -7793,11 +7793,11 @@
           },
           "filter_menu": {
             "label": "Menu",
-            "info": "Een menu dat zal worden gebruikt om gerelateerde collecties weer te geven. Klik [hier](https://intercom.help/xtra-for-shopify/en/articles/7938607-collections) voor meer informatie over het samenstellen van dit menu."
+            "info": "Een menu dat zal worden gebruikt om gerelateerde collecties weer te geven. Klik [hier](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938607-collections) voor meer informatie over het samenstellen van dit menu."
           },
           "collections_menu": {
             "label": "Collecties",
-            "info": "Selecteer gerelateerde collecties en/of kies een menu hierboven. Gedupliceerde items worden automatisch verborgen."
+            "info": "Selecteer gerelateerde collecties en\/of kies een menu hierboven. Gedupliceerde items worden automatisch verborgen."
           },
           "filter_sticky": {
             "label": "Sticky filters inschakelen",
@@ -7827,7 +7827,7 @@
         },
         "filter_swatches": {
           "header": "Visuele filters",
-          "paragraph": "Voor meer informatie over het instellen van visuele filters [klik hier](https://help.shopify.com/nl/manual/online-store/search-and-discovery/filters#visual-filters).",
+          "paragraph": "Voor meer informatie over het instellen van visuele filters [klik hier](https:\/\/help.shopify.com\/nl\/manual\/online-store\/search-and-discovery\/filters#visual-filters).",
           "image_swatches_size": {
             "label": "Afbeeldingsgrootte",
             "options__1": {
@@ -7966,7 +7966,7 @@
           "header": "Productafbeeldingen",
           "enable_image_choice": {
             "label": "Afbeelding keuze inschakelen",
-            "info": "Dit geeft de bezoeker de mogelijkheid om te schakelen tussen primaire of secundaire productafbeeldingen. Bijvoorbeeld: Model of product. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938602-search-page)"
+            "info": "Dit geeft de bezoeker de mogelijkheid om te schakelen tussen primaire of secundaire productafbeeldingen. Bijvoorbeeld: Model of product. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938602-search-page)"
           },
           "image_choice_1": {
             "label": "Eerste label",
@@ -8000,11 +8000,11 @@
           },
           "filter_menu": {
             "label": "Menu",
-            "info": "Een menu dat zal worden gebruikt om gerelateerde collecties weer te geven. Klik [hier](https://intercom.help/xtra-for-shopify/en/articles/7938602-search-page) voor meer informatie over het samenstellen van dit menu."
+            "info": "Een menu dat zal worden gebruikt om gerelateerde collecties weer te geven. Klik [hier](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938602-search-page) voor meer informatie over het samenstellen van dit menu."
           },
           "collections_menu": {
             "label": "Collecties",
-            "info": "Selecteer gerelateerde collecties en/of kies een menu hierboven. Gedupliceerde items worden automatisch verborgen."
+            "info": "Selecteer gerelateerde collecties en\/of kies een menu hierboven. Gedupliceerde items worden automatisch verborgen."
           },
           "filter_sticky": {
             "label": "Sticky filters inschakelen"
@@ -8033,7 +8033,7 @@
         },
         "filter_swatches": {
           "header": "Visuele filters",
-          "paragraph": "Voor meer informatie over het instellen van visuele filters [klik hier](https://help.shopify.com/nl/manual/online-store/search-and-discovery/filters#visual-filters).",
+          "paragraph": "Voor meer informatie over het instellen van visuele filters [klik hier](https:\/\/help.shopify.com\/nl\/manual\/online-store\/search-and-discovery\/filters#visual-filters).",
           "image_swatches_size": {
             "label": "Afbeeldingsgrootte",
             "options__1": {
@@ -8398,7 +8398,7 @@
         },
         "show_dynamic_buybutton": {
           "label": "Toon dynamische koopknop",
-          "info": "Klanten zien hun favoriete betaalmethode, zoals PayPal of Apple Pay. [Lees meer](https://help.shopify.com/en/manual/online-store/themes/dynamic-checkout)"
+          "info": "Klanten zien hun favoriete betaalmethode, zoals PayPal of Apple Pay. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/dynamic-checkout)"
         },
         "enable_giftcard_or_discount_tab": {
           "label": "Toon cadeaukaart of kortingscode inwisselknop"
@@ -8529,7 +8529,7 @@
         "newsletter_checkbox": {
           "name": "Nieuwsbrief selectievakje",
           "settings": {
-            "paragraph": "Pas je formulierteksten aan in de themavertalingen. [Lees meer](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/translate-theme)"
+            "paragraph": "Pas je formulierteksten aan in de themavertalingen. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/language\/translate-theme)"
           }
         },
         "custom_checkbox": {
@@ -8551,7 +8551,7 @@
       "settings": {
         "image": {
           "label": "Achtergrond",
-          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Lees meer](https://intercom.help/xtra-for-shopify/en/articles/7938603-404-page)"
+          "info": "Gebruik voor de beste resultaten een afbeelding met een beeldverhouding van 3:2. [Lees meer](https:\/\/intercom.help\/xtra-for-shopify\/en\/articles\/7938603-404-page)"
         },
         "overlay_opacity": {
           "label": "Afbeelding overlay doorzichtigheid"
@@ -8605,19 +8605,19 @@
         "message": {
           "name": "Bericht",
           "settings": {
-            "paragraph": "Pas je bericht aan in het gedeelte 'Voorkeuren' van je online winkel. [Lees meer](https://help.shopify.com/en/manual/online-store/themes/password-page#add-password-protection-to-your-online-store)"
+            "paragraph": "Pas je bericht aan in het gedeelte 'Voorkeuren' van je online winkel. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/password-page#add-password-protection-to-your-online-store)"
           }
         },
         "newsletter_form": {
           "name": "Nieuwsbrief formulier",
           "settings": {
-            "paragraph": "Pas je formulierteksten aan in de themavertalingen. [Lees meer](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/translate-theme)"
+            "paragraph": "Pas je formulierteksten aan in de themavertalingen. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/language\/translate-theme)"
           }
         },
         "password_form": {
           "name": "Wachtwoord formulier",
           "settings": {
-            "paragraph": "Pas je formulierteksten aan in de themavertalingen. [Lees meer](https://help.shopify.com/en/manual/online-store/themes/customizing-themes/language/translate-theme)"
+            "paragraph": "Pas je formulierteksten aan in de themavertalingen. [Lees meer](https:\/\/help.shopify.com\/en\/manual\/online-store\/themes\/customizing-themes\/language\/translate-theme)"
           }
         },
         "title": {
@@ -8634,7 +8634,7 @@
         },
         "logo": {
           "show_logo": {
-            "label": "Toon logo / winkelnaam"
+            "label": "Toon logo \/ winkelnaam"
           },
           "header": "Logo",
           "logo": {
@@ -8644,7 +8644,7 @@
             "label": "Logo breedte"
           },
           "show_logo_giftcard": {
-            "label": "Toon logo / winkelnaam op de cadeaukaart"
+            "label": "Toon logo \/ winkelnaam op de cadeaukaart"
           },
           "logo_width_on_giftcard": {
             "label": "Logo breedte op de cadeaukaart"

@@ -4,8 +4,8 @@
     "theme_name": "Xclusive",
     "theme_version": "1.7.0",
     "theme_author": "Someone You Know",
-    "theme_documentation_url": "https://intercom.help/xtra-for-shopify/en/collections/4045747-theme-xclusive-2-0-for-shopify",
-    "theme_support_url": "https://help.someoneyouknow.online/"
+    "theme_documentation_url": "https:\/\/intercom.help\/xtra-for-shopify\/en\/collections\/4045747-theme-xclusive-2-0-for-shopify",
+    "theme_support_url": "https:\/\/help.someoneyouknow.online\/"
   },
   {
     "name": "t:settings_schema.favicon.name",
@@ -1305,7 +1305,7 @@
         "id": "empty_cart_text",
         "type": "richtext",
         "label": "t:settings_schema.cart.settings.empty_cart_text.label",
-        "default": "<p>Your cart is empty..</p>"
+        "default": "<p>Your cart is empty..<\/p>"
       },
       {
         "id": "cart_drawer_checkout_button",
@@ -1407,7 +1407,7 @@
         "type": "richtext",
         "id": "trustbadge_text",
         "label": "t:settings_schema.trustbadge.settings.trustbadge_text.label",
-        "default": "<p>Guaranteed <b>secure & safe</b> checkout.</p>"
+        "default": "<p>Guaranteed <b>secure & safe<\/b> checkout.<\/p>"
       }
     ]
   },
@@ -2843,14 +2843,14 @@
         "id": "age_verify_popup_text",
         "type": "richtext",
         "label": "t:settings_schema.age_verify_popup.settings.verify.age_verify_popup_text.label",
-        "default": "<p>Please confirm that you are 18 years or older to enter the shop.</p>"
+        "default": "<p>Please confirm that you are 18 years or older to enter the shop.<\/p>"
       },
       {
         "id": "age_verify_popup_cookie_text",
         "type": "richtext",
         "label": "t:settings_schema.age_verify_popup.settings.verify.age_verify_popup_cookie_text.label",
         "info": "t:settings_schema.age_verify_popup.settings.verify.age_verify_popup_cookie_text.info",
-        "default": "<p>Our shop uses cookies, by confirming you are agreeing to our <a href=\"/policies/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">terms of service</a> and <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">privacy policy</a></p>"
+        "default": "<p>Our shop uses cookies, by confirming you are agreeing to our <a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">terms of service<\/a> and <a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">privacy policy<\/a><\/p>"
       },
       {
         "id": "age_verify_popup_accept_text",
@@ -2882,7 +2882,7 @@
         "id": "age_verify_popup_denied_text",
         "type": "richtext",
         "label": "t:settings_schema.age_verify_popup.settings.denied.age_verify_popup_denied_text.label",
-        "default": "<p>You are not old enough to visit the shop yet.</p>"
+        "default": "<p>You are not old enough to visit the shop yet.<\/p>"
       }
     ]
   },
@@ -3193,7 +3193,7 @@
         "type": "richtext",
         "label": "t:settings_schema.cookies.settings.cookiebanner_text.label",
         "info": "t:settings_schema.cookies.settings.cookiebanner_text.info",
-        "default": "<p>Our site uses cookies. By clicking on accept you agree with our <a href=\"/policies/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">voorwaarden</a> and <a href=\"/policies/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">privacy policy</a>.</p>"
+        "default": "<p>Our site uses cookies. By clicking on accept you agree with our <a href=\"\/policies\/terms-of-service\" target=\"_blank\" title=\"Terms of Service\">voorwaarden<\/a> and <a href=\"\/policies\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">privacy policy<\/a>.<\/p>"
       },
       {
         "type": "select",
