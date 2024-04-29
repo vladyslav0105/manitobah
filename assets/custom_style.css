@@ -63,6 +63,13 @@
 }
 
 
+ul[data-type="main-nav"] .ff-secondary .sub li {
+  margin-bottom: 7px !important;
+}
+
+ul[data-type="main-nav"] .ff-secondary .sub li a {
+  font-size: 15px !important;
+}
 
 /* Blog */
 
