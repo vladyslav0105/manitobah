@@ -33,6 +33,14 @@
             "mobile_title_size": "h3"
           }
         },
+        "90724a70-740a-4cc9-984c-764e1d76a5bd": {
+          "type": "codes",
+          "disabled": true,
+          "settings": {
+            "show_sku": true,
+            "show_barcode": false
+          }
+        },
         "custom_liquid_weDQ7U": {
           "type": "custom_liquid",
           "settings": {
@@ -54,14 +62,6 @@
           "type": "product_ratings",
           "disabled": true,
           "settings": {
-          }
-        },
-        "90724a70-740a-4cc9-984c-764e1d76a5bd": {
-          "type": "codes",
-          "disabled": true,
-          "settings": {
-            "show_sku": true,
-            "show_barcode": true
           }
         },
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733": {
@@ -252,11 +252,11 @@
       },
       "block_order": [
         "c7259cb9-7235-4028-b6df-3a68077fed80",
+        "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "custom_liquid_weDQ7U",
         "custom_liquid_ffhxV7",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "product_ratings_4cYjUK",
-        "90724a70-740a-4cc9-984c-764e1d76a5bd",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "price",
         "variant_selection",
