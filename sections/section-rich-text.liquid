@@ -4,11 +4,13 @@
   size-{{ section.settings.height }}
   size-{{ section.settings.height_mobile }}-mobile
   {% if section.settings.width == 'wide' %}wide{% else %}boxed{% endif %}
-">
+" >
   <article class="palette-{{ section.settings.color_palette }} module-color-palette
   {{ text_position }}
   {% if text_position contains 'text-start' %} mobile-text-start{% elsif text_position contains 'text-end' %}mobile-text-end{% endif %}
   ">
+    {%- assign isContentEmpty = true -%}
+    {%- assign isHeadingEmpty = true -%}
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'title' -%}
@@ -20,6 +22,7 @@
             endif
           -%}
           {%- if block.settings.title != empty -%}
+            {%- assign isHeadingEmpty = false -%}
             <header class="heading-line-through {% if text_position contains 'text-center' %} {% elsif text_position contains 'text-end' %} align-end{% endif %}"{{ block.shopify_attributes }}{% unless section.settings.content_width == 1280 %} style="max-width:{{ section.settings.content_width }}px;"{% endunless %}>
               <{{ block.settings.title_size }} class="{% if block.settings.enable_custom_text_styling %}text-palette-{{ block.settings.title_color_palette }} fw-{{ block.settings.title_weight }} {% endif %}ff-{{ block.settings.title_font }} {% if no_margin %} m0{% endif %}">{{ block.settings.title }}</{{ block.settings.title_size }}>
             </header>
@@ -29,6 +32,9 @@
             {%- if block.settings.page != empty -%}
               {{ block.settings.page.content }}
             {%- endif %}
+            {%- if block.settings.text != empty -%}
+              {%- assign isContentEmpty = false -%}
+            {%- endif -%}
             {{ block.settings.text }}
           </div>
         {%- when 'button' -%}
@@ -112,6 +118,11 @@
       #shopify-section-{{ section.id }} + *.has-kinetic-text { pointer-events: none; }
     {% endif %}
   }
+  {%- if isHeadingEmpty == true and isContentEmpty == true -%}
+    #shopify-section-{{section.id}} {
+      display: none;
+    }
+  {%- endif -%}
 </style>
 
 {% schema %}

@@ -11,7 +11,11 @@
     <article class="{{ section.settings.text_position }}" {% if section.settings.enable_custom_font_styling %}style="font-size:{{ section.settings.font_size }};"{% endif %}>
       {% if section.blocks.size < 1 %}<span class="img-overlay" style="opacity:{{ section.settings.overlay_opacity | divided_by: 100.0 }}"></span>{% endif %}
       <figure class="palette-{{ section.settings.color_palette }} module-color-palette">
+        {%- assign isEmptyImage = true -%}
         {%- for block in section.blocks -%}
+          {%- if block.settings.image != blank -%}
+            {%- assign isEmptyImage = false -%}
+          {%- endif -%}
           {%- liquid
             capture current
               cycle 1, 2
@@ -48,7 +52,6 @@
               endif
             endif
           -%}
-
           {% if block.settings.image == blank and block.settings.video == blank %}
             <picture {{ block.shopify_attributes }} style="--size: {{ width_block }};" {{ block.shopify_attributes }}>
               <span class="img-overlay" style="opacity:{{ section.settings.overlay_opacity | divided_by: 100.0 }}"></span>
@@ -132,7 +135,6 @@
     </article>
   </div>
 {% endif %}
-
 <style>
   #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
   @media only screen and (min-width: 47.5em) {
@@ -151,6 +153,11 @@
       #shopify-section-{{ section.id }} + *.has-kinetic-text { pointer-events: none; }
   {% endif %}
   }
+  {%- if isEmptyImage == true -%}
+    #shopify-section-{{ section.id }} {
+      display: none;
+    }
+  {%- endif -%}
 </style>
 
 {% schema %}
