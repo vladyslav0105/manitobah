@@ -14,7 +14,7 @@
         "166005794296ae0ec5-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Qualitaet-Forschung-1170x584.webp",
+            "image": "shopify:\/\/shop_images\/Service-1170x584.jpg",
             "layout": "background",
             "image_width": 50,
             "overlay_opacity": 0,
@@ -22,11 +22,11 @@
             "text_position": "text-center",
             "title": "Wir bieten Ihnen",
             "title_font": "primary",
-            "title_size": "h2",
+            "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
-            "subtitle": "QUALITÄT UND FORSCHUNG",
+            "subtitle": "1-A-SERVICE BEI MEDICOM",
             "subtitle_font": "secondary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
