@@ -141,6 +141,15 @@
         "spacing_mobile": 30
       }
     },
+    "section_custom_liquid_FLrJhh": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_image_with_text_AWC9k9": {
       "type": "section-image-with-text",
       "blocks": {
@@ -184,6 +193,15 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_7RU7Mk": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -237,6 +255,15 @@
         "fix_zindex": 0
       }
     },
+    "section_custom_liquid_AcVUae": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_image_with_text_PaPyPH": {
       "type": "section-image-with-text",
       "blocks": {
@@ -280,6 +307,15 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_EnGjee": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -333,6 +369,15 @@
         "fix_zindex": 0
       }
     },
+    "section_custom_liquid_cQ8YJc": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_image_with_text_ewbX7H": {
       "type": "section-image-with-text",
       "blocks": {
@@ -376,6 +421,15 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_4b6Bgf": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -429,6 +483,15 @@
         "fix_zindex": 0
       }
     },
+    "section_custom_liquid_kcTH9b": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_image_with_text_UVDy8d": {
       "type": "section-image-with-text",
       "blocks": {
@@ -472,6 +535,15 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_z86dHg": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -531,13 +603,21 @@
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
     "main-page",
+    "section_custom_liquid_FLrJhh",
     "section_image_with_text_AWC9k9",
+    "section_custom_liquid_7RU7Mk",
     "section_image_with_text_T6aYqi",
+    "section_custom_liquid_AcVUae",
     "section_image_with_text_PaPyPH",
+    "section_custom_liquid_EnGjee",
     "section_image_with_text_CcXgaY",
+    "section_custom_liquid_cQ8YJc",
     "section_image_with_text_ewbX7H",
+    "section_custom_liquid_4b6Bgf",
     "section_image_with_text_4fGWei",
+    "section_custom_liquid_kcTH9b",
     "section_image_with_text_UVDy8d",
+    "section_custom_liquid_z86dHg",
     "section_image_with_text_tniyzy"
   ]
 }
