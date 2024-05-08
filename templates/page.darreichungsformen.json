@@ -75,7 +75,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Mehr Produktqualität und darüber hinaus",
+            "title": "Es gibt für jeden Bedarf die optimale Lösung",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -87,7 +87,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Medicom bietet hervorragende Produkte zu einem attraktiven Preis-Leistungs-Verhältnis und dazu besten, kompromisslosen Service. Medicom ist als Familienunternehmen sehr persönlich gegenüber Kunden und Mitarbeitern geprägt. Dies macht Medicom zu einem besonders kundenfreundlichen Unternehmen und ist Medicoms große Stärke.<\/p>",
+            "text": "<p>Jede Darreichungsform stellt ein Vehikel dar, das einen Wirkstoff auf verschiedenen Wegen in den Körper einbringen kann. Bei Medicom stehen Ihnen verschiedene hochwertige Darreichungsformen zur Verfügung – individuelle Bedürfnisse erfordern individuelle Angebote.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -107,434 +107,6 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "width": "wide",
-        "height_mobile": "xs",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "16600579701b9ea466": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "166005796961cc60d8-0": {
-          "type": "title",
-          "settings": {
-            "title": "Premium-Produkte",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "200"
-          }
-        },
-        "166005796961cc60d8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wir legen viel Wert darauf, dass unsere Produkte in bester Premium-Qualität bei Ihnen ankommen. Egal, für welches der mehr als 80 Präparate der Marken Medicom®, NOBILIN und MEDICOM TERRA® Sie sich entscheiden – alle durchlaufen vor Markteinführung eine wissenschaftliche Qualitätsprüfung. Die Inhaltsstoffe sind klar ersichtlich auf der Packung genannt, die Tagesdosis ist genau angegeben und zusätzliche Informationen werden auf dem Beipackzettel aufgeführt.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "166005796961cc60d8-0",
-        "166005796961cc60d8-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/premiumprodukte.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "16600579852f4017d4": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "1660057985549a4c95-0": {
-          "type": "title",
-          "settings": {
-            "title": "Einzelverblisterung",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "1660057985549a4c95-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ob Kapseln oder Tabletten – bei Medicom werden diese in Einzelverblisterung verpackt. Warum? Nur in Einzelverpackungen können höchstmögliche Qualität, Hygiene und Haltbarkeit der Vitalstoffe gewährleistet werden. Bei einer Dose oder einem Glas kommt der Inhalt bei jeder Entnahme mit Sauerstoff, Feuchtigkeit und möglichen Verunreinigungen in Kontakt. Ein weiterer Vorteil: Bei Bedarf können Sie Einzelblister problemlos auf Reisen und unterwegs mitnehmen.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "1660057985549a4c95-0",
-        "1660057985549a4c95-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Einzelverblisterung.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_UJnAgL": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_GfPKaz": {
-          "type": "title",
-          "settings": {
-            "title": "Hochwertige Rohstoffe",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_x8fejV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die Rohstoffe unserer Produkte beziehen wir durchweg von Qualitätsrohstofflieferanten. Das erkennen Sie an verschiedenen Siegeln auf unseren Packungen, im Katalog oder im Webshop. Ein Beispiel: Das Krillöl für KRILLÖL FORTE beziehen wir von der norwegischen Firma Aker BioMarineTM. Diese Firma liefert Krillöl aus nachhaltigem Fischfang und in bester technologischer Verarbeitung.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_GfPKaz",
-        "text_x8fejV"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Darreichungsformen.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_X3nppT": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_bzLWKL": {
-          "type": "title",
-          "settings": {
-            "title": "Hohe Bioverfügbarkeit",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_JHE9Pi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die Zutaten und die sinnvollen Kombinationen der Inhaltsstoffe in unseren Produkten werden nach wissenschaftlichen Erkenntnissen ausgesucht. Beste Ausgangsmaterialien gewährleisten eine optimale Bioverfügbarkeit der Wirkstoffe im menschlichen Organismus. Zum Beispiel setzen wir das natürliche Coenzym Q10 und QH mit einem Reinheitsgrad von 100 Prozent in Öl gelöster Form ein, so werden sie besonders gut vom Körper aufgenommen.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_bzLWKL",
-        "text_JHE9Pi"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Bioverfuegbarkeit.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_qif7KW": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_gY3wGe": {
-          "type": "title",
-          "settings": {
-            "title": "Wissenschaftlich fundierte Produkte",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_DhktH3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Die wissenschaftliche Begleitung aller Produkte gehört zu den Qualitätsstandards von Medicom. Die Absicherung und Bewertung erfolgt dabei nach neuesten ernährungswissenschaftlichen Erkenntnissen. Zwar brachte dieses Vorgehen in den Anfangsjahren höhere Investitionen in die Produktentwicklung mit sich, doch Qualität zahlt sich langfristig aus.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_gY3wGe",
-        "text_DhktH3"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Wissenschaftlich.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 0,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_M76UF9": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_39qKXW": {
-          "type": "title",
-          "settings": {
-            "title": "Individuelle Bedürfnisse",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_bVyiLb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wir berücksichtigen individuelle Ernährungsweisen wie zum Beispiel die vegetarische oder vegane Ernährung und Intoleranzen gegenüber Gluten oder Laktose. Achten Sie auf die entsprechenden Kennzeichnungen im Webshop.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_39qKXW",
-        "text_bVyiLb"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Individuelle.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_cFXgzp": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_9Gj9AN": {
-          "type": "title",
-          "settings": {
-            "title": "Biozertifizierung",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_PTHmGW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Seit Einführung der MEDICOM TERRA®-Naturreihe 2016 setzen wir bei den Naturprodukten aus Pflanzenstoffen verstärkt auf<strong>100-prozentige Bioqualität<\/strong>. Diese ist durch offizielle Ökokontrollstellen zertifiziert. Auf der Verpackung der jeweiligen Bioprodukte finden sich das EU-Biosiegel und das deutsche Biosiegel.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_9Gj9AN",
-        "text_PTHmGW"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Biozertifizierung.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_4pqKV4": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_8WzmhV": {
-          "type": "title",
-          "settings": {
-            "title": "Nachhaltigkeit",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_nn7rGw": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Nachhaltigkeit <\/strong>liegt uns am Herzen, denn was gut für die Umwelt ist, ist auch gut für unser Wohlbefinden. Auch wir sind nicht perfekt, deshalb arbeiten wir stetig daran, unser <strong>klimaneutrales Schaffen und Handeln <\/strong>auszubauen. Das beginnt schon bei der Beschaffung der Rohstoffe. Für unser Krillöl wird der Krill beispielsweise mit einer umweltfreundlichen, patentierten Methode gefangen. Wir verzichten bei der Herstellung unserer Präparate gänzlich auf Tierversuche und das gesamte Produktsortiment ist gentechnikfrei. Anschreiben, Kundenmagazine, Kataloge und Broschüren werden bei uns auf Recyclingpapier gedruckt. Und auch der Medicom-Versand ist klimaneutral. Darüber hinaus lassen wir bis zu 95 Prozent der Produkte von Partnerunternehmen in Deutschland und in der Schweiz herstellen. Das bedeutet Qualität und kürzere Transportwege von den Produktionsstätten zu unserem selbst betriebenen Logistikcenter. Mehr Informationen zum Thema finden Sie <a href=\"https:\/\/www.medicom.de\/nachhaltigkeit\">hier<\/a>.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_8WzmhV",
-        "text_nn7rGw"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Nachhaltigkeit.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_rich_text_RmzrwD": {
-      "type": "section-rich-text",
-      "blocks": {
-        "title_hmfMcr": {
-          "type": "title",
-          "settings": {
-            "title": "Siegel für erstklassige Qualität",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "content_9ryAnD": {
-          "type": "content",
-          "settings": {
-            "page": "",
-            "text": "<p>Zur Qualitätssicherung der Produktionsabläufe gibt es drei Qualitätskontrollen: <strong>Eingangs-, Inprozess- und Endkontrolle<\/strong>. Bei der Eingangskontrolle werden die Reinheit und die einwandfreie Beschaffenheit aller Stoffe geprüft. Während des Herstellungsprozesses kommt es bei der Inprozesskontrolle zudem zur Stichprobenentnahme, um Fehler in der Produktion früh zu erkennen. In der Endkontrolle finden Untersuchungen statt, die die Qualität des Präparates sicherstellen.<br\/>Auch wenn der Gesetzgeber diese <strong>sehr gründliche Herstellungspraxis<\/strong> nicht fordert – wir lassen sie freiwillig durchführen, um ein Höchstmaß an Qualität bieten zu können.<\/p><p>Alle Produkte von Medicom werden nach dem <strong>GMP-Standard<\/strong> hergestellt. GMP (kurz für Good Manufacturing Practice) beinhaltet sehr strenge Regeln, die bei der Produktion von pharmazeutischen Präparaten beachtet werden müssen. Viele unserer Produkte lassen wir außerdem durch externe, unabhängige Qualitätsprüfer wie das <strong>Institut Kuhlmann<\/strong> überprüfen.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_hmfMcr",
-        "content_9ryAnD"
-      ],
-      "settings": {
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "text_position": "text-start",
-        "content_width": 1280,
-        "height": "xs",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "width": "boxed",
         "height_mobile": "xs",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
@@ -575,7 +147,7 @@
         "title_6b6myh": {
           "type": "title",
           "settings": {
-            "title": "AKER BIOMARINE™",
+            "title": "Soft-Gel-Kapsel",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -586,7 +158,7 @@
         "text_iKa6xt": {
           "type": "text",
           "settings": {
-            "text": "<p>Aker BioMarine ist der norwegische Qualitätshersteller für alle Krillölrohstoffe von Medicom<\/p>",
+            "text": "<p>Diese Darreichungsform ist besonders hochwertig. Die enthaltenen Stoffe sind in Öl gelöst, eine höhere Bioverfügbarkeit ist garantiert. Leicht zu schlucken. Bei Bedarf kann auch nur der Inhalt verzehrt werden.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -623,7 +195,7 @@
         "title_Q3ebx7": {
           "type": "title",
           "settings": {
-            "title": "SUPERBABoost™",
+            "title": "Kapsel",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -634,7 +206,7 @@
         "text_b7p8da": {
           "type": "text",
           "settings": {
-            "text": "<p>Konzentriertes Antarktis-Krillöl mit mehr Omega-3-Fettsäuren wie EPA und DHA, Phospholipiden und Cholin.<\/p>",
+            "text": "<p>Praktische Darreichungsform. Lässt sich bei Bedarf leicht öffnen und der Inhalt in Speisen und Getränken einrühren.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -671,7 +243,7 @@
         "title_fjbhPb": {
           "type": "title",
           "settings": {
-            "title": "SUPERBA2™",
+            "title": "Licaps®-Kapseln",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -682,7 +254,7 @@
         "text_iMkk8y": {
           "type": "text",
           "settings": {
-            "text": "<p>Hochwertiges Antarktis-Krillöl in der üblichen Dosierung<\/p>",
+            "text": "<p>Innovative Technologie, optimaler Schutz geruchsintensiver Inhaltsstoffe. Vorteil dieser Darreichungsform: Die Inhaltsstoffe sind geschmacks- und geruchsfrei 'verpackt'.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -719,7 +291,7 @@
         "title_V3R48t": {
           "type": "title",
           "settings": {
-            "title": "fruitflow®",
+            "title": "Lutschtablette",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -730,7 +302,7 @@
         "text_YdQjP8": {
           "type": "text",
           "settings": {
-            "text": "<p>Fruitflow® ist ein hochwertiger standardisierter wasserlöslicher Tomatenextrakt (WSTC II), wie er in Cardioflow zu finden ist<\/p>",
+            "text": "<p>Diese Form der Darreichung löst sich langsam im Mund auf, praktische Alternative zu Schlucktabletten.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -767,7 +339,7 @@
         "title_Rc7BPm": {
           "type": "title",
           "settings": {
-            "title": "KSM-66 Ashwagandha®",
+            "title": "Tablette",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -778,7 +350,7 @@
         "text_x4WEYX": {
           "type": "text",
           "settings": {
-            "text": "<p>Vollspektrummarkenextrakt, einzigartiges Verfahren zur Extraktion aus den Ashwagandhawurzeln<\/p>",
+            "text": "<p>Bewährte Darreichungsart: Einfache und diskrete Einnahme, lange Haltbarkeit, problemlose Handhabung.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -815,7 +387,7 @@
         "title_e94CFA": {
           "type": "title",
           "settings": {
-            "title": "ABG10+®",
+            "title": "Brausetablette",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -826,7 +398,7 @@
         "text_YFyfCq": {
           "type": "text",
           "settings": {
-            "text": "<p>Markenzeichen von Pharmactive Biotech Products, S. L., ein patentierter Markenrohstoff aus schwarzem Knoblauch<\/p>",
+            "text": "<p>Mit dieser Darreichungsform werden die Inhaltsstoffe in Wasser aufgelöst und liegen dann bereits für den Magen gelöst vor.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -863,7 +435,7 @@
         "title_jaGHhi": {
           "type": "title",
           "settings": {
-            "title": "Kaneka™",
+            "title": "Direktgranulat im Stick",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -874,7 +446,7 @@
         "text_t7eyHW": {
           "type": "text",
           "settings": {
-            "text": "<p>Qualitätshersteller des QH-Rohstoffes von Medicom<\/p>",
+            "text": "<p>Der Inhalt kann schnell und ohne Wasser direkt eingenommen werden. Das Granulat zergeht im Mund. Diese Darrecihungsform wird von Sportlern und Reisenden gerne gewählt, macht auch immer dann Sinn, wenn man gerne einen Geschmack möchte.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -911,7 +483,7 @@
         "title_34jFhx": {
           "type": "title",
           "settings": {
-            "title": "Institut Kuhlmann®",
+            "title": "Trinkampulle",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -922,7 +494,7 @@
         "text_jf4Et9": {
           "type": "text",
           "settings": {
-            "text": "<p>Das namhafte Institut Kuhlmann® steht für laboruntersuchte Qualität von Medicom-Produkten<\/p>",
+            "text": "<p>Praktische flüssige Zubereitung, optimal dosiert. Schütteln, öffnen, trinken. Die bequeme Darreichungsform.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -958,15 +530,6 @@
     "breadcrumbs",
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
-    "16600579701b9ea466",
-    "16600579852f4017d4",
-    "section_image_with_text_UJnAgL",
-    "section_image_with_text_X3nppT",
-    "section_image_with_text_qif7KW",
-    "section_image_with_text_M76UF9",
-    "section_image_with_text_cFXgzp",
-    "section_image_with_text_4pqKV4",
-    "section_rich_text_RmzrwD",
     "main-page",
     "section_image_with_text_AWC9k9",
     "section_image_with_text_T6aYqi",
