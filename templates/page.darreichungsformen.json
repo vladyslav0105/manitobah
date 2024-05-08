@@ -173,10 +173,10 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/akerbiomarine.webp",
+        "image": "shopify:\/\/shop_images\/softgel.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
-        "color_palette": "light",
+        "color_palette": "white",
         "overlay_opacity": 100,
         "layout": "image-left",
         "width": "boxed",
@@ -221,7 +221,7 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/superbaboost_logo.webp",
+        "image": "shopify:\/\/shop_images\/Kapsel_0357fa0a-71b9-4829-b802-4c89c4c258a9.jpg",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -269,10 +269,10 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/suberba2.webp",
+        "image": "shopify:\/\/shop_images\/Licaps.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
-        "color_palette": "light",
+        "color_palette": "white",
         "overlay_opacity": 100,
         "layout": "image-left",
         "width": "boxed",
@@ -317,7 +317,7 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/fruitflow.webp",
+        "image": "shopify:\/\/shop_images\/Lutschtablette.jpg",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -365,10 +365,10 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ksm66.webp",
+        "image": "shopify:\/\/shop_images\/Tablette.jpg",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
-        "color_palette": "light",
+        "color_palette": "white",
         "overlay_opacity": 100,
         "layout": "image-left",
         "width": "boxed",
@@ -413,7 +413,7 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/abg10.webp",
+        "image": "shopify:\/\/shop_images\/Brausetablette_7652f412-e6c3-48a8-972e-a533dd2141db.jpg",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -461,10 +461,10 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kaneka_0ad00be4-f3dc-4bc0-9619-b6a0e798651c.webp",
+        "image": "shopify:\/\/shop_images\/sticks2.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
-        "color_palette": "light",
+        "color_palette": "white",
         "overlay_opacity": 100,
         "layout": "image-left",
         "width": "boxed",
@@ -509,7 +509,7 @@
         ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/kuhlmann.webp",
+        "image": "shopify:\/\/shop_images\/trinkampulle.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
