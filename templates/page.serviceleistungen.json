@@ -75,7 +75,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Mehr Produktqualität und darüber hinaus",
+            "title": "Mehr Verantwortung für Ihr Wohlbefinden",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -87,7 +87,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Medicom bietet hervorragende Produkte zu einem attraktiven Preis-Leistungs-Verhältnis und dazu besten, kompromisslosen Service. Medicom ist als Familienunternehmen sehr persönlich gegenüber Kunden und Mitarbeitern geprägt. Dies macht Medicom zu einem besonders kundenfreundlichen Unternehmen und ist Medicoms große Stärke.<\/p>",
+            "text": "<p>Beste Qualität trifft bei Medicom auf beste Serviceleistung. Von der Bestellung bis hin zum Versand besticht Medicom mit herausragenden Vorteilen, die uns als Anbieter hochwertiger Nahrungsergänzungsmittel einzigartig in Europa machen.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -119,7 +119,7 @@
         "166005796961cc60d8-0": {
           "type": "title",
           "settings": {
-            "title": "Premium-Produkte",
+            "title": "Kostenlose Bestellung",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -130,7 +130,7 @@
         "166005796961cc60d8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Wir legen viel Wert darauf, dass unsere Produkte in bester Premium-Qualität bei Ihnen ankommen. Egal, für welches der mehr als 80 Präparate der Marken Medicom®, NOBILIN und MEDICOM TERRA® Sie sich entscheiden – alle durchlaufen vor Markteinführung eine wissenschaftliche Qualitätsprüfung. Die Inhaltsstoffe sind klar ersichtlich auf der Packung genannt, die Tagesdosis ist genau angegeben und zusätzliche Informationen werden auf dem Beipackzettel aufgeführt.<\/p>",
+            "text": "<p>Bei Medicom bestellen Sie <strong>gebühren- und portofrei<\/strong> – telefonisch, per E-Mail oder direkt im Webshop. Hier finden Sie alle Bestellwege aufgelistet.<br\/>• Gebührenfrei per Telefon unter 0800 - 73 77 730<br\/>• Gebührenfrei per Fax unter 0800 - 73 77 700<br\/>• Per SMS an +49 152 587 587 54<br\/>• Portofreie Bestellung mit den Antwortkarten<br\/>• Per E-Mail an kundenservice@medicom.de<br\/>• Rund um die Uhr auf www.medicom.de<\/p><p>Zusätzlich erhalten Sie eine Auswahl Ihrer Produkte auch in der Apotheke Ihres Vertrauens.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -167,7 +167,7 @@
         "1660057985549a4c95-0": {
           "type": "title",
           "settings": {
-            "title": "Einzelverblisterung",
+            "title": "Kompetente Beratung",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -178,7 +178,7 @@
         "1660057985549a4c95-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ob Kapseln oder Tabletten – bei Medicom werden diese in Einzelverblisterung verpackt. Warum? Nur in Einzelverpackungen können höchstmögliche Qualität, Hygiene und Haltbarkeit der Vitalstoffe gewährleistet werden. Bei einer Dose oder einem Glas kommt der Inhalt bei jeder Entnahme mit Sauerstoff, Feuchtigkeit und möglichen Verunreinigungen in Kontakt. Ein weiterer Vorteil: Bei Bedarf können Sie Einzelblister problemlos auf Reisen und unterwegs mitnehmen.<\/p>",
+            "text": "<p><strong>Wir bieten Ihnen eine persönliche und kostenlose Beratung.<\/strong>Wir führen Sie durch die Auswahlmöglichkeiten, informieren Sie über Produkte und beantworten gerne Ihre Fragen. Kompetent und wissenschaftlich fundiert. Sie erreichen unsere Mitarbeiter:innen unter der gebührenfreien Telefonnummer 0800 - 73 77 730 von montags bis samstags von 8.00 bis 19.00 Uhr. Natürlich können Sie uns auch jederzeit über unseren Webshop Ihr Anliegen schicken. Schreiben Sie uns einfach eine E-Mail an<a href=\"mailto:info@medicom.de\">info@medicom.de<\/a><\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -215,7 +215,7 @@
         "title_GfPKaz": {
           "type": "title",
           "settings": {
-            "title": "Hochwertige Rohstoffe",
+            "title": "Kostenloser Versand",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -226,7 +226,7 @@
         "text_x8fejV": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Rohstoffe unserer Produkte beziehen wir durchweg von Qualitätsrohstofflieferanten. Das erkennen Sie an verschiedenen Siegeln auf unseren Packungen, im Katalog oder im Webshop. Ein Beispiel: Das Krillöl für KRILLÖL FORTE beziehen wir von der norwegischen Firma Aker BioMarineTM. Diese Firma liefert Krillöl aus nachhaltigem Fischfang und in bester technologischer Verarbeitung.<\/p>",
+            "text": "<p><strong>Ab einem Bestellwert von 15,–€ <\/strong>liefern wir innerhalb Deutschlands <strong>versandkostenfrei<\/strong>. Für Bestellungen bis 15,–€ erheben wir 3,95€ Versandgebühren. Die Lieferung erfolgt gegen Rechnung. Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95€ pro Bestellung. Weitere Informationen dazu finden Sie unter Lieferkonditionen.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -263,7 +263,7 @@
         "title_bzLWKL": {
           "type": "title",
           "settings": {
-            "title": "Hohe Bioverfügbarkeit",
+            "title": "90-Tage-Geld-zurück-Garantie",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -274,7 +274,7 @@
         "text_JHE9Pi": {
           "type": "text",
           "settings": {
-            "text": "<p>Die Zutaten und die sinnvollen Kombinationen der Inhaltsstoffe in unseren Produkten werden nach wissenschaftlichen Erkenntnissen ausgesucht. Beste Ausgangsmaterialien gewährleisten eine optimale Bioverfügbarkeit der Wirkstoffe im menschlichen Organismus. Zum Beispiel setzen wir das natürliche Coenzym Q10 und QH mit einem Reinheitsgrad von 100 Prozent in Öl gelöster Form ein, so werden sie besonders gut vom Körper aufgenommen.<\/p>",
+            "text": "<p>Mit Medicom gehen Sie kein Risiko ein, denn jeder Kunde genießt eine <strong>90-Tage-Geld-zurück-Garantie<\/strong>. Sollten Ihnen die bestellten Produkte wider Erwarten nicht zusagen, haben Sie ganzen 90 Tage Zeit, um den Kauf zu widerrufen. Wir holen die Ware dann wieder ab und <strong>erstatten Ihnen den vollen Preis<\/strong>. Wenn Medikamente oder Medizinprodukte aufgrund von Nebenwirkungen zurückgegeben werden, sind wir verpflichtet, diese zu dokumentieren und Sie nach dem Grund der Rückgabe zu fragen.<a href=\"https:\/\/www.medicom.de\/widerruf\">Hier finden Sie weiterführende Informationen zu der 90-Tage-Geld-zurück-Garantie<\/a>. <\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -311,7 +311,7 @@
         "title_gY3wGe": {
           "type": "title",
           "settings": {
-            "title": "Wissenschaftlich fundierte Produkte",
+            "title": "Schnelle Lieferung",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -322,7 +322,7 @@
         "text_DhktH3": {
           "type": "text",
           "settings": {
-            "text": "<p>Die wissenschaftliche Begleitung aller Produkte gehört zu den Qualitätsstandards von Medicom. Die Absicherung und Bewertung erfolgt dabei nach neuesten ernährungswissenschaftlichen Erkenntnissen. Zwar brachte dieses Vorgehen in den Anfangsjahren höhere Investitionen in die Produktentwicklung mit sich, doch Qualität zahlt sich langfristig aus.<\/p>",
+            "text": "<p>Innerhalb Deutschlands erhalten Sie Ihre Ware in der Regel spätestens <strong>am zweiten Werktag nach Eingang Ihrer Bestellung<\/strong>. Unser eigenes langjährig bewährtes Logistikcenter macht eine schnelle, reibungslose Lieferung möglich.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -359,7 +359,7 @@
         "title_39qKXW": {
           "type": "title",
           "settings": {
-            "title": "Individuelle Bedürfnisse",
+            "title": "Online-Magazin und Podcast",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -370,7 +370,7 @@
         "text_bVyiLb": {
           "type": "text",
           "settings": {
-            "text": "<p>Wir berücksichtigen individuelle Ernährungsweisen wie zum Beispiel die vegetarische oder vegane Ernährung und Intoleranzen gegenüber Gluten oder Laktose. Achten Sie auf die entsprechenden Kennzeichnungen im Webshop.<\/p>",
+            "text": "<p>Auch online können Sie sich über viele <strong>Gesundheits- und Wohlfühlthemen<\/strong>informieren. Lesen Sie in unserem Online-Magazin gut recherchierte Artikel in verschiedenen Rubriken wie Essen & Trinken, Bewegung & Fitness und Wissenschaft & Forschung. <strong>Wissenswerte Fakten <\/strong>finden Sie im Vitalstoff-Lexikon. Hören Sie in Ruhe ein <strong>Experteninterview <\/strong>als Podcast an oder lassen Sie sich von <strong>Tipps und Rezeptideen <\/strong>inspirieren. Das alles nur einen Klick entfernt unter <a href=\"https:\/\/www.medicom.de\/lebennurbesser\/\">#lebennurbesser<\/a>.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -407,7 +407,7 @@
         "title_9Gj9AN": {
           "type": "title",
           "settings": {
-            "title": "Biozertifizierung",
+            "title": "Platz 1. beim deutschen Servicepreis 2023",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -418,7 +418,7 @@
         "text_PTHmGW": {
           "type": "text",
           "settings": {
-            "text": "<p>Seit Einführung der MEDICOM TERRA®-Naturreihe 2016 setzen wir bei den Naturprodukten aus Pflanzenstoffen verstärkt auf<strong>100-prozentige Bioqualität<\/strong>. Diese ist durch offizielle Ökokontrollstellen zertifiziert. Auf der Verpackung der jeweiligen Bioprodukte finden sich das EU-Biosiegel und das deutsche Biosiegel.<\/p>",
+            "text": "<p>Medicom wurde bei der Deutschen Service-Award-Verleihung 2023 in Berlin für seinen Kundenservice in der Kategorie Gesundheitsshops ausgezeichnet. Der Preis wurde vom Deutschen Institut für Service-Qualität und ntv verliehen und berücksichtigte die Bewertungen für den Online-Service, Service am Telefon und per E-Mail. Insgesamt wurden 2.230 Unternehmen, darunter 87 Gesundheitsshops, untersucht.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -455,7 +455,7 @@
         "title_8WzmhV": {
           "type": "title",
           "settings": {
-            "title": "Nachhaltigkeit",
+            "title": "Katalog des Jahres",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -463,10 +463,18 @@
             "title_weight": "100"
           }
         },
+        "usp_9X6PQU": {
+          "type": "usp",
+          "settings": {
+            "usp": "Medicom Produktkatalog erhält B2C-Award 2022\/2023",
+            "font": "secondary",
+            "font_size": "14px"
+          }
+        },
         "text_nn7rGw": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Nachhaltigkeit <\/strong>liegt uns am Herzen, denn was gut für die Umwelt ist, ist auch gut für unser Wohlbefinden. Auch wir sind nicht perfekt, deshalb arbeiten wir stetig daran, unser <strong>klimaneutrales Schaffen und Handeln <\/strong>auszubauen. Das beginnt schon bei der Beschaffung der Rohstoffe. Für unser Krillöl wird der Krill beispielsweise mit einer umweltfreundlichen, patentierten Methode gefangen. Wir verzichten bei der Herstellung unserer Präparate gänzlich auf Tierversuche und das gesamte Produktsortiment ist gentechnikfrei. Anschreiben, Kundenmagazine, Kataloge und Broschüren werden bei uns auf Recyclingpapier gedruckt. Und auch der Medicom-Versand ist klimaneutral. Darüber hinaus lassen wir bis zu 95 Prozent der Produkte von Partnerunternehmen in Deutschland und in der Schweiz herstellen. Das bedeutet Qualität und kürzere Transportwege von den Produktionsstätten zu unserem selbst betriebenen Logistikcenter. Mehr Informationen zum Thema finden Sie <a href=\"https:\/\/www.medicom.de\/nachhaltigkeit\">hier<\/a>.<\/p>",
+            "text": "<p>Der Produktkatalog erhielt in der Kategorie Business-to- Consumer (Beziehung Firma-Kunde) den Shortlist Katalog- Award 2022\/2023. Damit platziert sich der Medicom-Katalog unter die Top-3-Kataloge im Bereich B2C. Die Jury des Versandhausberater-Wettbewerbs überzeugte die Machart, Informationsdichte und kundenorientierte Ansprache. Der renommierte Preis für kanalübergreifendes Marketing im Distanzhandel wurde bereits zum 22. Mal vergeben.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -475,6 +483,7 @@
       },
       "block_order": [
         "title_8WzmhV",
+        "usp_9X6PQU",
         "text_nn7rGw"
       ],
       "custom_css": [
@@ -487,6 +496,51 @@
         "color_palette": "light",
         "overlay_opacity": 100,
         "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_wryMVM": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_V6Hz7x": {
+          "type": "title",
+          "settings": {
+            "title": "Platz 1. beim deutschen Servicepreis 2023",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_WadYgw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Medicom wurde bei der Deutschen Service-Award-Verleihung 2023 in Berlin für seinen Kundenservice in der Kategorie Gesundheitsshops ausgezeichnet. Der Preis wurde vom Deutschen Institut für Service-Qualität und ntv verliehen und berücksichtigte die Bewertungen für den Online-Service, Service am Telefon und per E-Mail. Insgesamt wurden 2.230 Unternehmen, darunter 87 Gesundheitsshops, untersucht.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_V6Hz7x",
+        "text_WadYgw"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Biozertifizierung.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
         "width": "boxed",
         "height": "l",
         "enable_custom_height": false,
@@ -966,6 +1020,7 @@
     "section_image_with_text_M76UF9",
     "section_image_with_text_cFXgzp",
     "section_image_with_text_4pqKV4",
+    "section_image_with_text_wryMVM",
     "section_rich_text_RmzrwD",
     "main-page",
     "section_image_with_text_AWC9k9",
