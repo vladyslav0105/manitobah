@@ -717,7 +717,8 @@
         "text_GyF3AT"
       ],
       "custom_css": [
-        "img {border-radius: 100px;}"
+        "img {border-radius: 100px;}",
+        "IMG:hover {opacity: 0.8; border: 2px solid white; border-radius: 100px; transform: scale(1.05);}"
       ],
       "settings": {
         "items_width": 6,
