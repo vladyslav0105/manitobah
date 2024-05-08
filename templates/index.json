@@ -580,6 +580,9 @@
     },
     "section_newsletter_44CTW3": {
       "type": "section-newsletter",
+      "custom_css": [
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-andre-furtado-43594-1429395.jpg",
         "overlay_opacity_img": 5,
@@ -602,7 +605,7 @@
         "enable_custom_font_styling": false,
         "font_size": "16px",
         "link_text": "Kostenlos anmelden",
-        "button_color_palette": "dark",
+        "button_color_palette": "white",
         "enable_newsletter_terms_checkbox": true,
         "newsletter_terms_text": "<p>Ja, ich habe die <a>Datenschutzbestimmungen <\/a>gelesen und akzeptiere diese. <\/p>",
         "spacing_desktop": 150,
