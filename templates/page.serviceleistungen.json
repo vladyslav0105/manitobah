@@ -512,7 +512,7 @@
         "title_V6Hz7x": {
           "type": "title",
           "settings": {
-            "title": "Platz 1. beim deutschen Servicepreis 2023",
+            "title": "Exklusives Kundenmagazin",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -523,7 +523,7 @@
         "text_WadYgw": {
           "type": "text",
           "settings": {
-            "text": "<p>Medicom wurde bei der Deutschen Service-Award-Verleihung 2023 in Berlin für seinen Kundenservice in der Kategorie Gesundheitsshops ausgezeichnet. Der Preis wurde vom Deutschen Institut für Service-Qualität und ntv verliehen und berücksichtigte die Bewertungen für den Online-Service, Service am Telefon und per E-Mail. Insgesamt wurden 2.230 Unternehmen, darunter 87 Gesundheitsshops, untersucht.<\/p>",
+            "text": "<p>Exklusiv für unsere Kunden versenden wir mehrmals im Jahr unser <strong>Medicom Gesundheits-Magazin<\/strong> per Post. Informieren Sie sich über wichtige Gesundheitstrends, lesen Sie interessante Artikel zu Themen aus den Bereichen <strong>Ernährung und Fitness<\/strong> sowie zu neuen Forschungsergebnissen – alles erstklassig recherchiert.<\/p><p>Medicom-Kunden erhalten das Magazin <strong>völlig unverbindlich und absolut kostenlos<\/strong>. Wünschen Sie mehr Informationen oder möchten Sie keine Aktion verpassen, dann fordern Sie den kostenlosen Gesundheitsnewsletter hier an.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -541,6 +541,60 @@
         "color_palette": "white",
         "overlay_opacity": 100,
         "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_MC7URJ": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_AHXHcV": {
+          "type": "title",
+          "settings": {
+            "title": "Medicom – Excellent Shop",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "usp_RCQCj3": {
+          "type": "usp",
+          "settings": {
+            "usp": "Trusted Shops - Award – 5 Jahre Zufriedenheit und Sicherheit der Kund:innen",
+            "font": "secondary",
+            "font_size": "14px"
+          }
+        },
+        "text_L34k9f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sicherer Einkauf – große Zufriedenheit. Medicom ist mit dem Trusted Shops Excellent Shop Award für fünf Jahre besten Service und Sicherheit ausgezeichnet worden. Um das Trusted Shops Gütesiegel zu tragen, müssen fortwährend strenge Qualitätsindikatoren erfüllt werden. Medicom erhält diie Auszeichnung für Shops, die seit vielen Jahren Zufriedenheit und Sicherheit für ihre Kund:innen bieten, ein sicheres und angenehmes Einkaufserlebnis, Verlässlichkeit und Sicherheit in Sachen Datenschutz bieten.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_AHXHcV",
+        "usp_RCQCj3",
+        "text_L34k9f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Nachhaltigkeit.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-right",
         "width": "boxed",
         "height": "l",
         "enable_custom_height": false,
@@ -1021,6 +1075,7 @@
     "section_image_with_text_cFXgzp",
     "section_image_with_text_4pqKV4",
     "section_image_with_text_wryMVM",
+    "section_image_with_text_MC7URJ",
     "section_rich_text_RmzrwD",
     "main-page",
     "section_image_with_text_AWC9k9",
