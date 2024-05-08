@@ -581,8 +581,9 @@
     "section_newsletter_44CTW3": {
       "type": "section-newsletter",
       "settings": {
-        "overlay_opacity_img": 0,
-        "color_palette": "dark_gradient",
+        "image": "shopify:\/\/shop_images\/pexels-andre-furtado-43594-1429395.jpg",
+        "overlay_opacity_img": 5,
+        "color_palette": "black",
         "overlay_opacity": 100,
         "width": "boxed",
         "title": "MELDEN SIE SICH AN UND ERHALTEN SIE 20% RABATT",
