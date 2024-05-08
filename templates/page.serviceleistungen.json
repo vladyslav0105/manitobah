@@ -145,7 +145,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/premiumprodukte.webp",
+        "image": "shopify:\/\/shop_images\/karton.jpg",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -193,7 +193,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Einzelverblisterung.webp",
+        "image": "shopify:\/\/shop_images\/Beratung_9a50b210-dc15-4730-a64c-a5d582589ef9.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -241,7 +241,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Darreichungsformen.webp",
+        "image": "shopify:\/\/shop_images\/Versand.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -289,7 +289,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Bioverfuegbarkeit.webp",
+        "image": "shopify:\/\/shop_images\/Icon_Geld_zurueck_Garantie-458x458.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -337,7 +337,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Wissenschaftlich.webp",
+        "image": "shopify:\/\/shop_images\/schnelle-lieferung-bestellung-medicom.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -385,7 +385,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Individuelle.webp",
+        "image": "shopify:\/\/shop_images\/Online-Magazin.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -433,7 +433,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Biozertifizierung.webp",
+        "image": "shopify:\/\/shop_images\/Deutscher-Service-Preis-2023-Medicom.jpg",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -490,7 +490,7 @@
         "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nachhaltigkeit.webp",
+        "image": "shopify:\/\/shop_images\/Preis_fu_r_Medicom_Produktkatalog_Katalog-des-Jahres-2022-23.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -535,7 +535,7 @@
         "text_WadYgw"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Biozertifizierung.webp",
+        "image": "shopify:\/\/shop_images\/kundenmagazin-gesundheits-magazin-medicom.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -589,7 +589,7 @@
         "text_L34k9f"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Nachhaltigkeit.webp",
+        "image": "shopify:\/\/shop_images\/trusted-shops-medicom-zertifiziert.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
