@@ -96,11 +96,11 @@
         "content_TWUfE9"
       ],
       "custom_css": [
-        "h2 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 100;}",
-        " {background-color: #f5f5f5 !important; color: gray;}"
+        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
-        "color_palette": "light",
+        "color_palette": "white",
         "overlay_opacity": 100,
         "text_position": "text-start",
         "content_width": 1280,
