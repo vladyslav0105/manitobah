@@ -230,7 +230,8 @@
       "custom_css": [
         "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 100;}",
         "h3 {font-size: 30px; font-weight: 100; text-align: center;}",
-        " {background-color: #f5f5f5; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 10px; color: gray;}"
+        " {background-color: #f5f5f5; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 10px; color: gray;}",
+        "strong {color: gray;}"
       ],
       "settings": {
         "items_width": 6,
