@@ -223,13 +223,18 @@
         "text_Njxh63",
         "text_er74aV"
       ],
+      "custom_css": [
+        "h1 {font-size: 40px;}",
+        "h3 {font-size: 30px; font-weight: bold; text-align: center;}",
+        " {background-color: #f5f5f5; padding: 20px;}"
+      ],
       "settings": {
         "items_width": 6,
         "text_alignment": "start",
         "title": "{{ collection.metafields.custom.seo_heading.value }}",
         "title_font": "primary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
+        "title_size": "h1",
+        "enable_custom_text_styling": true,
         "title_color_palette": "black",
         "title_weight": "700",
         "subtitle": "",
