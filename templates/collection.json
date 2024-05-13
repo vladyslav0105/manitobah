@@ -96,19 +96,18 @@
         "content_TWUfE9"
       ],
       "custom_css": [
-        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: bold;}",
-        "h3 {font-size: 30px; font-weight: bold; text-align: center;}",
-        " {background-color: #f5f5f5; color: gray;}"
+        "h2 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 100;}",
+        " {background-color: #f5f5f5 !important; color: gray;}"
       ],
       "settings": {
-        "color_palette": "white",
+        "color_palette": "light",
         "overlay_opacity": 100,
         "text_position": "text-start",
         "content_width": 1280,
         "height": "xs",
         "enable_custom_height": false,
         "custom_height": 300,
-        "width": "wide",
+        "width": "boxed",
         "height_mobile": "xs",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
