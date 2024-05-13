@@ -23,7 +23,8 @@
       ],
       "custom_css": [
         "h1 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
-        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}",
+        "{margin-top: 10px;}"
       ],
       "settings": {
         "width": "boxed",
