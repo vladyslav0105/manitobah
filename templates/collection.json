@@ -95,6 +95,11 @@
         "title_PL9RLm",
         "content_TWUfE9"
       ],
+      "custom_css": [
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: bold;}",
+        "h3 {font-size: 30px; font-weight: bold; text-align: center;}",
+        " {background-color: #f5f5f5; color: gray;}"
+      ],
       "settings": {
         "color_palette": "white",
         "overlay_opacity": 100,
