@@ -224,9 +224,9 @@
         "text_er74aV"
       ],
       "custom_css": [
-        "h1 {font-size: 40px;}",
+        "h1 {font-size: 40px; background-color: #f7f7f7 !important;}",
         "h3 {font-size: 30px; font-weight: bold; text-align: center;}",
-        " {background-color: #f5f5f5; padding: 20px;}"
+        " {background-color: #f7f7f7; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 10px; color: gray;}"
       ],
       "settings": {
         "items_width": 6,
