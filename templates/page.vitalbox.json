@@ -232,7 +232,7 @@
       ],
       "custom_css": [
         "img {padding-top: 30px; padding-right: 10px; padding-left: 10px;}",
-        ".codext-price-col h3 {font-size: 16px; color: #7a7a7a; font-weight: bold; text-align: right; margin-bottom: -25px;}",
+        ".codext-price-col h3 {font-size: 16px; color: #7a7a7a; font-weight: bold; text-align: right; margin-bottom: -30px;}",
         ".codext-price-col .b2b-price {font-size: 16px; font-weight: bold; color: #e61446; text-align: right;}"
       ],
       "settings": {
