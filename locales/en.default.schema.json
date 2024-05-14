@@ -8689,5 +8689,13 @@
         }
       }
     }
+  },
+  "download": {
+    "welcome_heading": "Welcome to the Medicom Download Area",
+    "welcome_sub_heading": "Welcome to the Medicom download area! Here you will find package inserts, images, and product information.",
+    "search_placeholder": "Search for product...",
+    "login_message": "No access",
+    "login_sub_message": "Please log in to access the full Medicom download area.",
+    "login_button": "Log in now"
   }
 }
