@@ -2,89 +2,59 @@
   "type": "footer",
   "name": "t:static_sections.footer.name",
   "sections": {
-    "c7b2fa9c-da19-428b-aec3-a9c706756f5a": {
+    "section_icon_text_blocks_GW9HJ9": {
       "type": "section-icon-text-blocks",
       "blocks": {
-        "sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0": {
+        "text_TURwEW": {
           "type": "text",
           "settings": {
-            "icon": "verified",
-            "image_height": 30,
-            "title": "",
+            "icon": "none",
+            "image_height": 55,
+            "title": "Column",
             "subtitle": "",
-            "text": "<p>Vollversicherte Sendungen \/ Abholungen in DE kostenlos<\/p>",
+            "text": "<p>Pair text with an icon or image to focus on services, products, blog posts or collections.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
             "show_link": false
           }
         },
-        "text_FGqfLe": {
+        "text_TrkxrJ": {
           "type": "text",
           "settings": {
-            "icon": "verified",
-            "image_height": 30,
-            "title": "",
+            "icon": "none",
+            "image_height": 55,
+            "title": "Column",
             "subtitle": "",
-            "text": "<p>individuelle Bandanpassung<\/p>",
+            "text": "<p>Pair text with an icon or image to focus on services, products, blog posts or collections.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
             "show_link": false
           }
         },
-        "text_JgWVqL": {
+        "text_CUYUfw": {
           "type": "text",
           "settings": {
-            "icon": "verified",
-            "image_height": 30,
-            "title": "",
+            "icon": "none",
+            "image_height": 55,
+            "title": "Column",
             "subtitle": "",
-            "text": "<p>zertifizierter Shop<\/p>",
+            "text": "<p>Pair text with an icon or image to focus on services, products, blog posts or collections.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
             "show_link": false
           }
         },
-        "text_EKRqAC": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "verified",
-            "image_height": 30,
-            "title": "",
-            "subtitle": "",
-            "text": "<p>Sicher dank SSL Verschlüsselung<\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
-        },
-        "text_L9zeFB": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "icon": "verified",
-            "image_height": 30,
-            "title": "",
-            "subtitle": "",
-            "text": "<p>vor Ort Abholung Ihrer Uhr möglich<\/p>",
-            "link_text": "Button",
-            "link_url": "",
-            "button_color_palette": "accent",
-            "show_link": false
-          }
-        },
-        "text_TiJPhi": {
+        "text_MyxpmG": {
           "type": "text",
           "settings": {
-            "icon": "verified",
-            "image_height": 30,
-            "title": "",
+            "icon": "none",
+            "image_height": 55,
+            "title": "Column",
             "subtitle": "",
-            "text": "<p>365 Tage im Jahr Service<\/p>",
+            "text": "<p>Pair text with an icon or image to focus on services, products, blog posts or collections.<\/p>",
             "link_text": "Button",
             "link_url": "",
             "button_color_palette": "accent",
@@ -93,21 +63,18 @@
         }
       },
       "block_order": [
-        "sections--19409751933240__c7b2fa9c-da19-428b-aec3-a9c706756f5a-1686043206847aecf5-0",
-        "text_FGqfLe",
-        "text_JgWVqL",
-        "text_EKRqAC",
-        "text_L9zeFB",
-        "text_TiJPhi"
+        "text_TURwEW",
+        "text_TrkxrJ",
+        "text_CUYUfw",
+        "text_MyxpmG"
       ],
-      "disabled": true,
       "settings": {
         "items_width": 4,
-        "text_alignment": "center",
-        "title": "",
+        "text_alignment": "start",
+        "title": "Multicolumn",
         "title_font": "primary",
         "title_size": "h2",
-        "enable_custom_text_styling": true,
+        "enable_custom_text_styling": false,
         "title_color_palette": "black",
         "title_weight": "700",
         "subtitle": "",
@@ -122,9 +89,9 @@
         "link_url": "",
         "button_color_palette": "accent",
         "show_link": false,
-        "blocks_text_alignment": "center",
+        "blocks_text_alignment": "start",
         "blocks_title_font": "primary",
-        "blocks_title_size": "h4",
+        "blocks_title_size": "h2",
         "blocks_subtitle_font": "secondary",
         "blocks_subtitle_size": "h2",
         "blocks_title_color_palette": "black",
@@ -304,7 +271,7 @@
     }
   },
   "order": [
-    "c7b2fa9c-da19-428b-aec3-a9c706756f5a",
+    "section_icon_text_blocks_GW9HJ9",
     "1023a433-3232-4476-b264-6cc700708879",
     "footer"
   ]

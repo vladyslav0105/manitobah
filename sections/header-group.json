@@ -285,7 +285,7 @@
         ".sub > a:hover {color: #e61446 !important;}",
         ".sub > a:first-child {font-weight: bold; text-decoration: none;}",
         "a:hover {color: #e61446 !important;}",
-        "#nav > ul > li > ul, #nav-bar > ul > li > ul {background: #fbfbfb; color: #434343; }"
+        "#nav > ul > li > ul,#nav-bar > ul > li > ul {background: #fbfbfb; color: #434343;}"
       ],
       "settings": {
         "layout": "layout_1",
