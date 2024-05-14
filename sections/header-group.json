@@ -306,7 +306,7 @@
         "usp_slider_autoplay_seconds": 3,
         "logo": "shopify:\/\/shop_images\/logo.png",
         "logo_width": 280,
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "searchbar_font_size": "14px",
         "searchbar_height": 42,
