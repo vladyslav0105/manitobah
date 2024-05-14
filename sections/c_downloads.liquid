@@ -1,44 +1,13 @@
 {% schema %}
-{
-  "name": "Downloads",
-  "settings": [
-    {
-      "type": "text",
-      "id": "welcome_heading",
-      "label": "Willkommens-Überschrift",
-      "default": "Willkommen im Medicom-Downloadbereich"
-    },
-    {
-      "type": "textarea",
-      "id": "welcome_message",
-      "label": "Willkommens-Nachricht",
-      "default": "Willkommen im Download-Bereich von Medicom! Hier finden Sie Beipackzettel, Bilder und Produktinfos. Bitte lesen Sie vor Gebrauch unserer Produkte die Beipackzettel sorgfältig durch. Bilder helfen bei der Identifizierung und Schulung. Alle Materialien sind nur für den autorisierten Gebrauch bestimmt. Vielen Dank für Ihr Vertrauen in Medicom!"
-    },
-    {
-      "type": "text",
-      "id": "login_message",
-      "label": "Login-Nachricht",
-      "default": "Kein Zugriff"
-    },
-    {
-      "type": "textarea",
-      "id": "login_sub_message",
-      "label": "Login-Unter-Nachricht",
-      "default": "Bitte loggen Sie sich ein, um den vollen Zugriff zum Medicom-Downloadbereich zu erhalten."
-    },
-    {
-      "type": "text",
-      "id": "login_button_text",
-      "label": "Text für Login-Button",
-      "default": "Jetzt einloggen"
-    }
-  ],
-  "presets": [
+  {
+    "name": "Downloads",
+    "settings": [],
+     "presets": [
     {
       "name": "Codext Downloads"
     }
   ]
-}
+  }
 {% endschema %}
 
 {% if customer %}
@@ -177,7 +146,7 @@
 </script>
 
 {% else %}
-<div class="login-container">
+ <div class="login-container">
     <div class="login-content">
       <p class="login-message">{{ settings.login_message }}</p>
       <p class="login-sub-message">{{ settings.login_sub_message }}</p>
