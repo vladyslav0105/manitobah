@@ -215,7 +215,6 @@
         },
         "promo_banners_jVAKUm": {
           "type": "promo_banners",
-          "disabled": true,
           "settings": {
             "menu_item": "UNTERNEHMEN",
             "height": "size-l",
@@ -284,8 +283,9 @@
       ],
       "custom_css": [
         ".sub > a:hover {color: #e61446 !important;}",
-        ".sub > a:first-child {font-weight: bold; text-decoration: underline;}",
-        "a:hover {color: #e61446 !important;}"
+        ".sub > a:first-child {font-weight: bold; text-decoration: none;}",
+        "a:hover {color: #e61446 !important;}",
+        "#nav > ul > li > ul, #nav-bar > ul > li > ul {background: #fbfbfb; color: #434343; }"
       ],
       "settings": {
         "layout": "layout_1",
