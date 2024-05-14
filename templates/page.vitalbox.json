@@ -1,0 +1,256 @@
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "166005794226b48f03": {
+      "type": "section-slideshow",
+      "blocks": {
+        "166005794296ae0ec5-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/partnerprogramm-1170x584.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "MEDICOM PARTNERPROGRAMM",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "166005794296ae0ec5-0"
+      ],
+      "custom_css": [
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_PgpVW7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_kqw8yF": {
+          "type": "title",
+          "settings": {
+            "title": "Affiliate-Partner von Medicom werden",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "spacer_648cmR": {
+          "type": "spacer",
+          "settings": {
+            "height": 35
+          }
+        },
+        "content_xarJkF": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<h3><\/h3><h3>Werden Sie Affiliate-Partner für Medicom – der führende Online-Fachhändler für hochwertige Gesundheits- und Naturprodukte<\/h3><p><br\/>Medicom bietet Produkte für ein gesundes Leben und konzentriert sich dabei auf Vitalstoff-Kombinationen, die wirklich sinnvoll sind. Die Besonderheit bei Medicom ist, dass Produktentstehung und -weiterentwicklung stets wissenschaftlich begleitet werden. Außerdem stellt Medicom sich selbst den Anspruch, seine hochwertigen Produkte zu einem sehr guten Preis-Leistungs-Verhältnis zu liefern. Ein weiterer Schwerpunkt ist der umfassende Service, den Medicom-Kunden exklusiv nutzen können und der weit über dem Branchendurchschnitt liegt.<\/p><p> <\/p><h3>Ihre Vorteile mit dem Partnerprogramm von Medicom:<\/h3><ul><li>Attraktive Provision von 8%<br\/>Durchschnittlicher Warenkorbwert von 60,– Euro<br\/>Nur 5% Stornorate<br\/>Cookielaufzeit von 60 Tagen<br\/>Professionelle Werbemittel in standardisierten Größen<br\/>Ansprechende Aktionen und Rabattcodes<br\/>Schneller und persönlicher Support<br\/>Regelmäßiges Newsletter-Update zu Endkundenaktionen<br\/> <\/li><\/ul><h3>Vorteile für Medicom Kunden:<\/h3><ul><li>Medicom bietet eine große Auswahl hochwertiger Gesundheits- und Naturprodukte<br\/>100% geprüfte Qualität<br\/>Kostenloser Versand deutschlandweit ab € 15,-<br\/>Lieferung innerhalb von 2 Werktagen deutschlandweit<br\/>Zahlungsarten: amazon payments, Kauf auf Rechnung, Sofortüberweisung, Lastschrift Kreditkarte und Paypal\/Paypal Express<br\/> <\/li><\/ul><h3>Sind Sie interessiert und möchten Sie Partner werden?<\/h3><p>Dann melde Sie sich noch heute für das <a href=\"https:\/\/ui.awin.com\/merchant-profile\/16623\">Partnerprogramm<\/a> an. Für mehr Informationen oder individuelle Kooperationsanfragen steht Ihnen das Medicom-Affiliate Management Team unter affiliate@kupona.de gerne zur Verfügung!<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_kqw8yF",
+        "spacer_648cmR",
+        "content_xarJkF"
+      ],
+      "custom_css": [
+        "h2,h3 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h3"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "c_price_grid_8KYFwx": {
+      "type": "c_price-grid",
+      "blocks": {
+        "item_rPEfQr": {
+          "type": "item",
+          "settings": {
+            "highlighted": true,
+            "image": "shopify:\/\/shop_images\/VitalBox-Basis.png",
+            "title": "Vital-Box Basis",
+            "description": "Inhalt: Magnesium Direkt 400 mg Nobilin Mineral Plus®Q10 Mono 30 mg",
+            "price": "$25 \/ mo",
+            "feature_1": "Inkl. Medicom-Gutschein",
+            "feature_2": "Ab einer Stückzahl von 10 Stk.",
+            "feature_3": "Businessrabatt von 30 %",
+            "feature_4": "",
+            "feature_5": "",
+            "feature_6": "",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_hbLkYA": {
+          "type": "item",
+          "settings": {
+            "highlighted": true,
+            "image": "shopify:\/\/shop_images\/VitalBox-Immun.png",
+            "title": "Vital-Box Immun",
+            "description": "Perfect for Getting Started",
+            "price": "$25 \/ mo",
+            "feature_1": "Inkl. Medicom-Gutschein",
+            "feature_2": "Ab einer Stückzahl von 10 Stk.",
+            "feature_3": "Businessrabatt von 30 %",
+            "feature_4": "",
+            "feature_5": "",
+            "feature_6": "",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        },
+        "item_xJVzgA": {
+          "type": "item",
+          "settings": {
+            "highlighted": true,
+            "image": "shopify:\/\/shop_images\/VitalBox-Premium.png",
+            "title": "Vital-Box Premium",
+            "description": "Perfect for Getting Started",
+            "price": "$25 \/ mo",
+            "feature_1": "Inkl. Medicom-Gutschein",
+            "feature_2": "Ab einer Stückzahl von 10 Stk.",
+            "feature_3": "Businessrabatt von 30 %",
+            "feature_4": "",
+            "feature_5": "",
+            "feature_6": "",
+            "feature_7": "",
+            "feature_8": "",
+            "cta_link": "",
+            "cta": "Get Started"
+          }
+        }
+      },
+      "block_order": [
+        "item_rPEfQr",
+        "item_hbLkYA",
+        "item_xJVzgA"
+      ],
+      "settings": {
+        "text_font": "roboto_slab_n3",
+        "text_size": "12pt",
+        "headline_font": "open_sans_n4",
+        "headline_size": "15pt",
+        "price_size": "25pt",
+        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+        "text_color": "#111",
+        "headline_color": "#111",
+        "price_color": "#111",
+        "highlight_color": "#111",
+        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
+        "button_text_color": "#fff",
+        "highlighted_button_background_color": "linear-gradient(164deg, rgba(230, 20, 70, 1), rgba(230, 20, 70, 1) 100%)",
+        "highlighted_button_text_color": "#fff",
+        "media_aspect_ratio": "1 \/ 1",
+        "max_width": 1200,
+        "grid_gap": 20,
+        "padding_top": 25,
+        "padding_bottom": 25,
+        "padding_left": 10,
+        "padding_right": 10
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "166005794226b48f03",
+    "section_rich_text_PgpVW7",
+    "main-page",
+    "c_price_grid_8KYFwx"
+  ]
+}
