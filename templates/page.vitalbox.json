@@ -391,7 +391,7 @@
       ],
       "custom_css": [
         "h4 {font-size: 15px; padding-top: 20px;}",
-        "{background-color: #f7f7f7; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}"
+        " {background-color: #f7f7f7; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}"
       ],
       "settings": {
         "alignment": "center",
@@ -410,6 +410,80 @@
         "button_color_palette": "accent",
         "show_placeholder": true,
         "compact": true,
+        "spacing_desktop": 100,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_faq_iJiyaU": {
+      "type": "section-faq",
+      "blocks": {
+        "text_NgMt3V": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_exMTdz": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_NDNRk8": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "text_NgMt3V",
+        "text_exMTdz",
+        "text_NDNRk8"
+      ],
+      "custom_css": [
+        "{margin-top: 50px;}"
+      ],
+      "settings": {
+        "alignment": "center",
+        "compact": false,
+        "title": "Häufig gestellte Fragen",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -422,6 +496,7 @@
     "section_rich_text_PgpVW7",
     "main-page",
     "c_price_grid_8KYFwx",
-    "section_contact_form_gbdiBz"
+    "section_contact_form_gbdiBz",
+    "section_faq_iJiyaU"
   ]
 }
