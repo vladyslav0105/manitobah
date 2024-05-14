@@ -665,7 +665,9 @@
         "image_FgY4WF"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {.m20.block-image-image_FgY4WF {display: block; margin-left: auto; margin-right: auto; }}"
+        "@media only screen and (min-width: 768px) {.m20.block-image-image_FgY4WF {display: block; margin-left: auto; margin-right: auto; }}",
+        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
         "color_palette": "white",
