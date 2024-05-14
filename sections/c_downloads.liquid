@@ -15,7 +15,77 @@
 <h5 class="welcome-sub-heading">
 Willkommen im Download-Bereich von Medicom! Hier finden Sie Beipackzettel, Bilder und Produktinfos. Bitte lesen Sie vor Gebrauch unserer Produkte die Beipackzettel sorgfältig durch. Bilder helfen bei der Identifizierung und Schulung. Alle Materialien sind nur für den autorisierten Gebrauch bestimmt. Vielen Dank für Ihr Vertrauen in Medicom!</h5>
 <input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="Produkt suchen..." style="margin-bottom: 10px;">
+  <style>
+    .product-container {
+      border: 2px solid #fff;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column; /* Ensures the content stacks vertically */
+      position: relative; /* Ensures relative positioning context */
+    }
 
+    .product-header-container {
+      display: flex; /* This will keep the image and the header in a row */
+      width: 100%;
+    }
+
+    .product-image {
+      flex: 0 0 auto; /* Keeps the image size according to its content */
+      padding: 10px;
+      background-color: #f2f2f2;
+    }
+
+    .product-image img {
+      max-width: 100%;
+    }
+
+    .product-header {
+      flex: 1; /* Allows the header to fill the rest of the space */
+      cursor: pointer;
+      padding: 10px;
+      background-color: #f2f2f2;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .product-content {
+      display: none; /* Initially hidden */
+      padding: 10px;
+      border-top: 1px solid #ddd;
+      width: 100%; /* Ensures it spans the full width under both the image and header */
+    }
+
+    .arrow-down {
+      position: absolute;
+      top: 50%;
+      right: 15px;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid black;
+      transition: transform 0.3s ease;
+    }
+
+    .arrow-up {
+      transform: translateY(-50%) rotate(180deg);
+    }
+
+    .product-container:hover {
+      border-color: #e61446;
+      border: 2px solid #e61446;
+    }
+  #searchInput {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  </style>
 
   {% for product in collections.all.products %}
     <div class="product-container">
