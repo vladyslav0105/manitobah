@@ -256,9 +256,90 @@
         "max_width": 1200,
         "grid_gap": 50,
         "padding_top": 25,
-        "padding_bottom": 25,
+        "padding_bottom": 100,
         "padding_left": 10,
         "padding_right": 10
+      }
+    },
+    "section_contact_form_gbdiBz": {
+      "type": "section-contact-form",
+      "blocks": {
+        "text_DTN46K": {
+          "type": "text",
+          "settings": {
+            "title": "Name",
+            "placeholder": "Name",
+            "required": true
+          }
+        },
+        "text_4ELtFz": {
+          "type": "text",
+          "settings": {
+            "title": "Company name",
+            "placeholder": "Text",
+            "required": false
+          }
+        },
+        "email_hLhMLk": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "placeholder": "Email"
+          }
+        },
+        "tel_PfiQjY": {
+          "type": "tel",
+          "settings": {
+            "title": "Phone number",
+            "placeholder": "Phone number",
+            "required": false
+          }
+        },
+        "text_XgDC87": {
+          "type": "text",
+          "settings": {
+            "title": "Subject",
+            "placeholder": "Text",
+            "required": false
+          }
+        },
+        "textarea_j6RgW7": {
+          "type": "textarea",
+          "settings": {
+            "title": "Message",
+            "placeholder": "Message",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "text_DTN46K",
+        "text_4ELtFz",
+        "email_hLhMLk",
+        "tel_PfiQjY",
+        "text_XgDC87",
+        "textarea_j6RgW7"
+      ],
+      "settings": {
+        "alignment": "center",
+        "title": "Contact form",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "button_color_palette": "accent",
+        "show_placeholder": true,
+        "compact": true,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
       }
     }
   },
@@ -267,6 +348,7 @@
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
     "main-page",
-    "c_price_grid_8KYFwx"
+    "c_price_grid_8KYFwx",
+    "section_contact_form_gbdiBz"
   ]
 }
