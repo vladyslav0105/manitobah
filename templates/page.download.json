@@ -38,6 +38,9 @@
     },
     "c_downloads_iT4CWw": {
       "type": "c_downloads",
+      "custom_css": [
+        ".login-message {font-size: 50px;}"
+      ],
       "settings": {
       }
     }
