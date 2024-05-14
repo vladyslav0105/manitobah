@@ -215,6 +215,7 @@
         },
         "promo_banners_jVAKUm": {
           "type": "promo_banners",
+          "disabled": true,
           "settings": {
             "menu_item": "UNTERNEHMEN",
             "height": "size-l",
