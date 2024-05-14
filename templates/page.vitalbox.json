@@ -175,7 +175,8 @@
             "feature_7": "",
             "feature_8": "",
             "cta_link": "#shopify-section-template--22663303790877__section_contact_form_gbdiBz",
-            "cta": "JETZT ANFRAGE STELLEN"
+            "cta": "JETZT ANFRAGE STELLEN",
+            "hint": "*Steuerlich absetzbar"
           }
         },
         "item_hbLkYA": {
@@ -198,7 +199,8 @@
             "feature_7": "",
             "feature_8": "",
             "cta_link": "#shopify-section-template--22663303790877__section_contact_form_gbdiBz",
-            "cta": "JETZT ANFRAGE STELLEN"
+            "cta": "JETZT ANFRAGE STELLEN",
+            "hint": "*Steuerlich absetzbar"
           }
         },
         "item_xJVzgA": {
@@ -221,7 +223,8 @@
             "feature_7": "",
             "feature_8": "",
             "cta_link": "#shopify-section-template--22663303790877__section_contact_form_gbdiBz",
-            "cta": "JETZT ANFRAGE STELLEN"
+            "cta": "JETZT ANFRAGE STELLEN",
+            "hint": ""
           }
         }
       },
@@ -233,7 +236,8 @@
       "custom_css": [
         "img {padding-top: 30px; padding-right: 10px; padding-left: 10px;}",
         ".codext-price-col h3 {font-size: 16px; color: #7a7a7a; font-weight: bold; text-align: right; margin-bottom: -30px;}",
-        ".codext-price-col .b2b-price {font-size: 16px; font-weight: bold; color: #e61446; text-align: right;}"
+        ".codext-price-col .b2b-price {font-size: 16px; font-weight: bold; color: #e61446; text-align: right;}",
+        ".hint {font-size: 16px; margin-top: -20px; font-weight: 100; color: #7a7a7a; text-align: right;}"
       ],
       "settings": {
         "text_font": "open_sans_n4",
@@ -246,7 +250,7 @@
         "text_color": "#202020",
         "headline_color": "#111111",
         "price_color": "#111111",
-        "b2b_price_color": "#111",
+        "b2b_price_color": "#111111",
         "highlight_color": "#111111",
         "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
         "button_text_color": "#ffffff",
@@ -258,7 +262,9 @@
         "padding_top": 25,
         "padding_bottom": 100,
         "padding_left": 10,
-        "padding_right": 10
+        "padding_right": 10,
+        "hint_text_size": "12pt",
+        "hint_text_color": "#111"
       }
     },
     "section_contact_form_gbdiBz": {
