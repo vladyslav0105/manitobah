@@ -852,7 +852,7 @@
         "link_url": "shopify:\/\/collections",
         "button_color_palette": "accent",
         "show_link": false,
-        "mobile_layout": "slider",
+        "mobile_layout": "grid",
         "spacing_desktop": 150,
         "spacing_mobile": 30,
         "fix_zindex": 0
