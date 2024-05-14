@@ -231,13 +231,13 @@
         "img {padding-top: 30px; padding-right: 10px; padding-left: 10px;}"
       ],
       "settings": {
-        "text_font": "roboto_slab_n3",
+        "text_font": "open_sans_n4",
         "text_size": "12pt",
         "headline_font": "open_sans_n4",
         "headline_size": "15pt",
         "price_size": "25pt",
         "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "text_color": "#111111",
+        "text_color": "#202020",
         "headline_color": "#111111",
         "price_color": "#111111",
         "highlight_color": "#111111",
