@@ -11,10 +11,9 @@
 {% endschema %}
 
 {% if customer %}
-<h2 class="welcome-heading">Willkommen im Medicom-Downloadbereich</h2>
-<h5 class="welcome-sub-heading">
-Willkommen im Download-Bereich von Medicom! Hier finden Sie Beipackzettel, Bilder und Produktinfos. Bitte lesen Sie vor Gebrauch unserer Produkte die Beipackzettel sorgfältig durch. Bilder helfen bei der Identifizierung und Schulung. Alle Materialien sind nur für den autorisierten Gebrauch bestimmt. Vielen Dank für Ihr Vertrauen in Medicom!</h5>
-<input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="Produkt suchen..." style="margin-bottom: 10px;">
+ <h2 class="welcome-heading">{{ settings.welcome_heading }}</h2>
+  <h5 class="welcome-sub-heading">{{ settings.welcome_message }}</h5>
+  <input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="Produkt suchen..." style="margin-bottom: 10px;">
   <style>
     .product-container {
       border: 2px solid #fff;
@@ -147,13 +146,13 @@ Willkommen im Download-Bereich von Medicom! Hier finden Sie Beipackzettel, Bilde
 </script>
 
 {% else %}
-<div class="login-container">
-  <div class="login-content">
-    <p class="login-message">Kein Zugriff</p>
-    <p class="login-sub-message">Bitte loggen Sie sich ein, um den vollen Zugriff zum Medicom-Downloadbereich zu erhalten.</p>
-    <form action="/account/login" method="get">
-      <button type="submit" class="login-button">Jetzt einloggen</button>
-    </form>
+ <div class="login-container">
+    <div class="login-content">
+      <p class="login-message">{{ settings.login_message }}</p>
+      <p class="login-sub-message">{{ settings.login_sub_message }}</p>
+      <form action="/account/login" method="get">
+        <button type="submit" class="login-button">{{ settings.login_button_text }}</button>
+      </form>
+    </div>
   </div>
-</div>
 {% endif %}
