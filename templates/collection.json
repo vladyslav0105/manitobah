@@ -155,7 +155,8 @@
       "custom_css": [
         ".n6as {background-color: #f5f5f5; padding: 20px; border: solid #f5f5f5;}",
         ".n6as a:hover {color: #e61446;}",
-        ".n6as li.toggle > a {color: #e61446;}"
+        ".n6as li.toggle > a {color: #e61446;}",
+        "a:hover {color: #e61446!important; text-decoration: none!important;}"
       ],
       "settings": {
         "pagination_qty": 48,
@@ -233,7 +234,7 @@
         "h3,h2 {font-size: 30px; font-weight: 100 !important; text-align: center;}",
         " {background-color: #f5f5f5; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 10px; color: gray; text-align: left;}",
         "strong {color: gray;}",
-        "p,a, li {max-width: 900px; text-align: left;}"
+        "p,a,li {max-width: 900px; text-align: left;}"
       ],
       "settings": {
         "items_width": 6,
