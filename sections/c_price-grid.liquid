@@ -175,11 +175,6 @@
   <img src="{{ image_url }}" alt="{{ block.settings.title }}" width="{{ image_width }}" height="{{ image_height }}">
 {% endif %}
           <h2>{{ block.settings.title }}</h2>
-          <h3>{{ block.settings.price }}</h3>
-          <p>{{ block.settings.description }}</p>
-          {% if block.settings.cta != "" %}
-            <a class="codext-price-cta" href="{{ block.settings.cta_link }}">{{ block.settings.cta }}</a>
-          {% endif %}
           <ul>
             {% if block.settings.feature_1 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_1 }}</li>{% endif %}
             {% if block.settings.feature_2 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_2 }}</li>{% endif %}
@@ -190,6 +185,11 @@
             {% if block.settings.feature_7 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_7 }}</li>{% endif %}
             {% if block.settings.feature_8 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_8 }}</li>{% endif %}
           </ul>
+          <p>{{ block.settings.description }}</p>
+          <h3>{{ block.settings.price }}</h3>
+          {% if block.settings.cta != "" %}
+            <a class="codext-price-cta" href="{{ block.settings.cta_link }}">{{ block.settings.cta }}</a>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
