@@ -113,6 +113,41 @@
         "fix_zindex": 0
       }
     },
+    "section_newsletter_RzX7EV": {
+      "type": "section-newsletter",
+      "custom_css": [
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Herz_Blut_Omega3_medicom.jpg",
+        "overlay_opacity_img": 40,
+        "color_palette": "dark_gradient",
+        "overlay_opacity": 100,
+        "width": "wide",
+        "title": "MELDEN SIE SICH AN UND ERHALTEN SIE 20% RABATT",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "<p>Mit dem Medicom-Newsletter erhalten Sie die neuesten Angebote und Informationen direkt ins Postfach.<\/p>",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "Subscribe",
+        "button_color_palette": "white",
+        "enable_newsletter_terms_checkbox": true,
+        "newsletter_terms_text": "<p>Ja, ich habe die <a>Datenschutzbestimmungen<\/a> gelesen und akzeptiere diese. <\/p>",
+        "spacing_desktop": 0,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "1023a433-3232-4476-b264-6cc700708879": {
       "type": "section-social-bar",
       "disabled": true,
@@ -184,6 +219,7 @@
         },
         "newsletter_VaCqb6": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "title": "Melden Sie sich an und erhalten sie 20% Rabatt",
             "title_size": "h5",
@@ -281,6 +317,7 @@
   },
   "order": [
     "section_icon_text_blocks_GW9HJ9",
+    "section_newsletter_RzX7EV",
     "1023a433-3232-4476-b264-6cc700708879",
     "footer"
   ]
