@@ -357,8 +357,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Sport & Muskeln<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/fitness-sport",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -372,8 +372,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Magen und Darm<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/magen-darm-verdauung",
             "button_color_palette": "accent",
             "show_link": false
           }
