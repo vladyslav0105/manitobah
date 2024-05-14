@@ -11,9 +11,9 @@
 {% endschema %}
 
 {% if customer %}
-<h2 class="welcome-heading">{{ 'welcome_heading' | t }}</h2>
-<h5 class="welcome-sub-heading">{{ 'welcome_sub_heading' | t }}</h5>
-<input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="{{ 'search_placeholder' | t }}" style="margin-bottom: 10px;">
+<h2 class="welcome-heading">{{ 'download.welcome_heading' | t }}</h2>
+<h5 class="welcome-sub-heading">{{ 'download.welcome_sub_heading' | t }}</h5>
+<input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="{{ 'download.search_placeholder' | t }}" style="margin-bottom: 10px;">
   <style>
     .product-container {
       border: 2px solid #fff;
@@ -157,10 +157,10 @@
 {% else %}
 <div class="login-container">
     <div class="login-content">
-        <p class="login-message">{{ 'login_message' | t }}</p>
-        <p class="login-sub-message">{{ 'login_sub_message' | t }}</p>
+        <p class="login-message">{{ 'download.login_message' | t }}</p>
+        <p class="login-sub-message">{{ 'download.login_sub_message' | t }}</p>
         <form action="/account/login" method="get">
-            <button type="submit" class="login-button">{{ 'login_button' | t }}</button>
+            <button type="submit" class="login-button">{{ 'download.login_button' | t }}</button>
         </form>
     </div>
 </div>
