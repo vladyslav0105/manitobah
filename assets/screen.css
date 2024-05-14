@@ -4980,3 +4980,11 @@ h6, .h6, .l4cl.category h6 { font-size: var(--mob_h6); }
   right: auto !important;
   padding: 43px 20px 20px 0px !important;
 }
+
+.no-megamenu a {
+  min-height: unset !important;
+}
+
+.no-megamenu li {
+  margin-bottom: 0 !important;
+}
