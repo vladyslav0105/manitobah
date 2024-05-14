@@ -169,7 +169,10 @@
       {% for block in section.blocks %}
         <div class="codext-price-col{% if block.settings.highlighted %} codext-price-col-highlighted{% endif %}">
           {% if block.settings.image != "" %}
-            <img src="{{ block.settings.image }}" alt="{{ block.settings.title }}">
+            {% assign image_url = block.settings.image | asset_url %}
+{% assign image_width = block.settings.image_width | default: "300" %}
+{% assign image_height = block.settings.image_height | default: "200" %}
+<img src="{{ image_url }}" alt="{{ block.settings.title }}" width="{{ image_width }}" height="{{ image_height }}">
           {% endif %}
           <h2>{{ block.settings.title }}</h2>
           <h3>{{ block.settings.price }}</h3>
@@ -529,107 +532,119 @@
   ],
   "blocks": [
     {
-      "name": "Price Item",
-      "type": "item",
-      "settings": [
-        {
-          "type": "checkbox",
-          "id": "highlighted",
-          "label": "Highlighted",
-          "default": true
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title",
-          "default": "Standard"
-        },
-        {
-          "type": "text",
-          "id": "description",
-          "label": "Description",
-          "default": "Perfect for Getting Started"
-        },
-        {
-          "type": "text",
-          "id": "price",
-          "label": "Price",
-          "default": "$25 / mo"
-        },
-        {
-          "type": "header",
-          "content": "Features",
-          "info": "Features for the plan. Leave blank to skip."
-        },
-        {
-          "type": "text",
-          "id": "feature_1",
-          "label": "Bullet 1",
-          "default": "Bullet Feature 1"
-        },
-        {
-          "type": "text",
-          "id": "feature_2",
-          "label": "Bullet 2",
-          "default": "Bullet Feature 2"
-        },
-        {
-          "type": "text",
-          "id": "feature_3",
-          "label": "Bullet 3",
-          "default": "Bullet Feature 3"
-        },
-        {
-          "type": "text",
-          "id": "feature_4",
-          "label": "Bullet 4",
-          "default": "Bullet Feature 4"
-        },
-        {
-          "type": "text",
-          "id": "feature_5",
-          "label": "Bullet 5",
-          "default": "Bullet Feature 5"
-        },
-        {
-          "type": "text",
-          "id": "feature_6",
-          "label": "Bullet 6",
-          "default": "Bullet Feature 6"
-        },
-        {
-          "type": "text",
-          "id": "feature_7",
-          "label": "Bullet 7"
-        },
-        {
-          "type": "text",
-          "id": "feature_8",
-          "label": "Feature 8"
-        },
-        {
-          "type": "header",
-          "content": "Button",
-          "info": "Link and title for the button"
-        },
-        {
-          "type": "url",
-          "id": "cta_link",
-          "label": "Call to Action Link"
-        },
-        {
-          "type": "text",
-          "id": "cta",
-          "label": "Button Title",
-          "default": "Get Started"
-        }
-      ]
+  "name": "Price Item",
+  "type": "item",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "highlighted",
+      "label": "Highlighted",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "number",
+      "id": "image_width",
+      "label": "Image Width",
+      "default": 300
+    },
+    {
+      "type": "number",
+      "id": "image_height",
+      "label": "Image Height",
+      "default": 200
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Standard"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Perfect for Getting Started"
+    },
+    {
+      "type": "text",
+      "id": "price",
+      "label": "Price",
+      "default": "$25 / mo"
+    },
+    {
+      "type": "header",
+      "content": "Features",
+      "info": "Features for the plan. Leave blank to skip."
+    },
+    {
+      "type": "text",
+      "id": "feature_1",
+      "label": "Bullet 1",
+      "default": "Bullet Feature 1"
+    },
+    {
+      "type": "text",
+      "id": "feature_2",
+      "label": "Bullet 2",
+      "default": "Bullet Feature 2"
+    },
+    {
+      "type": "text",
+      "id": "feature_3",
+      "label": "Bullet 3",
+      "default": "Bullet Feature 3"
+    },
+    {
+      "type": "text",
+      "id": "feature_4",
+      "label": "Bullet 4",
+      "default": "Bullet Feature 4"
+    },
+    {
+      "type": "text",
+      "id": "feature_5",
+      "label": "Bullet 5",
+      "default": "Bullet Feature 5"
+    },
+    {
+      "type": "text",
+      "id": "feature_6",
+      "label": "Bullet 6",
+      "default": "Bullet Feature 6"
+    },
+    {
+      "type": "text",
+      "id": "feature_7",
+      "label": "Bullet 7"
+    },
+    {
+      "type": "text",
+      "id": "feature_8",
+      "label": "Feature 8"
+    },
+    {
+      "type": "header",
+      "content": "Button",
+      "info": "Link and title for the button"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Call to Action Link"
+    },
+    {
+      "type": "text",
+      "id": "cta",
+      "label": "Button Title",
+      "default": "Get Started"
     }
+  ]
+}
   ],
   "presets": [
     {
