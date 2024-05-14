@@ -296,7 +296,6 @@
             {%- if promo_collection == false and link.links != blank or promo_banner %}
                 <a href="./" class="toggle">{{ 'header.navigation.view_all' | t }}</a>
                 <ul class="{% if link.title == 'Unternehmen' %}no-megamenu{% endif %}">
-                  <ul class="{% if link.title == 'Themen' %}no-megamenu{% endif %}">
                     {%- liquid
                         assign split = false
                         assign item_nr = 0
