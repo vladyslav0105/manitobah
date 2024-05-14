@@ -28,7 +28,7 @@
 
     #codext-price-{{ section.id }}.codext-price-wrap .b2b-price {
       font-size: {{ section.settings.b2b_price_size }};
-      color: {{section.settings.b2b_price_color}};
+      color: {{ section.settings.b2b_price_color }};
       text-align: center;
       padding: 10px 20px 20px 20px;
     }
@@ -168,6 +168,13 @@
       background-image: {{section.settings.highlighted_button_background_color}};
       color: {{section.settings.highlighted_button_text_color}};
     }
+
+    #codext-price-{{ section.id }} .hint {
+      margin: 20px;
+      text-align: center;
+      font-size: {{ section.settings.hint_text_size }};
+      color: {{ section.settings.hint_text_color }};
+    }
 </style>
   
 <div id="codext-price-{{ section.id }}" class="codext-price-wrap">
@@ -197,6 +204,9 @@
           <div class="b2b-price">{{ block.settings.b2b_price }}</div>
           {% if block.settings.cta != "" %}
             <a class="codext-price-cta" href="{{ block.settings.cta_link }}">{{ block.settings.cta }}</a>
+          {% endif %}
+          {% if block.settings.hint != "" %}
+            <div class="hint">{{ block.settings.hint }}</div>
           {% endif %}
         </div>
       {% endfor %}
@@ -606,6 +616,72 @@
       "id": "padding_right",
       "default": 10,
       "label": "Padding Right"
+    },
+    {
+      "type": "select",
+      "id": "hint_text_size",
+      "label": "Hint Text Size",
+      "options": [
+        {
+          "value": "10pt",
+          "label": "10pt"
+        },
+        {
+          "value": "12pt",
+          "label": "12pt"
+        },
+        {
+          "value": "14pt",
+          "label": "14pt"
+        },
+        {
+          "value": "15pt",
+          "label": "15pt"
+        },
+        {
+          "value": "16pt",
+          "label": "16pt"
+        },
+        {
+          "value": "17pt",
+          "label": "17pt"
+        },
+        {
+          "value": "18pt",
+          "label": "18pt"
+        },
+        {
+          "value": "20pt",
+          "label": "20pt"
+        },
+        {
+          "value": "22pt",
+          "label": "22pt"
+        },
+        {
+          "value": "25pt",
+          "label": "25pt"
+        },
+        {
+          "value": "30pt",
+          "label": "30pt"
+        },
+        {
+          "value": "35pt",
+          "label": "35pt"
+        },
+        {
+          "value": "inherit",
+          "label": "inherit"
+        }
+      ],
+      "default": "12pt"
+    },
+    {
+      "type": "color",
+      "id": "hint_text_color",
+      "default": "#111",
+      "label": "Hint Text Color"
     }
   ],
   "blocks": [
@@ -725,6 +801,11 @@
           "id": "cta",
           "label": "Button Title",
           "default": "Get Started"
+        },
+        {
+          "type": "text",
+          "id": "hint",
+          "label": "Hint"
         }
       ]
     }
