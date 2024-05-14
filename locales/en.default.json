@@ -100,7 +100,7 @@
       "manual": "Automatic",
       "price-ascending": "Price, low to to",
       "price-descending": "Price, to to low",
-      "sort_by": "",
+      "sort_by": "sort by",
       "sort_by_label": "Sort by",
       "title-ascending": "Alphabetically, a-z",
       "title-descending": "Alphabetically, z-a"
@@ -472,7 +472,7 @@
     "specifications": "Specifications",
     "stock_tag": "Last stock!",
     "not_in_stock_tag": "Out of stock",
-    "unit_price_label": "",
+    "unit_price_label": "Base price",
     "unit_price_separator": "\/",
     "vendor": "Vendor",
     "view_in_your_space": "View in your space"
@@ -503,7 +503,7 @@
     "contact_form": {
       "company": "Company",
       "email": "Email",
-      "email_disclaimer": "",
+      "email_disclaimer": "Email Disclaimer",
       "message": "Message",
       "name": "Name",
       "phone": "Phone number",
