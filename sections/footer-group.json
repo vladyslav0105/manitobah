@@ -120,7 +120,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Herz_Blut_Omega3_medicom.jpg",
-        "overlay_opacity_img": 40,
+        "overlay_opacity_img": 25,
         "color_palette": "dark_gradient",
         "overlay_opacity": 100,
         "width": "wide",
