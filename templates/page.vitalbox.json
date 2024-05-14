@@ -152,6 +152,48 @@
         "spacing_mobile": 30
       }
     },
+    "section_featured_products_xnhKgR": {
+      "type": "section-featured-products",
+      "settings": {
+        "products": [
+          "vitamin-c-shot-1-000-mg",
+          "nobilin-beauty-complex-r",
+          "nobilin-biotin-5-mg-n",
+          "nobilin-cor",
+          "nobilin-gelenk-complex-r",
+          "nobilin-gelenk-fit-r-trinkampullen",
+          "nobilin-gluco-zimt",
+          "nobilin-menovital",
+          "nobilin-multivital-r"
+        ],
+        "layout": "slider",
+        "number_of_items": 5,
+        "text_alignment": "center",
+        "title": "Einige unserer Top-Produkte",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "link_text": "",
+        "link_url": "\/",
+        "button_color_palette": "accent",
+        "show_link": false,
+        "mobile_layout": "slider",
+        "spacing_desktop": 100,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "c_price_grid_8KYFwx": {
       "type": "c_price-grid",
       "blocks": {
@@ -540,6 +582,7 @@
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
     "main-page",
+    "section_featured_products_xnhKgR",
     "c_price_grid_8KYFwx",
     "section_contact_form_gbdiBz",
     "section_faq_iJiyaU"
