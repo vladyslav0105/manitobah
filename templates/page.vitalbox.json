@@ -239,7 +239,7 @@
         ".codext-price-col .b2b-price {font-size: 16px; font-weight: bold; color: #e61446; text-align: right;}",
         ".hint {font-size: 16px; margin-top: -20px; font-weight: 100; color: #7a7a7a; text-align: right;}",
         ".codext-price-col p {text-align: left !important; color: #7a7a7a;}",
-        ".codext-price-col li {text-align: left !important; color: #7a7a7a;}"
+        ".codext-price-col li {text-align: left !important; color: #7a7a7a; line-height: 1;}"
       ],
       "settings": {
         "text_font": "open_sans_n4",
