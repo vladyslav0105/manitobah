@@ -39,7 +39,9 @@
     "c_downloads_iT4CWw": {
       "type": "c_downloads",
       "custom_css": [
-        ".login-message {font-size: 50px;}"
+        ".login-message {font-size: 50px;}",
+        ".login-container {padding: 20px;}",
+        ".login-content {display: flex; flex-direction: column; align-items: center;}"
       ],
       "settings": {
       }
