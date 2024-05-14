@@ -45,16 +45,54 @@
             "second_button_styling": "fill",
             "second_show_link": false
           }
+        },
+        "slide_KjfAXt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/q10-qh-lebennurbesser-1170x584.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 20,
+            "color_palette": "dark_gradient",
+            "text_position": "text-center",
+            "title": "SALE!",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "BIS DU -60% SPAREN!",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h1",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/sale",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
         }
       },
       "block_order": [
-        "slide_xYBz66"
+        "slide_xYBz66",
+        "slide_KjfAXt"
       ],
       "custom_css": [
         "h1 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
         "h4 {color: #000000;}",
         "p {text-align: left; font-weight: bold;}",
-        "a {color: white;}"
+        "a {color: white;}",
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}"
       ],
       "settings": {
         "width": "boxed",
