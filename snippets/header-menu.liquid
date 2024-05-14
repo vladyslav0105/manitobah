@@ -352,7 +352,7 @@
                                 </a>
                                 {%- if sub.links != blank %}
                                     <a href="{{ sub.url }}" class="toggle">{{ 'header.navigation.toggle_submenu' | t: item: sub.title }}</a>
-                                    <ul aaa>
+                                    <ul>
                                         {%- for subsub in sub.links -%}
                                             {%- liquid
                                                 assign item_nr = item_nr | plus: 1
