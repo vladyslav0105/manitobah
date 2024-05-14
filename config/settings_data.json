@@ -551,7 +551,9 @@
       ".l4cl .price .small {font-size: 10px; color: gray;}",
       ".old-price {display: none;}",
       ".ab-price {color: black;}",
-      "#search > div,#search fieldset > div {background: #fff; color: #434343;}"
+      "#search > div,#search fieldset > div {background: #fff; color: #434343;}",
+      ".login-container {padding: 20px;}",
+      ".login-content {display: flex; flex-direction: column; align-items: center;}"
     ]
   }
 }
