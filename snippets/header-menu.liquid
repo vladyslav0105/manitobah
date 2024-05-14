@@ -144,7 +144,7 @@
             {% comment %} START PROMO COLLECTION LIST {% endcomment %}
             {%- if promo_collection -%}
                 <a href="./" class="toggle">{{ 'header.navigation.view_all' | t }}</a>
-                <ul>
+                <ul aa>
                     <li>
                         {%- liquid
                           assign custom_height_ratio = promo_collection.settings.custom_image_ratio | divided_by: 100.0
