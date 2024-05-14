@@ -286,7 +286,7 @@
         ".sub > a:first-child {font-weight: bold; text-decoration: none;}",
         "a:hover {color: #e61446 !important;}",
         "#nav > ul > li > ul,#nav-bar > ul > li > ul {background: #fbfbfb; color: #434343;}",
-        ".no-megamenu {line-height: 2;}"
+        ".no-megamenu {line-height: 1.5;}"
       ],
       "settings": {
         "layout": "layout_1",
