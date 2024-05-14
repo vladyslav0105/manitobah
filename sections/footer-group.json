@@ -144,7 +144,7 @@
         "enable_newsletter_terms_checkbox": true,
         "newsletter_terms_text": "<p>Ja, ich habe die <a>Datenschutzbestimmungen<\/a> gelesen und akzeptiere diese. <\/p>",
         "spacing_desktop": 0,
-        "spacing_mobile": 30,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
