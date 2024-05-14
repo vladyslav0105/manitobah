@@ -151,106 +151,12 @@
         "spacing_desktop": 50,
         "spacing_mobile": 30
       }
-    },
-    "c_price_grid_8KYFwx": {
-      "type": "c_price-grid",
-      "blocks": {
-        "item_rPEfQr": {
-          "type": "item",
-          "settings": {
-            "highlighted": true,
-            "image": "shopify:\/\/shop_images\/VitalBox-Basis.png",
-            "title": "Vital-Box Basis",
-            "description": "Inhalt: Magnesium Direkt 400 mg Nobilin Mineral Plus®Q10 Mono 30 mg",
-            "price": "$25 \/ mo",
-            "feature_1": "Inkl. Medicom-Gutschein",
-            "feature_2": "Ab einer Stückzahl von 10 Stk.",
-            "feature_3": "Businessrabatt von 30 %",
-            "feature_4": "",
-            "feature_5": "",
-            "feature_6": "",
-            "feature_7": "",
-            "feature_8": "",
-            "cta_link": "",
-            "cta": "Get Started"
-          }
-        },
-        "item_hbLkYA": {
-          "type": "item",
-          "settings": {
-            "highlighted": true,
-            "image": "shopify:\/\/shop_images\/VitalBox-Immun.png",
-            "title": "Vital-Box Immun",
-            "description": "Perfect for Getting Started",
-            "price": "$25 \/ mo",
-            "feature_1": "Inkl. Medicom-Gutschein",
-            "feature_2": "Ab einer Stückzahl von 10 Stk.",
-            "feature_3": "Businessrabatt von 30 %",
-            "feature_4": "",
-            "feature_5": "",
-            "feature_6": "",
-            "feature_7": "",
-            "feature_8": "",
-            "cta_link": "",
-            "cta": "Get Started"
-          }
-        },
-        "item_xJVzgA": {
-          "type": "item",
-          "settings": {
-            "highlighted": true,
-            "image": "shopify:\/\/shop_images\/VitalBox-Premium.png",
-            "title": "Vital-Box Premium",
-            "description": "Perfect for Getting Started",
-            "price": "$25 \/ mo",
-            "feature_1": "Inkl. Medicom-Gutschein",
-            "feature_2": "Ab einer Stückzahl von 10 Stk.",
-            "feature_3": "Businessrabatt von 30 %",
-            "feature_4": "",
-            "feature_5": "",
-            "feature_6": "",
-            "feature_7": "",
-            "feature_8": "",
-            "cta_link": "",
-            "cta": "Get Started"
-          }
-        }
-      },
-      "block_order": [
-        "item_rPEfQr",
-        "item_hbLkYA",
-        "item_xJVzgA"
-      ],
-      "settings": {
-        "text_font": "roboto_slab_n3",
-        "text_size": "12pt",
-        "headline_font": "open_sans_n4",
-        "headline_size": "15pt",
-        "price_size": "25pt",
-        "background_color": "linear-gradient(164deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
-        "text_color": "#111",
-        "headline_color": "#111",
-        "price_color": "#111",
-        "highlight_color": "#111",
-        "button_background_color": "linear-gradient(164deg, rgba(17, 17, 17, 1), rgba(51, 51, 51, 1) 100%)",
-        "button_text_color": "#fff",
-        "highlighted_button_background_color": "linear-gradient(164deg, rgba(230, 20, 70, 1), rgba(230, 20, 70, 1) 100%)",
-        "highlighted_button_text_color": "#fff",
-        "media_aspect_ratio": "1 \/ 1",
-        "max_width": 1200,
-        "grid_gap": 20,
-        "padding_top": 25,
-        "padding_bottom": 25,
-        "padding_left": 10,
-        "padding_right": 10
-      }
     }
   },
   "order": [
     "breadcrumbs",
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
-    "main-page",
-    "c_price_grid_8KYFwx"
+    "main-page"
   ]
 }
