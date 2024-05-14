@@ -626,8 +626,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Krillöl<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/krillol-epa-dha",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -640,9 +640,9 @@
             "image_height": 180,
             "title": "",
             "subtitle": "",
-            "text": "<p>Biokatives Q10 (Ubiquinol)<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "text": "<p>Bioaktives Q10: Ubiquinol (QH)<\/p>",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/bioaktives-q10-ubiquinol-qh",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -656,8 +656,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Probiotika<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/probiotika",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -671,8 +671,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Schwarzer Knoblauch<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/products\/schwarzer-knoblauch",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -686,8 +686,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Artischocke<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/artischocke",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -701,8 +701,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Ashwagandha<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/ashwagandha",
             "button_color_palette": "accent",
             "show_link": false
           }
