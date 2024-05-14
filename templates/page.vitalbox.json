@@ -390,7 +390,8 @@
         "checkbox_ggrdTx"
       ],
       "custom_css": [
-        "h4 {font-size: 15px; padding-top: 20px;}"
+        "h4 {font-size: 15px; padding-top: 20px;}",
+        "{background-color: #f7f7f7; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}"
       ],
       "settings": {
         "alignment": "center",
