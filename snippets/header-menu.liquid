@@ -33,7 +33,7 @@
             endif
         endfor
     -%}
-    {%- if layout == 'dropdown' and promo_collection == false and promo_banner == false or link.title == 'UNTERNEHMEN' -%}
+    {%- if layout == 'dropdown' and promo_collection == false and promo_banner == false -%}
         {%- assign link_title_downcase = link.title | downcase -%}
         <li class="{% if link.links != blank %}sub-static{% endif %}{% if link.active %} active{% endif %}{% if menubar_caps %} text-uppercase{% endif %} {% if main_menu_items_clickable == false and link.links != blank %} inactive{% endif %}{% if link.url == '#' and link.links != blank %} inactive{% endif %}" {% if link.active %}aria-current="page"{% endif %}>
             <a accesskey="{{ forloop.index }}" href="{{ link.url }}">
@@ -386,7 +386,7 @@
                                             <li class="overlay-theme"><a href="{{ sub.url }}">{{ 'header.navigation.view_more' | t }}</a></li>
                                         {%- endif -%} {% endcomment %}
                                     </ul>
-                                {%- endif %}
+                                {%- endif -%}
                             </li>
                             {% if split or forloop.last %}
                             </li>
@@ -579,7 +579,7 @@
                                                     </p>
                                                 {%- endif %}
                                                 </div>
-                                            {%- endif %}
+                                            {%- endif -%}
                                         </li>
                                     {%- endif -%}
                                 {%- endfor -%}
