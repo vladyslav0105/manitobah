@@ -232,7 +232,7 @@
       "custom_css": [
         "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 100; max-width: 500px;}",
         "h3,h2 {font-size: 30px; font-weight: 100 !important; text-align: center;}",
-        " {background: linear-gradient(to bottom, #f5f5f5, white); margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 10px; color: gray; text-align: left;}",
+        " {background: linear-gradient(to bottom, #f5f5f5, white); margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 50px; color: gray; text-align: left;}",
         "strong {color: gray;}",
         "p,a,li {max-width: 900px; text-align: left;}"
       ],
