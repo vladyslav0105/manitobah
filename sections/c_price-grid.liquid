@@ -169,11 +169,13 @@
       {% for block in section.blocks %}
         <div class="codext-price-col{% if block.settings.highlighted %} codext-price-col-highlighted{% endif %}">
           {% if block.settings.image != "" %}
-            {% assign image_url = block.settings.image | asset_url %}
-{% assign image_width = block.settings.image_width | default: "300" %}
-{% assign image_height = block.settings.image_height | default: "200" %}
-<img src="{{ image_url }}" alt="{{ block.settings.title }}" width="{{ image_width }}" height="{{ image_height }}">
-          {% endif %}
+  {% assign image_url = block.settings.image %}
+  {% assign image_width = block.settings.image_width | default: "300" %}
+  {% assign image_height = block.settings.image_height | default: "200" %}
+  <!-- Debug Output: Display the URL being generated -->
+  <p>Image URL: {{ image_url }}</p>
+  <img src="{{ image_url }}" alt="{{ block.settings.title }}" width="{{ image_width }}" height="{{ image_height }}">
+{% endif %}
           <h2>{{ block.settings.title }}</h2>
           <h3>{{ block.settings.price }}</h3>
           <p>{{ block.settings.description }}</p>
