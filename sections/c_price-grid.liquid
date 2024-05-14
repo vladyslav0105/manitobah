@@ -172,8 +172,6 @@
   {% assign image_url = block.settings.image | img_url: 'master' %}
   {% assign image_width = block.settings.image_width | default: "300" %}
   {% assign image_height = block.settings.image_height | default: "200" %}
-  <!-- Debug Output: Display the URL being generated -->
-  <p>Image URL: {{ image_url }}</p>
   <img src="{{ image_url }}" alt="{{ block.settings.title }}" width="{{ image_width }}" height="{{ image_height }}">
 {% endif %}
           <h2>{{ block.settings.title }}</h2>
