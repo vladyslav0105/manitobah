@@ -421,10 +421,10 @@
         "text_NgMt3V": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "Was ist die Mindestauflage?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Die Vital-Boxen in den Modellen <em><strong>Basis<\/strong><\/em>, <em><strong>Immun<\/strong><\/em> und <em><strong>Premium<\/strong><\/em> bieten wir ab einer Stückzahl von 10 Boxen an. Die Vital-Box Individuell hat eine Mindestbestellmenge von 250 Boxen.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -435,10 +435,10 @@
         "text_exMTdz": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "Zu welchem Anlass verschenke ich die Vital-Box?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Als Dankeschön für die Kundentreue und Mitarbeiter, als Wertschätzung zu Weihnachten, als Präsent bei betrieblichen Anlässen, wie zum Beispiel Jubiläen, als Aufmerksamkeit zum gelungenen Projektabschluss, als Give-Away auf einer Messe. Ihrer Kreativität sind keine Grenzen gesetzt.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -449,10 +449,52 @@
         "text_NDNRk8": {
           "type": "text",
           "settings": {
-            "faq_question": "Collapsible row",
+            "faq_question": "Warum sollte ich mich für die Vital-Box entscheiden?",
             "icon": "none",
             "header_image_width": 25,
-            "faq_answer": "<p>Row content<\/p>",
+            "faq_answer": "<p>Die Vital-Box von Medicom ist ein einzigartiges Kunden- oder Mitarbeitergeschenk für jede Gelegenheit.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_dKzNNe": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Wer erstellt das Layout der Box?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Bei den Vital-Boxen in den Modellen <em><strong>Basis<\/strong><\/em>, <em><strong>Immun<\/strong><\/em> und <em><strong>Premium<\/strong><\/em> bieten wir Ihnen ab einer Stückzahl von 10 Boxen ergänzend die Möglichkeit an, eine Grußkarte mitzubestellen. Bei dieser Möglichkeit der Individualisierung benötigen wir im zweiten Schritt Ihr Firmenlogo und einen Text.<br\/>Die Vital-Box <em>Individuell<\/em> hat einen Mindestmenge von 250 Boxen. Bei der Vital-Box <em><strong>Individuell<\/strong><\/em> besprechen wir mit Ihnen Ihre Möglichkeiten der Gestaltung. Wenn Sie eine Grafikabteilung inhouse haben, kann diese das Design nach Zusendung der Vorlagen vornehmen. Ansonsten bieten wir die Grafikleistung nach Absprache zusätzlich an.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_XaBbpz": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Welche Produkte befinden sich in der Box?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Vital-Box <em><strong>Basis: <\/strong><\/em>Magnesium Direkt 400 mg \/ Nobilin Mineral Plus® \/ Q10 Mono 30 mg<\/p><p>Vital-Box <em><strong>Immun: <\/strong><\/em>Zink 15 mg \/ Vitamin C Lutschtabletten \/ Nobilin Immun Complex® <\/p><p>Vital-Box <em><strong>Premium:<br\/><\/strong><\/em>Nobilin Q10 Multivitamin \/ Nobilin Mineral Plus \/ Nobilin Lyco \/  Nobilin Krillöl Omega 3 Plus \/ Q10 Mono 100 mg<\/p><p>Vital-Box <em><strong>Individuell:<br\/><\/strong><\/em>Gemeinsam mit Ihnen stimmen wir die Produktauswahl aus unserem vielfältigen Sortiment mit über 80 Produkten ab.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_yr3TBM": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Was ist ein tolles Geschenk für Kunden \/ Mitarbeiter?",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Gesund, hochwertig, individuell. Mit der Vital-Box von Medicom liegen Sie richtig, wenn Sie ein tolles Geschenk für Ihre Kunden oder Mitarbeiter suchen.<\/p>",
             "page": "",
             "image_width": 465,
             "liquid": "",
@@ -464,7 +506,10 @@
       "block_order": [
         "text_NgMt3V",
         "text_exMTdz",
-        "text_NDNRk8"
+        "text_NDNRk8",
+        "text_dKzNNe",
+        "text_XaBbpz",
+        "text_yr3TBM"
       ],
       "custom_css": [
         "{margin-top: 50px;}"
