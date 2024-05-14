@@ -124,7 +124,7 @@
           "type": "text",
           "settings": {
             "faq_question": "Antworten auf Fragen zur Bestellung",
-            "icon": "none",
+            "icon": "delivery_box_2",
             "header_image_width": 25,
             "faq_answer": "<p>Sie bestellen per Post, per Fax, per Telefon, per SMS, per E-Mail oder Internet.  Der Kaufvertrag über die Ware kommt bei Bestellungen per Post, per Fax, per Telefon, per E-Mail oder Internet durch unsere Auftragsbestätigung oder durch die Lieferung der Ware zustande. Die Darstellung der Produkte im Online-Shop stellt kein rechtlich bindendes Angebot, sondern einen unverbindlichen Online-Katalog dar. Durch Anklicken des Buttons „Kaufen“ \/ „zahlungspflichtig bestellen“ geben Sie eine verbindliche Bestellung der im Warenkorb enthaltenen Waren ab. Die Bestätigung des Eingangs der Bestellung folgt unmittelbar nach dem Absenden der Bestellung und stellt noch keine Vertragsannahme dar.<\/p><p>Prüfen Sie bitte die Mitteilung über die Lieferung bzw. die Rechnung auf offensichtliche Schreib- und Rechenfehler sowie auf Abweichungen zwischen Bestellung, Bestätigung und Lieferung.<\/p>",
             "page": "",
@@ -138,7 +138,7 @@
           "type": "text",
           "settings": {
             "faq_question": "Antworten auf Fragen zu Lieferbedingungen",
-            "icon": "none",
+            "icon": "global_shipping",
             "header_image_width": 25,
             "faq_answer": "<p>Kostenloser Versand deutschlandweit ab € 15,-. Ab einem Bestellwert von 15,- EUR liefern wir innerhalb Deutschlands versandkostenfrei. Für Bestellungen bis € 15,- erheben wir € 3,95 Versandgebühren. Wir liefern innerhalb von zwei Werktagen innerhalb Deutschlands nach Eingang Ihrer Bestellung. Die Lieferung erfolgt gegen Rechnung.<\/p><p><br\/>Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95 EUR pro Bestellung. Bei Sendungen ins Ausland können wir keine Aussagen über die Beförderungsdauer treffen.<\/p><p>Die Kanarischen Inseln werden nicht von Medicom beliefert.<\/p><p>Bei Lieferungen in Nicht-EU-Länder werden je nach Land vom Zoll zusätzliche Gebühren erhoben, auf die wir keinen Einfluss haben. Diese Kosten trägt in jedem Fall der Empfänger der Lieferung. Bei einer Lieferung ins nichteuropäische Ausland fallen zudem die nachstehend aufgeführten anteiligen Versandkosten an:<\/p><p> <\/p><p>LAND: Schweiz*<\/p><p>BETRAG: 15,55 EUR<\/p><p> <\/p><p>LAND: Großbritannien*<\/p><p>BETRAG: 20,00 EUR<\/p><p> <\/p><p>*zzgl. Zoll und Einfuhrumsatzsteuer, die der Kunde direkt an die Zollbehörde zahlen muss.<\/p>",
             "page": "",
@@ -152,7 +152,7 @@
           "type": "text",
           "settings": {
             "faq_question": "Antworten auf Fragen zu Zahlungsbedingungen",
-            "icon": "none",
+            "icon": "mobile_payment",
             "header_image_width": 25,
             "faq_answer": "<p>Wir akzeptieren folgende Zahlungsarten: 1.) Rechnung (erst ab 2. Bestellung) 2.) Kreditkartenzahlung mit VISA, MasterCard und Amex. 3.) Amazon Payments. 4.) Sofortüberweisung. 5.) PayPal. Bei allen Zahlarten außer Rechnung werden Sie auf die Seiten der jeweils externen Bezahldienstleister geleitet.<br\/>Die Belastung Ihres Kreditkartenkontos erfolgt mit Abschluss der Bestellung. Bei Zahlung per Lastschrift erfolgt die Belastung Ihres Kontos, wenn die Ware unser Lager verlässt. <br\/>Wenn Sie trotz Mahnung und Fristsetzung in Zahlungsverzug geraten, sind wir zur Berechnung von Verzugszinsen in Höhe von 5 % über dem Basiszinssatz der Europäischen Zentralbank berechtigt, soweit kein geringerer Schaden nachgewiesen wird. Falls uns nachweisbar ein höherer Verzugsschaden entstanden ist, sind wir berechtigt, diesen geltend zu machen.<\/p>",
             "page": "",
@@ -166,7 +166,7 @@
           "type": "text",
           "settings": {
             "faq_question": "Antworten auf Fragen zur Bonitätsprüfung und Scoring",
-            "icon": "none",
+            "icon": "coin",
             "header_image_width": 25,
             "faq_answer": "<p>Sofern wir in Vorleistung treten, z.B. beim Kauf auf Rechnung, behalten wir uns vor, zur Wahrung unserer berechtigten Interessen eine Identitäts- und Bonitätsauskunft von hierauf spezialisierten Dienstleistungsunternehmen (Wirtschaftsauskunfteien) einzuholen. Wir übermitteln hierzu Ihre für eine Bonitätsprüfung benötigten personenbezogenen Daten an folgendes Unternehmen:<\/p><p><br\/>Creditreform Boniversum GmbH<br\/>Hammfelddamm 13<br\/>41460 Neuss<\/p>",
             "page": "",
@@ -180,7 +180,7 @@
           "type": "text",
           "settings": {
             "faq_question": "Antworten auf Fragen zu Rückgabe\/Reklamation",
-            "icon": "none",
+            "icon": "question",
             "header_image_width": 25,
             "faq_answer": "<p>Wir räumen Ihnen als Verbraucher zusätzlich zu Ihrem gesetzlich zustehenden 14-tägigen Widerrufsrechts die Möglichkeit ein, bis zu 90 Tage nach Erhalt der Ware von unserem Geld-zurück-Versprechen Gebrauch zu machen. Die gesetzlichen Regelungen zum Widerrufsrecht werden nicht eingeschränkt, während der Widerrufsfrist gelten ausschließlich die gesetzlichen Regelungen zum <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Widerrufsrecht<\/a>.<\/p>",
             "page": "",
