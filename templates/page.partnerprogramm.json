@@ -75,7 +75,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Häufig gestellte Fragen",
+            "title": "Affiliate-Partner von Medicom werden",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -83,11 +83,17 @@
             "title_weight": "700"
           }
         },
+        "spacer_648cmR": {
+          "type": "spacer",
+          "settings": {
+            "height": 35
+          }
+        },
         "content_xarJkF": {
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Die Medicom Pharma GmbH führt Ihre Bestellungen auf der Grundlage der in §305 des Bürgerlichen Gesetzbuches (BGB) Abs. 1 festgelegten allgemeinen Geschäftsbedingungen durch.<\/p>",
+            "text": "<h3><\/h3><h3>Werden Sie Affiliate-Partner für Medicom – der führende Online-Fachhändler für hochwertige Gesundheits- und Naturprodukte<\/h3><p><br\/>Medicom bietet Produkte für ein gesundes Leben und konzentriert sich dabei auf Vitalstoff-Kombinationen, die wirklich sinnvoll sind. Die Besonderheit bei Medicom ist, dass Produktentstehung und -weiterentwicklung stets wissenschaftlich begleitet werden. Außerdem stellt Medicom sich selbst den Anspruch, seine hochwertigen Produkte zu einem sehr guten Preis-Leistungs-Verhältnis zu liefern. Ein weiterer Schwerpunkt ist der umfassende Service, den Medicom-Kunden exklusiv nutzen können und der weit über dem Branchendurchschnitt liegt.<\/p><p> <\/p><h3>Ihre Vorteile mit dem Partnerprogramm von Medicom:<\/h3><ul><li>Attraktive Provision von 8%<br\/>Durchschnittlicher Warenkorbwert von 60,– Euro<br\/>Nur 5% Stornorate<br\/>Cookielaufzeit von 60 Tagen<br\/>Professionelle Werbemittel in standardisierten Größen<br\/>Ansprechende Aktionen und Rabattcodes<br\/>Schneller und persönlicher Support<br\/>Regelmäßiges Newsletter-Update zu Endkundenaktionen<br\/> <\/li><\/ul><h3>Vorteile für Medicom Kunden:<\/h3><ul><li>Medicom bietet eine große Auswahl hochwertiger Gesundheits- und Naturprodukte<br\/>100% geprüfte Qualität<br\/>Kostenloser Versand deutschlandweit ab € 15,-<br\/>Lieferung innerhalb von 2 Werktagen deutschlandweit<br\/>Zahlungsarten: amazon payments, Kauf auf Rechnung, Sofortüberweisung, Lastschrift Kreditkarte und Paypal\/Paypal Express<br\/> <\/li><\/ul><h3>Sind Sie interessiert und möchten Sie Partner werden?<\/h3><p>Dann melde Sie sich noch heute für das <a href=\"https:\/\/ui.awin.com\/merchant-profile\/16623\">Partnerprogramm<\/a> an. Für mehr Informationen oder individuelle Kooperationsanfragen steht Ihnen das Medicom-Affiliate Management Team unter affiliate@kupona.de gerne zur Verfügung!<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -96,10 +102,11 @@
       },
       "block_order": [
         "title_kqw8yF",
+        "spacer_648cmR",
         "content_xarJkF"
       ],
       "custom_css": [
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h2,h3 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
@@ -112,107 +119,6 @@
         "custom_height": 300,
         "width": "boxed",
         "height_mobile": "xs",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_faq_XEAQwT": {
-      "type": "section-faq",
-      "blocks": {
-        "text_xqRqaw": {
-          "type": "text",
-          "settings": {
-            "faq_question": "Antworten auf Fragen zur Bestellung",
-            "icon": "delivery_box_2",
-            "header_image_width": 25,
-            "faq_answer": "<p>Sie bestellen per Post, per Fax, per Telefon, per SMS, per E-Mail oder Internet.  Der Kaufvertrag über die Ware kommt bei Bestellungen per Post, per Fax, per Telefon, per E-Mail oder Internet durch unsere Auftragsbestätigung oder durch die Lieferung der Ware zustande. Die Darstellung der Produkte im Online-Shop stellt kein rechtlich bindendes Angebot, sondern einen unverbindlichen Online-Katalog dar. Durch Anklicken des Buttons „Kaufen“ \/ „zahlungspflichtig bestellen“ geben Sie eine verbindliche Bestellung der im Warenkorb enthaltenen Waren ab. Die Bestätigung des Eingangs der Bestellung folgt unmittelbar nach dem Absenden der Bestellung und stellt noch keine Vertragsannahme dar.<\/p><p>Prüfen Sie bitte die Mitteilung über die Lieferung bzw. die Rechnung auf offensichtliche Schreib- und Rechenfehler sowie auf Abweichungen zwischen Bestellung, Bestätigung und Lieferung.<\/p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
-        "text_gnyGY6": {
-          "type": "text",
-          "settings": {
-            "faq_question": "Antworten auf Fragen zu Lieferbedingungen",
-            "icon": "global_shipping",
-            "header_image_width": 25,
-            "faq_answer": "<p>Kostenloser Versand deutschlandweit ab € 15,-. Ab einem Bestellwert von 15,- EUR liefern wir innerhalb Deutschlands versandkostenfrei. Für Bestellungen bis € 15,- erheben wir € 3,95 Versandgebühren. Wir liefern innerhalb von zwei Werktagen innerhalb Deutschlands nach Eingang Ihrer Bestellung. Die Lieferung erfolgt gegen Rechnung.<\/p><p><br\/>Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95 EUR pro Bestellung. Bei Sendungen ins Ausland können wir keine Aussagen über die Beförderungsdauer treffen.<\/p><p>Die Kanarischen Inseln werden nicht von Medicom beliefert.<\/p><p>Bei Lieferungen in Nicht-EU-Länder werden je nach Land vom Zoll zusätzliche Gebühren erhoben, auf die wir keinen Einfluss haben. Diese Kosten trägt in jedem Fall der Empfänger der Lieferung. Bei einer Lieferung ins nichteuropäische Ausland fallen zudem die nachstehend aufgeführten anteiligen Versandkosten an:<\/p><p> <\/p><p>LAND: Schweiz*<\/p><p>BETRAG: 15,55 EUR<\/p><p> <\/p><p>LAND: Großbritannien*<\/p><p>BETRAG: 20,00 EUR<\/p><p> <\/p><p>*zzgl. Zoll und Einfuhrumsatzsteuer, die der Kunde direkt an die Zollbehörde zahlen muss.<\/p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
-        "text_apGNf8": {
-          "type": "text",
-          "settings": {
-            "faq_question": "Antworten auf Fragen zu Zahlungsbedingungen",
-            "icon": "mobile_payment",
-            "header_image_width": 25,
-            "faq_answer": "<p>Wir akzeptieren folgende Zahlungsarten: 1.) Rechnung (erst ab 2. Bestellung) 2.) Kreditkartenzahlung mit VISA, MasterCard und Amex. 3.) Amazon Payments. 4.) Sofortüberweisung. 5.) PayPal. Bei allen Zahlarten außer Rechnung werden Sie auf die Seiten der jeweils externen Bezahldienstleister geleitet.<br\/>Die Belastung Ihres Kreditkartenkontos erfolgt mit Abschluss der Bestellung. Bei Zahlung per Lastschrift erfolgt die Belastung Ihres Kontos, wenn die Ware unser Lager verlässt. <br\/>Wenn Sie trotz Mahnung und Fristsetzung in Zahlungsverzug geraten, sind wir zur Berechnung von Verzugszinsen in Höhe von 5 % über dem Basiszinssatz der Europäischen Zentralbank berechtigt, soweit kein geringerer Schaden nachgewiesen wird. Falls uns nachweisbar ein höherer Verzugsschaden entstanden ist, sind wir berechtigt, diesen geltend zu machen.<\/p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
-        "text_Y8gBxp": {
-          "type": "text",
-          "settings": {
-            "faq_question": "Antworten auf Fragen zur Bonitätsprüfung und Scoring",
-            "icon": "coin",
-            "header_image_width": 25,
-            "faq_answer": "<p>Sofern wir in Vorleistung treten, z.B. beim Kauf auf Rechnung, behalten wir uns vor, zur Wahrung unserer berechtigten Interessen eine Identitäts- und Bonitätsauskunft von hierauf spezialisierten Dienstleistungsunternehmen (Wirtschaftsauskunfteien) einzuholen. Wir übermitteln hierzu Ihre für eine Bonitätsprüfung benötigten personenbezogenen Daten an folgendes Unternehmen:<\/p><p><br\/>Creditreform Boniversum GmbH<br\/>Hammfelddamm 13<br\/>41460 Neuss<\/p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        },
-        "text_kUAnPP": {
-          "type": "text",
-          "settings": {
-            "faq_question": "Antworten auf Fragen zu Rückgabe\/Reklamation",
-            "icon": "question",
-            "header_image_width": 25,
-            "faq_answer": "<p>Wir räumen Ihnen als Verbraucher zusätzlich zu Ihrem gesetzlich zustehenden 14-tägigen Widerrufsrechts die Möglichkeit ein, bis zu 90 Tage nach Erhalt der Ware von unserem Geld-zurück-Versprechen Gebrauch zu machen. Die gesetzlichen Regelungen zum Widerrufsrecht werden nicht eingeschränkt, während der Widerrufsfrist gelten ausschließlich die gesetzlichen Regelungen zum <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Widerrufsrecht<\/a>.<\/p>",
-            "page": "",
-            "image_width": 465,
-            "liquid": "",
-            "html": "",
-            "show_contact_form": false
-          }
-        }
-      },
-      "block_order": [
-        "text_xqRqaw",
-        "text_gnyGY6",
-        "text_apGNf8",
-        "text_Y8gBxp",
-        "text_kUAnPP"
-      ],
-      "settings": {
-        "alignment": "left",
-        "compact": false,
-        "title": "",
-        "title_font": "primary",
-        "title_size": "h2",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "",
-        "subtitle_font": "secondary",
-        "subtitle_size": "h2",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -251,7 +157,6 @@
     "breadcrumbs",
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
-    "section_faq_XEAQwT",
     "main-page"
   ]
 }
