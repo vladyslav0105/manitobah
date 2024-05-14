@@ -87,7 +87,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<h6>Allgemeiner Geltungsbereich<\/h6><p>Die Medicom Pharma GmbH führt Ihre Bestellungen auf der Grundlage der in §305 des Bürgerlichen Gesetzbuches (BGB) Abs. 1 festgelegten allgemeinen Geschäftsbedingungen durch.<\/p>",
+            "text": "<p>Die Medicom Pharma GmbH führt Ihre Bestellungen auf der Grundlage der in §305 des Bürgerlichen Gesetzbuches (BGB) Abs. 1 festgelegten allgemeinen Geschäftsbedingungen durch.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
