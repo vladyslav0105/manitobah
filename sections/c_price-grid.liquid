@@ -168,8 +168,8 @@
     <div class="codext-price-grid">
       {% for block in section.blocks %}
         <div class="codext-price-col{% if block.settings.highlighted %} codext-price-col-highlighted{% endif %}">
-          {% if block.settings.image != "" %}
-  {% assign image_url = block.settings.image %}
+{% if block.settings.image != "" %}
+  {% assign image_url = block.settings.image | img_url: 'master' %}
   {% assign image_width = block.settings.image_width | default: "300" %}
   {% assign image_height = block.settings.image_height | default: "200" %}
   <!-- Debug Output: Display the URL being generated -->
