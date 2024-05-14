@@ -36,21 +36,20 @@
         "spacing_mobile": 30
       }
     },
-    "c_downloads_iT4CWw": {
+    "c_downloads_tGAaH8": {
       "type": "c_downloads",
-      "custom_css": [
-        ".login-message {font-size: 50px;}",
-        ".login-container {padding: 20px;}",
-        ".login-content {display: flex; flex-direction: column; align-items: center;}",
-        "{margin-bottom: 50px;}"
-      ],
       "settings": {
+        "welcome_heading": "Willkommen im Medicom-Downloadbereich",
+        "welcome_message": "Willkommen im Download-Bereich von Medicom! Hier finden Sie Beipackzettel, Bilder und Produktinfos. Bitte lesen Sie vor Gebrauch unserer Produkte die Beipackzettel sorgfältig durch. Bilder helfen bei der Identifizierung und Schulung. Alle Materialien sind nur für den autorisierten Gebrauch bestimmt. Vielen Dank für Ihr Vertrauen in Medicom!",
+        "login_message": "Kein Zugriff",
+        "login_sub_message": "Bitte loggen Sie sich ein, um den vollen Zugriff zum Medicom-Downloadbereich zu erhalten.",
+        "login_button_text": "Jetzt einloggen"
       }
     }
   },
   "order": [
     "breadcrumbs",
     "main-page",
-    "c_downloads_iT4CWw"
+    "c_downloads_tGAaH8"
   ]
 }
