@@ -14,21 +14,21 @@
         "166005794296ae0ec5-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/partnerprogramm-1170x584.jpg",
+            "image": "shopify:\/\/shop_images\/banner-box.gif",
             "layout": "background",
             "image_width": 50,
             "overlay_opacity": 0,
             "color_palette": "light_gradient",
             "text_position": "text-center",
-            "title": "",
+            "title": "DIE VITAL-BOX",
             "title_font": "primary",
-            "title_size": "h3",
+            "title_size": "h1",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
-            "subtitle": "MEDICOM PARTNERPROGRAMM",
+            "subtitle": "als einzigartiges Geschenk für Kunden und Mitarbeiter",
             "subtitle_font": "secondary",
-            "subtitle_size": "h2",
+            "subtitle_size": "h3",
             "enable_custom_subtext_styling": false,
             "subtitle_color_palette": "black",
             "subtitle_weight": "400",
@@ -52,8 +52,8 @@
         "166005794296ae0ec5-0"
       ],
       "custom_css": [
-        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
-        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
+        "h1 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px; text-align: right;}",
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 20px; align-items: right; text-align: right;}"
       ],
       "settings": {
         "width": "boxed",
