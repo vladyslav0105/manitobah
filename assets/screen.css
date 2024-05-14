@@ -4974,3 +4974,9 @@ h6, .h6, .l4cl.category h6 { font-size: var(--mob_h6); }
   width: 1em!important;
   margin-left: -1em!important;
 }
+
+.no-megamenu {
+  left: auto !important;
+  right: auto !important;
+  padding: 43px 20px 20px 31px !important;
+}
