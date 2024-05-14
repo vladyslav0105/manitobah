@@ -283,32 +283,76 @@
         "text_4ELtFz": {
           "type": "text",
           "settings": {
-            "title": "Company name",
-            "placeholder": "Text",
-            "required": false
+            "title": "Firma",
+            "placeholder": "Firma",
+            "required": true
           }
         },
         "email_hLhMLk": {
           "type": "email",
           "settings": {
-            "title": "Email",
-            "placeholder": "Email"
+            "title": "E-Mail",
+            "placeholder": "E-Mail"
           }
         },
         "tel_PfiQjY": {
           "type": "tel",
           "settings": {
-            "title": "Phone number",
-            "placeholder": "Phone number",
+            "title": "Telefon",
+            "placeholder": "Telefon",
             "required": false
           }
         },
-        "text_XgDC87": {
-          "type": "text",
+        "radio_WbdW96": {
+          "type": "radio",
           "settings": {
-            "title": "Subject",
-            "placeholder": "Text",
+            "title": "Paket",
+            "option_1": "Basis",
+            "option_2": "Immun",
+            "option_3": "Prämie",
+            "option_4": "Individuell",
+            "option_5": "",
+            "option_6": "",
+            "required": true
+          }
+        },
+        "checkbox_Lxt39X": {
+          "type": "checkbox",
+          "settings": {
+            "title": "Zweck",
+            "option_1": "Kunde",
+            "option_2": "Mitarbeiter",
+            "option_3": "Beides",
+            "option_4": "",
+            "option_5": "",
+            "option_6": "",
             "required": false
+          }
+        },
+        "select_iNYwnE": {
+          "type": "select",
+          "settings": {
+            "title": "Stückzahl",
+            "option_1": "10",
+            "option_2": "20",
+            "option_3": "50",
+            "option_4": "100",
+            "option_5": "250",
+            "option_6": "500",
+            "required": true
+          }
+        },
+        "radio_4ytfcP": {
+          "type": "radio",
+          "settings": {
+            "title": "Ist eine Grußkarte gewünscht? (Pro Karte + 0,50€)",
+            "option_1": "Ja",
+            "option_2": "Nein",
+            "option_3": "",
+            "option_4": "",
+            "option_5": "",
+            "option_6": "",
+            "required": true
           }
         },
         "textarea_j6RgW7": {
@@ -318,6 +362,19 @@
             "placeholder": "Message",
             "required": true
           }
+        },
+        "checkbox_ggrdTx": {
+          "type": "checkbox",
+          "settings": {
+            "title": "",
+            "option_1": "Ich bestätige, dass ich die oben aufgeführten Daten übertragen möchte und diese zur Beantwortung meiner Anfrage verwendet werden dürfen. *",
+            "option_2": "",
+            "option_3": "",
+            "option_4": "",
+            "option_5": "",
+            "option_6": "",
+            "required": true
+          }
         }
       },
       "block_order": [
@@ -325,8 +382,12 @@
         "text_4ELtFz",
         "email_hLhMLk",
         "tel_PfiQjY",
-        "text_XgDC87",
-        "textarea_j6RgW7"
+        "radio_WbdW96",
+        "checkbox_Lxt39X",
+        "select_iNYwnE",
+        "radio_4ytfcP",
+        "textarea_j6RgW7",
+        "checkbox_ggrdTx"
       ],
       "custom_css": [
         "h4 {font-size: 15px; padding-top: 20px;}"
