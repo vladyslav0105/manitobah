@@ -550,7 +550,8 @@
       ".s1pr .small {font-size: 10px; color: gray;}",
       ".l4cl .price .small {font-size: 10px; color: gray;}",
       ".old-price {display: none;}",
-      ".ab-price {color: black;}"
+      ".ab-price {color: black;}",
+      "#search > div,#search fieldset > div {background: #fff; color: #434343;}"
     ]
   }
 }
