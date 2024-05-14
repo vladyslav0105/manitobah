@@ -156,7 +156,7 @@
         ".n6as {background-color: #f5f5f5; padding: 20px; border: solid #f5f5f5;}",
         ".n6as a:hover {color: #e61446;}",
         ".n6as li.toggle > a {color: #e61446;}",
-        "a:hover {color: #e61446 !important; text-decoration: none !important;}"
+        "a:hover {text-decoration: none !important;}"
       ],
       "settings": {
         "pagination_qty": 48,
