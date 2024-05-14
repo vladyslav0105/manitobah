@@ -155,7 +155,7 @@
         "promo_banners_M3gFeY": {
           "type": "promo_banners",
           "settings": {
-            "menu_item": "Themen",
+            "menu_item": "THEMEN",
             "height": "size-s",
             "enable_custom_height": false,
             "custom_height": 1000,
