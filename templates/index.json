@@ -297,8 +297,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Energie & Zellen<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/zellen-q10-ubiquinol-qh",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -312,8 +312,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Omega-3 \/ EPA & DHA<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/omega-3-fettsauren",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -327,8 +327,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Immunsystem<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/immunsystem-abwehrkraft",
             "button_color_palette": "accent",
             "show_link": false
           }
@@ -342,8 +342,8 @@
             "title": "",
             "subtitle": "",
             "text": "<p>Naturprodukte<\/p>",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/marke-terra",
             "button_color_palette": "accent",
             "show_link": false
           }
