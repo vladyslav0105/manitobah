@@ -39,8 +39,7 @@
     "c_downloads_epWL8D": {
       "type": "c_downloads",
       "custom_css": [
-        ".login-container {padding: 20px; }",
-        ".login-content {display: flex; flex-direction: column; align-items: center;}"
+
       ],
       "settings": {
       }
