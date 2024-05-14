@@ -237,7 +237,7 @@
         "highlighted_button_background_color": "linear-gradient(164deg, rgba(230, 20, 70, 1), rgba(230, 20, 70, 1) 100%)",
         "highlighted_button_text_color": "#fff",
         "media_aspect_ratio": "1 \/ 1",
-        "max_width": 1000,
+        "max_width": 1200,
         "grid_gap": 20,
         "padding_top": 25,
         "padding_bottom": 25,
