@@ -807,6 +807,9 @@
     },
     "section_collection_button_list_ApDzmh": {
       "type": "section-collection-button-list",
+      "custom_css": [
+        "a {font-weight: 400;}"
+      ],
       "settings": {
         "collections": [
           "zellen-q10-ubiquinol-qh",
