@@ -1,5 +1,4 @@
 <style>
-
     {{ section.settings.text_font | font_face }}
     {{ section.settings.headline_font | font_face }}
   
@@ -52,7 +51,6 @@
         display: grid;
         grid-auto-columns: 1fr;
         grid-auto-flow: column;
-        
       }
     }
   
@@ -60,7 +58,6 @@
       .codext-price .codext-price-grid {
         display: grid;
         grid-template-columns: 1fr;
-        
       }
     }
   
@@ -86,14 +83,19 @@
         margin: 0;
       }
     }
-
-    
   
     #codext-price-{{ section.id }} .codext-price-col h2 {
       margin: 0;
       text-align: center;
       padding: 20px 20px 10px 20px;
       text-transform: uppercase;
+    }
+
+    #codext-price-{{ section.id }} .codext-price-col img {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 100%;
+      height: auto;
     }
     
     #codext-price-{{ section.id }} .codext-price-col p {
@@ -159,504 +161,481 @@
       background-image: {{section.settings.highlighted_button_background_color}};
       color: {{section.settings.highlighted_button_text_color}};
     }
+</style>
   
-    @media only screen and (max-width: 800px) {
-  
-    }
-  
-    @media only screen and (max-width: 800px) {
-  
-    }
-  </style>
-  
-  <div id="codext-price-{{ section.id }}" class="codext-price-wrap">
-  
+<div id="codext-price-{{ section.id }}" class="codext-price-wrap">
   <div class="codext-price">
-  
     <div class="codext-price-grid">
-  
       {% for block in section.blocks %}
         <div class="codext-price-col{% if block.settings.highlighted %} codext-price-col-highlighted{% endif %}">
-            
-            <h2>{{ block.settings.title }}</h2>
-
-            <h3>{{ block.settings.price }}</h3>
-  
-            <p>{{ block.settings.description }}</p>
-  
-            
-            {% if block.settings.cta != "" %}
-                <a class="codext-price-cta" href="{{ block.settings.cta_link }}">{{ block.settings.cta }}</a>
-            {% endif %}
-            
-            
-            <ul>
-              {% if block.settings.feature_1 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_1 }}</li>{% endif %}
-              {% if block.settings.feature_2 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_2 }}</li>{% endif %}
-              {% if block.settings.feature_3 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_3 }}</li>{% endif %}
-              {% if block.settings.feature_4 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_4 }}</li>{% endif %}
-              {% if block.settings.feature_5 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_5 }}</li>{% endif %}
-              {% if block.settings.feature_6 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_6 }}</li>{% endif %}
-              {% if block.settings.feature_7 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_7 }}</li>{% endif %}
-              {% if block.settings.feature_8 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_8 }}</li>{% endif %}
-            </ul>
-  
-  
-            
-  
+          {% if block.settings.image != "" %}
+            <img src="{{ block.settings.image }}" alt="{{ block.settings.title }}">
+          {% endif %}
+          <h2>{{ block.settings.title }}</h2>
+          <h3>{{ block.settings.price }}</h3>
+          <p>{{ block.settings.description }}</p>
+          {% if block.settings.cta != "" %}
+            <a class="codext-price-cta" href="{{ block.settings.cta_link }}">{{ block.settings.cta }}</a>
+          {% endif %}
+          <ul>
+            {% if block.settings.feature_1 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_1 }}</li>{% endif %}
+            {% if block.settings.feature_2 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_2 }}</li>{% endif %}
+            {% if block.settings.feature_3 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_3 }}</li>{% endif %}
+            {% if block.settings.feature_4 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_4 }}</li>{% endif %}
+            {% if block.settings.feature_5 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_5 }}</li>{% endif %}
+            {% if block.settings.feature_6 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_6 }}</li>{% endif %}
+            {% if block.settings.feature_7 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_7 }}</li>{% endif %}
+            {% if block.settings.feature_8 != "" %}<li><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M382-240 154-468l57-57 171 171 367-367 57 57-424 424Z"/></svg> {{ block.settings.feature_8 }}</li>{% endif %}
+          </ul>
         </div>
-  
-        {% endfor %}
-  
+      {% endfor %}
     </div>
-    
   </div>
-  
-  </div>
-  
-  {% schema %}
+</div>
+
+{% schema %}
+{
+  "name": "c/ Price grid",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Text",
+      "info": "Set the text size for your widget"
+    },
+    {
+      "type": "font_picker",
+      "id": "text_font",
+      "label": "Text Font",
+      "default": "sans-serif"
+    },
+    {
+      "type": "select",
+      "id": "text_size",
+      "label": "Text Size",
+      "options": [
+        {
+          "value": "10pt",
+          "label": "10pt"
+        },
+        {
+          "value": "12pt",
+          "label": "12pt"
+        },
+        {
+          "value": "14pt",
+          "label": "14pt"
+        },
+        {
+          "value": "15pt",
+          "label": "15pt"
+        },
+        {
+          "value": "16pt",
+          "label": "16pt"
+        },
+        {
+          "value": "17pt",
+          "label": "17pt"
+        },
+        {
+          "value": "18pt",
+          "label": "18pt"
+        },
+        {
+          "value": "20pt",
+          "label": "20pt"
+        },
+        {
+          "value": "22pt",
+          "label": "22pt"
+        },
+        {
+          "value": "25pt",
+          "label": "25pt"
+        },
+        {
+          "value": "30pt",
+          "label": "30pt"
+        },
+        {
+          "value": "35pt",
+          "label": "35pt"
+        },
+        {
+          "value": "inherit",
+          "label": "inherit"
+        }
+      ],
+      "default": "12pt"
+    },
+    {
+      "type": "font_picker",
+      "id": "headline_font",
+      "label": "Headline Font",
+      "default": "sans-serif"
+    },
+    {
+      "type": "select",
+      "id": "headline_size",
+      "label": "Headline Size",
+      "options": [
+        {
+          "value": "10pt",
+          "label": "10pt"
+        },
+        {
+          "value": "12pt",
+          "label": "12pt"
+        },
+        {
+          "value": "14pt",
+          "label": "14pt"
+        },
+        {
+          "value": "15pt",
+          "label": "15pt"
+        },
+        {
+          "value": "16pt",
+          "label": "16pt"
+        },
+        {
+          "value": "17pt",
+          "label": "17pt"
+        },
+        {
+          "value": "18pt",
+          "label": "18pt"
+        },
+        {
+          "value": "20pt",
+          "label": "20pt"
+        },
+        {
+          "value": "22pt",
+          "label": "22pt"
+        },
+        {
+          "value": "25pt",
+          "label": "25pt"
+        },
+        {
+          "value": "30pt",
+          "label": "30pt"
+        },
+        {
+          "value": "35pt",
+          "label": "35pt"
+        },
+        {
+          "value": "40pt",
+          "label": "40pt"
+        },
+        {
+          "value": "inherit",
+          "label": "inherit"
+        }
+      ],
+      "default": "15pt"
+    },
+    {
+      "type": "select",
+      "id": "price_size",
+      "label": "Price Size",
+      "options": [
+        {
+          "value": "10pt",
+          "label": "10pt"
+        },
+        {
+          "value": "12pt",
+          "label": "12pt"
+        },
+        {
+          "value": "14pt",
+          "label": "14pt"
+        },
+        {
+          "value": "15pt",
+          "label": "15pt"
+        },
+        {
+          "value": "16pt",
+          "label": "16pt"
+        },
+        {
+          "value": "17pt",
+          "label": "17pt"
+        },
+        {
+          "value": "18pt",
+          "label": "18pt"
+        },
+        {
+          "value": "20pt",
+          "label": "20pt"
+        },
+        {
+          "value": "22pt",
+          "label": "22pt"
+        },
+        {
+          "value": "25pt",
+          "label": "25pt"
+        },
+        {
+          "value": "30pt",
+          "label": "30pt"
+        },
+        {
+          "value": "35pt",
+          "label": "35pt"
+        },
+        {
+          "value": "40pt",
+          "label": "40pt"
+        },
+        {
+          "value": "inherit",
+          "label": "inherit"
+        }
+      ],
+      "default": "25pt"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Set colors for the section."
+    },
+    {
+      "type": "color_background",
+      "id": "background_color",
+      "default": "linear-gradient(164deg, #fff 0%, #fff 0%)",
+      "label": "Background"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "default": "#111",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "headline_color",
+      "default": "#111",
+      "label": "Text Color"
+    },
+    {
+      "type": "color",
+      "id": "price_color",
+      "default": "#111",
+      "label": "Price Color"
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "default": "#111",
+      "label": "Highlight Color"
+    },
+    {
+      "type": "color_background",
+      "id": "button_background_color",
+      "default": "linear-gradient(164deg, #111 0%, #333 100%)",
+      "label": "Button Background Color"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "default": "#fff",
+      "label": "Button Text Color"
+    },
+    {
+      "type": "color_background",
+      "id": "highlighted_button_background_color",
+      "default": "linear-gradient(164deg, #10D01A 0%, #10D01A 100%)",
+      "label": "Button Background Color"
+    },
+    {
+      "type": "color",
+      "id": "highlighted_button_text_color",
+      "default": "#fff",
+      "label": "Button Text Color"
+    },
+    {
+      "type": "header",
+      "content": "Dimensions",
+      "info": "Set the section dimensions in pixels."
+    },
+    {
+      "type": "select",
+      "id": "media_aspect_ratio",
+      "label": "Media Aspect Ratio",
+      "options": [
+        {
+          "value": "21 / 9",
+          "label": "21:9"
+        },
+        {
+          "value": "16 / 9",
+          "label": "16:9"
+        },
+        {
+          "value": "4 / 3",
+          "label": "4:3"
+        },
+        {
+          "value": "1 / 1",
+          "label": "1:1"
+        }
+      ],
+      "default": "1 / 1"
+    },
+    {
+      "type": "number",
+      "id": "max_width",
+      "default": 1000,
+      "label": "Max Width of Section"
+    },
+    {
+      "type": "number",
+      "id": "grid_gap",
+      "default": 20,
+      "label": "Gap Between Reviews"
+    },
+    {
+      "type": "number",
+      "id": "padding_top",
+      "default": 25,
+      "label": "Padding Top"
+    },
+    {
+      "type": "number",
+      "id": "padding_bottom",
+      "default": 25,
+      "label": "Padding Bottom"
+    },
+    {
+      "type": "number",
+      "id": "padding_left",
+      "default": 10,
+      "label": "Padding Left"
+    },
+    {
+      "type": "number",
+      "id": "padding_right",
+      "default": 10,
+      "label": "Padding Right"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Price Item",
+      "type": "item",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "highlighted",
+          "label": "Highlighted",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Standard"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description",
+          "default": "Perfect for Getting Started"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price",
+          "default": "$25 / mo"
+        },
+        {
+          "type": "header",
+          "content": "Features",
+          "info": "Features for the plan. Leave blank to skip."
+        },
+        {
+          "type": "text",
+          "id": "feature_1",
+          "label": "Bullet 1",
+          "default": "Bullet Feature 1"
+        },
+        {
+          "type": "text",
+          "id": "feature_2",
+          "label": "Bullet 2",
+          "default": "Bullet Feature 2"
+        },
+        {
+          "type": "text",
+          "id": "feature_3",
+          "label": "Bullet 3",
+          "default": "Bullet Feature 3"
+        },
+        {
+          "type": "text",
+          "id": "feature_4",
+          "label": "Bullet 4",
+          "default": "Bullet Feature 4"
+        },
+        {
+          "type": "text",
+          "id": "feature_5",
+          "label": "Bullet 5",
+          "default": "Bullet Feature 5"
+        },
+        {
+          "type": "text",
+          "id": "feature_6",
+          "label": "Bullet 6",
+          "default": "Bullet Feature 6"
+        },
+        {
+          "type": "text",
+          "id": "feature_7",
+          "label": "Bullet 7"
+        },
+        {
+          "type": "text",
+          "id": "feature_8",
+          "label": "Feature 8"
+        },
+        {
+          "type": "header",
+          "content": "Button",
+          "info": "Link and title for the button"
+        },
+        {
+          "type": "url",
+          "id": "cta_link",
+          "label": "Call to Action Link"
+        },
+        {
+          "type": "text",
+          "id": "cta",
+          "label": "Button Title",
+          "default": "Get Started"
+        }
+      ]
+    }
+  ],
+  "presets": [
     {
       "name": "c/ Price grid",
-      "settings": [
-          {
-              "type": "header",
-              "content": "Text",
-              "info": "Set the text size for your widget"
-          },
-          {
-              "type": "font_picker",
-              "id": "text_font",
-              "label": "Text Font",
-              "default": "sans-serif"
-          },
-          {
-              "type": "select",
-              "id": "text_size",
-              "label": "Text Size",
-              "options": [
-                  {
-                      "value": "10pt",
-                      "label": "10pt"
-                  },
-                  {
-                      "value": "12pt",
-                      "label": "12pt"
-                  },
-                  {
-                      "value": "14pt",
-                      "label": "14pt"
-                  },
-                  {
-                      "value": "15pt",
-                      "label": "15pt"
-                  },
-                  {
-                      "value": "16pt",
-                      "label": "16pt"
-                  },
-                  {
-                      "value": "17pt",
-                      "label": "17pt"
-                  },
-                  {
-                      "value": "18pt",
-                      "label": "18pt"
-                  },
-                  {
-                      "value": "20pt",
-                      "label": "20pt"
-                  },
-                  {
-                      "value": "22pt",
-                      "label": "22pt"
-                  },
-                  {
-                      "value": "25pt",
-                      "label": "25pt"
-                  },
-                  {
-                      "value": "30pt",
-                      "label": "30pt"
-                  },
-                  {
-                      "value": "35pt",
-                      "label": "35pt"
-                  },
-                  {
-                      "value": "inherit",
-                      "label": "inherit"
-                  }
-              ],
-              "default": "12pt"
-          },
-          {
-              "type": "font_picker",
-              "id": "headline_font",
-              "label": "Headline Font",
-              "default": "sans-serif"
-          },
-          {
-              "type": "select",
-              "id": "headline_size",
-              "label": "Headline Size",
-              "options": [
-                  {
-                      "value": "10pt",
-                      "label": "10pt"
-                  },
-                  {
-                      "value": "12pt",
-                      "label": "12pt"
-                  },
-                  {
-                      "value": "14pt",
-                      "label": "14pt"
-                  },
-                  {
-                      "value": "15pt",
-                      "label": "15pt"
-                  },
-                  {
-                      "value": "16pt",
-                      "label": "16pt"
-                  },
-                  {
-                      "value": "17pt",
-                      "label": "17pt"
-                  },
-                  {
-                      "value": "18pt",
-                      "label": "18pt"
-                  },
-                  {
-                      "value": "20pt",
-                      "label": "20pt"
-                  },
-                  {
-                      "value": "22pt",
-                      "label": "22pt"
-                  },
-                  {
-                      "value": "25pt",
-                      "label": "25pt"
-                  },
-                  {
-                      "value": "30pt",
-                      "label": "30pt"
-                  },
-                  {
-                      "value": "35pt",
-                      "label": "35pt"
-                  },
-                  {
-                      "value": "40pt",
-                      "label": "40pt"
-                  },
-                  {
-                      "value": "inherit",
-                      "label": "inherit"
-                  }
-              ],
-              "default": "15pt"
-          },
-          {
-              "type": "select",
-              "id": "price_size",
-              "label": "Price Size",
-              "options": [
-                  {
-                      "value": "10pt",
-                      "label": "10pt"
-                  },
-                  {
-                      "value": "12pt",
-                      "label": "12pt"
-                  },
-                  {
-                      "value": "14pt",
-                      "label": "14pt"
-                  },
-                  {
-                      "value": "15pt",
-                      "label": "15pt"
-                  },
-                  {
-                      "value": "16pt",
-                      "label": "16pt"
-                  },
-                  {
-                      "value": "17pt",
-                      "label": "17pt"
-                  },
-                  {
-                      "value": "18pt",
-                      "label": "18pt"
-                  },
-                  {
-                      "value": "20pt",
-                      "label": "20pt"
-                  },
-                  {
-                      "value": "22pt",
-                      "label": "22pt"
-                  },
-                  {
-                      "value": "25pt",
-                      "label": "25pt"
-                  },
-                  {
-                      "value": "30pt",
-                      "label": "30pt"
-                  },
-                  {
-                      "value": "35pt",
-                      "label": "35pt"
-                  },
-                  {
-                      "value": "40pt",
-                      "label": "40pt"
-                  },
-                  {
-                      "value": "inherit",
-                      "label": "inherit"
-                  }
-              ],
-              "default": "25pt"
-          },
-          {
-              "type": "header",
-              "content": "Colors",
-              "info": "Set colors for the section."
-          },
-          {
-              "type": "color_background",
-              "id": "background_color",
-              "default": "linear-gradient(164deg, #fff 0%, #fff 0%)",
-              "label": "Background"
-          },
-          {
-              "type": "color",
-              "id": "text_color",
-              "default": "#111",
-              "label": "Text Color"
-          },
-          {
-              "type": "color",
-              "id": "headline_color",
-              "default": "#111",
-              "label": "Text Color"
-          },
-          {
-              "type": "color",
-              "id": "price_color",
-              "default": "#111",
-              "label": "Price Color"
-          },
-          {
-              "type": "color",
-              "id": "highlight_color",
-              "default": "#111",
-              "label": "Highlight Color"
-          },
-          {
-              "type": "color_background",
-              "id": "button_background_color",
-              "default": "linear-gradient(164deg, #111 0%, #333 100%)",
-              "label": "Button Background Color"
-          },
-          {
-              "type": "color",
-              "id": "button_text_color",
-              "default": "#fff",
-              "label": "Button Text Color"
-          },
-          {
-              "type": "color_background",
-              "id": "highlighted_button_background_color",
-              "default": "linear-gradient(164deg, #10D01A 0%, #10D01A 100%)",
-              "label": "Button Background Color"
-          },
-          {
-              "type": "color",
-              "id": "highlighted_button_text_color",
-              "default": "#fff",
-              "label": "Button Text Color"
-          },
-          {
-              "type": "header",
-              "content": "Dimensions",
-              "info": "Set the section dimensions in pixels."
-          },
-          {
-              "type": "select",
-              "id": "media_aspect_ratio",
-              "label": "Media Aspect Ratio",
-              "options": [
-                  {
-                      "value": "21 / 9",
-                      "label": "21:9"
-                  },
-                  {
-                      "value": "16 / 9",
-                      "label": "16:9"
-                  },
-                  {
-                      "value": "4 / 3",
-                      "label": "4:3"
-                  },
-                  {
-                      "value": "1 / 1",
-                      "label": "1:1"
-                  }
-              ],
-              "default": "1 / 1"
-          },
-          {
-              "type": "number",
-              "id": "max_width",
-              "default": 1000,
-              "label": "Max Width of Section"
-          },
-          {
-              "type": "number",
-              "id": "grid_gap",
-              "default": 20,
-              "label": "Gap Between Reviews"
-          },
-          {
-              "type": "number",
-              "id": "padding_top",
-              "default": 25,
-              "label": "Padding Top"
-          },
-          {
-              "type": "number",
-              "id": "padding_bottom",
-              "default": 25,
-              "label": "Padding Bottom"
-          },
-          {
-              "type": "number",
-              "id": "padding_left",
-              "default": 10,
-              "label": "Padding Left"
-          },
-          {
-              "type": "number",
-              "id": "padding_right",
-              "default": 10,
-              "label": "Padding Right"
-          }
-      ],
-      "blocks": [
-          {
-              "name": "Price Item",
-              "type": "item",
-              "settings": [
-                  {
-                      "type": "checkbox",
-                      "id": "highlighted",
-                      "label": "Highlighted",
-                      "default": true
-                  },
-                  {
-                      "type": "image_picker",
-                      "id": "image",
-                      "label": "Image"
-                  },
-                  {
-                      "type": "text",
-                      "id": "title",
-                      "label": "Title",
-                      "default": "Standard"
-                  },
-                  {
-                      "type": "text",
-                      "id": "description",
-                      "label": "Description",
-                      "default": "Perfect for Getting Started"
-                  },
-                  {
-                      "type": "text",
-                      "id": "price",
-                      "label": "Price",
-                      "default": "$25 / mo"
-                  },
-                  {
-                      "type": "header",
-                      "content": "Features",
-                      "info": "Features for the plan. Leave blank to skip."
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_1",
-                      "label": "Bullet 1",
-                      "default": "Bullet Feature 1"
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_2",
-                      "label": "Bullet 2",
-                      "default": "Bullet Feature 2"
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_3",
-                      "label": "Bullet 3",
-                      "default": "Bullet Feature 3"
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_4",
-                      "label": "Bullet 4",
-                      "default": "Bullet Feature 4"
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_5",
-                      "label": "Bullet 5",
-                      "default": "Bullet Feature 5"
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_6",
-                      "label": "Bullet 6",
-                      "default": "Bullet Feature 6"
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_7",
-                      "label": "Bullet 7"
-                  },
-                  {
-                      "type": "text",
-                      "id": "feature_8",
-                      "label": "Featue 8"
-                  },
-                  {
-                      "type": "header",
-                      "content": "Button",
-                      "info": "Link and title for the button"
-                  },
-                  {
-                      "type": "url",
-                      "id": "cta_link",
-                      "label": "Call to Action Link"
-                  },
-                  {
-                      "type": "text",
-                      "id": "cta",
-                      "label": "Button Title",
-                      "default": "Get Started"
-                  }
-              ]
-          }
-      ],
-      "presets": [
-          {
-              "name": "c/ Price grid",
-              "category": "Custom"
-          }
-      ]
-  }
-  {% endschema %}
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
