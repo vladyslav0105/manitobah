@@ -229,14 +229,15 @@
         "text_er74aV"
       ],
       "custom_css": [
-        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 100;}",
-        "h3, h2 {font-size: 30px; font-weight: 100!important; text-align: center;}",
-        " {background-color: #f5f5f5; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 10px; color: gray;}",
-        "strong {color: gray;}"
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 100; max-width: 500px;}",
+        "h3,h2 {font-size: 30px; font-weight: 100 !important; text-align: center;}",
+        " {background-color: #f5f5f5; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 10px; color: gray; text-align: left;}",
+        "strong {color: gray;}",
+        "p {max-width: 900px; text-align: left;}"
       ],
       "settings": {
         "items_width": 6,
-        "text_alignment": "start",
+        "text_alignment": "center",
         "title": "{{ collection.metafields.custom.seo_heading.value }}",
         "title_font": "primary",
         "title_size": "h1",
@@ -255,7 +256,7 @@
         "link_url": "",
         "button_color_palette": "accent",
         "show_link": false,
-        "blocks_text_alignment": "start",
+        "blocks_text_alignment": "center",
         "blocks_title_font": "primary",
         "blocks_title_size": "h2",
         "blocks_subtitle_font": "secondary",
