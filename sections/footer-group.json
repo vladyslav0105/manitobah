@@ -75,7 +75,7 @@
       "custom_css": [
         "li {border: 1px solid #f5f5f5; max-width: 300px; padding: 20px;}",
         "p {font-size: 18px; line-height: 25px; padding: 15px;}",
-        " {background-color: #f5f5f5; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 20px; margin-top: -25px; color: gray;}"
+        " {background-color: #f5f5f5; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 30px; padding-bottom: 10px; color: gray;}"
       ],
       "settings": {
         "items_width": 4,
