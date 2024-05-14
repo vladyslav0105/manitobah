@@ -14,19 +14,19 @@
         "166005794296ae0ec5-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Service-1170x584.jpg",
+            "image": "shopify:\/\/shop_images\/faq-1170x584.jpg",
             "layout": "background",
             "image_width": 50,
             "overlay_opacity": 0,
             "color_palette": "light_gradient",
             "text_position": "text-center",
-            "title": "Wir bieten Ihnen",
+            "title": "Haben Sie Fragen?",
             "title_font": "primary",
             "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
-            "subtitle": "1-A-SERVICE BEI MEDICOM",
+            "subtitle": "FAQ MEDICOM",
             "subtitle_font": "secondary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
@@ -75,7 +75,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Mehr Verantwortung für Ihr Wohlbefinden",
+            "title": "Häufig gestellte Fragen",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -87,7 +87,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Beste Qualität trifft bei Medicom auf beste Serviceleistung. Von der Bestellung bis hin zum Versand besticht Medicom mit herausragenden Vorteilen, die uns als Anbieter hochwertiger Nahrungsergänzungsmittel einzigartig in Europa machen.<\/p>",
+            "text": "<h6>Allgemeiner Geltungsbereich<\/h6><p>Die Medicom Pharma GmbH führt Ihre Bestellungen auf der Grundlage der in §305 des Bürgerlichen Gesetzbuches (BGB) Abs. 1 festgelegten allgemeinen Geschäftsbedingungen durch.<\/p>",
             "font": "secondary",
             "font_weight": "400",
             "font_size": "16px"
@@ -117,493 +117,102 @@
         "fix_zindex": 0
       }
     },
-    "16600579701b9ea466": {
-      "type": "section-image-with-text",
+    "section_faq_XEAQwT": {
+      "type": "section-faq",
       "blocks": {
-        "166005796961cc60d8-0": {
-          "type": "title",
-          "settings": {
-            "title": "Kostenlose Bestellung",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "200"
-          }
-        },
-        "166005796961cc60d8-1": {
+        "text_xqRqaw": {
           "type": "text",
           "settings": {
-            "text": "<p>Bei Medicom bestellen Sie <strong>gebühren- und portofrei<\/strong> – telefonisch, per E-Mail oder direkt im Webshop. Hier finden Sie alle Bestellwege aufgelistet.<br\/>• Gebührenfrei per Telefon unter 0800 - 73 77 730<br\/>• Gebührenfrei per Fax unter 0800 - 73 77 700<br\/>• Per SMS an +49 152 587 587 54<br\/>• Portofreie Bestellung mit den Antwortkarten<br\/>• Per E-Mail an kundenservice@medicom.de<br\/>• Rund um die Uhr auf www.medicom.de<\/p><p>Zusätzlich erhalten Sie eine Auswahl Ihrer Produkte auch in der Apotheke Ihres Vertrauens.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
+            "faq_question": "Antworten auf Fragen zur Bestellung",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sie bestellen per Post, per Fax, per Telefon, per SMS, per E-Mail oder Internet.  Der Kaufvertrag über die Ware kommt bei Bestellungen per Post, per Fax, per Telefon, per E-Mail oder Internet durch unsere Auftragsbestätigung oder durch die Lieferung der Ware zustande. Die Darstellung der Produkte im Online-Shop stellt kein rechtlich bindendes Angebot, sondern einen unverbindlichen Online-Katalog dar. Durch Anklicken des Buttons „Kaufen“ \/ „zahlungspflichtig bestellen“ geben Sie eine verbindliche Bestellung der im Warenkorb enthaltenen Waren ab. Die Bestätigung des Eingangs der Bestellung folgt unmittelbar nach dem Absenden der Bestellung und stellt noch keine Vertragsannahme dar.<\/p><p>Prüfen Sie bitte die Mitteilung über die Lieferung bzw. die Rechnung auf offensichtliche Schreib- und Rechenfehler sowie auf Abweichungen zwischen Bestellung, Bestätigung und Lieferung.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_gnyGY6": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Antworten auf Fragen zu Lieferbedingungen",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Kostenloser Versand deutschlandweit ab € 15,-. Ab einem Bestellwert von 15,- EUR liefern wir innerhalb Deutschlands versandkostenfrei. Für Bestellungen bis € 15,- erheben wir € 3,95 Versandgebühren. Wir liefern innerhalb von zwei Werktagen innerhalb Deutschlands nach Eingang Ihrer Bestellung. Die Lieferung erfolgt gegen Rechnung.<\/p><p><br\/>Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95 EUR pro Bestellung. Bei Sendungen ins Ausland können wir keine Aussagen über die Beförderungsdauer treffen.<\/p><p>Die Kanarischen Inseln werden nicht von Medicom beliefert.<\/p><p>Bei Lieferungen in Nicht-EU-Länder werden je nach Land vom Zoll zusätzliche Gebühren erhoben, auf die wir keinen Einfluss haben. Diese Kosten trägt in jedem Fall der Empfänger der Lieferung. Bei einer Lieferung ins nichteuropäische Ausland fallen zudem die nachstehend aufgeführten anteiligen Versandkosten an:<\/p><p> <\/p><p>LAND: Schweiz*<\/p><p>BETRAG: 15,55 EUR<\/p><p> <\/p><p>LAND: Großbritannien*<\/p><p>BETRAG: 20,00 EUR<\/p><p> <\/p><p>*zzgl. Zoll und Einfuhrumsatzsteuer, die der Kunde direkt an die Zollbehörde zahlen muss.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_apGNf8": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Antworten auf Fragen zu Zahlungsbedingungen",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Wir akzeptieren folgende Zahlungsarten: 1.) Rechnung (erst ab 2. Bestellung) 2.) Kreditkartenzahlung mit VISA, MasterCard und Amex. 3.) Amazon Payments. 4.) Sofortüberweisung. 5.) PayPal. Bei allen Zahlarten außer Rechnung werden Sie auf die Seiten der jeweils externen Bezahldienstleister geleitet.<br\/>Die Belastung Ihres Kreditkartenkontos erfolgt mit Abschluss der Bestellung. Bei Zahlung per Lastschrift erfolgt die Belastung Ihres Kontos, wenn die Ware unser Lager verlässt. <br\/>Wenn Sie trotz Mahnung und Fristsetzung in Zahlungsverzug geraten, sind wir zur Berechnung von Verzugszinsen in Höhe von 5 % über dem Basiszinssatz der Europäischen Zentralbank berechtigt, soweit kein geringerer Schaden nachgewiesen wird. Falls uns nachweisbar ein höherer Verzugsschaden entstanden ist, sind wir berechtigt, diesen geltend zu machen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_Y8gBxp": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Antworten auf Fragen zur Bonitätsprüfung und Scoring",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Sofern wir in Vorleistung treten, z.B. beim Kauf auf Rechnung, behalten wir uns vor, zur Wahrung unserer berechtigten Interessen eine Identitäts- und Bonitätsauskunft von hierauf spezialisierten Dienstleistungsunternehmen (Wirtschaftsauskunfteien) einzuholen. Wir übermitteln hierzu Ihre für eine Bonitätsprüfung benötigten personenbezogenen Daten an folgendes Unternehmen:<\/p><p><br\/>Creditreform Boniversum GmbH<br\/>Hammfelddamm 13<br\/>41460 Neuss<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_kUAnPP": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Antworten auf Fragen zu Rückgabe\/Reklamation",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Wir räumen Ihnen als Verbraucher zusätzlich zu Ihrem gesetzlich zustehenden 14-tägigen Widerrufsrechts die Möglichkeit ein, bis zu 90 Tage nach Erhalt der Ware von unserem Geld-zurück-Versprechen Gebrauch zu machen. Die gesetzlichen Regelungen zum Widerrufsrecht werden nicht eingeschränkt, während der Widerrufsfrist gelten ausschließlich die gesetzlichen Regelungen zum <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Widerrufsrecht<\/a>.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
           }
         }
       },
       "block_order": [
-        "166005796961cc60d8-0",
-        "166005796961cc60d8-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/karton.jpg",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "16600579852f4017d4": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "1660057985549a4c95-0": {
-          "type": "title",
-          "settings": {
-            "title": "Kompetente Beratung",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "1660057985549a4c95-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Wir bieten Ihnen eine persönliche und kostenlose Beratung.<\/strong>Wir führen Sie durch die Auswahlmöglichkeiten, informieren Sie über Produkte und beantworten gerne Ihre Fragen. Kompetent und wissenschaftlich fundiert. Sie erreichen unsere Mitarbeiter:innen unter der gebührenfreien Telefonnummer 0800 - 73 77 730 von montags bis samstags von 8.00 bis 19.00 Uhr. Natürlich können Sie uns auch jederzeit über unseren Webshop Ihr Anliegen schicken. Schreiben Sie uns einfach eine E-Mail an<a href=\"mailto:info@medicom.de\">info@medicom.de<\/a><\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "1660057985549a4c95-0",
-        "1660057985549a4c95-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
+        "text_xqRqaw",
+        "text_gnyGY6",
+        "text_apGNf8",
+        "text_Y8gBxp",
+        "text_kUAnPP"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Beratung_9a50b210-dc15-4730-a64c-a5d582589ef9.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_UJnAgL": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_GfPKaz": {
-          "type": "title",
-          "settings": {
-            "title": "Kostenloser Versand",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_x8fejV": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Ab einem Bestellwert von 15,–€ <\/strong>liefern wir innerhalb Deutschlands <strong>versandkostenfrei<\/strong>. Für Bestellungen bis 15,–€ erheben wir 3,95€ Versandgebühren. Die Lieferung erfolgt gegen Rechnung. Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95€ pro Bestellung. Weitere Informationen dazu finden Sie unter Lieferkonditionen.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_GfPKaz",
-        "text_x8fejV"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Versand.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_X3nppT": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_bzLWKL": {
-          "type": "title",
-          "settings": {
-            "title": "90-Tage-Geld-zurück-Garantie",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_JHE9Pi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Mit Medicom gehen Sie kein Risiko ein, denn jeder Kunde genießt eine <strong>90-Tage-Geld-zurück-Garantie<\/strong>. Sollten Ihnen die bestellten Produkte wider Erwarten nicht zusagen, haben Sie ganzen 90 Tage Zeit, um den Kauf zu widerrufen. Wir holen die Ware dann wieder ab und <strong>erstatten Ihnen den vollen Preis<\/strong>. Wenn Medikamente oder Medizinprodukte aufgrund von Nebenwirkungen zurückgegeben werden, sind wir verpflichtet, diese zu dokumentieren und Sie nach dem Grund der Rückgabe zu fragen.<a href=\"https:\/\/www.medicom.de\/widerruf\">Hier finden Sie weiterführende Informationen zu der 90-Tage-Geld-zurück-Garantie<\/a>. <\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_bzLWKL",
-        "text_JHE9Pi"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Icon_Geld_zurueck_Garantie-458x458.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_qif7KW": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_gY3wGe": {
-          "type": "title",
-          "settings": {
-            "title": "Schnelle Lieferung",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_DhktH3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Innerhalb Deutschlands erhalten Sie Ihre Ware in der Regel spätestens <strong>am zweiten Werktag nach Eingang Ihrer Bestellung<\/strong>. Unser eigenes langjährig bewährtes Logistikcenter macht eine schnelle, reibungslose Lieferung möglich.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_gY3wGe",
-        "text_DhktH3"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/schnelle-lieferung-bestellung-medicom.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 0,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_M76UF9": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_39qKXW": {
-          "type": "title",
-          "settings": {
-            "title": "Online-Magazin und Podcast",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_bVyiLb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Auch online können Sie sich über viele <strong>Gesundheits- und Wohlfühlthemen<\/strong>informieren. Lesen Sie in unserem Online-Magazin gut recherchierte Artikel in verschiedenen Rubriken wie Essen & Trinken, Bewegung & Fitness und Wissenschaft & Forschung. <strong>Wissenswerte Fakten <\/strong>finden Sie im Vitalstoff-Lexikon. Hören Sie in Ruhe ein <strong>Experteninterview <\/strong>als Podcast an oder lassen Sie sich von <strong>Tipps und Rezeptideen <\/strong>inspirieren. Das alles nur einen Klick entfernt unter <a href=\"https:\/\/www.medicom.de\/lebennurbesser\/\">#lebennurbesser<\/a>.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_39qKXW",
-        "text_bVyiLb"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Online-Magazin.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_cFXgzp": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_9Gj9AN": {
-          "type": "title",
-          "settings": {
-            "title": "Platz 1. beim deutschen Servicepreis 2023",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_PTHmGW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Medicom wurde bei der Deutschen Service-Award-Verleihung 2023 in Berlin für seinen Kundenservice in der Kategorie Gesundheitsshops ausgezeichnet. Der Preis wurde vom Deutschen Institut für Service-Qualität und ntv verliehen und berücksichtigte die Bewertungen für den Online-Service, Service am Telefon und per E-Mail. Insgesamt wurden 2.230 Unternehmen, darunter 87 Gesundheitsshops, untersucht.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_9Gj9AN",
-        "text_PTHmGW"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Deutscher-Service-Preis-2023-Medicom.jpg",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_4pqKV4": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_8WzmhV": {
-          "type": "title",
-          "settings": {
-            "title": "Katalog des Jahres",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "usp_9X6PQU": {
-          "type": "usp",
-          "settings": {
-            "usp": "Medicom Produktkatalog erhält B2C-Award 2022\/2023",
-            "font": "secondary",
-            "font_size": "14px"
-          }
-        },
-        "text_nn7rGw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Der Produktkatalog erhielt in der Kategorie Business-to- Consumer (Beziehung Firma-Kunde) den Shortlist Katalog- Award 2022\/2023. Damit platziert sich der Medicom-Katalog unter die Top-3-Kataloge im Bereich B2C. Die Jury des Versandhausberater-Wettbewerbs überzeugte die Machart, Informationsdichte und kundenorientierte Ansprache. Der renommierte Preis für kanalübergreifendes Marketing im Distanzhandel wurde bereits zum 22. Mal vergeben.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_8WzmhV",
-        "usp_9X6PQU",
-        "text_nn7rGw"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Preis_fu_r_Medicom_Produktkatalog_Katalog-des-Jahres-2022-23.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_wryMVM": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_V6Hz7x": {
-          "type": "title",
-          "settings": {
-            "title": "Exklusives Kundenmagazin",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "text_WadYgw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Exklusiv für unsere Kunden versenden wir mehrmals im Jahr unser <strong>Medicom Gesundheits-Magazin<\/strong> per Post. Informieren Sie sich über wichtige Gesundheitstrends, lesen Sie interessante Artikel zu Themen aus den Bereichen <strong>Ernährung und Fitness<\/strong> sowie zu neuen Forschungsergebnissen – alles erstklassig recherchiert.<\/p><p>Medicom-Kunden erhalten das Magazin <strong>völlig unverbindlich und absolut kostenlos<\/strong>. Wünschen Sie mehr Informationen oder möchten Sie keine Aktion verpassen, dann fordern Sie den kostenlosen Gesundheitsnewsletter hier an.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_V6Hz7x",
-        "text_WadYgw"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/kundenmagazin-gesundheits-magazin-medicom.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
-    "section_image_with_text_MC7URJ": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "title_AHXHcV": {
-          "type": "title",
-          "settings": {
-            "title": "Medicom – Excellent Shop",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "100"
-          }
-        },
-        "usp_RCQCj3": {
-          "type": "usp",
-          "settings": {
-            "usp": "Trusted Shops - Award – 5 Jahre Zufriedenheit und Sicherheit der Kund:innen",
-            "font": "secondary",
-            "font_size": "14px"
-          }
-        },
-        "text_L34k9f": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Sicherer Einkauf – große Zufriedenheit. Medicom ist mit dem Trusted Shops Excellent Shop Award für fünf Jahre besten Service und Sicherheit ausgezeichnet worden. Um das Trusted Shops Gütesiegel zu tragen, müssen fortwährend strenge Qualitätsindikatoren erfüllt werden. Medicom erhält diie Auszeichnung für Shops, die seit vielen Jahren Zufriedenheit und Sicherheit für ihre Kund:innen bieten, ein sicheres und angenehmes Einkaufserlebnis, Verlässlichkeit und Sicherheit in Sachen Datenschutz bieten.<\/p>",
-            "font": "secondary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "title_AHXHcV",
-        "usp_RCQCj3",
-        "text_L34k9f"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/trusted-shops-medicom-zertifiziert.png",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "light",
-        "overlay_opacity": 100,
-        "layout": "image-right",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
+        "alignment": "left",
+        "compact": false,
+        "title": "",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
@@ -642,16 +251,7 @@
     "breadcrumbs",
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
-    "16600579701b9ea466",
-    "16600579852f4017d4",
-    "section_image_with_text_UJnAgL",
-    "section_image_with_text_X3nppT",
-    "section_image_with_text_qif7KW",
-    "section_image_with_text_M76UF9",
-    "section_image_with_text_cFXgzp",
-    "section_image_with_text_4pqKV4",
-    "section_image_with_text_wryMVM",
-    "section_image_with_text_MC7URJ",
+    "section_faq_XEAQwT",
     "main-page"
   ]
 }
