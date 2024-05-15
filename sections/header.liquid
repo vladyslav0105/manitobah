@@ -293,8 +293,8 @@
                   <li><a href="{{ routes.account_logout_url }}"><i aria-hidden="true" class="icon-logout"></i> {{ 'header.account.logout' | t }}</a></li>
                 </ul>
               {%- else -%}
-                <a href="https://shopify.com/85903114525/account" class="toggle mobile-hide" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" aria-label="{{ 'header.account.login' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
-      <a href="https://shopify.com/85903114525/account" class="mobile-only" data-panel="login" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
+                <a href="{{ routes.account_login_url }}" class="toggle mobile-hide" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" aria-label="{{ 'header.account.login' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
+                <a href="{{ routes.account_login_url }}" class="mobile-only" data-panel="login" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
                 {%- form 'customer_login', class: 'f8vl' -%}
                   <fieldset>
                     <legend>{{ 'customer.login.title' | t }}</legend>
