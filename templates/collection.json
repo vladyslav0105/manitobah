@@ -43,7 +43,7 @@
         "title_color_palette": "black",
         "title_weight": "700",
         "subtitle": "{{ collection.metafields.custom.collection_heading.value }}",
-        "subtitle_font": "secondary",
+        "subtitle_font": "primary",
         "subtitle_size": "h1",
         "enable_custom_subtext_styling": false,
         "subtitle_color_palette": "black",
