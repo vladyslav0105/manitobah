@@ -99,7 +99,8 @@
         "content_xarJkF"
       ],
       "custom_css": [
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
@@ -183,7 +184,9 @@
         "text_iKa6xt"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/softgel.png",
@@ -240,7 +243,9 @@
         "text_b7p8da"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Kapsel_0357fa0a-71b9-4829-b802-4c89c4c258a9.jpg",
@@ -297,7 +302,9 @@
         "text_iMkk8y"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Licaps.webp",
@@ -354,7 +361,9 @@
         "text_YdQjP8"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Lutschtablette.jpg",
@@ -411,7 +420,9 @@
         "text_x4WEYX"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Tablette.jpg",
@@ -468,7 +479,9 @@
         "text_YFyfCq"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Brausetablette_7652f412-e6c3-48a8-972e-a533dd2141db.jpg",
@@ -525,7 +538,9 @@
         "text_t7eyHW"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/sticks2.png",
@@ -582,7 +597,9 @@
         "text_jf4Et9"
       ],
       "custom_css": [
-        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}"
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/trinkampulle.png",
