@@ -22,7 +22,7 @@
             "text_position": "text-center",
             "title": "Lernen Sie uns kennen",
             "title_font": "primary",
-            "title_size": "h2",
+            "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
@@ -53,7 +53,7 @@
       ],
       "custom_css": [
         "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
-        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 15px;}"
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
       ],
       "settings": {
         "width": "boxed",
