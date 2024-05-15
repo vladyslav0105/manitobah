@@ -285,7 +285,7 @@
 {%- if shop.customer_accounts_enabled and section.settings.disable_online_store == false -%}
   <li class="sub{% unless customer %} user-login menu-hide{% endunless %}">
     {%- if customer -%}
-      <a href="{{ routes.account_url }}" class="toggle"><i aria-hidden="true" aria-label="{{ 'header.account.my_account' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.welcome_user_html' | t: name: customer.first_name }}</span></a>
+      <a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-user"></i></a>
       <ul>
         <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-user"></i> {{ 'header.account.overview' | t }}</a></li>
         <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-box"></i> {{ 'header.account.orders' | t }}</a></li>
@@ -293,8 +293,7 @@
         <li><a href="{{ routes.account_logout_url }}"><i aria-hidden="true" class="icon-logout"></i> {{ 'header.account.logout' | t }}</a></li>
       </ul>
     {%- else -%}
-      <a href="https://shopify.com/85903114525/account?locale=de&consent=s0s0" class="toggle mobile-hide" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" aria-label="{{ 'header.account.login' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
-      <a href="https://shopify.com/85903114525/account?locale=de&consent=s0s0" class="mobile-only" data-panel="login" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
+      <a href="https://shopify.com/85903114525/account?locale=de&consent=s0s0"><i aria-hidden="true" class="icon-user"></i></a>
     {%- endif -%}
   </li>
 {%- endif -%}
