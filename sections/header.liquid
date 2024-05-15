@@ -282,41 +282,22 @@
               render 'language-country-selector', display: 'language'
             endif
           -%}
-          {%- if shop.customer_accounts_enabled and section.settings.disable_online_store == false -%}
-            <li class="sub{% unless customer %} user-login menu-hide{% endunless %}">
-              {%- if customer -%}
-                <a href="{{ routes.account_url }}" class="toggle"><i aria-hidden="true" aria-label="{{ 'header.account.my_account' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.welcome_user_html' | t: name: customer.first_name }}</span></a>
-                <ul>
-                  <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-user"></i> {{ 'header.account.overview' | t }}</a></li>
-                  <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-box"></i> {{ 'header.account.orders' | t }}</a></li>
-                  <li><a href="{{ routes.account_addresses_url }}"><i aria-hidden="true" class="icon-edit-off"></i> {{ 'header.account.info' | t }}</a></li>
-                  <li><a href="{{ routes.account_logout_url }}"><i aria-hidden="true" class="icon-logout"></i> {{ 'header.account.logout' | t }}</a></li>
-                </ul>
-              {%- else -%}
-                <a href="{{ routes.account_login_url }}" class="toggle mobile-hide" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" aria-label="{{ 'header.account.login' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
-                <a href="{{ routes.account_login_url }}" class="mobile-only" data-panel="login" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
-                {%- form 'customer_login', class: 'f8vl' -%}
-                  <fieldset>
-                    <legend>{{ 'customer.login.title' | t }}</legend>
-                    <p class="strong">{{ 'customer.login.title' | t }}</p>
-                    <p>
-                      <label for="login_email_address">{{ 'customer.login.email' | t }}<span class="overlay-theme">*</span></label>
-                      <input type="email" id="login_email_address" name="customer[email]" placeholder="{{ 'customer.login.email' | t }}" required>
-                    </p>
-                    <p>
-                      <label for="login_password">{{ 'customer.login.password' | t }}<span class="overlay-theme">*</span> <a href="./" class="show"><span>Toon</span> <span class="hidden">Hide</span></a></label>
-                      <input type="password" id="login_password" name="customer[password]" placeholder="{{ 'customer.login.password' | t }}" required>
-                      <a href="{{ routes.account_login_url }}#recover" class="size-12">{{ 'customer.login.forgot_password' | t }}</a>
-                    </p>
-                    <p class="submit">
-                      <button type="submit"{% if settings.button_style == 'inv' %} class="inv"{% endif %}>{{ 'customer.login.submit' | t }}</button>
-                      {{ 'customer.register.title' | t }}<br> <a href="{{ routes.account_register_url }}" class="overlay-content">{{ 'customer.register.create_account_info' | t }}</a>
-                    </p>
-                  </fieldset>
-                {%- endform -%}
-              {%- endif -%}
-            </li>
-          {%- endif -%}
+ {%- if shop.customer_accounts_enabled and section.settings.disable_online_store == false -%}
+  <li class="sub{% unless customer %} user-login menu-hide{% endunless %}">
+    {%- if customer -%}
+      <a href="{{ routes.account_url }}" class="toggle"><i aria-hidden="true" aria-label="{{ 'header.account.my_account' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.welcome_user_html' | t: name: customer.first_name }}</span></a>
+      <ul>
+        <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-user"></i> {{ 'header.account.overview' | t }}</a></li>
+        <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-box"></i> {{ 'header.account.orders' | t }}</a></li>
+        <li><a href="{{ routes.account_addresses_url }}"><i aria-hidden="true" class="icon-edit-off"></i> {{ 'header.account.info' | t }}</a></li>
+        <li><a href="{{ routes.account_logout_url }}"><i aria-hidden="true" class="icon-logout"></i> {{ 'header.account.logout' | t }}</a></li>
+      </ul>
+    {%- else -%}
+      <a href="https://shopify.com/85903114525/account?locale=de&consent=s0s0" class="toggle mobile-hide" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" aria-label="{{ 'header.account.login' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
+      <a href="https://shopify.com/85903114525/account?locale=de&consent=s0s0" class="mobile-only" data-panel="login" aria-label="{{ 'header.account.login' | t }}"><i aria-hidden="true" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.login' | t }}</span></a>
+    {%- endif -%}
+  </li>
+{%- endif -%}
           {% unless section.settings.disable_online_store %}
             <li class="cart">
               <a href="{{ routes.cart_url }}" {% if settings.enable_cart_drawer %}data-panel="cart"{% endif %} aria-label="Winkelwagen"><i aria-hidden="true" class="icon-{{ section.settings.cart_icon | split: '|' | first }}"><span id="cart-count" class="plain">{{ cart.item_count }}</span></i> <span class="hidden">{{ 'header.cart' | t }}</span></a>
