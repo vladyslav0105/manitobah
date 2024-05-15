@@ -136,8 +136,8 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>ür Artikel, die von Medicom innerhalb der Europäischen Union (EU) verkauft werden, wird Umsatzsteuer berechnet.Für Waren, die von Medicom angeboten werden und an Bestimmungsorte innerhalb der Europäischen Union (EU) versandt werden, muss nach den innerhalb der EU geltenden Gesetzen und innerhalb der Mitgliedsstaaten variierenden Steuersätzen Umsatzsteuer berechnet werden. Die Höhe der zu berechnenden Umsatzsteuer richtet sich nach der Kategorie des gekauften Produktes und dem Zielort, an den das Produkt versandt werden soll.Die Preise auf unserer Website sind in Euro ausgewiesen und verstehen sich einschließlich deutscher Umsatzsteuer. Bitte beachten Sie, dass der Endpreis von der tatsächlichen Umsatzsteuer abhängig ist, die für Ihre Bestellung anfällt. Bei Bestellungen aus dem EU-Ausland wird die deutsche Umsatzsteuer abgezogen und die für das Bestimmungsland gültige Umsatzsteuer berechnet. Den Endpreis – inklusive der für die bestellten Artikel gültigen Umsatzsteuersätze – sehen Sie auf der letzten Seite im Kaufprozess (Check-out) sowie auf Ihrer Medicom-Rechnung.<\/p>",
-            "font": "secondary",
+            "text": "<p>Für Artikel, die von Medicom innerhalb der Europäischen Union (EU) verkauft werden, wird Umsatzsteuer berechnet.Für Waren, die von Medicom angeboten werden und an Bestimmungsorte innerhalb der Europäischen Union (EU) versandt werden, muss nach den innerhalb der EU geltenden Gesetzen und innerhalb der Mitgliedsstaaten variierenden Steuersätzen Umsatzsteuer berechnet werden. Die Höhe der zu berechnenden Umsatzsteuer richtet sich nach der Kategorie des gekauften Produktes und dem Zielort, an den das Produkt versandt werden soll.Die Preise auf unserer Website sind in Euro ausgewiesen und verstehen sich einschließlich deutscher Umsatzsteuer. Bitte beachten Sie, dass der Endpreis von der tatsächlichen Umsatzsteuer abhängig ist, die für Ihre Bestellung anfällt. Bei Bestellungen aus dem EU-Ausland wird die deutsche Umsatzsteuer abgezogen und die für das Bestimmungsland gültige Umsatzsteuer berechnet. Den Endpreis – inklusive der für die bestellten Artikel gültigen Umsatzsteuersätze – sehen Sie auf der letzten Seite im Kaufprozess (Check-out) sowie auf Ihrer Medicom-Rechnung.<\/p>",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -147,7 +147,7 @@
           "settings": {
             "page": "tax-table",
             "text": "",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -159,7 +159,8 @@
         "content_EFDAFa"
       ],
       "custom_css": [
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
@@ -185,7 +186,7 @@
           "settings": {
             "page": "",
             "text": "<h2>90-Tage-Geld-zurück-Garantie<\/h2><p>Wenn Sie direkt bei uns bestellen, haben Sie Rückgaberecht von 90 Tagen. Sie können unsere Produkte 90 Tage lang ausprobieren. Falls Sie Ihnen nicht zusagen sollten, nehmen wir die Ware zurück und erstatten Ihnen den vollen Kaufpreis. Ihr gesetzliches Widerrufsrecht bleibt natürlich weiterhin bestehen.<\/p><p> <\/p><h3>Besondere Hinweise zur 90-Tage-Geld-zurück-Garantie:<\/h3><p>Wir räumen Ihnen als Verbraucher zusätzlich zu Ihrem gesetzlich zustehenden 14-tägigen Widerrufsrechts die Möglichkeit ein, bis zu 90 Tage nach Erhalt der Ware von unserem Geld-zurück-Versprechen Gebrauch zu machen. Die gesetzlichen Regelungen zum Widerrufsrecht werden nicht eingeschränkt, während der Widerrufsfrist gelten ausschließlich die gesetzlichen Regelungen zum Widerrufsrecht.<\/p><p> <\/p><h2>Bestellung<\/h2><p>Bestellen Sie einfach per Post: Produkt und Bestellnummer auf einer Medicom-Bestellkarte eintragen – das Porto übernehmen wir. Per Fax: Produkt und Bestellnummer auf dem Medicom-Bestellfax eintragen – gebührenfrei unter 0800 - 73 777 00. Per Telefon: Bestellen Sie Ihre Produkte unter unserer gebührenfreien Servicenummer 0800 - 50 400 50. Oder direkt hier im Internet in unserem Online-Shop.<\/p><p> <\/p><h2>Wir sind persönlich für Sie da<\/h2><p>Sie als Kunde der Medicom erreichen unsere Kundeninformation unter der gebührenfreien Telefonnummer 0800 - 50 400 50. Unsere freundlichen Mitarbeiter:innen sind montags bis samstags von 8:00 bis 19:00 Uhr für Sie da. <\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -195,7 +196,8 @@
         "content_fdfV3Y"
       ],
       "custom_css": [
-        "h2,h3 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
