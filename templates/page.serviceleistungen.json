@@ -27,7 +27,7 @@
             "title_color_palette": "black",
             "title_weight": "700",
             "subtitle": "1-A-SERVICE BEI MEDICOM",
-            "subtitle_font": "secondary",
+            "subtitle_font": "primary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
             "subtitle_color_palette": "black",
@@ -99,7 +99,8 @@
         "content_xarJkF"
       ],
       "custom_css": [
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
@@ -135,7 +136,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Bei Medicom bestellen Sie <strong>gebühren- und portofrei<\/strong> – telefonisch, per E-Mail oder direkt im Webshop. Hier finden Sie alle Bestellwege aufgelistet.<br\/>• Gebührenfrei per Telefon unter 0800 - 73 77 730<br\/>• Gebührenfrei per Fax unter 0800 - 73 77 700<br\/>• Per SMS an +49 152 587 587 54<br\/>• Portofreie Bestellung mit den Antwortkarten<br\/>• Per E-Mail an kundenservice@medicom.de<br\/>• Rund um die Uhr auf www.medicom.de<\/p><p>Zusätzlich erhalten Sie eine Auswahl Ihrer Produkte auch in der Apotheke Ihres Vertrauens.<\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -146,7 +147,9 @@
         "166005796961cc60d8-1"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/karton.jpg",
@@ -183,7 +186,7 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Wir bieten Ihnen eine persönliche und kostenlose Beratung.<\/strong>Wir führen Sie durch die Auswahlmöglichkeiten, informieren Sie über Produkte und beantworten gerne Ihre Fragen. Kompetent und wissenschaftlich fundiert. Sie erreichen unsere Mitarbeiter:innen unter der gebührenfreien Telefonnummer 0800 - 73 77 730 von montags bis samstags von 8.00 bis 19.00 Uhr. Natürlich können Sie uns auch jederzeit über unseren Webshop Ihr Anliegen schicken. Schreiben Sie uns einfach eine E-Mail an<a href=\"mailto:info@medicom.de\">info@medicom.de<\/a><\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -194,7 +197,9 @@
         "1660057985549a4c95-1"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Beratung_9a50b210-dc15-4730-a64c-a5d582589ef9.png",
@@ -231,7 +236,7 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Ab einem Bestellwert von 15,–€ <\/strong>liefern wir innerhalb Deutschlands <strong>versandkostenfrei<\/strong>. Für Bestellungen bis 15,–€ erheben wir 3,95€ Versandgebühren. Die Lieferung erfolgt gegen Rechnung. Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95€ pro Bestellung. Weitere Informationen dazu finden Sie unter Lieferkonditionen.<\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -242,7 +247,9 @@
         "text_x8fejV"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Versand.png",
@@ -279,7 +286,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Mit Medicom gehen Sie kein Risiko ein, denn jeder Kunde genießt eine <strong>90-Tage-Geld-zurück-Garantie<\/strong>. Sollten Ihnen die bestellten Produkte wider Erwarten nicht zusagen, haben Sie ganzen 90 Tage Zeit, um den Kauf zu widerrufen. Wir holen die Ware dann wieder ab und <strong>erstatten Ihnen den vollen Preis<\/strong>. Wenn Medikamente oder Medizinprodukte aufgrund von Nebenwirkungen zurückgegeben werden, sind wir verpflichtet, diese zu dokumentieren und Sie nach dem Grund der Rückgabe zu fragen.<a href=\"https:\/\/www.medicom.de\/widerruf\">Hier finden Sie weiterführende Informationen zu der 90-Tage-Geld-zurück-Garantie<\/a>. <\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -290,7 +297,9 @@
         "text_JHE9Pi"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Icon_Geld_zurueck_Garantie-458x458.png",
@@ -327,7 +336,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Innerhalb Deutschlands erhalten Sie Ihre Ware in der Regel spätestens <strong>am zweiten Werktag nach Eingang Ihrer Bestellung<\/strong>. Unser eigenes langjährig bewährtes Logistikcenter macht eine schnelle, reibungslose Lieferung möglich.<\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -338,7 +347,9 @@
         "text_DhktH3"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/schnelle-lieferung-bestellung-medicom.png",
@@ -374,8 +385,8 @@
         "text_bVyiLb": {
           "type": "text",
           "settings": {
-            "text": "<p>Auch online können Sie sich über viele <strong>Gesundheits- und Wohlfühlthemen<\/strong>informieren. Lesen Sie in unserem Online-Magazin gut recherchierte Artikel in verschiedenen Rubriken wie Essen & Trinken, Bewegung & Fitness und Wissenschaft & Forschung. <strong>Wissenswerte Fakten <\/strong>finden Sie im Vitalstoff-Lexikon. Hören Sie in Ruhe ein <strong>Experteninterview <\/strong>als Podcast an oder lassen Sie sich von <strong>Tipps und Rezeptideen <\/strong>inspirieren. Das alles nur einen Klick entfernt unter <a href=\"https:\/\/www.medicom.de\/lebennurbesser\/\">#lebennurbesser<\/a>.<\/p>",
-            "font": "secondary",
+            "text": "<p>Auch online können Sie sich über viele <strong>Gesundheits- und Wohlfühlthemen <\/strong>informieren. Lesen Sie in unserem Online-Magazin gut recherchierte Artikel in verschiedenen Rubriken wie Essen & Trinken, Bewegung & Fitness und Wissenschaft & Forschung. <strong>Wissenswerte Fakten <\/strong>finden Sie im Vitalstoff-Lexikon. Hören Sie in Ruhe ein <strong>Experteninterview <\/strong>als Podcast an oder lassen Sie sich von <strong>Tipps und Rezeptideen <\/strong>inspirieren. Das alles nur einen Klick entfernt unter <a href=\"https:\/\/www.medicom.de\/lebennurbesser\/\">#lebennurbesser<\/a>.<\/p>",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -386,7 +397,9 @@
         "text_bVyiLb"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Online-Magazin.png",
@@ -423,7 +436,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Medicom wurde bei der Deutschen Service-Award-Verleihung 2023 in Berlin für seinen Kundenservice in der Kategorie Gesundheitsshops ausgezeichnet. Der Preis wurde vom Deutschen Institut für Service-Qualität und ntv verliehen und berücksichtigte die Bewertungen für den Online-Service, Service am Telefon und per E-Mail. Insgesamt wurden 2.230 Unternehmen, darunter 87 Gesundheitsshops, untersucht.<\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -434,7 +447,9 @@
         "text_PTHmGW"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Deutscher-Service-Preis-2023-Medicom.jpg",
@@ -471,7 +486,7 @@
           "type": "usp",
           "settings": {
             "usp": "Medicom Produktkatalog erhält B2C-Award 2022\/2023",
-            "font": "secondary",
+            "font": "primary",
             "font_size": "14px"
           }
         },
@@ -479,7 +494,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Der Produktkatalog erhielt in der Kategorie Business-to- Consumer (Beziehung Firma-Kunde) den Shortlist Katalog- Award 2022\/2023. Damit platziert sich der Medicom-Katalog unter die Top-3-Kataloge im Bereich B2C. Die Jury des Versandhausberater-Wettbewerbs überzeugte die Machart, Informationsdichte und kundenorientierte Ansprache. Der renommierte Preis für kanalübergreifendes Marketing im Distanzhandel wurde bereits zum 22. Mal vergeben.<\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -491,7 +506,9 @@
         "text_nn7rGw"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}"
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Preis_fu_r_Medicom_Produktkatalog_Katalog-des-Jahres-2022-23.png",
@@ -528,7 +545,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Exklusiv für unsere Kunden versenden wir mehrmals im Jahr unser <strong>Medicom Gesundheits-Magazin<\/strong> per Post. Informieren Sie sich über wichtige Gesundheitstrends, lesen Sie interessante Artikel zu Themen aus den Bereichen <strong>Ernährung und Fitness<\/strong> sowie zu neuen Forschungsergebnissen – alles erstklassig recherchiert.<\/p><p>Medicom-Kunden erhalten das Magazin <strong>völlig unverbindlich und absolut kostenlos<\/strong>. Wünschen Sie mehr Informationen oder möchten Sie keine Aktion verpassen, dann fordern Sie den kostenlosen Gesundheitsnewsletter hier an.<\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -537,6 +554,10 @@
       "block_order": [
         "title_V6Hz7x",
         "text_WadYgw"
+      ],
+      "custom_css": [
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/kundenmagazin-gesundheits-magazin-medicom.png",
@@ -562,7 +583,7 @@
           "type": "title",
           "settings": {
             "title": "Medicom – Excellent Shop",
-            "title_font": "secondary",
+            "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
             "title_color_palette": "black",
@@ -573,7 +594,7 @@
           "type": "usp",
           "settings": {
             "usp": "Trusted Shops - Award – 5 Jahre Zufriedenheit und Sicherheit der Kund:innen",
-            "font": "secondary",
+            "font": "primary",
             "font_size": "14px"
           }
         },
@@ -581,7 +602,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Sicherer Einkauf – große Zufriedenheit. Medicom ist mit dem Trusted Shops Excellent Shop Award für fünf Jahre besten Service und Sicherheit ausgezeichnet worden. Um das Trusted Shops Gütesiegel zu tragen, müssen fortwährend strenge Qualitätsindikatoren erfüllt werden. Medicom erhält diie Auszeichnung für Shops, die seit vielen Jahren Zufriedenheit und Sicherheit für ihre Kund:innen bieten, ein sicheres und angenehmes Einkaufserlebnis, Verlässlichkeit und Sicherheit in Sachen Datenschutz bieten.<\/p>",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -591,6 +612,10 @@
         "title_AHXHcV",
         "usp_RCQCj3",
         "text_L34k9f"
+      ],
+      "custom_css": [
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/trusted-shops-medicom-zertifiziert.png",
