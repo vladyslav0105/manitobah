@@ -285,8 +285,9 @@
 {%- if shop.customer_accounts_enabled and section.settings.disable_online_store == false -%}
   <li class="sub{% unless customer %} user-login menu-hide{% endunless %}">
     {%- if customer -%}
-      <a href="#" class="toggle"><i aria-hidden="true" class="icon-user"></i></a>
-      <ul>
+      <a href="#" class="toggle desktop-only"><i aria-hidden="true" class="icon-user"></i></a>
+      <a href="{{ routes.account_url }}" class="mobile-only"><i aria-hidden="true" class="icon-user"></i></a>
+      <ul class="desktop-only">
         <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-user"></i> {{ 'header.account.overview' | t }}</a></li>
         <li><a href="{{ routes.account_url }}"><i aria-hidden="true" class="icon-box"></i> {{ 'header.account.orders' | t }}</a></li>
         <li><a href="{{ routes.account_addresses_url }}"><i aria-hidden="true" class="icon-edit-off"></i> {{ 'header.account.info' | t }}</a></li>
