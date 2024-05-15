@@ -86,7 +86,7 @@
           "settings": {
             "page": "",
             "text": "{{ collection.metafields.custom.description | metafield_tag }}",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -97,7 +97,8 @@
         "content_TWUfE9"
       ],
       "custom_css": [
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
@@ -230,8 +231,8 @@
         "text_er74aV"
       ],
       "custom_css": [
-        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: 'Roboto Slab', serif;}",
-        "h3,h2 {font-size: 30px; font-weight: 300 !important; text-align: center; font-family: 'Roboto Slab', serif;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; text-align: center; font-family: \"Roboto Slab\", serif;}",
         " {background: linear-gradient(to bottom, #f5f5f5, white); margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; padding-top: 50px; padding-bottom: 30px; margin-top: 50px; color: gray; text-align: left;}",
         "strong {color: gray;}",
         "p,a,li {max-width: 900px; text-align: left;}"
