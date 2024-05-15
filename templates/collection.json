@@ -74,7 +74,7 @@
           "type": "title",
           "settings": {
             "title": "{{ collection.metafields.custom.heading_description.value }}",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
