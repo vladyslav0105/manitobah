@@ -99,7 +99,8 @@
         "content_xarJkF"
       ],
       "custom_css": [
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; text-align: center; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
@@ -146,7 +147,9 @@
         "166005796961cc60d8-1"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "img {padding: 30px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/besonders.webp",
@@ -194,7 +197,9 @@
         "1660057985549a4c95-1"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "img {padding: 30px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/transparent.webp",
@@ -242,7 +247,9 @@
         "text_x8fejV"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "img {padding: 30px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Innovation.webp",
@@ -290,7 +297,9 @@
         "text_JHE9Pi"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "img {padding: 30px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/madeingermanyandswiss.webp",
@@ -338,7 +347,9 @@
         "text_DhktH3"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "img {padding: 30px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Erfolg.webp",
@@ -386,7 +397,9 @@
         "text_PTHmGW"
       ],
       "custom_css": [
-        "img {padding: 30px;}"
+        "img {padding: 30px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/nachhaltigkeit-umwelt-schuetzen-hand-herzblatt.webp",
@@ -435,7 +448,8 @@
         "content_9ryAnD"
       ],
       "custom_css": [
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
@@ -482,7 +496,9 @@
         "text_NFz6jz"
       ],
       "custom_css": [
-        "img {padding: 80px;}"
+        "img {padding: 80px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/nobilin.webp",
@@ -530,7 +546,9 @@
         "text_qPcmqe"
       ],
       "custom_css": [
-        "img {padding: 80px;}"
+        "img {padding: 80px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/medicom.webp",
@@ -578,7 +596,9 @@
         "text_mE3mWa"
       ],
       "custom_css": [
-        "img {padding: 80px;}"
+        "img {padding: 80px;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/terra.webp",
@@ -666,7 +686,8 @@
       ],
       "custom_css": [
         "@media only screen and (min-width: 768px) {.m20.block-image-image_FgY4WF {display: block; margin-left: auto; margin-right: auto; }}",
-        "h2 {background-color: #fff !important; font-size: 30px; font-weight: 100;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
       ],
       "settings": {
