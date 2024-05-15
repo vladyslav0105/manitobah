@@ -282,7 +282,7 @@
               render 'language-country-selector', display: 'language'
             endif
           -%}
- {%- if shop.customer_accounts_enabled and section.settings.disable_online_store == false -%}
+{%- if shop.customer_accounts_enabled and section.settings.disable_online_store == false -%}
   <li class="sub{% unless customer %} user-login menu-hide{% endunless %}">
     {%- if customer -%}
       <a href="{{ routes.account_url }}" class="toggle"><i aria-hidden="true" aria-label="{{ 'header.account.my_account' | t }}" class="icon-user"></i> <span class="desktop-hide">{{ 'header.account.welcome_user_html' | t: name: customer.first_name }}</span></a>
