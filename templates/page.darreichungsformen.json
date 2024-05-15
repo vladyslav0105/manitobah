@@ -27,7 +27,7 @@
             "title_color_palette": "black",
             "title_weight": "700",
             "subtitle": "QUALITÄT UND FORSCHUNG",
-            "subtitle_font": "secondary",
+            "subtitle_font": "primary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
             "subtitle_color_palette": "black",
