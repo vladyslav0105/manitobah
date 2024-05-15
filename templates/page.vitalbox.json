@@ -287,7 +287,7 @@
       "settings": {
         "text_font": "open_sans_n4",
         "text_size": "12pt",
-        "headline_font": "open_sans_n4",
+        "headline_font": "roboto_slab_n4",
         "headline_size": "15pt",
         "price_size": "25pt",
         "b2b_price_size": "20pt",
@@ -434,7 +434,9 @@
       ],
       "custom_css": [
         "h4 {font-size: 15px; padding-top: 20px;}",
-        " {background-color: #f7f7f7; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}"
+        " {background-color: #f7f7f7; margin-left: -500px; margin-right: -500px; padding-left: 500px; padding-right: 500px; margin-bottom: 20px; padding-top: 20px; padding-bottom: 5px; margin-top: -25px; color: gray;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
         "alignment": "center",
