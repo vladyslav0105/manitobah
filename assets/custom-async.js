@@ -3328,7 +3328,44 @@ function insertAfter(referenceNode, newNode) {
 	referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
+
+var sticky_top = 0;
+var last_top = 0;
+console.log(document.getElementsByClassName("mobile-sticky")[0]);
+if(document.getElementsByClassName("mobile-sticky")[0] != undefined) {
+  sticky_top = document.getElementsByClassName("mobile-sticky")[0].offsetTop;
+}
+
+window.onscroll = function() {
+  if(document.getElementsByClassName("mobile-sticky")[0] == undefined) {
+    return;
+  }
+  if(window.innerWidth < 915) {
+    return;
+  }
+
+  var node_width =  document.getElementsByClassName("mobile-sticky")[0].closest("form").parentElement.clientWidth;
+  document.getElementsByClassName("mobile-sticky")[0].style.width = node_width + "px";
+  if(document.documentElement.scrollTop - last_top < 0) {
+    if (document.documentElement.scrollTop <= sticky_top) {
+      document.getElementsByClassName("mobile-sticky")[0].style.position = "relative";
+      document.getElementsByClassName("mobile-sticky")[0].style.position = "relative";
+      document.getElementsByClassName("mobile-sticky")[0].style.top = "0";
+    }
+  }else {
+    if (document.documentElement.scrollTop <= document.getElementsByClassName("mobile-sticky")[0].offsetTop) {
+      document.getElementsByClassName("mobile-sticky")[0].style.position = "relative";
+      document.getElementsByClassName("mobile-sticky")[0].style.top = "0";
+    } else {
+      document.getElementsByClassName("mobile-sticky")[0].style.position = "fixed";
+      document.getElementsByClassName("mobile-sticky")[0].style.top = "160px";
+    }
+  }
+  last_top = document.documentElement.scrollTop;
+};
+
 window.addEventListener("mobileFilters", function(evt) {
+	return;
 	// .f8sr (collection)
 	var form_sort = document.getElementsByClassName('f8sr');
 	if (form_sort.length) {
