@@ -129,7 +129,6 @@
         },
         "sorting": {
           "type": "sorting",
-          "disabled": true,
           "settings": {
           }
         },
@@ -183,7 +182,7 @@
         "collections_menu": [
 
         ],
-        "filter_sticky": true,
+        "filter_sticky": false,
         "filters_show_more_limit": 7,
         "enable_custom_filters_font_size": true,
         "filters_font_size": "14px",
