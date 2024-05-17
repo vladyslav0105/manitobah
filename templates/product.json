@@ -78,30 +78,6 @@
             "font_size": 16
           }
         },
-        "variant_selection": {
-          "type": "variant_selection",
-          "disabled": true,
-          "settings": {
-            "selection_type": "buttons",
-            "options": true,
-            "button_options": "Color",
-            "dropdown_options": "",
-            "show_variant_images": true,
-            "show_selected_variant_images": false,
-            "show_unavailable_variants": true,
-            "show_single_options": true,
-            "enable_selling_plans": true,
-            "size_name": "Size",
-            "sizechart_alignment": "left",
-            "sizechart_title_size": "h3",
-            "sizechart_title": "Size chart",
-            "sizechart_text": "",
-            "sizechart_page": "",
-            "sizechart_image_width": 460,
-            "sizechart_liquid": "",
-            "sizechart_html": ""
-          }
-        },
         "content_bNGEAJ": {
           "type": "content",
           "settings": {
@@ -144,6 +120,29 @@
         "inventory": {
           "type": "inventory",
           "settings": {
+          }
+        },
+        "variant_selection": {
+          "type": "variant_selection",
+          "settings": {
+            "selection_type": "buttons",
+            "options": true,
+            "button_options": "Color",
+            "dropdown_options": "",
+            "show_variant_images": true,
+            "show_selected_variant_images": false,
+            "show_unavailable_variants": true,
+            "show_single_options": true,
+            "enable_selling_plans": true,
+            "size_name": "Size",
+            "sizechart_alignment": "left",
+            "sizechart_title_size": "h3",
+            "sizechart_title": "Size chart",
+            "sizechart_text": "",
+            "sizechart_page": "",
+            "sizechart_image_width": 460,
+            "sizechart_liquid": "",
+            "sizechart_html": ""
           }
         },
         "buy_button": {
@@ -259,11 +258,11 @@
         "product_ratings_4cYjUK",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "price",
-        "variant_selection",
         "content_bNGEAJ",
         "content_EpHne9",
         "pickup",
         "inventory",
+        "variant_selection",
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "custom_liquid_93wXtA",
