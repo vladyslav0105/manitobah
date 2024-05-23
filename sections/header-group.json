@@ -287,7 +287,7 @@
         "a:hover {color: #e61446 !important;}",
         "#nav > ul > li > ul,#nav-bar > ul > li > ul {background: #fbfbfb; color: #434343;}",
         ".no-megamenu {line-height: 1.5;}",
-        "a {font-family: 'Open Sans', sans-serif;}"
+        "a {font-family: \"Open Sans\", sans-serif;}"
       ],
       "settings": {
         "layout": "layout_1",
@@ -305,7 +305,7 @@
         "enable_usp_slider_arrows": true,
         "enable_usp_slider_autoplay": true,
         "usp_slider_autoplay_seconds": 3,
-        "logo": "shopify:\/\/shop_images\/logo.png",
+        "logo": "shopify:\/\/shop_images\/medicom_logo_2024.png",
         "logo_width": 280,
         "enable_country_selector": false,
         "enable_language_selector": true,
