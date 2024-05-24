@@ -556,7 +556,8 @@
       ".login-content {display: flex; flex-direction: column; align-items: center;}",
       "@media only screen and (min-width: 768px) {.footer-certificate-bar .cert-button {display: none; }}",
       ".desktop-only {display: none;}",
-      "@media (min-width: 768px) {.desktop-only {display: inline; } .mobile-only {display: none; }}"
+      "@media (min-width: 768px) {.desktop-only {display: inline; } .mobile-only {display: none; }}",
+      ".l4vw.outline {display: none;}"
     ]
   }
 }
