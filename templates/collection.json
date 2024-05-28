@@ -129,6 +129,7 @@
         },
         "sorting": {
           "type": "sorting",
+          "disabled": true,
           "settings": {
           }
         },
