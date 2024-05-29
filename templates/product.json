@@ -125,11 +125,6 @@
           "settings": {
           }
         },
-        "ee5e9f1c-a80a-4244-950f-03806a509775": {
-          "type": "shipping_timer",
-          "settings": {
-          }
-        },
         "variant_selection": {
           "type": "variant_selection",
           "settings": {
@@ -164,6 +159,11 @@
             "preorder_label_color_palette": "black",
             "preorder_show_dynamic_buybutton": false,
             "show_gift_card_recipient": false
+          }
+        },
+        "ee5e9f1c-a80a-4244-950f-03806a509775": {
+          "type": "shipping_timer",
+          "settings": {
           }
         },
         "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
@@ -270,9 +270,9 @@
         "content_EpHne9",
         "pickup",
         "inventory",
-        "ee5e9f1c-a80a-4244-950f-03806a509775",
         "variant_selection",
         "buy_button",
+        "ee5e9f1c-a80a-4244-950f-03806a509775",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "custom_liquid_93wXtA",
         "usp_LPtQzH",
