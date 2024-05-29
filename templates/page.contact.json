@@ -200,7 +200,7 @@
         "radio_DDDMqE": {
           "type": "radio",
           "settings": {
-            "title": "",
+            "title": "Notwendige Felder",
             "option_1": "Hiermit stimme ich der Datenschutzerklärung zu.",
             "option_2": "",
             "option_3": "",
