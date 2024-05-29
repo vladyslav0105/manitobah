@@ -73,9 +73,16 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_tax": false,
             "font_size": 16
+          }
+        },
+        "custom_liquid_XUzKBa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div data-rapi-id=\"rapi_61994811951580\"><\/div>"
           }
         },
         "content_bNGEAJ": {
@@ -145,15 +152,8 @@
             "sizechart_html": ""
           }
         },
-        "custom_liquid_XUzKBa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div data-rapi-id=\"rapi_61994811951580\"><\/div>"
-          }
-        },
         "buy_button": {
           "type": "buy_button",
-          "disabled": true,
           "settings": {
             "button_style": "plain",
             "show_amount_selection": true,
@@ -265,12 +265,12 @@
         "product_ratings_4cYjUK",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "price",
+        "custom_liquid_XUzKBa",
         "content_bNGEAJ",
         "content_EpHne9",
         "pickup",
         "inventory",
         "variant_selection",
-        "custom_liquid_XUzKBa",
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "custom_liquid_93wXtA",
