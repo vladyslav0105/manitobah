@@ -201,7 +201,7 @@
     "blocks": {
       "10613633940829346878": {
         "type": "shopify:\/\/apps\/wizio-bundle-quantity-breaks\/blocks\/app-embed\/8331d8b5-f4ba-4f29-9cd9-62bbb3b17bde",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
