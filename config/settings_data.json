@@ -204,6 +204,12 @@
         "disabled": true,
         "settings": {
         }
+      },
+      "9696655121035291526": {
+        "type": "shopify:\/\/apps\/rapi\/blocks\/app-embed\/99617c17-a32b-4e70-a883-7a155610d032",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
