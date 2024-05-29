@@ -526,7 +526,7 @@
         "text_bVPTnr"
       ],
       "custom_css": [
-        "img {padding: 80px;}",
+        "img {padding: 80px; border-radius: 50%; object-fit: cover;}",
         "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
@@ -563,7 +563,7 @@
         "text_KK6nMm"
       ],
       "custom_css": [
-        "img {padding: 80px;}",
+        "img {padding: 80px; border-radius: 50%; object-fit: cover;}",
         "h2,h3 {font-family: \"Roboto\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
