@@ -289,7 +289,8 @@
         ".m5.mob-h3 {font-weight: bold; font-size: 35px; margin-left: -5px;}",
         ".submit.m10 {margin-top: 15px;}",
         ".rapi-bundles__bar-title {font-size: 15px !important; font-weight: 400 !important;}",
-        ".rapi-bundles__bar-price {font-weight: 400 !important;}"
+        ".rapi-bundles__bar-price {font-weight: 400 !important;}",
+        ".rapi-bundles__bar-radio {background: #e61446; box-shadow: 0 0 0 2px #e61446; }"
       ],
       "settings": {
         "media_layout": "slider",
