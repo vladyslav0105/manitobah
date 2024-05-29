@@ -158,6 +158,11 @@
             "show_gift_card_recipient": false
           }
         },
+        "wizio_bundle_quantity_breaks_quantity_block_kimcJJ": {
+          "type": "shopify:\/\/apps\/wizio-bundle-quantity-breaks\/blocks\/quantity-block\/8331d8b5-f4ba-4f29-9cd9-62bbb3b17bde",
+          "settings": {
+          }
+        },
         "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
           "type": "trustbadge",
           "disabled": true,
@@ -264,6 +269,7 @@
         "inventory",
         "variant_selection",
         "buy_button",
+        "wizio_bundle_quantity_breaks_quantity_block_kimcJJ",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "custom_liquid_93wXtA",
         "usp_LPtQzH",
