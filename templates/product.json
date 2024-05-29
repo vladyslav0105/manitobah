@@ -73,9 +73,16 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_tax": false,
             "font_size": 16
+          }
+        },
+        "custom_liquid_93wXtA": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"border-top: 1px solid #CCCCCC; margin-bottom: 15px; margin-top: -15px;\"><\/div>"
           }
         },
         "content_bNGEAJ": {
@@ -145,12 +152,6 @@
             "sizechart_html": ""
           }
         },
-        "custom_liquid_XUzKBa": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div data-rapi-id=\"rapi_61994811951580\"><\/div>"
-          }
-        },
         "buy_button": {
           "type": "buy_button",
           "settings": {
@@ -164,16 +165,15 @@
             "show_gift_card_recipient": false
           }
         },
+        "wizio_bundle_quantity_breaks_quantity_block_kimcJJ": {
+          "type": "shopify:\/\/apps\/wizio-bundle-quantity-breaks\/blocks\/quantity-block\/8331d8b5-f4ba-4f29-9cd9-62bbb3b17bde",
+          "settings": {
+          }
+        },
         "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
           "type": "trustbadge",
           "disabled": true,
           "settings": {
-          }
-        },
-        "custom_liquid_93wXtA": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "<div style=\"border-top: 1px solid #CCCCCC; margin-bottom: 15px; margin-top: -15px;\"><\/div>"
           }
         },
         "usp_LPtQzH": {
@@ -264,15 +264,15 @@
         "product_ratings_4cYjUK",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "price",
+        "custom_liquid_93wXtA",
         "content_bNGEAJ",
         "content_EpHne9",
         "pickup",
         "inventory",
         "variant_selection",
-        "custom_liquid_XUzKBa",
         "buy_button",
+        "wizio_bundle_quantity_breaks_quantity_block_kimcJJ",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
-        "custom_liquid_93wXtA",
         "usp_LPtQzH",
         "usp_jwMfEx",
         "usp_DfkaEE",
