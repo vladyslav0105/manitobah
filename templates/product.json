@@ -156,8 +156,8 @@
           "type": "buy_button",
           "settings": {
             "button_style": "plain",
-            "show_amount_selection": true,
-            "show_dynamic_buybutton": false,
+            "show_amount_selection": false,
+            "show_dynamic_buybutton": true,
             "button_style_dynamic_buybutton": "inv",
             "preorder_label": "",
             "preorder_label_color_palette": "black",
