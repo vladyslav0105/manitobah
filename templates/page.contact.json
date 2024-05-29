@@ -51,6 +51,9 @@
       "block_order": [
         "slide_1"
       ],
+      "custom_css": [
+        "h2{color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}"
+      ],
       "settings": {
         "width": "boxed",
         "height": "s",
@@ -202,6 +205,9 @@
         "30c68dd5-0daf-4c67-9e87-30fae9f6db2e",
         "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55",
         "7f5b90a3-0ea1-466d-a8bb-fb174e340aed"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "alignment": "start",
