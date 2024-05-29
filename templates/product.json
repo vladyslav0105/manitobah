@@ -145,8 +145,15 @@
             "sizechart_html": ""
           }
         },
+        "custom_liquid_XUzKBa": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div data-rapi-id=\"rapi_61994811951580\"><\/div>"
+          }
+        },
         "buy_button": {
           "type": "buy_button",
+          "disabled": true,
           "settings": {
             "button_style": "plain",
             "show_amount_selection": true,
@@ -156,11 +163,6 @@
             "preorder_label_color_palette": "black",
             "preorder_show_dynamic_buybutton": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "wizio_bundle_quantity_breaks_quantity_block_kimcJJ": {
-          "type": "shopify:\/\/apps\/wizio-bundle-quantity-breaks\/blocks\/quantity-block\/8331d8b5-f4ba-4f29-9cd9-62bbb3b17bde",
-          "settings": {
           }
         },
         "112cdbcf-cdc4-4168-b87c-2f15adce530b": {
@@ -268,8 +270,8 @@
         "pickup",
         "inventory",
         "variant_selection",
+        "custom_liquid_XUzKBa",
         "buy_button",
-        "wizio_bundle_quantity_breaks_quantity_block_kimcJJ",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
         "custom_liquid_93wXtA",
         "usp_LPtQzH",
