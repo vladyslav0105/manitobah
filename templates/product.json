@@ -150,7 +150,7 @@
           "settings": {
             "button_style": "plain",
             "show_amount_selection": true,
-            "show_dynamic_buybutton": true,
+            "show_dynamic_buybutton": false,
             "button_style_dynamic_buybutton": "inv",
             "preorder_label": "",
             "preorder_label_color_palette": "black",
