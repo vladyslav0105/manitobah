@@ -67,6 +67,7 @@
     },
     "page-service-menu": {
       "type": "page-service-menu",
+      "disabled": true,
       "settings": {
         "menu": "main-menu"
       }
@@ -149,54 +150,63 @@
         "0fd44d31-da56-43fe-972d-74b438cbb328": {
           "type": "text",
           "settings": {
-            "title": "Name",
-            "placeholder": "Name",
+            "title": "Vorname",
+            "placeholder": "Vorname",
+            "required": true
+          }
+        },
+        "text_8Fn6UQ": {
+          "type": "text",
+          "settings": {
+            "title": "Nachname",
+            "placeholder": "Nachname",
             "required": true
           }
         },
         "b8774408-fd65-4d42-865e-40eb5da3e9ee": {
           "type": "text",
           "settings": {
-            "title": "Company",
-            "placeholder": "Company",
+            "title": "Unternehmen",
+            "placeholder": "Unternehmen",
             "required": false
           }
         },
         "30c68dd5-0daf-4c67-9e87-30fae9f6db2e": {
           "type": "email",
           "settings": {
-            "title": "Email",
-            "placeholder": "Email"
+            "title": "E-Mail",
+            "placeholder": "E-Mail"
           }
         },
         "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55": {
           "type": "tel",
           "settings": {
-            "title": "Phone number",
-            "placeholder": "Phone number",
+            "title": "Telefon",
+            "placeholder": "Telefon",
             "required": false
           }
         },
         "7f5b90a3-0ea1-466d-a8bb-fb174e340aed": {
           "type": "textarea",
           "settings": {
-            "title": "Message",
-            "placeholder": "Message",
+            "title": "Nachricht",
+            "placeholder": "Nachricht",
             "required": true
           }
         }
       },
       "block_order": [
         "0fd44d31-da56-43fe-972d-74b438cbb328",
+        "text_8Fn6UQ",
         "b8774408-fd65-4d42-865e-40eb5da3e9ee",
         "30c68dd5-0daf-4c67-9e87-30fae9f6db2e",
         "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55",
         "7f5b90a3-0ea1-466d-a8bb-fb174e340aed"
       ],
       "settings": {
-        "alignment": "left",
-        "title": "Contact form",
-        "title_font": "primary",
+        "alignment": "start",
+        "title": "Jetzt Kontakt aufnehmen",
+        "title_font": "secondary",
         "title_size": "h3",
         "enable_custom_text_styling": false,
         "title_color_palette": "black",
@@ -236,8 +246,8 @@
           "type": "information",
           "settings": {
             "color_palette": "light",
-            "title": "Customer service",
-            "text": "<p>Give your customers more details about your online store.<\/p>",
+            "title": "MEDICOM Kundenservice",
+            "text": "",
             "show_login_links": false,
             "show_shop_address": false,
             "show_maps_url": false,
@@ -245,26 +255,11 @@
             "show_mail_link": true,
             "show_whatsapp_link": true
           }
-        },
-        "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af": {
-          "type": "information",
-          "settings": {
-            "color_palette": "light_2",
-            "title": "Theme Xclusive",
-            "text": "<p>Give your customer more details about your online store. <\/p>",
-            "show_login_links": false,
-            "show_shop_address": true,
-            "show_maps_url": true,
-            "show_phone_link": false,
-            "show_mail_link": false,
-            "show_whatsapp_link": false
-          }
         }
       },
       "block_order": [
         "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2",
-        "1aac02b6-6669-4da9-8318-348245b71f6a",
-        "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af"
+        "1aac02b6-6669-4da9-8318-348245b71f6a"
       ],
       "settings": {
       }
@@ -288,6 +283,7 @@
         "title",
         "content"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
@@ -299,7 +295,7 @@
     "section-google-maps": {
       "type": "section-google-maps",
       "settings": {
-        "google_maps_iframe": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2800.4613648351315!2d-75.69569834823506!3d45.420200278997804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0502f07d210b%3A0xa1502f7f1d25c118!2sShopify!5e0!3m2!1snl!2snl!4v1653470436404!5m2!1snl!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "google_maps_iframe": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1273113.1172861988!2d8.924043946620284!3d51.448074924051745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ba9a53092e958d%3A0x838b27ebe672dd63!2sMedicom%20Pharma%20GmbH!5e0!3m2!1sde!2sde!4v1716980454807!5m2!1sde!2sde\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
         "fix_zindex": 0
