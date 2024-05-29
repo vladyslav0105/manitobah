@@ -221,9 +221,9 @@
         "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2": {
           "type": "information",
           "settings": {
-            "color_palette": "light",
-            "title": "Account details",
-            "text": "<p><a href=\"\/account\" title=\"\/account\">Track your last order<\/a>, <a href=\"\/account\" title=\"\/account\">view all orders<\/a> or <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">manage your addresses<\/a>.<\/p>",
+            "color_palette": "accent",
+            "title": "Kundenkonto",
+            "text": "<p><a href=\"\/account\" title=\"\/account\">Sendungsverfolgung<\/a><br\/><a href=\"\/account\" title=\"\/account\">Alle Bestellungen<\/a><br\/><a href=\"\/account\/addresses\" title=\"\/account\/addresses\">Adressverwaltung<\/a>.<\/p>",
             "show_login_links": true,
             "show_shop_address": false,
             "show_maps_url": false,
