@@ -1,1 +1,319 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{"hide_mobile":false}},"section-slideshow":{"type":"section-slideshow","blocks":{"slide_1":{"type":"slide","settings":{"layout":"background","overlay_opacity":0,"color_palette":"light_gradient","text_position":"text-left","title":"How can we help you?","title_size":"h2","text":"<p>Give your customers more details about your service.<\/p>"}}},"block_order":["slide_1"],"settings":{"width":"boxed","height":"s","autoplay":false,"autoplay_seconds":3,"enable_controls":false,"height_mobile":"m","spacing_desktop":50,"spacing_mobile":30}},"page-service-menu":{"type":"page-service-menu","settings":{"menu":"main-menu"}},"section-faq":{"type":"section-faq","blocks":{"faq_1":{"type":"text","settings":{"faq_question":"Question 1","icon":"none","faq_answer":"<p>Answer question 1<\/p>","page":""}},"faq_2":{"type":"text","settings":{"faq_question":"Question 2","icon":"none","faq_answer":"<p>Answer question 2<\/p>","page":""}},"faq_3":{"type":"text","settings":{"faq_question":"Question 3","icon":"none","faq_answer":"<p>Answer question 3<\/p>","page":""}}},"block_order":["faq_1","faq_2","faq_3"],"settings":{"alignment":"left","compact":false,"title":"Collapsible content","title_size":"h4","spacing_desktop":50,"spacing_mobile":30}},"section-contact-form":{"type":"section-contact-form","blocks":{"0fd44d31-da56-43fe-972d-74b438cbb328":{"type":"text","settings":{"title":"Name","placeholder":"Name","required":true}},"b8774408-fd65-4d42-865e-40eb5da3e9ee":{"type":"text","settings":{"title":"Company","placeholder":"Company","required":false}},"30c68dd5-0daf-4c67-9e87-30fae9f6db2e":{"type":"email","settings":{"title":"Email","placeholder":"Email"}},"e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55":{"type":"tel","settings":{"title":"Phone number","placeholder":"Phone number","required":false}},"7f5b90a3-0ea1-466d-a8bb-fb174e340aed":{"type":"textarea","settings":{"title":"Message","placeholder":"Message","required":true}}},"block_order":["0fd44d31-da56-43fe-972d-74b438cbb328","b8774408-fd65-4d42-865e-40eb5da3e9ee","30c68dd5-0daf-4c67-9e87-30fae9f6db2e","e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55","7f5b90a3-0ea1-466d-a8bb-fb174e340aed"],"settings":{"alignment":"left","title":"Contact form","title_size":"h3","button_color_palette":"accent","show_placeholder":true,"compact":false,"spacing_desktop":50,"spacing_mobile":30}},"page-service-info-blocks":{"type":"page-service-info-blocks","blocks":{"18ebb386-ad40-4c3f-8386-2c45cb1a6cb2":{"type":"information","settings":{"color_palette":"light","title":"Account details","text":"<p><a href=\"\/account\" title=\"\/account\">Track your last order<\/a>, <a href=\"\/account\" title=\"\/account\">view all orders<\/a> or <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">manage your addresses<\/a>.<\/p>","show_login_links":true,"show_shop_address":false,"show_maps_url":false,"show_phone_link":false,"show_mail_link":false,"show_whatsapp_link":false}},"1aac02b6-6669-4da9-8318-348245b71f6a":{"type":"information","settings":{"color_palette":"light","title":"Customer service","text":"<p>Give your customers more details about your online store.<\/p>","show_login_links":false,"show_shop_address":false,"show_maps_url":false,"show_phone_link":true,"show_mail_link":true,"show_whatsapp_link":true}},"e40e00a1-f1c1-46de-84f4-9f8ac1ca29af":{"type":"information","settings":{"color_palette":"light_2","title":"Theme Xclusive","text":"<p>Give your customer more details about your online store. <\/p>","show_login_links":false,"show_shop_address":true,"show_maps_url":true,"show_phone_link":false,"show_mail_link":false,"show_whatsapp_link":false}}},"block_order":["18ebb386-ad40-4c3f-8386-2c45cb1a6cb2","1aac02b6-6669-4da9-8318-348245b71f6a","e40e00a1-f1c1-46de-84f4-9f8ac1ca29af"],"settings":{}},"main-page":{"type":"main-page","blocks":{"title":{"type":"title","settings":{"title_size":"h2"}},"content":{"type":"content","settings":{}}},"block_order":["title","content"],"settings":{"text_alignment":"start","spacing_desktop":50,"spacing_mobile":30}},"section-google-maps":{"type":"section-google-maps","settings":{"google_maps_iframe":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2800.4613648351315!2d-75.69569834823506!3d45.420200278997804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0502f07d210b%3A0xa1502f7f1d25c118!2sShopify!5e0!3m2!1snl!2snl!4v1653470436404!5m2!1snl!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>","spacing_desktop":50,"spacing_mobile":30}}},"order":["breadcrumbs","section-slideshow","page-service-menu","section-faq","section-contact-form","page-service-info-blocks","main-page","section-google-maps"]}
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "section-slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/partnerprogramm-1170x584.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-left",
+            "title": "Wie können wir Ihnen weiterhelfen?",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "light",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_1"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "page-service-menu": {
+      "type": "page-service-menu",
+      "settings": {
+        "menu": "main-menu"
+      }
+    },
+    "section-faq": {
+      "type": "section-faq",
+      "blocks": {
+        "faq_1": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Question 1",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Answer question 1<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "faq_2": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Question 2",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Answer question 2<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "faq_3": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Question 3",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Answer question 3<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "faq_1",
+        "faq_2",
+        "faq_3"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "compact": false,
+        "title": "Collapsible content",
+        "title_font": "primary",
+        "title_size": "h4",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section-contact-form": {
+      "type": "section-contact-form",
+      "blocks": {
+        "0fd44d31-da56-43fe-972d-74b438cbb328": {
+          "type": "text",
+          "settings": {
+            "title": "Name",
+            "placeholder": "Name",
+            "required": true
+          }
+        },
+        "b8774408-fd65-4d42-865e-40eb5da3e9ee": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "placeholder": "Company",
+            "required": false
+          }
+        },
+        "30c68dd5-0daf-4c67-9e87-30fae9f6db2e": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "placeholder": "Email"
+          }
+        },
+        "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55": {
+          "type": "tel",
+          "settings": {
+            "title": "Phone number",
+            "placeholder": "Phone number",
+            "required": false
+          }
+        },
+        "7f5b90a3-0ea1-466d-a8bb-fb174e340aed": {
+          "type": "textarea",
+          "settings": {
+            "title": "Message",
+            "placeholder": "Message",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "0fd44d31-da56-43fe-972d-74b438cbb328",
+        "b8774408-fd65-4d42-865e-40eb5da3e9ee",
+        "30c68dd5-0daf-4c67-9e87-30fae9f6db2e",
+        "e70b7df4-5299-4c87-b7a3-7f0ab2f6cd55",
+        "7f5b90a3-0ea1-466d-a8bb-fb174e340aed"
+      ],
+      "settings": {
+        "alignment": "left",
+        "title": "Contact form",
+        "title_font": "primary",
+        "title_size": "h3",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "button_color_palette": "accent",
+        "show_placeholder": true,
+        "compact": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "page-service-info-blocks": {
+      "type": "page-service-info-blocks",
+      "blocks": {
+        "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2": {
+          "type": "information",
+          "settings": {
+            "color_palette": "light",
+            "title": "Account details",
+            "text": "<p><a href=\"\/account\" title=\"\/account\">Track your last order<\/a>, <a href=\"\/account\" title=\"\/account\">view all orders<\/a> or <a href=\"\/account\/addresses\" title=\"\/account\/addresses\">manage your addresses<\/a>.<\/p>",
+            "show_login_links": true,
+            "show_shop_address": false,
+            "show_maps_url": false,
+            "show_phone_link": false,
+            "show_mail_link": false,
+            "show_whatsapp_link": false
+          }
+        },
+        "1aac02b6-6669-4da9-8318-348245b71f6a": {
+          "type": "information",
+          "settings": {
+            "color_palette": "light",
+            "title": "Customer service",
+            "text": "<p>Give your customers more details about your online store.<\/p>",
+            "show_login_links": false,
+            "show_shop_address": false,
+            "show_maps_url": false,
+            "show_phone_link": true,
+            "show_mail_link": true,
+            "show_whatsapp_link": true
+          }
+        },
+        "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af": {
+          "type": "information",
+          "settings": {
+            "color_palette": "light_2",
+            "title": "Theme Xclusive",
+            "text": "<p>Give your customer more details about your online store. <\/p>",
+            "show_login_links": false,
+            "show_shop_address": true,
+            "show_maps_url": true,
+            "show_phone_link": false,
+            "show_mail_link": false,
+            "show_whatsapp_link": false
+          }
+        }
+      },
+      "block_order": [
+        "18ebb386-ad40-4c3f-8386-2c45cb1a6cb2",
+        "1aac02b6-6669-4da9-8318-348245b71f6a",
+        "e40e00a1-f1c1-46de-84f4-9f8ac1ca29af"
+      ],
+      "settings": {
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section-google-maps": {
+      "type": "section-google-maps",
+      "settings": {
+        "google_maps_iframe": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d2800.4613648351315!2d-75.69569834823506!3d45.420200278997804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0502f07d210b%3A0xa1502f7f1d25c118!2sShopify!5e0!3m2!1snl!2snl!4v1653470436404!5m2!1snl!2snl\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "section-slideshow",
+    "page-service-menu",
+    "section-faq",
+    "section-contact-form",
+    "page-service-info-blocks",
+    "main-page",
+    "section-google-maps"
+  ]
+}
