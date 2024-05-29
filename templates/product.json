@@ -80,11 +80,6 @@
             "custom_liquid": "<div data-rapi-id=\"rapi_61994811951580\"><\/div>"
           }
         },
-        "ee5e9f1c-a80a-4244-950f-03806a509775": {
-          "type": "shipping_timer",
-          "settings": {
-          }
-        },
         "content_bNGEAJ": {
           "type": "content",
           "settings": {
@@ -126,6 +121,11 @@
         },
         "inventory": {
           "type": "inventory",
+          "settings": {
+          }
+        },
+        "ee5e9f1c-a80a-4244-950f-03806a509775": {
+          "type": "shipping_timer",
           "settings": {
           }
         },
@@ -265,11 +265,11 @@
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "price",
         "custom_liquid_XUzKBa",
-        "ee5e9f1c-a80a-4244-950f-03806a509775",
         "content_bNGEAJ",
         "content_EpHne9",
         "pickup",
         "inventory",
+        "ee5e9f1c-a80a-4244-950f-03806a509775",
         "variant_selection",
         "buy_button",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
