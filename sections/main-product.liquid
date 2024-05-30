@@ -237,7 +237,7 @@
                               -%}
                           {% endcapture %}
                           {%- if lazyload -%}
-                              {{ media | image_url: width: image_width, height: image_height, crop: 'center' | image_tag: srcset: srcset, sizes: sizes, loading: 'lazy', style: 'object-position:unset;' }}
+                              {{ media | image_url: width: image_width, height: image_height, crop: 'center' | image_tag: srcset: srcset, sizes: sizes, loading: 'master', style: 'object-position:unset;' }}
                           {%- else -%}
                               {{ media | image_url: width: image_width, height: image_height, crop: 'center' | image_tag: srcset: srcset, sizes: sizes, preload: true, style: 'object-position:unset;' }}
                           {%- endif -%}
