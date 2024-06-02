@@ -184,108 +184,108 @@
                   {% unless section.settings.media_layout == 'slider' %}
                     <span class="anchor" id="section-product-{{ forloop.index }}"></span>
                   {% endunless %}
-                  <a data-fancybox="product-gallery-{{ product.id }}"
-                    {% if media.media_type == 'image' %}
-                      href="{{ media | image_url }}"
-                    {% elsif media.media_type == 'external_video' %}
-                      href="{{ media | external_video_url }}"
-                    {% elsif media.media_type == 'video' %}
-                      {%- liquid
-                        assign source = media.sources | where: "height", 1080 | where: "format", "mp4" | first
-                        if source == nil
-                            assign source = media.sources | where: "format", "mp4" | first
-                        endif
-                        if source == nil
-                            assign source = media.sources | where: "format", "mov" | first
-                        endif
-                        if source == nil
-                            assign source = media.sources.first
-                        endif
-                      -%}
-                        href="{{ source.url }}"
-                      {% elsif media.media_type == 'model' %}
-                        href="#model-3d-{{ forloop.index }}"
-                      {% endif %}
-                      data-gallery-thumb="
-                      {% if section.settings.fill_images %}
-                        {{ media.preview_image | image_url: width: image_width_small, height: image_height_small, crop: 'center' }}
-                      {% else %}
-                        {{ media.preview_image | image_url: height: image_height_small }}
-                      {% endif %}
-                      "
-                      >
-                      {%- if forloop.first -%}
-                          {%- render 'product-labels' -%}
-                      {%- endif -%}
-                      <picture {% if settings.multiply_product_images == 'multiply' %}class="img-multiply"{% elsif settings.multiply_product_images == 'multiply-bg' %}class="img-multiply-bg"{% endif %}>
-                        {%- liquid
-                            assign lazyload = true
-                            if forloop.index == featured_media_position
-                                assign lazyload = false
-                            elsif forloop.first and featured_media_position == 0
-                                assign lazyload = false
-                            endif
-                        -%}
-                        {% if media.image %}
-                          {% capture srcset %}
-                            {%- liquid
-                              if section.settings.fill_images
-                                  render 'image-srcset', image: media, format: 'custom', image_height: custom_height_ratio, crop: 'center'
-                              else
-                                  render 'image-srcset', image: media
-                              endif
-                              -%}
-                          {% endcapture %}
-                          {%- if lazyload -%}
-                              {{ media | image_url: width: image_width, height: image_height, crop: 'center' | image_tag: srcset: srcset, sizes: sizes, loading: 'lazy', style: 'object-position:unset;' }}
-                          {%- else -%}
-                              {{ media | image_url: width: image_width, height: image_height, crop: 'center' | image_tag: srcset: srcset, sizes: sizes, preload: true, style: 'object-position:unset;' }}
-                          {%- endif -%}
-                        {%- elsif media.media_type != 'model' -%}
-                          {% if section.settings.media_layout != 'slider' %}
-                              {%- liquid
-                                assign source = media.sources | where: "height", 1080 | where: "format", "mp4" | first
-                                if source == nil
-                                  assign source = media.sources | where: "format", "mp4" | first
-                                endif
-                                if source == nil
-                                  assign source = media.sources | where: "format", "mov" | first
-                                endif
-                                if source == nil
-                                  assign source = media.sources.first
-                                endif
-                              -%}
-                              <video class="lazy" autoplay muted loop playsinline poster="{{ media.preview_image | image_url }}">
-                                <source data-src="{{ source.url }}" type="video/mp4">
-                              </video>
-                          {% else %}
-                            {%- if lazyload -%}
-                                {{ media.preview_image | image_url: width: image_width, height: image_height, crop: 'center' | image_tag: sizes: sizes, loading: 'lazy' }}
-                            {%- else -%}
-                                {{ media.preview_image | image_url: width: image_width, height: image_height, crop: 'center' | image_tag: sizes: sizes, preload: true }}
-                            {%- endif -%}
-                          {% endif %}
-                        {%- endif -%}
-                        {%- if media.media_type == 'external_video' or media.media_type == 'video' -%}
-                          {%- if section.settings.media_layout == 'slider' -%}
-                              <i aria-hidden="true" class="icon-play"></i>
-                          {%- endif -%}
-                        {%- elsif media.media_type == 'model' -%}
-                          <span id="model-3d-{{ forloop.index }}" class="model-3d">
-                            {{ media | model_viewer_tag: shadow-intensity: "1" }}
-                            <button
-                              data-shopify-xr
-                              data-shopify-model3d-id="{{ media.id }}"
-                              data-shopify-title="{{ product.title | escape }}"
-                              data-shopify-xr-hidden
-                            >
-                              <i aria-hidden="true" class="icon-cube"></i> {{ 'product.view_in_your_space' | t }}
-                            </button>
-                          </span>
-                          <i aria-hidden="true" class="icon-cube"></i>
-                        {%- endif -%}
-                      </picture>
-                  </a>
+                 <a data-fancybox="product-gallery-{{ product.id }}"
+    {% if media.media_type == 'image' %}
+        href="{{ media | image_url: width: 2048 }}"
+    {% elsif media.media_type == 'external_video' %}
+        href="{{ media | external_video_url }}"
+    {% elsif media.media_type == 'video' %}
+        {%- liquid
+            assign source = media.sources | where: "height", 1080 | where: "format", "mp4" | first
+            if source == nil
+                assign source = media.sources | where: "format", "mp4" | first
+            endif
+            if source == nil
+                assign source = media.sources | where: "format", "mov" | first
+            endif
+            if source == nil
+                assign source = media.sources.first
+            endif
+        -%}
+        href="{{ source.url }}"
+    {% elsif media.media_type == 'model' %}
+        href="#model-3d-{{ forloop.index }}"
+    {% endif %}
+    data-gallery-thumb="
+    {% if section.settings.fill_images %}
+        {{ media.preview_image | image_url: width: 100, height: 100, crop: 'center' }}
+    {% else %}
+        {{ media.preview_image | image_url: height: 100 }}
+    {% endif %}
+    "
+    >
+    {%- if forloop.first -%}
+        {%- render 'product-labels' -%}
+    {%- endif -%}
+    <picture {% if settings.multiply_product_images == 'multiply' %}class="img-multiply"{% elsif settings.multiply_product_images == 'multiply-bg' %}class="img-multiply-bg"{% endif %}>
+        {%- liquid
+            assign lazyload = true
+            if forloop.index == featured_media_position
+                assign lazyload = false
+            elsif forloop.first and featured_media_position == 0
+                assign lazyload = false
+            endif
+        -%}
+        {% if media.image %}
+            {% capture srcset %}
+                {%- liquid
+                    if section.settings.fill_images
+                        render 'image-srcset', image: media, format: 'custom', image_height: custom_height_ratio, crop: 'center'
+                    else
+                        render 'image-srcset', image: media
+                    endif
+                -%}
+            {% endcapture %}
+            {%- if lazyload -%}
+                {{ media | image_url: width: 2048 | image_tag: srcset: srcset, sizes: sizes, loading: 'lazy', style: 'object-position:unset;' }}
+            {%- else -%}
+                {{ media | image_url: width: 2048 | image_tag: srcset: srcset, sizes: sizes, preload: true, style: 'object-position:unset;' }}
+            {%- endif -%}
+        {%- elsif media.media_type != 'model' -%}
+            {% if section.settings.media_layout != 'slider' %}
+                {%- liquid
+                    assign source = media.sources | where: "height", 1080 | where: "format", "mp4" | first
+                    if source == nil
+                        assign source = media.sources | where: "format", "mp4" | first
+                    endif
+                    if source == nil
+                        assign source = media.sources | where: "format", "mov" | first
+                    endif
+                    if source == nil
+                        assign source = media.sources.first
+                    endif
+                -%}
+                <video class="lazy" autoplay muted loop playsinline poster="{{ media.preview_image | image_url }}">
+                    <source data-src="{{ source.url }}" type="video/mp4">
+                </video>
+            {% else %}
+                {%- if lazyload -%}
+                    {{ media.preview_image | image_url: width: 2048, height: 2048, crop: 'center' | image_tag: sizes: sizes, loading: 'lazy' }}
+                {%- else -%}
+                    {{ media.preview_image | image_url: width: 2048, height: 2048, crop: 'center' | image_tag: sizes: sizes, preload: true }}
+                {%- endif -%}
+            {% endif %}
+        {%- endif -%}
+        {%- if media.media_type == 'external_video' or media.media_type == 'video' -%}
+            {%- if section.settings.media_layout == 'slider' -%}
+                <i aria-hidden="true" class="icon-play"></i>
+            {%- endif -%}
+        {%- elsif media.media_type == 'model' -%}
+            <span id="model-3d-{{ forloop.index }}" class="model-3d">
+                {{ media | model_viewer_tag: shadow-intensity: "1" }}
+                <button
+                    data-shopify-xr
+                    data-shopify-model3d-id="{{ media.id }}"
+                    data-shopify-title="{{ product.title | escape }}"
+                    data-shopify-xr-hidden
+                >
+                    <i aria-hidden="true" class="icon-cube"></i> {{ 'product.view_in_your_space' | t }}
+                </button>
+            </span>
+            <i aria-hidden="true" class="icon-cube"></i>
+        {%- endif -%}
+    </picture>
+</a>
                   {%- if media.media_type == 'model' -%}
                     <button
                       data-shopify-xr
