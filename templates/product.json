@@ -297,7 +297,7 @@
         "images_grid_spacing": 20,
         "custom_product_image_ratio": 100,
         "fill_images": false,
-        "images_padding": 0,
+        "images_padding": 15,
         "images_vertical_position": 0,
         "show_thumbs_desktop": true,
         "show_thumbs_mobile": true,
