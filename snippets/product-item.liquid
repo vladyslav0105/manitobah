@@ -806,7 +806,7 @@
               {{ current_variant.unit_price_measurement.reference_unit }}
             {%- endif -%}
           {%- endcapture -%}
-          <span class="small">{{ 'product.unit_price_label' | t }}{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+          <span class="small">{{ 'product.unit_price_label' | t }} {{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
         {%- endif -%}
       </p>
     {%- endif -%}
