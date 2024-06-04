@@ -50,7 +50,7 @@
         "custom_liquid_ffhxV7": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div style=\"width: 100%;\">\n    <div style=\"margin-top: -25px!important; margin-bottom: -20px; font-size: 13px; color: #262626; margin-left: -5px; background-color: #f7f7f7; display: inline-block; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; font-weight: 400;\">\n      {{ pdp_produkt_sub_title }}\n    <\/div>\n  <\/div>\n{% endif %}"
+            "custom_liquid": "{% assign pdp_produkt_sub_title = product.metafields.custom.pdp_produkt_sub_title %}\n{% if pdp_produkt_sub_title != blank %}\n  <div style=\"width: 100%;\">\n    <div style=\"margin-top: -25px!important; margin-bottom: 50px; font-size: 13px; color: #262626; margin-left: -5px; background-color: #f7f7f7; display: inline-block; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; font-weight: 400;\">\n      {{ pdp_produkt_sub_title }}\n    <\/div>\n  <\/div>\n{% endif %}"
           }
         },
         "product_ratings_4cYjUK": {
@@ -62,13 +62,12 @@
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733": {
           "type": "spacer",
           "settings": {
-            "height": 20,
+            "height": 110,
             "height_mobile": 20
           }
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_tax": false,
             "font_size": 16
@@ -76,6 +75,7 @@
         },
         "custom_liquid_XUzKBa": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<div data-rapi-id=\"rapi_61994811951580\"><\/div>"
           }
