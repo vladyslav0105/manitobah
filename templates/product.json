@@ -148,11 +148,17 @@
             "sizechart_html": ""
           }
         },
+        "custom_liquid_MbcPbC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n.quantity-discount-bar {\n  display: flex;\n  justify-content: space-around;\n  margin: 20px 0;\n}\n.quantity-discount-bar .discount-step {\n  text-align: center;\n  padding: 10px;\n  border: 2px solid transparent;\n  border-radius: 5px;\n}\n.quantity-discount-bar .discount-step.active {\n  border-color: red;\n}\n.debug-quantity {\n  margin-top: 20px;\n  font-size: 14px;\n  color: #333;\n}\n<\/style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const quantityInput = document.querySelector('input#quantity');\n  const incrementButton = document.querySelector('.incr');\n  const decrementButton = document.querySelector('.decr');\n  const discountSteps = document.querySelectorAll('.discount-step');\n  const debugQuantity = document.querySelector('.debug-quantity');\n\n  function updateDiscountBar() {\n    const quantity = parseInt(quantityInput.value, 10);\n    debugQuantity.textContent = 'Aktueller Wert des Mengen-Selektors: ' + quantity;\n\n    discountSteps.forEach(step => step.classList.remove('active'));\n\n    if (quantity >= 4) {\n      discountSteps[3].classList.add('active');\n    } else if (quantity == 3) {\n      discountSteps[2].classList.add('active');\n    } else if (quantity == 2) {\n      discountSteps[1].classList.add('active');\n    } else {\n      discountSteps[0].classList.add('active');\n    }\n  }\n\n  quantityInput.addEventListener('input', updateDiscountBar);\n  \n  incrementButton.addEventListener('click', () => {\n    quantityInput.value = parseInt(quantityInput.value, 10) + 1;\n    updateDiscountBar();\n  });\n\n  decrementButton.addEventListener('click', () => {\n    if (parseInt(quantityInput.value, 10) > parseInt(quantityInput.min, 10)) {\n      quantityInput.value = parseInt(quantityInput.value, 10) - 1;\n      updateDiscountBar();\n    }\n  });\n\n  \/\/ Initial call to set the correct discount step on page load\n  updateDiscountBar();\n});\n<\/script>\n\n<div class=\"quantity-discount-bar\">\n  <div class=\"discount-step\" data-quantity=\"1\">\n    <img src=\"path_to_single_bottle_image\" alt=\"1 kaufen\">\n    <p>1 KAUFEN<\/p>\n    <p>0%<\/p>\n  <\/div>\n  <div class=\"discount-step\" data-quantity=\"2\">\n    <img src=\"path_to_two_bottles_image\" alt=\"2 kaufen\">\n    <p>2 KAUFEN<\/p>\n    <p>-15%<\/p>\n  <\/div>\n  <div class=\"discount-step\" data-quantity=\"3\">\n    <img src=\"path_to_three_bottles_image\" alt=\"3 kaufen\">\n    <p>3 KAUFEN<\/p>\n    <p>-20%<\/p>\n  <\/div>\n  <div class=\"discount-step\" data-quantity=\"4\">\n    <img src=\"path_to_four_bottles_image\" alt=\"ab 4 kaufen\">\n    <p>AB 4 KAUFEN<\/p>\n    <p>-25%<\/p>\n  <\/div>\n<\/div>\n\n<div class=\"debug-quantity\"><\/div>"
+          }
+        },
         "buy_button": {
           "type": "buy_button",
           "settings": {
             "button_style": "plain",
-            "show_amount_selection": false,
+            "show_amount_selection": true,
             "show_dynamic_buybutton": false,
             "button_style_dynamic_buybutton": "inv",
             "preorder_label": "",
@@ -271,6 +277,7 @@
         "pickup",
         "inventory",
         "variant_selection",
+        "custom_liquid_MbcPbC",
         "buy_button",
         "ee5e9f1c-a80a-4244-950f-03806a509775",
         "112cdbcf-cdc4-4168-b87c-2f15adce530b",
