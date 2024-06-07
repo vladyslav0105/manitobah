@@ -189,3 +189,18 @@ ul[data-type="main-nav"] .ff-secondary .sub li a {
     margin-bottom: 30px;
   }
 }
+
+.quantity-discount-bar .discount-step {
+  max-width: 120px;
+  min-width : 100px;
+  cursor: pointer;
+}
+
+.quantity-discount-bar .discount-step {
+
+}
+
+
+.quantity-discount-bar .discount-step p {
+  margin-bottom: 0!important;
+}
