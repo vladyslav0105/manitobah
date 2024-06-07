@@ -1537,6 +1537,10 @@
     {% endunless %}
 </style>
 
+
+{{ "product-discount.js" |  asset_url |  script_tag }}
+
+
 {% schema %}
 {
   "name": "t:main.product.name",
