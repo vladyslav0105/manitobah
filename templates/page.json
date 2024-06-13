@@ -1,1 +1,267 @@
-{"sections":{"breadcrumbs":{"type":"breadcrumbs","settings":{"hide_mobile":false}},"main-page":{"type":"main-page","blocks":{"title":{"type":"title","settings":{"title_size":"h2"}},"content":{"type":"content","settings":{}}},"block_order":["title","content"],"settings":{"text_alignment":"start","spacing_desktop":50,"spacing_mobile":30}}},"order":["breadcrumbs","main-page"]}
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_rich_text_DkB7Ak": {
+      "type": "section-rich-text",
+      "blocks": {
+        "content_jbyhrc": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Wir freuen uns, das neue Verpackungsdesign von Medicom vorzustellen: die praktische Dose aus nachwachsendem Rohstoff. Die neue Verpackung trägt zu einer nachhaltigeren Zukunft bei. Ab sofort erhalten Sie neue Produkte in der praktischen Medicom-Dose.  <\/p><p>Da uns Nachhaltigkeit und Ressourcenschonung wichtig sind, werden wir unser Produktsortiment schrittweise auf das neue Verpackungsdesign umstellen, um bestehende Verpackungen nicht vernichten zu müssen.<\/p><p>Das bedeutet für Sie, dass Sie bei Medicom eine Zeit lang sowohl die Kartonverpackung mit Blister, als auch die neue Dose erhalten werden. Die unterschiedlichen Verpackungen haben keinen Einfluss auf die Qualität oder den Wert der Produkte. Vielen Dank für Ihr Verständnis! <\/p><p>Haben Sie Feedback oder Anmerkungen zur neuen Verpackung? Schreiben Sie uns gerne per E-Mail an <a href=\"mailto:info@medicom.de\"><span style=\"text-decoration:underline\">info@medicom.de<\/span><\/a> oder via WhatsApp an <a href=\"https:\/\/wa.me\/message\/S3FYH34FVG5HF1\"><span style=\"text-decoration:underline\">0152 587 587 54<\/span><\/a>.<\/p>",
+            "font": "primary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "content_jbyhrc"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_VUrWVi": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_gJj3xL": {
+          "type": "title",
+          "settings": {
+            "title": "Neues Verpackungsdesign",
+            "title_font": "secondary",
+            "title_size": "h3",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "400"
+          }
+        },
+        "title_e8aMje": {
+          "type": "title",
+          "settings": {
+            "title": "Die Vorteile auf einen Blick",
+            "title_font": "primary",
+            "title_size": "h4",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "400"
+          }
+        },
+        "usp_FzGRdQ": {
+          "type": "usp",
+          "settings": {
+            "usp": "Zukunftsträchtiges Material (PLA) auf 100% Zuckerrohrbasis - ein besonders schnell nachwachsender, natürlicher Rohstoff",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_tJechU": {
+          "type": "usp",
+          "settings": {
+            "usp": "100% recyclebar",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_cDnXxX": {
+          "type": "usp",
+          "settings": {
+            "usp": "Einfache Entnahme aus der Dose",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_P8dw8d": {
+          "type": "usp",
+          "settings": {
+            "usp": "Optimaler Schutz des Inhaltes",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_gEFfry": {
+          "type": "usp",
+          "settings": {
+            "usp": "Praktisch für unterwegs",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_AhMiEy": {
+          "type": "usp",
+          "settings": {
+            "usp": " Elegantes Design",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_Ct6JcG": {
+          "type": "usp",
+          "settings": {
+            "usp": "Wiederverwendbare Dose",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_LiGjAb": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "JETZT SHOPPEN",
+            "link_url_1": "shopify:\/\/collections\/all",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "dark",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_gJj3xL",
+        "title_e8aMje",
+        "usp_FzGRdQ",
+        "usp_tJechU",
+        "usp_cDnXxX",
+        "usp_P8dw8d",
+        "usp_gEFfry",
+        "usp_AhMiEy",
+        "usp_Ct6JcG",
+        "buttons_LiGjAb"
+      ],
+      "settings": {
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_faq_HB76i8": {
+      "type": "section-faq",
+      "blocks": {
+        "text_yztDpU": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_KKzja8": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_J6AjqJ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Collapsible row",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Row content<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "text_yztDpU",
+        "text_KKzja8",
+        "text_J6AjqJ"
+      ],
+      "settings": {
+        "alignment": "left",
+        "compact": false,
+        "title": "Collapsible content",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-page",
+    "section_rich_text_DkB7Ak",
+    "section_image_with_text_VUrWVi",
+    "section_faq_HB76i8"
+  ]
+}
