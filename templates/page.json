@@ -175,7 +175,7 @@
         "overlay_opacity_img": 0,
         "color_palette": "white",
         "overlay_opacity": 100,
-        "layout": "image-left",
+        "layout": "image-right",
         "width": "boxed",
         "height": "l",
         "enable_custom_height": false,
