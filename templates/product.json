@@ -73,6 +73,12 @@
             "font_size": 16
           }
         },
+        "custom_liquid_A76it9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .packung {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n<div class=\"packung\">\n  Packungsgewicht: {{ custom.pdp_packungsgewicht }}\n<\/div>"
+          }
+        },
         "custom_liquid_XUzKBa": {
           "type": "custom_liquid",
           "disabled": true,
@@ -271,6 +277,7 @@
         "product_ratings_4cYjUK",
         "f8ac590a-608a-4ed2-8b0a-b0770e6c4733",
         "price",
+        "custom_liquid_A76it9",
         "custom_liquid_XUzKBa",
         "content_bNGEAJ",
         "content_EpHne9",
