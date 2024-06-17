@@ -76,7 +76,7 @@
         "custom_liquid_A76it9": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<style>\n  .packung {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n<div class=\"packung\">\n  Packungsgewicht: \n  {% if product.metafields.custom.pdp_packungsgewicht %}\n    {{ product.metafields.custom.pdp_packungsgewicht.value }}\n  {% endif %}\n<\/div>"
+            "custom_liquid": "<style>\n  .packung {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n<div class=\"packung\">\n  Packungsgewicht: \n  {% if product.metafields.custom.pdp_packungsgewicht %}\n    {{ product.metafields.custom.pdp_packungsgewicht.value }} g\n  {% endif %}\n<\/div>"
           }
         },
         "custom_liquid_XUzKBa": {
