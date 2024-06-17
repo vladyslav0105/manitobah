@@ -227,6 +227,7 @@
         "usp_Ct6JcG",
         "buttons_LiGjAb"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Algenoel-600x600.jpg",
         "enable_image_check": false,
@@ -371,6 +372,7 @@
         "text_3nwWzQ",
         "text_CpiPNT"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "center",
         "compact": false,
