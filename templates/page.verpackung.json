@@ -20,6 +20,7 @@
       "block_order": [
         "content"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 980,
         "content_alignment": "start",
@@ -72,7 +73,6 @@
       "block_order": [
         "slide_7PH9qt"
       ],
-      "disabled": true,
       "settings": {
         "width": "wide",
         "height": "m",
@@ -104,7 +104,6 @@
       "block_order": [
         "content_jbyhrc"
       ],
-      "disabled": true,
       "settings": {
         "color_palette": "white",
         "overlay_opacity": 100,
@@ -229,7 +228,6 @@
         "usp_Ct6JcG",
         "buttons_LiGjAb"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Algenoel-600x600.jpg",
         "enable_image_check": false,
@@ -374,7 +372,6 @@
         "text_3nwWzQ",
         "text_CpiPNT"
       ],
-      "disabled": true,
       "settings": {
         "alignment": "center",
         "compact": false,
@@ -397,7 +394,6 @@
     },
     "section_image_columns_text_JTVPa3": {
       "type": "section-image-columns-text",
-      "disabled": true,
       "settings": {
         "items_width": 2,
         "width": "boxed",
