@@ -72,6 +72,7 @@
       "block_order": [
         "slide_7PH9qt"
       ],
+      "disabled": true,
       "settings": {
         "width": "wide",
         "height": "m",
@@ -103,6 +104,7 @@
       "block_order": [
         "content_jbyhrc"
       ],
+      "disabled": true,
       "settings": {
         "color_palette": "white",
         "overlay_opacity": 100,
@@ -395,6 +397,7 @@
     },
     "section_image_columns_text_JTVPa3": {
       "type": "section-image-columns-text",
+      "disabled": true,
       "settings": {
         "items_width": 2,
         "width": "boxed",
