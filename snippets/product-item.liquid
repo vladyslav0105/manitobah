@@ -797,17 +797,21 @@
           {%- endif -%}
           {{ price }}
         {%- endif -%}
-        {%- if current_variant.unit_price_measurement -%}
-          {%- capture unit_price_base_unit -%}
-            {%- if current_variant.available and current_variant.unit_price_measurement -%}
-              {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
-                {{- current_variant.unit_price_measurement.reference_value -}}
-              {%- endif -%}
-              {{ current_variant.unit_price_measurement.reference_unit }}
-            {%- endif -%}
-          {%- endcapture -%}
-          <span class="small">{{ 'product.unit_price_label' | t }} {{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+{%- if product.metafields.custom.grundpreis -%}
+  <span class="small">{{ product.metafields.custom.grundpreis }}</span>
+{%- else -%}
+  {%- if current_variant.unit_price_measurement -%}
+    {%- capture unit_price_base_unit -%}
+      {%- if current_variant.available and current_variant.unit_price_measurement -%}
+        {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+          {{- current_variant.unit_price_measurement.reference_value -}}
         {%- endif -%}
+        {{ current_variant.unit_price_measurement.reference_unit }}
+      {%- endif -%}
+    {%- endcapture -%}
+    <span class="small">{{ 'product.unit_price_label' | t }} {{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+  {%- endif -%}
+{%- endif -%}
       </p>
     {%- endif -%}
     {%- if color_picker and static_color_picker -%}
