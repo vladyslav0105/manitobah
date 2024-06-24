@@ -798,7 +798,7 @@
           {{ price }}
         {%- endif -%}
 {%- if product.metafields.custom.grundpreis -%}
-  <span class="small">{{ product.metafields.custom.grundpreis }}</span>
+  <span class="small">{{ 'product.unit_price_label' | t }} {{ product.metafields.custom.grundpreis }}</span>
 {%- else -%}
   {%- if current_variant.unit_price_measurement -%}
     {%- capture unit_price_base_unit -%}
