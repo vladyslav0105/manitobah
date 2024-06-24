@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "favicon": "shopify:\/\/shop_images\/favicon.png",
@@ -82,7 +91,7 @@
     "enable_cart_drawer_upsell_complementary": true,
     "enable_cart_drawer_upsell_related": true,
     "enable_cart_drawer_upsell_variants": true,
-    "show_trustbadge": true,
+    "show_trustbadge": false,
     "trustbadge_image": "amazon pay",
     "trustbadge_text": "<p><strong>Schnell & sicher<\/strong> bezahlen<\/p>",
     "search_drawer_show_vendor": true,

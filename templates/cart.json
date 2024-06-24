@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs": {
@@ -22,6 +31,7 @@
         },
         "usp_DptHTQ": {
           "type": "usp",
+          "disabled": true,
           "settings": {
             "usp": ""
           }
@@ -33,11 +43,11 @@
       ],
       "settings": {
         "title_size": "h2",
-        "show_dynamic_buybutton": true,
+        "show_dynamic_buybutton": false,
         "enable_giftcard_or_discount_tab": true,
         "show_payment_methods": true,
-        "show_order_notes": true,
-        "order_notes_alignment": "left",
+        "show_order_notes": false,
+        "order_notes_alignment": "right",
         "enable_terms_checkbox": false,
         "terms_text": "<p>I accept the <a href=\"\/policies\/privacy-policy\" title=\"Privacy Policy\">privacy policy<\/a><\/p>"
       }
