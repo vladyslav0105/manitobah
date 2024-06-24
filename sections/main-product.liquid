@@ -903,7 +903,7 @@
                         {%- endif -%}
                         {{ current_variant.price | money }}{% if block.settings.show_tax %} {% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}{% endif %}
 {%- if product.metafields.custom.grundpreis -%}
-  <span class="small">{{ 'product.unit_price_label' | t }} {{ product.metafields.custom.grundpreis }}</span>
+  <span class="small">{{ 'product.unit_price_label' | t }}&nbsp;&nbsp;{{ product.metafields.custom.grundpreis }}</span>
 {%- else -%}
   {%- if current_variant.unit_price_measurement -%}
     {%- liquid
