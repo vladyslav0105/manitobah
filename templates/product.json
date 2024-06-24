@@ -84,6 +84,7 @@
         },
         "custom_liquid_A76it9": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<style>\n  .packung {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n<div class=\"packung\">\n  <span id=\"quantity-display\">1<\/span> Pck. : \n  {% if product.metafields.custom.pdp_packungsgewicht %}\n    {{ product.metafields.custom.pdp_packungsgewicht.value }} g\n  {% endif %}\n<\/div>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const quantityInputAmount = document.querySelector('input#quantity');\n  const quantityDisplay = document.getElementById('quantity-display');\n\n  function updateQuantityDisplay() {\n    const quantity = parseInt(quantityInputAmount.value, 10);\n    quantityDisplay.textContent = quantity;\n  }\n\n  quantityInputAmount.addEventListener('input', updateQuantityDisplay);\n  \n  \/\/ Initial call to set the correct quantity display on page load\n  updateQuantityDisplay();\n});\n<\/script>"
           }
