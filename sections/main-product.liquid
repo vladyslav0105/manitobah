@@ -902,19 +902,23 @@
                             <span class="old-price">{{ current_variant.compare_at_price | money }}</span>
                         {%- endif -%}
                         {{ current_variant.price | money }}{% if block.settings.show_tax %} {% if cart.taxes_included %}{{ 'product.including_tax' | t }}{% else %}{{ 'product.excluding_tax' | t }}{% endif %}{% endif %}
-                        {%- if current_variant.unit_price_measurement -%}
-                          {%- liquid
-                            capture unit_price_base_unit
-                              if current_variant.available and current_variant.unit_price_measurement
-                                if current_variant.unit_price_measurement.reference_value != 1
-                                  echo current_variant.unit_price_measurement.reference_value
-                                endif
-                                echo current_variant.unit_price_measurement.reference_unit
-                              endif
-                            endcapture
-                          -%}
-                          <span class="small">{{ 'product.unit_price_label' | t }}&nbsp&nbsp;{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
-                        {%- endif -%}
+{%- if product.metafields.custom.grundpreis -%}
+  <span class="small">{{ 'product.unit_price_label' | t }} {{ product.metafields.custom.grundpreis }}</span>
+{%- else -%}
+  {%- if current_variant.unit_price_measurement -%}
+    {%- liquid
+      capture unit_price_base_unit
+        if current_variant.available and current_variant.unit_price_measurement
+          if current_variant.unit_price_measurement.reference_value != 1
+            echo current_variant.unit_price_measurement.reference_value
+          endif
+          echo current_variant.unit_price_measurement.reference_unit
+        endif
+      endcapture
+    -%}
+    <span class="small">{{ 'product.unit_price_label' | t }}&nbsp;&nbsp;{{ current_variant.unit_price | money }}&nbsp;{{ 'product.unit_price_separator' | t }} {{ unit_price_base_unit }}</span>
+  {%- endif -%}
+{%- endif -%}
                     </p>
                     {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
                     {%- form 'product', product, id: product_form_installment_id, class: 'f8pr-product-form-installment' -%}
