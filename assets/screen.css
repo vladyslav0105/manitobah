@@ -2691,7 +2691,7 @@ html:not(.mobile) .l4ft.hover-out > li:not(.inline) figure ~ div { opacity: 0; }
 .l4pr.s4wi { margin-bottom: var(--main_mr); }
 .l4pr .swiper-outer { display: block; overflow: hidden; position: relative; }
 .l4pr .swiper-pagination-bullets { position: relative; left: 0; right: 0; top: 0; bottom: 0; list-style: none; margin: 30px -7px 0 0; padding: 0; }
-.l4pr .swiper-pagination-bullets .swiper-pagination-bullet { display: block; position: relative; z-index: 2; width: var(--pager_w); height: auto; min-height: 0; margin: 0 7px 7px 0; padding: 10px; cursor: pointer; }
+.l4pr .swiper-pagination-bullets .swiper-pagination-bullet { display: block; position: relative; z-index: 2; width: var(--pager_w); height: auto; min-height: 0; margin: 0 7px 7px 0; padding: 0px; cursor: pointer; }
 .l4pr .swiper-pagination-bullets .swiper-pagination-bullet picture { position: relative; z-index: 2; width: 100% !important; padding-top: calc(var(--ratio) * 100%); }
 .l4pr .swiper-pagination-bullets .swiper-pagination-bullet picture > * { display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; width: 100% !important; height: 100% !important; }
 #root .l4pr .swiper-pagination-bullets .swiper-pagination-bullet.auto, #root .l4pr.auto .swiper-pagination-bullets .swiper-pagination-bullet { height: auto; }
