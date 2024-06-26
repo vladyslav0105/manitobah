@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "t:static_sections.footer.name",
@@ -141,7 +150,7 @@
         "enable_custom_font_styling": false,
         "font_size": "16px",
         "link_text": "Kostenlos anmelden",
-        "button_color_palette": "light_2",
+        "button_color_palette": "dark",
         "enable_newsletter_terms_checkbox": true,
         "newsletter_terms_text": "<p>Ja, ich habe die <a>Datenschutzbestimmungen<\/a> gelesen und akzeptiere diese. <\/p>",
         "spacing_desktop": 0,
