@@ -568,7 +568,7 @@
   "platform_customizations": {
     "custom_css": [
       "p.price {font-size: 20px !important; font-weight: 600 !important;}",
-      "p.price {color: #202020 !important;}",
+      "p.price, .f8pr-price {color: #202020 !important;}",
       ".countdown {color: #64cd82; font-weight: 800 !important;}",
       ".s1pr .small {font-size: 10px; color: gray;}",
       ".l4cl .price .small {font-size: 10px; color: gray;}",
