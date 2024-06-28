@@ -43,7 +43,7 @@
         "slide_7PH9qt": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Algenoel-Banner.jpg",
+            "image": "shopify:\/\/shop_images\/staffelpreise-desktop.jpg",
             "layout": "background",
             "image_width": 50,
             "overlay_opacity": 0,
@@ -74,25 +74,24 @@
             "second_button_color_palette": "accent",
             "second_button_styling": "fill",
             "second_show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/Algenoel-Banner-Mobil.jpg"
+            "image_mobile": "shopify:\/\/shop_images\/staffelpreise-mobil.jpg"
           }
         }
       },
       "block_order": [
         "slide_7PH9qt"
       ],
-      "disabled": true,
       "settings": {
-        "width": "wide",
-        "height": "m",
+        "width": "boxed",
+        "height": "xs",
         "enable_custom_height": false,
-        "custom_height": 300,
+        "custom_height": 250,
         "autoplay": false,
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "m",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
+        "spacing_desktop": 10,
+        "spacing_mobile": 10,
         "fix_zindex": 0
       }
     },
