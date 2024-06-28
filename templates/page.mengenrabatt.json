@@ -98,12 +98,40 @@
     },
     "section_rich_text_DkB7Ak": {
       "type": "section-rich-text",
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_rRxjTe": {
+      "type": "section-rich-text",
       "blocks": {
-        "content_jbyhrc": {
+        "title_LyNbmt": {
+          "type": "title",
+          "settings": {
+            "title": "<strong>Mehr kaufen - mehr sparen<\/strong>",
+            "title_font": "secondary",
+            "title_size": "h3",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "300"
+          }
+        },
+        "content_f9mxVj": {
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Wir freuen uns, das neue Verpackungsdesign von Medicom vorzustellen: die praktische Dose aus nachwachsendem Rohstoff. Die neue Verpackung trägt zu einer nachhaltigeren Zukunft bei. Ab sofort erhalten Sie neue Produkte in der praktischen Medicom-Dose.  <\/p><p>Da uns Nachhaltigkeit und Ressourcenschonung wichtig sind, werden wir unser Produktsortiment schrittweise auf das neue Verpackungsdesign umstellen, um bestehende Verpackungen nicht vernichten zu müssen.<\/p><p>Das bedeutet für Sie, dass Sie bei Medicom eine Zeit lang sowohl die Kartonverpackung mit Blister, als auch die neue Dose erhalten werden. Die unterschiedlichen Verpackungen haben keinen Einfluss auf die Qualität oder den Wert der Produkte. Vielen Dank für Ihr Verständnis! <\/p><p>Haben Sie Feedback oder Anmerkungen zur neuen Verpackung? Schreiben Sie uns gerne per E-Mail an <a href=\"mailto:info@medicom.de\"><span style=\"text-decoration:underline\">info@medicom.de<\/span><\/a> oder via WhatsApp an <a href=\"https:\/\/wa.me\/message\/S3FYH34FVG5HF1\"><span style=\"text-decoration:underline\">0152 587 587 54<\/span><\/a>.<\/p>",
+            "text": "<p>Lernen Sie unser neues Staffelpreissystem kennen – je mehr Sie kaufen, desto mehr sparen Sie! Erhalten Sie 15% Rabatt ab dem zweiten Produkt, 20% bei drei Produkten und unwiderstehliche 25% ab vier Produkten – das vierte Produkt ist damit kostenlos für! <\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -111,9 +139,9 @@
         }
       },
       "block_order": [
-        "content_jbyhrc"
+        "title_LyNbmt",
+        "content_f9mxVj"
       ],
-      "disabled": true,
       "settings": {
         "color_palette": "white",
         "overlay_opacity": 100,
@@ -135,7 +163,7 @@
         "title_gJj3xL": {
           "type": "title",
           "settings": {
-            "title": "Neues Verpackungsdesign",
+            "title": "<strong> Ihre Vorteile auf einen Blick<\/strong>",
             "title_font": "secondary",
             "title_size": "h3",
             "enable_custom_text_styling": false,
@@ -146,7 +174,7 @@
         "title_e8aMje": {
           "type": "title",
           "settings": {
-            "title": "Die Vorteile auf einen Blick",
+            "title": "",
             "title_font": "primary",
             "title_size": "h4",
             "enable_custom_text_styling": false,
@@ -157,7 +185,7 @@
         "usp_FzGRdQ": {
           "type": "usp",
           "settings": {
-            "usp": "Zukunftsträchtiges Material (PLA) auf 100% Zuckerrohrbasis - ein besonders schnell nachwachsender, natürlicher Rohstoff",
+            "usp": "Sparvorteil auf den ersten Blick erkennbar",
             "font": "primary",
             "font_size": "16px"
           }
@@ -165,15 +193,7 @@
         "usp_tJechU": {
           "type": "usp",
           "settings": {
-            "usp": "100% recyclebar",
-            "font": "primary",
-            "font_size": "16px"
-          }
-        },
-        "usp_cDnXxX": {
-          "type": "usp",
-          "settings": {
-            "usp": "Einfache Entnahme aus der Dose",
+            "usp": "Vier Produkte kaufen und nur drei bezahlen",
             "font": "primary",
             "font_size": "16px"
           }
@@ -181,7 +201,7 @@
         "usp_P8dw8d": {
           "type": "usp",
           "settings": {
-            "usp": "Optimaler Schutz des Inhaltes",
+            "usp": "Volle Flexibilität für Sie",
             "font": "primary",
             "font_size": "16px"
           }
@@ -189,7 +209,7 @@
         "usp_gEFfry": {
           "type": "usp",
           "settings": {
-            "usp": "Praktisch für unterwegs",
+            "usp": "Gilt für das gesamte Sortiment (außer Produkte im <a href=\"\/sale\" title=\"\/sale\">Sale<\/a>)",
             "font": "primary",
             "font_size": "16px"
           }
@@ -197,15 +217,7 @@
         "usp_AhMiEy": {
           "type": "usp",
           "settings": {
-            "usp": "Elegantes Design",
-            "font": "primary",
-            "font_size": "16px"
-          }
-        },
-        "usp_Ct6JcG": {
-          "type": "usp",
-          "settings": {
-            "usp": "Wiederverwendbare Dose",
+            "usp": "Gleichbleibender Rabatt über das ganze Jahr hinweg",
             "font": "primary",
             "font_size": "16px"
           }
@@ -231,16 +243,13 @@
         "title_e8aMje",
         "usp_FzGRdQ",
         "usp_tJechU",
-        "usp_cDnXxX",
         "usp_P8dw8d",
         "usp_gEFfry",
         "usp_AhMiEy",
-        "usp_Ct6JcG",
         "buttons_LiGjAb"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Algenoel-600x600.jpg",
+        "image": "shopify:\/\/shop_images\/dose-hand-07-2024.png",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "white",
@@ -403,26 +412,6 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
-    },
-    "section_image_columns_text_JTVPa3": {
-      "type": "section-image-columns-text",
-      "disabled": true,
-      "settings": {
-        "items_width": 2,
-        "width": "boxed",
-        "height": "size-l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "space_between": 16,
-        "image_zoom": false,
-        "image_move": false,
-        "content_on_hover_color_palette": "dark",
-        "layout_mobile": "compact",
-        "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
     }
   },
   "order": [
@@ -430,8 +419,8 @@
     "main-page",
     "section_slideshow_a8ebHr",
     "section_rich_text_DkB7Ak",
+    "section_rich_text_rRxjTe",
     "section_image_with_text_VUrWVi",
-    "section_faq_HB76i8",
-    "section_image_columns_text_JTVPa3"
+    "section_faq_HB76i8"
   ]
 }
