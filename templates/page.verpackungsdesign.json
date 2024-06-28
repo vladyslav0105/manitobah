@@ -82,8 +82,8 @@
         "slide_7PH9qt"
       ],
       "settings": {
-        "width": "wide",
-        "height": "m",
+        "width": "boxed",
+        "height": "s",
         "enable_custom_height": false,
         "custom_height": 300,
         "autoplay": false,
