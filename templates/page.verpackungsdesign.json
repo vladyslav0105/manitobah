@@ -45,7 +45,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Algenoel-Banner.jpg",
             "layout": "background",
-            "image_width": 50,
+            "image_width": 40,
             "overlay_opacity": 0,
             "color_palette": "light_gradient",
             "text_position": "text-center",
@@ -85,13 +85,13 @@
         "width": "boxed",
         "height": "s",
         "enable_custom_height": false,
-        "custom_height": 300,
+        "custom_height": 250,
         "autoplay": false,
         "autoplay_seconds": 3,
         "enable_controls": false,
-        "height_mobile": "m",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
+        "height_mobile": "s",
+        "spacing_desktop": 10,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
