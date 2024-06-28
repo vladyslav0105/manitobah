@@ -37,64 +37,6 @@
         "spacing_mobile": 30
       }
     },
-    "section_slideshow_a8ebHr": {
-      "type": "section-slideshow",
-      "blocks": {
-        "slide_7PH9qt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/staffelpreise-desktop.jpg",
-            "layout": "background",
-            "image_width": 50,
-            "overlay_opacity": 0,
-            "color_palette": "light_gradient",
-            "text_position": "text-center",
-            "title": "",
-            "title_font": "primary",
-            "title_size": "h2",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "first_link_text": "",
-            "first_link_url": "shopify:\/\/collections\/all",
-            "first_button_color_palette": "accent",
-            "first_button_styling": "fill",
-            "first_show_link": false,
-            "second_link_text": "",
-            "second_link_url": "shopify:\/\/collections\/all",
-            "second_button_color_palette": "accent",
-            "second_button_styling": "fill",
-            "second_show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/staffelpreise-mobil.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "slide_7PH9qt"
-      ],
-      "settings": {
-        "width": "boxed",
-        "height": "xs",
-        "enable_custom_height": false,
-        "custom_height": 250,
-        "autoplay": false,
-        "autoplay_seconds": 3,
-        "enable_controls": false,
-        "height_mobile": "m",
-        "spacing_desktop": 10,
-        "spacing_mobile": 10,
-        "fix_zindex": 0
-      }
-    },
     "section_rich_text_DkB7Ak": {
       "type": "section-rich-text",
       "settings": {
@@ -153,6 +95,64 @@
         "height_mobile": "xs",
         "spacing_desktop": 50,
         "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_slideshow_a8ebHr": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_7PH9qt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/staffelpreise-desktop.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/staffelpreise-mobil.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_7PH9qt"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 250,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 10,
+        "spacing_mobile": 10,
         "fix_zindex": 0
       }
     },
@@ -416,9 +416,9 @@
   "order": [
     "breadcrumbs",
     "main-page",
-    "section_slideshow_a8ebHr",
     "section_rich_text_DkB7Ak",
     "section_rich_text_rRxjTe",
+    "section_slideshow_a8ebHr",
     "section_image_with_text_VUrWVi",
     "section_faq_HB76i8"
   ]
