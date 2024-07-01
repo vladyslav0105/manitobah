@@ -151,8 +151,8 @@
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
