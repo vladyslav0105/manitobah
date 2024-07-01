@@ -527,7 +527,7 @@ ul, ol, dd, blockquote { padding-left: 40px; }
 #logo img:after { content: attr(alt); display: block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background: var(--custom_top_main_bg); font-size: var(--size_14_f); line-height: var(--main_lh_h); }
 #logo span { display: block; }
 #logo a { min-width: 0; color: inherit; font-weight: var(--main_fw_strong); line-height: var(--main_lh_h); text-decoration: none; }
-#logo img, #logo picture { display: block; overflow: hidden; position: relative; width: var(--logo_w) !important; /*max-width: 232px !important;*/ height: auto !important; /*max-height: var(--logo_h) !important;*/ max-height: var(--logo_h); border-radius: 0; -o-object-fit: contain; object-fit: contain; -o-object-position: 0 center; object-position: 0 center; }
+#logo img, #logo picture { display: block; overflow: visible; position: relative; width: var(--logo_w) !important; /*max-width: 232px !important;*/ height: auto !important; /*max-height: var(--logo_h) !important;*/ max-height: var(--logo_h); border-radius: 0; -o-object-fit: contain; object-fit: contain; -o-object-position: 0 center; object-position: 0 center; }
 #logo picture { max-height: var(--logo_h) !important; }
 #root .shopify-section-header > .hidden, #root #header > .hidden, #root #header-outer > .hidden { display: none; }
 #root .shopify-section-header > .wide, #root #header > .wide, #root #header-outer > .wide { max-width: none; margin-left: 0; }
