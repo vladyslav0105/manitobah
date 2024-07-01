@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "t:static_sections.header.name",
@@ -287,7 +296,8 @@
         "a:hover {color: #e61446 !important;}",
         "#nav > ul > li > ul,#nav-bar > ul > li > ul {background: #fbfbfb; color: #434343;}",
         ".no-megamenu {line-height: 1.5;}",
-        "a {font-family: \"Open Sans\", sans-serif;}"
+        "a {font-family: \"Open Sans\", sans-serif;}",
+        "@media only screen and (min-width: 1024px) {.logo-img {margin-top: -10px; overflow: visible; }}"
       ],
       "settings": {
         "layout": "layout_1",
