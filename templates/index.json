@@ -92,11 +92,48 @@
             "second_show_link": false,
             "image_mobile": "shopify:\/\/shop_images\/STAGE_MOBIL-02.jpg"
           }
+        },
+        "slide_8wgWxW": {
+          "type": "slide",
+          "settings": {
+            "layout": "background",
+            "image_width": 40,
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "video": "shopify:\/\/files\/videos\/STAGE02.mp4",
+            "text_position": "text-start",
+            "title": "Jetzt zuschlagen!",
+            "title_font": "secondary",
+            "title_size": "h3",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "dark",
+            "title_weight": "300",
+            "subtitle": "Knaller-Sale 2024",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h3",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "dark",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "ZUM SALE",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "black",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
         }
       },
       "block_order": [
         "slide_xYBz66",
-        "slide_KjfAXt"
+        "slide_KjfAXt",
+        "slide_8wgWxW"
       ],
       "custom_css": [
         "h1 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
