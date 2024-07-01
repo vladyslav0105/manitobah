@@ -297,7 +297,7 @@
         "#nav > ul > li > ul,#nav-bar > ul > li > ul {background: #fbfbfb; color: #434343;}",
         ".no-megamenu {line-height: 1.5;}",
         "a {font-family: \"Open Sans\", sans-serif;}",
-        "@media only screen and (min-width: 1024px) {.logo-img {margin-top: -10px; overflow: visible; }}"
+        "@media only screen and (min-width: 1024px) {.logo-img {margin-top: -10px; overflow: visible!important; }}"
       ],
       "settings": {
         "layout": "layout_1",
