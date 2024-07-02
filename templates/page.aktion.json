@@ -23,19 +23,19 @@
         "166005794296ae0ec5-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Qualitaet-Forschung-1170x584.webp",
+            "image": "shopify:\/\/shop_images\/geschenk-aktion-rabatt-medicom-1170x584.webp",
             "layout": "background",
             "image_width": 50,
             "overlay_opacity": 0,
             "color_palette": "light_gradient",
             "text_position": "text-center",
-            "title": "Wir bieten Ihnen",
+            "title": "NICHTS VERPASSEN",
             "title_font": "primary",
             "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
-            "subtitle": "QUALITÄT UND FORSCHUNG",
+            "subtitle": "GESCHENK-AKTIONEN",
             "subtitle_font": "primary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
@@ -84,7 +84,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Mehr Produktqualität und darüber hinaus",
+            "title": "Aktuelle Aktionen",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -96,7 +96,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Medicom bietet hervorragende Produkte zu einem attraktiven Preis-Leistungs-Verhältnis und dazu besten, kompromisslosen Service. Medicom ist als Familienunternehmen sehr persönlich gegenüber Kunden und Mitarbeitern geprägt. Dies macht Medicom zu einem besonders kundenfreundlichen Unternehmen und ist Medicoms große Stärke.<\/p>",
+            "text": "<p>Stöbern Sie durch das Medicom-Produktsortiment und wählen Sie aus unseren attraktiven Geschenk-Aktionen aus.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
