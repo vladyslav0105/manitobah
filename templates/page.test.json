@@ -626,6 +626,57 @@
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
+    },
+    "section_counters_xWdaK6": {
+      "type": "section-counters",
+      "blocks": {
+        "counter_6z4nek": {
+          "type": "counter",
+          "settings": {
+            "number": "50",
+            "text": "<p>Describe facts or numbers<\/p>"
+          }
+        },
+        "counter_kJWcGV": {
+          "type": "counter",
+          "settings": {
+            "number": "50",
+            "text": "<p>Describe facts or numbers<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "counter_6z4nek",
+        "counter_kJWcGV"
+      ],
+      "settings": {
+        "overlay_opacity_img": 0,
+        "color_palette": "dark_gradient",
+        "overlay_opacity": 100,
+        "text_position": "center",
+        "title": "Counters",
+        "title_font": "primary",
+        "title_size": "h2",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "700",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "text": "<p>Share achievements, numbers, facts and information about your brand with your customers.<\/p>",
+        "enable_custom_font_styling": false,
+        "font_size": "16px",
+        "numbers_font": "secondary",
+        "numbers_weight": "700",
+        "numbers_boxed": true,
+        "numbers_accent_color": false,
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
     }
   },
   "order": [
@@ -648,6 +699,7 @@
     "section_custom_liquid_kcTH9b",
     "section_image_with_text_UVDy8d",
     "section_custom_liquid_z86dHg",
-    "section_image_with_text_tniyzy"
+    "section_image_with_text_tniyzy",
+    "section_counters_xWdaK6"
   ]
 }
