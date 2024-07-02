@@ -407,21 +407,21 @@
         "image_LABcmU": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Krill-2-597x600.jpg",
+            "image": "shopify:\/\/shop_images\/PS-2-597x600.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
-            "title": "Weltweit Beste Omega-3-Quelle",
+            "title": "Selections",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
             "title_color_palette": "light",
             "title_weight": "400",
-            "subtitle": "",
-            "subtitle_font": "secondary",
+            "subtitle": "entdecken",
+            "subtitle_font": "primary",
             "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
+            "enable_custom_subtext_styling": true,
+            "subtitle_color_palette": "light",
             "subtitle_weight": "400",
             "text": "",
             "enable_custom_font_styling": false,
@@ -440,7 +440,7 @@
             "look_position": "end",
             "show_look_label": false,
             "look_label_text": "Label",
-            "image_mobile": "shopify:\/\/shop_images\/Krill-2-936x1000.jpg"
+            "image_mobile": "shopify:\/\/shop_images\/PS-2-936x1000.jpg"
           }
         },
         "image_MLcLpc": {
