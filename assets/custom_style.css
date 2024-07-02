@@ -222,3 +222,13 @@ ul[data-type="main-nav"] .ff-secondary .sub li a {
 .quantity-discount-bar .discount-step p {
   margin-bottom: 0!important;
 }
+
+
+.original-price {
+  margin-left: 10px;
+  text-decoration: line-through;
+  color: grey;
+}
+.original-price.meta-field {
+  margin-left: 2px;
+}
