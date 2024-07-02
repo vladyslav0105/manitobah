@@ -554,7 +554,6 @@
         "text_bVPTnr"
       ],
       "custom_css": [
-        "img {padding: 40px; border-radius: 50%; object-fit: cover;}",
         "h2,h3 {font-family: \"Roboto Slab\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
@@ -591,7 +590,6 @@
         "text_KK6nMm"
       ],
       "custom_css": [
-        "img {padding: 40px; border-radius: 50%; object-fit: cover;}",
         "h2,h3 {font-family: \"Roboto Slab\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
@@ -628,7 +626,6 @@
         "text_y7aiE6"
       ],
       "custom_css": [
-        "img {padding: 80px;}",
         "h2,h3 {font-family: \"Roboto Slab\", sans-serif; font-weight: 300; font-size: 25px;}"
       ],
       "settings": {
