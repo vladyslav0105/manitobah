@@ -295,8 +295,8 @@
         "image_move": false,
         "layout_mobile": "rows",
         "mobile_height": "size-m",
-        "spacing_desktop": 0,
-        "spacing_mobile": 0,
+        "spacing_desktop": 10,
+        "spacing_mobile": 10,
         "fix_zindex": 0
       }
     },
@@ -391,7 +391,7 @@
         "layout_mobile": "rows",
         "mobile_height": "size-s",
         "spacing_desktop": 10,
-        "spacing_mobile": 0,
+        "spacing_mobile": 10,
         "fix_zindex": 0
       }
     },
@@ -515,14 +515,14 @@
         "height": "size-l",
         "enable_custom_height": true,
         "custom_height": 300,
-        "space_between": 16,
+        "space_between": 2,
         "image_zoom": false,
         "image_move": false,
         "show_content_below": false,
         "layout_mobile": "rows",
         "mobile_height": "size-s",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
+        "spacing_desktop": 10,
+        "spacing_mobile": 10,
         "fix_zindex": 0
       }
     },
