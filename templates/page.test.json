@@ -1,0 +1,653 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "166005794226b48f03": {
+      "type": "section-slideshow",
+      "blocks": {
+        "166005794296ae0ec5-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Qualitaet-Forschung-1170x584.webp",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "Wir bieten Ihnen",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "QUALITÄT UND FORSCHUNG",
+            "subtitle_font": "primary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "166005794296ae0ec5-0"
+      ],
+      "custom_css": [
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_PgpVW7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_kqw8yF": {
+          "type": "title",
+          "settings": {
+            "title": "Es gibt für jeden Bedarf die optimale Lösung",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_xarJkF": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Jede Darreichungsform stellt ein Vehikel dar, das einen Wirkstoff auf verschiedenen Wegen in den Körper einbringen kann. Bei Medicom stehen Ihnen verschiedene hochwertige Darreichungsformen zur Verfügung – individuelle Bedürfnisse erfordern individuelle Angebote.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_kqw8yF",
+        "content_xarJkF"
+      ],
+      "custom_css": [
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
+        " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h3"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_custom_liquid_FLrJhh": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_AWC9k9": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_6b6myh": {
+          "type": "title",
+          "settings": {
+            "title": "Soft-Gel-Kapsel",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_iKa6xt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diese Darreichungsform ist besonders hochwertig. Die enthaltenen Stoffe sind in Öl gelöst, eine höhere Bioverfügbarkeit ist garantiert. Leicht zu schlucken. Bei Bedarf kann auch nur der Inhalt verzehrt werden.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_6b6myh",
+        "text_iKa6xt"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/softgel.png",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_7RU7Mk": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_T6aYqi": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_Q3ebx7": {
+          "type": "title",
+          "settings": {
+            "title": "Kapsel",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_b7p8da": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Praktische Darreichungsform. Lässt sich bei Bedarf leicht öffnen und der Inhalt in Speisen und Getränken einrühren.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_Q3ebx7",
+        "text_b7p8da"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Kapsel_0357fa0a-71b9-4829-b802-4c89c4c258a9.jpg",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_AcVUae": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_PaPyPH": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_fjbhPb": {
+          "type": "title",
+          "settings": {
+            "title": "Licaps®-Kapseln",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_iMkk8y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Innovative Technologie, optimaler Schutz geruchsintensiver Inhaltsstoffe. Vorteil dieser Darreichungsform: Die Inhaltsstoffe sind geschmacks- und geruchsfrei 'verpackt'.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_fjbhPb",
+        "text_iMkk8y"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Licaps.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_EnGjee": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_CcXgaY": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_V3R48t": {
+          "type": "title",
+          "settings": {
+            "title": "Lutschtablette",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_YdQjP8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Diese Form der Darreichung löst sich langsam im Mund auf, praktische Alternative zu Schlucktabletten.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_V3R48t",
+        "text_YdQjP8"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Lutschtablette.jpg",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_cQ8YJc": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_ewbX7H": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_Rc7BPm": {
+          "type": "title",
+          "settings": {
+            "title": "Tablette",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_x4WEYX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bewährte Darreichungsart: Einfache und diskrete Einnahme, lange Haltbarkeit, problemlose Handhabung.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_Rc7BPm",
+        "text_x4WEYX"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Tablette.jpg",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_4b6Bgf": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_4fGWei": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_e94CFA": {
+          "type": "title",
+          "settings": {
+            "title": "Brausetablette",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_YFyfCq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mit dieser Darreichungsform werden die Inhaltsstoffe in Wasser aufgelöst und liegen dann bereits für den Magen gelöst vor.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_e94CFA",
+        "text_YFyfCq"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Brausetablette_7652f412-e6c3-48a8-972e-a533dd2141db.jpg",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_kcTH9b": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_UVDy8d": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_jaGHhi": {
+          "type": "title",
+          "settings": {
+            "title": "Direktgranulat im Stick",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_t7eyHW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der Inhalt kann schnell und ohne Wasser direkt eingenommen werden. Das Granulat zergeht im Mund. Diese Darrecihungsform wird von Sportlern und Reisenden gerne gewählt, macht auch immer dann Sinn, wenn man gerne einen Geschmack möchte.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_jaGHhi",
+        "text_t7eyHW"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sticks2.png",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_custom_liquid_z86dHg": {
+      "type": "section-custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"border-top: 2px solid #CCCCCC; margin: 20px 0;\"><\/div>",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_tniyzy": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_34jFhx": {
+          "type": "title",
+          "settings": {
+            "title": "Trinkampulle",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "text_jf4Et9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Praktische flüssige Zubereitung, optimal dosiert. Schütteln, öffnen, trinken. Die bequeme Darreichungsform.<\/p>",
+            "font": "secondary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_34jFhx",
+        "text_jf4Et9"
+      ],
+      "custom_css": [
+        ".m6as > figure picture {max-width: 400px !important; align-items: center; display: flex;}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/trinkampulle.png",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-left",
+        "width": "boxed",
+        "height": "s",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "166005794226b48f03",
+    "section_rich_text_PgpVW7",
+    "main-page",
+    "section_custom_liquid_FLrJhh",
+    "section_image_with_text_AWC9k9",
+    "section_custom_liquid_7RU7Mk",
+    "section_image_with_text_T6aYqi",
+    "section_custom_liquid_AcVUae",
+    "section_image_with_text_PaPyPH",
+    "section_custom_liquid_EnGjee",
+    "section_image_with_text_CcXgaY",
+    "section_custom_liquid_cQ8YJc",
+    "section_image_with_text_ewbX7H",
+    "section_custom_liquid_4b6Bgf",
+    "section_image_with_text_4fGWei",
+    "section_custom_liquid_kcTH9b",
+    "section_image_with_text_UVDy8d",
+    "section_custom_liquid_z86dHg",
+    "section_image_with_text_tniyzy"
+  ]
+}
