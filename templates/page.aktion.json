@@ -127,63 +127,13 @@
         "fix_zindex": 0
       }
     },
-    "16600579701b9ea466": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "166005796961cc60d8-0": {
-          "type": "title",
-          "settings": {
-            "title": "Premium-Produkte",
-            "title_font": "secondary",
-            "title_size": "h2",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "200"
-          }
-        },
-        "166005796961cc60d8-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wir legen viel Wert darauf, dass unsere Produkte in bester Premium-Qualität bei Ihnen ankommen. Egal, für welches der mehr als 80 Präparate der Marken Medicom®, NOBILIN und MEDICOM TERRA® Sie sich entscheiden – alle durchlaufen vor Markteinführung eine wissenschaftliche Qualitätsprüfung. Die Inhaltsstoffe sind klar ersichtlich auf der Packung genannt, die Tagesdosis ist genau angegeben und zusätzliche Informationen werden auf dem Beipackzettel aufgeführt.<\/p>",
-            "font": "primary",
-            "font_weight": "400",
-            "font_size": "16px"
-          }
-        }
-      },
-      "block_order": [
-        "166005796961cc60d8-0",
-        "166005796961cc60d8-1"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: left; margin-left: 50px; }}",
-        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
-        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/premiumprodukte.webp",
-        "enable_image_check": false,
-        "overlay_opacity_img": 0,
-        "color_palette": "white",
-        "overlay_opacity": 100,
-        "layout": "image-left",
-        "width": "boxed",
-        "height": "l",
-        "enable_custom_height": false,
-        "custom_height": 300,
-        "text_position": "text-start",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
-      }
-    },
     "16600579852f4017d4": {
       "type": "section-image-with-text",
       "blocks": {
         "1660057985549a4c95-0": {
           "type": "title",
           "settings": {
-            "title": "Einzelverblisterung",
+            "title": "Ihr Geschenk ab 20,–€ Einkauf",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -194,7 +144,7 @@
         "1660057985549a4c95-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ob Kapseln oder Tabletten – bei Medicom werden diese in Einzelverblisterung verpackt. Warum? Nur in Einzelverpackungen können höchstmögliche Qualität, Hygiene und Haltbarkeit der Vitalstoffe gewährleistet werden. Bei einer Dose oder einem Glas kommt der Inhalt bei jeder Entnahme mit Sauerstoff, Feuchtigkeit und möglichen Verunreinigungen in Kontakt. Ein weiterer Vorteil: Bei Bedarf können Sie Einzelblister problemlos auf Reisen und unterwegs mitnehmen.<\/p>",
+            "text": "<ul><li>Kaufen Sie für mindestens 20,– € ein  <\/li><li>Geben Sie den Code <strong>BUNT2<\/strong> ein<\/li><li>Das Geschenk wird nun automatisch zu Ihrem Warenkorb hinzugefügt<\/li><li>Vom 15.06 – 15.07.2024<\/li><li>Nur, solange der Vorrat reicht<\/li><li>Zu den <a href=\"https:\/\/www.medicom.de\/alle-produkte\">Produkten<\/a><\/li><\/ul>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -211,7 +161,7 @@
         "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Einzelverblisterung.webp",
+        "image": "shopify:\/\/shop_images\/medicom_geschenk_bunte_kueche.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
         "color_palette": "light",
@@ -1009,7 +959,6 @@
     "breadcrumbs",
     "166005794226b48f03",
     "section_rich_text_PgpVW7",
-    "16600579701b9ea466",
     "16600579852f4017d4",
     "section_image_with_text_UJnAgL",
     "section_image_with_text_X3nppT",
