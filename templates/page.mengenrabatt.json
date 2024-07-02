@@ -162,12 +162,12 @@
         "title_gJj3xL": {
           "type": "title",
           "settings": {
-            "title": "<strong> Ihre Vorteile auf einen Blick<\/strong>",
+            "title": " Ihre Vorteile auf einen Blick",
             "title_font": "secondary",
             "title_size": "h3",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "400"
+            "enable_custom_text_styling": true,
+            "title_color_palette": "dark",
+            "title_weight": "300"
           }
         },
         "title_e8aMje": {
