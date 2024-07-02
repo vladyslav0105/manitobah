@@ -135,6 +135,9 @@
     },
     "section_custom_liquid_JDr9TA": {
       "type": "section-custom-liquid",
+      "custom_css": [
+        "h1,h2 {font-family: \"Roboto Slab\", serif;}"
+      ],
       "settings": {
         "custom_liquid": "<style>\n  .selection-container {\n    max-width: 1400px;\n    margin: 0 auto;\n    padding: 20px;\n    text-align: center;\nfont-family: 'Roboto Slab', serif;\n  }\n  .selection-heading {\n    font-size: 2em;\n    margin-bottom: 10px;\n  }\n  .selection-subheading {\n    font-size: 1.2em;\n    margin-bottom: 20px;\n  }\n  .selection-image {\n    max-width: 100%;\n    height: auto;\n  }\n<\/style>\n\n<div class=\"selection-container\">\n  <h1 class=\"selection-heading\">Medicom Selektionen für individuelle Bedürfnisse<\/h1>\n  <h2 class=\"selection-subheading\">Welche passt zu Ihnen?<\/h2>\n  <img class=\"selection-image\" src=\"https:\/\/www.medicom.de\/media\/opti_image\/webp\/wysiwyg\/nobilin-premium-selections-1170x584.webp\" alt=\"Medicom Selektionen\">\n<\/div>",
         "spacing_desktop": 50,
