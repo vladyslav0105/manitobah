@@ -151,7 +151,7 @@
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "s",
-        "spacing_desktop": 20,
+        "spacing_desktop": 30,
         "spacing_mobile": 10,
         "fix_zindex": 0
       }
@@ -162,11 +162,11 @@
         "fd93849e-8a2d-47d7-a8b8-7dd02ccde46a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg",
+            "image": "shopify:\/\/shop_images\/Teaser1-1200x600.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
-            "title": "Geschenke-Aktion",
+            "title": "Geschenke & Aktionen",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -192,18 +192,19 @@
             "look_btn_color_palette": "black",
             "look_position": "end",
             "show_look_label": false,
-            "look_label_text": "Label"
+            "look_label_text": "Label",
+            "image_mobile": "shopify:\/\/shop_images\/Teaser1-936x1000.jpg"
           }
         },
         "image_LABcmU": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/QH-584x584.webp",
+            "image": "shopify:\/\/shop_images\/Krill-2-597x600.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
-            "title": "",
-            "title_font": "secondary",
+            "title": "Weltweit Beste Omega-3-Quelle",
+            "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
@@ -217,11 +218,11 @@
             "text": "",
             "enable_custom_font_styling": false,
             "font_size": "16px",
-            "link_text": "Button",
+            "link_text": "",
             "link_url": "",
             "button_color_palette": "dark",
             "show_link": false,
-            "show_look": true,
+            "show_look": false,
             "product_list": [
               "qh-mono-100-mg",
               "qh-mono-50-mg",
@@ -230,7 +231,8 @@
             "look_btn_color_palette": "dark",
             "look_position": "end",
             "show_look_label": false,
-            "look_label_text": "Label"
+            "look_label_text": "Label",
+            "image_mobile": "shopify:\/\/shop_images\/Krill-2-936x1000.jpg"
           }
         },
         "image_MLcLpc": {
