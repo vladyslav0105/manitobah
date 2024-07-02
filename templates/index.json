@@ -198,6 +198,7 @@
         },
         "slide_ANc9AU": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Krilloel-Forte-2400x900.jpg",
             "layout": "background",
@@ -209,7 +210,7 @@
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
-            "title_color_palette": "black",
+            "title_color_palette": "light_2",
             "title_weight": "400",
             "subtitle": "Reines Krillöl-Konzentrat",
             "subtitle_font": "primary",
