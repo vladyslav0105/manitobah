@@ -19,16 +19,21 @@
     },
     "section_featured_products_9cFYiP": {
       "type": "section-featured-products",
+      "custom_css": [
+        "{margin-top: 100px;}"
+      ],
       "settings": {
         "products": [
-
+          "nobilin-premium-selection-silber",
+          "nobilin-premium-selection-gold",
+          "nobilin-premium-selection-advance"
         ],
         "layout": "slider",
         "number_of_items": 4,
         "text_alignment": "start",
         "title": "Nobilin Premium Selection in Advance, Gold und Silber",
-        "title_font": "primary",
-        "title_size": "h4",
+        "title_font": "secondary",
+        "title_size": "h3",
         "enable_custom_text_styling": false,
         "title_color_palette": "black",
         "title_weight": "700",
