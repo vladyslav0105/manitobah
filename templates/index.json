@@ -151,7 +151,7 @@
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "s",
-        "spacing_desktop": 30,
+        "spacing_desktop": 20,
         "spacing_mobile": 10,
         "fix_zindex": 0
       }
@@ -268,8 +268,149 @@
             "show_look_label": false,
             "look_label_text": "Label"
           }
+        }
+      },
+      "block_order": [
+        "fd93849e-8a2d-47d7-a8b8-7dd02ccde46a",
+        "image_LABcmU",
+        "image_MLcLpc"
+      ],
+      "custom_css": [
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
+        "h4 {color: black; background-color: white; padding: 15px; display: inline-block; max-width: fit-content;}",
+        "p {text-align: left; font-weight: bold;}",
+        "a {color: white;}"
+      ],
+      "settings": {
+        "mirrored": false,
+        "width": "boxed",
+        "height": "size-s",
+        "enable_custom_height": true,
+        "custom_height": 300,
+        "space_between": 2,
+        "image_zoom": false,
+        "image_move": false,
+        "layout_mobile": "rows",
+        "mobile_height": "size-m",
+        "spacing_desktop": 20,
+        "spacing_mobile": 20,
+        "fix_zindex": 0
+      }
+    },
+    "section_collage_eVYixE": {
+      "type": "section-collage",
+      "blocks": {
+        "image_cmNWaw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/geschenk-aktionen-rabatte-medicom-584x291_1.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Geschenke-Aktion",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "white",
+            "title_weight": "500",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h4",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "white",
+            "subtitle_weight": "700",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "",
+            "link_url": "\/",
+            "button_color_palette": "black",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "black",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
         },
-        "17e623f9-2f1a-4bdb-a143-35b7bace4700": {
+        "image_EjMByF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/QH-584x584.webp",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "dark",
+            "show_link": false,
+            "show_look": true,
+            "product_list": [
+              "qh-mono-100-mg",
+              "qh-mono-50-mg",
+              "q10-mono-30-mg"
+            ],
+            "look_btn_color_palette": "dark",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_qQHCMX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kapsel.jpg",
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Krillöl",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "white",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": true,
+            "subtitle_color_palette": "white",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": true,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_Pj7dqF": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/nobilin-584x584.webp",
@@ -305,7 +446,7 @@
             "look_label_text": "Label"
           }
         },
-        "image_wqpPtx": {
+        "image_eJCcTa": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/schwarzer-knoblauch-400x400.webp",
@@ -343,17 +484,11 @@
         }
       },
       "block_order": [
-        "fd93849e-8a2d-47d7-a8b8-7dd02ccde46a",
-        "image_LABcmU",
-        "image_MLcLpc",
-        "17e623f9-2f1a-4bdb-a143-35b7bace4700",
-        "image_wqpPtx"
-      ],
-      "custom_css": [
-        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
-        "h4 {color: black; background-color: white; padding: 15px; display: inline-block; max-width: fit-content;}",
-        "p {text-align: left; font-weight: bold;}",
-        "a {color: white;}"
+        "image_cmNWaw",
+        "image_EjMByF",
+        "image_qQHCMX",
+        "image_Pj7dqF",
+        "image_eJCcTa"
       ],
       "settings": {
         "mirrored": false,
@@ -1336,6 +1471,7 @@
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
     "section_slideshow_8wyDhw",
     "494041aa-66c0-450a-acb0-f3bc90d6b837",
+    "section_collage_eVYixE",
     "section_icon_text_blocks_Ba8mFi",
     "section_icon_text_blocks_d6r3gE",
     "section_featured_products_jeNXEH",
