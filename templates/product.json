@@ -581,7 +581,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.custom.pdp_info_text_2 | metafield_tag }}",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "300",
             "font_size": "16px"
           }
@@ -618,7 +618,7 @@
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.custom.pdp_info_text_3 | metafield_tag }}",
-            "font": "secondary",
+            "font": "primary",
             "font_weight": "300",
             "font_size": "16px"
           }
