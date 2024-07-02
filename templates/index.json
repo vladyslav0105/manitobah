@@ -207,7 +207,7 @@
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
-            "title_color_palette": "dark",
+            "title_color_palette": "light",
             "title_weight": "400",
             "subtitle": "",
             "subtitle_font": "secondary",
