@@ -19,43 +19,6 @@
     "section_slideshow_8wyDhw": {
       "type": "section-slideshow",
       "blocks": {
-        "slide_xYBz66": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STAGE01.jpg",
-            "layout": "background",
-            "image_width": 50,
-            "overlay_opacity": 5,
-            "color_palette": "white",
-            "text_position": "align-bottom text-start",
-            "title": "Neu: Die beste pflanzliche",
-            "title_font": "secondary",
-            "title_size": "h3",
-            "enable_custom_text_styling": true,
-            "title_color_palette": "black",
-            "title_weight": "300",
-            "subtitle": "Omega-3-Quelle",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h3",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "dark",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "first_link_text": "JETZT ENTDECKEN",
-            "first_link_url": "shopify:\/\/products\/ashwagandha-bio",
-            "first_button_color_palette": "black",
-            "first_button_styling": "fill",
-            "first_show_link": false,
-            "second_link_text": "",
-            "second_link_url": "shopify:\/\/collections\/all",
-            "second_button_color_palette": "accent",
-            "second_button_styling": "fill",
-            "second_show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/STAGE_MOBIL-01.jpg"
-          }
-        },
         "slide_KjfAXt": {
           "type": "slide",
           "settings": {
@@ -128,12 +91,49 @@
             "second_button_styling": "fill",
             "second_show_link": false
           }
+        },
+        "slide_xYBz66": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/02-WhatsApp-2400x900.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 5,
+            "color_palette": "white",
+            "text_position": "align-bottom text-start",
+            "title": "Unser Service für Sie",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "300",
+            "subtitle": "Beratung und Bestellung ganz einfach via WhatsApp",
+            "subtitle_font": "primary",
+            "subtitle_size": "h4",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "dark",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "ZUM SERVICE!",
+            "first_link_url": "shopify:\/\/products\/ashwagandha-bio",
+            "first_button_color_palette": "black",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "\/whatsapp",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/STAGE_MOBIL-01.jpg"
+          }
         }
       },
       "block_order": [
-        "slide_xYBz66",
         "slide_KjfAXt",
-        "slide_8wgWxW"
+        "slide_8wgWxW",
+        "slide_xYBz66"
       ],
       "custom_css": [
         "h1 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
@@ -219,7 +219,7 @@
             "enable_custom_font_styling": false,
             "font_size": "16px",
             "link_text": "",
-            "link_url": "",
+            "link_url": "shopify:\/\/products\/nobilin-krillol-r-forte",
             "button_color_palette": "dark",
             "show_link": false,
             "show_look": false,
@@ -257,11 +257,11 @@
             "text": "",
             "enable_custom_font_styling": true,
             "font_size": "16px",
-            "link_text": "Button",
-            "link_url": "",
+            "link_text": "",
+            "link_url": "\/sale",
             "button_color_palette": "accent",
             "show_link": false,
-            "show_look": true,
+            "show_look": false,
             "product_list": [
 
             ],
