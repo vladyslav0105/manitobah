@@ -258,7 +258,7 @@
             "enable_custom_font_styling": true,
             "font_size": "16px",
             "link_text": "",
-            "link_url": "\/sale",
+            "link_url": "shopify:\/\/collections\/sale",
             "button_color_palette": "accent",
             "show_link": false,
             "show_look": false,
