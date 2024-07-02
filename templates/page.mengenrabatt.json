@@ -60,11 +60,11 @@
         "title_LyNbmt": {
           "type": "title",
           "settings": {
-            "title": "<strong>Mehr kaufen - mehr sparen<\/strong>",
+            "title": "Mehr kaufen - mehr sparen",
             "title_font": "secondary",
             "title_size": "h3",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "dark",
             "title_weight": "300"
           }
         },
