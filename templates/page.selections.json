@@ -1,0 +1,217 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "166005794226b48f03": {
+      "type": "section-slideshow",
+      "blocks": {
+        "166005794296ae0ec5-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/geschenk-aktion-rabatt-medicom-1170x584.webp",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "NICHTS VERPASSEN",
+            "title_font": "primary",
+            "title_size": "h3",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "GESCHENK-AKTIONEN",
+            "subtitle_font": "primary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false
+          }
+        }
+      },
+      "block_order": [
+        "166005794296ae0ec5-0"
+      ],
+      "custom_css": [
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
+        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
+      ],
+      "settings": {
+        "width": "boxed",
+        "height": "m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_PgpVW7": {
+      "type": "section-rich-text",
+      "blocks": {
+        "title_kqw8yF": {
+          "type": "title",
+          "settings": {
+            "title": "Aktuelle Aktionen",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700"
+          }
+        },
+        "content_xarJkF": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Stöbern Sie durch das Medicom-Produktsortiment und wählen Sie aus unseren attraktiven Geschenk-Aktionen aus.<\/p>",
+            "font": "primary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "title_kqw8yF",
+        "content_xarJkF"
+      ],
+      "custom_css": [
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
+        " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}",
+        "p {text-align: center;}"
+      ],
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "boxed",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "16600579852f4017d4": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "1660057985549a4c95-0": {
+          "type": "title",
+          "settings": {
+            "title": "Ihr Geschenk ab 20,–€ Einkauf",
+            "title_font": "secondary",
+            "title_size": "h2",
+            "enable_custom_text_styling": true,
+            "title_color_palette": "black",
+            "title_weight": "100"
+          }
+        },
+        "1660057985549a4c95-1": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Kaufen Sie für mindestens 20,– € ein  <\/li><li>Geben Sie den Code <strong>BUNT2<\/strong> ein<\/li><li>Das Geschenk wird nun automatisch zu Ihrem Warenkorb hinzugefügt<\/li><li>Vom 15.06 – 15.07.2024<\/li><li>Nur, solange der Vorrat reicht<\/li><li>Zu den <a href=\"https:\/\/www.medicom.de\/alle-produkte\">Produkten<\/a><\/li><\/ul>",
+            "font": "primary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "1660057985549a4c95-0",
+        "1660057985549a4c95-1"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {img {width: 400px !important; height: auto; float: right; margin-right: 50px; }}",
+        "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
+        "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/medicom_geschenk_bunte_kueche.webp",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "light",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h3"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "content"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "166005794226b48f03",
+    "section_rich_text_PgpVW7",
+    "16600579852f4017d4",
+    "main-page"
+  ]
+}
