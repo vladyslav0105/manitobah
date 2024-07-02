@@ -295,8 +295,8 @@
         "image_move": false,
         "layout_mobile": "rows",
         "mobile_height": "size-m",
-        "spacing_desktop": 20,
-        "spacing_mobile": 20,
+        "spacing_desktop": 0,
+        "spacing_mobile": 0,
         "fix_zindex": 0
       }
     },
