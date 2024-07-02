@@ -147,7 +147,7 @@
         "height": "s",
         "enable_custom_height": true,
         "custom_height": 450,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "s",
