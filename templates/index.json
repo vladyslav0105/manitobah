@@ -59,7 +59,7 @@
         "slide_KjfAXt": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/STAGE02.jpg",
+            "image": "shopify:\/\/shop_images\/01-O3-Vegan-2400x900.jpg",
             "layout": "background",
             "image_width": 50,
             "overlay_opacity": 0,
@@ -90,7 +90,7 @@
             "second_button_color_palette": "accent",
             "second_button_styling": "fill",
             "second_show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/STAGE_MOBIL-02.jpg"
+            "image_mobile": "shopify:\/\/shop_images\/01-O3-Vegan-936x740.jpg"
           }
         },
         "slide_8wgWxW": {
@@ -100,25 +100,25 @@
             "image_width": 40,
             "overlay_opacity": 0,
             "color_palette": "white",
-            "video": "shopify:\/\/files\/videos\/STAGE02.mp4",
+            "video": "shopify:\/\/files\/videos\/slide3.mp4",
             "text_position": "align-bottom text-start",
-            "title": "Jetzt zuschlagen!",
-            "title_font": "secondary",
+            "title": "Kaufen Sie mehr - sparen Sie mehr",
+            "title_font": "primary",
             "title_size": "h3",
             "enable_custom_text_styling": false,
-            "title_color_palette": "dark",
+            "title_color_palette": "light",
             "title_weight": "300",
-            "subtitle": "Knaller-Sale 2024",
-            "subtitle_font": "secondary",
+            "subtitle": "Entdecken Sie die neuen Staffelpreise",
+            "subtitle_font": "primary",
             "subtitle_size": "h3",
             "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "dark",
+            "subtitle_color_palette": "light",
             "subtitle_weight": "400",
             "text": "",
             "enable_custom_font_styling": false,
             "font_size": "16px",
-            "first_link_text": "ZUM SALE",
-            "first_link_url": "shopify:\/\/collections\/all",
+            "first_link_text": "JETZT KENNENLERNEN!",
+            "first_link_url": "shopify:\/\/pages\/mengenrabatt",
             "first_button_color_palette": "black",
             "first_button_styling": "fill",
             "first_show_link": false,
@@ -238,19 +238,19 @@
         "image_MLcLpc": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/kapsel.jpg",
+            "image": "shopify:\/\/shop_images\/Sale-3-597x600.jpg",
             "overlay_opacity": 0,
             "color_palette": "white",
             "text_position": "text-center",
-            "title": "Krillöl",
+            "title": "SALE!",
             "title_font": "primary",
-            "title_size": "h2",
+            "title_size": "h3",
             "enable_custom_text_styling": true,
             "title_color_palette": "white",
             "title_weight": "700",
-            "subtitle": "",
-            "subtitle_font": "secondary",
-            "subtitle_size": "h2",
+            "subtitle": "Bis zu 60 % Sparen!",
+            "subtitle_font": "primary",
+            "subtitle_size": "h3",
             "enable_custom_subtext_styling": true,
             "subtitle_color_palette": "white",
             "subtitle_weight": "400",
@@ -261,14 +261,15 @@
             "link_url": "",
             "button_color_palette": "accent",
             "show_link": false,
-            "show_look": false,
+            "show_look": true,
             "product_list": [
 
             ],
             "look_btn_color_palette": "buy_button",
             "look_position": "end",
             "show_look_label": false,
-            "look_label_text": "Label"
+            "look_label_text": "Label",
+            "image_mobile": "shopify:\/\/shop_images\/Sale-3-936x1000.jpg"
           }
         }
       },
