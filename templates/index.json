@@ -300,6 +300,101 @@
         "fix_zindex": 0
       }
     },
+    "section_banner_columns_eVnmVe": {
+      "type": "section-banner-columns",
+      "blocks": {
+        "image_YzX3wf": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Give customers details about the banner image(s)<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        },
+        "image_HbzBFB": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "color_palette": "white",
+            "text_position": "text-center",
+            "title": "Image banner",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "<p>Give customers details about the banner image(s)<\/p>",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "link_text": "Button",
+            "link_url": "",
+            "button_color_palette": "accent",
+            "show_link": false,
+            "show_look": false,
+            "product_list": [
+
+            ],
+            "look_btn_color_palette": "buy_button",
+            "look_position": "end",
+            "show_look_label": false,
+            "look_label_text": "Label"
+          }
+        }
+      },
+      "block_order": [
+        "image_YzX3wf",
+        "image_HbzBFB"
+      ],
+      "settings": {
+        "items_width": 2,
+        "width": "boxed",
+        "height": "size-l",
+        "enable_custom_height": true,
+        "custom_height": 300,
+        "space_between": 2,
+        "image_zoom": false,
+        "image_move": false,
+        "show_content_below": false,
+        "layout_mobile": "rows",
+        "mobile_height": "size-s",
+        "spacing_desktop": 20,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
     "section_collage_eVYixE": {
       "type": "section-collage",
       "blocks": {
@@ -619,11 +714,11 @@
         "items_width": 6,
         "text_alignment": "center",
         "title": "Beliebteste Themen",
-        "title_font": "primary",
+        "title_font": "secondary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
         "title_color_palette": "black",
-        "title_weight": "200",
+        "title_weight": "300",
         "subtitle": "",
         "subtitle_font": "secondary",
         "subtitle_size": "h2",
@@ -730,11 +825,11 @@
         "items_width": 4,
         "text_alignment": "center",
         "title": "Ihre Vorteile bei Medicom",
-        "title_font": "primary",
+        "title_font": "secondary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
         "title_color_palette": "black",
-        "title_weight": "200",
+        "title_weight": "300",
         "subtitle": "",
         "subtitle_font": "secondary",
         "subtitle_size": "h2",
@@ -780,11 +875,11 @@
         "number_of_items": 5,
         "text_alignment": "center",
         "title": "Favoriten unserer Kunden",
-        "title_font": "primary",
+        "title_font": "secondary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
         "title_color_palette": "black",
-        "title_weight": "200",
+        "title_weight": "300",
         "subtitle": "",
         "subtitle_font": "secondary",
         "subtitle_size": "h2",
@@ -949,11 +1044,11 @@
         "items_width": 6,
         "text_alignment": "center",
         "title": "Beliebteste Wirkstoffe",
-        "title_font": "primary",
+        "title_font": "secondary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
         "title_color_palette": "black",
-        "title_weight": "200",
+        "title_weight": "300",
         "subtitle": "",
         "subtitle_font": "secondary",
         "subtitle_size": "h2",
@@ -1058,7 +1153,7 @@
         "button_styling": "fill",
         "text_alignment": "center",
         "title": "Ihre Themen – unsere Produkte",
-        "title_font": "primary",
+        "title_font": "secondary",
         "title_size": "h3",
         "enable_custom_text_styling": true,
         "title_color_palette": "black",
@@ -1201,11 +1296,11 @@
           "type": "title",
           "settings": {
             "title": "Online über Gesundheitsthemen informieren",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h3",
             "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "200"
+            "title_weight": "300"
           }
         },
         "text_7UCGQk": {
@@ -1249,11 +1344,11 @@
           "type": "title",
           "settings": {
             "title": "Kostenlose Beratung",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h3",
             "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "200"
+            "title_weight": "300"
           }
         },
         "text_hfr4Be": {
@@ -1297,11 +1392,11 @@
           "type": "title",
           "settings": {
             "title": "Haben Sie alles gefunden?",
-            "title_font": "primary",
+            "title_font": "secondary",
             "title_size": "h3",
             "enable_custom_text_styling": true,
             "title_color_palette": "black",
-            "title_weight": "200"
+            "title_weight": "300"
           }
         }
       },
@@ -1474,6 +1569,7 @@
     "86d43546-c3ee-4763-8d9e-efbf3b62d046",
     "section_slideshow_8wyDhw",
     "494041aa-66c0-450a-acb0-f3bc90d6b837",
+    "section_banner_columns_eVnmVe",
     "section_collage_eVYixE",
     "section_icon_text_blocks_Ba8mFi",
     "section_icon_text_blocks_d6r3gE",
