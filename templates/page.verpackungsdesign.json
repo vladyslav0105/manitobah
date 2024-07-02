@@ -43,7 +43,7 @@
         "slide_7PH9qt": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Algenoel-Banner.jpg",
+            "image": "shopify:\/\/shop_images\/Gruppe-2400x900.jpg",
             "layout": "background",
             "image_width": 40,
             "overlay_opacity": 0,
@@ -74,7 +74,7 @@
             "second_button_color_palette": "accent",
             "second_button_styling": "fill",
             "second_show_link": false,
-            "image_mobile": "shopify:\/\/shop_images\/Algenoel-Banner-Mobil.jpg"
+            "image_mobile": "shopify:\/\/shop_images\/Gruppe-936x740.jpg"
           }
         }
       },
@@ -84,8 +84,8 @@
       "settings": {
         "width": "boxed",
         "height": "s",
-        "enable_custom_height": false,
-        "custom_height": 250,
+        "enable_custom_height": true,
+        "custom_height": 440,
         "autoplay": false,
         "autoplay_seconds": 3,
         "enable_controls": false,
