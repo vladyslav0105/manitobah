@@ -355,7 +355,7 @@
         "height": "s",
         "enable_custom_height": true,
         "custom_height": 450,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "s",
@@ -487,7 +487,10 @@
         "image_MLcLpc"
       ],
       "custom_css": [
-
+        "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);}",
+        "h4 {color: black; background-color: white; padding: 15px; display: inline-block; max-width: fit-content;}",
+        "p {text-align: left; font-weight: bold;}",
+        "a {color: white;}"
       ],
       "settings": {
         "mirrored": false,
