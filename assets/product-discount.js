@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     var discount_item = document.querySelectorAll(".quantity-discount-bar .discount-step");
+    const currencySymbol = document.getElementById('currency-symbol').value;
     var input;
     var cnt = 0;
     const priceShowCtrl = document.querySelector('.f8pr-price');
@@ -24,20 +25,42 @@ document.addEventListener("DOMContentLoaded", function(event) {
             metafieldPrice *= 0.75;
         }
 
-        if(selectedQuantity === 1) {
-            priceShowCtrl.innerHTML = `${price.toFixed(2)}€<span class='small'>Base price  ${metafieldPrice.toFixed(2)}€ / kg</span>`;
+        const tsMetafieldPrice = priceShowCtrl.querySelector('span.small').innerText;
+        const i = tsMetafieldPrice.lastIndexOf(currencySymbol);
+        const j = tsMetafieldPrice.indexOf(')',i);
+        const frontStr = tsMetafieldPrice.substring(0, findPricePos(tsMetafieldPrice));
+        let backStr;
+        if(j !== -1) {
+            backStr = tsMetafieldPrice.substring(j + 1);
         } else {
-            priceShowCtrl.innerHTML = `${price.toFixed(2)}€<span class='original-price'>${oldPrice.toFixed(2)}€</span><span class='small'>Base price  ${metafieldPrice.toFixed(2)}€<span class="original-price meta-field">(${oldMetafieldPrice.toFixed(2)}€)</span> / kg</span>`;
+            backStr = tsMetafieldPrice.substring(i + 1);
+        }
+
+        if(selectedQuantity === 1) {
+            priceShowCtrl.innerHTML = `${price.toFixed(2)}${currencySymbol}<span class='small'>${frontStr}${metafieldPrice.toFixed(2)}${currencySymbol}${backStr}</span>`;
+        } else {
+            priceShowCtrl.innerHTML = `${price.toFixed(2)}${currencySymbol}<span class='original-price'>${oldPrice.toFixed(2)}${currencySymbol}</span><span class='small'>${frontStr}${metafieldPrice.toFixed(2)}€<span class="original-price meta-field">(${oldMetafieldPrice.toFixed(2)}€)</span>${backStr}</span>`;
         }
     }
     const getOldPrice = () => {
         const tsPrice = priceShowCtrl.innerText;
         const metafieldValue = priceShowCtrl.querySelector('span').innerText;
-        const i = tsPrice.indexOf('€');
-        const j = metafieldValue.indexOf('€');
-        const k = metafieldValue.indexOf('Base price  ');
-        oldPrice = parseFloat(tsPrice.substring(0, i));
-        oldMetafieldPrice = parseFloat(metafieldValue.substring(k + 12, j));
+        const i = tsPrice.indexOf(currencySymbol);
+        const j = metafieldValue.indexOf(currencySymbol);
+        const k = findPricePos(metafieldValue);
+        oldPrice = parseFloat(tsPrice.substring(0, i).replace(',','.'));
+        oldMetafieldPrice = parseFloat(metafieldValue.substring(k, j).replace(',','.'));
+    }
+    const findPricePos = (str) => {
+        const len = str.length;
+        console.log(currencySymbol);
+        for(let i = 0;i < len; i++) {
+            const ch = parseInt(str.charAt(i));
+            if(!isNaN(ch)) {
+                return i;
+            }
+        }
+        return -1;
     }
     getOldPrice();
     let hTime = setTimeout(function() {

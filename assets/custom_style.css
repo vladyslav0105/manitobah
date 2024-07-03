@@ -232,3 +232,8 @@ ul[data-type="main-nav"] .ff-secondary .sub li a {
 .original-price.meta-field {
   margin-left: 2px;
 }
+@media screen and (max-width: 760px) {
+  .btn-mobile-wide .link-btn .button-palette-black {
+    width: auto;
+  }
+}
