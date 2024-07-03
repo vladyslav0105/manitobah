@@ -350,12 +350,15 @@
         "slide_WW4JQd",
         "slide_wqWdKU"
       ],
+      "custom_css": [
+        ".swiper-button-next, .swiper-button-prev {display: none}"
+      ],
       "settings": {
         "width": "boxed",
         "height": "s",
         "enable_custom_height": true,
         "custom_height": 450,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_seconds": 3,
         "enable_controls": false,
         "height_mobile": "s",
@@ -1043,7 +1046,7 @@
         "custom_height": 250,
         "text_position": "text-start",
         "spacing_desktop": 150,
-        "spacing_mobile": 30,
+        "spacing_mobile": 80,
         "fix_zindex": 0
       }
     },
@@ -1096,7 +1099,7 @@
         "show_link": false,
         "mobile_layout": "grid",
         "spacing_desktop": 150,
-        "spacing_mobile": 30,
+        "spacing_mobile": 80,
         "fix_zindex": 0
       }
     },
@@ -1208,7 +1211,7 @@
         "custom_height": 250,
         "text_position": "text-start",
         "spacing_desktop": 50,
-        "spacing_mobile": 30,
+        "spacing_mobile": 80,
         "fix_zindex": 0
       }
     },
