@@ -218,7 +218,7 @@
             "customer_support_img_width": 200,
             "customer_support_offset_right": 0,
             "customer_support_offset_bottom": 0,
-            "extra_customer_support": "<p><strong>Tel.: 0800 - 50 400 50<br\/>E-Mail: info@medicom.de<br\/>SMS: 0152-587 587 54<br\/>WhatsApp: 0152-587 587 54<br\/><\/strong><a href=\"\/pages\/kontakt\" title=\"Kontakt\"><strong>Zum Kontaktformular<\/strong><\/a><\/p>",
+            "extra_customer_support": "<p><strong>Tel.: <\/strong><a href=\"tel:+08005040050\" title=\"tel:+08005040050\"><strong>0800 - 50 400 50<\/strong><\/a><strong><br\/>E-Mail: <\/strong><a href=\"mailto:info@medicom.de\" title=\"mailto:info@medicom.de\"><strong>info@medicom.de<\/strong><\/a><strong><br\/>SMS: 0152-587 587 54<br\/>WhatsApp: <\/strong><a href=\"https:\/\/api.whatsapp.com\/message\/S3FYH34FVG5HF1?autoload=1&app_absent=0\" title=\"https:\/\/api.whatsapp.com\/message\/S3FYH34FVG5HF1?autoload=1&app_absent=0\"><strong>0152-587 587 54<\/strong><\/a><strong><br\/><\/strong><a href=\"\/pages\/kontakt\" title=\"Kontakt\"><strong>Zum Kontaktformular<\/strong><\/a><\/p>",
             "show_socials": true,
             "socials_in_circle": false,
             "socials_color_palette": "white",
