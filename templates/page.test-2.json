@@ -1,0 +1,437 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "enable_share_button": false
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "blocks": {
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "content"
+      ],
+      "settings": {
+        "max_width": 980,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30
+      }
+    },
+    "section_slideshow_a8ebHr": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slide_7PH9qt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Algenoel-Banner.jpg",
+            "layout": "background",
+            "image_width": 50,
+            "overlay_opacity": 0,
+            "color_palette": "light_gradient",
+            "text_position": "text-center",
+            "title": "",
+            "title_font": "primary",
+            "title_size": "h2",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "700",
+            "subtitle": "",
+            "subtitle_font": "secondary",
+            "subtitle_size": "h2",
+            "enable_custom_subtext_styling": false,
+            "subtitle_color_palette": "black",
+            "subtitle_weight": "400",
+            "text": "",
+            "enable_custom_font_styling": false,
+            "font_size": "16px",
+            "first_link_text": "",
+            "first_link_url": "shopify:\/\/collections\/all",
+            "first_button_color_palette": "accent",
+            "first_button_styling": "fill",
+            "first_show_link": false,
+            "second_link_text": "",
+            "second_link_url": "shopify:\/\/collections\/all",
+            "second_button_color_palette": "accent",
+            "second_button_styling": "fill",
+            "second_show_link": false,
+            "image_mobile": "shopify:\/\/shop_images\/Algenoel-Banner-Mobil.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "slide_7PH9qt"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "wide",
+        "height": "m",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "autoplay": false,
+        "autoplay_seconds": 3,
+        "enable_controls": false,
+        "height_mobile": "m",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_rich_text_DkB7Ak": {
+      "type": "section-rich-text",
+      "blocks": {
+        "content_jbyhrc": {
+          "type": "content",
+          "settings": {
+            "page": "",
+            "text": "<p>Wir freuen uns, das neue Verpackungsdesign von Medicom vorzustellen: die praktische Dose aus nachwachsendem Rohstoff. Die neue Verpackung trägt zu einer nachhaltigeren Zukunft bei. Ab sofort erhalten Sie neue Produkte in der praktischen Medicom-Dose.  <\/p><p>Da uns Nachhaltigkeit und Ressourcenschonung wichtig sind, werden wir unser Produktsortiment schrittweise auf das neue Verpackungsdesign umstellen, um bestehende Verpackungen nicht vernichten zu müssen.<\/p><p>Das bedeutet für Sie, dass Sie bei Medicom eine Zeit lang sowohl die Kartonverpackung mit Blister, als auch die neue Dose erhalten werden. Die unterschiedlichen Verpackungen haben keinen Einfluss auf die Qualität oder den Wert der Produkte. Vielen Dank für Ihr Verständnis! <\/p><p>Haben Sie Feedback oder Anmerkungen zur neuen Verpackung? Schreiben Sie uns gerne per E-Mail an <a href=\"mailto:info@medicom.de\"><span style=\"text-decoration:underline\">info@medicom.de<\/span><\/a> oder via WhatsApp an <a href=\"https:\/\/wa.me\/message\/S3FYH34FVG5HF1\"><span style=\"text-decoration:underline\">0152 587 587 54<\/span><\/a>.<\/p>",
+            "font": "primary",
+            "font_weight": "400",
+            "font_size": "16px"
+          }
+        }
+      },
+      "block_order": [
+        "content_jbyhrc"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "text_position": "text-start",
+        "content_width": 1280,
+        "height": "xs",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "width": "wide",
+        "height_mobile": "xs",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_with_text_VUrWVi": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "title_gJj3xL": {
+          "type": "title",
+          "settings": {
+            "title": "Neues Verpackungsdesign",
+            "title_font": "secondary",
+            "title_size": "h3",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "400"
+          }
+        },
+        "title_e8aMje": {
+          "type": "title",
+          "settings": {
+            "title": "Die Vorteile auf einen Blick",
+            "title_font": "primary",
+            "title_size": "h4",
+            "enable_custom_text_styling": false,
+            "title_color_palette": "black",
+            "title_weight": "400"
+          }
+        },
+        "usp_FzGRdQ": {
+          "type": "usp",
+          "settings": {
+            "usp": "Zukunftsträchtiges Material (PLA) auf 100% Zuckerrohrbasis - ein besonders schnell nachwachsender, natürlicher Rohstoff",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_tJechU": {
+          "type": "usp",
+          "settings": {
+            "usp": "100% recyclebar",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_cDnXxX": {
+          "type": "usp",
+          "settings": {
+            "usp": "Einfache Entnahme aus der Dose",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_P8dw8d": {
+          "type": "usp",
+          "settings": {
+            "usp": "Optimaler Schutz des Inhaltes",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_gEFfry": {
+          "type": "usp",
+          "settings": {
+            "usp": "Praktisch für unterwegs",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_AhMiEy": {
+          "type": "usp",
+          "settings": {
+            "usp": "Elegantes Design",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "usp_Ct6JcG": {
+          "type": "usp",
+          "settings": {
+            "usp": "Wiederverwendbare Dose",
+            "font": "primary",
+            "font_size": "16px"
+          }
+        },
+        "buttons_LiGjAb": {
+          "type": "buttons",
+          "settings": {
+            "link_text_1": "JETZT SHOPPEN",
+            "link_url_1": "shopify:\/\/collections\/all",
+            "button_color_palette_1": "accent",
+            "button_style_1": "fill",
+            "show_link_1": false,
+            "link_text_2": "",
+            "link_url_2": "",
+            "button_color_palette_2": "black",
+            "button_style_2": "fill",
+            "show_link_2": false
+          }
+        }
+      },
+      "block_order": [
+        "title_gJj3xL",
+        "title_e8aMje",
+        "usp_FzGRdQ",
+        "usp_tJechU",
+        "usp_cDnXxX",
+        "usp_P8dw8d",
+        "usp_gEFfry",
+        "usp_AhMiEy",
+        "usp_Ct6JcG",
+        "buttons_LiGjAb"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Algenoel-600x600.jpg",
+        "enable_image_check": false,
+        "overlay_opacity_img": 0,
+        "color_palette": "white",
+        "overlay_opacity": 100,
+        "layout": "image-right",
+        "width": "boxed",
+        "height": "l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "text_position": "text-start",
+        "image_mobile": "shopify:\/\/shop_images\/Algenoel-600x600.jpg",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_faq_HB76i8": {
+      "type": "section-faq",
+      "blocks": {
+        "text_yztDpU": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Natürlicher Rohstoff",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Die Dosen werden aus Materialien hergestellt, die nachhaltiger sind als herkömmliche Kunststoffverpackungen. Die Verwendung von pflanzenbasierten Materialien (100% Zuckerrohr) für die Verpackung reduziert die Abhängigkeit von fossilen Brennstoffen und ist biologisch besser abbaubar, was die Umweltauswirkungen verringert. Das Material der Dosen ist nach UNE-EN ISO 13432 zertifiziert. <\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_KKzja8": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Haltbarkeit",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Die dunkle Dosenverpackung schützt die Produkte effektiv vor Umwelteinflüssen wie Feuchtigkeit und Licht im Vergleich zu weniger robusten Verpackungen, wodurch die Wirksamkeit der Inhaltsstoffe über einen längeren Zeitraum erhalten bleibt.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_J6AjqJ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Produktsicherheit",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Der feste Verschluss der Dose schützt vor Verunreinigungen. Die Dose ist auch ideal, um die Produkte auf Reisen mitzunehmen und sie vor Licht und Feuchtigkeit zu schützen.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_YHjQJV": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Weniger Verpackungsmüll",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Durch die Umstellung auf Dosen fällt weniger Verpackungsmüll an. <\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_7dGBNU": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Einfache Entnahme",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Die robuste und kompakte Form der Dose erleichtert den Transport der Produkte, z.B. auf Reisen. Ideal also für Berufstätige oder Reisende, die regelmäßig Nahrungsergänzungsmittel einnehmen. Die Dose ist leicht zu  transportieren. <\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_ebrXPC": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Wiederverwendbare Dose",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Die Dose kann nach dem Entleeren für andere Zwecke verwendet werden, wodurch zusätzliche Ressourcen geschont werden. Nutzen Sie die Dose als Aufbewahrungsbehälter für kleine Haushaltsgegenstände wie Schrauben, Nägel oder für Gewürze.<\/p><p>Ist Ihnen eine andere Verwendungsmöglichkeit eingefallen? Schicken Sie uns Ihre Idee per E-Mail an info@medicom.de oder direkt per WhatsApp an 0152 587 587 54.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_3nwWzQ": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Praktisch für unterwegs",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Die robuste und kompakte Form der Dose erleichtert den Transport der Produkte, z.B. auf Reisen. Ideal also für Berufstätige oder Reisende, die regelmäßig Nahrungsergänzungsmittel einnehmen. Die Dose ist leicht zu  transportieren. <\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_CpiPNT": {
+          "type": "text",
+          "settings": {
+            "faq_question": "Elegantes Design",
+            "icon": "none",
+            "header_image_width": 25,
+            "faq_answer": "<p>Die neue Dose sieht nicht nur modern aus, wir sorgen auch für eine transparente und korrekte Deklaration aller Inhaltsstoffe und geben eine leicht verständliche Gebrauchsanweisung.<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        }
+      },
+      "block_order": [
+        "text_yztDpU",
+        "text_KKzja8",
+        "text_J6AjqJ",
+        "text_YHjQJV",
+        "text_7dGBNU",
+        "text_ebrXPC",
+        "text_3nwWzQ",
+        "text_CpiPNT"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "compact": false,
+        "title": "Welche Vorteile hat die neue Verpackung?",
+        "title_font": "secondary",
+        "title_size": "h3",
+        "enable_custom_text_styling": false,
+        "title_color_palette": "black",
+        "title_weight": "300",
+        "subtitle": "",
+        "subtitle_font": "secondary",
+        "subtitle_size": "h2",
+        "enable_custom_subtext_styling": false,
+        "subtitle_color_palette": "black",
+        "subtitle_weight": "400",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    },
+    "section_image_columns_text_JTVPa3": {
+      "type": "section-image-columns-text",
+      "disabled": true,
+      "settings": {
+        "items_width": 2,
+        "width": "boxed",
+        "height": "size-l",
+        "enable_custom_height": false,
+        "custom_height": 300,
+        "space_between": 16,
+        "image_zoom": false,
+        "image_move": false,
+        "content_on_hover_color_palette": "dark",
+        "layout_mobile": "compact",
+        "mobile_height": "size-s",
+        "spacing_desktop": 50,
+        "spacing_mobile": 30,
+        "fix_zindex": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main-page",
+    "section_slideshow_a8ebHr",
+    "section_rich_text_DkB7Ak",
+    "section_image_with_text_VUrWVi",
+    "section_faq_HB76i8",
+    "section_image_columns_text_JTVPa3"
+  ]
+}
