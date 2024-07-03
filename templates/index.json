@@ -499,7 +499,7 @@
         "enable_custom_height": true,
         "custom_height": 300,
         "space_between": 2,
-        "image_zoom": false,
+        "image_zoom": true,
         "image_move": false,
         "layout_mobile": "rows",
         "mobile_height": "size-m",
