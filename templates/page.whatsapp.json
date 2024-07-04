@@ -145,7 +145,7 @@
         "1660057985549a4c95-0": {
           "type": "title",
           "settings": {
-            "title": "Wer ist Susanne von Medicom?",
+            "title": "Ihre Vorteile mit dem WhatsApp-Service",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -156,10 +156,10 @@
         "1660057985549a4c95-1": {
           "type": "text",
           "settings": {
-            "text": "<h6>Ihre Vitalstoffexpertin<\/h6><ul><li>Dipl.Ing. Lebensmitteltechnologie<\/li><li>Vitalstoffexpertin bei Medicom seit 5 Jahren<\/li><li>Persönliche Leidenschaft für gesunde Ernährung und Mikronährstoffe<\/li><li>Kümmert sich als WhatsApp-Vitalstoffexpertin um Ihre Anliegen<\/li><li>Sie fragen, Susanne antwortet<\/li><li>Berät Sie unkompliziert direkt per <a href=\"https:\/\/wa.me\/message\/D4BNLV2BZXRCJ1\">WhatsApp<\/a><\/li><\/ul>",
+            "text": "<h5>Bequem, direkt, kostenlos<\/h5><ul><li>Ganz bequem <strong>direkt vom Smartphone<\/strong> mit uns Kontakt aufnehmen<\/li><li>Ihre Fragen werden von unseren <strong>Expert:innen<\/strong> im Chat beantwortet<\/li><li>Flexibel – <strong>kein Warten am Telefon<\/strong> und jederzeit <strong>von überall aus nutzbar<\/strong><\/li><li>Selbstverständlich <strong>völlig kostenfrei<\/strong> für Sie<\/li><li>Produktempfehlungen und Tipps verbleiben in Ihrem WhatsApp-Chat, Sie können jederzeit <strong>erneut darauf zugreifen<\/strong><\/li><li><strong>Bestellungen<\/strong> können direkt per WhatsApp getätigt werden<\/li><li>Bei <strong>Rückfragen zu Ihrer Bestellung<\/strong> sind wir ebenfalls direkt per WhatsApp für Sie da<\/li><\/ul>",
             "font": "primary",
             "font_weight": "400",
-            "font_size": "16px"
+            "font_size": "14px"
           }
         }
       },
@@ -176,7 +176,7 @@
         "image": "shopify:\/\/shop_images\/susanne-whats-app-medicom-beratung-584x584.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
-        "color_palette": "white",
+        "color_palette": "light",
         "overlay_opacity": 100,
         "layout": "image-right",
         "width": "boxed",
