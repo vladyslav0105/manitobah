@@ -29,13 +29,13 @@
             "overlay_opacity": 0,
             "color_palette": "light_gradient",
             "text_position": "text-center",
-            "title": "Mit Susanne von Medicom",
+            "title": "Kontaktieren Sie uns so einfach wie noch nie!",
             "title_font": "primary",
             "title_size": "h3",
             "enable_custom_text_styling": false,
             "title_color_palette": "black",
             "title_weight": "700",
-            "subtitle": "PERSÖNLICHE BERATUNG",
+            "subtitle": "WHATSAPP-SERVICE",
             "subtitle_font": "primary",
             "subtitle_size": "h2",
             "enable_custom_subtext_styling": false,
@@ -84,7 +84,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Persönliche Beratung mit Susanne per WhatsApp",
+            "title": "Schreiben Sie uns per WhatsApp!",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -96,7 +96,7 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Sie sind sich nicht sicher, welches Produkt das richtige für Sie ist? Lassen Sie sich von unserer Vitalstoff-Expertin Susanne kostenlos beraten! Das geht ganz einfach und unkompliziert per WhatsApp. Beantworten Sie dort ein paar Fragen und Susanne meldet sich mit einer individuellen Produktempfehlung bei Ihnen zurück. Als Dankeschön erhalten Sie außerdem einen 5 € Rabatt auf Ihren Einkauf ab 25 €. Direkt nach der Beantwortung Ihrer Fragen.<\/p>",
+            "text": "<p>Sie haben <strong>Fragen<\/strong> an uns oder möchten <strong>etwas bestellen<\/strong>? Nutzen Sie ganz bequem unseren <strong>WhatsApp-Service<\/strong>. Unsere <strong>Expert:innen <\/strong>beantworten Ihnen dort <strong>montags bis freitags<\/strong> Fragen und nehmen Ihre Bestellung entgegen.<\/p><p>Sie können uns ganz einfach per WhatsApp schreiben, wenn Sie sich unsicher sind, welches Produkt das richtige für Sie ist. Ganz unkompliziert und schnell bestellen? Auch das geht über <strong>WhatsApp<\/strong>! Natürlich völlig <strong>kostenfrei<\/strong> für Sie. <\/p><p> <\/p><p><span style=\"text-decoration:underline\">So geht es:<\/span><\/p><p>1. Öffnen Sie diese Seite auf Ihrem Smartphone<\/p><p>2. Klicken Sie auf den Button oder <a href=\"https:\/\/wa.me\/message\/S3FYH34FVG5HF1\" target=\"_blank\">hierauf<\/a><\/p><p>3. Sie werden nun direkt in WhatsApp geleitet und können mit uns chatten<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -105,8 +105,8 @@
         "button_8kn3Dz": {
           "type": "button",
           "settings": {
-            "link_text": "ZUR VITALSTOFFBERATUNG",
-            "link_url": "\/",
+            "link_text": "JETZT MIT MEDICOM CHATTEN!",
+            "link_url": "https:\/\/wa.me\/message\/S3FYH34FVG5HF1",
             "button_color_palette": "accent",
             "button_style": "inv"
           }
