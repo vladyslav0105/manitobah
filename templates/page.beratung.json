@@ -121,7 +121,8 @@
         "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
         "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}",
         " {background-color: #fff !important; color: gray; border: 2px solid #f5f5f5; margin-bottom: 50px;}",
-        "p {text-align: center;}"
+        "p {text-align: center;}",
+        ".m6fr .link-btn {display: flex; justify-content: center;}"
       ],
       "settings": {
         "color_palette": "white",
@@ -183,7 +184,7 @@
         "enable_custom_height": false,
         "custom_height": 300,
         "text_position": "text-start",
-        "spacing_desktop": 50,
+        "spacing_desktop": 140,
         "spacing_mobile": 30,
         "fix_zindex": 0
       }
