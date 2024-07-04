@@ -172,6 +172,7 @@
                 assign products = search.results | where: 'object_type', 'product'
                 assign articles = search.results | where: 'object_type', 'article'
                 assign pages = search.results | where: 'object_type', 'page'
+                assign pages = pages | reject: 'custom.search_hide', true
               -%}
               {%- if section.settings.pagination_type == 'button' and paginate.previous %}
                 {% render 'pagination',
@@ -291,6 +292,13 @@
     {% if section.settings.filters_layout == 'static' %}</aside>{% else %}</div>{% endif %}
   {% endif %}
 </div>
+
+<style>
+  #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
+  {% if section.settings.enable_custom_filters_font_size %}
+    #filters-aside .f8fl, #filters-aside .f8sr, #filters-aside .n6as, #shopify-section-{{ section.id }} .f8fl, #shopify-section-{{ section.id }} .f8sr, #shopify-section-{{ section.id }} .n6as { --main_fz: {{ section.settings.filters_font_size }}; font-size: {{ section.settings.filters_font_size }}; }
+  {% endif %}
+</style>
 
 <style>
   #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
