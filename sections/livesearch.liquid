@@ -29,41 +29,43 @@
   {%- if settings.search_drawer_enable_products and predictive_search.resources.products.size > 0 -%}
     <ul class="l4ca compact">
       {%- for product in predictive_search.resources.products -%}
-        <li class="{% if product.featured_media == blank %} no-img{% endif %}{% if settings.fill_product_images %} cover{% endif %}{% if product.compare_at_price > product.price %} has-discount{% endif %}">
-          {%- if product.featured_media != blank -%}
-            <figure{% if settings.multiply_product_images == 'multiply' %} class="img-multiply"{% elsif settings.multiply_product_images == 'multiply-bg' %} class="img-multiply-bg"{% endif %}>
-              <picture>
-                <img src="{{ product.featured_media | image_url: width: 140 }}"
-                  srcset="{{ product.featured_media | image_url: width: 70 }} 1x,{{ product.featured_media | image_url: width: 140 }} 2x"
-                  alt="{{ product.featured_media.alt }}"
-                  width="70"
-                  height="71"
-                >
-              </picture>
-            </figure>
-          {%- endif -%}
-          <section>
-            <div class="cols">
-              <h2>
-                {%- if settings.search_drawer_show_vendor and product.vendor != "vendor-unknown" and product.vendor != shop.name -%}
-                  <span class="small">{{ product.vendor }}</span>
-                {%- endif -%}
-                <a href="{{ product.url }}">{{ product.title }} </a>
-              </h2>
-              {%- if settings.search_drawer_show_price -%}
-                <p class="price">
-                  {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
-                  {{ product.price | money }}
-                 </p>
-              {%- endif -%}
-            </div>
-            {%- if product.metafields.reviews.rating and settings.show_product_rating -%}
-              <p class="r6rt" data-val="{{ product.metafields.reviews.rating.value }}" data-of="5">
-                {%- if product.metafields.reviews.rating_count -%}{{ product.metafields.reviews.rating_count }} {{ 'product.reviews.count' | t: count: product.metafields.reviews.rating_count | downcase }}{%- endif -%}
-              </p>
+        {%- if product.metafields.custom.search_hide != true -%} <!-- Check if the product should be hidden from search -->
+          <li class="{% if product.featured_media == blank %} no-img{% endif %}{% if settings.fill_product_images %} cover{% endif %}{% if product.compare_at_price > product.price %} has-discount{% endif %}">
+            {%- if product.featured_media != blank -%}
+              <figure{% if settings.multiply_product_images == 'multiply' %} class="img-multiply"{% elsif settings.multiply_product_images == 'multiply-bg' %} class="img-multiply-bg"{% endif %}>
+                <picture>
+                  <img src="{{ product.featured_media | image_url: width: 140 }}"
+                    srcset="{{ product.featured_media | image_url: width: 70 }} 1x,{{ product.featured_media | image_url: width: 140 }} 2x"
+                    alt="{{ product.featured_media.alt }}"
+                    width="70"
+                    height="71"
+                  >
+                </picture>
+              </figure>
             {%- endif -%}
-          </section>
-        </li>
+            <section>
+              <div class="cols">
+                <h2>
+                  {%- if settings.search_drawer_show_vendor and product.vendor != "vendor-unknown" and product.vendor != shop.name -%}
+                    <span class="small">{{ product.vendor }}</span>
+                  {%- endif -%}
+                  <a href="{{ product.url }}">{{ product.title }} </a>
+                </h2>
+                {%- if settings.search_drawer_show_price -%}
+                  <p class="price">
+                    {%- if product.compare_at_price > product.price -%}<span class="old-price">{{ product.compare_at_price | money }}</span>{%- endif -%}
+                    {{ product.price | money }}
+                  </p>
+                {%- endif -%}
+              </div>
+              {%- if product.metafields.reviews.rating and settings.show_product_rating -%}
+                <p class="r6rt" data-val="{{ product.metafields.reviews.rating.value }}" data-of="5">
+                  {%- if product.metafields.reviews.rating_count -%}{{ product.metafields.reviews.rating_count }} {{ 'product.reviews.count' | t: count: product.metafields.reviews.rating_count | downcase }}{%- endif -%}
+                </p>
+              {%- endif -%}
+            </section>
+          </li>
+        {%- endif -%}
       {%- endfor -%}
     </ul>
   {%- endif -%}
@@ -81,7 +83,9 @@
     <p class="strong">{{ 'search.questions_and_advice' | t }}</p>
     <ul class="l4pl">
       {%- for article in all_articles limit: 5 -%}
-        <li><a href="{{ article.url }}">{{ article.title | highlight: predictive_search.terms }}</a></li>
+        {%- if article.metafields.custom.search_hide != true -%} <!-- Check if the article should be hidden from search -->
+          <li><a href="{{ article.url }}">{{ article.title | highlight: predictive_search.terms }}</a></li>
+        {%- endif -%}
       {%- endfor -%}
     </ul>
   {%- endif -%}
