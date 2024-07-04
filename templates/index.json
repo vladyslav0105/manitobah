@@ -1442,7 +1442,7 @@
             "enable_custom_font_styling": false,
             "font_size": "16px",
             "link_text": "KATALOG DOWNLOADEN",
-            "link_url": "shopify:\/\/collections",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0859\/0311\/4525\/files\/MEDICOM_Produktkatalog_Fruehling_Sommer_2024.pdf?v=1720082189",
             "button_color_palette": "accent",
             "show_link": true,
             "show_look": false,
