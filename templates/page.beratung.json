@@ -84,7 +84,7 @@
         "title_kqw8yF": {
           "type": "title",
           "settings": {
-            "title": "Aktuelle Aktionen",
+            "title": "Persönliche Beratung mit Susanne per WhatsApp",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": false,
@@ -96,16 +96,26 @@
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Stöbern Sie durch das Medicom-Produktsortiment und wählen Sie aus unseren attraktiven Geschenk-Aktionen aus.<\/p>",
+            "text": "<p>Sie sind sich nicht sicher, welches Produkt das richtige für Sie ist? Lassen Sie sich von unserer Vitalstoff-Expertin Susanne kostenlos beraten! Das geht ganz einfach und unkompliziert per WhatsApp. Beantworten Sie dort ein paar Fragen und Susanne meldet sich mit einer individuellen Produktempfehlung bei Ihnen zurück. Als Dankeschön erhalten Sie außerdem einen 5 € Rabatt auf Ihren Einkauf ab 25 €. Direkt nach der Beantwortung Ihrer Fragen.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
+          }
+        },
+        "button_8kn3Dz": {
+          "type": "button",
+          "settings": {
+            "link_text": "ZUR VITALSTOFFBERATUNG",
+            "link_url": "\/",
+            "button_color_palette": "accent",
+            "button_style": "inv"
           }
         }
       },
       "block_order": [
         "title_kqw8yF",
-        "content_xarJkF"
+        "content_xarJkF",
+        "button_8kn3Dz"
       ],
       "custom_css": [
         "h1 {background-color: #f5f5f5 !important; font-size: 30px; font-weight: 300; max-width: 500px; font-family: \"Roboto Slab\", serif;}",
@@ -134,7 +144,7 @@
         "1660057985549a4c95-0": {
           "type": "title",
           "settings": {
-            "title": "Ihr Geschenk ab 20,–€ Einkauf",
+            "title": "Wer ist Susanne von Medicom?",
             "title_font": "secondary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -145,7 +155,7 @@
         "1660057985549a4c95-1": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Kaufen Sie für mindestens 20,– € ein  <\/li><li>Geben Sie den Code <strong>BUNT2<\/strong> ein<\/li><li>Das Geschenk wird nun automatisch zu Ihrem Warenkorb hinzugefügt<\/li><li>Vom 15.06 – 15.07.2024<\/li><li>Nur, solange der Vorrat reicht<\/li><li>Zu den <a href=\"https:\/\/www.medicom.de\/alle-produkte\">Produkten<\/a><\/li><\/ul>",
+            "text": "<h6>Ihre Vitalstoffexpertin<\/h6><ul><li>Dipl.Ing. Lebensmitteltechnologie<\/li><li>Vitalstoffexpertin bei Medicom seit 5 Jahren<\/li><li>Persönliche Leidenschaft für gesunde Ernährung und Mikronährstoffe<\/li><li>Kümmert sich als WhatsApp-Vitalstoffexpertin um Ihre Anliegen<\/li><li>Sie fragen, Susanne antwortet<\/li><li>Berät Sie unkompliziert direkt per <a href=\"https:\/\/wa.me\/message\/D4BNLV2BZXRCJ1\">WhatsApp<\/a><\/li><\/ul>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -162,10 +172,10 @@
         "h3,h2 {font-size: 30px; font-weight: 300 !important; font-family: \"Roboto Slab\", serif;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/medicom_geschenk_bunte_kueche.webp",
+        "image": "shopify:\/\/shop_images\/susanne-whats-app-medicom-beratung-584x584.webp",
         "enable_image_check": false,
         "overlay_opacity_img": 0,
-        "color_palette": "light",
+        "color_palette": "white",
         "overlay_opacity": 100,
         "layout": "image-right",
         "width": "boxed",
