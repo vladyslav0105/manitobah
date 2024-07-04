@@ -1406,7 +1406,7 @@
             "enable_custom_font_styling": false,
             "font_size": "16px",
             "link_text": "BESTELLEN PER WHATSAPP",
-            "link_url": "shopify:\/\/collections",
+            "link_url": "shopify:\/\/pages\/whatsapp",
             "button_color_palette": "accent",
             "show_link": true,
             "show_look": false,
