@@ -232,18 +232,20 @@
                 {%- endif -%}
                 {%- if pages.size > 0 -%}
                   <hr>
-                  {%- for page in pages -%}
-                    <div>
-                      <header>
-                        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-                      </header>
-                      {{ page.content | strip_html | truncatewords: 50 }}
-                      </br><a href="{{ page.url }}" class="strong">{{ 'general.read_more.read_more' | t }} <i aria-hidden="true" class="icon-chevron-right"></i></a>
-                    </div>
-                    {% unless forloop.last and articles.size == 0 %}
-                      <hr>
-                    {% endunless %}
-                  {%- endfor -%}
+{%- for page in pages -%}
+  {%- unless page.metafields.custom.search_hide == true -%}
+    <div>
+      <header>
+        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+      </header>
+      {{ page.content | strip_html | truncatewords: 50 }}
+      </br><a href="{{ page.url }}" class="strong">{{ 'general.read_more.read_more' | t }} <i aria-hidden="true" class="icon-chevron-right"></i></a>
+    </div>
+    {% unless forloop.last and articles.size == 0 %}
+      <hr>
+    {% endunless %}
+  {%- endunless -%}
+{%- endfor -%}
                 {%- endif -%}
                 {%- if articles.size > 0 -%}
                   {%- if pages.size == 0 -%}<hr>{%- endif -%}
