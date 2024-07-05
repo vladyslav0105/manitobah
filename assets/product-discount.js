@@ -5,11 +5,16 @@ document.addEventListener("DOMContentLoaded", function(event) {
     var cnt = 0;
     const priceShowCtrl = document.querySelector('.f8pr-price');
     let oldPrice,oldMetafieldPrice;
+    let oldPricePerOne,oldMetafieldPricePerOne;
     discount_item.forEach(item => {
         cnt ++;
         item.setAttribute("data-index", cnt);
     });
 
+    const changePrice = (quantity) => {
+        oldPrice = oldPricePerOne * quantity;
+        oldMetafieldPrice = oldMetafieldPricePerOne * quantity;
+    }
     const processShowCtrl = (selectedQuantity) => {
         let price = oldPrice;
         let metafieldPrice = oldMetafieldPrice;
@@ -48,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         const i = tsPrice.indexOf(currencySymbol);
         const j = metafieldValue.indexOf(currencySymbol);
         const k = findPricePos(metafieldValue);
-        oldPrice = parseFloat(tsPrice.substring(0, i).replace(',','.'));
-        oldMetafieldPrice = parseFloat(metafieldValue.substring(k, j).replace(',','.'));
+        oldPricePerOne = oldPrice = parseFloat(tsPrice.substring(0, i).replace(',','.'));
+        oldMetafieldPricePerOne = oldMetafieldPrice = parseFloat(metafieldValue.substring(k, j).replace(',','.'));
     }
     const findPricePos = (str) => {
         const len = str.length;
@@ -81,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             //     discount_item[discount_item.length - 1].classList.add("active");
             //     return;
             // }
+            changePrice(parseInt(this.value));
             const quantity = parseInt(this.value);
             if(quantity >= 4) {
                 discount_item[2].classList.add('active');
@@ -92,6 +98,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             processShowCtrl(quantity);
             // discount_item[parseInt(this.value) - 1].classList.add("active");
         })
+
         discount_item.forEach(item => {
             item.addEventListener("click", function() {
                 console.log(item);
@@ -101,6 +108,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 item.classList.add("active");
                 const quantity = parseInt(item.getAttribute("data-quantity"));
                 input.value = quantity;
+                changePrice(quantity);
                 processShowCtrl(quantity);
             })
         });
@@ -109,4 +117,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
         });
         
     }, 1000);
+
 });
