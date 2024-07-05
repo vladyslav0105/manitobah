@@ -237,3 +237,6 @@ ul[data-type="main-nav"] .ff-secondary .sub li a {
     width: auto;
   }
 }
+.mobile-compact.mobile-sticky {
+  position: static !important;
+}
