@@ -128,38 +128,6 @@
   {%- endfor -%}
 </ul>
 {%- if cart.item_count > 0 -%}
-  {%- if settings.enable_cart_drawer_upsell_complementary or settings.enable_cart_drawer_upsell_related -%}
-    <div class="product-recommendations hidden cart-upsell"
-         data-product-id="{% for line_item in cart.items %}{{ line_item.product.id }}{% unless forloop.last %},{% endunless %}{% endfor %}"
-         data-template="{{ section.id }}"
-         data-intent="{%- if settings.enable_cart_drawer_upsell_complementary -%}complementary{%- endif -%}
-                      {%- if settings.enable_cart_drawer_upsell_complementary and settings.enable_cart_drawer_upsell_related -%},{%- endif -%}
-                      {%- if settings.enable_cart_drawer_upsell_related -%}related{%- endif -%}
-      "
-    >
-      <h4>{{ 'cart.upsell_title' | t }}</h4>
-      <ul class="l4ca compact in-panel">
-        {%- if recommendations.performed -%}
-          {%- for product in recommendations.products -%}
-            {%- liquid
-              capture placeholder_int
-                cycle 1, 2, 3, 4, 5, 6
-              endcapture
-            -%}
-            {%- render 'product-item',
-                    product: product,
-                    placeholder_int: placeholder_int,
-                    enable_quick_buy_desktop: true,
-                    enable_quick_buy_mobile: true,
-                    enable_variant_picker: settings.enable_cart_drawer_upsell_variants,
-                    quick_buy_compact: true,
-                    layout: 'list-compact'
-            -%}
-          {%- endfor -%}
-        {%- endif -%}
-      </ul>
-    </div>
-  {%- endif -%}
   {%- if has_free_shipping_amount and cart.requires_shipping -%}
     <ul class="l4al inline">
       {%- if free_shipping_amount > cart.total_price -%}
@@ -197,6 +165,39 @@
       {%- endif -%}
     </p>
   </form>
+  <hr class="separator">
+  {%- if settings.enable_cart_drawer_upsell_complementary or settings.enable_cart_drawer_upsell_related -%}
+    <div class="product-recommendations hidden cart-upsell"
+         data-product-id="{% for line_item in cart.items %}{{ line_item.product.id }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+         data-template="{{ section.id }}"
+         data-intent="{%- if settings.enable_cart_drawer_upsell_complementary -%}complementary{%- endif -%}
+                      {%- if settings.enable_cart_drawer_upsell_complementary and settings.enable_cart_drawer_upsell_related -%},{%- endif -%}
+                      {%- if settings.enable_cart_drawer_upsell_related -%}related{%- endif -%}
+      "
+    >
+      <h4>{{ 'cart.upsell_title' | t }}</h4>
+      <ul class="l4ca compact in-panel">
+        {%- if recommendations.performed -%}
+          {%- for product in recommendations.products -%}
+            {%- liquid
+              capture placeholder_int
+                cycle 1, 2, 3, 4, 5, 6
+              endcapture
+            -%}
+            {%- render 'product-item',
+                    product: product,
+                    placeholder_int: placeholder_int,
+                    enable_quick_buy_desktop: true,
+                    enable_quick_buy_mobile: true,
+                    enable_variant_picker: settings.enable_cart_drawer_upsell_variants,
+                    quick_buy_compact: true,
+                    layout: 'list-compact'
+            -%}
+          {%- endfor -%}
+        {%- endif -%}
+      </ul>
+    </div>
+  {%- endif -%}
   {%- if settings.show_trustbadge -%}
     {%- render 'trustbadge' -%}
   {%- endif -%}
@@ -207,4 +208,4 @@
   </ul>
 {%- endif -%}
 
-            <style>.small {font-size: 1em;]</style>
+<style>.separator { border-top: 1px solid #ccc; margin-top: 20px; margin-bottom: 20px; }</style>
