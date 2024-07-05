@@ -58,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     const findPricePos = (str) => {
         const len = str.length;
-        console.log(currencySymbol);
         for(let i = 0;i < len; i++) {
             const ch = parseInt(str.charAt(i));
             if(!isNaN(ch)) {
@@ -101,7 +100,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
         discount_item.forEach(item => {
             item.addEventListener("click", function() {
-                console.log(item);
                 discount_item.forEach(item => {
                     item.classList.remove("active");
                 });
