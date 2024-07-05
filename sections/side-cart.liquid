@@ -187,9 +187,10 @@
       "
     >
       <h4>{{ 'cart.upsell_title' | t }}</h4>
-      <ul class="l4ca compact in-panel">
+    <ul class="l4ca compact in-panel">
         {%- if recommendations.performed -%}
-          {%- for product in recommendations.products -%}
+          {%- assign upsell_products = recommendations.products | limit: 3 -%}
+          {%- for product in upsell_products -%}
             {%- liquid
               capture placeholder_int
                 cycle 1, 2, 3, 4, 5, 6
