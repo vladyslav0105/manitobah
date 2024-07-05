@@ -165,6 +165,17 @@
       {%- endif -%}
     </p>
   </form>
+
+    {%- if settings.show_trustbadge -%}
+    {%- render 'trustbadge' -%}
+  {%- endif -%}
+  <ul class="l4pm text-center">
+    {%- for payment_method in shop.enabled_payment_types -%}
+      <li>{{ payment_method | payment_type_svg_tag }}</li>
+    {%- endfor -%}
+  </ul>
+{%- endif -%}
+            
   <hr class="separator">
   {%- if settings.enable_cart_drawer_upsell_complementary or settings.enable_cart_drawer_upsell_related -%}
     <div class="product-recommendations hidden cart-upsell"
@@ -198,14 +209,6 @@
       </ul>
     </div>
   {%- endif -%}
-  {%- if settings.show_trustbadge -%}
-    {%- render 'trustbadge' -%}
-  {%- endif -%}
-  <ul class="l4pm text-center">
-    {%- for payment_method in shop.enabled_payment_types -%}
-      <li>{{ payment_method | payment_type_svg_tag }}</li>
-    {%- endfor -%}
-  </ul>
-{%- endif -%}
+
 
 <style>.separator { border-top: 1px solid #ccc; margin-top: 20px; margin-bottom: 20px; }</style>
