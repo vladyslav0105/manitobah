@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs": {
@@ -6,65 +15,6 @@
         "hide_desktop": false,
         "hide_mobile": true,
         "enable_share_button": false
-      }
-    },
-    "section_two_images_text_dwRGHE": {
-      "type": "section-two-images-text",
-      "blocks": {
-        "image_BtjLdc": {
-          "type": "image",
-          "settings": {
-            "image": "{{ collection.metafields.custom.collection_banner.value }}"
-          }
-        }
-      },
-      "block_order": [
-        "image_BtjLdc"
-      ],
-      "custom_css": [
-        "h1 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
-        "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}",
-        " {margin-top: 10px;}"
-      ],
-      "settings": {
-        "width": "boxed",
-        "first_image_width": 65,
-        "height": "l",
-        "enable_custom_height": true,
-        "custom_height": 580,
-        "image_zoom": true,
-        "overlay_opacity": 0,
-        "color_palette": "dark",
-        "text_position": "text-center",
-        "title": "{{ collection.metafields.custom.collection_sub_heading.value }}",
-        "title_font": "primary",
-        "title_size": "h3",
-        "enable_custom_text_styling": false,
-        "title_color_palette": "black",
-        "title_weight": "700",
-        "subtitle": "{{ collection.metafields.custom.collection_heading.value }}",
-        "subtitle_font": "primary",
-        "subtitle_size": "h1",
-        "enable_custom_subtext_styling": false,
-        "subtitle_color_palette": "black",
-        "subtitle_weight": "400",
-        "text": "",
-        "enable_custom_font_styling": false,
-        "font_size": "16px",
-        "link_text": "",
-        "link_url": "",
-        "button_color_palette": "accent",
-        "show_link": false,
-        "show_look": false,
-        "product_list": [
-
-        ],
-        "look_btn_color_palette": "buy_button",
-        "look_position": "end",
-        "height_mobile": "m",
-        "spacing_desktop": 50,
-        "spacing_mobile": 30,
-        "fix_zindex": 0
       }
     },
     "section_rich_text_7iNLEz": {
@@ -276,7 +226,6 @@
   },
   "order": [
     "breadcrumbs",
-    "section_two_images_text_dwRGHE",
     "section_rich_text_7iNLEz",
     "main-collection",
     "section_icon_text_blocks_9G7KjM"
