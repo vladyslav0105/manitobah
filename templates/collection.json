@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "breadcrumbs": {
@@ -79,7 +70,6 @@
         },
         "sorting": {
           "type": "sorting",
-          "disabled": true,
           "settings": {
           }
         },
@@ -128,12 +118,12 @@
         "enable_menu": true,
         "enable_collections": true,
         "filters_menu_alignment": "left",
-        "filters_layout": "static",
+        "filters_layout": "drawer",
         "filter_menu": "main-menu",
         "collections_menu": [
 
         ],
-        "filter_sticky": false,
+        "filter_sticky": true,
         "filters_show_more_limit": 7,
         "enable_custom_filters_font_size": true,
         "filters_font_size": "14px",
