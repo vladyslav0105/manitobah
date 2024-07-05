@@ -89,7 +89,7 @@
     "empty_cart_text": "<p>Ihr Warenkorb ist leer<\/p>",
     "cart_drawer_checkout_button": true,
     "enable_cart_drawer_upsell_complementary": true,
-    "enable_cart_drawer_upsell_related": true,
+    "enable_cart_drawer_upsell_related": false,
     "enable_cart_drawer_upsell_variants": true,
     "show_trustbadge": false,
     "trustbadge_image": "amazon pay",
