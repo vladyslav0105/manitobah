@@ -192,14 +192,8 @@
         {%- assign product_counter = 0 -%}
         {%- for product in recommendations.products -%}
           {%- if product_counter < 3 -%}
-            {%- liquid
-              capture placeholder_int
-                cycle 1, 2, 3, 4, 5, 6
-              endcapture
-            -%}
             {%- render 'product-item',
                     product: product,
-                    placeholder_int: placeholder_int,
                     enable_quick_buy_desktop: false,
                     enable_quick_buy_mobile: false,
                     enable_variant_picker: settings.enable_cart_drawer_upsell_variants,
@@ -215,6 +209,5 @@
     </ul>
   </div>
 {%- endif -%}
-
 
 <style>.separator { border-top: 1px solid #ccc; margin-top: 20px; margin-bottom: 20px; }</style>
