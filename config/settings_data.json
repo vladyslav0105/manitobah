@@ -588,7 +588,8 @@
       "@media (min-width: 768px) {.desktop-only {display: inline; } .mobile-only {display: none; }}",
       ".l4vw.outline {display: none;}",
       ".search-form-content button {background-color: #202020 !important;}",
-      "#cart > div > ul > li > section > p > span {font-size: 12px !important; color: inherit;}"
+      "#cart > div > ul > li > section > p > span {font-size: 12px !important; color: inherit;}",
+      ".l4pm li {display: flex; justify-content: center; }"
     ]
   }
 }
