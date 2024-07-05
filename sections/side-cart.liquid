@@ -198,10 +198,10 @@
             {%- render 'product-item',
                     product: product,
                     placeholder_int: placeholder_int,
-                    enable_quick_buy_desktop: true,
-                    enable_quick_buy_mobile: true,
+                    enable_quick_buy_desktop: false,
+                    enable_quick_buy_mobile: false,
                     enable_variant_picker: settings.enable_cart_drawer_upsell_variants,
-                    quick_buy_compact: true,
+                    quick_buy_compact: false,
                     layout: 'list-compact'
             -%}
           {%- endfor -%}
