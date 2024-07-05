@@ -182,26 +182,22 @@
        data-product-id="{% for line_item in cart.items %}{{ line_item.product.id }}{% unless forloop.last %},{% endunless %}{% endfor %}"
        data-template="{{ section.id }}"
        data-intent="{%- if settings.enable_cart_drawer_upsell_complementary -%}complementary{%- endif -%}
-                    {%- if settings.enable_cart_drawer_upsell_complementary and settings.enable_cart_drawer_upsell_related -%},{%- endif -%}
+                    {%- if settings.enable_cart_drawer_upsell_complementary and settings.enable_cart_drawer_upsell_related -%},{% endif -%}
                     {%- if settings.enable_cart_drawer_upsell_related -%}related{%- endif -%}
-    
-  
+    "
+  >
     <h4>{{ 'cart.upsell_title' | t }}</h4>
     <ul class="l4ca compact in-panel">
       {%- if recommendations.performed -%}
-        {%- assign product_counter = 0 -%}
-        {%- for product in recommendations.products -%}
-          {%- if product_counter < 3 -%}
-            {%- render 'product-item',
-                    product: product,
-                    enable_quick_buy_desktop: false,
-                    enable_quick_buy_mobile: false,
-                    enable_variant_picker: settings.enable_cart_drawer_upsell_variants,
-                    quick_buy_compact: false,
-                    layout: 'list-compact'
-            -%}
-            {%- assign product_counter = product_counter | plus: 1 -%}
-          {%- endif -%}
+        {%- for product in recommendations.products limit: 3 -%}
+          {%- render 'product-item',
+                  product: product,
+                  enable_quick_buy_desktop: false,
+                  enable_quick_buy_mobile: false,
+                  enable_variant_picker: settings.enable_cart_drawer_upsell_variants,
+                  quick_buy_compact: false,
+                  layout: 'list-compact'
+          -%}
         {%- endfor -%}
       {%- endif -%}
     </ul>
