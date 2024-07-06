@@ -240,3 +240,16 @@ ul[data-type="main-nav"] .ff-secondary .sub li a {
 .mobile-compact.mobile-sticky {
   position: static !important;
 }
+
+@media (min-width: 1024px) {
+  .shopify-section-template--22352912056605__section_content_tabs_mX6gbY .m6tb.btn>nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shopify-section-template--22352912056605__section_content_tabs_mX6gbY .m6tb.btn>nav ul {
+    margin-right: calc(0px - var(--dist_ul));
+    --dist_ul: 16px;
+    --pd_ul: 30px;
+  }
+}
