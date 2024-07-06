@@ -306,7 +306,8 @@
         ".submit.m10 {margin-top: 15px;}",
         ".rapi-bundles__bar-title {font-size: 15px !important; font-weight: 400 !important;}",
         ".rapi-bundles__bar-price {font-weight: 400 !important;}",
-        ".rapi-bundles__bar :checked + label .rapi-bundles__bar-radio {background: #e61446; box-shadow: 0 0 0 2px #e61446;}"
+        ".rapi-bundles__bar :checked + label .rapi-bundles__bar-radio {background: #e61446; box-shadow: 0 0 0 2px #e61446;}",
+        "#template--22352912056605__main-product-content_78LVhb {background-color: #f5f5f5; padding: 20px;}"
       ],
       "settings": {
         "media_layout": "slider",
