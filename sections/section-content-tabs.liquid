@@ -195,6 +195,18 @@
       #shopify-section-{{ section.id }} + *.has-kinetic-text { pointer-events: none; }
     {% endif %}
   }
+  @media (min-width: 1024px) {
+  .m6tb.btn>nav {
+    display: flex;
+    justify-content: center; /* Horizontale Zentrierung */
+  }
+
+  .m6tb.btn>nav ul {
+    margin-right: calc(0px - var(--dist_ul));
+    --dist_ul: 16px;
+    --pd_ul: 30px;
+  }
+}
 </style>
 
 {% schema %}
