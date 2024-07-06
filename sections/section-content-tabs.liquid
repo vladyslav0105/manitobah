@@ -190,7 +190,8 @@
     {% endif %}
   }
   @media only screen and (max-width: 47.5em) {
-    #shopify-section-{{ section.id }} .m6tb { margin-bottom: {{ section.settings.spacing_mobile }}px; }
+    #shopify-section-{{ section.id }} .m6tb { margin-bottom: {{ section.settings.spacing_mobile }}px; border: 1px solid #CCCCCC;
+        padding: 30px; }
     {% if section.settings.spacing_mobile < 0 %}
       #shopify-section-{{ section.id }} + *.has-kinetic-text { pointer-events: none; }
     {% endif %}
@@ -207,10 +208,6 @@
     --pd_ul: 30px;
   }
 }
-  .m6tb {
-        margin-bottom: 50px;
-        border: 1px solid #CCCCCC;
-        padding: 30px;
 </style>
 
 {% schema %}
