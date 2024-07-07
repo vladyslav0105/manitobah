@@ -72,6 +72,7 @@
   <p class="mobile-only"><a href="{{ routes.search_url }}?q={{ predictive_search.terms }}" class="strong">{{ 'search.view_all_results' | t }}&nbsp;<i aria-hidden="true" class="icon-chevron-right"></i></a></p>
   {%- liquid
     assign all_articles = ''
+    assign display_articles = false
     if settings.search_drawer_enable_pages
       assign all_articles = predictive_search.resources.pages
     endif
@@ -80,13 +81,16 @@
     endif
   -%}
   {%- if all_articles.size > 0 -%}
-    <p class="strong">{{ 'search.questions_and_advice' | t }}</p>
     <ul class="l4pl">
       {%- for article in all_articles limit: 5 -%}
-        {%- if article.metafields.custom.search_hide != true -%} 
+        {%- if article.metafields.custom.search_hide != true -%}
+          {%- assign display_articles = true -%}
           <li><a href="{{ article.url }}">{{ article.title | highlight: predictive_search.terms }}</a></li>
         {%- endif -%}
       {%- endfor -%}
     </ul>
+  {%- endif -%}
+  {%- if display_articles -%}
+    <p class="strong">{{ 'search.questions_and_advice' | t }}</p>
   {%- endif -%}
 {%- endif -%}
