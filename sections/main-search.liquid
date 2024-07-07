@@ -217,43 +217,47 @@
                           assign no_lazyload = true
                         endif
                       -%}
-                      {%- render 'product-item',
-                        product: product,
-                        placeholder_int: placeholder_int,
-                        sizes: image_sizes,
-                        enable_image_choice: section.settings.enable_image_choice,
-                        collection_img_view: collection_img_view,
-                        img_view: section.settings.product_image,
-                        no_lazyload: no_lazyload,
-                        origin: 'search'
-                      -%}
+                      {%- if product.metafields.custom.search_hide != true -%}
+                        {%- render 'product-item',
+                          product: product,
+                          placeholder_int: placeholder_int,
+                          sizes: image_sizes,
+                          enable_image_choice: section.settings.enable_image_choice,
+                          collection_img_view: collection_img_view,
+                          img_view: section.settings.product_image,
+                          no_lazyload: no_lazyload,
+                          origin: 'search'
+                        -%}
+                      {%- endif -%}
                     {%- endfor -%}
                   </ul>
                 {%- endif -%}
                 {%- if pages.size > 0 -%}
                   <hr>
-{%- for page in pages -%}
-  {%- unless page.metafields.custom.search_hide == true -%}
-    <div>
-      <header>
-        <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-      </header>
-      {{ page.content | strip_html | truncatewords: 50 }}
-      </br><a href="{{ page.url }}" class="strong">{{ 'general.read_more.read_more' | t }} <i aria-hidden="true" class="icon-chevron-right"></i></a>
-    </div>
-    {% unless forloop.last and articles.size == 0 %}
-      <hr>
-    {% endunless %}
-  {%- endunless -%}
-{%- endfor -%}
+                  {%- for page in pages -%}
+                    {%- unless page.metafields.custom.search_hide == true -%}
+                      <div>
+                        <header>
+                          <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
+                        </header>
+                        {{ page.content | strip_html | truncatewords: 50 }}
+                        </br><a href="{{ page.url }}" class="strong">{{ 'general.read_more.read_more' | t }} <i aria-hidden="true" class="icon-chevron-right"></i></a>
+                      </div>
+                      {% unless forloop.last and articles.size == 0 %}
+                        <hr>
+                      {% endunless %}
+                    {%- endunless -%}
+                  {%- endfor -%}
                 {%- endif -%}
                 {%- if articles.size > 0 -%}
                   {%- if pages.size == 0 -%}<hr>{%- endif -%}
                   <ul class="l4ne">
                     {%- for article in articles -%}
-                      {%- render 'article-item',
-                        article: article, show_excerpt: section.settings.show_excerpt, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_link: section.settings.show_link_post, button_color_palette: section.settings.button_color_palette_post
-                      -%}
+                      {%- if article.metafields.custom.search_hide != true -%}
+                        {%- render 'article-item',
+                          article: article, show_excerpt: section.settings.show_excerpt, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_link: section.settings.show_link_post, button_color_palette: section.settings.button_color_palette_post
+                        -%}
+                      {%- endif -%}
                     {%- endfor -%}
                   </ul>
                 {%- endif -%}
