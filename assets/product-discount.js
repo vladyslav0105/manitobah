@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     const changePrice = (quantity) => {
         oldPrice = oldPricePerOne * quantity;
-        oldMetafieldPrice = oldMetafieldPricePerOne * quantity;
+        oldMetafieldPrice = oldMetafieldPricePerOne;
     }
     const processShowCtrl = (selectedQuantity) => {
         let price = oldPrice;
@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         
         if(selectedQuantity === 2) {
             price *= 0.85;
-            metafieldPrice *= 0.85;
+            metafieldPrice = oldMetafieldPrice * selectedQuantity * 0.85;
         } else if (selectedQuantity === 3) {
             price *= 0.8;
-            metafieldPrice *= 0.8;
+            metafieldPrice = oldMetafieldPrice * selectedQuantity * 0.8;
         } else if(selectedQuantity > 3) {
             price *= 0.75;
-            metafieldPrice *= 0.75;
+            metafieldPrice = oldMetafieldPrice * selectedQuantity * 0.75;
         }
 
         const tsMetafieldPrice = priceShowCtrl.querySelector('span.small').innerText;
