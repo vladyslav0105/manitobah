@@ -127,13 +127,14 @@
         {%- when 'title' -%}
           <header {% if block.settings.text_alignment == 'center' %}class="text-center"{% endif %} {{ block.shopify_attributes }}>
             {% if search.performed %}
+              {%- assign filtered_results = search.results | reject: 'metafields.custom.search_hide', true -%}
               <{{ block.settings.title_size }}>{{ 'search.results_plus_term' | t: term: search.terms }}</{{ block.settings.title_size }}>
+              <p class="m10">{{ 'search.amount_of_results' | t: count: filtered_results.size, amount: filtered_results.size }}</p>
             {% else %}
               <{{ block.settings.title_size }}>{{ 'search.title' | t }}</{{ block.settings.title_size }}>
             {% endif %}
           </header>
           <form action="{{ routes.search_url }}" method="get" class="f8se no-js">
-    				<p class="m10">{{ 'search.amount_of_results' | t: count: search.results_count, amount: search.results_count }}</p>
     				<p>
     					<label for="fea" class="hidden">{{ 'search.title' | t }}</label>
     					<input type="search" id="fea" name="q" placeholder="{{ 'search.search_form.placeholder' | t }}" autocomplete="off" required {% if search.performed %}value="{{ search.terms }}"{% endif %}>
@@ -172,7 +173,9 @@
                 assign products = search.results | where: 'object_type', 'product'
                 assign articles = search.results | where: 'object_type', 'article'
                 assign pages = search.results | where: 'object_type', 'page'
-                assign pages = pages | reject: 'custom.search_hide', true
+                assign products = products | reject: 'metafields.custom.search_hide', true
+                assign articles = articles | reject: 'metafields.custom.search_hide', true
+                assign pages = pages | reject: 'metafields.custom.search_hide', true
               -%}
               {%- if section.settings.pagination_type == 'button' and paginate.previous %}
                 {% render 'pagination',
@@ -298,6 +301,13 @@
     {% if section.settings.filters_layout == 'static' %}</aside>{% else %}</div>{% endif %}
   {% endif %}
 </div>
+
+<style>
+  #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
+  {% if section.settings.enable_custom_filters_font_size %}
+    #filters-aside .f8fl, #filters-aside .f8sr, #filters-aside .n6as, #shopify-section-{{ section.id }} .f8fl, #shopify-section-{{ section.id }} .f8sr, #shopify-section-{{ section.id }} .n6as { --main_fz: {{ section.settings.filters_font_size }}; font-size: {{ section.settings.filters_font_size }}; }
+  {% endif %}
+</style>
 
 <style>
   #shopify-section-{{ section.id }} { z-index: {{ section.settings.fix_zindex }}!important; }
