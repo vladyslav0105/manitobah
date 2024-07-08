@@ -21,13 +21,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         
         if(selectedQuantity === 2) {
             price *= 0.85;
-            metafieldPrice = oldMetafieldPrice * selectedQuantity * 0.85;
+            metafieldPrice = oldMetafieldPrice * 0.85;
         } else if (selectedQuantity === 3) {
             price *= 0.8;
-            metafieldPrice = oldMetafieldPrice * selectedQuantity * 0.8;
+            metafieldPrice = oldMetafieldPrice  * 0.8;
         } else if(selectedQuantity > 3) {
             price *= 0.75;
-            metafieldPrice = oldMetafieldPrice * selectedQuantity * 0.75;
+            metafieldPrice = oldMetafieldPrice * 0.75;
         }
 
         const tsMetafieldPrice = priceShowCtrl.querySelector('span.small').innerText;
@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         } else {
             backStr = tsMetafieldPrice.substring(i + 1);
         }
-
         if(selectedQuantity === 1) {
             priceShowCtrl.innerHTML = `${price.toFixed(2)}${currencySymbol}<span class='small'>${frontStr}${metafieldPrice.toFixed(2)}${currencySymbol}${backStr}</span>`;
         } else {
