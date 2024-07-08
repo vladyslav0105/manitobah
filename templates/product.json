@@ -101,6 +101,23 @@
             "text": "",
             "page": "",
             "image_width": 465,
+            "liquid": "<style>\n  .packungsgewicht {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n{% if product.metafields.custom.pdp_packungsgewicht %}\n  <p class=\"packungsgewicht\">Packungsgewicht: {{ product.metafields.custom.pdp_packungsgewicht }} g<\/p>\n{% else %}\n  <p class=\"packungsgewicht\">Packungsgewicht: Informationen nicht verfügbar<\/p>\n{% endif %}",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "content_xBXw6T": {
+          "type": "content",
+          "settings": {
+            "layout": "none",
+            "collapse": false,
+            "title_size": "h2",
+            "title": "",
+            "icon": "none",
+            "header_image_width": 25,
+            "text": "",
+            "page": "",
+            "image_width": 465,
             "liquid": "<style>\n  .custom-text {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n<span class=\"custom-text\">Alle Preise inkl. MwSt. <a href=\"https:\/\/www.google.de\/search?q=Versandkosten\" target=\"_blank\" class=\"custom-text\">zzgl. Versandkosten<\/a><\/span>",
             "html": "",
             "show_contact_form": false
@@ -108,6 +125,7 @@
         },
         "content_EpHne9": {
           "type": "content",
+          "disabled": true,
           "settings": {
             "layout": "none",
             "collapse": false,
@@ -284,6 +302,7 @@
         "price",
         "custom_liquid_A76it9",
         "content_bNGEAJ",
+        "content_xBXw6T",
         "content_EpHne9",
         "pickup",
         "inventory",
