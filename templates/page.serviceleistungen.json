@@ -152,7 +152,7 @@
         "166005796961cc60d8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bei Medicom bestellen Sie gebühren- und portofrei. Direkt hier im Online-Shop, telefonisch, per E-Mail oder via WhatsApp. <\/p><p>Hier finden Sie alle Bestellwege aufgelistet.<\/p><ul><li><strong>Per Telefon<\/strong> unter 0800 - 73 77 730 (gebührenfrei)<\/li><li><strong>Via WhatsApp<\/strong> an <a href=\"https:\/\/api.whatsapp.com\/message\/S3FYH34FVG5HF1?autoload=1&app_absent=0 \" target=\"_blank\" title=\"WhatsApp-Service\">+49 152 587 587 54 <\/a>(gebührenfrei)<\/li><li><strong>Per E-Mail<\/strong> an kundenservice@medicom.de<\/li><li>Rund um die Uhr auf www.medicom.de<\/li><\/ul><p>Zusätzlich erhalten Sie eine Auswahl Ihrer Produkte auch in der Apotheke Ihres Vertrauens.<\/p>",
+            "text": "<p>Bei Medicom bestellen Sie gebühren- und portofrei. Direkt hier im Online-Shop, telefonisch, per E-Mail oder via WhatsApp. <\/p><ul><li><strong>Per Telefon<\/strong> unter 0800 - 73 77 730 (gebührenfrei)<\/li><li><strong>Via WhatsApp<\/strong> an <a href=\"https:\/\/api.whatsapp.com\/message\/S3FYH34FVG5HF1?autoload=1&app_absent=0 \" target=\"_blank\" title=\"WhatsApp-Service\">+49 152 587 587 54 <\/a>(gebührenfrei)<\/li><li><strong>Per E-Mail<\/strong> an kundenservice@medicom.de<\/li><li>Rund um die Uhr auf www.medicom.de<\/li><\/ul><p>Zusätzlich erhalten Sie eine Auswahl Ihrer Produkte auch in der Apotheke Ihres Vertrauens.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -202,7 +202,7 @@
         "1660057985549a4c95-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Wir bieten Ihnen eine persönliche und kostenlose Beratung.<\/strong>Wir führen Sie durch die Auswahlmöglichkeiten, informieren Sie über Produkte und beantworten gerne Ihre Fragen. Kompetent und wissenschaftlich fundiert. Sie erreichen unsere Mitarbeiter:innen unter der gebührenfreien Telefonnummer 0800 - 73 77 730 von montags bis samstags von 8.00 bis 19.00 Uhr. Natürlich können Sie uns auch jederzeit über unseren Webshop Ihr Anliegen schicken. Schreiben Sie uns einfach eine E-Mail an<a href=\"mailto:info@medicom.de\">info@medicom.de<\/a><\/p>",
+            "text": "<p>Wir bieten Ihnen eine <strong>persönliche und kostenlose Beratung<\/strong>. Gerne führen wir Sie durch die Auswahlmöglichkeiten, informieren Sie über Produkte und beantworten Ihre Fragen. Kompetent und <strong>wissenschaftlich fundiert.<\/strong> Sie erreichen unsere Mitarbeiter:innen unter der gebührenfreien <strong>Telefonnummer<\/strong> 0800 - 73 77 730 von montags bis samstags von 8:00 Uhr bis 19:00 Uhr. Natürlich können Sie uns auch jederzeit über unseren Webshop Ihr Anliegen schicken. Schreiben Sie uns einfach eine <strong>E-Mail <\/strong>an <a href=\"mailto:info@medicom.de\">info@medicom.de <\/a>oder via <strong>WhatsApp<\/strong> an <a href=\"https:\/\/api.whatsapp.com\/message\/S3FYH34FVG5HF1?autoload=1&app_absent=0 \" target=\"_blank\" title=\"WhatsApp-Service\">+49 152 587 587 54 <\/a><\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -252,7 +252,7 @@
         "text_x8fejV": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Ab einem Bestellwert von 15,–€ <\/strong>liefern wir innerhalb Deutschlands <strong>versandkostenfrei<\/strong>. Für Bestellungen bis 15,–€ erheben wir 3,95€ Versandgebühren. Die Lieferung erfolgt gegen Rechnung. Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95€ pro Bestellung. Weitere Informationen dazu finden Sie unter Lieferkonditionen.<\/p>",
+            "text": "<p><strong>Ab einem Bestellwert von 15,– € <\/strong>liefern wir innerhalb Deutschlands <strong>versandkostenfrei<\/strong>. Für Bestellungen bis 15,– € erheben wir 3,95€ Versandgebühren.  Für die Lieferung in die Länder der EU-Mitgliedsstaaten berechnen wir pauschal 6,95€ pro Bestellung. Weitere Informationen dazu finden Sie unter <a href=\"https:\/\/medicom-de.myshopify.com\/pages\/lieferkonditionen\" target=\"_blank\" title=\"Lieferkonditionen\">Lieferkonditionen.<\/a><\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -302,7 +302,7 @@
         "text_JHE9Pi": {
           "type": "text",
           "settings": {
-            "text": "<p>Mit Medicom gehen Sie kein Risiko ein, denn jeder Kunde genießt eine <strong>90-Tage-Geld-zurück-Garantie<\/strong>. Sollten Ihnen die bestellten Produkte wider Erwarten nicht zusagen, haben Sie ganzen 90 Tage Zeit, um den Kauf zu widerrufen. Wir holen die Ware dann wieder ab und <strong>erstatten Ihnen den vollen Preis<\/strong>. Wenn Medikamente oder Medizinprodukte aufgrund von Nebenwirkungen zurückgegeben werden, sind wir verpflichtet, diese zu dokumentieren und Sie nach dem Grund der Rückgabe zu fragen.<a href=\"https:\/\/www.medicom.de\/widerruf\">Hier finden Sie weiterführende Informationen zu der 90-Tage-Geld-zurück-Garantie<\/a>. <\/p>",
+            "text": "<p>Mit Medicom gehen Sie kein Risiko ein, denn jeder Kunde genießt eine <strong>90-Tage-Geld-zurück-Garantie<\/strong>. Sollten Ihnen die bestellten Produkte wider Erwarten nicht zusagen, haben Sie ganzen 90 Tage Zeit, um den Kauf zu widerrufen. Wir holen die Ware dann wieder ab und <strong>erstatten Ihnen den vollen Preis<\/strong>. Wenn Medikamente oder Medizinprodukte aufgrund von Nebenwirkungen zurückgegeben werden, sind wir verpflichtet, diese zu dokumentieren und Sie nach dem Grund der Rückgabe zu fragen. <a href=\"https:\/\/www.medicom.de\/widerruf\">Hier finden Sie weiterführende Informationen zu der 90-Tage-Geld-zurück-Garantie<\/a>. <\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
