@@ -19,47 +19,6 @@
     },
     "166005794226b48f03": {
       "type": "section-slideshow",
-      "blocks": {
-        "166005794296ae0ec5-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/geschenk-aktion-rabatt-medicom-1170x584.webp",
-            "layout": "background",
-            "image_width": 50,
-            "overlay_opacity": 0,
-            "color_palette": "light_gradient",
-            "text_position": "text-center",
-            "title": "NICHTS VERPASSEN",
-            "title_font": "primary",
-            "title_size": "h3",
-            "enable_custom_text_styling": false,
-            "title_color_palette": "black",
-            "title_weight": "700",
-            "subtitle": "GESCHENK-AKTIONEN",
-            "subtitle_font": "primary",
-            "subtitle_size": "h2",
-            "enable_custom_subtext_styling": false,
-            "subtitle_color_palette": "black",
-            "subtitle_weight": "400",
-            "text": "",
-            "enable_custom_font_styling": false,
-            "font_size": "16px",
-            "first_link_text": "",
-            "first_link_url": "shopify:\/\/collections\/all",
-            "first_button_color_palette": "accent",
-            "first_button_styling": "fill",
-            "first_show_link": false,
-            "second_link_text": "",
-            "second_link_url": "shopify:\/\/collections\/all",
-            "second_button_color_palette": "accent",
-            "second_button_styling": "fill",
-            "second_show_link": false
-          }
-        }
-      },
-      "block_order": [
-        "166005794296ae0ec5-0"
-      ],
       "custom_css": [
         "h2 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 50px;}",
         "h3 {color: #fff; text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); font-size: 25px;}"
@@ -92,11 +51,17 @@
             "title_weight": "700"
           }
         },
+        "spacer_hUXTA9": {
+          "type": "spacer",
+          "settings": {
+            "height": 35
+          }
+        },
         "content_xarJkF": {
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Stöbern Sie durch das Medicom-Produktsortiment und wählen Sie aus unseren attraktiven Geschenk-Aktionen aus.<\/p>",
+            "text": "<p>Stöbern Sie durch das Medicom-Produktsortiment und wählen Sie aus unseren attraktiven Geschenk-Aktionen aus. Hier finden Sie regelmäßig wechselnde, attraktive Aktionen.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -105,6 +70,7 @@
       },
       "block_order": [
         "title_kqw8yF",
+        "spacer_hUXTA9",
         "content_xarJkF"
       ],
       "custom_css": [
