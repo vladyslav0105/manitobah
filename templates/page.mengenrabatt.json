@@ -68,11 +68,17 @@
             "title_weight": "300"
           }
         },
+        "spacer_UGcBFm": {
+          "type": "spacer",
+          "settings": {
+            "height": 35
+          }
+        },
         "content_f9mxVj": {
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Lernen Sie unser neues Staffelpreissystem kennen – je mehr Sie kaufen, desto mehr sparen Sie! Erhalten Sie 15% Rabatt ab dem zweiten Produkt, 20% bei drei Produkten und unwiderstehliche 25% ab vier Produkten – das vierte Produkt ist damit kostenlos für! <\/p>",
+            "text": "<p>Lernen Sie unser neues Staffelpreissystem kennen – je mehr Sie kaufen, desto mehr sparen Sie! Sie erhalten 15% Rabatt beim Kauf von zwei Produkten, 20% bei drei Produkten und unwiderstehliche 25% ab vier Produkten – das vierte Produkt ist damit kostenlos für Sie! <\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -81,6 +87,7 @@
       },
       "block_order": [
         "title_LyNbmt",
+        "spacer_UGcBFm",
         "content_f9mxVj"
       ],
       "settings": {
@@ -103,6 +110,7 @@
       "blocks": {
         "slide_7PH9qt": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/staffelpreise-desktop.jpg",
             "layout": "background",
