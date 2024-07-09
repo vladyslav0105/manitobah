@@ -452,7 +452,7 @@
         "text_PTHmGW": {
           "type": "text",
           "settings": {
-            "text": "<p>Medicom wurde bei der Deutschen Service-Award-Verleihung 2023 in Berlin für seinen Kundenservice in der Kategorie Gesundheitsshops ausgezeichnet. Der Preis wurde vom Deutschen Institut für Service-Qualität und ntv verliehen und berücksichtigte die Bewertungen für den Online-Service, Service am Telefon und per E-Mail. Insgesamt wurden 2.230 Unternehmen, darunter 87 Gesundheitsshops, untersucht.<\/p>",
+            "text": "<p>Medicom wurde bei der <strong>Deutschen Service-Award-Verleihung 2023 <\/strong>in Berlin für seinen Kundenservice in der Kategorie Gesundheitsshops ausgezeichnet. Der Preis wurde vom Deutschen Institut für Service-Qualität und ntv verliehen und berücksichtigte die Bewertungen für den Online-Service, Service am Telefon und per E-Mail. Insgesamt wurden 2.230 Unternehmen, darunter 87 Gesundheitsshops, untersucht.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -499,18 +499,10 @@
             "title_weight": "100"
           }
         },
-        "usp_9X6PQU": {
-          "type": "usp",
-          "settings": {
-            "usp": "Medicom Produktkatalog erhält B2C-Award 2022\/2023",
-            "font": "primary",
-            "font_size": "14px"
-          }
-        },
         "text_nn7rGw": {
           "type": "text",
           "settings": {
-            "text": "<p>Der Produktkatalog erhielt in der Kategorie Business-to- Consumer (Beziehung Firma-Kunde) den Shortlist Katalog- Award 2022\/2023. Damit platziert sich der Medicom-Katalog unter die Top-3-Kataloge im Bereich B2C. Die Jury des Versandhausberater-Wettbewerbs überzeugte die Machart, Informationsdichte und kundenorientierte Ansprache. Der renommierte Preis für kanalübergreifendes Marketing im Distanzhandel wurde bereits zum 22. Mal vergeben.<\/p>",
+            "text": "<p>Der Produktkatalog erhielt in der Kategorie Business-to- Consumer (Beziehung Firma-Kunde) den Shortlist Katalog- Award 2022\/2023. Damit platziert sich der <strong>Medicom-Katalog unter die Top-3-Kataloge im Bereich B2C<\/strong>. Die Jury des Versandhausberater-Wettbewerbs überzeugte die Machart, Informationsdichte und kundenorientierte Ansprache. Der renommierte Preis für kanalübergreifendes Marketing im Distanzhandel wurde bereits zum 22. Mal vergeben.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -519,7 +511,6 @@
       },
       "block_order": [
         "title_8WzmhV",
-        "usp_9X6PQU",
         "text_nn7rGw"
       ],
       "custom_css": [
@@ -599,7 +590,7 @@
         "title_AHXHcV": {
           "type": "title",
           "settings": {
-            "title": "Medicom – Excellent Shop",
+            "title": "Medicom – Excellent Shop zertifiziert",
             "title_font": "primary",
             "title_size": "h2",
             "enable_custom_text_styling": true,
@@ -607,18 +598,10 @@
             "title_weight": "100"
           }
         },
-        "usp_RCQCj3": {
-          "type": "usp",
-          "settings": {
-            "usp": "Trusted Shops - Award – 5 Jahre Zufriedenheit und Sicherheit der Kund:innen",
-            "font": "primary",
-            "font_size": "14px"
-          }
-        },
         "text_L34k9f": {
           "type": "text",
           "settings": {
-            "text": "<p>Sicherer Einkauf – große Zufriedenheit. Medicom ist mit dem Trusted Shops Excellent Shop Award für fünf Jahre besten Service und Sicherheit ausgezeichnet worden. Um das Trusted Shops Gütesiegel zu tragen, müssen fortwährend strenge Qualitätsindikatoren erfüllt werden. Medicom erhält diie Auszeichnung für Shops, die seit vielen Jahren Zufriedenheit und Sicherheit für ihre Kund:innen bieten, ein sicheres und angenehmes Einkaufserlebnis, Verlässlichkeit und Sicherheit in Sachen Datenschutz bieten.<\/p>",
+            "text": "<p>Sicherer Einkauf – große Zufriedenheit. Medicom ist mit dem <strong>Trusted Shops Excellent Shop Award<\/strong> für <strong>fünf Jahre besten Service und Sicherheit <\/strong>ausgezeichnet worden. Um das <strong>Trusted Shops Gütesiegel<\/strong> zu tragen, müssen fortwährend strenge Qualitätsindikatoren erfüllt werden. Medicom erhält diie Auszeichnung für Shops, die <strong>seit vielen Jahren Zufriedenheit und Sicherheit<\/strong> für ihre Kund:innen bieten, ein sicheres und angenehmes Einkaufserlebnis, Verlässlichkeit und Sicherheit in Sachen Datenschutz bieten.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
@@ -627,7 +610,6 @@
       },
       "block_order": [
         "title_AHXHcV",
-        "usp_RCQCj3",
         "text_L34k9f"
       ],
       "custom_css": [
