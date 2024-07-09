@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "404": {
     "404": "404",
@@ -64,7 +73,7 @@
     "add_note": "Besondere Hinweise für den Verkäufer",
     "add_note_placeholder": "Haben Sie irgendwelche Notizen für uns?",
     "button_processing": "Verarbeitung von Daten...",
-    "button_proceed": "Sie werden durchgeschickt",
+    "button_proceed": "Sicher zur Kasse",
     "continue_shopping": "Weiter einkaufen"
   },
   "cookiebanner": {
