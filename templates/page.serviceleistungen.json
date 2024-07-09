@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "breadcrumbs": {
@@ -13,6 +22,7 @@
       "blocks": {
         "166005794296ae0ec5-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Service-1170x584.jpg",
             "layout": "background",
@@ -83,12 +93,18 @@
             "title_weight": "700"
           }
         },
+        "spacer_kTjmXz": {
+          "type": "spacer",
+          "settings": {
+            "height": 35
+          }
+        },
         "content_xarJkF": {
           "type": "content",
           "settings": {
             "page": "",
-            "text": "<p>Beste Qualität trifft bei Medicom auf beste Serviceleistung. Von der Bestellung bis hin zum Versand besticht Medicom mit herausragenden Vorteilen, die uns als Anbieter hochwertiger Nahrungsergänzungsmittel einzigartig in Europa machen.<\/p>",
-            "font": "secondary",
+            "text": "<p>Beste Qualität trifft bei Medicom auf beste Serviceleistung. Von der Bestellung bis hin zum Versand besticht Medicom mit herausragenden Vorteilen, die uns als Anbieter hochwertiger Nahrungsergänzungsmittel einzigartig in Europa machen. Medicom steht für Qualität und langjährige Erfahrung mit Sitz in Deutschland.<\/p>",
+            "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
           }
@@ -96,6 +112,7 @@
       },
       "block_order": [
         "title_kqw8yF",
+        "spacer_kTjmXz",
         "content_xarJkF"
       ],
       "custom_css": [
@@ -135,7 +152,7 @@
         "166005796961cc60d8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Bei Medicom bestellen Sie <strong>gebühren- und portofrei<\/strong> – telefonisch, per E-Mail oder direkt im Webshop. Hier finden Sie alle Bestellwege aufgelistet.<br\/>• Gebührenfrei per Telefon unter 0800 - 73 77 730<br\/>• Gebührenfrei per Fax unter 0800 - 73 77 700<br\/>• Per SMS an +49 152 587 587 54<br\/>• Portofreie Bestellung mit den Antwortkarten<br\/>• Per E-Mail an kundenservice@medicom.de<br\/>• Rund um die Uhr auf www.medicom.de<\/p><p>Zusätzlich erhalten Sie eine Auswahl Ihrer Produkte auch in der Apotheke Ihres Vertrauens.<\/p>",
+            "text": "<p>Bei Medicom bestellen Sie gebühren- und portofrei. Direkt hier im Online-Shop, telefonisch, per E-Mail oder via WhatsApp. <\/p><p>Hier finden Sie alle Bestellwege aufgelistet.<\/p><ul><li><strong>Per Telefon<\/strong> unter 0800 - 73 77 730 (gebührenfrei)<\/li><li><strong>Via WhatsApp<\/strong> an <a href=\"https:\/\/api.whatsapp.com\/message\/S3FYH34FVG5HF1?autoload=1&app_absent=0 \" target=\"_blank\" title=\"WhatsApp-Service\">+49 152 587 587 54 <\/a>(gebührenfrei)<\/li><li><strong>Per E-Mail<\/strong> an kundenservice@medicom.de<\/li><li>Rund um die Uhr auf www.medicom.de<\/li><\/ul><p>Zusätzlich erhalten Sie eine Auswahl Ihrer Produkte auch in der Apotheke Ihres Vertrauens.<\/p>",
             "font": "primary",
             "font_weight": "400",
             "font_size": "16px"
