@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "breadcrumbs": {
@@ -101,7 +92,7 @@
             "text": "",
             "page": "",
             "image_width": 465,
-            "liquid": "<style>\n  .packungsgewicht {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n{% if product.metafields.custom.pdp_packungsgewicht %}\n  <p class=\"packungsgewicht\">Packungsgewicht: {{ product.metafields.custom.pdp_packungsgewicht }} g<\/p>\n{% else %}\n  <p class=\"packungsgewicht\">Packungsgewicht: Informationen nicht verfügbar<\/p>\n{% endif %}",
+            "liquid": "<style>\n  .packungsgewicht {\n    font-size: 10px;\n    color: gray;\n  }\n<\/style>\n\n{% if product.metafields.custom.pdp_packungsgewicht %}\n  <p class=\"packungsgewicht\">Packungsgewicht für {{ product.metafields.custom.pdp_packungsgewicht }} <\/p>\n{% else %}\n  <p class=\"packungsgewicht\">Packungsgewicht für: Informationen nicht verfügbar<\/p>\n{% endif %}",
             "html": "",
             "show_contact_form": false
           }

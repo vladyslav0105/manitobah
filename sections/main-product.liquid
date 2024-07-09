@@ -96,7 +96,6 @@
     endif
 -%}
 
-
 {%- capture header -%}
     <header {{ title_block.shopify_attributes }} class="class-x">
         <{{ title_block.settings.title_size }} class="m5 mob-{{ title_block.settings.mobile_title_size }}">{{ product.title }}</{{ title_block.settings.title_size }}>
@@ -130,7 +129,7 @@
         </ul>
     </header>
 {%- endcapture -%}
-
+<input type="hidden" value="{{product.title}}" id="product--title" />
 <article id="main-product" class="m6pr m6pr-{{ section.id }}{% if section.settings.multiply_bg_mobile and settings.multiply_product_images != 'none' and section.settings.fill_images == false %} align-labels-left{% endif %}"
     style="
         {% if section.settings.multiply_bg_mobile and settings.multiply_product_images != 'none' %}
