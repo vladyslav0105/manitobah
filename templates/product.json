@@ -753,6 +753,62 @@
             "html": "",
             "show_contact_form": false
           }
+        },
+        "text_E3nEH4": {
+          "type": "text",
+          "settings": {
+            "faq_question": "{{ product.metafields.custom.pdp_faq_frage_7.value }}",
+            "icon": "question",
+            "header_image_width": 25,
+            "faq_answer": "<p>{{ product.metafields.custom.pdp_faq_antwort_7.value }}<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_6w7YbW": {
+          "type": "text",
+          "settings": {
+            "faq_question": "{{ product.metafields.custom.pdp_faq_frage_8.value }}",
+            "icon": "question",
+            "header_image_width": 25,
+            "faq_answer": "<p>{{ product.metafields.custom.pdp_faq_antwort_8.value }}<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_FYHQeg": {
+          "type": "text",
+          "settings": {
+            "faq_question": "{{ product.metafields.custom.pdp_faq_frage_9.value }}",
+            "icon": "question",
+            "header_image_width": 25,
+            "faq_answer": "<p>{{ product.metafields.custom.pdp_faq_antwort_9.value }}<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
+        },
+        "text_VYERKd": {
+          "type": "text",
+          "settings": {
+            "faq_question": "{{ product.metafields.custom.pdp_faq_frage_10.value }}",
+            "icon": "question",
+            "header_image_width": 25,
+            "faq_answer": "<p>{{ product.metafields.custom.pdp_faq_antwort_10.value }}<\/p>",
+            "page": "",
+            "image_width": 465,
+            "liquid": "",
+            "html": "",
+            "show_contact_form": false
+          }
         }
       },
       "block_order": [
@@ -761,7 +817,11 @@
         "text_8excnB",
         "text_jCJezL",
         "text_Qhqy3C",
-        "text_wLREUh"
+        "text_wLREUh",
+        "text_E3nEH4",
+        "text_6w7YbW",
+        "text_FYHQeg",
+        "text_VYERKd"
       ],
       "settings": {
         "alignment": "center",
