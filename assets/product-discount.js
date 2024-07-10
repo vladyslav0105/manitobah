@@ -89,9 +89,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     const showPack_Weight = (quantity) => {
         if(quantity === 1) {
-            weight_per_pack.innerHTML = `${originalValues['front_str']}${originalValues.weight} ${unitArr[product_title]?unitArr[product_title]:'g'}`;
+            weight_per_pack.innerHTML = `${unitArr[product_title] ? '': originalValues['front_str']}${originalValues.weight} ${unitArr[product_title]?unitArr[product_title]:'g'}`;
         } else {
-            weight_per_pack.innerHTML = `${originalValues['front_str']}${quantity} Pack :  ${originalValues.weight * quantity} ${unitArr[product_title]?unitArr[product_title]:'g'}`;
+            weight_per_pack.innerHTML = `${unitArr[product_title] ? '': originalValues['front_str']}${quantity} Pack :  ${originalValues.weight * quantity} ${unitArr[product_title]?unitArr[product_title]:'g'}`;
         }
     }
     const getOldPrice = () => {
